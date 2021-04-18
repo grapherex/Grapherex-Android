@@ -43,7 +43,8 @@
       android:maxLines="1"
       app:layout_constraintTop_toBottomOf="@id/toolbar"
       app:layout_constraintStart_toEndOf="@id/edit_about_emoji"
-      app:layout_constraintEnd_toStartOf="@id/edit_about_clear"/>
+      app:layout_constraintEnd_toStartOf="@id/edit_about_clear"
+      app:emoji_forceCustom="true"/>
 
   <ImageView
       android:id="@+id/edit_about_clear"
@@ -85,6 +86,8 @@
       android:layout_gravity="bottom|end"
       android:layout_marginEnd="16dp"
       android:layout_marginBottom="16dp"
+      android:paddingStart="16dp"
+      android:paddingEnd="16dp"
       android:textColor="@color/white"
       android:text="@string/EditProfileNameFragment_save"
       app:cornerRadius="80dp"

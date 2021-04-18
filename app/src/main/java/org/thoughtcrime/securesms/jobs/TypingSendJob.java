@@ -31,7 +31,7 @@ public class TypingSendJob extends BaseJob {
 
   public static final String KEY = "TypingSendJob";
 
-  private static final String TAG = TypingSendJob.class.getSimpleName();
+  private static final String TAG = Log.tag(TypingSendJob.class);
 
   private static final String KEY_THREAD_ID = "thread_id";
   private static final String KEY_TYPING    = "typing";
@@ -92,6 +92,12 @@ public class TypingSendJob extends BaseJob {
 
     if (recipient.isBlocked()) {
       Log.w(TAG, "Not sending typing indicators to blocked recipients.");
+      return;
+    }
+
+    if (recipient.isSelf()) {
+      Log.w(TAG, "Not sending typing indicators to self.");
+      return;
     }
 
     List<Recipient>  recipients = Collections.singletonList(recipient);
@@ -104,12 +110,18 @@ public class TypingSendJob extends BaseJob {
 
     recipients = RecipientUtil.getEligibleForSending(Stream.of(recipients)
                                                            .map(Recipient::resolve)
+                                                           .filter(r -> !r.isBlocked())
                                                            .toList());
 
     SignalServiceMessageSender             messageSender      = ApplicationDependencies.getSignalServiceMessageSender();
     List<SignalServiceAddress>             addresses          = RecipientUtil.toSignalServiceAddressesFromResolved(context, recipients);
     List<Optional<UnidentifiedAccessPair>> unidentifiedAccess = UnidentifiedAccessUtil.getAccessFor(context, recipients);
     SignalServiceTypingMessage             typingMessage      = new SignalServiceTypingMessage(typing ? Action.STARTED : Action.STOPPED, System.currentTimeMillis(), groupId);
+
+    if (addresses.isEmpty()) {
+      Log.w(TAG, "No one to send typing indicators to");
+      return;
+    }
 
     if (isCanceled()) {
       Log.w(TAG, "Canceled before send!");

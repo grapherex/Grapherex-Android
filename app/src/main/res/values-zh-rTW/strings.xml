@@ -38,6 +38,9 @@
   <string name="ApplicationPreferencesActivity_pin_disabled">PIN 碼已停用。</string>
   <string name="ApplicationPreferencesActivity_hide">隱藏</string>
   <string name="ApplicationPreferencesActivity_hide_reminder">隱藏提醒?</string>
+  <string name="ApplicationPreferencesActivity_record_payments_recovery_phrase">記錄付款回復短語</string>
+  <string name="ApplicationPreferencesActivity_record_phrase">紀錄短語</string>
+  <string name="ApplicationPreferencesActivity_before_you_can_disable_your_pin">在停用PIN碼之前，你必須記錄你的付款回復詞語以確保可以回復你的付款帳戶。</string>
   <!--AppProtectionPreferenceFragment-->
   <plurals name="AppProtectionPreferenceFragment_minutes">
     <item quantity="other">%d 分鐘</item>
@@ -56,6 +59,7 @@
   <string name="AttachmentKeyboard_location">位置</string>
   <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Signal 需要權限以顯示你的照片及影片。</string>
   <string name="AttachmentKeyboard_give_access">允許存取</string>
+  <string name="AttachmentKeyboard_payment">付款</string>
   <!--AttachmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">找不到合適的應用程式來選擇媒體檔案。</string>
   <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal 需要儲存的權限，以存取照片、影片或聲音檔。但是現在被設定為永久拒絕存取。請到應用程式設定中，選擇「權限」及開啟「儲存」。 </string>
@@ -64,6 +68,8 @@
   <!--AttachmentUploadJob-->
   <string name="AttachmentUploadJob_uploading_media">上傳多媒體檔案中…</string>
   <string name="AttachmentUploadJob_compressing_video_start">壓縮影片中…</string>
+  <!--BackgroundMessageRetriever-->
+  <string name="BackgroundMessageRetriever_checking_for_messages">正在檢查訊息…</string>
   <!--BlockedUsersActivity-->
   <string name="BlockedUsersActivity__blocked_users">被封鎖的使用者</string>
   <string name="BlockedUsersActivity__add_blocked_user">新增被封鎖的使用者</string>
@@ -231,6 +237,7 @@
   <string name="ConversationActivity__more_options_now_in_group_settings">「群組設定」中現有更多選項</string>
   <string name="ConversationActivity_join">加入</string>
   <string name="ConversationActivity_full">已滿</string>
+  <string name="ConversationActivity_error_sending_media">傳送媒體檔時出錯</string>
   <!--ConversationAdapter-->
   <plurals name="ConversationAdapter_n_unread_messages">
     <item quantity="other">%d 則未讀訊息</item>
@@ -452,7 +459,7 @@
   <!--GroupsV1MigrationInitiationReminder-->
   <string name="GroupsV1MigrationInitiationReminder_to_access_new_features_like_mentions">要連結@提及和管理員等新功能，請升級此群組。</string>
   <string name="GroupsV1MigrationInitiationReminder_not_now">稍後</string>
-  <string name="GroupsV1MigrationInitiationReminder_update_group">更新群組</string>
+  <string name="GroupsV1MigrationInitiationReminder_upgrade_group">升級群組</string>
   <!--GroupsV1MigrationSuggestionsReminder-->
   <plurals name="GroupsV1MigrationSuggestionsReminder_members_couldnt_be_added_to_the_new_group">
     <item quantity="other">%1$d 個成員無法將重新新增到新群組中。你要立即新增他們嗎？</item>
@@ -572,6 +579,7 @@
   <string name="ManageGroupActivity_mentions">提及</string>
   <string name="ManageGroupActivity_chat_wallpaper">聊天壁紙</string>
   <string name="ManageGroupActivity_until_s">直到 %1$s</string>
+  <string name="ManageGroupActivity_always">永遠</string>
   <string name="ManageGroupActivity_off">關</string>
   <string name="ManageGroupActivity_on">開</string>
   <string name="ManageGroupActivity_view_all_members">檢視所有成員</string>
@@ -621,6 +629,7 @@
   <string name="ManageRecipientActivity_mute_notifications">將通知調整為靜音</string>
   <string name="ManageRecipientActivity_custom_notifications">自訂通知</string>
   <string name="ManageRecipientActivity_until_s">直到 %1$s</string>
+  <string name="ManageRecipientActivity_always">永遠</string>
   <string name="ManageRecipientActivity_off">關</string>
   <string name="ManageRecipientActivity_on">開</string>
   <string name="ManageRecipientActivity_add_to_a_group">新增到群組</string>
@@ -787,10 +796,16 @@
   <string name="NotificationBarManager_signal_call_in_progress">Signal 通話進行中</string>
   <string name="NotificationBarManager__establishing_signal_call">Signal 通話連線中</string>
   <string name="NotificationBarManager__incoming_signal_call">Signal 來電</string>
+  <string name="NotificationBarManager__stopping_signal_call_service">Signal 來電服務停止中</string>
   <string name="NotificationBarManager__deny_call">拒絕接聽</string>
   <string name="NotificationBarManager__answer_call">接聽通話</string>
   <string name="NotificationBarManager__end_call">結束通話</string>
   <string name="NotificationBarManager__cancel_call">取消通話</string>
+  <!--NotificationsMegaphone-->
+  <string name="NotificationsMegaphone_turn_on_notifications">要開啟通知嗎？</string>
+  <string name="NotificationsMegaphone_never_miss_a_message">永遠不會錯過來自你的聯絡人和群組的訊息。</string>
+  <string name="NotificationsMegaphone_turn_on">開啟</string>
+  <string name="NotificationsMegaphone_not_now">稍後</string>
   <!--NotificationMmsMessageRecord-->
   <string name="NotificationMmsMessageRecord_multimedia_message">多媒體訊息</string>
   <string name="NotificationMmsMessageRecord_downloading_mms_message">正在下載多媒體訊息</string>
@@ -1047,6 +1062,7 @@
   <string name="PassphrasePromptActivity_ok_button_content_description">送出密碼</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">無效的密碼！</string>
   <string name="PassphrasePromptActivity_unlock_signal">解鎖 Signal</string>
+  <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android-螢幕鎖定</string>
   <!--PlacePickerActivity-->
   <string name="PlacePickerActivity_title">地圖</string>
   <string name="PlacePickerActivity_drop_pin">標註地圖</string>
@@ -1083,7 +1099,6 @@
   <string name="RatingManager_rate_now">立即評分！</string>
   <string name="RatingManager_no_thanks">不用了，謝謝</string>
   <string name="RatingManager_later">稍後</string>
-  <string name="RatingManager_whoops_the_play_store_app_does_not_appear_to_be_installed">糟糕，您的設備上未安裝 Google Play 商店。</string>
   <!--ReactionsBottomSheetDialogFragment-->
   <string name="ReactionsBottomSheetDialogFragment_all">全部 · %1$d</string>
   <!--ReactionsConversationView-->
@@ -1140,6 +1155,12 @@
   <string name="CallParticipantView__cant_receive_audio_video_from_s">無法從 %1$s收到語音 &amp; 影片</string>
   <string name="CallParticipantView__cant_receive_audio_and_video_from_s">無法從 %1$s 收到語音或影片</string>
   <string name="CallParticipantView__this_may_be_Because_they_have_not_verified_your_safety_number_change">這可能是因為他們尚未驗證你的變更的安全號碼，他們的裝置有問題或已封鎖了你。</string>
+  <!--ProxyBottomSheetFragment-->
+  <string name="ProxyBottomSheetFragment_proxy_server">代理伺服器</string>
+  <string name="ProxyBottomSheetFragment_proxy_address">代理伺服器位址</string>
+  <string name="ProxyBottomSheetFragment_do_you_want_to_use_this_proxy_address">你要使用此代理伺服器位址嗎？</string>
+  <string name="ProxyBottomSheetFragment_use_proxy">使用代理伺服器</string>
+  <string name="ProxyBottomSheetFragment_successfully_connected_to_proxy">成功連接到代理伺服器。</string>
   <!--RegistrationActivity-->
   <string name="RegistrationActivity_select_your_country">選擇您的國家</string>
   <string name="RegistrationActivity_you_must_specify_your_country_code">您必須輸入
@@ -1172,6 +1193,7 @@
   <string name="RegistrationActivity_continue">繼續</string>
   <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">保護你的隱私權。\n在每個訊息中做你自己。</string>
   <string name="RegistrationActivity_enter_your_phone_number_to_get_started">輸入你的電話號碼即可開始使用。</string>
+  <string name="RegistrationActivity_enter_your_phone_number">輸入你的電話號碼</string>
   <string name="RegistrationActivity_you_will_receive_a_verification_code">你將收到驗證碼。各電信公司的收費費率可能有所不同。</string>
   <string name="RegistrationActivity_enter_the_code_we_sent_to_s">輸入我們傳送給 %s 的驗證碼</string>
   <string name="RegistrationActivity_make_sure_your_phone_has_a_cellular_signal">確保你的手機具有電信訊號以接收你的SMS或電話</string>
@@ -1385,18 +1407,20 @@
   <string name="MessageNotifier_reacted_s_to_your_view_once_media">對你的一次觀看的媒體做出%1$s反應。</string>
   <string name="MessageNotifier_reacted_s_to_your_sticker">對你的貼圖作出了 %1$s 反應。</string>
   <string name="MessageNotifier_this_message_was_deleted">此訊息已被刪除。</string>
-  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">關閉聯絡人已加入Signal 的通知嗎？你可以在次開啟他們在 Signal &gt; 設定 &gt; 通知。</string>
+  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">關閉聯絡人上線 Signal 的通知嗎？你可以在 Signal &gt; 設定 &gt; 通知中再次啟用。</string>
   <!--Notification Channels-->
-  <string name="NotificationChannel_messages">預設</string>
+  <string name="NotificationChannel_channel_messages">訊息</string>
   <string name="NotificationChannel_calls">通話</string>
   <string name="NotificationChannel_failures">失敗</string>
   <string name="NotificationChannel_backups">備份</string>
   <string name="NotificationChannel_locked_status">鎖定狀態</string>
   <string name="NotificationChannel_app_updates">應用程式更新</string>
   <string name="NotificationChannel_other">其他</string>
-  <string name="NotificationChannel_group_messages">訊息</string>
+  <string name="NotificationChannel_group_chats">聊天</string>
   <string name="NotificationChannel_missing_display_name">未知</string>
   <string name="NotificationChannel_voice_notes">語音筆記</string>
+  <string name="NotificationChannel_contact_joined_signal">聯絡人上線 Signal 通知</string>
+  <string name="NotificationChannels__no_activity_available_to_open_notification_channel_settings">無可用的活動以開啟通知類別設定。</string>
   <!--ProfileEditNameFragment-->
   <!--QuickResponseService-->
   <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">當 Signal 鎖定時無法使用快速回覆！</string>
@@ -1412,6 +1436,7 @@
   <!--SingleRecipientNotificationBuilder-->
   <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
   <string name="SingleRecipientNotificationBuilder_new_message">新訊息</string>
+  <string name="SingleRecipientNotificationBuilder_message_request">訊息要求</string>
   <!--ThumbnailView-->
   <string name="ThumbnailView_Play_video_description">播放影片</string>
   <string name="ThumbnailView_Has_a_caption_description">有一個標題</string>
@@ -1514,6 +1539,7 @@
   <string name="ConversationUpdateItem_return_to_call">返回通話</string>
   <string name="ConversationUpdateItem_call_is_full">通話人數已滿</string>
   <string name="ConversationUpdateItem_invite_friends">邀請好友</string>
+  <string name="ConversationUpdateItem_enable_call_notifications">啟用通話通知</string>
   <!--audio_view-->
   <string name="audio_view__play_pause_accessibility_description">播放 … 暫停</string>
   <string name="audio_view__download_accessibility_description">下載</string>
@@ -1537,6 +1563,18 @@
   <string name="safety_number_change_dialog__the_following_people_may_have_reinstalled_or_changed_devices">下列的人可能已重新安裝或更換了裝置。請驗證你與他們的安全碼，以確保隱私。</string>
   <string name="safety_number_change_dialog__view">檢視</string>
   <string name="safety_number_change_dialog__previous_verified">先前已驗證</string>
+  <!--EnableCallNotificationSettingsDialog__call_notifications_checklist-->
+  <string name="EnableCallNotificationSettingsDialog__call_notifications_enabled">通話通知已啟用。</string>
+  <string name="EnableCallNotificationSettingsDialog__enable_call_notifications">啟用通話通知</string>
+  <string name="EnableCallNotificationSettingsDialog__enable_background_activity">啟用背景活動</string>
+  <string name="EnableCallNotificationSettingsDialog__everything_looks_good_now">似乎一切就緒！</string>
+  <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_here_and_turn_on_show_notifications">若要接收通話通知，請輕觸此處並開啟「顯示通知」。</string>
+  <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_here_and_turn_on_notifications">若要接收通話通知，請輕觸此處並開啟通知，並確保已啟用「聲音與彈出式視窗」。</string>
+  <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_here_and_enable_background_activity_in_battery_settings">若要接收通話通知，請輕觸此處並在「電量」設定中啟用背景活動。</string>
+  <string name="EnableCallNotificationSettingsDialog__settings">設定</string>
+  <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_settings_and_turn_on_show_notifications">若要接收通話通知，請輕觸一下「設定」並啟用「顯示通知」。</string>
+  <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_settings_and_turn_on_notifications">若要接收通話通知，請輕觸一下「設定」並開啟通知，同時確保已啟用「聲音與彈出式視窗」。</string>
+  <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_settings_and_enable_background_activity_in_battery_settings">若要接收通話通知，請輕觸一下「設定」並在「電量」設定中啟用背景活動。</string>
   <!--country_selection_fragment-->
   <string name="country_selection_fragment__loading_countries">讀取國家列表中…</string>
   <string name="country_selection_fragment__search">搜尋</string>
@@ -1625,7 +1663,7 @@
   <!--EditAboutFragment-->
   <string name="EditAboutFragment_about">關於</string>
   <string name="EditAboutFragment_write_a_few_words_about_yourself">寫一些關於你自己的話……</string>
-  <string name="EditAboutFragment_count">%d/%d</string>
+  <string name="EditAboutFragment_count">%1$d/%2$d</string>
   <string name="EditAboutFragment_speak_freely">暢所欲言</string>
   <string name="EditAboutFragment_encrypted">已加密</string>
   <string name="EditAboutFragment_be_kind">友善點</string>
@@ -1696,11 +1734,20 @@
   <string name="HelpFragment__include_debug_log">包括偵錯紀錄。</string>
   <string name="HelpFragment__whats_this">這是什麼？</string>
   <string name="HelpFragment__how_do_you_feel">你覺得如何?(可選項目)</string>
+  <string name="HelpFragment__tell_us_why_youre_reaching_out">所為何事？</string>
   <string name="HelpFragment__support_info">支援訊息</string>
   <string name="HelpFragment__signal_android_support_request">Signal Android 支援要求</string>
   <string name="HelpFragment__debug_log">偵錯紀錄:</string>
   <string name="HelpFragment__could_not_upload_logs">無法上傳記錄檔</string>
   <string name="HelpFragment__please_be_as_descriptive_as_possible">請盡可能描述一下，以幫助我們理解該問題。</string>
+  <string-array name="HelpFragment__categories">
+    <item>某事無法使用</item>
+    <item>功能要求</item>
+    <item>問題</item>
+    <item>回饋</item>
+    <item>其他</item>
+    <item>付款</item>
+  </string-array>
   <!--ReactWithAnyEmojiBottomSheetDialogFragment-->
   <string name="ReactWithAnyEmojiBottomSheetDialogFragment__this_message">這個訊息</string>
   <string name="ReactWithAnyEmojiBottomSheetDialogFragment__recently_used">最近使用的</string>
@@ -1717,10 +1764,10 @@
   <string name="arrays__use_default">使用預設</string>
   <string name="arrays__use_custom">使用自訂</string>
   <string name="arrays__mute_for_one_hour">靜音 1 小時</string>
-  <string name="arrays__mute_for_two_hours">靜音 2 小時</string>
+  <string name="arrays__mute_for_eight_hours">靜音 8 小時</string>
   <string name="arrays__mute_for_one_day">靜音 1 天</string>
   <string name="arrays__mute_for_seven_days">靜音 7 天</string>
-  <string name="arrays__mute_for_one_year">靜音 1 年</string>
+  <string name="arrays__always">永遠</string>
   <string name="arrays__settings_default">預設設定</string>
   <string name="arrays__enabled">啟用</string>
   <string name="arrays__disabled">停用</string>
@@ -1743,6 +1790,7 @@
     <item quantity="other">%d 小時前</item>
   </plurals>
   <!--preferences.xml-->
+  <string name="preferences_beta">測試版</string>
   <string name="preferences__sms_mms">簡訊與多媒體訊息</string>
   <string name="preferences__pref_all_sms_title">接收所有手機簡訊</string>
   <string name="preferences__pref_all_mms_title">接收所有多媒體訊息</string>
@@ -1771,6 +1819,7 @@
   <string name="preferences__pref_led_blink_title">LED 閃爍模式</string>
   <string name="preferences__sound">提示音效</string>
   <string name="preferences__silent">靜音</string>
+  <string name="preferences__default">預設</string>
   <string name="preferences__repeat_alerts">重複通知</string>
   <string name="preferences__never">永不</string>
   <string name="preferences__one_time">一次</string>
@@ -1805,6 +1854,8 @@
   <string name="preferences__request_a_delivery_report_for_each_sms_message_you_send">針對每則手機簡訊都要求回覆傳送報告</string>
   <string name="preferences__data_and_storage">數據與儲存空間</string>
   <string name="preferences__storage">儲存空間</string>
+  <string name="preferences__payments">付款</string>
+  <string name="preferences__payments_beta">付款功能（測試版）</string>
   <string name="preferences__conversation_length_limit">對話群組長度上限</string>
   <string name="preferences__keep_messages">保留訊息</string>
   <string name="preferences__clear_message_history">清除訊息歷史記錄</string>
@@ -1884,7 +1935,7 @@
   <string name="preferences_chats__show_invitation_prompts">顯示邀請提示</string>
   <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">對非使用 Signal 的聯絡人顯示邀請提示</string>
   <string name="preferences_chats__message_text_size">訊息字體大小</string>
-  <string name="preferences_events__contact_joined_signal">聯絡人新加入 Signal</string>
+  <string name="preferences_events__contact_joined_signal">聯絡人上線 Signal 通知</string>
   <string name="preferences_notifications__priority">優先順序</string>
   <string name="preferences_communication__category_sealed_sender">密封發件人</string>
   <string name="preferences_communication__sealed_sender_display_indicators">顯示指標</string>
@@ -1893,8 +1944,155 @@
   <string name="preferences_communication__sealed_sender_allow_from_anyone_description">啟用密封發件人對來自非聯絡人及其他你未分享過個人資料的人傳來的訊息。</string>
   <string name="preferences_communication__sealed_sender_learn_more">了解更多</string>
   <string name="preferences_setup_a_username">設定使用者名稱</string>
+  <string name="preferences_proxy">代理伺服器。</string>
+  <string name="preferences_use_proxy">使用代理伺服器</string>
+  <string name="preferences_off">關</string>
+  <string name="preferences_on">開</string>
+  <string name="preferences_proxy_address">代理伺服器位址</string>
+  <string name="preferences_only_use_a_proxy_if">僅當你無法連接到手機或Wi-Fi上的Signal時，才使用代理伺服器。</string>
+  <string name="preferences_share">分享</string>
+  <string name="preferences_save">儲存</string>
+  <string name="preferences_connecting_to_proxy">連接代理伺服器中…</string>
+  <string name="preferences_connected_to_proxy">代理伺服器已連接</string>
+  <string name="preferences_connection_failed">連接失敗</string>
+  <string name="preferences_couldnt_connect_to_the_proxy">無法連接到代理伺服器。 檢查代理伺服器為址，然後重試。</string>
+  <string name="preferences_you_are_connected_to_the_proxy">你已連接到代理伺服器。你可以隨時透過“設定”關閉代理伺服器。</string>
+  <string name="preferences_success">成功</string>
+  <string name="preferences_failed_to_connect">連接失敗</string>
+  <string name="preferences_enter_proxy_address">輸入代理伺服器位址</string>
   <string name="configurable_single_select__customize_option">自定義選項</string>
   <!--Internal only preferences-->
+  <!--Payments-->
+  <string name="PaymentsActivityFragment__all_activity">所有活動</string>
+  <string name="PaymentsAllActivityFragment__all">全部</string>
+  <string name="PaymentsAllActivityFragment__sent">傳送時間</string>
+  <string name="PaymentsAllActivityFragment__received">接收時間</string>
+  <string name="PaymentsHomeFragment__introducing_payments">介紹付款功能（測試版）</string>
+  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">使用Signal傳送和接收MobileCoin（一種新的注重隱私的數位貨幣）。 啟動後即可開始。</string>
+  <string name="PaymentsHomeFragment__activate_payments">啟用付款功能</string>
+  <string name="PaymentsHomeFragment__activating_payments">正在啟動付款功能…</string>
+  <string name="PaymentsHomeFragment__restore_payments_account">回復付款帳戶</string>
+  <string name="PaymentsHomeFragment__no_recent_activity_yet">暫無近期活動</string>
+  <string name="PaymentsHomeFragment__pending_requests">待處理的請求</string>
+  <string name="PaymentsHomeFragment__recent_activity">近期活動</string>
+  <string name="PaymentsHomeFragment__see_all">查看全部</string>
+  <string name="PaymentsHomeFragment__add_funds">增加資金</string>
+  <string name="PaymentsHomeFragment__send">傳送</string>
+  <string name="PaymentsHomeFragment__sent_s">已傳送 %1$s</string>
+  <string name="PaymentsHomeFragment__received_s">已接收 %1$s</string>
+  <string name="PaymentsHomeFragment__transfer_to_exchange">轉帳到交換所</string>
+  <string name="PaymentsHomeFragment__currency_conversion">貨幣轉換</string>
+  <string name="PaymentsHomeFragment__deactivate_payments">停用付款功能</string>
+  <string name="PaymentsHomeFragment__recovery_phrase">回復短語</string>
+  <string name="PaymentsHomeFragment__help">幫助</string>
+  <string name="PaymentsHomeFragment__coin_cleanup_fee">貨幣清理費</string>
+  <string name="PaymentsHomeFragment__sent_payment">已付款</string>
+  <string name="PaymentsHomeFragment__received_payment">收到付款</string>
+  <string name="PaymentsHomeFragment__processing_payment">處理付款</string>
+  <string name="PaymentsHomeFragment__unknown_amount">---</string>
+  <string name="PaymentsHomeFragment__currency_conversion_not_available">無法使用貨幣換算</string>
+  <string name="PaymentsHomeFragment__cant_display_currency_conversion">無法顯示貨幣換算。 檢查手機的網路連接，然後重試。</string>
+  <string name="PaymentsHomeFragment__payments_is_not_available_in_your_region">你所在的地區無法付款。</string>
+  <string name="PaymentsHomeFragment__could_not_enable_payments">無法啟用付款功能。請稍後再試。</string>
+  <string name="PaymentsHomeFragment__deactivate_payments_question">要停用付款功能?</string>
+  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">如果你停用付款功能，則將無法在Signal中傳送或接收MobileCoin。</string>
+  <string name="PaymentsHomeFragment__deactivate">停用</string>
+  <string name="PaymentsHomeFragment__continue">繼續</string>
+  <string name="PaymentsHomeFragment__balance_is_not_currently_available">餘額目前不可用。</string>
+  <string name="PaymentsHomeFragment__payments_deactivated">付款功能已停用。</string>
+  <string name="PaymentsHomeFragment__payment_failed">付款失敗</string>
+  <string name="PaymentsHomeFragment__details">細節</string>
+  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">你可以使用Signal傳送和接收MobileCoin。 所有付款均受MobileCoins和MobileCoin電子錢包使用條款的約束。 這是一個測試版功能，因此你可能會遇到一些問題，你可能會遺失付款或餘額無法追回。</string>
+  <string name="PaymentsHomeFragment__activate">啟動</string>
+  <string name="PaymentsHomeFragment__view_mobile_coin_terms">查看MobileCoin條款</string>
+  <string name="PaymentsHomeFragment__payments_not_available">Signal中的付款不再可用。 你仍然可以將資金轉帳到交易所，但不能再傳送和接收付款或增加資金。</string>
+  <!--PaymentsAddMoneyFragment-->
+  <string name="PaymentsAddMoneyFragment__add_funds">增加資金</string>
+  <string name="PaymentsAddMoneyFragment__your_wallet_address">你的錢包位址</string>
+  <string name="PaymentsAddMoneyFragment__copy">複製</string>
+  <string name="PaymentsAddMoneyFragment__copied_to_clipboard">已複製到剪貼簿</string>
+  <string name="PaymentsAddMoneyFragment__to_add_funds">要增加資金，請將MobileCoin傳送到你的錢包位址。 在支援MobileCoin的交易所上從你的帳戶開始交易，然後掃描QR碼或複製你的錢包位址。</string>
+  <!--PaymentsDetailsFragment-->
+  <string name="PaymentsDetailsFragment__details">細節</string>
+  <string name="PaymentsDetailsFragment__status">狀態</string>
+  <string name="PaymentsDetailsFragment__submitting_payment">提交付款中…</string>
+  <string name="PaymentsDetailsFragment__processing_payment">正在處理付款…</string>
+  <string name="PaymentsDetailsFragment__payment_complete">付款完成</string>
+  <string name="PaymentsDetailsFragment__payment_failed">付款失敗</string>
+  <string name="PaymentsDetailsFragment__network_fee">網路費</string>
+  <string name="PaymentsDetailsFragment__sent_by">送出自</string>
+  <string name="PaymentsDetailsFragment__sent_to_s">傳送給 %1$s</string>
+  <string name="PaymentsDetailsFragment__you_on_s_at_s">你在%1$s 在 %2$s</string>
+  <string name="PaymentsDetailsFragment__s_on_s_at_s">%1$s 在 %2$s 在 %3$s</string>
+  <string name="PaymentsDetailsFragment__to">至</string>
+  <string name="PaymentsDetailsFragment__from">來自</string>
+  <string name="PaymentsDetailsFragment__information">包括付款金額和交易時間在內的交易詳細資訊是MobileCoin Ledger的一部分。</string>
+  <string name="PaymentsDetailsFragment__coin_cleanup_fee">貨幣清理費</string>
+  <string name="PaymentsDetailsFragment__coin_cleanup_information">當你擁有的貨幣無法合併以完成交易時，將收取“貨幣結算費”。 結算將使你能夠繼續傳送付款。</string>
+  <string name="PaymentsDetailsFragment__no_details_available">沒有可用於此交易的更多詳細資訊</string>
+  <string name="PaymentsDetailsFragment__sent_payment">已付款</string>
+  <string name="PaymentsDetailsFragment__received_payment">收到付款</string>
+  <string name="PaymentsDeatilsFragment__payment_completed_s">付款完成 %1$s</string>
+  <string name="PaymentsDetailsFragment__block_number">封鎖號碼</string>
+  <!--PaymentsTransferFragment-->
+  <string name="PaymentsTransferFragment__transfer">轉帳</string>
+  <string name="PaymentsTransferFragment__scan_qr_code">掃描 QR code</string>
+  <string name="PaymentsTransferFragment__to_scan_or_enter_wallet_address">給：掃描或輸入錢包位址</string>
+  <string name="PaymentsTransferFragment__you_can_transfer">你可以透過完成到交易所提供的錢包位址的轉移功能來轉帳到MobileCoin。 錢包位址是QR碼下方最常見的數字和字母字符串。</string>
+  <string name="PaymentsTransferFragment__next">下一步</string>
+  <string name="PaymentsTransferFragment__invalid_address">無效位址</string>
+  <string name="PaymentsTransferFragment__check_the_wallet_address">檢查你要轉帳到的錢包位址，然後重試。</string>
+  <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">你無法轉帳到自己的Signal錢包位址。 在支援的交易所中從你的帳戶輸入錢包位址。</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">要掃描QR碼，Signal須要開啟相機權限。</string>
+  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Signal需要攝像機權限才能擷取QR碼。 到設定，選擇“權限”，然後啟用“相機”。</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">要掃描QR碼，Signal須要開啟相機權限。</string>
+  <string name="PaymentsTransferFragment__settings">設定</string>
+  <!--PaymentsTransferQrScanFragment-->
+  <string name="PaymentsTransferQrScanFragment__scan_address_qr_code">掃描位址的QR碼</string>
+  <string name="PaymentsTransferQrScanFragment__scan_the_address_qr_code_of_the_payee">掃描收款人的位址的QR碼</string>
+  <!--CreatePaymentFragment-->
+  <string name="CreatePaymentFragment__request">要求</string>
+  <string name="CreatePaymentFragment__pay">支付</string>
+  <string name="CreatePaymentFragment__available_balance_s">可用餘額：%1$s</string>
+  <string name="CreatePaymentFragment__toggle_content_description">切換</string>
+  <string name="CreatePaymentFragment__1">1</string>
+  <string name="CreatePaymentFragment__2">2</string>
+  <string name="CreatePaymentFragment__3">3</string>
+  <string name="CreatePaymentFragment__4">4</string>
+  <string name="CreatePaymentFragment__5">5</string>
+  <string name="CreatePaymentFragment__6">6</string>
+  <string name="CreatePaymentFragment__7">7</string>
+  <string name="CreatePaymentFragment__8">8</string>
+  <string name="CreatePaymentFragment__9">9</string>
+  <string name="CreatePaymentFragment__decimal">.</string>
+  <string name="CreatePaymentFragment__0">0</string>
+  <string name="CreatePaymentFragment__lt">&lt;</string>
+  <string name="CreatePaymentFragment__backspace">退格鍵</string>
+  <string name="CreatePaymentFragment__add_note">加註</string>
+  <string name="CreatePaymentFragment__conversions_are_just_estimates">轉換只是估算，可能不準確。</string>
+  <!--EditNoteFragment-->
+  <string name="EditNoteFragment_note">註記</string>
+  <!--ConfirmPaymentFragment-->
+  <string name="ConfirmPayment__confirm_payment">確認付款</string>
+  <string name="ConfirmPayment__network_fee">網路費</string>
+  <string name="ConfirmPayment__error_getting_fee">收取費用時錯誤</string>
+  <string name="ConfirmPayment__estimated_s">估計 %1$s</string>
+  <string name="ConfirmPayment__to">至</string>
+  <string name="ConfirmPayment__total_amount">總金額</string>
+  <string name="ConfirmPayment__balance_s">餘額: %1$s</string>
+  <string name="ConfirmPayment__submitting_payment">提交付款中…</string>
+  <string name="ConfirmPayment__processing_payment">正在處理付款…</string>
+  <string name="ConfirmPayment__payment_complete">付款完成</string>
+  <string name="ConfirmPayment__payment_failed">付款失敗</string>
+  <string name="ConfirmPayment__payment_will_continue_processing">付款將繼續處理</string>
+  <string name="ConfirmPaymentFragment__invalid_recipient">無效的收件者</string>
+  <string name="ConfirmPaymentFragment__this_person_has_not_activated_payments">此人尚未啟用付款功能</string>
+  <string name="ConfirmPaymentFragment__unable_to_request_a_network_fee">無法要求網路費。 要繼續此付款，請點擊確定，然後重試。</string>
+  <!--CurrencyAmountFormatter_s_at_s-->
+  <string name="CurrencyAmountFormatter_s_at_s">%1$s 在 %2$s</string>
+  <!--SetCurrencyFragment-->
+  <string name="SetCurrencyFragment__set_currency">設定貨幣</string>
+  <string name="SetCurrencyFragment__all_currencies">所有貨幣</string>
   <!--****************************************-->
   <!--menus-->
   <!--****************************************-->
@@ -2073,6 +2271,8 @@
   <string name="RegistrationLockFragment__incorrect_pin">錯誤的 PIN 碼</string>
   <string name="RegistrationLockFragment__forgot_your_pin">忘記你的 PIN 碼？</string>
   <string name="RegistrationLockFragment__not_many_tries_left">沒剩幾次嘗試次數!</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Signal 註冊-需要針對Android的PIN碼設定的協助(v1 PIN碼)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Signal 註冊-需要針對Android的PIN碼設定的協助(v2 PIN碼)</string>
   <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
     <item quantity="other">為了你的隱私和安全，無法恢復你的PIN碼。 如果你忘記了PIN碼，可以在停用%1$d天後透過SMS重新進行驗證。 在這種情況下，你的帳號將被刪除，所有內容都將被刪除。</item>
   </plurals>
@@ -2122,9 +2322,13 @@
   <string name="backup_enable_dialog__folder">資料夾</string>
   <string name="backup_enable_dialog__i_have_written_down_this_passphrase">我已經寫下密碼。沒有密碼，我將無法還原此備份。</string>
   <string name="registration_activity__restore_backup">還原備份</string>
+  <string name="registration_activity__transfer_or_restore_account">移轉或還原帳號</string>
+  <string name="registration_activity__transfer_account">移轉賬號</string>
   <string name="registration_activity__skip">略過</string>
   <string name="preferences_chats__chat_backups">聊天備份</string>
   <string name="preferences_chats__backup_chats_to_external_storage">備份聊天到外部儲存空間</string>
+  <string name="preferences_chats__transfer_account">移轉賬號</string>
+  <string name="preferences_chats__transfer_account_to_a_new_android_device">將帳號轉移到新的Android裝置</string>
   <string name="RegistrationActivity_enter_backup_passphrase">輸入備份密碼</string>
   <string name="RegistrationActivity_restore">還原</string>
   <string name="RegistrationActivity_backup_failure_downgrade">無法從較新版本的 Signal 匯入備份檔</string>
@@ -2198,6 +2402,123 @@
   <string name="prompt_passphrase_activity__signal_is_locked">Signal 已被鎖定</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">輕觸以解鎖</string>
   <string name="Recipient_unknown">未知</string>
+  <!--TransferOrRestoreFragment-->
+  <string name="TransferOrRestoreFragment__transfer_or_restore_account">移轉或還原帳號</string>
+  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">如果你以前註冊過Signal帳號，則可以轉移或還原你的帳號和訊息</string>
+  <string name="TransferOrRestoreFragment__transfer_from_android_device">從Android裝置移轉</string>
+  <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">從舊的Android裝置移轉你的帳號和訊息。你需要連結舊裝置。</string>
+  <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">你需要連結舊裝置。</string>
+  <string name="TransferOrRestoreFragment__restore_from_backup">從備份還原</string>
+  <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">從本地備份還原你的訊息。 如果你現在不還原，則以後將無法還原。</string>
+  <!--NewDeviceTransferInstructionsFragment-->
+  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">在舊的Android手機上開啟Signal</string>
+  <string name="NewDeviceTransferInstructions__continue">繼續</string>
+  <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
+  <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">點按左上角的個人資料照片以打開“設定”</string>
+  <string name="NewDeviceTransferInstructions__second_bullet">2.</string>
+  <string name="NewDeviceTransferInstructions__tap_on_chats">點擊“聊天”</string>
+  <string name="NewDeviceTransferInstructions__third_bullet">3.</string>
+  <string name="NewDeviceTransferInstructions__tap_transfer_account_and_then_continue_on_both_devices">在兩個裝置上點擊“轉移帳號”，然後點擊“繼續”</string>
+  <!--NewDeviceTransferSetupFragment-->
+  <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">正在準備連結到舊的Android裝置…</string>
+  <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">稍等片刻，應快準備好了</string>
+  <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">正在等待舊的Android裝置連接…</string>
+  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Signal需要位置權限才能發現並連接到舊的Android裝置。</string>
+  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Signal需要啟用位置服務才能發現你的舊Android裝置並與之連接。</string>
+  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Signal需要啟用Wi-Fi才能發現你的舊Android裝置並與之連接。 Wi-Fi需要開啟，但不必連接到Wi-Fi網路。</string>
+  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">抱歉，該裝置似乎不支援Wi-Fi Direct。 Signal使用Wi-Fi Direct來發現你的舊Android裝置並與之連接。你仍然可以還原備份，以從舊的Android裝置還原帳號。</string>
+  <string name="NewDeviceTransferSetup__restore_a_backup">還原備份</string>
+  <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">嘗試連接到舊的Android裝置時發生未預期的錯誤。</string>
+  <!--OldDeviceTransferSetupFragment-->
+  <string name="OldDeviceTransferSetup__searching_for_new_android_device">正在搜尋新的Android裝置…</string>
+  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Signal需要位置權限才能發現並連接到新的Android裝置。</string>
+  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Signal須要開啟定位服務才能發現新的Android裝置並與之連接。</string>
+  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Signal需要開啟Wi-Fi才能發現新的Android裝置並與之連接。 Wi-Fi需要開啟，但不必連接到Wi-Fi網路。</string>
+  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">抱歉，該裝置似乎不支援Wi-Fi Direct。 Signal使用Wi-Fi Direct搜尋並連接新的Android裝置。你仍然可以建立備份以在新的Android裝置上還原帳號。</string>
+  <string name="OldDeviceTransferSetup__create_a_backup">建立備份</string>
+  <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">嘗試連接到新的Android裝置時發生未預期的錯誤。</string>
+  <!--DeviceTransferSetupFragment-->
+  <string name="DeviceTransferSetup__unable_to_open_wifi_settings">無法開啟“ Wifi設定”。 請手動開啟Wifi。</string>
+  <string name="DeviceTransferSetup__grant_location_permission">給予位置權限</string>
+  <string name="DeviceTransferSetup__turn_on_location_services">開啟定位服務</string>
+  <string name="DeviceTransferSetup__unable_to_open_location_settings">無法打開啟定位設定。</string>
+  <string name="DeviceTransferSetup__turn_on_wifi">開啟Wifi</string>
+  <string name="DeviceTransferSetup__error_connecting">連接錯誤</string>
+  <string name="DeviceTransferSetup__retry">重試</string>
+  <string name="DeviceTransferSetup__submit_debug_logs">提交偵錯日誌</string>
+  <string name="DeviceTransferSetup__verify_code">驗證碼</string>
+  <string name="DeviceTransferSetup__verify_that_the_code_below_matches_on_both_of_your_devices">驗證以下代碼在兩個裝置上是否匹配。 然後點擊繼續。</string>
+  <string name="DeviceTransferSetup__the_numbers_do_not_match">號碼不匹配</string>
+  <string name="DeviceTransferSetup__continue">繼續</string>
+  <string name="DeviceTransferSetup__number_is_not_the_same">號碼不一樣</string>
+  <string name="DeviceTransferSetup__if_the_numbers_on_your_devices_do_not_match_its_possible_you_connected_to_the_wrong_device">如果你的裝置上的號碼不相符，則可能是你連結了錯誤的裝置。 要解決此問題，請停止傳輸，然後重試，並保持兩個裝置都處於關閉狀態。</string>
+  <string name="DeviceTransferSetup__stop_transfer">停止傳輸</string>
+  <string name="DeviceTransferSetup__unable_to_discover_old_device">無法發現舊裝置</string>
+  <string name="DeviceTransferSetup__unable_to_discover_new_device">無法發現新裝置</string>
+  <string name="DeviceTransferSetup__make_sure_the_following_permissions_are_enabled">確保開啟以下權限和服務：</string>
+  <string name="DeviceTransferSetup__location_permission">定位權限</string>
+  <string name="DeviceTransferSetup__location_services">定位服務</string>
+  <string name="DeviceTransferSetup__wifi">Wi-Fi</string>
+  <string name="DeviceTransferSetup__on_the_wifi_direct_screen_remove_all_remembered_groups_and_unlink_any_invited_or_connected_devices">在“ WiFi Direct”螢幕上，刪除所有已記住的群組並取消任何受邀或已連結的裝置。</string>
+  <string name="DeviceTransferSetup__wifi_direct_screen">WiFi Direct螢幕</string>
+  <string name="DeviceTransferSetup__try_turning_wifi_off_and_on_on_both_devices">嘗試在兩個裝置上都關閉和開啟Wi-Fi。</string>
+  <string name="DeviceTransferSetup__make_sure_both_devices_are_in_transfer_mode">確保兩個裝置都處於移轉模式。</string>
+  <string name="DeviceTransferSetup__go_to_support_page">轉到支援網頁</string>
+  <string name="DeviceTransferSetup__try_again">再試一次</string>
+  <string name="DeviceTransferSetup__waiting_for_other_device">等待其他裝置</string>
+  <string name="DeviceTransferSetup__tap_continue_on_your_other_device_to_start_the_transfer">在其他裝置上點擊繼續以開始傳輸。</string>
+  <string name="DeviceTransferSetup__tap_continue_on_your_other_device">在其他裝置上點擊繼續…</string>
+  <!--NewDeviceTransferFragment-->
+  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">無法從較新版本的Signal進行移轉</string>
+  <!--DeviceTransferFragment-->
+  <string name="DeviceTransfer__transferring_data">移轉資料</string>
+  <string name="DeviceTransfer__keep_both_devices_near_each_other">使兩個裝置彼此靠近。 請勿關閉裝置並保持Signal開啟。 傳輸是點對點加密的。</string>
+  <string name="DeviceTransfer__d_messages_so_far">到目前為止 %1$d 則訊息…</string>
+  <string name="DeviceTransfer__cancel">取消</string>
+  <string name="DeviceTransfer__try_again">再試一次</string>
+  <string name="DeviceTransfer__stop_transfer_question">停止轉移?</string>
+  <string name="DeviceTransfer__stop_transfer">停止轉移</string>
+  <string name="DeviceTransfer__all_transfer_progress_will_be_lost">所有轉移進度都將遺失。</string>
+  <string name="DeviceTransfer__transfer_failed">移轉失敗</string>
+  <string name="DeviceTransfer__unable_to_transfer">無法轉移</string>
+  <!--OldDeviceTransferInstructionsFragment-->
+  <string name="OldDeviceTransferInstructions__transfer_account">轉移帳號</string>
+  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">在新的Android裝置上設定Signal時，你可以轉移Signal帳號。 在繼續之前：</string>
+  <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
+  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">在新的Android裝置上下載Signal</string>
+  <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
+  <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">點擊“轉移或還原帳號”</string>
+  <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
+  <string name="OldDeviceTransferInstructions__select_transfer_from_android_device_when_prompted_and_then_continue">出現提示時，選擇“從Android裝置轉移”，然後選擇“繼續”。 將兩個裝置都放在附近。</string>
+  <string name="OldDeviceTransferInstructions__continue">繼續</string>
+  <!--OldDeviceTransferComplete-->
+  <string name="OldDeviceTransferComplete__transfer_complete">轉移完成</string>
+  <string name="OldDeviceTransferComplete__go_to_your_new_device">轉到新裝置</string>
+  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">你的Signal資料已轉移到新裝置。 要完成轉移過程，你必須繼續在新裝置上註冊。</string>
+  <string name="OldDeviceTransferComplete__close">關閉</string>
+  <!--NewDeviceTransferComplete-->
+  <string name="NewDeviceTransferComplete__transfer_successful">轉移成功</string>
+  <string name="NewDeviceTransferComplete__transfer_complete">轉移完成</string>
+  <string name="NewDeviceTransferComplete__to_complete_the_transfer_process_you_must_continue_registration">要完成轉移過程，你必須繼續註冊。</string>
+  <string name="NewDeviceTransferComplete__continue_registration">繼續註冊</string>
+  <!--DeviceToDeviceTransferService-->
+  <string name="DeviceToDeviceTransferService_content_title">帳號轉移</string>
+  <string name="DeviceToDeviceTransferService_status_ready">正在準備連接到你的其他Android裝置…</string>
+  <string name="DeviceToDeviceTransferService_status_starting_up">正在準備連接到你的其他Android裝置…</string>
+  <string name="DeviceToDeviceTransferService_status_discovery">正在搜尋你的其他Android裝置…</string>
+  <string name="DeviceToDeviceTransferService_status_network_connected">正在連接到你的其他Android裝置…</string>
+  <string name="DeviceToDeviceTransferService_status_verification_required">需要驗證</string>
+  <string name="DeviceToDeviceTransferService_status_service_connected">正在轉移帳號…</string>
+  <!--OldDeviceTransferLockedDialog-->
+  <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">在新裝置上完成註冊</string>
+  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">你的 Signal 帳號已轉移到你的新裝置，惟你必須在該裝置上完成註冊才能繼續。此裝置上的 Signal 亦隨之停用。</string>
+  <string name="OldDeviceTransferLockedDialog__done">完成</string>
+  <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">取消並啟動此裝置</string>
+  <!--AdvancedPreferenceFragment-->
+  <string name="AdvancedPreferenceFragment__transfer_mob_balance">轉帳到MOB的餘額？</string>
+  <string name="AdvancedPreferenceFragment__you_have_a_balance_of_s">你的餘額為 %1$s。 如果你在刪除帳號之前沒有將資金轉入另一個錢包位址，則將永遠遺失。</string>
+  <string name="AdvancedPreferenceFragment__dont_transfer">不要轉移</string>
+  <string name="AdvancedPreferenceFragment__transfer">轉移</string>
   <!--RecipientBottomSheet-->
   <string name="RecipientBottomSheet_block">封鎖</string>
   <string name="RecipientBottomSheet_unblock">解除封鎖</string>
@@ -2228,6 +2549,8 @@
   <string name="GroupsLearnMore_paragraph_2">舊版群組尚不能升級到新群組，但是如果最新版本的Signal上有相同的成員，則可以創建一個新群組。</string>
   <string name="GroupsLearnMore_paragraph_3">Signal將來將提供一種升級舊版群組的方法。</string>
   <!--GroupLinkBottomSheetDialogFragment-->
+  <string name="GroupLinkBottomSheet_share_hint_requiring_approval">知道此連結的任何人都可以查看群組的名稱和圖片，並請求加入。 與你信任的人分享。</string>
+  <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">知道此連結的任何人都可以查看該群組的名稱和圖片，然後加入該群組。 與你信任的人分享。</string>
   <string name="GroupLinkBottomSheet_share_via_signal">透過 Signal 分享</string>
   <string name="GroupLinkBottomSheet_copy">複製</string>
   <string name="GroupLinkBottomSheet_qr_code">QR 碼</string>
@@ -2286,6 +2609,7 @@
   <string name="DeleteAccountFragment__delete_account">刪除帳號</string>
   <string name="DeleteAccountFragment__delete_your_account_info_and_profile_photo">刪除你的帳號資訊和個人資料照片</string>
   <string name="DeleteAccountFragment__delete_all_your_messages">刪除所有訊息</string>
+  <string name="DeleteAccountFragment__delete_s_in_your_payments_account">在你的付款帳戶中刪除%1$s</string>
   <string name="DeleteAccountFragment__no_country_code">未指定國家/地區代碼</string>
   <string name="DeleteAccountFragment__no_number">未指定號碼</string>
   <string name="DeleteAccountFragment__the_phone_number">你輸入的電話號碼與你的帳號不符合。</string>
@@ -2340,5 +2664,83 @@
   <string name="WallpaperCropActivity__set_wallpaper_for_s">為 %s 設定壁紙。</string>
   <string name="WallpaperCropActivity__error_setting_wallpaper">設定壁紙錯誤。</string>
   <string name="WallpaperCropActivity__blur_photo">模糊照片</string>
+  <!--InfoCard-->
+  <string name="payment_info_card_about_mobilecoin">有關MobileCoin</string>
+  <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">MobileCoin是一種新的注重隱私的數位貨幣。</string>
+  <string name="payment_info_card_adding_funds">加值資金</string>
+  <string name="payment_info_card_you_can_add_funds_for_use_in">你可以通過將MobileCoin傳送到你的錢包位址來增加在Signal中使用的資金。</string>
+  <string name="payment_info_card_cashing_out">兌現</string>
+  <string name="payment_info_card_you_can_cash_out_mobilecoin">你可以隨時在支援MobileCoin的交易所兌現MobileCoin。 只需在該交易所轉帳到你的帳戶即可。</string>
+  <string name="payment_info_card_hide_this_card">隱藏這張卡？</string>
+  <string name="payment_info_card_hide">隱藏</string>
+  <string name="payment_info_card_record_recovery_phrase">記錄回復用詞語</string>
+  <string name="payment_info_card_your_recovery_phrase_gives_you">你的回復用詞語為你提供了另一種回復付款帳戶的方式。</string>
+  <string name="payment_info_card_record_your_phrase">記錄你的短語</string>
+  <string name="payment_info_card_update_your_pin">更新你的PIN碼</string>
+  <string name="payment_info_card_with_a_high_balance">餘額較高時，你可能需要更新為字母數字PIN碼，以為你的帳戶提供更多保護。</string>
+  <string name="payment_info_card_update_pin">更新 PIN 碼</string>
+  <!--DeactivateWalletFragment-->
+  <string name="DeactivateWalletFragment__deactivate_wallet">停用電子錢包</string>
+  <string name="DeactivateWalletFragment__your_balance">你的餘額</string>
+  <string name="DeactivateWalletFragment__its_recommended_that_you">建議你在停用付款之前將資金轉移到另一個錢包位址。 如果你選擇現在不轉移資金，那麼如果你重新啟用付款功能，這些資金將保留在與Signal關聯的錢包中。</string>
+  <string name="DeactivateWalletFragment__transfer_remaining_balance">轉帳餘額</string>
+  <string name="DeactivateWalletFragment__deactivate_without_transferring">停用而不轉移</string>
+  <string name="DeactivateWalletFragment__deactivate">停用</string>
+  <string name="DeactivateWalletFragment__deactivate_without_transferring_question">停用而不轉移嗎?</string>
+  <string name="DeactivateWalletFragment__your_balance_will_remain">如果你選擇重新啟動付款功能，妳的餘額將保留在與Signal關聯的錢包中。</string>
+  <string name="DeactivateWalletFragment__error_deactivating_wallet">停用錢包時錯誤。</string>
+  <!--PaymentsRecoveryStartFragment-->
+  <string name="PaymentsRecoveryStartFragment__recovery_phrase">回復短語</string>
+  <string name="PaymentsRecoveryStartFragment__view_recovery_phrase">查看回復短語</string>
+  <string name="PaymentsRecoveryStartFragment__enter_recovery_phrase">輸入回復短語</string>
+  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">如果你確認Signal PIN碼，重新安裝Signal時，餘額將自動回復。 你還可以使用回復短語，這是你獨有的%1$d -word短語，來回復餘額。 寫下並保存在安全的地方。</string>
+  <string name="PaymentsRecoveryStartFragment__your_recovery_phrase_is_a">你的回復短語是你獨有的%1$d-word短語。 使用此短語可以回復你的餘額。</string>
+  <string name="PaymentsRecoveryStartFragment__start">開始</string>
+  <string name="PaymentsRecoveryStartFragment__enter_manually">手動輸入</string>
+  <string name="PaymentsRecoveryStartFragment__paste_from_clipboard">從剪貼簿貼上</string>
+  <!--PaymentsRecoveryPasteFragment-->
+  <string name="PaymentsRecoveryPasteFragment__paste_recovery_phrase">貼上回復短語</string>
+  <string name="PaymentsRecoveryPasteFragment__recovery_phrase">回復短語</string>
+  <string name="PaymentsRecoveryPasteFragment__next">下一步</string>
+  <string name="PaymentsRecoveryPasteFragment__invalid_recovery_phrase">無效的回復短語</string>
+  <string name="PaymentsRecoveryPasteFragment__make_sure">確認你輸入了%1$d單字，然後重試。</string>
+  <!--PaymentsRecoveryPhraseFragment-->
+  <string name="PaymentsRecoveryPhraseFragment__next">下一步</string>
+  <string name="PaymentsRecoveryPhraseFragment__edit">編輯</string>
+  <string name="PaymentsRecoveryPhraseFragment__previous">上一頁</string>
+  <string name="PaymentsRecoveryPhraseFragment__your_recovery_phrase">你的回復短語</string>
+  <string name="PaymentsRecoveryPhraseFragment__write_down_the_following_d_words">依次寫下以下%1$d單字。 將你的清單儲存在安全的地方。</string>
+  <string name="PaymentsRecoveryPhraseFragment__make_sure_youve_entered">確認你輸入的短語正確。</string>
+  <string name="PaymentsRecoveryPhraseFragment__do_not_screenshot_or_send_by_email">不要截圖或透過電子郵件傳送。</string>
+  <string name="PaymentsRecoveryPhraseFragment__payments_account_restored">付款帳戶已回復。</string>
+  <string name="PaymentsRecoveryPhraseFragment__invalid_recovery_phrase">無效的回復短語</string>
+  <string name="PaymentsRecoveryPhraseFragment__make_sure_youve_entered_your_phrase_correctly_and_try_again">確保你輸入的短語正確無誤，然後重試。</string>
+  <string name="PaymentsRecoveryPhraseFragment__copy_to_clipboard">複製到剪貼簿？</string>
+  <string name="PaymentsRecoveryPhraseFragment__if_you_choose_to_store">如果你選擇以數字方式儲存回復短語，請確保將其安全地儲存在你信任的地方。</string>
+  <string name="PaymentsRecoveryPhraseFragment__copy">複製</string>
+  <!--PaymentsRecoveryPhraseConfirmFragment-->
+  <string name="PaymentRecoveryPhraseConfirmFragment__confirm_recovery_phrase">確認回復短語</string>
+  <string name="PaymentRecoveryPhraseConfirmFragment__enter_the_following_words">在你的回復短語中輸入以下單字。</string>
+  <string name="PaymentRecoveryPhraseConfirmFragment__word_d">單字 %1$d</string>
+  <string name="PaymentRecoveryPhraseConfirmFragment__see_phrase_again">再次查看短語</string>
+  <string name="PaymentRecoveryPhraseConfirmFragment__done">完成</string>
+  <string name="PaymentRecoveryPhraseConfirmFragment__recovery_phrase_confirmed">回復短語已確認</string>
+  <!--PaymentsRecoveryEntryFragment-->
+  <string name="PaymentsRecoveryEntryFragment__enter_recovery_phrase">輸入回復短語</string>
+  <string name="PaymentsRecoveryEntryFragment__enter_word_d">輸入單字 %1$d</string>
+  <string name="PaymentsRecoveryEntryFragment__word_d">單字 %1$d</string>
+  <string name="PaymentsRecoveryEntryFragment__next">下一步</string>
+  <string name="PaymentsRecoveryEntryFragment__invalid_word">無效的單字</string>
+  <!--ClearClipboardAlarmReceiver-->
+  <string name="ClearClipboardAlarmReceiver__clipboard_cleared">剪貼簿已清除。</string>
+  <!--PaymentNotificationsView-->
+  <string name="PaymentNotificationsView__view">檢視</string>
+  <!--UnreadPayments-->
+  <string name="UnreadPayments__s_sent_you_s">%1$s 傳給你 %2$s</string>
+  <string name="UnreadPayments__d_new_payment_notifications">%1$d 新的付款通知</string>
+  <!--CanNotSendPaymentDialog-->
+  <string name="CanNotSendPaymentDialog__cant_send_payment">無法傳送付款</string>
+  <string name="CanNotSendPaymentDialog__to_send_a_payment_to_this_user">要向該使用者付款，他們需要接受你的訊息要求。 向他們傳送訊息以建立訊息要求。</string>
+  <string name="CanNotSendPaymentDialog__send_a_message">傳送一則訊息</string>
   <!--EOF-->
 </resources>

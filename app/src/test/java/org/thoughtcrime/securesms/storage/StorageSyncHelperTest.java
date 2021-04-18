@@ -14,9 +14,10 @@ import org.powermock.modules.junit4.PowerMockRunner;
 import org.powermock.modules.junit4.PowerMockRunnerDelegate;
 import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.storage.StorageSyncHelper.KeyDifferenceResult;
+import org.thoughtcrime.securesms.storage.StorageSyncHelper.IdDifferenceResult;
 import org.thoughtcrime.securesms.storage.StorageSyncHelper.MergeResult;
 import org.thoughtcrime.securesms.util.FeatureFlags;
+import org.thoughtcrime.securesms.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.push.SignalServiceAddress;
 import org.whispersystems.signalservice.api.storage.SignalAccountRecord;
@@ -38,6 +39,7 @@ import java.util.Set;
 import java.util.UUID;
 
 import static junit.framework.TestCase.assertTrue;
+import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotEquals;
@@ -84,63 +86,64 @@ public final class StorageSyncHelperTest {
     when(Recipient.self()).thenReturn(SELF);
     Log.initialize(new Log.Logger[0]);
     mockStatic(FeatureFlags.class);
+    StorageSyncHelper.setTestKeyGenerator(null);
   }
 
   @Test
-  public void findKeyDifference_allOverlap() {
-    KeyDifferenceResult result = StorageSyncHelper.findKeyDifference(keyListOf(1, 2, 3), keyListOf(1, 2, 3));
-    assertTrue(result.getLocalOnlyKeys().isEmpty());
-    assertTrue(result.getRemoteOnlyKeys().isEmpty());
+  public void findIdDifference_allOverlap() {
+    IdDifferenceResult result = StorageSyncHelper.findIdDifference(keyListOf(1, 2, 3), keyListOf(1, 2, 3));
+    assertTrue(result.getLocalOnlyIds().isEmpty());
+    assertTrue(result.getRemoteOnlyIds().isEmpty());
     assertFalse(result.hasTypeMismatches());
   }
 
   @Test
-  public void findKeyDifference_noOverlap() {
-    KeyDifferenceResult result = StorageSyncHelper.findKeyDifference(keyListOf(1, 2, 3), keyListOf(4, 5, 6));
-    assertContentsEqual(keyListOf(1, 2, 3), result.getRemoteOnlyKeys());
-    assertContentsEqual(keyListOf(4, 5, 6), result.getLocalOnlyKeys());
+  public void findIdDifference_noOverlap() {
+    IdDifferenceResult result = StorageSyncHelper.findIdDifference(keyListOf(1, 2, 3), keyListOf(4, 5, 6));
+    assertContentsEqual(keyListOf(1, 2, 3), result.getRemoteOnlyIds());
+    assertContentsEqual(keyListOf(4, 5, 6), result.getLocalOnlyIds());
     assertFalse(result.hasTypeMismatches());
   }
 
   @Test
-  public void findKeyDifference_someOverlap() {
-    KeyDifferenceResult result = StorageSyncHelper.findKeyDifference(keyListOf(1, 2, 3), keyListOf(2, 3, 4));
-    assertContentsEqual(keyListOf(1), result.getRemoteOnlyKeys());
-    assertContentsEqual(keyListOf(4), result.getLocalOnlyKeys());
+  public void findIdDifference_someOverlap() {
+    IdDifferenceResult result = StorageSyncHelper.findIdDifference(keyListOf(1, 2, 3), keyListOf(2, 3, 4));
+    assertContentsEqual(keyListOf(1), result.getRemoteOnlyIds());
+    assertContentsEqual(keyListOf(4), result.getLocalOnlyIds());
     assertFalse(result.hasTypeMismatches());
   }
 
   @Test
-  public void findKeyDifference_typeMismatch_allOverlap() {
-    KeyDifferenceResult result = StorageSyncHelper.findKeyDifference(keyListOf(new HashMap<Integer, Integer>() {{
-                                                                                 put(100, 1);
-                                                                                 put(200, 2);
-                                                                               }}),
-                                                                     keyListOf(new HashMap<Integer, Integer>() {{
-                                                                                 put(100, 1);
-                                                                                 put(200, 1);
-                                                                               }}));
+  public void findIdDifference_typeMismatch_allOverlap() {
+    IdDifferenceResult result = StorageSyncHelper.findIdDifference(keyListOf(new HashMap<Integer, Integer>() {{
+                                                                               put(100, 1);
+                                                                               put(200, 2);
+                                                                             }}),
+                                                                   keyListOf(new HashMap<Integer, Integer>() {{
+                                                                               put(100, 1);
+                                                                               put(200, 1);
+                                                                             }}));
 
-    assertTrue(result.getLocalOnlyKeys().isEmpty());
-    assertTrue(result.getRemoteOnlyKeys().isEmpty());
+    assertTrue(result.getLocalOnlyIds().isEmpty());
+    assertTrue(result.getRemoteOnlyIds().isEmpty());
     assertTrue(result.hasTypeMismatches());
   }
 
   @Test
-  public void findKeyDifference_typeMismatch_someOverlap() {
-    KeyDifferenceResult result = StorageSyncHelper.findKeyDifference(keyListOf(new HashMap<Integer, Integer>() {{
-                                                                       put(100, 1);
-                                                                       put(200, 2);
-                                                                       put(300, 1);
-                                                                     }}),
-                                                                     keyListOf(new HashMap<Integer, Integer>() {{
-                                                                       put(100, 1);
-                                                                       put(200, 1);
-                                                                       put(400, 1);
-                                                                     }}));
+  public void findIdDifference_typeMismatch_someOverlap() {
+    IdDifferenceResult result = StorageSyncHelper.findIdDifference(keyListOf(new HashMap<Integer, Integer>() {{
+                                                                     put(100, 1);
+                                                                     put(200, 2);
+                                                                     put(300, 1);
+                                                                   }}),
+                                                                   keyListOf(new HashMap<Integer, Integer>() {{
+                                                                     put(100, 1);
+                                                                     put(200, 1);
+                                                                     put(400, 1);
+                                                                   }}));
 
-    assertContentsEqual(Arrays.asList(StorageId.forType(byteArray(300), 1)), result.getRemoteOnlyKeys());
-    assertContentsEqual(Arrays.asList(StorageId.forType(byteArray(400), 1)), result.getLocalOnlyKeys());
+    assertContentsEqual(Arrays.asList(StorageId.forType(byteArray(300), 1)), result.getRemoteOnlyIds());
+    assertContentsEqual(Arrays.asList(StorageId.forType(byteArray(400), 1)), result.getLocalOnlyIds());
     assertTrue(result.hasTypeMismatches());
   }
 
@@ -398,6 +401,83 @@ public final class StorageSyncHelperTest {
     assertTrue(StorageSyncHelper.profileKeyChanged(update(a, b)));
   }
 
+  @Test
+  public void resolveConflict_payments_enabled_remotely() {
+    SignalAccountRecord remoteAccount = accountWithPayments(1, true, new byte[32]);
+    SignalAccountRecord localAccount  = accountWithPayments(2, false, new byte[32]);
+
+    Set<SignalStorageRecord> remoteOnly = recordSetOf(remoteAccount);
+    Set<SignalStorageRecord> localOnly  = recordSetOf(localAccount);
+
+    MergeResult result = StorageSyncHelper.resolveConflict(remoteOnly, localOnly, r -> false);
+
+    assertTrue(result.getLocalAccountUpdate().get().getNew().getPayments().isEnabled());
+  }
+
+  @Test
+  public void resolveConflict_payments_disabled_remotely() {
+    SignalAccountRecord remoteAccount = accountWithPayments(1, false, new byte[32]);
+    SignalAccountRecord localAccount  = accountWithPayments(2, true, new byte[32]);
+
+    Set<SignalStorageRecord> remoteOnly = recordSetOf(remoteAccount);
+    Set<SignalStorageRecord> localOnly  = recordSetOf(localAccount);
+
+    MergeResult result = StorageSyncHelper.resolveConflict(remoteOnly, localOnly, r -> false);
+
+    assertFalse(result.getLocalAccountUpdate().get().getNew().getPayments().isEnabled());
+  }
+
+  @Test
+  public void resolveConflict_payments_remote_entropy_overrides_local_if_correct_length_32() {
+    byte[]              remoteEntropy = Util.getSecretBytes(32);
+    byte[]              localEntropy  = Util.getSecretBytes(32);
+    SignalAccountRecord remoteAccount = accountWithPayments(1, true, remoteEntropy);
+    SignalAccountRecord localAccount  = accountWithPayments(2, true, localEntropy);
+
+    Set<SignalStorageRecord> remoteOnly = recordSetOf(remoteAccount);
+    Set<SignalStorageRecord> localOnly  = recordSetOf(localAccount);
+
+    MergeResult result = StorageSyncHelper.resolveConflict(remoteOnly, localOnly, r -> false);
+
+    SignalAccountRecord.Payments payments = result.getLocalAccountUpdate().get().getNew().getPayments();
+    assertTrue(payments.isEnabled());
+    assertArrayEquals(remoteEntropy, payments.getEntropy().get());
+  }
+
+  @Test
+  public void resolveConflict_payments_local_entropy_preserved_if_remote_empty() {
+    byte[]              remoteEntropy = new byte[0];
+    byte[]              localEntropy  = Util.getSecretBytes(32);
+    SignalAccountRecord remoteAccount = accountWithPayments(1, true, remoteEntropy);
+    SignalAccountRecord localAccount  = accountWithPayments(2, true, localEntropy);
+
+    Set<SignalStorageRecord> remoteOnly = recordSetOf(remoteAccount);
+    Set<SignalStorageRecord> localOnly  = recordSetOf(localAccount);
+
+    MergeResult result = StorageSyncHelper.resolveConflict(remoteOnly, localOnly, r -> false);
+
+    SignalAccountRecord.Payments payments = result.getLocalAccountUpdate().get().getNew().getPayments();
+    assertFalse(payments.isEnabled());
+    assertArrayEquals(localEntropy, payments.getEntropy().get());
+  }
+
+  @Test
+  public void resolveConflict_payments_local_entropy_preserved_if_remote_is_a_bad_length() {
+    byte[]              remoteEntropy = Util.getSecretBytes(30);
+    byte[]              localEntropy  = Util.getSecretBytes(32);
+    SignalAccountRecord remoteAccount = accountWithPayments(1, true, remoteEntropy);
+    SignalAccountRecord localAccount  = accountWithPayments(2, true, localEntropy);
+
+    Set<SignalStorageRecord> remoteOnly = recordSetOf(remoteAccount);
+    Set<SignalStorageRecord> localOnly  = recordSetOf(localAccount);
+
+    MergeResult result = StorageSyncHelper.resolveConflict(remoteOnly, localOnly, r -> false);
+
+    SignalAccountRecord.Payments payments = result.getLocalAccountUpdate().get().getNew().getPayments();
+    assertFalse(payments.isEnabled());
+    assertArrayEquals(localEntropy, payments.getEntropy().get());
+  }
+
   private static Set<SignalStorageRecord> recordSetOf(SignalRecord... records) {
     LinkedHashSet<SignalStorageRecord> storageRecords = new LinkedHashSet<>();
 
@@ -445,6 +525,10 @@ public final class StorageSyncHelperTest {
     return new SignalAccountRecord.Builder(byteArray(key)).build();
   }
 
+  private static SignalAccountRecord accountWithPayments(int key, boolean enabled, byte[] entropy) {
+    return new SignalAccountRecord.Builder(byteArray(key)).setPayments(enabled, entropy).build();
+  }
+
   private static SignalContactRecord contact(int key,
                                              UUID uuid,
                                              String e164,
@@ -485,12 +569,12 @@ public final class StorageSyncHelperTest {
     return new SignalGroupV2Record.Builder(byteArray(key), byteArray(groupId, 42)).setBlocked(blocked).setProfileSharingEnabled(profileSharing).build();
   }
 
-  private static <E extends SignalRecord> StorageSyncHelper.RecordUpdate<E> update(E oldRecord, E newRecord) {
-    return new StorageSyncHelper.RecordUpdate<>(oldRecord, newRecord);
+  private static <E extends SignalRecord> StorageRecordUpdate<E> update(E oldRecord, E newRecord) {
+    return new StorageRecordUpdate<>(oldRecord, newRecord);
   }
 
-  private static <E extends SignalRecord> StorageSyncHelper.RecordUpdate<SignalStorageRecord> recordUpdate(E oldContact, E newContact) {
-    return new StorageSyncHelper.RecordUpdate<>(record(oldContact), record(newContact));
+  private static <E extends SignalRecord> StorageRecordUpdate<SignalStorageRecord> recordUpdate(E oldContact, E newContact) {
+    return new StorageRecordUpdate<>(record(oldContact), record(newContact));
   }
 
   private static SignalStorageRecord unknown(int key) {
@@ -521,7 +605,7 @@ public final class StorageSyncHelperTest {
     return StorageId.forType(byteArray(val), UNKNOWN_TYPE);
   }
 
-  private static class TestGenerator implements StorageSyncHelper.KeyGenerator {
+  private static class TestGenerator implements StorageKeyGenerator {
     private final int[] keys;
 
     private int index = 0;

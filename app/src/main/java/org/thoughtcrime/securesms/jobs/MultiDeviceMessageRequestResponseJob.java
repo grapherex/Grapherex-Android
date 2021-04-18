@@ -26,7 +26,7 @@ public class MultiDeviceMessageRequestResponseJob extends BaseJob {
 
   public static final String KEY = "MultiDeviceMessageRequestResponseJob";
 
-  private static final String TAG = MultiDeviceMessageRequestResponseJob.class.getSimpleName();
+  private static final String TAG = Log.tag(MultiDeviceMessageRequestResponseJob.class);
 
   private static final String KEY_THREAD_RECIPIENT = "thread_recipient";
   private static final String KEY_TYPE             = "type";
@@ -91,6 +91,10 @@ public class MultiDeviceMessageRequestResponseJob extends BaseJob {
     SignalServiceMessageSender messageSender = ApplicationDependencies.getSignalServiceMessageSender();
     Recipient                  recipient     = Recipient.resolved(threadRecipient);
 
+    if (!recipient.hasServiceIdentifier()) {
+      Log.i(TAG, "Queued for recipient without service identifier");
+      return;
+    }
 
     MessageRequestResponseMessage response;
 

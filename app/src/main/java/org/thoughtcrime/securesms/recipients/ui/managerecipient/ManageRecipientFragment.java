@@ -51,10 +51,10 @@ import org.thoughtcrime.securesms.recipients.RecipientExporter;
 import org.thoughtcrime.securesms.recipients.RecipientId;
 import org.thoughtcrime.securesms.recipients.ui.notifications.CustomNotificationsDialogFragment;
 import org.thoughtcrime.securesms.util.DateUtils;
-import org.thoughtcrime.securesms.util.FeatureFlags;
 import org.thoughtcrime.securesms.util.LifecycleCursorWrapper;
 import org.thoughtcrime.securesms.util.ServiceUtil;
 import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.util.ViewUtil;
 import org.thoughtcrime.securesms.wallpaper.ChatWallpaperActivity;
 
 import java.util.Locale;
@@ -261,10 +261,11 @@ public class ManageRecipientFragment extends LoggingFragment {
       });
     }
 
-    viewModel.getCanBlock().observe(getViewLifecycleOwner(), canBlock -> {
-      block.setVisibility(canBlock ? View.VISIBLE : View.GONE);
-      unblock.setVisibility(canBlock ? View.GONE : View.VISIBLE);
-    });
+    viewModel.getCanBlock().observe(getViewLifecycleOwner(),
+                                    canBlock -> block.setVisibility(canBlock ? View.VISIBLE : View.GONE));
+
+    viewModel.getCanUnblock().observe(getViewLifecycleOwner(),
+                                      canUnblock -> unblock.setVisibility(canUnblock ? View.VISIBLE : View.GONE));
 
     messageButton.setOnClickListener(v -> {
       if (fromConversation) {
@@ -351,7 +352,7 @@ public class ManageRecipientFragment extends LoggingFragment {
     threadPhotoRailView.setListener(mediaRecord ->
         startActivityForResult(MediaPreviewActivity.intentFromMediaRecord(requireContext(),
                                                                           mediaRecord,
-                                                                          ViewCompat.getLayoutDirection(threadPhotoRailView) == ViewCompat.LAYOUT_DIRECTION_LTR),
+                                                                          ViewUtil.isLtr(threadPhotoRailView)),
                                REQUEST_CODE_RETURN_FROM_MEDIA));
   }
 
@@ -372,10 +373,14 @@ public class ManageRecipientFragment extends LoggingFragment {
     muteNotificationsUntilLabel.setVisibility(muteState.isMuted() ? View.VISIBLE : View.GONE);
 
     if (muteState.isMuted()) {
-      muteNotificationsUntilLabel.setText(getString(R.string.ManageRecipientActivity_until_s,
-                                                    DateUtils.getTimeString(requireContext(),
-                                                                            Locale.getDefault(),
-                                                                            muteState.getMutedUntil())));
+      if (muteState.getMutedUntil() == Long.MAX_VALUE) {
+        muteNotificationsUntilLabel.setText(R.string.ManageRecipientActivity_always);
+      } else {
+        muteNotificationsUntilLabel.setText(getString(R.string.ManageRecipientActivity_until_s,
+                                                      DateUtils.getTimeString(requireContext(),
+                                                                              Locale.getDefault(),
+                                                                              muteState.getMutedUntil())));
+      }
     }
   }
 

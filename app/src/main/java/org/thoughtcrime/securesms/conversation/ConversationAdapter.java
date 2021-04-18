@@ -17,7 +17,6 @@
 package org.thoughtcrime.securesms.conversation;
 
 import android.content.Context;
-import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -37,6 +36,7 @@ import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
+import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
 import org.signal.paging.PagingController;
 import org.thoughtcrime.securesms.BindableConversationItem;
@@ -112,6 +112,7 @@ public class ConversationAdapter
   private View                footerView;
   private PagingController    pagingController;
   private boolean             hasWallpaper;
+  private boolean             isMessageRequestAccepted;
 
   ConversationAdapter(@NonNull LifecycleOwner lifecycleOwner,
                       @NonNull GlideRequests glideRequests,
@@ -133,16 +134,17 @@ public class ConversationAdapter
 
     this.lifecycleOwner = lifecycleOwner;
 
-    this.glideRequests       = glideRequests;
-    this.locale              = locale;
-    this.clickListener       = clickListener;
-    this.recipient           = recipient;
-    this.selected            = new HashSet<>();
-    this.fastRecords         = new ArrayList<>();
-    this.releasedFastRecords = new HashSet<>();
-    this.calendar            = Calendar.getInstance();
-    this.digest              = getMessageDigestOrThrow();
-    this.hasWallpaper        = recipient.hasWallpaper();
+    this.glideRequests            = glideRequests;
+    this.locale                   = locale;
+    this.clickListener            = clickListener;
+    this.recipient                = recipient;
+    this.selected                 = new HashSet<>();
+    this.fastRecords              = new ArrayList<>();
+    this.releasedFastRecords      = new HashSet<>();
+    this.calendar                 = Calendar.getInstance();
+    this.digest                   = getMessageDigestOrThrow();
+    this.hasWallpaper             = recipient.hasWallpaper();
+    this.isMessageRequestAccepted = true;
 
     setHasStableIds(true);
   }
@@ -254,7 +256,8 @@ public class ConversationAdapter
                                                   recipient,
                                                   searchQuery,
                                                   conversationMessage == recordToPulse,
-                                                  hasWallpaper);
+                                                  hasWallpaper,
+                                                  isMessageRequestAccepted);
 
         if (conversationMessage == recordToPulse) {
           recordToPulse = null;
@@ -542,7 +545,7 @@ public class ConversationAdapter
 
   @MainThread
   private void cleanFastRecords() {
-    Util.assertMainThread();
+    ThreadUtil.assertMainThread();
 
     synchronized (releasedFastRecords) {
       Iterator<ConversationMessage> messageIterator = fastRecords.iterator();
@@ -592,7 +595,19 @@ public class ConversationAdapter
   }
 
   public @Nullable ConversationMessage getLastVisibleConversationMessage(int position) {
-    return getItem(position - ((hasFooter() && position == getItemCount() - 1) ? 1 : 0));
+    try {
+      return getItem(position - ((hasFooter() && position == getItemCount() - 1) ? 1 : 0));
+    } catch (IndexOutOfBoundsException e) {
+      Log.w(TAG, "Race condition changed size of conversation", e);
+      return null;
+    }
+  }
+
+  public void setMessageRequestAccepted(boolean messageRequestAccepted) {
+    if (this.isMessageRequestAccepted != messageRequestAccepted) {
+      this.isMessageRequestAccepted = messageRequestAccepted;
+      notifyDataSetChanged();
+    }
   }
 
   static class ConversationViewHolder extends RecyclerView.ViewHolder {

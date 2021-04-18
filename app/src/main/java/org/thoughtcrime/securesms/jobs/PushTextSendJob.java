@@ -2,6 +2,7 @@ package org.thoughtcrime.securesms.jobs;
 
 import androidx.annotation.NonNull;
 
+import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.ApplicationContext;
 import org.thoughtcrime.securesms.crypto.UnidentifiedAccessUtil;
 import org.thoughtcrime.securesms.database.DatabaseFactory;
@@ -13,6 +14,7 @@ import org.thoughtcrime.securesms.database.model.SmsMessageRecord;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.jobmanager.Data;
 import org.thoughtcrime.securesms.jobmanager.Job;
+import org.thoughtcrime.securesms.jobmanager.impl.BackoffUtil;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.recipients.RecipientId;
 import org.thoughtcrime.securesms.recipients.RecipientUtil;
@@ -29,16 +31,18 @@ import org.whispersystems.signalservice.api.crypto.UntrustedIdentityException;
 import org.whispersystems.signalservice.api.messages.SignalServiceDataMessage;
 import org.whispersystems.signalservice.api.messages.multidevice.SignalServiceSyncMessage;
 import org.whispersystems.signalservice.api.push.SignalServiceAddress;
+import org.whispersystems.signalservice.api.push.exceptions.NonSuccessfulResponseCodeException;
 import org.whispersystems.signalservice.api.push.exceptions.ServerRejectedException;
 import org.whispersystems.signalservice.api.push.exceptions.UnregisteredUserException;
 
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 public class PushTextSendJob extends PushSendJob {
 
   public static final String KEY = "PushTextSendJob";
 
-  private static final String TAG = PushTextSendJob.class.getSimpleName();
+  private static final String TAG = Log.tag(PushTextSendJob.class);
 
   private static final String KEY_MESSAGE_ID = "message_id";
 
@@ -69,8 +73,8 @@ public class PushTextSendJob extends PushSendJob {
   }
 
   @Override
-  public void onPushSend() throws NoSuchMessageException, RetryLaterException, UndeliverableMessageException {
-    ExpiringMessageManager expirationManager = ApplicationContext.getInstance(context).getExpiringMessageManager();
+  public void onPushSend() throws IOException, NoSuchMessageException, UndeliverableMessageException {
+    ExpiringMessageManager expirationManager = ApplicationDependencies.getExpiringMessageManager();
     MessageDatabase        database          = DatabaseFactory.getSmsDatabase(context);
     SmsMessageRecord       record            = database.getSmsMessage(messageId);
 
@@ -80,7 +84,7 @@ public class PushTextSendJob extends PushSendJob {
     }
 
     try {
-      log(TAG, String.valueOf(record.getDateSent()), "Sending message: " + messageId);
+      log(TAG, String.valueOf(record.getDateSent()), "Sending message: " + messageId + ",  Recipient: " + record.getRecipient().getId() + ", Thread: " + record.getThreadId());
 
       RecipientUtil.shareProfileIfFirstSecureMessage(context, record.getRecipient());
 
@@ -133,13 +137,6 @@ public class PushTextSendJob extends PushSendJob {
   }
 
   @Override
-  public boolean onShouldRetry(@NonNull Exception exception) {
-    if (exception instanceof RetryLaterException) return true;
-
-    return false;
-  }
-
-  @Override
   public void onFailure() {
     DatabaseFactory.getSmsDatabase(context).markAsSentFailed(messageId);
 
@@ -152,7 +149,7 @@ public class PushTextSendJob extends PushSendJob {
   }
 
   private boolean deliver(SmsMessageRecord message)
-      throws UntrustedIdentityException, InsecureFallbackApprovalException, RetryLaterException, UndeliverableMessageException
+      throws UntrustedIdentityException, InsecureFallbackApprovalException, UndeliverableMessageException, IOException
   {
     try {
       rotateSenderCertificateIfNecessary();
@@ -187,9 +184,6 @@ public class PushTextSendJob extends PushSendJob {
       throw new InsecureFallbackApprovalException(e);
     } catch (ServerRejectedException e) {
       throw new UndeliverableMessageException(e);
-    } catch (IOException e) {
-      warn(TAG, "Failure", e);
-      throw new RetryLaterException(e);
     }
   }
 

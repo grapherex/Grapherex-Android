@@ -10,6 +10,7 @@ import android.telephony.SmsManager;
 
 import androidx.annotation.NonNull;
 
+import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.database.DatabaseFactory;
 import org.thoughtcrime.securesms.database.MessageDatabase;
 import org.thoughtcrime.securesms.database.NoSuchMessageException;
@@ -30,7 +31,7 @@ public class SmsSendJob extends SendJob {
 
   public static final String KEY = "SmsSendJob";
 
-  private static final String TAG              = SmsSendJob.class.getSimpleName();
+  private static final String TAG              = Log.tag(SmsSendJob.class);
   private static final int    MAX_ATTEMPTS     = 15;
   private static final String KEY_MESSAGE_ID   = "message_id";
   private static final String KEY_RUN_ATTEMPT  = "run_attempt";
@@ -71,7 +72,7 @@ public class SmsSendJob extends SendJob {
   }
 
   @Override
-  public void onSend() throws NoSuchMessageException, TooManyRetriesException {
+  public void onSend() throws NoSuchMessageException, TooManyRetriesException, UndeliverableMessageException {
     if (runAttempt >= MAX_ATTEMPTS) {
       warn(TAG, "Hit the retry limit. Failing.");
       throw new TooManyRetriesException();
@@ -83,6 +84,10 @@ public class SmsSendJob extends SendJob {
     if (!record.isPending() && !record.isFailed()) {
       warn(TAG, "Message " + messageId + " was already sent. Ignoring.");
       return;
+    }
+
+    if (!record.getRecipient().hasSmsAddress()) {
+      throw new UndeliverableMessageException("Recipient didn't have an SMS address! " + record.getRecipient().getId());
     }
 
     try {

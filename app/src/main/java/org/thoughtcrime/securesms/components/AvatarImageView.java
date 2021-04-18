@@ -8,6 +8,7 @@ import android.graphics.Paint;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 
+import androidx.annotation.DrawableRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatImageView;
@@ -15,6 +16,7 @@ import androidx.fragment.app.FragmentActivity;
 
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 
+import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.color.MaterialColor;
 import org.thoughtcrime.securesms.contacts.avatars.ContactColors;
@@ -39,7 +41,7 @@ public final class AvatarImageView extends AppCompatImageView {
   private static final int SIZE_SMALL = 2;
 
   @SuppressWarnings("unused")
-  private static final String TAG = AvatarImageView.class.getSimpleName();
+  private static final String TAG = Log.tag(AvatarImageView.class);
 
   private static final Paint LIGHT_THEME_OUTLINE_PAINT = new Paint();
   private static final Paint DARK_THEME_OUTLINE_PAINT  = new Paint();
@@ -118,11 +120,18 @@ public final class AvatarImageView extends AppCompatImageView {
    * Shows self as the actual profile picture.
    */
   public void setRecipient(@NonNull Recipient recipient) {
+    setRecipient(recipient, false);
+  }
+
+  /**
+   * Shows self as the actual profile picture.
+   */
+  public void setRecipient(@NonNull Recipient recipient, boolean quickContactEnabled) {
     if (recipient.isSelf()) {
-      setAvatar(GlideApp.with(this), null, false);
+      setAvatar(GlideApp.with(this), null, quickContactEnabled);
       AvatarUtil.loadIconIntoImageView(recipient, this);
     } else {
-      setAvatar(GlideApp.with(this), recipient, false);
+      setAvatar(GlideApp.with(this), recipient, quickContactEnabled);
     }
   }
 
@@ -204,8 +213,7 @@ public final class AvatarImageView extends AppCompatImageView {
         }
       });
     } else {
-      super.setOnClickListener(listener);
-      setClickable(listener != null);
+      disableQuickContact();
     }
   }
 
@@ -224,6 +232,16 @@ public final class AvatarImageView extends AppCompatImageView {
             .diskCacheStrategy(DiskCacheStrategy.ALL)
             .circleCrop()
             .into(this);
+  }
+
+  public void setNonAvatarImageResource(@DrawableRes int imageResource) {
+    recipientContactPhoto = null;
+    setImageResource(imageResource);
+  }
+
+  public void disableQuickContact() {
+    super.setOnClickListener(listener);
+    setClickable(listener != null);
   }
 
   private static class RecipientContactPhoto {

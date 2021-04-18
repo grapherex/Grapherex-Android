@@ -76,14 +76,16 @@ public class SignalServiceMessageReceiver {
    * @param signalingKey The 52 byte signaling key assigned to this user at registration.
    */
   public SignalServiceMessageReceiver(SignalServiceConfiguration urls,
-                                      UUID uuid, String e164, String password,
-                                      String signalingKey, String signalAgent,
+                                      UUID uuid,
+                                      String e164,
+                                      String password,
+                                      String signalAgent,
                                       ConnectivityListener listener,
                                       SleepTimer timer,
                                       ClientZkProfileOperations clientZkProfileOperations,
                                       boolean automaticNetworkRetry)
   {
-    this(urls, new StaticCredentialsProvider(uuid, e164, password, signalingKey), signalAgent, listener, timer, clientZkProfileOperations, automaticNetworkRetry);
+    this(urls, new StaticCredentialsProvider(uuid, e164, password), signalAgent, listener, timer, clientZkProfileOperations, automaticNetworkRetry);
   }
 
   /**
@@ -243,7 +245,8 @@ public class SignalServiceMessageReceiver {
                                                             Optional.of(credentialsProvider), signalAgent, connectivityListener,
                                                             sleepTimer,
                                                             urls.getNetworkInterceptors(),
-                                                            urls.getDns());
+                                                            urls.getDns(),
+                                                            urls.getSignalProxy());
 
     return new SignalServiceMessagePipe(webSocket, Optional.of(credentialsProvider), clientZkProfileOperations);
   }
@@ -254,7 +257,8 @@ public class SignalServiceMessageReceiver {
                                                             Optional.<CredentialsProvider>absent(), signalAgent, connectivityListener,
                                                             sleepTimer,
                                                             urls.getNetworkInterceptors(),
-                                                            urls.getDns());
+                                                            urls.getDns(),
+                                                            urls.getSignalProxy());
 
     return new SignalServiceMessagePipe(webSocket, Optional.of(credentialsProvider), clientZkProfileOperations);
   }

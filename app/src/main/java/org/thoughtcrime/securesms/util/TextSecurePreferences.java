@@ -16,24 +16,29 @@ import androidx.core.app.NotificationCompat;
 import org.greenrobot.eventbus.EventBus;
 import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.R;
+import org.thoughtcrime.securesms.backup.BackupProtos;
+import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.jobmanager.impl.SqlCipherMigrationConstraintObserver;
 import org.thoughtcrime.securesms.keyvalue.SettingsValues;
 import org.thoughtcrime.securesms.lock.RegistrationLockReminders;
+import org.thoughtcrime.securesms.notifications.NotificationChannels;
 import org.thoughtcrime.securesms.preferences.widgets.NotificationPrivacyPreference;
 import org.whispersystems.libsignal.util.Medium;
 import org.whispersystems.signalservice.api.util.UuidUtil;
 
 import java.io.IOException;
 import java.security.SecureRandom;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 import java.util.UUID;
 
 public class TextSecurePreferences {
 
-  private static final String TAG = TextSecurePreferences.class.getSimpleName();
+  private static final String TAG = Log.tag(TextSecurePreferences.class);
 
   public  static final String IDENTITY_PREF                    = "pref_choose_identity";
   public  static final String CHANGE_PASSPHRASE_PREF           = "pref_change_passphrase";
@@ -79,7 +84,6 @@ public class TextSecurePreferences {
   private static final String SEEN_WELCOME_SCREEN_PREF         = "pref_seen_welcome_screen";
   private static final String PROMPTED_PUSH_REGISTRATION_PREF  = "pref_prompted_push_registration";
   private static final String PROMPTED_OPTIMIZE_DOZE_PREF      = "pref_prompted_optimize_doze";
-  private static final String SIGNALING_KEY_PREF               = "pref_signaling_key";
   private static final String DIRECTORY_FRESH_TIME_PREF        = "pref_directory_refresh_time";
   private static final String UPDATE_APK_REFRESH_TIME_PREF     = "pref_update_apk_refresh_time";
   private static final String UPDATE_APK_DOWNLOAD_ID           = "pref_update_apk_download_id";
@@ -146,6 +150,8 @@ public class TextSecurePreferences {
   private static final String ENCRYPTED_BACKUP_PASSPHRASE = "pref_encrypted_backup_passphrase";
   private static final String BACKUP_TIME                 = "pref_backup_next_time";
 
+  public static final String TRANSFER = "pref_transfer";
+
   public static final String SCREEN_LOCK         = "pref_android_screen_lock";
   public static final String SCREEN_LOCK_TIMEOUT = "pref_android_screen_lock_timeout";
 
@@ -207,6 +213,80 @@ public class TextSecurePreferences {
   private static final String STORAGE_MANIFEST_VERSION = "pref_storage_manifest_version";
 
   private static final String ARGON2_TESTED = "argon2_tested";
+
+  private static final String[] booleanPreferencesToBackup = {SCREEN_SECURITY_PREF,
+                                                              INCOGNITO_KEYBORAD_PREF,
+                                                              ALWAYS_RELAY_CALLS_PREF,
+                                                              READ_RECEIPTS_PREF,
+                                                              TYPING_INDICATORS,
+                                                              SHOW_UNIDENTIFIED_DELIVERY_INDICATORS,
+                                                              UNIVERSAL_UNIDENTIFIED_ACCESS,
+                                                              NOTIFICATION_PREF,
+                                                              VIBRATE_PREF,
+                                                              IN_THREAD_NOTIFICATION_PREF,
+                                                              CALL_NOTIFICATIONS_PREF,
+                                                              CALL_VIBRATE_PREF,
+                                                              NEW_CONTACTS_NOTIFICATIONS,
+                                                              SHOW_INVITE_REMINDER_PREF,
+                                                              SYSTEM_EMOJI_PREF,
+                                                              ENTER_SENDS_PREF};
+
+  private static final String[] stringPreferencesToBackup = {LED_COLOR_PREF,
+                                                             LED_BLINK_PREF,
+                                                             REPEAT_ALERTS_PREF,
+                                                             NOTIFICATION_PRIVACY_PREF,
+                                                             THEME_PREF,
+                                                             LANGUAGE_PREF,
+                                                             MESSAGE_BODY_TEXT_SIZE_PREF};
+
+  private static final String[] stringSetPreferencesToBackup = {MEDIA_DOWNLOAD_MOBILE_PREF,
+                                                                MEDIA_DOWNLOAD_WIFI_PREF,
+                                                                MEDIA_DOWNLOAD_ROAMING_PREF};
+
+  public static List<BackupProtos.SharedPreference> getPreferencesToSaveToBackup(@NonNull Context context) {
+    SharedPreferences                   preferences  = PreferenceManager.getDefaultSharedPreferences(context);
+    List<BackupProtos.SharedPreference> backupProtos = new ArrayList<>();
+    String                              defaultFile  = context.getPackageName() + "_preferences";
+
+    for (String booleanPreference : booleanPreferencesToBackup) {
+      if (preferences.contains(booleanPreference)) {
+        backupProtos.add(BackupProtos.SharedPreference.newBuilder()
+                                                      .setFile(defaultFile)
+                                                      .setKey(booleanPreference)
+                                                      .setBooleanValue(preferences.getBoolean(booleanPreference, false))
+                                                      .build());
+      }
+    }
+
+    for (String stringPreference : stringPreferencesToBackup) {
+      if (preferences.contains(stringPreference)) {
+        backupProtos.add(BackupProtos.SharedPreference.newBuilder()
+                                                      .setFile(defaultFile)
+                                                      .setKey(stringPreference)
+                                                      .setValue(preferences.getString(stringPreference, null))
+                                                      .build());
+      }
+    }
+
+    for (String stringSetPreference : stringSetPreferencesToBackup) {
+      if (preferences.contains(stringSetPreference)) {
+        backupProtos.add(BackupProtos.SharedPreference.newBuilder()
+                                                      .setFile(defaultFile)
+                                                      .setKey(stringSetPreference)
+                                                      .setIsStringSetValue(true)
+                                                      .addAllStringSetValue(preferences.getStringSet(stringSetPreference, Collections.emptySet()))
+                                                      .build());
+      }
+    }
+
+    return backupProtos;
+  }
+
+  public static void onPostBackupRestore(@NonNull Context context) {
+    if (NotificationChannels.supported() && PreferenceManager.getDefaultSharedPreferences(context).contains(VIBRATE_PREF)) {
+      NotificationChannels.updateMessageVibrate(context, isNotificationVibrateEnabled(context));
+    }
+  }
 
   public static boolean isScreenLockEnabled(@NonNull Context context) {
     return getBooleanPreference(context, SCREEN_LOCK, false);
@@ -675,10 +755,6 @@ public class TextSecurePreferences {
     setStringPreference(context, GCM_PASSWORD_PREF, password);
   }
 
-  public static String getSignalingKey(Context context) {
-    return getStringPreference(context, SIGNALING_KEY_PREF, null);
-  }
-
   public static boolean isEnterImeKeyEnabled(Context context) {
     return getBooleanPreference(context, ENTER_PRESENT_PREF, false);
   }
@@ -844,6 +920,7 @@ public class TextSecurePreferences {
   public static void setPushRegistered(Context context, boolean registered) {
     Log.i(TAG, "Setting push registered: " + registered);
     setBooleanPreference(context, REGISTERED_GCM_PREF, registered);
+    ApplicationDependencies.getIncomingMessageObserver().notifyRegistrationChanged();
   }
 
   public static boolean isShowInviteReminders(Context context) {
@@ -908,6 +985,10 @@ public class TextSecurePreferences {
 
   public static boolean isNotificationsEnabled(Context context) {
     return getBooleanPreference(context, NOTIFICATION_PREF, true);
+  }
+
+  public static void setCallNotificationsEnabled(Context context, boolean enabled) {
+    setBooleanPreference(context, CALL_NOTIFICATIONS_PREF, enabled);
   }
 
   public static boolean isCallNotificationsEnabled(Context context) {

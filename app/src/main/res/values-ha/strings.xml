@@ -621,7 +621,7 @@
   <string name="RatingManager_rate_now">Yaba mana yanzu!</string>
   <string name="RatingManager_no_thanks">A\'a Nagode</string>
   <string name="RatingManager_later">Anjima</string>
-  <string name="RatingManager_whoops_the_play_store_app_does_not_appear_to_be_installed">Kash! Babu manhajar Google Play Store a wannan na\'urar.</string>
+  <!-- Removed by excludeNonTranslatables <string name="RatingManager_whoops_the_play_store_app_does_not_appear_to_be_installed">Kash! Babu manhajar Google Play Store a wannan na\'urar.</string> -->
   <!--ReactionsBottomSheetDialogFragment-->
   <!--ReactionsConversationView-->
   <!--ReactionsRecipientAdapter-->
@@ -885,14 +885,14 @@
   <string name="MessageNotifier_reacted_s_to_your_sticker">Ya/ta yi martanin%1$s akan sitikarka/ki.</string>
   <string name="MessageNotifier_this_message_was_deleted">An goge sakon</string>
   <!--Notification Channels-->
-  <string name="NotificationChannel_messages">Tanadadde</string>
+  <!-- Removed by excludeNonTranslatables <string name="NotificationChannel_messages">Tanadadde</string> -->
   <string name="NotificationChannel_calls">Kira</string>
   <string name="NotificationChannel_failures">Gazawar aiki</string>
   <string name="NotificationChannel_backups">Tsimi</string>
   <string name="NotificationChannel_locked_status">Kulle status</string>
   <string name="NotificationChannel_app_updates">Sabuntuwar manhaja</string>
   <string name="NotificationChannel_other">Wani</string>
-  <string name="NotificationChannel_group_messages">Sakwanni</string>
+  <!-- Removed by excludeNonTranslatables <string name="NotificationChannel_group_messages">Sakwanni</string> -->
   <string name="NotificationChannel_missing_display_name">Ba suna</string>
   <!--ProfileEditNameFragment-->
   <!-- Removed by excludeNonTranslatables <string name="ProfileEditNameFragment_successfully_set_profile_name">An ci nasarar saita sunan furofayil</string> -->
@@ -1211,10 +1211,10 @@
   <string name="arrays__use_default">Amfani da tanadadde</string>
   <string name="arrays__use_custom">Amfani da tanadadde</string>
   <string name="arrays__mute_for_one_hour">Saita lokacin yin tsit dashi zuwa awa 1</string>
-  <string name="arrays__mute_for_two_hours">Saita lokacin yin tsit dashi zuwa awa 2</string>
+  <!-- Removed by excludeNonTranslatables <string name="arrays__mute_for_two_hours">Saita lokacin yin tsit dashi zuwa awa 2</string> -->
   <string name="arrays__mute_for_one_day">Saita lokacin yin tsit dashi zuwa kwana 1</string>
   <string name="arrays__mute_for_seven_days">Saita lokacin yin tsit dashi zuwa kwana 7</string>
-  <string name="arrays__mute_for_one_year">Saita lokacin yin tsit dashi zuwa shekara 1</string>
+  <!-- Removed by excludeNonTranslatables <string name="arrays__mute_for_one_year">Saita lokacin yin tsit dashi zuwa shekara 1</string> -->
   <string name="arrays__settings_default">Tanadadden saiti</string>
   <string name="arrays__enabled">A karfafe</string>
   <string name="arrays__disabled">Hana dama</string>

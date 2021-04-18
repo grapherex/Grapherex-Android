@@ -534,7 +534,7 @@
   <string name="RatingManager_rate_now">Nilaikan sekarang!</string>
   <string name="RatingManager_no_thanks">Tidak, terima kasih</string>
   <string name="RatingManager_later">Nanti</string>
-  <string name="RatingManager_whoops_the_play_store_app_does_not_appear_to_be_installed">Whoops, aplikasi Play Store tidak kelihatan dipasang pada peranti anda.</string>
+  <!-- Removed by excludeNonTranslatables <string name="RatingManager_whoops_the_play_store_app_does_not_appear_to_be_installed">Whoops, aplikasi Play Store tidak kelihatan dipasang pada peranti anda.</string> -->
   <!--ReactionsBottomSheetDialogFragment-->
   <!--ReactionsConversationView-->
   <!--ReactionsRecipientAdapter-->
@@ -760,14 +760,14 @@ Menerima mesej pertukaran kunci untuk versi protokol yang tidak sah.</string>
   <string name="MessageNotifier_unknown_contact_message">Kenalan</string>
   <string name="MessageNotifier_this_message_was_deleted">Mesej ini telah dipadam.</string>
   <!--Notification Channels-->
-  <string name="NotificationChannel_messages">Lalai</string>
+  <!-- Removed by excludeNonTranslatables <string name="NotificationChannel_messages">Lalai</string> -->
   <string name="NotificationChannel_calls">Panggilan</string>
   <string name="NotificationChannel_failures">Kegagalan</string>
   <string name="NotificationChannel_backups">Sandaran</string>
   <string name="NotificationChannel_locked_status">Status kunci</string>
   <string name="NotificationChannel_app_updates">Kemas kini aplikasi</string>
   <string name="NotificationChannel_other">Lain-lain</string>
-  <string name="NotificationChannel_group_messages">Mesej</string>
+  <!-- Removed by excludeNonTranslatables <string name="NotificationChannel_group_messages">Mesej</string> -->
   <string name="NotificationChannel_missing_display_name">Tidak diketahui</string>
   <!--ProfileEditNameFragment-->
   <!--QuickResponseService-->
@@ -1071,10 +1071,10 @@ Menerima mesej pertukaran kunci untuk versi protokol yang tidak sah.</string>
   <string name="arrays__use_default">Gunakan lalai</string>
   <string name="arrays__use_custom">Gunakan tersuai</string>
   <string name="arrays__mute_for_one_hour">Bisukan untuk 1 jam</string>
-  <string name="arrays__mute_for_two_hours">Bisukan untuk 2 jam</string>
+  <!-- Removed by excludeNonTranslatables <string name="arrays__mute_for_two_hours">Bisukan untuk 2 jam</string> -->
   <string name="arrays__mute_for_one_day">Bisukan untuk 1 hari</string>
   <string name="arrays__mute_for_seven_days">Bisukan untuk 7 hari</string>
-  <string name="arrays__mute_for_one_year">Bisukan untuk 1 tahun</string>
+  <!-- Removed by excludeNonTranslatables <string name="arrays__mute_for_one_year">Bisukan untuk 1 tahun</string> -->
   <string name="arrays__settings_default">Tetapan lalai</string>
   <string name="arrays__enabled">Didayakan</string>
   <string name="arrays__disabled">Diyahdayakan</string>

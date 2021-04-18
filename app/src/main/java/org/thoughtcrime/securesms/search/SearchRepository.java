@@ -54,7 +54,7 @@ import static org.thoughtcrime.securesms.database.SearchDatabase.SNIPPET_WRAP;
  */
 public class SearchRepository {
 
-  private static final String TAG = SearchRepository.class.getSimpleName();
+  private static final String TAG = Log.tag(SearchRepository.class);
 
   private static final Set<Character> BANNED_CHARACTERS = new HashSet<>();
   static {
@@ -426,7 +426,7 @@ public class SearchRepository {
 
     @Override
     public MessageResult build(@NonNull Cursor cursor) {
-      RecipientId conversationRecipientId = RecipientId.from(cursor.getLong(cursor.getColumnIndex(SearchDatabase.CONVERSATION_RECIPIENT)));
+      RecipientId conversationRecipientId = RecipientId.from(CursorUtil.requireLong(cursor, SearchDatabase.CONVERSATION_RECIPIENT));
       RecipientId messageRecipientId      = RecipientId.from(CursorUtil.requireLong(cursor, SearchDatabase.MESSAGE_RECIPIENT));
       Recipient   conversationRecipient   = Recipient.live(conversationRecipientId).get();
       Recipient   messageRecipient        = Recipient.live(messageRecipientId).get();

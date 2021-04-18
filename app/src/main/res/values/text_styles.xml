@@ -22,6 +22,18 @@
         <item name="android:letterSpacing" tools:ignore="NewApi">0.01</item>
     </style>
 
+    <style name="Signal.Text.Preview.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Signal.Text.Preview.Medium.Primary">
+        <item name="android:textColor">@color/signal_text_primary</item>
+    </style>
+
+    <style name="Signal.Text.Preview.Medium.Secondary">
+        <item name="android:textColor">@color/signal_text_secondary</item>
+    </style>
+
     <style name="Signal.Text.Caption" parent="Base.TextAppearance.AppCompat.Caption">
         <item name="android:textSize">12sp</item>
         <item name="android:lineSpacingExtra">2sp</item>
@@ -51,7 +63,9 @@
         <item name="android:color">@color/signal_text_primary</item>
     </style>
 
-    <style name="TextAppearance.Signal.Title2" parent="@style/TextAppearance.AppCompat.Title">
+    <style name="TextAppearance.Signal.Title2" parent="@style/TextAppearance.AppCompat.Title" />
+
+    <style name="TextAppearance.Signal.Title2.Bold">
         <item name="android:textStyle">bold</item>
     </style>
 
@@ -78,6 +92,11 @@
     <style name="TextAppearance.Signal.Title.Insights" parent="">
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/insight_title</item>
+    </style>
+
+    <style name="TextAppearance.Signal.Title.InfoCard" parent="">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
     </style>
 
     <style name="TextAppearance.Signal.Body.Insights" parent="">
@@ -113,6 +132,11 @@
 
     <style name="TextAppearance.Signal.Body1.Bold">
         <item name="fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.Signal.Mono" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">monospace</item>
     </style>
 
     <style name="TextAppearance.Signal.Caption" parent="@style/TextAppearance.AppCompat.Caption">

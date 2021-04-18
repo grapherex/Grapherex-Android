@@ -21,7 +21,7 @@
   <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">注销 Signal 消息和呼叫…</string>
   <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">禁用 Signal 消息和呼叫？</string>
   <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">从服务器注销将禁用 Signal 消息和呼叫。如果以后想要使用这些功能，那么需使用手机号码重新注册。</string>
-  <string name="ApplicationPreferencesActivity_error_connecting_to_server">连接服务器错误！</string>
+  <string name="ApplicationPreferencesActivity_error_connecting_to_server">连接服务出错！</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">已启用短信</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">点击修改默认短信应用</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">已禁用短信</string>
@@ -56,6 +56,7 @@
   <string name="AttachmentKeyboard_location">位置</string>
   <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Signal 需相应权限以显示图片和视频。</string>
   <string name="AttachmentKeyboard_give_access">给予权限</string>
+  <string name="AttachmentKeyboard_payment">支付</string>
   <!--AttachmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">未找到选择媒体的应用。</string>
   <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal 需“存储”权限，来发送图片、视频和音频，但该权限已永久禁用。请访问应用设置菜单，选择“权限”并启用“存储”。</string>
@@ -64,6 +65,8 @@
   <!--AttachmentUploadJob-->
   <string name="AttachmentUploadJob_uploading_media">上传媒体中…</string>
   <string name="AttachmentUploadJob_compressing_video_start">压缩视频中…</string>
+  <!--BackgroundMessageRetriever-->
+  <string name="BackgroundMessageRetriever_checking_for_messages">正在检查消息…</string>
   <!--BlockedUsersActivity-->
   <string name="BlockedUsersActivity__blocked_users">已屏蔽的用户</string>
   <string name="BlockedUsersActivity__add_blocked_user">屏蔽更多用户</string>
@@ -165,14 +168,14 @@
   <string name="ConversationItem_click_to_approve_unencrypted">发送失败，点击使用不安全的方式发送</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">使用未加密的短信？</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">使用未加密的彩信？</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">由于对方已不再使用 Signal，该消息将<b>不是</b>加密的。\n\n发送不加密的信息？</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">由于对方已不再使用 Signal，该消息<b>不是</b>加密的。\n\n是否发送不安全消息？</string>
   <string name="ConversationItem_unable_to_open_media">未找到可打开该媒体的应用。</string>
   <string name="ConversationItem_copied_text">已复制 %s</string>
   <string name="ConversationItem_from_s">来自 %s</string>
   <string name="ConversationItem_to_s">发至 %s</string>
   <string name="ConversationItem_read_more">  查看更多</string>
   <string name="ConversationItem_download_more">  下载更多</string>
-  <string name="ConversationItem_pending">  等待中</string>
+  <string name="ConversationItem_pending">  待处理</string>
   <string name="ConversationItem_this_message_was_deleted">消息已删除。</string>
   <string name="ConversationItem_you_deleted_this_message">您删除了此消息。</string>
   <!--ConversationActivity-->
@@ -231,6 +234,7 @@
   <string name="ConversationActivity__more_options_now_in_group_settings">“群组设置”现增加了更多选项</string>
   <string name="ConversationActivity_join">加入</string>
   <string name="ConversationActivity_full">已满</string>
+  <string name="ConversationActivity_error_sending_media">媒体发送失败</string>
   <!--ConversationAdapter-->
   <plurals name="ConversationAdapter_n_unread_messages">
     <item quantity="other">%d 条未读消息</item>
@@ -253,14 +257,14 @@
   <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
     <item quantity="other">正在保存 %1$d 附件到存储…</item>
   </plurals>
-  <string name="ConversationFragment_pending">等待中…</string>
+  <string name="ConversationFragment_pending">待处理…</string>
   <string name="ConversationFragment_push">数据 (Signal)</string>
   <string name="ConversationFragment_mms">彩信</string>
   <string name="ConversationFragment_sms">短信</string>
   <string name="ConversationFragment_deleting">删除中</string>
   <string name="ConversationFragment_deleting_messages">正在删除消息…</string>
-  <string name="ConversationFragment_delete_for_me">只对我删除</string>
-  <string name="ConversationFragment_delete_for_everyone">对所有人删除</string>
+  <string name="ConversationFragment_delete_for_me">对我删除</string>
+  <string name="ConversationFragment_delete_for_everyone">对每个人删除</string>
   <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">将对所有使用较新版本 Signal 的群组用户永久删除此消息，群成员将看到您删除了一条消息。</string>
   <string name="ConversationFragment_quoted_message_not_found">未找到原始消息</string>
   <string name="ConversationFragment_quoted_message_no_longer_available">原始消息已不存在</string>
@@ -312,7 +316,7 @@
   <string name="CreateProfileActivity_set_avatar_description">设置头像</string>
   <!--ChooseBackupFragment-->
   <string name="ChooseBackupFragment__restore_from_backup">是否从备份进行恢复？</string>
-  <string name="ChooseBackupFragment__restore_your_messages_and_media">从本地备份恢复你的消息和媒体。如果现在不进行备份，以后将无法恢复。</string>
+  <string name="ChooseBackupFragment__restore_your_messages_and_media">从本地备份还原消息和媒体。如果现在不进行还原，以后将无法还原。</string>
   <string name="ChooseBackupFragment__icon_content_description">通过备份图标进行恢复</string>
   <string name="ChooseBackupFragment__choose_backup">选择备份</string>
   <string name="ChooseBackupFragment__learn_more">了解更多</string>
@@ -329,7 +333,7 @@
   <string name="BackupsPreferenceFragment__backup_folder">备份文件夹</string>
   <string name="BackupsPreferenceFragment__verify_backup_passphrase">验证备份密码</string>
   <string name="BackupsPreferenceFragment__test_your_backup_passphrase">测试备份密码并验证是否匹配</string>
-  <string name="BackupsPreferenceFragment__turn_on">启用</string>
+  <string name="BackupsPreferenceFragment__turn_on">开启</string>
   <string name="BackupsPreferenceFragment__turn_off">关闭</string>
   <string name="BackupsPreferenceFragment__to_restore_a_backup">如需恢复备份，请重新安装 Signal，然后打开该应用并点击“恢复备份”，接着打开备份文件。%1$s</string>
   <string name="BackupsPreferenceFragment__learn_more">了解更多</string>
@@ -359,7 +363,7 @@
   <string name="DeviceListActivity_unlink_s">取消关联“%s”？</string>
   <string name="DeviceListActivity_by_unlinking_this_device_it_will_no_longer_be_able_to_send_or_receive">取消关联之后，将不能再通过该设备发送或接收消息。</string>
   <string name="DeviceListActivity_network_connection_failed">网络连接失败</string>
-  <string name="DeviceListActivity_try_again">再试</string>
+  <string name="DeviceListActivity_try_again">重试</string>
   <string name="DeviceListActivity_unlinking_device">取消关联设备中…</string>
   <string name="DeviceListActivity_unlinking_device_no_ellipsis">正在取消关联设备</string>
   <string name="DeviceListActivity_network_failed">网络失败！</string>
@@ -416,7 +420,7 @@
   <string name="GroupMembersDialog_you">您</string>
   <!--GV2 access levels-->
   <string name="GroupManagement_access_level_anyone">任何人</string>
-  <string name="GroupManagement_access_level_all_members">所有群成员</string>
+  <string name="GroupManagement_access_level_all_members">全部成员</string>
   <string name="GroupManagement_access_level_only_admins">仅限管理员</string>
   <string name="GroupManagement_access_level_no_one">无人</string>
   <!--GV2 invites sent-->
@@ -441,7 +445,7 @@
   <string name="GroupsV1MigrationInitiation_upgrade_this_group">升级此群组</string>
   <string name="GroupsV1MigrationInitiation_new_groups_have_features_like_mentions">新版群组支持@提醒和群管理员的功能，未来还将支持更多功能。</string>
   <string name="GroupsV1MigrationInitiation_all_message_history_and_media_will_be_kept">升级前将保留现有的聊天和媒体记录。</string>
-  <string name="GroupsV1MigrationInitiation_encountered_a_network_error">网络错误，请稍候再试。</string>
+  <string name="GroupsV1MigrationInitiation_encountered_a_network_error">网络错误，请稍候重试。</string>
   <string name="GroupsV1MigrationInitiation_failed_to_upgrade">升级失败</string>
   <plurals name="GroupsV1MigrationInitiation_these_members_will_need_to_accept_an_invite">
     <item quantity="other">这些成员需要再次同意入群邀请来加入群组，其同意前不会收到群组消息：</item>
@@ -452,7 +456,7 @@
   <!--GroupsV1MigrationInitiationReminder-->
   <string name="GroupsV1MigrationInitiationReminder_to_access_new_features_like_mentions">若要解锁@提醒和管理员的功能，请升级该群组。</string>
   <string name="GroupsV1MigrationInitiationReminder_not_now">稍后再说</string>
-  <string name="GroupsV1MigrationInitiationReminder_update_group">更新群组</string>
+  <string name="GroupsV1MigrationInitiationReminder_upgrade_group">升级群组</string>
   <!--GroupsV1MigrationSuggestionsReminder-->
   <plurals name="GroupsV1MigrationSuggestionsReminder_members_couldnt_be_added_to_the_new_group">
     <item quantity="other">无法转移%1$d位成员到新版群组，您现要再尝试添加其到新版群组吗？</item>
@@ -472,7 +476,7 @@
     <item quantity="other">添加成员</item>
   </plurals>
   <plurals name="GroupsV1MigrationSuggestionsDialog_failed_to_add_members_try_again_later">
-    <item quantity="other">添加成员失败，请稍候再试。</item>
+    <item quantity="other">添加成员失败，请稍候重试。</item>
   </plurals>
   <plurals name="GroupsV1MigrationSuggestionsDialog_cannot_add_members">
     <item quantity="other">无法添加成员。</item>
@@ -514,8 +518,8 @@
     <item quantity="other">撤回邀请时出现错误</item>
   </plurals>
   <!--RequestingMembersFragment-->
-  <string name="RequestingMembersFragment_pending_member_requests">待处理入群申请</string>
-  <string name="RequestingMembersFragment_no_member_requests_to_show">没有入群申请。</string>
+  <string name="RequestingMembersFragment_pending_member_requests">待处理成员请求</string>
+  <string name="RequestingMembersFragment_no_member_requests_to_show">没有成员请求。</string>
   <string name="RequestingMembersFragment_explanation">此表中的人想通过群组链接入群。</string>
   <string name="RequestingMembersFragment_added_s">已添加 “%1$s”</string>
   <string name="RequestingMembersFragment_denied_s">已拒绝“%1$s”</string>
@@ -532,16 +536,16 @@
   <string name="AddGroupDetailsFragment__create">创建</string>
   <string name="AddGroupDetailsFragment__members">成员</string>
   <string name="AddGroupDetailsFragment__you_can_add_or_invite_friends_after_creating_this_group">您可以在创建此群组后添加或邀请朋友。</string>
-  <string name="AddGroupDetailsFragment__group_name_required">群名称（必填）</string>
+  <string name="AddGroupDetailsFragment__group_name_required">群组名称（必填）</string>
   <string name="AddGroupDetailsFragment__group_name_optional">群组名称（可选）</string>
   <string name="AddGroupDetailsFragment__this_field_is_required">必须填写此项。</string>
   <string name="AddGroupDetailsFragment__group_creation_failed">群组创建失败。</string>
   <string name="AddGroupDetailsFragment__try_again_later">稍候再试。</string>
   <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">您所选择的联系人并不支持 Signal 群组，所以此组将以彩信形式存在。</string>
-  <string name="AddGroupDetailsFragment_custom_mms_group_names_and_photos_will_only_be_visible_to_you">自定义MMS群组名称和图片将仅对你可见。</string>
+  <string name="AddGroupDetailsFragment_custom_mms_group_names_and_photos_will_only_be_visible_to_you">自定义彩信群组名称和图片将仅对你可见。</string>
   <string name="AddGroupDetailsFragment__remove">删除</string>
   <string name="AddGroupDetailsFragment__sms_contact">短信联系人</string>
-  <string name="AddGroupDetailsFragment__remove_s_from_this_group">将 %1$s 移出此群组？</string>
+  <string name="AddGroupDetailsFragment__remove_s_from_this_group">将 %1$s 从群组移除？</string>
   <plurals name="AddGroupDetailsFragment__d_members_do_not_support_new_groups">
     <item quantity="other">有%d位成员无法使用新版群组，所以将创建旧版群组。</item>
   </plurals>
@@ -572,15 +576,16 @@
   <string name="ManageGroupActivity_mentions">提及我</string>
   <string name="ManageGroupActivity_chat_wallpaper">聊天墙纸</string>
   <string name="ManageGroupActivity_until_s">直到 %1$s</string>
+  <string name="ManageGroupActivity_always">总是</string>
   <string name="ManageGroupActivity_off">关</string>
   <string name="ManageGroupActivity_on">开</string>
-  <string name="ManageGroupActivity_view_all_members">查看全体群成员</string>
+  <string name="ManageGroupActivity_view_all_members">查看全部成员</string>
   <string name="ManageGroupActivity_see_all">查看全部</string>
   <plurals name="ManageGroupActivity_added">
     <item quantity="other">已添加%d位成员。</item>
   </plurals>
   <string name="ManageGroupActivity_only_admins_can_enable_or_disable_the_sharable_group_link">只有管理员才能启用或禁用群组链接。</string>
-  <string name="ManageGroupActivity_only_admins_can_enable_or_disable_the_option_to_approve_new_members">只有管理员才能启用或禁用新成员审核开关。</string>
+  <string name="ManageGroupActivity_only_admins_can_enable_or_disable_the_option_to_approve_new_members">只有管理员才能启用或禁用新成员批准开关。</string>
   <string name="ManageGroupActivity_only_admins_can_reset_the_sharable_group_link">只有管理员才能重置群组链接。</string>
   <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">您没有此操作的权限</string>
   <string name="ManageGroupActivity_not_capable">您添加的部分用户无法使用新版群组，这些用户需要升级 Signal。</string>
@@ -600,7 +605,7 @@
   <string name="GroupMentionSettingDialog_notify_me_for_mentions">提到我时通知我</string>
   <string name="GroupMentionSettingDialog_receive_notifications_when_youre_mentioned_in_muted_chats">静音群聊中被别人@时，是否接收提醒？</string>
   <string name="GroupMentionSettingDialog_always_notify_me">总是通知我</string>
-  <string name="GroupMentionSettingDialog_dont_notify_me">总是不通知我</string>
+  <string name="GroupMentionSettingDialog_dont_notify_me">不通知我</string>
   <!--ManageProfileFragment-->
   <string name="ManageProfileFragment_profile_name">个人资料名称</string>
   <string name="ManageProfileFragment_username">用户名</string>
@@ -621,6 +626,7 @@
   <string name="ManageRecipientActivity_mute_notifications">静音通知</string>
   <string name="ManageRecipientActivity_custom_notifications">自定义通知</string>
   <string name="ManageRecipientActivity_until_s">直到 %1$s</string>
+  <string name="ManageRecipientActivity_always">总是</string>
   <string name="ManageRecipientActivity_off">关</string>
   <string name="ManageRecipientActivity_on">开</string>
   <string name="ManageRecipientActivity_add_to_a_group">添加至群组</string>
@@ -654,8 +660,8 @@
   <string name="ShareableGroupLinkDialogFragment__group_link">群组链接</string>
   <string name="ShareableGroupLinkDialogFragment__share">分享</string>
   <string name="ShareableGroupLinkDialogFragment__reset_link">重置链接</string>
-  <string name="ShareableGroupLinkDialogFragment__member_requests">入群申请</string>
-  <string name="ShareableGroupLinkDialogFragment__approve_new_members">审核新成员</string>
+  <string name="ShareableGroupLinkDialogFragment__member_requests">成员请求</string>
+  <string name="ShareableGroupLinkDialogFragment__approve_new_members">批准新成员</string>
   <string name="ShareableGroupLinkDialogFragment__require_an_admin_to_approve_new_members_joining_via_the_group_link">通过群组链接的新成员需要经过管理员同意才能入群。</string>
   <string name="ShareableGroupLinkDialogFragment__are_you_sure_you_want_to_reset_the_group_link">确定要重置群组链接吗？重置后他人将无法通过原来的链接加入群组。</string>
   <!--GroupLinkShareQrDialogFragment-->
@@ -776,7 +782,7 @@
   <string name="Megaphones_introducing_reactions">新推出“回应”功能</string>
   <string name="Megaphones_tap_and_hold_any_message_to_quicky_share_how_you_feel">长按任何消息，即刻分享感受。</string>
   <string name="Megaphones_remind_me_later">稍后提醒</string>
-  <string name="Megaphones_verify_your_signal_pin">验证 Signal PIN 密码</string>
+  <string name="Megaphones_verify_your_signal_pin">验证 Signal PIN 码</string>
   <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">为了方便记住 PIN 密码，将偶尔提示验证。</string>
   <string name="Megaphones_verify_pin">验证 PIN</string>
   <string name="Megaphones_get_started">开始使用</string>
@@ -787,10 +793,16 @@
   <string name="NotificationBarManager_signal_call_in_progress">正在处理 Signal 呼叫</string>
   <string name="NotificationBarManager__establishing_signal_call">正在建立 Signal 呼叫</string>
   <string name="NotificationBarManager__incoming_signal_call">Signal 来电</string>
+  <string name="NotificationBarManager__stopping_signal_call_service">正在停止 Signal 通话服务</string>
   <string name="NotificationBarManager__deny_call">拒听</string>
   <string name="NotificationBarManager__answer_call">接听</string>
   <string name="NotificationBarManager__end_call">结束呼叫</string>
   <string name="NotificationBarManager__cancel_call">取消呼叫</string>
+  <!--NotificationsMegaphone-->
+  <string name="NotificationsMegaphone_turn_on_notifications">是否开启通知？</string>
+  <string name="NotificationsMegaphone_never_miss_a_message">不错过任何消息。</string>
+  <string name="NotificationsMegaphone_turn_on">开启</string>
+  <string name="NotificationsMegaphone_not_now">稍后再说</string>
   <!--NotificationMmsMessageRecord-->
   <string name="NotificationMmsMessageRecord_multimedia_message">多媒体消息</string>
   <string name="NotificationMmsMessageRecord_downloading_mms_message">正在下载彩信</string>
@@ -904,7 +916,7 @@
   <string name="MessageRecord_you_added_invited_member_s">您添加了受邀用户 %1$s。</string>
   <string name="MessageRecord_s_added_invited_member_s">%1$s 添加了受邀用户 %2$s。</string>
   <!--GV2 title change-->
-  <string name="MessageRecord_you_changed_the_group_name_to_s">您更改了群名称为%1$s”。</string>
+  <string name="MessageRecord_you_changed_the_group_name_to_s">您更改了群组名字为“%1$s”。</string>
   <string name="MessageRecord_s_changed_the_group_name_to_s">%1$s 更改了群名称为 “%2$s”。</string>
   <string name="MessageRecord_the_group_name_has_changed_to_s">群组名称更改为“%1$s”。</string>
   <!--GV2 avatar change-->
@@ -1048,6 +1060,7 @@
   <string name="PassphrasePromptActivity_ok_button_content_description">提交密码</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">无效密码！</string>
   <string name="PassphrasePromptActivity_unlock_signal">解锁 Signal</string>
+  <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android - 锁定屏幕</string>
   <!--PlacePickerActivity-->
   <string name="PlacePickerActivity_title">地图</string>
   <string name="PlacePickerActivity_drop_pin">标注</string>
@@ -1060,8 +1073,8 @@
   <string name="PinRestoreEntryFragment_need_help">需要协助？</string>
   <string name="PinRestoreEntryFragment_your_pin_is_a_d_digit_code">PIN 码是您创建的%1$d位及以上的密码，可以是纯数字或数字字母混合。如果忘了 PIN 码，您可以注册一个新账户，但您会丢失所有保存过的设置，比如您的个人介绍。</string>
   <string name="PinRestoreEntryFragment_if_you_cant_remember_your_pin">如果忘记你的 PIN，可再新建一个。你可以注册并使用你的账号，但某些已保存设置，如个人资料信息，将丢失。</string>
-  <string name="PinRestoreEntryFragment_create_new_pin">创建新 PIN</string>
-  <string name="PinRestoreEntryFragment_contact_support">联系支持团队</string>
+  <string name="PinRestoreEntryFragment_create_new_pin">新建 PIN 码</string>
+  <string name="PinRestoreEntryFragment_contact_support">联系支持</string>
   <string name="PinRestoreEntryFragment_cancel">取消</string>
   <string name="PinRestoreEntryFragment_skip">跳过</string>
   <plurals name="PinRestoreEntryFragment_you_have_d_attempt_remaining">
@@ -1073,7 +1086,7 @@
   <!--PinRestoreLockedFragment-->
   <string name="PinRestoreLockedFragment_create_your_pin">创建 PIN</string>
   <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">你的 PIN 码错误次数达到上限，但你还是可以通过创建新的 PIN 码以进入你的 Signal 账户。出于对你的隐私和安全考虑，你的账户会在不保存任何个人资料或设置下被还原。</string>
-  <string name="PinRestoreLockedFragment_create_new_pin">新建 PIN</string>
+  <string name="PinRestoreLockedFragment_create_new_pin">新建 PIN 码</string>
   <!--PinOptOutDialog-->
   <string name="PinOptOutDialog_warning">警告</string>
   <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">如果禁用 PIN，重新注册 Signal 时全部数据将丢失，除非使用手动备份并恢复。PIN 禁用时，无法启用注册锁定。</string>
@@ -1084,7 +1097,6 @@
   <string name="RatingManager_rate_now">立刻评价！</string>
   <string name="RatingManager_no_thanks">不，谢谢。</string>
   <string name="RatingManager_later">稍后</string>
-  <string name="RatingManager_whoops_the_play_store_app_does_not_appear_to_be_installed">糟糕, 你的设备上未安装 Google Play 商店。</string>
   <!--ReactionsBottomSheetDialogFragment-->
   <string name="ReactionsBottomSheetDialogFragment_all">全部 · %1$d</string>
   <!--ReactionsConversationView-->
@@ -1115,7 +1127,7 @@
   <string name="WebRtcCallView__signal_voice_call">Signal 语音通话…</string>
   <string name="WebRtcCallView__signal_video_call">Signal 视频通话…</string>
   <string name="WebRtcCallView__start_call">发起通话</string>
-  <string name="WebRtcCallView__join_call">加入呼叫</string>
+  <string name="WebRtcCallView__join_call">加入通话</string>
   <string name="WebRtcCallView__call_is_full">通话人数已满</string>
   <string name="WebRtcCallView__the_maximum_number_of_d_participants_has_been_Reached_for_this_call">此通话人数已达%1$d人上限，请稍候再试。</string>
   <string name="WebRtcCallView__s_group_call">“%1$s”群组通话</string>
@@ -1141,6 +1153,12 @@
   <string name="CallParticipantView__cant_receive_audio_video_from_s">无法从%1$s接收音频 &amp; 视频</string>
   <string name="CallParticipantView__cant_receive_audio_and_video_from_s">无法从%1$s接收音频与视频</string>
   <string name="CallParticipantView__this_may_be_Because_they_have_not_verified_your_safety_number_change">这可能是因为他们还没验证过你的安全码发生的变更，或是因为他们的设备有问题，又或者是因为他们已经屏蔽了你。</string>
+  <!--ProxyBottomSheetFragment-->
+  <string name="ProxyBottomSheetFragment_proxy_server">代理服务器</string>
+  <string name="ProxyBottomSheetFragment_proxy_address">代理地址</string>
+  <string name="ProxyBottomSheetFragment_do_you_want_to_use_this_proxy_address">是否使用该代理地址？</string>
+  <string name="ProxyBottomSheetFragment_use_proxy">使用代理</string>
+  <string name="ProxyBottomSheetFragment_successfully_connected_to_proxy">成功连接代理。</string>
   <!--RegistrationActivity-->
   <string name="RegistrationActivity_select_your_country">选择国家</string>
   <string name="RegistrationActivity_you_must_specify_your_country_code">必须指定
@@ -1175,6 +1193,7 @@
   <string name="RegistrationActivity_continue">继续</string>
   <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">让隐私与您形影不离。\n在每一条消息中展现真正的自己。</string>
   <string name="RegistrationActivity_enter_your_phone_number_to_get_started">开始体验，请输入你的手机号码</string>
+  <string name="RegistrationActivity_enter_your_phone_number">输入您的电话号码</string>
   <string name="RegistrationActivity_you_will_receive_a_verification_code">您将收到验证码，运营商可能收取短信费用。</string>
   <string name="RegistrationActivity_enter_the_code_we_sent_to_s">请输入 %s 收到的验证码</string>
   <string name="RegistrationActivity_make_sure_your_phone_has_a_cellular_signal">请确保你的手机网络信号可接收短信或来电</string>
@@ -1182,10 +1201,10 @@
   <string name="RegistrationActivity_country_code_description">国家代码</string>
   <string name="RegistrationActivity_call">呼叫</string>
   <!--RegistrationLockV2Dialog-->
-  <string name="RegistrationLockV2Dialog_turn_on_registration_lock">启用注册锁？</string>
-  <string name="RegistrationLockV2Dialog_turn_off_registration_lock">关闭注册锁？</string>
+  <string name="RegistrationLockV2Dialog_turn_on_registration_lock">开启注册锁定？</string>
+  <string name="RegistrationLockV2Dialog_turn_off_registration_lock">关闭注册锁定？</string>
   <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">再次注册 Signal 时，如果忘记 Signal PIN，将在 7 天内无法使用你的帐户。</string>
-  <string name="RegistrationLockV2Dialog_turn_on">启用</string>
+  <string name="RegistrationLockV2Dialog_turn_on">开启</string>
   <string name="RegistrationLockV2Dialog_turn_off">关闭</string>
   <!--RevealableMessageView-->
   <string name="RevealableMessageView_view_photo">查看图片</string>
@@ -1377,7 +1396,7 @@
   <string name="MessageNotifier_view_once_video">一次性图片</string>
   <string name="MessageNotifier_reply">回复</string>
   <string name="MessageNotifier_signal_message">Signal 消息</string>
-  <string name="MessageNotifier_unsecured_sms">未加密短信</string>
+  <string name="MessageNotifier_unsecured_sms">不安全短信</string>
   <string name="MessageNotifier_you_may_have_new_messages">您有新的消息</string>
   <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">打开 Signal 查看最近通知。</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
@@ -1392,16 +1411,18 @@
   <string name="MessageNotifier_this_message_was_deleted">消息已删除。</string>
   <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">关闭联系人加入 Signal 的通知吗？您可以在 Signal &gt; 设置 &gt; 通知 中再次启用。</string>
   <!--Notification Channels-->
-  <string name="NotificationChannel_messages">默认</string>
+  <string name="NotificationChannel_channel_messages">消息</string>
   <string name="NotificationChannel_calls">通话</string>
   <string name="NotificationChannel_failures">失败</string>
   <string name="NotificationChannel_backups">备份</string>
   <string name="NotificationChannel_locked_status">锁定状态</string>
   <string name="NotificationChannel_app_updates">应用更新</string>
   <string name="NotificationChannel_other">其他</string>
-  <string name="NotificationChannel_group_messages">消息</string>
+  <string name="NotificationChannel_group_chats">聊天</string>
   <string name="NotificationChannel_missing_display_name">未知</string>
   <string name="NotificationChannel_voice_notes">语音笔记</string>
+  <string name="NotificationChannel_contact_joined_signal">联系人加入 Signal</string>
+  <string name="NotificationChannels__no_activity_available_to_open_notification_channel_settings">无可用活动以打开通知渠道设置。</string>
   <!--ProfileEditNameFragment-->
   <!--QuickResponseService-->
   <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Signal 锁定时不可使用快速回复。</string>
@@ -1419,7 +1440,7 @@
   <string name="SingleRecipientNotificationBuilder_new_message">新消息</string>
   <!--ThumbnailView-->
   <string name="ThumbnailView_Play_video_description">播放视频</string>
-  <string name="ThumbnailView_Has_a_caption_description">具有标题</string>
+  <string name="ThumbnailView_Has_a_caption_description">带有描述</string>
   <!--TransferControlView-->
   <plurals name="TransferControlView_n_items">
     <item quantity="other">%d 个条目</item>
@@ -1486,8 +1507,8 @@
   </plurals>
   <!--conversation_activity-->
   <string name="conversation_activity__type_message_push">发送 Signal 消息</string>
-  <string name="conversation_activity__type_message_sms_insecure">未加密短信</string>
-  <string name="conversation_activity__type_message_mms_insecure">未加密彩信</string>
+  <string name="conversation_activity__type_message_sms_insecure">不安全短信</string>
+  <string name="conversation_activity__type_message_mms_insecure">不安全彩信</string>
   <string name="conversation_activity__from_sim_name">来自 %1$s</string>
   <string name="conversation_activity__sim_n">SIM %1$d</string>
   <string name="conversation_activity__send">发送</string>
@@ -1507,7 +1528,7 @@
   <string name="conversation_item__secure_message_description">安全消息</string>
   <!--conversation_item_sent-->
   <string name="conversation_item_sent__send_failed_indicator_description">发送失败</string>
-  <string name="conversation_item_sent__pending_approval_description">等待审批</string>
+  <string name="conversation_item_sent__pending_approval_description">待处理审批</string>
   <string name="conversation_item_sent__delivered_description">已送达</string>
   <string name="conversation_item_sent__message_read">消息已读</string>
   <!--conversation_item_received-->
@@ -1519,6 +1540,7 @@
   <string name="ConversationUpdateItem_return_to_call">回到通话</string>
   <string name="ConversationUpdateItem_call_is_full">通话人数已满</string>
   <string name="ConversationUpdateItem_invite_friends">邀请好友</string>
+  <string name="ConversationUpdateItem_enable_call_notifications">启用通话通知</string>
   <!--audio_view-->
   <string name="audio_view__play_pause_accessibility_description">播放 … 暂停</string>
   <string name="audio_view__download_accessibility_description">下载</string>
@@ -1542,6 +1564,18 @@
   <string name="safety_number_change_dialog__the_following_people_may_have_reinstalled_or_changed_devices">以下用户可能重新安装了 Signal 或更换了设备，请重新与之验证安全码以保护您的隐私。</string>
   <string name="safety_number_change_dialog__view">查看</string>
   <string name="safety_number_change_dialog__previous_verified">已验证</string>
+  <!--EnableCallNotificationSettingsDialog__call_notifications_checklist-->
+  <string name="EnableCallNotificationSettingsDialog__call_notifications_enabled">通话通知已启用。</string>
+  <string name="EnableCallNotificationSettingsDialog__enable_call_notifications">启用通话通知</string>
+  <string name="EnableCallNotificationSettingsDialog__enable_background_activity">启用背景活动</string>
+  <string name="EnableCallNotificationSettingsDialog__everything_looks_good_now">目前看起来一切正常！</string>
+  <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_here_and_turn_on_show_notifications">为了接收通话通知，请点击此次并开启“显示通知”。</string>
+  <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_here_and_turn_on_notifications">为了接收通话通知，请点击此次并开启通知，以及确保已启用“声音”和“弹出”。</string>
+  <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_here_and_enable_background_activity_in_battery_settings">为了接收通话通知，请点击此处并启用“电池”设置下的背景活动。</string>
+  <string name="EnableCallNotificationSettingsDialog__settings">设置</string>
+  <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_settings_and_turn_on_show_notifications">为了接收通话通知，请点击设置并开启“显示通知”。</string>
+  <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_settings_and_turn_on_notifications">为了接收通话通知，请点击此次并开启通知，以及确保已启用“声音”和“弹出”。</string>
+  <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_settings_and_enable_background_activity_in_battery_settings">为了接收通话通知，请点击设置并启用“电池”设置下的背景活动。</string>
   <!--country_selection_fragment-->
   <string name="country_selection_fragment__loading_countries">正在加载国家…</string>
   <string name="country_selection_fragment__search">搜索</string>
@@ -1630,7 +1664,7 @@
   <!--EditAboutFragment-->
   <string name="EditAboutFragment_about">关于</string>
   <string name="EditAboutFragment_write_a_few_words_about_yourself">简单介绍下自己…</string>
-  <string name="EditAboutFragment_count">%d/%d</string>
+  <string name="EditAboutFragment_count">%1$d/%2$d</string>
   <string name="EditAboutFragment_speak_freely">畅所欲言</string>
   <string name="EditAboutFragment_encrypted">已加密</string>
   <string name="EditAboutFragment_be_kind">温和且无害</string>
@@ -1701,6 +1735,7 @@
   <string name="HelpFragment__include_debug_log">包括调试日志。</string>
   <string name="HelpFragment__whats_this">这是什么?</string>
   <string name="HelpFragment__how_do_you_feel">你觉得怎么样？ （可选的）</string>
+  <string name="HelpFragment__tell_us_why_youre_reaching_out">请告知您联系我们的因由。</string>
   <string name="HelpFragment__support_info">支持信息</string>
   <string name="HelpFragment__signal_android_support_request">Signal Android支持请求</string>
   <string name="HelpFragment__debug_log">调试日志：</string>
@@ -1722,10 +1757,10 @@
   <string name="arrays__use_default">使用默认</string>
   <string name="arrays__use_custom">使用自定义</string>
   <string name="arrays__mute_for_one_hour">静音 1 小时</string>
-  <string name="arrays__mute_for_two_hours">静音 2 小时</string>
+  <string name="arrays__mute_for_eight_hours">静音 8 小时</string>
   <string name="arrays__mute_for_one_day">静音 1 天</string>
   <string name="arrays__mute_for_seven_days">静音 7 天</string>
-  <string name="arrays__mute_for_one_year">静音 1 年</string>
+  <string name="arrays__always">总是</string>
   <string name="arrays__settings_default">默认设置</string>
   <string name="arrays__enabled">启用</string>
   <string name="arrays__disabled">禁用</string>
@@ -1762,8 +1797,8 @@
   <string name="preferences__choose_identity">选择联系人</string>
   <string name="preferences__choose_your_contact_entry_from_the_contacts_list">从联系人列表选择联系人条目。</string>
   <string name="preferences__change_passphrase">修改密码</string>
-  <string name="preferences__change_your_passphrase"> 修改你的密码</string>
-  <string name="preferences__enable_passphrase">启用屏幕密码锁</string>
+  <string name="preferences__change_your_passphrase">修改您的密码</string>
+  <string name="preferences__enable_passphrase">启用屏幕锁定密码</string>
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">使用密码锁定屏幕和通知</string>
   <string name="preferences__screen_security">屏幕安全</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">屏蔽最近使用应用和 Signal 截屏</string>
@@ -1776,6 +1811,7 @@
   <string name="preferences__pref_led_blink_title">LED 闪烁模式</string>
   <string name="preferences__sound">声音</string>
   <string name="preferences__silent">无提示</string>
+  <string name="preferences__default">默认</string>
   <string name="preferences__repeat_alerts">通知重复</string>
   <string name="preferences__never">永不</string>
   <string name="preferences__one_time">一次</string>
@@ -1810,6 +1846,7 @@
   <string name="preferences__request_a_delivery_report_for_each_sms_message_you_send">为每一条发送的短信请求送达报告</string>
   <string name="preferences__data_and_storage">数据和存储</string>
   <string name="preferences__storage">存储</string>
+  <string name="preferences__payments">支付</string>
   <string name="preferences__conversation_length_limit">对话长度限制</string>
   <string name="preferences__keep_messages">保留消息</string>
   <string name="preferences__clear_message_history">清除消息记录</string>
@@ -1831,7 +1868,7 @@
   <string name="preferences__submit_debug_log">提交调试日志</string>
   <string name="preferences__delete_account">删除帐户</string>
   <string name="preferences__support_wifi_calling">“WiFi 呼叫”兼容模式</string>
-  <string name="preferences__enable_if_your_device_supports_sms_mms_delivery_over_wifi">当你的设备通过 WiFi 发送短信或彩信时，请启用（仅在设备启用“WiFi 通话”时启用该选项）</string>
+  <string name="preferences__enable_if_your_device_supports_sms_mms_delivery_over_wifi">当设备通过 WiFi 发送短信或彩信时，请启用（仅当设备启用“WiFi 呼叫”时，启用该选项）</string>
   <string name="preferences__incognito_keyboard">隐身键盘</string>
   <string name="preferences__read_receipts">已读回执</string>
   <string name="preferences__if_read_receipts_are_disabled_you_wont_be_able_to_see_read_receipts">禁用已读回执之后，将无法查看来其他用户的已读回执。</string>
@@ -1891,15 +1928,79 @@
   <string name="preferences_chats__message_text_size">消息字体大小</string>
   <string name="preferences_events__contact_joined_signal">联系人加入 Signal</string>
   <string name="preferences_notifications__priority">优先级</string>
-  <string name="preferences_communication__category_sealed_sender">保密发送人</string>
+  <string name="preferences_communication__category_sealed_sender">密封发送人</string>
   <string name="preferences_communication__sealed_sender_display_indicators">显示状态</string>
-  <string name="preferences_communication__sealed_sender_display_indicators_description">对于使用保密发送人送达的消息，在“消息详情”内显示状态图标。</string>
+  <string name="preferences_communication__sealed_sender_display_indicators_description">对于使用密封发送人送达的消息，在“消息详情”内显示状态图标。</string>
   <string name="preferences_communication__sealed_sender_allow_from_anyone">允许来自任何人</string>
-  <string name="preferences_communication__sealed_sender_allow_from_anyone_description">对于非联系人和未与其分享个人资料的其他人，启用传入消息的加密发送人功能。</string>
+  <string name="preferences_communication__sealed_sender_allow_from_anyone_description">对于非联系人和未与其分享个人资料的其他人，启用传入消息的密封发送人功能。</string>
   <string name="preferences_communication__sealed_sender_learn_more">了解更多</string>
   <string name="preferences_setup_a_username">设置用户名</string>
+  <string name="preferences_proxy">代理</string>
+  <string name="preferences_use_proxy">使用代理</string>
+  <string name="preferences_off">关</string>
+  <string name="preferences_on">开</string>
+  <string name="preferences_proxy_address">代理地址</string>
+  <string name="preferences_only_use_a_proxy_if">仅当无法通过手机网络或 Wi-Fi 连接 Signal 时，使用代理。</string>
+  <string name="preferences_share">分享</string>
+  <string name="preferences_save">保存</string>
+  <string name="preferences_connecting_to_proxy">正在连接代理…</string>
+  <string name="preferences_connected_to_proxy">已连接代理</string>
+  <string name="preferences_connection_failed">连接失败</string>
+  <string name="preferences_couldnt_connect_to_the_proxy">无法连接代理。请检查代理地址并重试。</string>
+  <string name="preferences_you_are_connected_to_the_proxy">已连接代理。可在“设置”下随时关闭该代理。</string>
+  <string name="preferences_success">成功</string>
+  <string name="preferences_failed_to_connect">无法连接</string>
+  <string name="preferences_enter_proxy_address">请输入代理地址</string>
   <string name="configurable_single_select__customize_option">自定义选项</string>
   <!--Internal only preferences-->
+  <!--Payments-->
+  <string name="PaymentsAllActivityFragment__all">全部</string>
+  <string name="PaymentsAllActivityFragment__sent">发送</string>
+  <string name="PaymentsAllActivityFragment__received">接收</string>
+  <string name="PaymentsHomeFragment__see_all">查看全部</string>
+  <string name="PaymentsHomeFragment__send">发送</string>
+  <string name="PaymentsHomeFragment__help">帮助</string>
+  <string name="PaymentsHomeFragment__deactivate_payments_question">是否停用支付？</string>
+  <string name="PaymentsHomeFragment__deactivate">停用</string>
+  <string name="PaymentsHomeFragment__continue">继续</string>
+  <string name="PaymentsHomeFragment__details">更多</string>
+  <string name="PaymentsHomeFragment__activate">激活</string>
+  <string name="PaymentsHomeFragment__payments_not_available">Signal 的支付不再可用，不过您仍可将资金转移至交易平台，但是不再能够收发支付或添加资金。</string>
+  <!--PaymentsAddMoneyFragment-->
+  <string name="PaymentsAddMoneyFragment__copy">复制</string>
+  <string name="PaymentsAddMoneyFragment__copied_to_clipboard">已复制到剪切板</string>
+  <string name="PaymentsAddMoneyFragment__to_add_funds">为了添加资金，请发送 MobileCoin 至您的钱包地址。在支持 MobileCoin 的交易平台上，从您的帐户开启交易，然后扫描该二维码或复制您的钱包地址。</string>
+  <!--PaymentsDetailsFragment-->
+  <string name="PaymentsDetailsFragment__details">更多</string>
+  <string name="PaymentsDetailsFragment__status">状态</string>
+  <string name="PaymentsDetailsFragment__to">至</string>
+  <string name="PaymentsDetailsFragment__from">来自</string>
+  <!--PaymentsTransferFragment-->
+  <string name="PaymentsTransferFragment__scan_qr_code">扫描二维码</string>
+  <string name="PaymentsTransferFragment__next">下一步</string>
+  <string name="PaymentsTransferFragment__settings">设置</string>
+  <!--PaymentsTransferQrScanFragment-->
+  <!--CreatePaymentFragment-->
+  <string name="CreatePaymentFragment__request">入群请求</string>
+  <string name="CreatePaymentFragment__pay">支付</string>
+  <string name="CreatePaymentFragment__1">1</string>
+  <string name="CreatePaymentFragment__2">2</string>
+  <string name="CreatePaymentFragment__3">3</string>
+  <string name="CreatePaymentFragment__4">4</string>
+  <string name="CreatePaymentFragment__5">5</string>
+  <string name="CreatePaymentFragment__6">6</string>
+  <string name="CreatePaymentFragment__7">7</string>
+  <string name="CreatePaymentFragment__8">8</string>
+  <string name="CreatePaymentFragment__9">9</string>
+  <string name="CreatePaymentFragment__0">0</string>
+  <string name="CreatePaymentFragment__conversions_are_just_estimates">转换仅为估计，可能并不准确。</string>
+  <!--EditNoteFragment-->
+  <string name="EditNoteFragment_note">注释</string>
+  <!--ConfirmPaymentFragment-->
+  <string name="ConfirmPayment__to">至</string>
+  <!--CurrencyAmountFormatter_s_at_s-->
+  <!--SetCurrencyFragment-->
+  <string name="SetCurrencyFragment__all_currencies">全部货币</string>
   <!--****************************************-->
   <!--menus-->
   <!--****************************************-->
@@ -1957,7 +2058,7 @@
   <!--conversation_unmuted-->
   <string name="conversation_unmuted__mute_notifications">静音通知</string>
   <!--conversation-->
-  <string name="conversation__menu_group_settings">组群设置</string>
+  <string name="conversation__menu_group_settings">群组设置</string>
   <string name="conversation__menu_leave_group">离开群组</string>
   <string name="conversation__menu_view_all_media">全部媒体</string>
   <string name="conversation__menu_conversation_settings">对话设置</string>
@@ -2000,32 +2101,32 @@
   <!--redphone_audio_popup_menu-->
   <!--Insights-->
   <string name="Insights__percent">%</string>
-  <string name="Insights__title">深入了解</string>
-  <string name="InsightsDashboardFragment__title">深入了解</string>
+  <string name="Insights__title">见解</string>
+  <string name="InsightsDashboardFragment__title">见解</string>
   <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">在过去 %2$d 天，Signal Protocol 自动保护 %1$d%% 的传出消息。Signal 用户之间的对话一直为端对端加密。</string>
   <string name="InsightsDashboardFragment__boost_your_signal">提升 Signal 得分</string>
   <string name="InsightsDashboardFragment__not_enough_data">数据不足</string>
-  <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">深入了解中计算得到的百分比，来自过去 %1$d 天内未消失或删除的传出消息。</string>
+  <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">您的“见解”中计算得到的百分比，来自过去 %1$d 天内未消失或删除的传出消息。</string>
   <string name="InsightsDashboardFragment__start_a_conversation">开始聊天</string>
   <string name="InsightsDashboardFragment__invite_your_contacts">邀请更多好友加入 Signal，可使用更多新功能，不受非加密短信的限制，开启安全沟通新旅程。</string>
   <string name="InsightsDashboardFragment__this_stat_was_generated_locally">该统计信息为本地生成，仅对您自己可见，不会发布至其他地方。</string>
   <string name="InsightsDashboardFragment__encrypted_messages">加密消息</string>
   <string name="InsightsDashboardFragment__cancel">取消</string>
   <string name="InsightsDashboardFragment__send">发送</string>
-  <string name="InsightsModalFragment__title">新推出“深入了解”功能</string>
+  <string name="InsightsModalFragment__title">新推出“见解”功能</string>
   <string name="InsightsModalFragment__description">查看多少传出消息安全发送，并可快速邀请好友一起使用 Signal，提高你的百分比。</string>
-  <string name="InsightsModalFragment__view_insights">查看“深入了解”</string>
+  <string name="InsightsModalFragment__view_insights">查看“见解”</string>
   <string name="FirstInviteReminder__title">邀请加入 Signal</string>
   <string name="FirstInviteReminder__description">可增加发送的加密消息数量：%1$d%%</string>
   <string name="SecondInviteReminder__title">提升 Signal 得分</string>
   <string name="SecondInviteReminder__description">邀请 %1$s</string>
-  <string name="InsightsReminder__view_insights">查看深入了解</string>
+  <string name="InsightsReminder__view_insights">查看“见解”</string>
   <string name="InsightsReminder__invite">邀请</string>
   <!--Edit KBS Pin-->
   <!--BaseKbsPinFragment-->
   <string name="BaseKbsPinFragment__next">下一步</string>
   <string name="BaseKbsPinFragment__create_alphanumeric_pin">创建字母数字 PIN</string>
-  <string name="BaseKbsPinFragment__create_numeric_pin">时间数字 PIN</string>
+  <string name="BaseKbsPinFragment__create_numeric_pin">创建数字 PIN 码</string>
   <!--CreateKbsPinFragment-->
   <plurals name="CreateKbsPinFragment__pin_must_be_at_least_characters">
     <item quantity="other">PIN 必须不少于 %1$d 个字符</item>
@@ -2033,16 +2134,16 @@
   <plurals name="CreateKbsPinFragment__pin_must_be_at_least_digits">
     <item quantity="other">PIN 必须不少于 %1$d 数字</item>
   </plurals>
-  <string name="CreateKbsPinFragment__create_a_new_pin">新建 PIN</string>
+  <string name="CreateKbsPinFragment__create_a_new_pin">新建 PIN 码</string>
   <string name="CreateKbsPinFragment__you_can_choose_a_new_pin_as_long_as_this_device_is_registered">只有该设备已注册，你可以更改你的 PIN。</string>
-  <string name="CreateKbsPinFragment__create_your_pin">创建 PIN 密码</string>
-  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">PIN 用于加密 Signal 存储的信息，只有您可以访问。借此可在您重装后恢复个人资料、设置和联系人。打开 Signal 无需使用 PIN。</string>
-  <string name="CreateKbsPinFragment__choose_a_stronger_pin">选择更安全 PIN</string>
+  <string name="CreateKbsPinFragment__create_your_pin">创建 PIN 码</string>
+  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">PIN 码用于加密 Signal 存储的信息，只有您可以访问。借此可在您重装后还原个人资料、设置和联系人。打开 Signal 无需使用 PIN 码。</string>
+  <string name="CreateKbsPinFragment__choose_a_stronger_pin">选择更安全 PIN 码</string>
   <!--ConfirmKbsPinFragment-->
-  <string name="ConfirmKbsPinFragment__pins_dont_match">PIN 不匹配，请重试。</string>
-  <string name="ConfirmKbsPinFragment__confirm_your_pin">确认你的 PIN。</string>
-  <string name="ConfirmKbsPinFragment__pin_creation_failed">PIN 创建失败</string>
-  <string name="ConfirmKbsPinFragment__your_pin_was_not_saved">PIN 没有保存。我们将稍后提示您创建 PIN。</string>
+  <string name="ConfirmKbsPinFragment__pins_dont_match">PIN 码不匹配，请重试。</string>
+  <string name="ConfirmKbsPinFragment__confirm_your_pin">确认 PIN 码。</string>
+  <string name="ConfirmKbsPinFragment__pin_creation_failed">PIN 码创建失败</string>
+  <string name="ConfirmKbsPinFragment__your_pin_was_not_saved">PIN 码没有保存。我们将稍后提示您创建 PIN 码。</string>
   <string name="ConfirmKbsPinFragment__pin_created">PIN 已创建。</string>
   <string name="ConfirmKbsPinFragment__re_enter_your_pin">重新入您的 PIN</string>
   <string name="ConfirmKbsPinFragment__creating_pin">正在创建 PIN…</string>
@@ -2053,15 +2154,15 @@
   <string name="KbsSplashFragment__registration_lock_equals_pin">注册锁定 = PIN</string>
   <string name="KbsSplashFragment__your_registration_lock_is_now_called_a_pin">注册锁定现在改名为 PIN，功能更强大，马上更新。</string>
   <string name="KbsSplashFragment__update_pin">更新 PIN</string>
-  <string name="KbsSplashFragment__create_your_pin">创建 PIN</string>
-  <string name="KbsSplashFragment__learn_more_about_pins">了解更多关于 PIN 的信息</string>
-  <string name="KbsSplashFragment__disable_pin">禁用 PIN</string>
+  <string name="KbsSplashFragment__create_your_pin">创建 PIN 码</string>
+  <string name="KbsSplashFragment__learn_more_about_pins">了解更多关于 PIN 码的信息</string>
+  <string name="KbsSplashFragment__disable_pin">禁用 PIN 码</string>
   <!--KBS Reminder Dialog-->
-  <string name="KbsReminderDialog__enter_your_signal_pin">请输入 Signal 的 PIN 密码</string>
-  <string name="KbsReminderDialog__to_help_you_memorize_your_pin">为了便于记住 PIN，我们将定期提示输入该密码。提示次数将逐渐减少。</string>
+  <string name="KbsReminderDialog__enter_your_signal_pin">请输入 Signal PIN 码</string>
+  <string name="KbsReminderDialog__to_help_you_memorize_your_pin">为了便于记住 PIN 码，我们将定期提示输入该密码。提示次数将逐渐减少。</string>
   <string name="KbsReminderDialog__skip">跳过</string>
   <string name="KbsReminderDialog__submit">提交</string>
-  <string name="KbsReminderDialog__forgot_pin">忘记 PIN？</string>
+  <string name="KbsReminderDialog__forgot_pin">忘记 PIN 码？</string>
   <string name="KbsReminderDialog__incorrect_pin_try_again">PIN 错误，请重试。</string>
   <!--AccountLockedFragment-->
   <string name="AccountLockedFragment__account_locked">帐户已锁定</string>
@@ -2069,8 +2170,8 @@
   <string name="AccountLockedFragment__next">下一步</string>
   <string name="AccountLockedFragment__learn_more">了解更多</string>
   <!--KbsLockFragment-->
-  <string name="RegistrationLockFragment__enter_your_pin">请输入 PIN</string>
-  <string name="RegistrationLockFragment__enter_the_pin_you_created">输入帐户的 PIN 密码。该密码不是短信验证码。</string>
+  <string name="RegistrationLockFragment__enter_your_pin">请输入 PIN 码</string>
+  <string name="RegistrationLockFragment__enter_the_pin_you_created">输入帐户的 PIN 码。该密码不是短信验证码。</string>
   <string name="RegistrationLockFragment__enter_alphanumeric_pin">输入字母数字 PIN</string>
   <string name="RegistrationLockFragment__enter_numeric_pin">输入数字 PIN</string>
   <string name="RegistrationLockFragment__incorrect_pin_try_again">PIN 错误，请重试。</string>
@@ -2078,6 +2179,8 @@
   <string name="RegistrationLockFragment__incorrect_pin">PIN 错误</string>
   <string name="RegistrationLockFragment__forgot_your_pin">忘记 PIN？</string>
   <string name="RegistrationLockFragment__not_many_tries_left">可尝试的次数不多了！</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Signal 注册 - 关于 Android 版 PIN 需要帮助（v1 PIN）</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Signal 注册 - 关于 Android 版本 PIN 需要帮助（v2 PIN）</string>
   <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
     <item quantity="other">为了保护你的隐私和安全，你无法找回你的PIN码。如果您记不住您的PIN码，你可以在%1$d天的帐户不活跃后用短信重新验证。在这种情况下，你的帐户会被抹除并且所有的信息都会被删除。</item>
   </plurals>
@@ -2096,9 +2199,9 @@
   <!--CalleeMustAcceptMessageRequestDialogFragment-->
   <string name="CalleeMustAcceptMessageRequestDialogFragment__s_will_get_a_message_request_from_you">%1$s 将收到您的消息请求，对发接受邀请后您即可向其发起通话。</string>
   <!--KBS Megaphone-->
-  <string name="KbsMegaphone__create_a_pin">创建你的密码</string>
+  <string name="KbsMegaphone__create_a_pin">创建 PIN 码</string>
   <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">Signal 储存的信息使用你的 PIN 码来加密。</string>
-  <string name="KbsMegaphone__create_pin">创建密码</string>
+  <string name="KbsMegaphone__create_pin">创建 PIN 码</string>
   <!--Research Megaphone-->
   <string name="ResearchMegaphone_tell_signal_what_you_think">发表您的 Signal 的感想</string>
   <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">您的意见将成为 Signal 称霸即时通信界的基础，我们期待您的反馈！</string>
@@ -2127,9 +2230,13 @@
   <string name="backup_enable_dialog__folder">文件夹</string>
   <string name="backup_enable_dialog__i_have_written_down_this_passphrase">我也记下该密码。没有密码，将无法恢复备份。</string>
   <string name="registration_activity__restore_backup">恢复备份</string>
+  <string name="registration_activity__transfer_or_restore_account">转移或还原帐户</string>
+  <string name="registration_activity__transfer_account">转移帐户</string>
   <string name="registration_activity__skip">跳过</string>
   <string name="preferences_chats__chat_backups">聊天备份</string>
   <string name="preferences_chats__backup_chats_to_external_storage">备份聊天至外部存储</string>
+  <string name="preferences_chats__transfer_account">转移帐户</string>
+  <string name="preferences_chats__transfer_account_to_a_new_android_device">转移帐户至新的 Android 设备</string>
   <string name="RegistrationActivity_enter_backup_passphrase">输入备份密码</string>
   <string name="RegistrationActivity_restore">恢复</string>
   <string name="RegistrationActivity_backup_failure_downgrade">无法从较新版本的 Signal 导入备份</string>
@@ -2137,7 +2244,7 @@
   <string name="RegistrationActivity_checking">正在检查…</string>
   <string name="RegistrationActivity_d_messages_so_far">已处理 %d 条消息…</string>
   <string name="RegistrationActivity_restore_from_backup">是否从备份进行恢复？</string>
-  <string name="RegistrationActivity_restore_your_messages_and_media_from_a_local_backup">从本地备份恢复你的消息和媒体。如果现在不进行备份，以后将无法恢复。</string>
+  <string name="RegistrationActivity_restore_your_messages_and_media_from_a_local_backup">从本地备份还原消息和媒体。如果现在不进行还原，以后将无法还原。</string>
   <string name="RegistrationActivity_backup_size_s">备份大小：%s</string>
   <string name="RegistrationActivity_backup_timestamp_s">备份时间戳：%s</string>
   <string name="BackupDialog_enable_local_backups">启用本地备份？</string>
@@ -2174,19 +2281,19 @@
   <string name="PhoneNumberPrivacy_nobody">没有人</string>
   <string name="PhoneNumberPrivacy_everyone_see_description">您的电话号码将对所有对话者和群组成员可见。</string>
   <string name="PhoneNumberPrivacy_everyone_find_description">电话簿里存有您电话号码的用户会在 Signal 联系人列表里看到您。其它知晓您电话号码的用户将能在搜索界面找到您。</string>
-  <string name="preferences_app_protection__screen_lock">锁屏</string>
+  <string name="preferences_app_protection__screen_lock">屏幕锁定</string>
   <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">使用 Android 锁屏或者指纹锁定 Signal</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">不活跃锁屏逾时</string>
-  <string name="preferences_app_protection__signal_pin">Signal PIN 密码</string>
-  <string name="preferences_app_protection__create_a_pin">创建你的密码</string>
-  <string name="preferences_app_protection__change_your_pin">更改 PIN</string>
-  <string name="preferences_app_protection__pin_reminders">PIN 提醒</string>
+  <string name="preferences_app_protection__signal_pin">Signal PIN 码</string>
+  <string name="preferences_app_protection__create_a_pin">创建 PIN 码</string>
+  <string name="preferences_app_protection__change_your_pin">更改 PIN 码</string>
+  <string name="preferences_app_protection__pin_reminders">PIN 码提醒</string>
   <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PIN 用于加密 Signal 存储的信息，这样只有你可以访问。重装 Signal 之后，可恢复你的个人资料、设置和联系人。</string>
   <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">再次使用电话号码注册 Signal 时，要求输入 PIN，这样提供了更多安全性。</string>
   <string name="preferences_app_protection__reminders_help_you_remember_your_pin">PIN 无法恢复，提醒有助于记住它。提醒频率将逐渐降低。</string>
   <string name="preferences_app_protection__turn_off">关闭</string>
   <string name="preferences_app_protection__confirm_pin">确认 PIN</string>
-  <string name="preferences_app_protection__confirm_your_signal_pin">请验证你的 Signal 安全码</string>
+  <string name="preferences_app_protection__confirm_your_signal_pin">请确认您的 Signal PIN 码</string>
   <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">请确保你能牢记或安全保存好你的 PIN 码，因为它不能被找回。如果你忘记了 PIN 码，你可能会在重新注册 Signal 账号时丢失一些数据。</string>
   <string name="preferences_app_protection__incorrect_pin_try_again">PIN 错误，请重试。</string>
   <string name="preferences_app_protection__failed_to_enable_registration_lock">无法启用注册锁。</string>
@@ -2198,11 +2305,124 @@
   <string name="RegistrationActivity_too_many_attempts">尝试次数过多</string>
   <string name="RegistrationActivity_you_have_made_too_many_incorrect_registration_lock_pin_attempts_please_try_again_in_a_day">注册锁定 PIN 输入错误过多，请一天后重试。</string>
   <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">您的尝试次数过多，请稍候再试。</string>
-  <string name="RegistrationActivity_error_connecting_to_service">连接至服务时出错</string>
+  <string name="RegistrationActivity_error_connecting_to_service">连接服务出错</string>
   <string name="preferences_chats__backups">备份</string>
   <string name="prompt_passphrase_activity__signal_is_locked">Signal 已锁定</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">点击解锁</string>
   <string name="Recipient_unknown">未知</string>
+  <!--TransferOrRestoreFragment-->
+  <string name="TransferOrRestoreFragment__transfer_or_restore_account">转移或还原帐户</string>
+  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">如果之前已注册 Signal 帐户，可转移或还原您的帐户和消息</string>
+  <string name="TransferOrRestoreFragment__transfer_from_android_device">从 Android 设备转移</string>
+  <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">从旧的 Android 设备转移您的帐户和消息。您需要可访问旧设备。</string>
+  <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">您需要可访问旧设备。</string>
+  <string name="TransferOrRestoreFragment__restore_from_backup">从备份还原</string>
+  <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">从本地备份还原消息。如果现在不进行还原，以后将无法还原。</string>
+  <!--NewDeviceTransferInstructionsFragment-->
+  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">在旧的 Android 手机上打开 Signal</string>
+  <string name="NewDeviceTransferInstructions__continue">继续</string>
+  <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
+  <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">点击左上侧个人资料图片，打开设置。</string>
+  <string name="NewDeviceTransferInstructions__second_bullet">2.</string>
+  <string name="NewDeviceTransferInstructions__tap_on_chats">点击“对话”</string>
+  <string name="NewDeviceTransferInstructions__third_bullet">3.</string>
+  <string name="NewDeviceTransferInstructions__tap_transfer_account_and_then_continue_on_both_devices">在两个设备，点击“转移帐户”，然后选择“继续”</string>
+  <!--NewDeviceTransferSetupFragment-->
+  <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">正在准备连接至旧的 Android 设备…</string>
+  <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">请稍等，将很快准备就绪</string>
+  <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">正在等待旧的 Android 设备连接…</string>
+  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Signal 需位置权限，以发现并连接旧的 Android 设备。</string>
+  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Signal 需已启用的位置服务，以发现并连接旧的 Android 设备。</string>
+  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Signal 需开启的 Wi-Fi，以发现并连接旧的 Android 设备。Wi-Fi 需开启但不必连接 Wi-Fi 网络。</string>
+  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">抱歉，该设备好像不支持 Wi-Fi Direct。Signal 通过 Wi-Fi Direct 来发现并连接旧的 Android 设备。仍可通过从旧的 Android 设备还原帐户来还原备份。</string>
+  <string name="NewDeviceTransferSetup__restore_a_backup">还原备份</string>
+  <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">尝试连接旧的 Android 设备时，发生意外错误。</string>
+  <!--OldDeviceTransferSetupFragment-->
+  <string name="OldDeviceTransferSetup__searching_for_new_android_device">正在搜索新的 Android 设备…</string>
+  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Signal 需位置权限，以发现并连接新的 Android 设备。</string>
+  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Signal 需已启用的位置服务，以发现并连接新的 Android 设备。</string>
+  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Signal 需开启的 Wi-Fi，以发现并连接新的 Android 设备。Wi-Fi 需开启但不必连接 Wi-Fi 网络。</string>
+  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">抱歉，该设备好像不支持 Wi-Fi Direct。Signal 通过 Wi-Fi Direct 来发现并连接新的 Android 设备。仍可通过从新的 Android 设备还原帐户来还原备份。</string>
+  <string name="OldDeviceTransferSetup__create_a_backup">创建备份</string>
+  <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">尝试连接新的 Android 设备时，发生意外错误。</string>
+  <!--DeviceTransferSetupFragment-->
+  <string name="DeviceTransferSetup__unable_to_open_wifi_settings">无法打开 Wi-Fi 设置，请手动开启 Wi-Fi。</string>
+  <string name="DeviceTransferSetup__grant_location_permission">授予位置权限</string>
+  <string name="DeviceTransferSetup__turn_on_location_services">开启位置服务</string>
+  <string name="DeviceTransferSetup__unable_to_open_location_settings">无法打开位置设置。</string>
+  <string name="DeviceTransferSetup__turn_on_wifi">开启 Wi-Fi</string>
+  <string name="DeviceTransferSetup__error_connecting">连接时出错</string>
+  <string name="DeviceTransferSetup__retry">重试</string>
+  <string name="DeviceTransferSetup__submit_debug_logs">提交调试日志</string>
+  <string name="DeviceTransferSetup__verify_code">验证代码</string>
+  <string name="DeviceTransferSetup__verify_that_the_code_below_matches_on_both_of_your_devices">请验证下方代码在两个设备上匹配，然后点击继续。</string>
+  <string name="DeviceTransferSetup__the_numbers_do_not_match">代码不匹配</string>
+  <string name="DeviceTransferSetup__continue">继续</string>
+  <string name="DeviceTransferSetup__number_is_not_the_same">代码不同</string>
+  <string name="DeviceTransferSetup__if_the_numbers_on_your_devices_do_not_match_its_possible_you_connected_to_the_wrong_device">如果设备上的代码不匹配，可能连接了错误的设备。请停止转移并重试，保持两个设备贴近。</string>
+  <string name="DeviceTransferSetup__stop_transfer">停止转移</string>
+  <string name="DeviceTransferSetup__unable_to_discover_old_device">找不到旧设备</string>
+  <string name="DeviceTransferSetup__unable_to_discover_new_device">找不到新设备</string>
+  <string name="DeviceTransferSetup__make_sure_the_following_permissions_are_enabled">请确保启用以下权限和服务：</string>
+  <string name="DeviceTransferSetup__location_permission">位置权限</string>
+  <string name="DeviceTransferSetup__location_services">位置服务</string>
+  <string name="DeviceTransferSetup__wifi">Wi-Fi</string>
+  <string name="DeviceTransferSetup__on_the_wifi_direct_screen_remove_all_remembered_groups_and_unlink_any_invited_or_connected_devices">在 WiFi Direct 屏幕，移除全部记住的群组，并取消关联任何邀请或关联的设备。</string>
+  <string name="DeviceTransferSetup__wifi_direct_screen">WiFi Direct 屏幕</string>
+  <string name="DeviceTransferSetup__try_turning_wifi_off_and_on_on_both_devices">在两个设备上，尝试开启并关闭 Wi-Fi。</string>
+  <string name="DeviceTransferSetup__make_sure_both_devices_are_in_transfer_mode">请确保两个设备处于转移模式。</string>
+  <string name="DeviceTransferSetup__go_to_support_page">访问支持页面</string>
+  <string name="DeviceTransferSetup__try_again">重试</string>
+  <string name="DeviceTransferSetup__waiting_for_other_device">正在等待另一个设备</string>
+  <string name="DeviceTransferSetup__tap_continue_on_your_other_device_to_start_the_transfer">在另一设备上点击“继续”，开始转移。</string>
+  <string name="DeviceTransferSetup__tap_continue_on_your_other_device">在另一设备上点击“继续”…</string>
+  <!--NewDeviceTransferFragment-->
+  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">无法从较新版 Signal 转移</string>
+  <!--DeviceTransferFragment-->
+  <string name="DeviceTransfer__transferring_data">正在转移数据</string>
+  <string name="DeviceTransfer__keep_both_devices_near_each_other">请确保两个设备互相贴近。不要关闭设备，并保持 Signal 运行。转移是端对端加密的。</string>
+  <string name="DeviceTransfer__d_messages_so_far">目前 %1$d 消息…</string>
+  <string name="DeviceTransfer__cancel">取消</string>
+  <string name="DeviceTransfer__try_again">重试</string>
+  <string name="DeviceTransfer__stop_transfer_question">停止转移？</string>
+  <string name="DeviceTransfer__stop_transfer">停止转移</string>
+  <string name="DeviceTransfer__all_transfer_progress_will_be_lost">将丢失全部转移数据。</string>
+  <string name="DeviceTransfer__transfer_failed">转移失败</string>
+  <string name="DeviceTransfer__unable_to_transfer">无法转移</string>
+  <!--OldDeviceTransferInstructionsFragment-->
+  <string name="OldDeviceTransferInstructions__transfer_account">转移帐户</string>
+  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">在新的 Android 设备上设置 Signal 时，可转移您的 Signal 帐户。在继续下一步之前：</string>
+  <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
+  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">在新的 Android 设备上下载 Signal</string>
+  <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
+  <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">点击“转移或还原帐户”</string>
+  <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
+  <string name="OldDeviceTransferInstructions__select_transfer_from_android_device_when_prompted_and_then_continue">出现提示时选择“从 Android 设备转移”，然后选择“继续”。保持两个设备互相贴近。</string>
+  <string name="OldDeviceTransferInstructions__continue">继续</string>
+  <!--OldDeviceTransferComplete-->
+  <string name="OldDeviceTransferComplete__transfer_complete">转移完成</string>
+  <string name="OldDeviceTransferComplete__go_to_your_new_device">转至新设备</string>
+  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">您的 Signal 数据已转移至新设备。为了完成转移流程，必须在新设备上继续注册。</string>
+  <string name="OldDeviceTransferComplete__close">关闭</string>
+  <!--NewDeviceTransferComplete-->
+  <string name="NewDeviceTransferComplete__transfer_successful">成功转移 </string>
+  <string name="NewDeviceTransferComplete__transfer_complete">转移完成</string>
+  <string name="NewDeviceTransferComplete__to_complete_the_transfer_process_you_must_continue_registration">为了完成转移流程，必须继续注册。</string>
+  <string name="NewDeviceTransferComplete__continue_registration">继续注册</string>
+  <!--DeviceToDeviceTransferService-->
+  <string name="DeviceToDeviceTransferService_content_title">帐户转移</string>
+  <string name="DeviceToDeviceTransferService_status_ready">正在准备连接其他 Android 设备…</string>
+  <string name="DeviceToDeviceTransferService_status_starting_up">正在准备连接其他 Android 设备…</string>
+  <string name="DeviceToDeviceTransferService_status_discovery">正在搜索其他 Android 设备…</string>
+  <string name="DeviceToDeviceTransferService_status_network_connected">正在连接其他 Android 设备…</string>
+  <string name="DeviceToDeviceTransferService_status_verification_required">需要验证</string>
+  <string name="DeviceToDeviceTransferService_status_service_connected">正在转移帐户…</string>
+  <!--OldDeviceTransferLockedDialog-->
+  <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">在新设备上完成注册</string>
+  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">您的 Signal 帐户已转移到新设备，但必须在该设备上完成注册以继续。该设备上的 Signal 将停用。</string>
+  <string name="OldDeviceTransferLockedDialog__done">完成</string>
+  <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">取消并激活该设备</string>
+  <!--AdvancedPreferenceFragment-->
   <!--RecipientBottomSheet-->
   <string name="RecipientBottomSheet_block">屏蔽</string>
   <string name="RecipientBottomSheet_unblock">取消屏蔽</string>
@@ -2212,18 +2432,18 @@
   <string name="RecipientBottomSheet_view_safety_number">查看安全码</string>
   <string name="RecipientBottomSheet_make_group_admin">设为群组管理员</string>
   <string name="RecipientBottomSheet_remove_as_admin">取消其管理员身份</string>
-  <string name="RecipientBottomSheet_remove_from_group">移出群组</string>
+  <string name="RecipientBottomSheet_remove_from_group">从群组移除</string>
   <string name="RecipientBottomSheet_message_description">消息</string>
   <string name="RecipientBottomSheet_voice_call_description">语音通话</string>
   <string name="RecipientBottomSheet_insecure_voice_call_description">未加密的语音通话</string>
   <string name="RecipientBottomSheet_video_call_description">视频通话</string>
   <string name="RecipientBottomSheet_remove_s_as_group_admin">取消 %1$s 的管理员身份？</string>
   <string name="RecipientBottomSheet_s_will_be_able_to_edit_group">“%1$s” 将能编辑此群组及其成员。</string>
-  <string name="RecipientBottomSheet_remove_s_from_the_group">将 %1$s 移出此群组？</string>
-  <string name="RecipientBottomSheet_remove">删除</string>
+  <string name="RecipientBottomSheet_remove_s_from_the_group">将 %1$s 从群组移除？</string>
+  <string name="RecipientBottomSheet_remove">移除</string>
   <string name="RecipientBottomSheet_copied_to_clipboard">已复制到剪切板</string>
   <string name="GroupRecipientListItem_admin">管理员</string>
-  <string name="GroupRecipientListItem_approve_description">同意</string>
+  <string name="GroupRecipientListItem_approve_description">批准</string>
   <string name="GroupRecipientListItem_deny_description">拒绝</string>
   <!--GroupsLearnMoreBottomSheetDialogFragment-->
   <string name="GroupsLearnMore_legacy_vs_new_groups">新旧版群组对比</string>
@@ -2233,6 +2453,8 @@
   <string name="GroupsLearnMore_paragraph_2">旧版群组暂时无法升级为新版群组，但若群成员都已升级到最新版 Signal，您可以创建一个包含相同成员的新版群组。</string>
   <string name="GroupsLearnMore_paragraph_3">Signal 将在未来提供升级旧版群组的渠道。</string>
   <!--GroupLinkBottomSheetDialogFragment-->
+  <string name="GroupLinkBottomSheet_share_hint_requiring_approval">任何人都能凭此链接查看群组名称和头像，并提交入群申请。请仅分享给您信任的人。</string>
+  <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">任何人都能凭此链接查看群组名称和头像，并加入群组。请仅分享给您信任的人。</string>
   <string name="GroupLinkBottomSheet_share_via_signal">通过 Signal 分享</string>
   <string name="GroupLinkBottomSheet_copy">复制</string>
   <string name="GroupLinkBottomSheet_qr_code">QR 代码</string>
@@ -2261,14 +2483,14 @@
   <plurals name="ReviewCardDialogFragment__d_groups_in_common">
     <item quantity="other">%d 个共同群组</item>
   </plurals>
-  <string name="ReviewCardDialogFragment__remove_s_from_group">将 %1$s 移出群组？</string>
-  <string name="ReviewCardDialogFragment__remove">删除</string>
-  <string name="ReviewCardDialogFragment__failed_to_remove_group_member">移出群成员失败。</string>
+  <string name="ReviewCardDialogFragment__remove_s_from_group">将 %1$s 从群组移除？</string>
+  <string name="ReviewCardDialogFragment__remove">移除</string>
+  <string name="ReviewCardDialogFragment__failed_to_remove_group_member">移除群组成员失败。</string>
   <!--ReviewCard-->
   <string name="ReviewCard__member">成员</string>
   <string name="ReviewCard__request">入群请求</string>
   <string name="ReviewCard__your_contact">您的联系人</string>
-  <string name="ReviewCard__remove_from_group">移出群组</string>
+  <string name="ReviewCard__remove_from_group">从群组移除</string>
   <string name="ReviewCard__update_contact">更新联系人</string>
   <string name="ReviewCard__block">屏蔽</string>
   <string name="ReviewCard__delete">删除</string>
@@ -2345,5 +2567,35 @@
   <string name="WallpaperCropActivity__set_wallpaper_for_s">对 %s 设置墙纸。</string>
   <string name="WallpaperCropActivity__error_setting_wallpaper">设置墙纸出错。</string>
   <string name="WallpaperCropActivity__blur_photo">模糊图片</string>
+  <!--InfoCard-->
+  <string name="payment_info_card_about_mobilecoin">关于 MobileCoin</string>
+  <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">MobileCoin 是一种关注隐私的新数字货币。</string>
+  <string name="payment_info_card_you_can_add_funds_for_use_in">通过将 MobileCoin 发送至钱包地址，即可在 Signal 中添加并使用资金。</string>
+  <string name="payment_info_card_you_can_cash_out_mobilecoin">在支持 MobileCoin 的交易平台上，可随时兑现 MobileCoin。只需在该交易平台上，将资金转移至您的帐户。</string>
+  <string name="payment_info_card_hide">隐藏</string>
+  <string name="payment_info_card_update_pin">更新 PIN</string>
+  <!--DeactivateWalletFragment-->
+  <string name="DeactivateWalletFragment__deactivate">停用</string>
+  <string name="DeactivateWalletFragment__your_balance_will_remain">当重新激活支付时，您的余额将保留在 Signal 关联的钱包内。</string>
+  <!--PaymentsRecoveryStartFragment-->
+  <string name="PaymentsRecoveryStartFragment__start">开始</string>
+  <!--PaymentsRecoveryPasteFragment-->
+  <string name="PaymentsRecoveryPasteFragment__next">下一步</string>
+  <!--PaymentsRecoveryPhraseFragment-->
+  <string name="PaymentsRecoveryPhraseFragment__next">下一步</string>
+  <string name="PaymentsRecoveryPhraseFragment__edit">编辑</string>
+  <string name="PaymentsRecoveryPhraseFragment__previous">上一</string>
+  <string name="PaymentsRecoveryPhraseFragment__copy">复制</string>
+  <!--PaymentsRecoveryPhraseConfirmFragment-->
+  <string name="PaymentRecoveryPhraseConfirmFragment__done">完成</string>
+  <!--PaymentsRecoveryEntryFragment-->
+  <string name="PaymentsRecoveryEntryFragment__next">下一步</string>
+  <!--ClearClipboardAlarmReceiver-->
+  <!--PaymentNotificationsView-->
+  <string name="PaymentNotificationsView__view">查看</string>
+  <!--UnreadPayments-->
+  <!--CanNotSendPaymentDialog-->
+  <string name="CanNotSendPaymentDialog__to_send_a_payment_to_this_user">为了发送支付，该用户需接受您的消息请求。请向他们发送消息，来创建消息请求。</string>
+  <string name="CanNotSendPaymentDialog__send_a_message">发送消息</string>
   <!--EOF-->
 </resources>

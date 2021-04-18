@@ -18,11 +18,17 @@ import org.thoughtcrime.securesms.megaphone.MegaphoneRepository;
 import org.thoughtcrime.securesms.messages.BackgroundMessageRetriever;
 import org.thoughtcrime.securesms.messages.IncomingMessageObserver;
 import org.thoughtcrime.securesms.messages.IncomingMessageProcessor;
+import org.thoughtcrime.securesms.net.PipeConnectivityListener;
 import org.thoughtcrime.securesms.notifications.MessageNotifier;
+import org.thoughtcrime.securesms.payments.Payments;
 import org.thoughtcrime.securesms.push.SignalServiceNetworkAccess;
 import org.thoughtcrime.securesms.recipients.LiveRecipientCache;
+import org.thoughtcrime.securesms.revealable.ViewOnceMessageManager;
+import org.thoughtcrime.securesms.service.ExpiringMessageManager;
 import org.thoughtcrime.securesms.service.TrimThreadsByDateManager;
+import org.thoughtcrime.securesms.service.webrtc.SignalCallManager;
 import org.thoughtcrime.securesms.shakereport.ShakeToReport;
+import org.thoughtcrime.securesms.util.AppForegroundObserver;
 import org.thoughtcrime.securesms.util.EarlyMessageCache;
 import org.thoughtcrime.securesms.util.FrameRateTracker;
 import org.thoughtcrime.securesms.util.Hex;
@@ -48,9 +54,10 @@ public class ApplicationDependencies {
   private static final Object FRAME_RATE_TRACKER_LOCK = new Object();
   private static final Object JOB_MANAGER_LOCK        = new Object();
 
-  private static Application     application;
-  private static Provider        provider;
-  private static MessageNotifier messageNotifier;
+  private static Application           application;
+  private static Provider              provider;
+  private static MessageNotifier       messageNotifier;
+  private static AppForegroundObserver appForegroundObserver;
 
   private static volatile SignalServiceAccountManager  accountManager;
   private static volatile SignalServiceMessageSender   messageSender;
@@ -70,7 +77,11 @@ public class ApplicationDependencies {
   private static volatile TypingStatusSender           typingStatusSender;
   private static volatile DatabaseObserver             databaseObserver;
   private static volatile TrimThreadsByDateManager     trimThreadsByDateManager;
+  private static volatile ViewOnceMessageManager       viewOnceMessageManager;
+  private static volatile ExpiringMessageManager       expiringMessageManager;
+  private static volatile Payments                     payments;
   private static volatile ShakeToReport                shakeToReport;
+  private static volatile SignalCallManager            signalCallManager;
 
   @MainThread
   public static void init(@NonNull Application application, @NonNull Provider provider) {
@@ -79,9 +90,12 @@ public class ApplicationDependencies {
         throw new IllegalStateException("Already initialized!");
       }
 
-      ApplicationDependencies.application              = application;
-      ApplicationDependencies.provider                 = provider;
-      ApplicationDependencies.messageNotifier          = provider.provideMessageNotifier();
+      ApplicationDependencies.application           = application;
+      ApplicationDependencies.provider              = provider;
+      ApplicationDependencies.messageNotifier       = provider.provideMessageNotifier();
+      ApplicationDependencies.appForegroundObserver = provider.provideAppForegroundObserver();
+
+      ApplicationDependencies.appForegroundObserver.begin();
     }
   }
 
@@ -89,16 +103,23 @@ public class ApplicationDependencies {
     return application;
   }
 
+  public static @NonNull PipeConnectivityListener getPipeListener() {
+    return provider.providePipeListener();
+  }
+
   public static @NonNull SignalServiceAccountManager getSignalServiceAccountManager() {
-    if (accountManager == null) {
-      synchronized (LOCK) {
-        if (accountManager == null) {
-          accountManager = provider.provideSignalServiceAccountManager();
-        }
-      }
+    SignalServiceAccountManager local = accountManager;
+
+    if (local != null) {
+      return local;
     }
 
-    return accountManager;
+    synchronized (LOCK) {
+      if (accountManager == null) {
+        accountManager = provider.provideSignalServiceAccountManager();
+      }
+      return accountManager;
+    }
   }
 
   public static @NonNull GroupsV2Authorization getGroupsV2Authorization() {
@@ -147,6 +168,12 @@ public class ApplicationDependencies {
   }
 
   public static @NonNull SignalServiceMessageSender getSignalServiceMessageSender() {
+    SignalServiceMessageSender local = messageSender;
+
+    if (local != null) {
+      return local;
+    }
+
     synchronized (LOCK) {
       if (messageSender == null) {
         messageSender = provider.provideSignalServiceMessageSender();
@@ -156,26 +183,46 @@ public class ApplicationDependencies {
             IncomingMessageObserver.getUnidentifiedPipe(),
             TextSecurePreferences.isMultiDevice(application));
       }
+      return messageSender;
     }
-
-    return messageSender;
   }
 
   public static @NonNull SignalServiceMessageReceiver getSignalServiceMessageReceiver() {
-    if (messageReceiver == null) {
-      synchronized (LOCK) {
-        if (messageReceiver == null) {
-          messageReceiver = provider.provideSignalServiceMessageReceiver();
-        }
+    synchronized (LOCK) {
+      if (messageReceiver == null) {
+        messageReceiver = provider.provideSignalServiceMessageReceiver();
       }
+      return messageReceiver;
     }
-
-    return messageReceiver;
   }
 
   public static void resetSignalServiceMessageReceiver() {
     synchronized (LOCK) {
       messageReceiver = null;
+    }
+  }
+
+  public static void closeConnections() {
+    synchronized (LOCK) {
+      if (incomingMessageObserver != null) {
+        incomingMessageObserver.terminateAsync();
+      }
+
+      if (messageSender != null) {
+        messageSender.cancelInFlightRequests();
+      }
+
+      incomingMessageObserver = null;
+      messageReceiver         = null;
+      accountManager          = null;
+      messageSender           = null;
+    }
+  }
+
+  public static void resetNetworkConnectionsAfterProxyChange() {
+    synchronized (LOCK) {
+      getPipeListener().reset();
+      closeConnections();
     }
   }
 
@@ -272,15 +319,18 @@ public class ApplicationDependencies {
   }
 
   public static @NonNull IncomingMessageObserver getIncomingMessageObserver() {
-    if (incomingMessageObserver == null) {
-      synchronized (LOCK) {
-        if (incomingMessageObserver == null) {
-          incomingMessageObserver = provider.provideIncomingMessageObserver();
-        }
-      }
+    IncomingMessageObserver local = incomingMessageObserver;
+
+    if (local != null) {
+      return local;
     }
 
-    return incomingMessageObserver;
+    synchronized (LOCK) {
+      if (incomingMessageObserver == null) {
+        incomingMessageObserver = provider.provideIncomingMessageObserver();
+      }
+      return incomingMessageObserver;
+    }
   }
 
   public static @NonNull TrimThreadsByDateManager getTrimThreadsByDateManager() {
@@ -295,9 +345,37 @@ public class ApplicationDependencies {
     return trimThreadsByDateManager;
   }
 
+  public static @NonNull ViewOnceMessageManager getViewOnceMessageManager() {
+    if (viewOnceMessageManager == null) {
+      synchronized (LOCK) {
+        if (viewOnceMessageManager == null) {
+          viewOnceMessageManager = provider.provideViewOnceMessageManager();
+        }
+      }
+    }
+
+    return viewOnceMessageManager;
+  }
+
+  public static @NonNull ExpiringMessageManager getExpiringMessageManager() {
+    if (expiringMessageManager == null) {
+      synchronized (LOCK) {
+        if (expiringMessageManager == null) {
+          expiringMessageManager = provider.provideExpiringMessageManager();
+        }
+      }
+    }
+
+    return expiringMessageManager;
+  }
+
   public static TypingStatusRepository getTypingStatusRepository() {
     if (typingStatusRepository == null) {
-      typingStatusRepository = provider.provideTypingStatusRepository();
+      synchronized (LOCK) {
+        if (typingStatusRepository == null) {
+          typingStatusRepository = provider.provideTypingStatusRepository();
+        }
+      }
     }
 
     return typingStatusRepository;
@@ -305,7 +383,11 @@ public class ApplicationDependencies {
 
   public static TypingStatusSender getTypingStatusSender() {
     if (typingStatusSender == null) {
-      typingStatusSender = provider.provideTypingStatusSender();
+      synchronized (LOCK) {
+        if (typingStatusSender == null) {
+          typingStatusSender = provider.provideTypingStatusSender();
+        }
+      }
     }
 
     return typingStatusSender;
@@ -323,6 +405,18 @@ public class ApplicationDependencies {
     return databaseObserver;
   }
 
+  public static @NonNull Payments getPayments() {
+    if (payments == null) {
+      synchronized (LOCK) {
+        if (payments == null) {
+          payments = provider.providePayments(getSignalServiceAccountManager());
+        }
+      }
+    }
+
+    return payments;
+  }
+
   public static @NonNull ShakeToReport getShakeToReport() {
     if (shakeToReport == null) {
       synchronized (LOCK) {
@@ -335,7 +429,25 @@ public class ApplicationDependencies {
     return shakeToReport;
   }
 
+  public static @NonNull SignalCallManager getSignalCallManager() {
+    if (signalCallManager == null) {
+      synchronized (LOCK) {
+        if (signalCallManager == null) {
+          signalCallManager = provider.provideSignalCallManager();
+        }
+      }
+    }
+
+    return signalCallManager;
+  }
+
+  public static @NonNull AppForegroundObserver getAppForegroundObserver() {
+    return appForegroundObserver;
+  }
+
+
   public interface Provider {
+    @NonNull PipeConnectivityListener providePipeListener();
     @NonNull GroupsV2Operations provideGroupsV2Operations();
     @NonNull SignalServiceAccountManager provideSignalServiceAccountManager();
     @NonNull SignalServiceMessageSender provideSignalServiceMessageSender();
@@ -351,9 +463,14 @@ public class ApplicationDependencies {
     @NonNull MessageNotifier provideMessageNotifier();
     @NonNull IncomingMessageObserver provideIncomingMessageObserver();
     @NonNull TrimThreadsByDateManager provideTrimThreadsByDateManager();
+    @NonNull ViewOnceMessageManager provideViewOnceMessageManager();
+    @NonNull ExpiringMessageManager provideExpiringMessageManager();
     @NonNull TypingStatusRepository provideTypingStatusRepository();
     @NonNull TypingStatusSender provideTypingStatusSender();
     @NonNull DatabaseObserver provideDatabaseObserver();
+    @NonNull Payments providePayments(@NonNull SignalServiceAccountManager signalServiceAccountManager);
     @NonNull ShakeToReport provideShakeToReport();
+    @NonNull AppForegroundObserver provideAppForegroundObserver();
+    @NonNull SignalCallManager provideSignalCallManager();
   }
 }

@@ -17,11 +17,13 @@ import org.thoughtcrime.securesms.jobmanager.persistence.JobSpec;
 import org.thoughtcrime.securesms.jobmanager.persistence.JobStorage;
 import org.thoughtcrime.securesms.util.Debouncer;
 import org.thoughtcrime.securesms.util.FeatureFlags;
+import org.thoughtcrime.securesms.util.SetUtil;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
@@ -34,7 +36,7 @@ import java.util.concurrent.TimeUnit;
  */
 class JobController {
 
-  private static final String TAG = JobController.class.getSimpleName();
+  private static final String TAG = Log.tag(JobController.class);
 
   private final Application            application;
   private final JobStorage             jobStorage;
@@ -111,17 +113,30 @@ class JobController {
       return;
     }
 
-    Set<String> dependsOnSet = Stream.of(dependsOn)
-                                     .filter(id -> jobStorage.getJobSpec(id) != null)
-                                     .collect(Collectors.toSet());
+    Set<String> allDependsOn   = new HashSet<>(dependsOn);
+    Set<String> aliveDependsOn = Stream.of(dependsOn)
+                                       .filter(id -> jobStorage.getJobSpec(id) != null)
+                                       .collect(Collectors.toSet());
 
     if (dependsOnQueue != null) {
-      dependsOnSet.addAll(Stream.of(jobStorage.getJobsInQueue(dependsOnQueue))
-                                .map(JobSpec::getId)
-                                .toList());
+      List<String> inQueue = Stream.of(jobStorage.getJobsInQueue(dependsOnQueue))
+                                   .map(JobSpec::getId)
+                                   .toList();
+
+      allDependsOn.addAll(inQueue);
+      aliveDependsOn.addAll(inQueue);
     }
 
-    FullSpec fullSpec = buildFullSpec(job, dependsOnSet);
+    if (jobTracker.haveAnyFailed(allDependsOn)) {
+      Log.w(TAG, "This job depends on a job that failed! Failing this job immediately.");
+      List<Job> dependents = onFailure(job);
+      job.setContext(application);
+      job.onFailure();
+      Stream.of(dependents).forEach(Job::onFailure);
+      return;
+    }
+
+    FullSpec fullSpec = buildFullSpec(job, aliveDependsOn);
     jobStorage.insertJobs(Collections.singletonList(fullSpec));
 
     scheduleJobs(Collections.singletonList(job));
@@ -145,8 +160,9 @@ class JobController {
         Log.w(TAG, JobLogger.format(job, "Job failed."));
 
         job.cancel();
+        List<Job> dependents = onFailure(job);
         job.onFailure();
-        onFailure(job);
+        Stream.of(dependents).forEach(Job::onFailure);
       } else {
         Log.w(TAG, "Tried to cancel JOB::" + id + ", but it could not be found.");
       }
@@ -161,9 +177,13 @@ class JobController {
   }
 
   @WorkerThread
-  synchronized void onRetry(@NonNull Job job) {
+  synchronized void onRetry(@NonNull Job job, long backoffInterval) {
+    if (backoffInterval <= 0) {
+      throw new IllegalArgumentException("Invalid backoff interval! " + backoffInterval);
+    }
+
     int    nextRunAttempt     = job.getRunAttempt() + 1;
-    long   nextRunAttemptTime = calculateNextRunAttemptTime(System.currentTimeMillis(), nextRunAttempt, TimeUnit.SECONDS.toMillis(FeatureFlags.getDefaultMaxBackoffSeconds()));
+    long   nextRunAttemptTime = System.currentTimeMillis() + backoffInterval;
     String serializedData     = dataSerializer.serialize(job.serialize());
 
     jobStorage.updateJobAfterRetry(job.getId(), false, nextRunAttempt, nextRunAttemptTime, serializedData);
@@ -296,6 +316,10 @@ class JobController {
     return info.toString();
   }
 
+  synchronized boolean areQueuesEmpty(@NonNull Set<String> queueKeys) {
+    return jobStorage.areQueuesEmpty(queueKeys);
+  }
+
   @WorkerThread
   private boolean chainExceedsMaximumInstances(@NonNull List<List<Job>> chain) {
     if (chain.size() == 1 && chain.get(0).size() == 1) {
@@ -310,7 +334,7 @@ class JobController {
 
       boolean exceedsQueue   = solo.getParameters().getQueue() != null                                    &&
                                solo.getParameters().getMaxInstancesForQueue() != Job.Parameters.UNLIMITED &&
-                               jobStorage.getJobCountForQueue(solo.getParameters().getQueue()) >= solo.getParameters().getMaxInstancesForQueue();
+                               jobStorage.getJobCountForFactoryAndQueue(solo.getFactoryKey(), solo.getParameters().getQueue()) >= solo.getParameters().getMaxInstancesForQueue();
 
       if (exceedsQueue) {
         return true;
@@ -355,7 +379,6 @@ class JobController {
                                   job.getNextRunAttemptTime(),
                                   job.getRunAttempt(),
                                   job.getParameters().getMaxAttempts(),
-                                  job.getParameters().getMaxBackoff(),
                                   job.getParameters().getLifespan(),
                                   dataSerializer.serialize(job.serialize()),
                                   null,
@@ -447,20 +470,8 @@ class JobController {
                   .setMaxAttempts(jobSpec.getMaxAttempts())
                   .setQueue(jobSpec.getQueueKey())
                   .setConstraints(Stream.of(constraintSpecs).map(ConstraintSpec::getFactoryKey).toList())
-                  .setMaxBackoff(jobSpec.getMaxBackoff())
                   .setInputData(jobSpec.getSerializedInputData() != null ? dataSerializer.deserialize(jobSpec.getSerializedInputData()) : null)
                   .build();
-  }
-
-  private long calculateNextRunAttemptTime(long currentTime, int nextAttempt, long maxBackoff) {
-    int    boundedAttempt     = Math.min(nextAttempt, 30);
-    long   exponentialBackoff = (long) Math.pow(2, boundedAttempt) * 1000;
-    long   actualBackoff      = Math.min(exponentialBackoff, maxBackoff);
-    double jitter             = 0.75 + (Math.random() * 0.5);
-
-    actualBackoff = (long) (actualBackoff * jitter);
-
-    return currentTime + actualBackoff;
   }
 
   private @NonNull JobSpec mapToJobWithInputData(@NonNull JobSpec jobSpec, @NonNull Data inputData) {
@@ -471,7 +482,6 @@ class JobController {
                        jobSpec.getNextRunAttemptTime(),
                        jobSpec.getRunAttempt(),
                        jobSpec.getMaxAttempts(),
-                       jobSpec.getMaxBackoff(),
                        jobSpec.getLifespan(),
                        jobSpec.getSerializedData(),
                        dataSerializer.serialize(inputData),

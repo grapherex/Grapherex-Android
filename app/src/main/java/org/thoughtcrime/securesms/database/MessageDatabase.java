@@ -36,6 +36,7 @@ import org.thoughtcrime.securesms.sms.IncomingTextMessage;
 import org.thoughtcrime.securesms.sms.OutgoingTextMessage;
 import org.thoughtcrime.securesms.util.JsonUtils;
 import org.thoughtcrime.securesms.util.SqlUtil;
+import org.thoughtcrime.securesms.util.Util;
 import org.whispersystems.libsignal.IdentityKey;
 import org.whispersystems.libsignal.util.Pair;
 import org.whispersystems.libsignal.util.guava.Optional;
@@ -48,12 +49,14 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
+import java.util.Map;
+import java.util.Objects;
 import java.util.Set;
 import java.util.UUID;
 
 public abstract class MessageDatabase extends Database implements MmsSmsColumns {
 
-  private static final String TAG = MessageDatabase.class.getSimpleName();
+  private static final String TAG = Log.tag(MessageDatabase.class);
 
   public MessageDatabase(Context context, SQLCipherOpenHelper databaseHelper) {
     super(context, databaseHelper);
@@ -117,8 +120,8 @@ public abstract class MessageDatabase extends Database implements MmsSmsColumns 
   public abstract void markDownloadState(long messageId, long state);
   public abstract void markIncomingNotificationReceived(long threadId);
 
-  public abstract boolean incrementReceiptCount(SyncMessageId messageId, long timestamp, @NonNull ReceiptType receiptType);
-  public abstract List<Pair<Long, Long>> setTimestampRead(SyncMessageId messageId, long proposedExpireStarted);
+  public abstract Set<ThreadUpdate> incrementReceiptCount(SyncMessageId messageId, long timestamp, @NonNull ReceiptType receiptType);
+  public abstract List<Pair<Long, Long>> setTimestampRead(SyncMessageId messageId, long proposedExpireStarted, @NonNull Map<Long, Long> threadToLatestRead);
   public abstract List<MarkedMessageInfo> setEntireThreadRead(long threadId);
   public abstract List<MarkedMessageInfo> setMessagesReadSince(long threadId, long timestamp);
   public abstract List<MarkedMessageInfo> setAllMessagesRead();
@@ -173,6 +176,14 @@ public abstract class MessageDatabase extends Database implements MmsSmsColumns 
 
   public abstract void ensureMigration();
 
+  final @NonNull String getOutgoingTypeClause() {
+    List<String> segments = new ArrayList<>(Types.OUTGOING_MESSAGE_TYPES.length);
+    for (long outgoingMessageType : Types.OUTGOING_MESSAGE_TYPES) {
+      segments.add("(" + getTypeField() + " & " + Types.BASE_TYPE_MASK + " = " + outgoingMessageType + ")");
+    }
+
+    return Util.join(segments, " OR ");
+  }
 
   final int getInsecureMessagesSentForThread(long threadId) {
     SQLiteDatabase db         = databaseHelper.getReadableDatabase();
@@ -707,6 +718,39 @@ public abstract class MessageDatabase extends Database implements MmsSmsColumns 
       return from;
     }
   }
+
+  static class ThreadUpdate {
+    private final long    threadId;
+    private final boolean verbose;
+
+    ThreadUpdate(long threadId, boolean verbose) {
+      this.threadId = threadId;
+      this.verbose  = verbose;
+    }
+
+    public long getThreadId() {
+      return threadId;
+    }
+
+    public boolean isVerbose() {
+      return verbose;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+      if (this == o) return true;
+      if (o == null || getClass() != o.getClass()) return false;
+      ThreadUpdate that = (ThreadUpdate) o;
+      return threadId == that.threadId &&
+             verbose  == that.verbose;
+    }
+
+    @Override
+    public int hashCode() {
+      return Objects.hash(threadId, verbose);
+    }
+  }
+
 
   public interface InsertListener {
     void onComplete();

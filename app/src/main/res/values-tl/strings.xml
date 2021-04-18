@@ -664,7 +664,7 @@
   <string name="RatingManager_rate_now">I-rate ngayon!</string>
   <string name="RatingManager_no_thanks">Ayaw ko, salamat na lang</string>
   <string name="RatingManager_later">Mamaya na</string>
-  <string name="RatingManager_whoops_the_play_store_app_does_not_appear_to_be_installed">Sandali lang, mukhang hindi naka-install ang Play Store app sa iyong device.</string>
+  <!-- Removed by excludeNonTranslatables <string name="RatingManager_whoops_the_play_store_app_does_not_appear_to_be_installed">Sandali lang, mukhang hindi naka-install ang Play Store app sa iyong device.</string> -->
   <!--ReactionsBottomSheetDialogFragment-->
   <!--ReactionsConversationView-->
   <string name="ReactionsConversationView_plus">+%1$d</string>
@@ -942,14 +942,14 @@
   <string name="MessageNotifier_reacted_s_to_your_sticker">Nag-react ng %1$s sa iyong sticker.</string>
   <string name="MessageNotifier_this_message_was_deleted">Ang mensaheng ito ay nabura na.</string>
   <!--Notification Channels-->
-  <string name="NotificationChannel_messages">Default</string>
+  <!-- Removed by excludeNonTranslatables <string name="NotificationChannel_messages">Default</string> -->
   <string name="NotificationChannel_calls">Mga Tawag</string>
   <string name="NotificationChannel_failures">Mga kabiguan</string>
   <string name="NotificationChannel_backups">Mga backup</string>
   <string name="NotificationChannel_locked_status">Lock na status</string>
   <string name="NotificationChannel_app_updates">Mga update sa app</string>
   <string name="NotificationChannel_other">Iba pa</string>
-  <string name="NotificationChannel_group_messages">Mga mensahe</string>
+  <!-- Removed by excludeNonTranslatables <string name="NotificationChannel_group_messages">Mga mensahe</string> -->
   <string name="NotificationChannel_missing_display_name">Hindi alam</string>
   <!--ProfileEditNameFragment-->
   <!-- Removed by excludeNonTranslatables <string name="ProfileEditNameFragment_successfully_set_profile_name">Matagumpay na naitakda ang pangalan ng profile.</string> -->
@@ -1293,10 +1293,10 @@
   <string name="arrays__use_default">Gamitin ang default</string>
   <string name="arrays__use_custom">Gumamit ng custom</string>
   <string name="arrays__mute_for_one_hour">Patahimikin nang 1 oras</string>
-  <string name="arrays__mute_for_two_hours">Patahimikin nang 2 oras</string>
+  <!-- Removed by excludeNonTranslatables <string name="arrays__mute_for_two_hours">Patahimikin nang 2 oras</string> -->
   <string name="arrays__mute_for_one_day">Patahimikin nang 1 araw</string>
   <string name="arrays__mute_for_seven_days">Patahimikin nang 7 araw</string>
-  <string name="arrays__mute_for_one_year">Patahimikin nang 1 taon</string>
+  <!-- Removed by excludeNonTranslatables <string name="arrays__mute_for_one_year">Patahimikin nang 1 taon</string> -->
   <string name="arrays__settings_default">Default ng settings</string>
   <string name="arrays__enabled">Naka-enable</string>
   <string name="arrays__disabled">Naka-disable</string>

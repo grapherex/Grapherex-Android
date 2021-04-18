@@ -485,7 +485,7 @@
   <string name="RatingManager_rate_now">İndi qiymətləndir!</string>
   <string name="RatingManager_no_thanks">Yox, təşəkkür edirəm</string>
   <string name="RatingManager_later">Daha sonra</string>
-  <string name="RatingManager_whoops_the_play_store_app_does_not_appear_to_be_installed">Bıy, belə görünür ki, cihazında Play Store aplikasıyası quraşdırılmamışdır.</string>
+  <!-- Removed by excludeNonTranslatables <string name="RatingManager_whoops_the_play_store_app_does_not_appear_to_be_installed">Bıy, belə görünür ki, cihazında Play Store aplikasıyası quraşdırılmamışdır.</string> -->
   <!--ReactionsBottomSheetDialogFragment-->
   <!--ReactionsConversationView-->
   <!--RecipientPreferencesActivity-->
@@ -697,14 +697,14 @@
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Əlaqə</string>
   <!--Notification Channels-->
-  <string name="NotificationChannel_messages">Başlanğıc</string>
+  <!-- Removed by excludeNonTranslatables <string name="NotificationChannel_messages">Başlanğıc</string> -->
   <string name="NotificationChannel_calls">Zənglər</string>
   <string name="NotificationChannel_failures">Xətalar</string>
   <string name="NotificationChannel_backups">Ehtiyat nüsxələr</string>
   <string name="NotificationChannel_locked_status">Kilid statusu</string>
   <string name="NotificationChannel_app_updates">Aplikasiya yenilikləri</string>
   <string name="NotificationChannel_other">Digər</string>
-  <string name="NotificationChannel_group_messages">Mesajlar</string>
+  <!-- Removed by excludeNonTranslatables <string name="NotificationChannel_group_messages">Mesajlar</string> -->
   <string name="NotificationChannel_missing_display_name">Naməlum</string>
   <!--ProfileEditNameFragment-->
   <!--QuickResponseService-->
@@ -1002,10 +1002,10 @@
   <string name="arrays__use_default">Mövcud olanı istifadə et</string>
   <string name="arrays__use_custom">Seçilmişi istifadə et</string>
   <string name="arrays__mute_for_one_hour">1 saat səssiz olsun</string>
-  <string name="arrays__mute_for_two_hours">2 saat səssiz olsun</string>
+  <!-- Removed by excludeNonTranslatables <string name="arrays__mute_for_two_hours">2 saat səssiz olsun</string> -->
   <string name="arrays__mute_for_one_day">1 gün səssiz olsun</string>
   <string name="arrays__mute_for_seven_days">7 gün səssiz olsun</string>
-  <string name="arrays__mute_for_one_year">1 il səssiz olsun</string>
+  <!-- Removed by excludeNonTranslatables <string name="arrays__mute_for_one_year">1 il səssiz olsun</string> -->
   <string name="arrays__settings_default">Mövcud parametrlər</string>
   <string name="arrays__enabled">Aktiv et</string>
   <string name="arrays__disabled">Deaktiv et</string>

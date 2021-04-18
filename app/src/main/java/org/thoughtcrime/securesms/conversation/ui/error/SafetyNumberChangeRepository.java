@@ -12,6 +12,7 @@ import com.annimon.stream.Stream;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
+import org.thoughtcrime.securesms.crypto.DatabaseSessionLock;
 import org.thoughtcrime.securesms.crypto.storage.TextSecureIdentityKeyStore;
 import org.thoughtcrime.securesms.database.DatabaseFactory;
 import org.thoughtcrime.securesms.database.IdentityDatabase;
@@ -25,15 +26,14 @@ import org.thoughtcrime.securesms.recipients.RecipientId;
 import org.thoughtcrime.securesms.sms.MessageSender;
 import org.whispersystems.libsignal.IdentityKey;
 import org.whispersystems.libsignal.SignalProtocolAddress;
+import org.whispersystems.signalservice.api.SignalSessionLock;
 
 import java.util.Collection;
 import java.util.List;
 
-import static org.whispersystems.libsignal.SessionCipher.SESSION_LOCK;
-
 final class SafetyNumberChangeRepository {
 
-  private static final String TAG = SafetyNumberChangeRepository.class.getSimpleName();
+  private static final String TAG = Log.tag(SafetyNumberChangeRepository.class);
 
   private final Context context;
 
@@ -90,7 +90,7 @@ final class SafetyNumberChangeRepository {
   private TrustAndVerifyResult trustOrVerifyChangedRecipientsInternal(@NonNull List<ChangedRecipient> changedRecipients) {
     IdentityDatabase identityDatabase = DatabaseFactory.getIdentityDatabase(context);
 
-    synchronized (SESSION_LOCK) {
+    try(SignalSessionLock.Lock unused = DatabaseSessionLock.INSTANCE.acquire()) {
       for (ChangedRecipient changedRecipient : changedRecipients) {
         IdentityRecord identityRecord = changedRecipient.getIdentityRecord();
 
@@ -110,7 +110,7 @@ final class SafetyNumberChangeRepository {
   @WorkerThread
   private TrustAndVerifyResult trustOrVerifyChangedRecipientsAndResendInternal(@NonNull List<ChangedRecipient> changedRecipients,
                                                                                @NonNull MessageRecord messageRecord) {
-    synchronized (SESSION_LOCK) {
+    try(SignalSessionLock.Lock unused = DatabaseSessionLock.INSTANCE.acquire()) {
       for (ChangedRecipient changedRecipient : changedRecipients) {
         SignalProtocolAddress      mismatchAddress  = new SignalProtocolAddress(changedRecipient.getRecipient().requireServiceId(), 1);
         TextSecureIdentityKeyStore identityKeyStore = new TextSecureIdentityKeyStore(context);

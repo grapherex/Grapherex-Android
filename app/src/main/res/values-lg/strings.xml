@@ -291,7 +291,7 @@ a</string>
   <string name="RatingManager_rate_now">Wa obubonero Kati</string>
   <string name="RatingManager_no_thanks">Nedda naye webale</string>
   <string name="RatingManager_later">Eddako</string>
-  <string name="RatingManager_whoops_the_play_store_app_does_not_appear_to_be_installed">Ohh! Play store elabika sinteekeko ku device yo.</string>
+  <!-- Removed by excludeNonTranslatables <string name="RatingManager_whoops_the_play_store_app_does_not_appear_to_be_installed">Ohh! Play store elabika sinteekeko ku device yo.</string> -->
   <!--RecipientPreferencesActivity-->
   <!-- Removed by excludeNonTranslatables <string name="RecipientPreferenceActivity_block_this_contact_question">Zziyiza enamba eno</string> -->
   <!-- Removed by excludeNonTranslatables <string name="RecipientPreferenceActivity_you_will_no_longer_receive_messages_and_calls_from_this_contact">Tojja kudamu kufuna obubaka oba ssimu okuva ew\'omukozesa ono</string> -->
@@ -388,7 +388,7 @@ gy\'olonze (%s) sintuufu.</string>
   <string name="MessageNotifier_reply">ddamu</string>
   <string name="MessageNotifier_unknown_contact_message">Contact</string>
   <!--Notification Channels-->
-  <string name="NotificationChannel_messages">wifi calling compatiblity mode</string>
+  <!-- Removed by excludeNonTranslatables <string name="NotificationChannel_messages">wifi calling compatiblity mode</string> -->
   <string name="NotificationChannel_missing_display_name">Tekimanyikiddwa</string>
   <!--QuickResponseService-->
   <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">okudamu okwangu tekubawo nga amayengo gasibidwa</string>
@@ -556,10 +556,10 @@ gy\'olonze (%s) sintuufu.</string>
   <string name="arrays__use_default">Kozesa nga bwebyakolebwa</string>
   <string name="arrays__use_custom">Kozesa bwoyagala</string>
   <string name="arrays__mute_for_one_hour">Silisa okumala essawa emu  </string>
-  <string name="arrays__mute_for_two_hours">Silisa okumala esawa bbiri </string>
+  <!-- Removed by excludeNonTranslatables <string name="arrays__mute_for_two_hours">Silisa okumala esawa bbiri </string> -->
   <string name="arrays__mute_for_one_day">Silisa okumala olunaku 1</string>
   <string name="arrays__mute_for_seven_days">Silisa okumala enaku 7</string>
-  <string name="arrays__mute_for_one_year">Silisa okumala omwaka 1</string>
+  <!-- Removed by excludeNonTranslatables <string name="arrays__mute_for_one_year">Silisa okumala omwaka 1</string> -->
   <string name="arrays__settings_default">Settingi ngabwezaali</string>
   <string name="arrays__enabled">Etereddwaako</string>
   <string name="arrays__disabled">Egyiddwaako</string>

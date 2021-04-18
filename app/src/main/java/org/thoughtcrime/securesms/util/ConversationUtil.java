@@ -58,9 +58,7 @@ public final class ConversationUtil {
    * Enqueues a job to update the list of shortcuts.
    */
   public static void refreshRecipientShortcuts() {
-    if (Build.VERSION.SDK_INT >= CONVERSATION_SUPPORT_VERSION) {
-      ApplicationDependencies.getJobManager().add(new ConversationShortcutUpdateJob());
-    }
+    ConversationShortcutUpdateJob.enqueue();
   }
 
   /**
@@ -137,7 +135,7 @@ public final class ConversationUtil {
   @RequiresApi(CONVERSATION_SUPPORT_VERSION)
   public static int getMaxShortcuts(@NonNull Context context) {
     ShortcutManager shortcutManager  = ServiceUtil.getShortcutManager(context);
-    return shortcutManager.getMaxShortcutCountPerActivity();
+    return Math.min(shortcutManager.getMaxShortcutCountPerActivity(), 150);
   }
 
   /**
@@ -246,9 +244,9 @@ public final class ConversationUtil {
   /**
    * @return A Person object representing the given Recipient
    */
-  @RequiresApi(CONVERSATION_SUPPORT_VERSION)
+  @RequiresApi(28)
   @WorkerThread
-  private static @NonNull Person buildPerson(@NonNull Context context, @NonNull Recipient recipient) {
+  public static @NonNull Person buildPerson(@NonNull Context context, @NonNull Recipient recipient) {
     return new Person.Builder()
                      .setKey(getShortcutId(recipient.getId()))
                      .setName(recipient.getDisplayName(context))

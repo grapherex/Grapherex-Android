@@ -26,6 +26,7 @@ import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.database.DatabaseFactory;
 import org.thoughtcrime.securesms.database.model.MessageRecord;
 import org.thoughtcrime.securesms.database.model.MmsMessageRecord;
+import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.permissions.Permissions;
 import org.thoughtcrime.securesms.service.ExpiringMessageManager;
 import org.thoughtcrime.securesms.util.DateUtils;
@@ -197,11 +198,11 @@ public class ConversationItemFooter extends LinearLayout {
         this.timerView.startAnimation();
 
         if (messageRecord.getExpireStarted() + messageRecord.getExpiresIn() <= System.currentTimeMillis()) {
-          ApplicationContext.getInstance(getContext()).getExpiringMessageManager().checkSchedule();
+          ApplicationDependencies.getExpiringMessageManager().checkSchedule();
         }
       } else if (!messageRecord.isOutgoing() && !messageRecord.isMediaPending()) {
         SignalExecutors.BOUNDED.execute(() -> {
-          ExpiringMessageManager expirationManager = ApplicationContext.getInstance(getContext()).getExpiringMessageManager();
+          ExpiringMessageManager expirationManager = ApplicationDependencies.getExpiringMessageManager();
           long                   id                = messageRecord.getId();
           boolean                mms               = messageRecord.isMms();
 
@@ -275,8 +276,8 @@ public class ConversationItemFooter extends LinearLayout {
     addView(audioDuration, 0);
 
     int padStart = ViewUtil.dpToPx(60);
-    int padLeft  = getLayoutDirection() == LAYOUT_DIRECTION_LTR ? padStart : 0;
-    int padRight = getLayoutDirection() == LAYOUT_DIRECTION_RTL ? padStart : 0;
+    int padLeft  = ViewUtil.isLtr(this) ? padStart : 0;
+    int padRight = ViewUtil.isRtl(this) ? padStart : 0;
 
     audioDuration.setPadding(padLeft, 0, padRight, 0);
   }

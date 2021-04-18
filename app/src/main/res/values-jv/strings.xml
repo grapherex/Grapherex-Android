@@ -610,7 +610,7 @@
   <string name="RatingManager_rate_now">Sukani peringkat sakmenika!</string>
   <string name="RatingManager_no_thanks">Mboten usah</string>
   <string name="RatingManager_later">Mangke</string>
-  <string name="RatingManager_whoops_the_play_store_app_does_not_appear_to_be_installed">Aduh, kadosipun aplikasi Play Store mboten dipunpasangaken ing pirantos sampeyan.</string>
+  <!-- Removed by excludeNonTranslatables <string name="RatingManager_whoops_the_play_store_app_does_not_appear_to_be_installed">Aduh, kadosipun aplikasi Play Store mboten dipunpasangaken ing pirantos sampeyan.</string> -->
   <!--ReactionsBottomSheetDialogFragment-->
   <!--ReactionsConversationView-->
   <!--ReactionsRecipientAdapter-->
@@ -876,14 +876,14 @@
   <string name="MessageNotifier_reacted_s_to_your_sticker">Nganggepi stiker sampeyan kangge %1$s.</string>
   <string name="MessageNotifier_this_message_was_deleted">Pesen niki sampun dibrusak</string>
   <!--Notification Channels-->
-  <string name="NotificationChannel_messages">Default</string>
+  <!-- Removed by excludeNonTranslatables <string name="NotificationChannel_messages">Default</string> -->
   <string name="NotificationChannel_calls">Telepon</string>
   <string name="NotificationChannel_failures">Gagal</string>
   <string name="NotificationChannel_backups">Serep</string>
   <string name="NotificationChannel_locked_status">Kunci status</string>
   <string name="NotificationChannel_app_updates">Pangenggalan aplikasi</string>
   <string name="NotificationChannel_other">Bentenipun</string>
-  <string name="NotificationChannel_group_messages">Pesen</string>
+  <!-- Removed by excludeNonTranslatables <string name="NotificationChannel_group_messages">Pesen</string> -->
   <string name="NotificationChannel_missing_display_name">Mboten kasumarepan</string>
   <!--ProfileEditNameFragment-->
   <!-- Removed by excludeNonTranslatables <string name="ProfileEditNameFragment_successfully_set_profile_name">Kedadosan netapaken nami profil.</string> -->
@@ -1199,10 +1199,10 @@
   <string name="arrays__use_default">Ginakaken default</string>
   <string name="arrays__use_custom">Ginakaken kustom</string>
   <string name="arrays__mute_for_one_hour">Bisuaken ngantos 1 jam</string>
-  <string name="arrays__mute_for_two_hours">Bisuaken ngantos 2 jam</string>
+  <!-- Removed by excludeNonTranslatables <string name="arrays__mute_for_two_hours">Bisuaken ngantos 2 jam</string> -->
   <string name="arrays__mute_for_one_day">Bisuaken ngantos 1 dinten</string>
   <string name="arrays__mute_for_seven_days">Bisuaken ngantos 7 dinten</string>
-  <string name="arrays__mute_for_one_year">Bisuaken ngantos 1 taun</string>
+  <!-- Removed by excludeNonTranslatables <string name="arrays__mute_for_one_year">Bisuaken ngantos 1 taun</string> -->
   <string name="arrays__settings_default">Default panatanan</string>
   <string name="arrays__enabled">Aktifaken</string>
   <string name="arrays__disabled">Nonaktifaken</string>

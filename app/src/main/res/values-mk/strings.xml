@@ -28,10 +28,10 @@
   <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Постави ја Signal како стандардна SMS апликација</string>
   <string name="ApplicationPreferencesActivity_on">вклучено</string>
   <string name="ApplicationPreferencesActivity_On">Вклучено</string>
-  <string name="ApplicationPreferencesActivity_off">исклучи</string>
-  <string name="ApplicationPreferencesActivity_Off">Исклучи</string>
+  <string name="ApplicationPreferencesActivity_off">исклучено</string>
+  <string name="ApplicationPreferencesActivity_Off">Исклучено</string>
   <string name="ApplicationPreferencesActivity_sms_mms_summary">SMS %1$s, MMS %2$s</string>
-  <string name="ApplicationPreferencesActivity_privacy_summary">Заклучување на екранот %1$s, Заклучување на регистрацијата %2$s</string>
+  <string name="ApplicationPreferencesActivity_privacy_summary">Заклучување на екранот %1$s. Заклучување на регистрацијата %2$s</string>
   <string name="ApplicationPreferencesActivity_appearance_summary">Тема %1$s, Јазик %2$s</string>
   <string name="ApplicationPreferencesActivity_pins_are_required_for_registration_lock">PIN кодовите се потребни за заклучување на регистрацијата. За да ги исклучите PIN кодовите, Ве молиме прво исклучете го заклучувањето на регистрацијата.</string>
   <string name="ApplicationPreferencesActivity_pin_created">PIN-от е создаден.</string>
@@ -65,6 +65,8 @@
   <!--AttachmentUploadJob-->
   <string name="AttachmentUploadJob_uploading_media">Прикачувам медија…</string>
   <string name="AttachmentUploadJob_compressing_video_start">Компресирам видео…</string>
+  <!--BackgroundMessageRetriever-->
+  <string name="BackgroundMessageRetriever_checking_for_messages">Проверувам пораки…</string>
   <!--BlockedUsersActivity-->
   <string name="BlockedUsersActivity__blocked_users">Блокирани корисници</string>
   <string name="BlockedUsersActivity__add_blocked_user">Додај блокиран корисник</string>
@@ -232,9 +234,10 @@
   <string name="ConversationActivity__more_options_now_in_group_settings">Повеќе опции во „Групни поставувања“</string>
   <string name="ConversationActivity_join">Приклучи сѐ</string>
   <string name="ConversationActivity_full">Полно е</string>
+  <string name="ConversationActivity_error_sending_media">Грешка при испраќање на медија</string>
   <!--ConversationAdapter-->
   <plurals name="ConversationAdapter_n_unread_messages">
-    <item quantity="one">%d не прочитана порака</item>
+    <item quantity="one">%d непрочитана порака</item>
     <item quantity="other">%d непрочитани пораки</item>
   </plurals>
   <!--ConversationFragment-->
@@ -419,7 +422,7 @@
   <string name="AddToGroupActivity_add_to_group">Додај во група</string>
   <string name="AddToGroupActivity_add_to_groups">Додај во групи</string>
   <string name="AddToGroupActivity_this_person_cant_be_added_to_legacy_groups">Оваа личност не може да биде додадена во стари групи.</string>
-  <string name="AddToGroupActivity_add">Додадете…</string>
+  <string name="AddToGroupActivity_add">Додај…</string>
   <!--ChooseNewAdminActivity-->
   <string name="ChooseNewAdminActivity_choose_new_admin">Избери нов администратор</string>
   <string name="ChooseNewAdminActivity_done">Готово</string>
@@ -469,7 +472,7 @@
   <!--GroupsV1MigrationInitiationReminder-->
   <string name="GroupsV1MigrationInitiationReminder_to_access_new_features_like_mentions">За пристап до нови опции како @спомнувања и администратори надградете ја оваа група.</string>
   <string name="GroupsV1MigrationInitiationReminder_not_now">Не сега</string>
-  <string name="GroupsV1MigrationInitiationReminder_update_group">Ажурирај група</string>
+  <string name="GroupsV1MigrationInitiationReminder_upgrade_group">Надгради група</string>
   <!--GroupsV1MigrationSuggestionsReminder-->
   <plurals name="GroupsV1MigrationSuggestionsReminder_members_couldnt_be_added_to_the_new_group">
     <item quantity="one">%1$d член не можеше да биде повторно додаден во нова група. Дали сакате да го додадете сега?</item>
@@ -550,7 +553,7 @@
   <string name="AddMembersActivity__done">Готово</string>
   <string name="AddMembersActivity__this_person_cant_be_added_to_legacy_groups">Оваа личност не може да биде додадена во стари групи.</string>
   <plurals name="AddMembersActivity__add_d_members_to_s">
-    <item quantity="one">Да го додадам %1$s во %2$s?</item>
+    <item quantity="one">Да го/ја додадам %1$s во %2$s?</item>
     <item quantity="other">Да ги додадам %3$d членови во \"%2$s\"?</item>
   </plurals>
   <string name="AddMembersActivity__add">Додадете…</string>
@@ -604,7 +607,7 @@
   <string name="ManageGroupActivity_mentions">Спомнувања</string>
   <string name="ManageGroupActivity_chat_wallpaper">Позадина за разговорот</string>
   <string name="ManageGroupActivity_until_s">До %1$s</string>
-  <string name="ManageGroupActivity_off">Исклучи</string>
+  <string name="ManageGroupActivity_off">Исклучено</string>
   <string name="ManageGroupActivity_on">Вклучи</string>
   <string name="ManageGroupActivity_view_all_members">Види ги сите членови</string>
   <string name="ManageGroupActivity_see_all">Види сѐ</string>
@@ -654,7 +657,7 @@
   <string name="ManageRecipientActivity_mute_notifications">Исклучи известувања</string>
   <string name="ManageRecipientActivity_custom_notifications">Прилагодени известувања</string>
   <string name="ManageRecipientActivity_until_s">До %1$s</string>
-  <string name="ManageRecipientActivity_off">Исклучи</string>
+  <string name="ManageRecipientActivity_off">Исклучено</string>
   <string name="ManageRecipientActivity_on">Вклучено</string>
   <string name="ManageRecipientActivity_add_to_a_group">Додај во група</string>
   <string name="ManageRecipientActivity_view_all_groups">Види ги сите групи</string>
@@ -834,6 +837,11 @@
   <string name="NotificationBarManager__answer_call">Одговори на повикот</string>
   <string name="NotificationBarManager__end_call">Заврши го повикот</string>
   <string name="NotificationBarManager__cancel_call">Откажи повик</string>
+  <!--NotificationsMegaphone-->
+  <string name="NotificationsMegaphone_turn_on_notifications">Да вклучам известувања?</string>
+  <string name="NotificationsMegaphone_never_miss_a_message">Никогаш не пропуштајте порака од Вашите контакти и групи.</string>
+  <string name="NotificationsMegaphone_turn_on">Вклучи</string>
+  <string name="NotificationsMegaphone_not_now">Не сега</string>
   <!--NotificationMmsMessageRecord-->
   <string name="NotificationMmsMessageRecord_multimedia_message">Мултимедијална порака</string>
   <string name="NotificationMmsMessageRecord_downloading_mms_message">Преземам MMS порака</string>
@@ -1106,6 +1114,7 @@
   <string name="PassphrasePromptActivity_ok_button_content_description">Пратете лозинка</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Погрешна лозинка!</string>
   <string name="PassphrasePromptActivity_unlock_signal">Отклучи го Signal</string>
+  <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android - Заклучувен екран</string>
   <!--PlacePickerActivity-->
   <string name="PlacePickerActivity_title">Мапа</string>
   <string name="PlacePickerActivity_drop_pin">Фрли покажувач</string>
@@ -1143,7 +1152,6 @@
   <string name="RatingManager_rate_now">Оцени веднаш!</string>
   <string name="RatingManager_no_thanks">Не, благодарам</string>
   <string name="RatingManager_later">Подоцна</string>
-  <string name="RatingManager_whoops_the_play_store_app_does_not_appear_to_be_installed">Ајдеее, изгледа дека Play Store апликацијата не е инсталирана на Вашиот уред. Ајдеее.</string>
   <!--ReactionsBottomSheetDialogFragment-->
   <string name="ReactionsBottomSheetDialogFragment_all">Сите · %1$d</string>
   <!--ReactionsConversationView-->
@@ -1158,7 +1166,7 @@
   <!--RedPhone-->
   <string name="RedPhone_answering">Одговарам…</string>
   <string name="RedPhone_ending_call">Завршувам повик…</string>
-  <string name="RedPhone_ringing">Ѕвонење…</string>
+  <string name="RedPhone_ringing">Ѕвонам…</string>
   <string name="RedPhone_busy">Зафатено</string>
   <string name="RedPhone_recipient_unavailable">Примателот не е достапен. </string>
   <string name="RedPhone_network_failed">Мрежата падна!</string>
@@ -1202,6 +1210,12 @@
   <string name="CallParticipantView__cant_receive_audio_video_from_s">Не добивам аудио &amp; видео од %1$s</string>
   <string name="CallParticipantView__cant_receive_audio_and_video_from_s">Не можам да добијам аудио и видео од %1$s</string>
   <string name="CallParticipantView__this_may_be_Because_they_have_not_verified_your_safety_number_change">Ова може да се случува бидејќи тие го немаат проверено Вашиот сигурносен број по промената, има некаков проблем со нивниот уред или пак Ве имаат блокирано.</string>
+  <!--ProxyBottomSheetFragment-->
+  <string name="ProxyBottomSheetFragment_proxy_server">Proxy сервер</string>
+  <string name="ProxyBottomSheetFragment_proxy_address">Proxy адреса</string>
+  <string name="ProxyBottomSheetFragment_do_you_want_to_use_this_proxy_address">Дали сакате да ја користите оваа proxy адресa?</string>
+  <string name="ProxyBottomSheetFragment_use_proxy">Користи proxy</string>
+  <string name="ProxyBottomSheetFragment_successfully_connected_to_proxy">Успешно се поврзав со proxy серверот.</string>
   <!--RegistrationActivity-->
   <string name="RegistrationActivity_select_your_country">Изберете држава</string>
   <string name="RegistrationActivity_you_must_specify_your_country_code">Внесете го повикувачкиот број
@@ -1234,6 +1248,7 @@
   <string name="RegistrationActivity_continue">Продолжи</string>
   <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">Понесете ја приватноста со Вас.\nБидете свои во секоја порака. </string>
   <string name="RegistrationActivity_enter_your_phone_number_to_get_started">Внесете го Вашиот телефонски број за да започнете</string>
+  <string name="RegistrationActivity_enter_your_phone_number">Внесете го Вашиот телефонски број</string>
   <string name="RegistrationActivity_you_will_receive_a_verification_code">Ќе добиете код за проверка. Можно е да важат цените од операторот.</string>
   <string name="RegistrationActivity_enter_the_code_we_sent_to_s">Внесете го кодот што Ви го испративме на %s</string>
   <string name="RegistrationActivity_make_sure_your_phone_has_a_cellular_signal">Осигурајте се дека Вашиот телефон има мобилен сигнал за да ја примите вашата SMS порака или повик</string>
@@ -1449,16 +1464,17 @@
   <string name="MessageNotifier_this_message_was_deleted">Оваа порака беше избришана.</string>
   <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Дали да исклучам известувања за луѓе што се приклучуваат на Signal? Можете да ги вклучите пак во Signal &gt; Поставувања &gt; Известувања.</string>
   <!--Notification Channels-->
-  <string name="NotificationChannel_messages">Стандардно</string>
+  <string name="NotificationChannel_channel_messages">Пораки</string>
   <string name="NotificationChannel_calls">Повици</string>
   <string name="NotificationChannel_failures">Неуспеси</string>
   <string name="NotificationChannel_backups">Резервни копии</string>
   <string name="NotificationChannel_locked_status">Статус</string>
   <string name="NotificationChannel_app_updates">Ажурирања за аплиакцијата</string>
   <string name="NotificationChannel_other">Друго</string>
-  <string name="NotificationChannel_group_messages">Пораки</string>
+  <string name="NotificationChannel_group_chats">Разговори</string>
   <string name="NotificationChannel_missing_display_name">Непознато</string>
   <string name="NotificationChannel_voice_notes">Гласовни белешки</string>
+  <string name="NotificationChannel_contact_joined_signal">Кога контакт ќе се приклучи на Signal</string>
   <!--ProfileEditNameFragment-->
   <!--QuickResponseService-->
   <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Брз одговор е недостапен кога Signal е заклучен</string>
@@ -1602,6 +1618,8 @@
   <string name="safety_number_change_dialog__the_following_people_may_have_reinstalled_or_changed_devices">Следниве луѓе може ги реинсталирале или промениле уредите. Проверете го Вашиот сигурносен број со нив за да ја осигурате приватноста.</string>
   <string name="safety_number_change_dialog__view">Преглед</string>
   <string name="safety_number_change_dialog__previous_verified">Претходно проверено</string>
+  <!--EnableCallNotificationSettingsDialog__call_notifications_checklist-->
+  <string name="EnableCallNotificationSettingsDialog__settings">Поставувања</string>
   <!--country_selection_fragment-->
   <string name="country_selection_fragment__loading_countries">Вчитувам земји…</string>
   <string name="country_selection_fragment__search">Барај</string>
@@ -1697,7 +1715,7 @@
   <!--EditAboutFragment-->
   <string name="EditAboutFragment_about">За</string>
   <string name="EditAboutFragment_write_a_few_words_about_yourself">Неколку зборови за Вас…</string>
-  <string name="EditAboutFragment_count">%d/%d</string>
+  <string name="EditAboutFragment_count">%1$d/%2$d</string>
   <string name="EditAboutFragment_speak_freely">Тука сум, кажи</string>
   <string name="EditAboutFragment_encrypted">Енкриптирано</string>
   <string name="EditAboutFragment_be_kind">Бидете љубезни</string>
@@ -1736,11 +1754,11 @@
   <string name="message_details_header__via">Преку</string>
   <!--message_details_recipient_header-->
   <string name="message_details_recipient_header__pending_send">На чекање</string>
-  <string name="message_details_recipient_header__sent_to">Испрати на</string>
+  <string name="message_details_recipient_header__sent_to">Испратено на</string>
   <string name="message_details_recipient_header__sent_from">Испратено од</string>
   <string name="message_details_recipient_header__delivered_to">Испорачано на</string>
   <string name="message_details_recipient_header__read_by">Прочитано од</string>
-  <string name="message_details_recipient_header__not_sent">Не е испратено</string>
+  <string name="message_details_recipient_header__not_sent">Не е испратено на</string>
   <!--message_Details_recipient-->
   <string name="message_details_recipient__failed_to_send">Неуспешно праќање</string>
   <string name="message_details_recipient__new_safety_number">Нов сигурносен број</string>
@@ -1768,6 +1786,7 @@
   <string name="HelpFragment__include_debug_log">Вклучи запис за дебагирање.</string>
   <string name="HelpFragment__whats_this">Што е ова?</string>
   <string name="HelpFragment__how_do_you_feel">Како се чувствувате? (Опционално)</string>
+  <string name="HelpFragment__tell_us_why_youre_reaching_out">Кажете ни зошто не контактирате.</string>
   <string name="HelpFragment__support_info">Инфо за поддршка</string>
   <string name="HelpFragment__signal_android_support_request">Барање за поддршка за Signal Android</string>
   <string name="HelpFragment__debug_log">Запис за дебагирање:</string>
@@ -1789,10 +1808,8 @@
   <string name="arrays__use_default">Користете стандардно</string>
   <string name="arrays__use_custom">Користи прилагодено</string>
   <string name="arrays__mute_for_one_hour">Исклучи на 1 час</string>
-  <string name="arrays__mute_for_two_hours">Исклучи на 2 часа</string>
   <string name="arrays__mute_for_one_day">Исклучи на 1 ден</string>
   <string name="arrays__mute_for_seven_days">Исклучи на 7 дена</string>
-  <string name="arrays__mute_for_one_year">Исклучи на 1 година</string>
   <string name="arrays__settings_default">Стандардни поставувања</string>
   <string name="arrays__enabled">Вклучено</string>
   <string name="arrays__disabled">Исклучено</string>
@@ -1844,6 +1861,7 @@
   <string name="preferences__pref_led_blink_title">LED шема на трепкање</string>
   <string name="preferences__sound">Звук</string>
   <string name="preferences__silent">Тивко</string>
+  <string name="preferences__default">Стандардно </string>
   <string name="preferences__repeat_alerts">Постојани аларми</string>
   <string name="preferences__never">Никогаш</string>
   <string name="preferences__one_time">Еднаш</string>
@@ -1851,7 +1869,7 @@
   <string name="preferences__three_times">Три пати</string>
   <string name="preferences__five_times">Пет пати</string>
   <string name="preferences__ten_times">Десет пати</string>
-  <string name="preferences__vibrate">Вибрација</string>
+  <string name="preferences__vibrate">Вибрации</string>
   <string name="preferences__green">Зелена</string>
   <string name="preferences__red">Црвена</string>
   <string name="preferences__blue">Сина</string>
@@ -1966,8 +1984,53 @@
   <string name="preferences_communication__sealed_sender_allow_from_anyone_description">Овозможете го запечатениот испраќач за дојдовни пораки од нерегистрирани контакти и луѓе со кои не сте го споделиле Вашиот профил.</string>
   <string name="preferences_communication__sealed_sender_learn_more">Дознајте повеќе</string>
   <string name="preferences_setup_a_username">Поставете корисничко име</string>
+  <string name="preferences_proxy">Proxy</string>
+  <string name="preferences_use_proxy">Користи proxy</string>
+  <string name="preferences_off">Исклучи</string>
+  <string name="preferences_on">Вклучено</string>
+  <string name="preferences_proxy_address">Proxy адреса</string>
+  <string name="preferences_only_use_a_proxy_if">Користете proxy само ако не можете да се поврзете на Signal преку мобилна или Wi-Fi мрежа.</string>
+  <string name="preferences_share">Сподели</string>
+  <string name="preferences_save">Зачувај</string>
+  <string name="preferences_connecting_to_proxy">Се поврзувам на proxy…</string>
+  <string name="preferences_connected_to_proxy">Се поврзав на proxy</string>
+  <string name="preferences_connection_failed">Врската не успеа</string>
+  <string name="preferences_couldnt_connect_to_the_proxy">Не упсеав да се поврзам за proxy серверот. Проверете ја proxy адресата и пробајте пак.</string>
+  <string name="preferences_you_are_connected_to_the_proxy">Поврзани сте за proxy. Можете да го исклучите proxy серверот во било кое време во поставувањата.</string>
+  <string name="preferences_success">Успешно се поврзав</string>
+  <string name="preferences_failed_to_connect">Не успеав да се поврзам</string>
+  <string name="preferences_enter_proxy_address">Внесете proxy адреса</string>
   <string name="configurable_single_select__customize_option">Сопствена опција</string>
   <!--Internal only preferences-->
+  <!--Payments-->
+  <string name="PaymentsAllActivityFragment__all">Сите</string>
+  <string name="PaymentsAllActivityFragment__sent">Испратено</string>
+  <string name="PaymentsAllActivityFragment__received">Примено</string>
+  <string name="PaymentsHomeFragment__see_all">Види сѐ</string>
+  <string name="PaymentsHomeFragment__send">Испрати</string>
+  <string name="PaymentsHomeFragment__help">Помош</string>
+  <string name="PaymentsHomeFragment__continue">Продолжи</string>
+  <string name="PaymentsHomeFragment__details">Детали</string>
+  <!--PaymentsAddMoneyFragment-->
+  <string name="PaymentsAddMoneyFragment__copy">Копирај</string>
+  <string name="PaymentsAddMoneyFragment__copied_to_clipboard">Ископирано на таблата со исечоци</string>
+  <!--PaymentsDetailsFragment-->
+  <string name="PaymentsDetailsFragment__details">Детали</string>
+  <string name="PaymentsDetailsFragment__status">Статус</string>
+  <string name="PaymentsDetailsFragment__to">До</string>
+  <string name="PaymentsDetailsFragment__from">Од</string>
+  <!--PaymentsTransferFragment-->
+  <string name="PaymentsTransferFragment__scan_qr_code">Скенирајте го QR кодот</string>
+  <string name="PaymentsTransferFragment__next">Следно</string>
+  <string name="PaymentsTransferFragment__settings">Поставувања</string>
+  <!--PaymentsTransferQrScanFragment-->
+  <!--CreatePaymentFragment-->
+  <string name="CreatePaymentFragment__request">Барање</string>
+  <!--EditNoteFragment-->
+  <!--ConfirmPaymentFragment-->
+  <string name="ConfirmPayment__to">До</string>
+  <!--CurrencyAmountFormatter_s_at_s-->
+  <!--SetCurrencyFragment-->
   <!--****************************************-->
   <!--menus-->
   <!--****************************************-->
@@ -2148,6 +2211,8 @@
   <string name="RegistrationLockFragment__incorrect_pin">Погрешен PIN</string>
   <string name="RegistrationLockFragment__forgot_your_pin">Го заборавивте Вашиот PIN?</string>
   <string name="RegistrationLockFragment__not_many_tries_left">Не ви преостанаа повеќе обиди!</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Signal регистрација - Помош со PIN за Android (v1 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Signal регистрација - Помош со PIN за Android (v2 PIN)</string>
   <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
     <item quantity="one">За вашата приватност и безбедност, нема начин да го повратите вашиот ПИН. Ако не можете да се сетите на вашиот ПИН, можете да го ре-верификувате со СМС после %1$d ден на неактивност. Во овој случај, вашата сметка со целата нејзина содржина ќе биде избришана.</item>
     <item quantity="other">За Вашата приватност и безбедност, нема начин да го повратите Вашиот PIN. Ако не можете да се сетите на Вашиот PIN, можете да го проверите со SMS по %1$d денови неактивност. Во овој случај, Вашата сметка со целата нејзина содржина ќе биде избришана.</item>
@@ -2202,9 +2267,13 @@
   <string name="backup_enable_dialog__folder">Папка</string>
   <string name="backup_enable_dialog__i_have_written_down_this_passphrase">Ја запишав оваа лозинка. Без неа нема да можам да ја вратам резервната копија.</string>
   <string name="registration_activity__restore_backup">Обнови последна копија</string>
+  <string name="registration_activity__transfer_or_restore_account">Префрли или поврати сметка</string>
+  <string name="registration_activity__transfer_account">Префрли сметка</string>
   <string name="registration_activity__skip">Прескокни</string>
   <string name="preferences_chats__chat_backups">Резервни копии на разговори</string>
   <string name="preferences_chats__backup_chats_to_external_storage">Направи резервна копија на надворешен склад</string>
+  <string name="preferences_chats__transfer_account">Префрли сметка</string>
+  <string name="preferences_chats__transfer_account_to_a_new_android_device">Префрли сметка на друг Android уред</string>
   <string name="RegistrationActivity_enter_backup_passphrase">Внесете ја вашата резервна лозинка</string>
   <string name="RegistrationActivity_restore">Врати</string>
   <string name="RegistrationActivity_backup_failure_downgrade">Не може да се внесат резервни копии од понови верзии на Signal</string>
@@ -2278,6 +2347,109 @@
   <string name="prompt_passphrase_activity__signal_is_locked">Signal е заклучен</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">ДОПРЕТЕ ЗА ДА ОТКЛУЧИТЕ</string>
   <string name="Recipient_unknown">Непознато</string>
+  <!--TransferOrRestoreFragment-->
+  <string name="TransferOrRestoreFragment__transfer_or_restore_account">Префрли или поврати сметка</string>
+  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Ако имате претходно регистрирана Signal сметка, можета да ја префрлите или вратите Вашата сметка и пораки</string>
+  <string name="TransferOrRestoreFragment__transfer_from_android_device">Префрли од Android уред</string>
+  <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">Префрлете ја Вашата сметка и пораки од Вашиот стар Android уред. Потребен ви е пристап до стариот уред.</string>
+  <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">Ви треба пристап до стариот уред.</string>
+  <string name="TransferOrRestoreFragment__restore_from_backup">Врати од резервна копија</string>
+  <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">Вратете ги Вашите пораки од локална резервна копија. Ако не ги вратите сега нема да можете да го направите тоа подоцна.</string>
+  <!--NewDeviceTransferInstructionsFragment-->
+  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Отворете го Signal на Вашиот стар телефон</string>
+  <string name="NewDeviceTransferInstructions__continue">Продолжи</string>
+  <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
+  <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">Допрете ја Вашата профилна слика во левииот горен агол за да ги отворите поставувањата.</string>
+  <string name="NewDeviceTransferInstructions__second_bullet">2.</string>
+  <string name="NewDeviceTransferInstructions__tap_on_chats">Допрете „Разговори“</string>
+  <string name="NewDeviceTransferInstructions__third_bullet">3.</string>
+  <string name="NewDeviceTransferInstructions__tap_transfer_account_and_then_continue_on_both_devices">Допрете „Префрли сметка“ и потоа „Продолжи“ и на двата уреда</string>
+  <!--NewDeviceTransferSetupFragment-->
+  <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">Се припрема за да се поврзам на стариот Android уред…</string>
+  <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">Само момент, би требало да е готово наскоро</string>
+  <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">Чекам да се поврзе стариот Android уред…</string>
+  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">На Signal му е потребна дозвола за локацијата за да го открие и да се поврзе на стариот Android уред.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">На Signal му е потребно да се вклучени локациските сервиси за да го открие и да се поврзе на Вашиот стар Android уред.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">На Signal му е потребно Wi-Fi за да го открие и за да се поврзе на Вашиот стар Android уред. Wi-Fi треба да е вклучено, но не мора да сте поврзани на Wi-Fi мрежа.</string>
+  <string name="NewDeviceTransferSetup__restore_a_backup">Врати резервна копија</string>
+  <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Се случи неочекувана грешка при обидот за пристап на Вашиот стар Android уред.</string>
+  <!--OldDeviceTransferSetupFragment-->
+  <string name="OldDeviceTransferSetup__searching_for_new_android_device">Го барам новиот Android уред…</string>
+  <string name="OldDeviceTransferSetup__create_a_backup">Креирај резервна копија</string>
+  <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Се случи неочекувана грешка при обидот за поврзување со Вашиот нов Android уред.</string>
+  <!--DeviceTransferSetupFragment-->
+  <string name="DeviceTransferSetup__unable_to_open_wifi_settings">Не можам да ги отворам поставувањата за Wi-Fi. Ве молиме вклучете Wi-Fi рачно.</string>
+  <string name="DeviceTransferSetup__grant_location_permission">Дозволи прикажување на локација</string>
+  <string name="DeviceTransferSetup__turn_on_location_services">Вклучи локациски сервиси</string>
+  <string name="DeviceTransferSetup__unable_to_open_location_settings">Не успеав да ги отворам поставувањата.</string>
+  <string name="DeviceTransferSetup__turn_on_wifi">Вклучи Wi-Fi</string>
+  <string name="DeviceTransferSetup__error_connecting">Грешка при поврзувањето</string>
+  <string name="DeviceTransferSetup__retry">Обидете се повторно</string>
+  <string name="DeviceTransferSetup__submit_debug_logs">Испрати запис за дебагирање</string>
+  <string name="DeviceTransferSetup__verify_code">Провери код</string>
+  <string name="DeviceTransferSetup__verify_that_the_code_below_matches_on_both_of_your_devices">Проверете дали кодот подолу се совпаѓа на двата уреда. Потоа допрете „Продолжи“.</string>
+  <string name="DeviceTransferSetup__the_numbers_do_not_match">Бројките не се совпаѓаат</string>
+  <string name="DeviceTransferSetup__continue">Продолжи</string>
+  <string name="DeviceTransferSetup__number_is_not_the_same">Бројот не е ист</string>
+  <string name="DeviceTransferSetup__stop_transfer">Сопри трансфер</string>
+  <string name="DeviceTransferSetup__unable_to_discover_old_device">Не успеав да го откријам стариот уред</string>
+  <string name="DeviceTransferSetup__unable_to_discover_new_device">Не успеав да го откријам новиот уред</string>
+  <string name="DeviceTransferSetup__make_sure_the_following_permissions_are_enabled">Осигурајте се дека следниве дозволи и сервиси се овозможени:</string>
+  <string name="DeviceTransferSetup__location_permission">Дозволи за локацијата</string>
+  <string name="DeviceTransferSetup__location_services">Локациски сервиси</string>
+  <string name="DeviceTransferSetup__wifi">Wi-Fi</string>
+  <string name="DeviceTransferSetup__wifi_direct_screen">Директен екран за Wi-Fi</string>
+  <string name="DeviceTransferSetup__try_turning_wifi_off_and_on_on_both_devices">Пробајте да го исклучите и вклучите Wi-Fi и на двата уреда.</string>
+  <string name="DeviceTransferSetup__make_sure_both_devices_are_in_transfer_mode">Осигурајте се дека и двата уреда се во режим за префрлување.</string>
+  <string name="DeviceTransferSetup__go_to_support_page">Оди на страницата за поддршка</string>
+  <string name="DeviceTransferSetup__try_again">Обиди сѐ повторно </string>
+  <string name="DeviceTransferSetup__waiting_for_other_device">Го чекам другиот уред</string>
+  <string name="DeviceTransferSetup__tap_continue_on_your_other_device_to_start_the_transfer">Допрете „Продолжи“ на другиот уред за да почне трансферот.</string>
+  <string name="DeviceTransferSetup__tap_continue_on_your_other_device">Допрете „Продолжи“ на другиот уред…</string>
+  <!--NewDeviceTransferFragment-->
+  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Не можам да префрлам од понови верзии нa Signal</string>
+  <!--DeviceTransferFragment-->
+  <string name="DeviceTransfer__transferring_data">Префрлување податоци</string>
+  <string name="DeviceTransfer__d_messages_so_far">%1$d пораки досега…</string>
+  <string name="DeviceTransfer__cancel">Откажи</string>
+  <string name="DeviceTransfer__try_again">Обиди сѐ повторно </string>
+  <string name="DeviceTransfer__stop_transfer_question">Да го сопрам трансферот?</string>
+  <string name="DeviceTransfer__stop_transfer">Сопри трансфер</string>
+  <string name="DeviceTransfer__all_transfer_progress_will_be_lost">Целиот прогрес направен при трансферот ќе биде изгубен.</string>
+  <string name="DeviceTransfer__transfer_failed">Трансферот е неуспешен</string>
+  <string name="DeviceTransfer__unable_to_transfer">Неуспешен трансфер</string>
+  <!--OldDeviceTransferInstructionsFragment-->
+  <string name="OldDeviceTransferInstructions__transfer_account">Префрли сметка</string>
+  <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
+  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Преземете го Signal на Вашиот нов Android уред</string>
+  <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
+  <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">Допрете „Трансфер или враќање на сметка“</string>
+  <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
+  <string name="OldDeviceTransferInstructions__select_transfer_from_android_device_when_prompted_and_then_continue">Допрете „Трансфер од Android уред“ и потоа допрете „Продолжи“. Држете ги двата уреди близу еден до друг.</string>
+  <string name="OldDeviceTransferInstructions__continue">Продолжи</string>
+  <!--OldDeviceTransferComplete-->
+  <string name="OldDeviceTransferComplete__transfer_complete">Трансферот е завршен</string>
+  <string name="OldDeviceTransferComplete__go_to_your_new_device">Одете на Вашиот нов уред</string>
+  <string name="OldDeviceTransferComplete__close">Затвори</string>
+  <!--NewDeviceTransferComplete-->
+  <string name="NewDeviceTransferComplete__transfer_successful">Трансферот е успешен</string>
+  <string name="NewDeviceTransferComplete__transfer_complete">Трансферот е завршен</string>
+  <string name="NewDeviceTransferComplete__to_complete_the_transfer_process_you_must_continue_registration">За да го завршите процесот мора да продолжите со регистрацијата.</string>
+  <string name="NewDeviceTransferComplete__continue_registration">Продолжи со регистрација</string>
+  <!--DeviceToDeviceTransferService-->
+  <string name="DeviceToDeviceTransferService_content_title">Трансфер на сметка</string>
+  <string name="DeviceToDeviceTransferService_status_ready">Се припремам да се поврзам на Вашиот друг Android уред…</string>
+  <string name="DeviceToDeviceTransferService_status_starting_up">Се припремам да се поврзам на Вашиот друг Android уред…</string>
+  <string name="DeviceToDeviceTransferService_status_discovery">Го барам Вашиот друг Android уред…</string>
+  <string name="DeviceToDeviceTransferService_status_network_connected">Се поврзувам на Вашиот друг Android уред…</string>
+  <string name="DeviceToDeviceTransferService_status_verification_required">Потребна е проверка</string>
+  <string name="DeviceToDeviceTransferService_status_service_connected">Префрлување на сметката…</string>
+  <!--OldDeviceTransferLockedDialog-->
+  <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">Завршете ја регистрацијата на Вашиот нов уред</string>
+  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Вашата Signal сметка е префрлена на Вашиот нов уред но мора да ја завршите регистрацијата на истиот за да продолжите. Signal ќе стане неактивен на овој уред.</string>
+  <string name="OldDeviceTransferLockedDialog__done">Готово</string>
+  <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">Откажи и активирај го овој уред</string>
+  <!--AdvancedPreferenceFragment-->
   <!--RecipientBottomSheet-->
   <string name="RecipientBottomSheet_block">Блокирај</string>
   <string name="RecipientBottomSheet_unblock">Одблокирај</string>
@@ -2293,7 +2465,7 @@
   <string name="RecipientBottomSheet_insecure_voice_call_description">Небезбеден гласовен повик</string>
   <string name="RecipientBottomSheet_video_call_description">Видео повик</string>
   <string name="RecipientBottomSheet_remove_s_as_group_admin">Да го/ја отстранам %1$s од администратори на групата?</string>
-  <string name="RecipientBottomSheet_s_will_be_able_to_edit_group">„%1$s“ ќе може да ја уредува оваа групиа и нејзините членови.</string>
+  <string name="RecipientBottomSheet_s_will_be_able_to_edit_group">„%1$s“ ќе може да ја уредува оваа група и нејзините членови.</string>
   <string name="RecipientBottomSheet_remove_s_from_the_group">Да го/ја отстранам %1$s од групата?</string>
   <string name="RecipientBottomSheet_remove">Отстрани</string>
   <string name="RecipientBottomSheet_copied_to_clipboard">Ископирано на таблата со исечоци</string>
@@ -2308,6 +2480,8 @@
   <string name="GroupsLearnMore_paragraph_2">Застарените групи сѐ уште не можат да бидат надградени во нови групи, но затоа можете да создадете нова група со истите членови се доколку сите ја користат најновата верзија на Signal.</string>
   <string name="GroupsLearnMore_paragraph_3">Signal ќе нуди начин за надградба од застарени групи во иднина.</string>
   <!--GroupLinkBottomSheetDialogFragment-->
+  <string name="GroupLinkBottomSheet_share_hint_requiring_approval">Секој кој што го има линкот може да ги види името и сликата на групата како и да побара да се приклучи. Споделете го линкот само со луѓе на кои што им верувате.</string>
+  <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">Секој кој што го има линкот може да ги види името и сликата на групата, како и да побара да се приклучи. Споделете го линкот само со луѓе на кои што им верувате.</string>
   <string name="GroupLinkBottomSheet_share_via_signal">Сподели преку Signal</string>
   <string name="GroupLinkBottomSheet_copy">Копирај</string>
   <string name="GroupLinkBottomSheet_qr_code">QR код</string>
@@ -2422,5 +2596,26 @@
   <string name="WallpaperCropActivity__set_wallpaper_for_s">Постави позадина за %s.</string>
   <string name="WallpaperCropActivity__error_setting_wallpaper">Грешка при поставување на позадина.</string>
   <string name="WallpaperCropActivity__blur_photo">Замагли слика.</string>
+  <!--InfoCard-->
+  <string name="payment_info_card_hide">Сокриј</string>
+  <string name="payment_info_card_update_pin">Ажурирај PIN</string>
+  <!--DeactivateWalletFragment-->
+  <!--PaymentsRecoveryStartFragment-->
+  <!--PaymentsRecoveryPasteFragment-->
+  <string name="PaymentsRecoveryPasteFragment__next">Следно</string>
+  <!--PaymentsRecoveryPhraseFragment-->
+  <string name="PaymentsRecoveryPhraseFragment__next">Следно</string>
+  <string name="PaymentsRecoveryPhraseFragment__edit">Измени</string>
+  <string name="PaymentsRecoveryPhraseFragment__copy">Копирај</string>
+  <!--PaymentsRecoveryPhraseConfirmFragment-->
+  <string name="PaymentRecoveryPhraseConfirmFragment__done">Готово</string>
+  <!--PaymentsRecoveryEntryFragment-->
+  <string name="PaymentsRecoveryEntryFragment__next">Следно</string>
+  <!--ClearClipboardAlarmReceiver-->
+  <!--PaymentNotificationsView-->
+  <string name="PaymentNotificationsView__view">Преглед</string>
+  <!--UnreadPayments-->
+  <!--CanNotSendPaymentDialog-->
+  <string name="CanNotSendPaymentDialog__send_a_message">Испрати порака</string>
   <!--EOF-->
 </resources>

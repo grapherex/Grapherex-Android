@@ -12,7 +12,6 @@ import com.annimon.stream.Stream;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.ApplicationContext;
 import org.thoughtcrime.securesms.database.DatabaseFactory;
 import org.thoughtcrime.securesms.database.MessageDatabase.ExpirationInfo;
 import org.thoughtcrime.securesms.database.MessageDatabase.MarkedMessageInfo;
@@ -29,7 +28,7 @@ import java.util.Map;
 
 public class MarkReadReceiver extends BroadcastReceiver {
 
-  private static final String TAG                   = MarkReadReceiver.class.getSimpleName();
+  private static final String TAG                   = Log.tag(MarkReadReceiver.class);
   public static final  String CLEAR_ACTION          = "org.thoughtcrime.securesms.notifications.CLEAR";
   public static final  String THREAD_IDS_EXTRA      = "thread_ids";
   public static final  String NOTIFICATION_ID_EXTRA = "notification_id";
@@ -43,6 +42,11 @@ public class MarkReadReceiver extends BroadcastReceiver {
     final long[] threadIds = intent.getLongArrayExtra(THREAD_IDS_EXTRA);
 
     if (threadIds != null) {
+      MessageNotifier notifier = ApplicationDependencies.getMessageNotifier();
+      for (long threadId : threadIds) {
+        notifier.removeStickyThread(threadId);
+      }
+
       NotificationCancellationHelper.cancelLegacy(context, intent.getIntExtra(NOTIFICATION_ID_EXTRA, -1));
 
       SignalExecutors.BOUNDED.execute(() -> {
@@ -111,7 +115,7 @@ public class MarkReadReceiver extends BroadcastReceiver {
     }
 
     if (smsExpirationInfo.size() + mmsExpirationInfo.size() > 0) {
-      ExpiringMessageManager expirationManager = ApplicationContext.getInstance(context).getExpiringMessageManager();
+      ExpiringMessageManager expirationManager = ApplicationDependencies.getExpiringMessageManager();
 
       Stream.concat(Stream.of(smsExpirationInfo), Stream.of(mmsExpirationInfo))
             .forEach(info -> expirationManager.scheduleDeletion(info.getId(), info.isMms(), info.getExpiresIn()));

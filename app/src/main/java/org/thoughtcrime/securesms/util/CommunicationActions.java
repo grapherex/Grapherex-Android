@@ -27,17 +27,16 @@ import org.thoughtcrime.securesms.WebRtcCallActivity;
 import org.thoughtcrime.securesms.conversation.ConversationIntents;
 import org.thoughtcrime.securesms.database.DatabaseFactory;
 import org.thoughtcrime.securesms.database.GroupDatabase;
+import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.groups.GroupId;
 import org.thoughtcrime.securesms.groups.ui.invitesandrequests.joining.GroupJoinBottomSheetDialogFragment;
 import org.thoughtcrime.securesms.groups.ui.invitesandrequests.joining.GroupJoinUpdateRequiredBottomSheetDialogFragment;
 import org.thoughtcrime.securesms.groups.v2.GroupInviteLinkUrl;
 import org.thoughtcrime.securesms.permissions.Permissions;
+import org.thoughtcrime.securesms.proxy.ProxyBottomSheetFragment;
 import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.ringrtc.RemotePeer;
-import org.thoughtcrime.securesms.service.WebRtcCallService;
 import org.thoughtcrime.securesms.sms.MessageSender;
 import org.thoughtcrime.securesms.util.concurrent.SimpleTask;
-import org.whispersystems.signalservice.api.messages.calls.OfferMessage;
 
 public class CommunicationActions {
 
@@ -52,7 +51,7 @@ public class CommunicationActions {
       return;
     }
 
-    WebRtcCallService.isCallActive(activity, new ResultReceiver(new Handler(Looper.getMainLooper())) {
+    ApplicationDependencies.getSignalCallManager().isCallActive(new ResultReceiver(new Handler(Looper.getMainLooper())) {
       @Override
       protected void onReceiveResult(int resultCode, Bundle resultData) {
         if (resultCode == 1) {
@@ -78,7 +77,7 @@ public class CommunicationActions {
       return;
     }
 
-    WebRtcCallService.isCallActive(activity, new ResultReceiver(new Handler(Looper.getMainLooper())) {
+    ApplicationDependencies.getSignalCallManager().isCallActive(new ResultReceiver(new Handler(Looper.getMainLooper())) {
       @Override
       protected void onReceiveResult(int resultCode, Bundle resultData) {
         startCallInternal(activity, recipient, resultCode != 1);
@@ -207,6 +206,21 @@ public class CommunicationActions {
     });
   }
 
+  /**
+   * If the url is a proxy link it will handle it.
+   * Otherwise returns false, indicating was not a proxy link.
+   */
+  public static boolean handlePotentialProxyLinkUrl(@NonNull FragmentActivity activity, @NonNull String potentialProxyLinkUrl) {
+    String proxy = SignalProxyUtil.parseHostFromProxyDeepLink(potentialProxyLinkUrl);
+
+    if (proxy != null) {
+      ProxyBottomSheetFragment.showForProxy(activity.getSupportFragmentManager(), proxy);
+      return true;
+    } else {
+      return false;
+    }
+  }
+
   private static void startInsecureCallInternal(@NonNull Activity activity, @NonNull Recipient recipient) {
     try {
       Intent dialIntent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + recipient.requireSmsAddress()));
@@ -232,11 +246,7 @@ public class CommunicationActions {
                    R.drawable.ic_mic_solid_24)
                .withPermanentDenialDialog(activity.getString(R.string.ConversationActivity__to_call_s_signal_needs_access_to_your_microphone, recipient.getDisplayName(activity)))
                .onAllGranted(() -> {
-                 Intent intent = new Intent(activity, WebRtcCallService.class);
-                 intent.setAction(WebRtcCallService.ACTION_OUTGOING_CALL)
-                       .putExtra(WebRtcCallService.EXTRA_REMOTE_PEER, new RemotePeer(recipient.getId()))
-                       .putExtra(WebRtcCallService.EXTRA_OFFER_TYPE, OfferMessage.Type.AUDIO_CALL.getCode());
-                 activity.startService(intent);
+                 ApplicationDependencies.getSignalCallManager().startOutgoingAudioCall(recipient);
 
                  MessageSender.onMessageSent();
 
@@ -258,11 +268,7 @@ public class CommunicationActions {
                                     R.drawable.ic_video_solid_24_tinted)
                .withPermanentDenialDialog(activity.getString(R.string.ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s, recipient.getDisplayName(activity)))
                .onAllGranted(() -> {
-                 Intent intent = new Intent(activity, WebRtcCallService.class);
-                 intent.setAction(WebRtcCallService.ACTION_PRE_JOIN_CALL)
-                       .putExtra(WebRtcCallService.EXTRA_REMOTE_PEER, new RemotePeer(recipient.getId()))
-                       .putExtra(WebRtcCallService.EXTRA_OFFER_TYPE, OfferMessage.Type.VIDEO_CALL.getCode());
-                 activity.startService(intent);
+                 ApplicationDependencies.getSignalCallManager().startPreJoinCall(recipient);
 
                  Intent activityIntent = new Intent(activity, WebRtcCallActivity.class);
 

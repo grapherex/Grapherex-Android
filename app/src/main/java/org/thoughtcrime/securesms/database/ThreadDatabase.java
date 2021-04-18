@@ -26,6 +26,7 @@ import android.net.Uri;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -70,6 +71,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
@@ -78,7 +80,7 @@ import java.util.Set;
 
 public class ThreadDatabase extends Database {
 
-  private static final String TAG = ThreadDatabase.class.getSimpleName();
+  private static final String TAG = Log.tag(ThreadDatabase.class);
 
   public static final long NO_TRIM_BEFORE_DATE_SET   = 0;
   public static final int  NO_TRIM_MESSAGE_COUNT_SET = Integer.MAX_VALUE;
@@ -239,35 +241,6 @@ public class ThreadDatabase extends Database {
     notifyConversationListListeners();
   }
 
-  private void deleteThread(long threadId) {
-    SQLiteDatabase db = databaseHelper.getWritableDatabase();
-    db.delete(TABLE_NAME, ID_WHERE, new String[] {threadId + ""});
-    notifyConversationListListeners();
-    ConversationUtil.clearShortcuts(context, Collections.singleton(threadId));
-  }
-
-  private void deleteThreads(Set<Long> threadIds) {
-    SQLiteDatabase db = databaseHelper.getWritableDatabase();
-    String where      = "";
-
-    for (long threadId : threadIds) {
-      where += ID + " = '" + threadId + "' OR ";
-    }
-
-    where = where.substring(0, where.length() - 4);
-
-    db.delete(TABLE_NAME, where, null);
-    notifyConversationListListeners();
-    ConversationUtil.clearShortcuts(context, threadIds);
-  }
-
-  private void deleteAllThreads() {
-    SQLiteDatabase db = databaseHelper.getWritableDatabase();
-    db.delete(TABLE_NAME, null, null);
-    notifyConversationListListeners();
-    ConversationUtil.clearAllShortcuts(context);
-  }
-
   public void trimAllThreads(int length, long trimBeforeDate) {
     if (length == NO_TRIM_MESSAGE_COUNT_SET && trimBeforeDate == NO_TRIM_BEFORE_DATE_SET) {
       return;
@@ -396,18 +369,18 @@ public class ThreadDatabase extends Database {
   }
 
   public List<MarkedMessageInfo> setRead(long threadId, boolean lastSeen) {
-    return setReadInternal(Collections.singletonList(threadId), lastSeen, -1);
+    return setReadSince(Collections.singletonMap(threadId, -1L), lastSeen);
   }
 
   public List<MarkedMessageInfo> setReadSince(long threadId, boolean lastSeen, long sinceTimestamp) {
-    return setReadInternal(Collections.singletonList(threadId), lastSeen, sinceTimestamp);
+    return setReadSince(Collections.singletonMap(threadId, sinceTimestamp), lastSeen);
   }
 
   public List<MarkedMessageInfo> setRead(Collection<Long> threadIds, boolean lastSeen) {
-    return setReadInternal(threadIds, lastSeen, -1);
+    return setReadSince(Stream.of(threadIds).collect(Collectors.toMap(t -> t, t -> -1L)), lastSeen);
   }
 
-  private List<MarkedMessageInfo> setReadInternal(Collection<Long> threadIds, boolean lastSeen, long sinceTimestamp) {
+  public List<MarkedMessageInfo> setReadSince(Map<Long, Long> threadIdToSinceTimestamp, boolean lastSeen) {
     SQLiteDatabase db = databaseHelper.getWritableDatabase();
 
     List<MarkedMessageInfo> smsRecords = new LinkedList<>();
@@ -420,11 +393,14 @@ public class ThreadDatabase extends Database {
       ContentValues contentValues = new ContentValues(2);
       contentValues.put(READ, ReadStatus.READ.serialize());
 
-      if (lastSeen) {
-        contentValues.put(LAST_SEEN, sinceTimestamp == -1 ? System.currentTimeMillis() : sinceTimestamp);
-      }
+      for (Map.Entry<Long, Long> entry : threadIdToSinceTimestamp.entrySet()) {
+        long threadId = entry.getKey();
+        long sinceTimestamp = entry.getValue();
 
-      for (long threadId : threadIds) {
+        if (lastSeen) {
+          contentValues.put(LAST_SEEN, sinceTimestamp == -1 ? System.currentTimeMillis() : sinceTimestamp);
+        }
+
         ThreadRecord previous = getThreadRecord(threadId);
 
         smsRecords.addAll(DatabaseFactory.getSmsDatabase(context).setMessagesReadSince(threadId, sinceTimestamp));
@@ -450,7 +426,7 @@ public class ThreadDatabase extends Database {
       db.endTransaction();
     }
 
-    notifyConversationListeners(new HashSet<>(threadIds));
+    notifyConversationListeners(threadIdToSinceTimestamp.keySet());
     notifyConversationListListeners();
 
     if (needsSync) {
@@ -542,7 +518,6 @@ public class ThreadDatabase extends Database {
     }
 
     Cursor cursor = cursors.size() > 1 ? new MergeCursor(cursors.toArray(new Cursor[cursors.size()])) : cursors.get(0);
-    setNotifyConversationListListeners(cursor);
     return cursor;
   }
 
@@ -735,8 +710,6 @@ public class ThreadDatabase extends Database {
 
     Cursor cursor = db.rawQuery(query, new String[]{});
 
-    setNotifyConversationListListeners(cursor);
-
     return cursor;
   }
 
@@ -744,8 +717,6 @@ public class ThreadDatabase extends Database {
     SQLiteDatabase db     = databaseHelper.getReadableDatabase();
     String         query  = createQuery(ARCHIVED + " = ? AND " + MESSAGE_COUNT + " != 0", offset, limit, false);
     Cursor         cursor = db.rawQuery(query, new String[]{archived});
-
-    setNotifyConversationListListeners(cursor);
 
     return cursor;
   }
@@ -797,13 +768,10 @@ public class ThreadDatabase extends Database {
    * @return Pinned recipients, in order from top to bottom.
    */
   public @NonNull List<RecipientId> getPinnedRecipientIds() {
-    SQLiteDatabase    db         = databaseHelper.getReadableDatabase();
-    String[]          projection = new String[]{RECIPIENT_ID};
-    String            query      = PINNED + " > ?";
-    String[]          args       = SqlUtil.buildArgs(0);
+    String[]          projection = new String[]{ID, RECIPIENT_ID};
     List<RecipientId> pinned     = new LinkedList<>();
 
-    try (Cursor cursor = db.query(TABLE_NAME, projection, query, args, null, null, PINNED + " ASC")) {
+    try (Cursor cursor = getPinned(projection)) {
       while (cursor.moveToNext()) {
         pinned.add(RecipientId.from(CursorUtil.requireLong(cursor, RECIPIENT_ID)));
       }
@@ -812,13 +780,63 @@ public class ThreadDatabase extends Database {
     return pinned;
   }
 
-  public void pinConversations(@NonNull Set<Long> threadIds) {
+  /**
+   * @return Pinned thread ids, in order from top to bottom.
+   */
+  public @NonNull List<Long> getPinnedThreadIds() {
+    String[]   projection = new String[]{ID};
+    List<Long> pinned     = new LinkedList<>();
+
+    try (Cursor cursor = getPinned(projection)) {
+      while (cursor.moveToNext()) {
+        pinned.add(CursorUtil.requireLong(cursor, ID));
+      }
+    }
+
+    return pinned;
+  }
+
+  /**
+   * @return Pinned recipients, in order from top to bottom.
+   */
+  private @NonNull Cursor getPinned(String[] projection) {
+    SQLiteDatabase    db         = databaseHelper.getReadableDatabase();
+    String            query      = PINNED + " > ?";
+    String[]          args       = SqlUtil.buildArgs(0);
+
+    return db.query(TABLE_NAME, projection, query, args, null, null, PINNED + " ASC");
+  }
+
+  public void restorePins(@NonNull Collection<Long> threadIds) {
+    Log.d(TAG, "Restoring pinned threads " + StringUtil.join(threadIds, ","));
+    pinConversations(threadIds, true);
+  }
+
+  public void pinConversations(@NonNull Collection<Long> threadIds) {
+    Log.d(TAG, "Pinning threads " + StringUtil.join(threadIds, ","));
+    pinConversations(threadIds, false);
+  }
+
+  private void pinConversations(@NonNull Collection<Long> threadIds, boolean clearFirst) {
     SQLiteDatabase db = databaseHelper.getWritableDatabase();
+    threadIds = new LinkedHashSet<>(threadIds);
 
     try {
       db.beginTransaction();
 
+      if (clearFirst) {
+        ContentValues contentValues = new ContentValues(1);
+        contentValues.put(PINNED, 0);
+        String   query = PINNED + " > ?";
+        String[] args  = SqlUtil.buildArgs(0);
+        db.update(TABLE_NAME, contentValues, query, args);
+      }
+
       int pinnedCount = getPinnedConversationListCount();
+
+      if (pinnedCount > 0 && clearFirst) {
+        throw new AssertionError();
+      }
 
       for (long threadId : threadIds) {
         ContentValues contentValues = new ContentValues(1);
@@ -930,28 +948,74 @@ public class ThreadDatabase extends Database {
   }
 
   public void deleteConversation(long threadId) {
-    DatabaseFactory.getSmsDatabase(context).deleteThread(threadId);
-    DatabaseFactory.getMmsDatabase(context).deleteThread(threadId);
-    DatabaseFactory.getDraftDatabase(context).clearDrafts(threadId);
-    deleteThread(threadId);
-    notifyConversationListeners(threadId);
+    SQLiteDatabase db = databaseHelper.getWritableDatabase();
+
+    db.beginTransaction();
+    try {
+      DatabaseFactory.getSmsDatabase(context).deleteThread(threadId);
+      DatabaseFactory.getMmsDatabase(context).deleteThread(threadId);
+      DatabaseFactory.getDraftDatabase(context).clearDrafts(threadId);
+
+      db.delete(TABLE_NAME, ID_WHERE, new String[]{threadId + ""});
+
+      db.setTransactionSuccessful();
+    } finally {
+      db.endTransaction();
+    }
+
     notifyConversationListListeners();
+    notifyConversationListeners(threadId);
+    ConversationUtil.clearShortcuts(context, Collections.singleton(threadId));
   }
 
   public void deleteConversations(Set<Long> selectedConversations) {
-    DatabaseFactory.getSmsDatabase(context).deleteThreads(selectedConversations);
-    DatabaseFactory.getMmsDatabase(context).deleteThreads(selectedConversations);
-    DatabaseFactory.getDraftDatabase(context).clearDrafts(selectedConversations);
-    deleteThreads(selectedConversations);
-    notifyConversationListeners(selectedConversations);
+    SQLiteDatabase db = databaseHelper.getWritableDatabase();
+
+    db.beginTransaction();
+    try {
+      DatabaseFactory.getSmsDatabase(context).deleteThreads(selectedConversations);
+      DatabaseFactory.getMmsDatabase(context).deleteThreads(selectedConversations);
+      DatabaseFactory.getDraftDatabase(context).clearDrafts(selectedConversations);
+
+      StringBuilder where = new StringBuilder();
+
+      for (long threadId : selectedConversations) {
+        if (where.length() > 0) {
+          where.append(" OR ");
+        }
+        where.append(ID + " = '").append(threadId).append("'");
+      }
+
+      db.delete(TABLE_NAME, where.toString(), null);
+
+      db.setTransactionSuccessful();
+    } finally {
+      db.endTransaction();
+    }
+
     notifyConversationListListeners();
+    notifyConversationListeners(selectedConversations);
+    ConversationUtil.clearShortcuts(context, selectedConversations);
   }
 
   public void deleteAllConversations() {
-    DatabaseFactory.getSmsDatabase(context).deleteAllThreads();
-    DatabaseFactory.getMmsDatabase(context).deleteAllThreads();
-    DatabaseFactory.getDraftDatabase(context).clearAllDrafts();
-    deleteAllThreads();
+    SQLiteDatabase db = databaseHelper.getWritableDatabase();
+
+    db.beginTransaction();
+    try {
+      DatabaseFactory.getSmsDatabase(context).deleteAllThreads();
+      DatabaseFactory.getMmsDatabase(context).deleteAllThreads();
+      DatabaseFactory.getDraftDatabase(context).clearAllDrafts();
+
+      db.delete(TABLE_NAME, null, null);
+
+      db.setTransactionSuccessful();
+    } finally {
+      db.endTransaction();
+    }
+
+    notifyConversationListListeners();
+    ConversationUtil.clearAllShortcuts(context);
   }
 
   public long getThreadIdIfExistsFor(@NonNull RecipientId recipientId) {
@@ -988,7 +1052,13 @@ public class ThreadDatabase extends Database {
   public long getOrCreateValidThreadId(@NonNull Recipient recipient, long candidateId, int distributionType) {
     if (candidateId != -1) {
       Optional<Long> remapped = RemappedRecords.getInstance().getThread(context, candidateId);
-      return remapped.isPresent() ? remapped.get() : candidateId;
+
+      if (remapped.isPresent()) {
+        Log.i(TAG, "Using remapped threadId: " + candidateId + " -> " + remapped.get());
+        return remapped.get();
+      } else {
+        return candidateId;
+      }
     } else {
       return getThreadIdFor(recipient, distributionType);
     }
@@ -1154,12 +1224,13 @@ public class ThreadDatabase extends Database {
 
   private void applyStorageSyncUpdate(@NonNull RecipientId recipientId, boolean archived, boolean forcedUnread) {
     ContentValues values = new ContentValues();
-    values.put(ARCHIVED, archived);
+    values.put(ARCHIVED, archived ? 1 : 0);
+
+    Long threadId = getThreadIdFor(recipientId);
 
     if (forcedUnread) {
       values.put(READ, ReadStatus.FORCED_UNREAD.serialize());
     } else {
-      Long threadId = getThreadIdFor(recipientId);
       if (threadId != null) {
         int unreadCount = DatabaseFactory.getMmsSmsDatabase(context).getUnreadCount(threadId);
 
@@ -1169,6 +1240,10 @@ public class ThreadDatabase extends Database {
     }
 
     databaseHelper.getWritableDatabase().update(TABLE_NAME, values, RECIPIENT_ID + " = ?", SqlUtil.buildArgs(recipientId));
+
+    if (threadId != null) {
+      notifyConversationListeners(threadId);
+    }
   }
 
   public boolean update(long threadId, boolean unarchive) {
@@ -1181,8 +1256,7 @@ public class ThreadDatabase extends Database {
 
     if (count == 0) {
       if (allowDeletion) {
-        deleteThread(threadId);
-        notifyConversationListListeners();
+        deleteConversation(threadId);
       }
       return true;
     }
@@ -1201,8 +1275,7 @@ public class ThreadDatabase extends Database {
         notifyConversationListListeners();
         return false;
       } else {
-        deleteThread(threadId);
-        notifyConversationListListeners();
+        deleteConversation(threadId);
         return true;
       }
     } finally {
@@ -1330,9 +1403,10 @@ public class ThreadDatabase extends Database {
     return null;
   }
 
-  private @Nullable Extra getExtrasFor(MessageRecord record) {
+  private @Nullable Extra getExtrasFor(@NonNull MessageRecord record) {
     boolean     messageRequestAccepted = RecipientUtil.isMessageRequestAccepted(context, record.getThreadId());
     RecipientId threadRecipientId      = getRecipientIdForThreadId(record.getThreadId());
+    RecipientId individualRecipient    = record.getIndividualRecipient().getId();
 
     if (!messageRequestAccepted && threadRecipientId != null) {
       Recipient resolved = Recipient.resolved(threadRecipientId);
@@ -1343,35 +1417,42 @@ public class ThreadDatabase extends Database {
             RecipientId from = RecipientId.from(inviteAddState.getAddedOrInvitedBy(), null);
             if (inviteAddState.isInvited()) {
               Log.i(TAG, "GV2 invite message request from " + from);
-              return Extra.forGroupV2invite(from);
+              return Extra.forGroupV2invite(from, individualRecipient);
             } else {
               Log.i(TAG, "GV2 message request from " + from);
-              return Extra.forGroupMessageRequest(from);
+              return Extra.forGroupMessageRequest(from, individualRecipient);
             }
           }
           Log.w(TAG, "Falling back to unknown message request state for GV2 message");
-          return Extra.forMessageRequest();
+          return Extra.forMessageRequest(individualRecipient);
         } else {
           RecipientId recipientId = DatabaseFactory.getMmsSmsDatabase(context).getGroupAddedBy(record.getThreadId());
 
           if (recipientId != null) {
-            return Extra.forGroupMessageRequest(recipientId);
+            return Extra.forGroupMessageRequest(recipientId, individualRecipient);
           }
         }
       }
 
-      return Extra.forMessageRequest();
+      return Extra.forMessageRequest(individualRecipient);
     }
 
     if (record.isRemoteDelete()) {
-      return Extra.forRemoteDelete();
+      return Extra.forRemoteDelete(individualRecipient);
     } else if (record.isViewOnce()) {
-      return Extra.forViewOnce();
+      return Extra.forViewOnce(individualRecipient);
     } else if (record.isMms() && ((MmsMessageRecord) record).getSlideDeck().getStickerSlide() != null) {
       StickerSlide slide = Objects.requireNonNull(((MmsMessageRecord) record).getSlideDeck().getStickerSlide());
-      return Extra.forSticker(slide.getEmoji());
+      return Extra.forSticker(slide.getEmoji(), individualRecipient);
     } else if (record.isMms() && ((MmsMessageRecord) record).getSlideDeck().getSlides().size() > 1) {
-      return Extra.forAlbum();
+      return Extra.forAlbum(individualRecipient);
+    }
+
+    if (threadRecipientId != null) {
+      Recipient resolved = Recipient.resolved(threadRecipientId);
+      if (resolved.isGroup()) {
+        return Extra.forDefault(individualRecipient);
+      }
     }
 
     return null;
@@ -1461,6 +1542,7 @@ public class ThreadDatabase extends Database {
 
         if (group != null) {
           RecipientDetails details = new RecipientDetails(group.getTitle(),
+                                                          null,
                                                           group.hasAvatar() ? Optional.of(group.getAvatarId()) : Optional.absent(),
                                                           false,
                                                           false,
@@ -1495,7 +1577,7 @@ public class ThreadDatabase extends Database {
                              .setDistributionType(cursor.getInt(cursor.getColumnIndexOrThrow(ThreadDatabase.TYPE)))
                              .setBody(Util.emptyIfNull(cursor.getString(cursor.getColumnIndexOrThrow(ThreadDatabase.SNIPPET))))
                              .setDate(cursor.getLong(cursor.getColumnIndexOrThrow(ThreadDatabase.DATE)))
-                             .setArchived(cursor.getInt(cursor.getColumnIndex(ThreadDatabase.ARCHIVED)) != 0)
+                             .setArchived(CursorUtil.requireInt(cursor, ThreadDatabase.ARCHIVED) != 0)
                              .setDeliveryStatus(cursor.getInt(cursor.getColumnIndexOrThrow(ThreadDatabase.STATUS)))
                              .setDeliveryReceiptCount(cursor.getInt(cursor.getColumnIndexOrThrow(ThreadDatabase.DELIVERY_RECEIPT_COUNT)))
                              .setReadReceiptCount(readReceiptCount)
@@ -1542,6 +1624,7 @@ public class ThreadDatabase extends Database {
     @JsonProperty private final boolean isMessageRequestAccepted;
     @JsonProperty private final boolean isGv2Invite;
     @JsonProperty private final String  groupAddedBy;
+    @JsonProperty private final String  individualRecipientId;
 
     public Extra(@JsonProperty("isRevealable") boolean isRevealable,
                  @JsonProperty("isSticker") boolean isSticker,
@@ -1550,7 +1633,8 @@ public class ThreadDatabase extends Database {
                  @JsonProperty("isRemoteDelete") boolean isRemoteDelete,
                  @JsonProperty("isMessageRequestAccepted") boolean isMessageRequestAccepted,
                  @JsonProperty("isGv2Invite") boolean isGv2Invite,
-                 @JsonProperty("groupAddedBy") String groupAddedBy)
+                 @JsonProperty("groupAddedBy") String groupAddedBy,
+                 @JsonProperty("individualRecipientId") String individualRecipientId)
     {
       this.isRevealable             = isRevealable;
       this.isSticker                = isSticker;
@@ -1560,34 +1644,39 @@ public class ThreadDatabase extends Database {
       this.isMessageRequestAccepted = isMessageRequestAccepted;
       this.isGv2Invite              = isGv2Invite;
       this.groupAddedBy             = groupAddedBy;
+      this.individualRecipientId    = individualRecipientId;
     }
 
-    public static @NonNull Extra forViewOnce() {
-      return new Extra(true, false, null, false, false, true, false, null);
+    public static @NonNull Extra forViewOnce(@NonNull RecipientId individualRecipient) {
+      return new Extra(true, false, null, false, false, true, false, null, individualRecipient.serialize());
     }
 
-    public static @NonNull Extra forSticker(@Nullable String emoji) {
-      return new Extra(false, true, emoji, false, false, true, false, null);
+    public static @NonNull Extra forSticker(@Nullable String emoji, @NonNull RecipientId individualRecipient) {
+      return new Extra(false, true, emoji, false, false, true, false, null, individualRecipient.serialize());
     }
 
-    public static @NonNull Extra forAlbum() {
-      return new Extra(false, false, null, true, false, true, false, null);
+    public static @NonNull Extra forAlbum(@NonNull RecipientId individualRecipient) {
+      return new Extra(false, false, null, true, false, true, false, null, individualRecipient.serialize());
     }
 
-    public static @NonNull Extra forRemoteDelete() {
-      return new Extra(false, false, null, false, true, true, false, null);
+    public static @NonNull Extra forRemoteDelete(@NonNull RecipientId individualRecipient) {
+      return new Extra(false, false, null, false, true, true, false, null, individualRecipient.serialize());
     }
 
-    public static @NonNull Extra forMessageRequest() {
-      return new Extra(false, false, null, false, false, false, false, null);
+    public static @NonNull Extra forMessageRequest(@NonNull RecipientId individualRecipient) {
+      return new Extra(false, false, null, false, false, false, false, null, individualRecipient.serialize());
     }
 
-    public static @NonNull Extra forGroupMessageRequest(RecipientId recipientId) {
-      return new Extra(false, false, null, false, false, false, false, recipientId.serialize());
+    public static @NonNull Extra forGroupMessageRequest(@NonNull RecipientId recipientId, @NonNull RecipientId individualRecipient) {
+      return new Extra(false, false, null, false, false, false, false, recipientId.serialize(), individualRecipient.serialize());
     }
 
-    public static @NonNull Extra forGroupV2invite(RecipientId recipientId) {
-      return new Extra(false, false, null, false, false, false, true, recipientId.serialize());
+    public static @NonNull Extra forGroupV2invite(@NonNull RecipientId recipientId, @NonNull RecipientId individualRecipient) {
+      return new Extra(false, false, null, false, false, false, true, recipientId.serialize(), individualRecipient.serialize());
+    }
+
+    public static @NonNull Extra forDefault(@NonNull RecipientId individualRecipient) {
+      return new Extra(false, false, null, false, false, true, false, null, individualRecipient.serialize());
     }
 
     public boolean isViewOnce() {
@@ -1620,6 +1709,10 @@ public class ThreadDatabase extends Database {
 
     public @Nullable String getGroupAddedBy() {
       return groupAddedBy;
+    }
+
+    public @Nullable String getIndividualRecipientId() {
+      return individualRecipientId;
     }
   }
 

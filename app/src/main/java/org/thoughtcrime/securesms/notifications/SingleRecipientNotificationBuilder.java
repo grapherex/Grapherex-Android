@@ -50,7 +50,7 @@ import java.util.concurrent.ExecutionException;
 
 public class SingleRecipientNotificationBuilder extends AbstractNotificationBuilder {
 
-  private static final String TAG = SingleRecipientNotificationBuilder.class.getSimpleName();
+  private static final String TAG = Log.tag(SingleRecipientNotificationBuilder.class);
 
   private static final int BIG_PICTURE_DIMEN = 500;
   private static final int LARGE_ICON_DIMEN  = 250;
@@ -268,7 +268,12 @@ public class SingleRecipientNotificationBuilder extends AbstractNotificationBuil
     if (slideDeck != null && slideDeck.getThumbnailSlide() != null) {
       Slide thumbnail = slideDeck.getThumbnailSlide();
 
-      dataUri  = thumbnail.getUri();
+      if (Build.VERSION.SDK_INT >= 28) {
+        dataUri = thumbnail.getPublicUri();
+      } else {
+        dataUri  = thumbnail.getUri();
+      }
+
       mimeType = thumbnail.getContentType();
     }
 

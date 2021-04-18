@@ -33,11 +33,13 @@
   <string name="ApplicationPreferencesActivity_sms_mms_summary">ଏସଏମଏସ  %1$s ଏମଏମଏସ %2$s</string>
   <string name="ApplicationPreferencesActivity_privacy_summary">ଚିତ୍ରପଟ୍ଟ ତାଲା %1$s,ପଞ୍ଜିକରଣ ତାଲା %2$s</string>
   <string name="ApplicationPreferencesActivity_appearance_summary">ଥିମ୍ %1$s, ଭାଷା %2$s</string>
-  <string name="ApplicationPreferencesActivity_pins_are_required_for_registration_lock"> ପଞ୍ଜୀକରଣ ଲକ୍ ପାଇଁ PIN ଗୁଡିକ ଆବଶ୍ୟକ | PIN ଗୁଡିକ ଅକ୍ଷମ କରିବାକୁ, ଦୟାକରି ପ୍ରଥମେ ପଞ୍ଜୀକରଣ ଲକ୍ ଅକ୍ଷମ କରନ୍ତୁ |</string>
+  <string name="ApplicationPreferencesActivity_pins_are_required_for_registration_lock">ପଞ୍ଜୀକରଣ ଲକ୍ ପାଇଁ PIN ଗୁଡିକ ଆବଶ୍ୟକ | PIN ଗୁଡିକ ଅକ୍ଷମ କରିବାକୁ, ଦୟାକରି ପ୍ରଥମେ ପଞ୍ଜୀକରଣ ଲକ୍ ଅକ୍ଷମ କରନ୍ତୁ |</string>
   <string name="ApplicationPreferencesActivity_pin_created">ପିନ୍ ସୃଷ୍ଟି କରାଗଲା।</string>
   <string name="ApplicationPreferencesActivity_pin_disabled">ପିନ୍ ଅକ୍ଷମ ଅଟେ।</string>
   <string name="ApplicationPreferencesActivity_hide">ଲୁଚାନ୍ତୁ</string>
   <string name="ApplicationPreferencesActivity_hide_reminder">ସ୍ମରଣିକା ଲୁଚାଇବେ କି?</string>
+  <string name="ApplicationPreferencesActivity_record_payments_recovery_phrase">ପେମେଣ୍ଟ ପୁନରୁଦ୍ଧାର ବାକ୍ୟାଂଶ ରେକର୍ଡ଼୍ କରନ୍ତୁ</string>
+  <string name="ApplicationPreferencesActivity_record_phrase">ବାକ୍ୟାଂଶ ରେକର୍ଡ଼୍ କରନ୍ତୁ</string>
   <!--AppProtectionPreferenceFragment-->
   <plurals name="AppProtectionPreferenceFragment_minutes">
     <item quantity="one">%d ମିନିଟ୍</item>
@@ -57,6 +59,7 @@
   <string name="AttachmentKeyboard_location">ଅବସ୍ଥାନ</string>
   <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">ଆପଣଙ୍କର ଫଟୋ ଏବଂ ଭିଡିଓ ଦେଖାଇବାକୁ Signal ଅନୁମତି ଆବଶ୍ୟକ କରେ |</string>
   <string name="AttachmentKeyboard_give_access">ଆକ୍ସେସ୍ ଦିଅନ୍ତୁ</string>
+  <string name="AttachmentKeyboard_payment">ପଇସା ଦେୟ</string>
   <!--AttachmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">ମିଡିଆ ବାଛିବା ପାଇଁ ଏକ ଆପ୍ ଖୋଜିପାରୁ ନାହିଁ |</string>
   <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">ଫଟୋ, ଭିଡିଓ, କିମ୍ବା ଅଡିଓ ସଂଲଗ୍ନ କରିବା ପାଇଁ Signal ଷ୍ଟୋରେଜ୍ ଅନୁମତି ଆବଶ୍ୟକ କରେ, କିନ୍ତୁ ଏହାକୁ ସ୍ଥାୟୀ ଭାବରେ ପ୍ରତ୍ୟାଖ୍ୟାନ କରାଯାଇଛି | ଦୟାକରି ଆପ୍ ସେଟିଂସମୂହ ମେନୁକୁ ଜାରି ରଖନ୍ତୁ, \"ଅନୁମତି\" ଚୟନ କରନ୍ତୁ ଏବଂ \"ସଂରକ୍ଷଣ\" ସକ୍ଷମ କରନ୍ତୁ |</string>
@@ -65,6 +68,8 @@
   <!--AttachmentUploadJob-->
   <string name="AttachmentUploadJob_uploading_media">ମିଡ଼ିଆ ଅପଲୋଡ଼୍ ହେଉଛି…</string>
   <string name="AttachmentUploadJob_compressing_video_start">ଭିଡ଼ିଓ ସଙ୍କୋଚନ କରାଯାଉଛି…</string>
+  <!--BackgroundMessageRetriever-->
+  <string name="BackgroundMessageRetriever_checking_for_messages">ବାର୍ତ୍ତା ପାଇଁ ଯାଞ୍ଚ କରୁଛି…</string>
   <!--BlockedUsersActivity-->
   <string name="BlockedUsersActivity__blocked_users">ବ୍ଲକ୍ ହୋଇଥିବା ବ୍ୟବହାରକାରୀ</string>
   <string name="BlockedUsersActivity__add_blocked_user">ବ୍ଲକ୍ ହୋଇଥିବା ବ୍ୟବହାରକାରୀ ଯୋଡ଼ନ୍ତୁ</string>
@@ -232,6 +237,7 @@
   <string name="ConversationActivity__more_options_now_in_group_settings"> ଅଧିକ ବିକଳ୍ପ ବର୍ତ୍ତମାନ \"ଗୋଷ୍ଠୀ ସେଟିଂସମୂହ\" ରେ </string>
   <string name="ConversationActivity_join">ଯୋଗ ଦିଅନ୍ତୁ</string>
   <string name="ConversationActivity_full">ପୂର୍ଣ୍ଣ</string>
+  <string name="ConversationActivity_error_sending_media">ମିଡ଼ିଆ ପଠାଇବାରେ ତ୍ରୁଟି</string>
   <!--ConversationAdapter-->
   <plurals name="ConversationAdapter_n_unread_messages">
     <item quantity="one">%dଟାଏ ଅପଠିତ ବାର୍ତ୍ତା </item>
@@ -469,7 +475,7 @@
   <!--GroupsV1MigrationInitiationReminder-->
   <string name="GroupsV1MigrationInitiationReminder_to_access_new_features_like_mentions">@ଉଲ୍ଲେଖ ଏବଂ ପରିଚାଳକ ପରି ନୂତନ ବୈଶିଷ୍ଟ୍ୟଗୁଡିକୁ ପ୍ରବେଶ କରିବାକୁ, ଏହି ଗୋଷ୍ଠୀକୁ ନବୀକରଣ କରନ୍ତୁ</string>
   <string name="GroupsV1MigrationInitiationReminder_not_now">ଏବେ ନୁହେଁ</string>
-  <string name="GroupsV1MigrationInitiationReminder_update_group">ଗୋଷ୍ଠୀ ଅଦ୍ୟତନ କରନ୍ତୁ</string>
+  <string name="GroupsV1MigrationInitiationReminder_upgrade_group">ଗୋଷ୍ଠୀ ଅଦ୍ୟତନ କରନ୍ତୁ</string>
   <!--GroupsV1MigrationSuggestionsReminder-->
   <plurals name="GroupsV1MigrationSuggestionsReminder_members_couldnt_be_added_to_the_new_group">
     <item quantity="one">%1$dଜଣେ ସଦସ୍ୟ ନୂତନ ଗୋଷ୍ଠୀରେ ପୁନଃଯୋଡି ହୋଇପାରିଲେ ନାହିଁ | ଆପଣ ବର୍ତ୍ତମାନ ସେଗୁଡିକୁ ଯୋଡିବାକୁ ଚାହୁଁଛନ୍ତି କି?</item>
@@ -604,6 +610,7 @@
   <string name="ManageGroupActivity_mentions">ଉଲ୍ଲେଖ</string>
   <string name="ManageGroupActivity_chat_wallpaper">ବାର୍ତ୍ତା କାନ୍ଥଛବି</string>
   <string name="ManageGroupActivity_until_s">%1$s ପର୍ଯ୍ୟନ୍ତ</string>
+  <string name="ManageGroupActivity_always">ସବୁବେଳେ</string>
   <string name="ManageGroupActivity_off">ବନ୍ଦ</string>
   <string name="ManageGroupActivity_on">ଚାଲୁ</string>
   <string name="ManageGroupActivity_view_all_members">ସମସ୍ତ ସଦସ୍ୟଙ୍କୁ ଦେଖନ୍ତୁ</string>
@@ -654,6 +661,7 @@
   <string name="ManageRecipientActivity_mute_notifications">ବିଜ୍ଞପ୍ତି ମ୍ୟୁଟ୍ କରନ୍ତୁ</string>
   <string name="ManageRecipientActivity_custom_notifications">କଷ୍ଟମ୍ ବିଜ୍ଞପ୍ତି</string>
   <string name="ManageRecipientActivity_until_s">%1$s ପର୍ଯ୍ୟନ୍ତ</string>
+  <string name="ManageRecipientActivity_always">ସବୁବେଳେ</string>
   <string name="ManageRecipientActivity_off">ବନ୍ଦ</string>
   <string name="ManageRecipientActivity_on">ଚାଲୁ</string>
   <string name="ManageRecipientActivity_add_to_a_group">ଏକ ଗୋଷ୍ଠୀରେ ଯୋଡ଼ନ୍ତୁ</string>
@@ -834,6 +842,11 @@
   <string name="NotificationBarManager__answer_call">ଉତ୍ତର ଦିଅନ୍ତୁ</string>
   <string name="NotificationBarManager__end_call">ସମାପ୍ତ କରନ୍ତୁ</string>
   <string name="NotificationBarManager__cancel_call">ବାତିଲ୍ କରନ୍ତୁ</string>
+  <!--NotificationsMegaphone-->
+  <string name="NotificationsMegaphone_turn_on_notifications">ବିଜ୍ଞପ୍ତି ଚାଲୁ କରନ୍ତୁ?</string>
+  <string name="NotificationsMegaphone_never_miss_a_message">ଆପଣଙ୍କର ଯୋଗାଯୋଗ ଏବଂ ଗୋଷ୍ଠୀରୁ କୌଣସି ସନ୍ଦେଶକୁ କେବେବି ଭୁଲନ୍ତୁ ନାହିଁ |</string>
+  <string name="NotificationsMegaphone_turn_on">ଚାଲୁ କରନ୍ତୁ</string>
+  <string name="NotificationsMegaphone_not_now">ଏବେ ନୁହେଁ</string>
   <!--NotificationMmsMessageRecord-->
   <string name="NotificationMmsMessageRecord_multimedia_message">ମଲ୍ଟିମିଡ଼ିଆ ବାର୍ତ୍ତା</string>
   <string name="NotificationMmsMessageRecord_downloading_mms_message">ଏମ୍ଏମ୍ଏସ୍ ବାର୍ତ୍ତା ଡାଉନଲୋଡ଼୍ କରାଯାଉଛି</string>
@@ -1105,6 +1118,7 @@
   <string name="PassphrasePromptActivity_ok_button_content_description">ପାସ୍-ଫ୍ରେଜ ଦାଖଲ କରନ୍ତୁ</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">ଅବୈଧ ପାସ୍-ଫ୍ରେଜ</string>
   <string name="PassphrasePromptActivity_unlock_signal">Signal ତାଲା ଫିଟାନ୍ତୁ</string>
+  <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal ଆଣ୍ଡ୍ରଏଡ୍-ଚିତ୍ରପଟ୍ଟ ତାଲା </string>
   <!--PlacePickerActivity-->
   <string name="PlacePickerActivity_title">ମାନଚିତ୍ର</string>
   <string name="PlacePickerActivity_drop_pin">ଡ୍ରପ୍ ପିନ୍</string>
@@ -1142,7 +1156,6 @@
   <string name="RatingManager_rate_now">ଏବେ ମୂଲ୍ୟାଙ୍କନ କର!</string>
   <string name="RatingManager_no_thanks">ନା ଧନ୍ୟବାଦ</string>
   <string name="RatingManager_later">ପରେ</string>
-  <string name="RatingManager_whoops_the_play_store_app_does_not_appear_to_be_installed">ଓହୋ,ପ୍ଲେ-ଷ୍ଟୋର୍ ଆପ୍ ଆପଣଙ୍କ ଉପକରଣ ରେ ସଂସ୍ଥାପିତ ହୋଇଥିବା ପରି ଦେଖାଯାଉ ନାହିଁ</string>
   <!--ReactionsBottomSheetDialogFragment-->
   <string name="ReactionsBottomSheetDialogFragment_all">ସମସ୍ତ%1$d</string>
   <!--ReactionsConversationView-->
@@ -1201,6 +1214,12 @@
   <string name="CallParticipantView__cant_receive_audio_video_from_s">ଅଡିଓ &amp; amp ଗ୍ରହଣ କରିହଉ ନାହିଁ ; %1$s ରୁ ଭିଡିଓ</string>
   <string name="CallParticipantView__cant_receive_audio_and_video_from_s">%1$sଙ୍କ ଠାରୁ ଅଡିଓ ଏବଂ ଭିଡିଓ ଗ୍ରହଣ କରିପାରିବ ନାହିଁ</string>
   <string name="CallParticipantView__this_may_be_Because_they_have_not_verified_your_safety_number_change">ଏହା ହୋଇପାରେ କାରଣ ସେମାନେ ଆପଣଙ୍କର \"ସୁରକ୍ଷା ନମ୍ବର ପରିବର୍ତ୍ତନ\" ଯାଞ୍ଚ କରିନାହାଁନ୍ତି, ସେମାନଙ୍କ ଉପକରଣ ରେ ଏକ ସମସ୍ୟା ଅଛି, କିମ୍ବା ସେମାନେ ଆପଣଙ୍କୁ ଅବରୋଧ କରିଛନ୍ତି</string>
+  <!--ProxyBottomSheetFragment-->
+  <string name="ProxyBottomSheetFragment_proxy_server">ପ୍ରକ୍ସି ସର୍ଭର</string>
+  <string name="ProxyBottomSheetFragment_proxy_address">ପ୍ରକ୍ସି ଠିକଣା </string>
+  <string name="ProxyBottomSheetFragment_do_you_want_to_use_this_proxy_address">ଆପଣ ଏହି ପ୍ରକ୍ସି ଠିକଣା ବ୍ୟବହାର କରିବାକୁ ଚାହାଁନ୍ତି କି?</string>
+  <string name="ProxyBottomSheetFragment_use_proxy">ପ୍ରକ୍ସି ବ୍ୟବହାର କରନ୍ତୁ </string>
+  <string name="ProxyBottomSheetFragment_successfully_connected_to_proxy">ପ୍ରକ୍ସି ସହିତ ସଫଳତାର ସହିତ ସଂଯୁକ୍ତ</string>
   <!--RegistrationActivity-->
   <string name="RegistrationActivity_select_your_country">ନିଜ ଦେଶ ବାଛନ୍ତୁ</string>
   <string name="RegistrationActivity_you_must_specify_your_country_code">ଆପଣ ନିଶ୍ଚିତ ଭାବରେ ଯୋଗାଇବେ ଆପଣଙ୍କର
@@ -1233,6 +1252,7 @@
   <string name="RegistrationActivity_continue">ଜାରି ରଖନ୍ତୁ</string>
   <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">ଆପଣଙ୍କ ସହିତ ଗୋପନୀୟତା ନିଅନ୍ତୁ। \n ପ୍ରତ୍ୟେକ ବାର୍ତ୍ତାରେ ନିଜକୁ ରଖନ୍ତୁ</string>
   <string name="RegistrationActivity_enter_your_phone_number_to_get_started">ଆରମ୍ଭ କରିବାକୁ ଆପଣଙ୍କର ଫୋନ୍ ନମ୍ବର ପ୍ରବେଶ କରନ୍ତୁ</string>
+  <string name="RegistrationActivity_enter_your_phone_number">ଆପଣଙ୍କର ଫୋନ୍ ନମ୍ବର ପ୍ରବେଶ କରନ୍ତୁ</string>
   <string name="RegistrationActivity_you_will_receive_a_verification_code">ଆପଣ ଏକ ଯାଞ୍ଚ କୋଡ୍ ପାଇବେ | ବାହକ ହାର ଲାଗୁ ହୋଇପାରେ</string>
   <string name="RegistrationActivity_enter_the_code_we_sent_to_s">ଆମେ %s କୁ ପଠାଇଥିବା କୋଡ୍ ପ୍ରବେଶ କର</string>
   <string name="RegistrationActivity_make_sure_your_phone_has_a_cellular_signal">ନିଶ୍ଚିତ କରନ୍ତୁ ଯେ ଆପଣଙ୍କର ଫୋନରେ ଆପଣଙ୍କର SMS କିମ୍ବା କଲ୍ ଗ୍ରହଣ କରିବାକୁ ଏକ ଫୋନ୍ ସିଗ୍ନାଲ୍ ଅଛି</string>
@@ -1448,16 +1468,17 @@
   <string name="MessageNotifier_this_message_was_deleted">ଏହି ବାର୍ତ୍ତା ବିଲୋପ କରାଯାଇଛି।</string>
   <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">ସମ୍ପର୍କ Signal ରେ ଯୋଗ ଦେଲେ ବନ୍ଦ କରନ୍ତୁ? Signal  &amp; gt ରେ ଆପଣ ସେମାନଙ୍କୁ ପୁନର୍ବାର ସକ୍ଷମ କରିପାରିବେ; ସେଟିଂସମୂହ &amp; gt; ବିଜ୍ଞପ୍ତିଗୁଡିକ</string>
   <!--Notification Channels-->
-  <string name="NotificationChannel_messages">ଡିଫଲ୍ଟ</string>
+  <string name="NotificationChannel_channel_messages">ବାର୍ତ୍ତା</string>
   <string name="NotificationChannel_calls">କଲ୍</string>
   <string name="NotificationChannel_failures">ବିଫଳତା</string>
   <string name="NotificationChannel_backups">ନକଲ ସଂରକ୍ଷଣ</string>
   <string name="NotificationChannel_locked_status">ତାଲା ସ୍ଥିତି</string>
   <string name="NotificationChannel_app_updates">ଆପ୍ ଅଦ୍ୟତନଗୁଡ଼ିକ</string>
   <string name="NotificationChannel_other">ଅନ୍ୟ</string>
-  <string name="NotificationChannel_group_messages">ବାର୍ତ୍ତା</string>
+  <string name="NotificationChannel_group_chats">ବାର୍ତ୍ତାଳାପ</string>
   <string name="NotificationChannel_missing_display_name">ଅଜଣା</string>
   <string name="NotificationChannel_voice_notes">ଧ୍ୱନି ନୋଟ</string>
+  <string name="NotificationChannel_contact_joined_signal">ସମ୍ପର୍କ Signal ରେ ଯୋଗଦେଲେ</string>
   <!--ProfileEditNameFragment-->
   <!--QuickResponseService-->
   <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Signal ଲକ୍ ହୋଇଥିଲେ ଶୀଘ୍ର ପ୍ରତିକ୍ରିୟା ଉପଲବ୍ଧ ନାହିଁ!</string>
@@ -1578,6 +1599,7 @@
   <string name="ConversationUpdateItem_return_to_call">କଲ୍ କୁ ଫେରନ୍ତୁ</string>
   <string name="ConversationUpdateItem_call_is_full">କଲ୍ ଭର୍ତ୍ତି ଅଛି</string>
   <string name="ConversationUpdateItem_invite_friends">ବନ୍ଧୁମାନଙ୍କୁ ଆମନ୍ତ୍ରଣ କରନ୍ତୁ</string>
+  <string name="ConversationUpdateItem_enable_call_notifications">କଲ ବିଜ୍ଞପ୍ତି ଚାଲୁ କରନ୍ତୁ</string>
   <!--audio_view-->
   <string name="audio_view__play_pause_accessibility_description">ଚଲାନ୍ତୁ … ବିରାମ</string>
   <string name="audio_view__download_accessibility_description">ଡାଉନଲୋଡ୍</string>
@@ -1601,6 +1623,12 @@
   <string name="safety_number_change_dialog__the_following_people_may_have_reinstalled_or_changed_devices">ନିମ୍ନଲିଖିତ ଲୋକମାନେ ହୁଏତ ପୁନଃସଂସ୍ଥାପନ କିମ୍ବା ଉପକରଣ ପରିବର୍ତ୍ତନ କରିଥିବେ | ଗୋପନୀୟତା ନିଶ୍ଚିତ କରିବାକୁ ସେମାନଙ୍କ ସହିତ ଆପଣଙ୍କର ସୁରକ୍ଷା ନମ୍ବର ଯାଞ୍ଚ କରନ୍ତୁ</string>
   <string name="safety_number_change_dialog__view">ଦେଖନ୍ତୁ</string>
   <string name="safety_number_change_dialog__previous_verified">ପୂର୍ବ ଯାଞ୍ଚ ହୋଇଛି</string>
+  <!--EnableCallNotificationSettingsDialog__call_notifications_checklist-->
+  <string name="EnableCallNotificationSettingsDialog__call_notifications_enabled">କଲ ବିଜ୍ଞପ୍ତି ଚାଲୁ ହେଲା</string>
+  <string name="EnableCallNotificationSettingsDialog__enable_call_notifications">କଲ ବିଜ୍ଞପ୍ତି ଚାଲୁ କରନ୍ତୁ</string>
+  <string name="EnableCallNotificationSettingsDialog__enable_background_activity">ପୃଷ୍ଠଭୂମି କାର୍ଯ୍ୟକଳାପ ସକ୍ଷମ କରନ୍ତୁ</string>
+  <string name="EnableCallNotificationSettingsDialog__everything_looks_good_now">ଏବେ ସବୁ ଠିକ ଲାଗୁଛି!</string>
+  <string name="EnableCallNotificationSettingsDialog__settings">ସେଟିଂସମୂହ</string>
   <!--country_selection_fragment-->
   <string name="country_selection_fragment__loading_countries">ଦେଶ ଲୋଡ୍ ହେଉଛି…</string>
   <string name="country_selection_fragment__search">ସନ୍ଧାନ କରନ୍ତୁ</string>
@@ -1696,7 +1724,7 @@
   <!--EditAboutFragment-->
   <string name="EditAboutFragment_about">ବିଷୟରେ</string>
   <string name="EditAboutFragment_write_a_few_words_about_yourself">ନିଜ ବିଷୟରେ କିଛି ଲେଖନ୍ତୁ…</string>
-  <string name="EditAboutFragment_count">%d/%d</string>
+  <string name="EditAboutFragment_count">%1$d/%2$d</string>
   <string name="EditAboutFragment_speak_freely">ମୁକ୍ତ ଭାବେ କୁହନ୍ତୁ</string>
   <string name="EditAboutFragment_encrypted">ଏନକ୍ରିପ୍ଟ ହୋଇଛି</string>
   <string name="EditAboutFragment_be_kind">ଦୟାଳୁ ହୁଅନ୍ତୁ</string>
@@ -1788,10 +1816,10 @@
   <string name="arrays__use_default">ଡିଫଲ୍ଟ ବ୍ୟବହାର କରନ୍ତୁ</string>
   <string name="arrays__use_custom">କଷ୍ଟମ୍ ବ୍ୟବହାର କରନ୍ତୁ</string>
   <string name="arrays__mute_for_one_hour">1ଟେ ଘଣ୍ଟା ପାଇଁ ନୀରବ କରନ୍ତୁ</string>
-  <string name="arrays__mute_for_two_hours">2 ଘଣ୍ଟା ପାଇଁ ନୀରବ କରନ୍ତୁ </string>
+  <string name="arrays__mute_for_eight_hours">8 ଘଣ୍ଟା ପାଇଁ ନୀରବ କରନ୍ତୁ </string>
   <string name="arrays__mute_for_one_day">1ଟେ ଦିନ ପାଇଁ ନୀରବ କରନ୍ତୁ </string>
   <string name="arrays__mute_for_seven_days">7 ଦିନ ପାଇଁ ନୀରବ କରନ୍ତୁ </string>
-  <string name="arrays__mute_for_one_year">1ଟେ ବର୍ଷ ପାଇଁ ନୀରବ କରନ୍ତୁ</string>
+  <string name="arrays__always">ସବୁବେଳେ</string>
   <string name="arrays__settings_default">ଡିଫଲ୍ଟ ସେଟିଂ ବ୍ୟବହାର କରନ୍ତୁ</string>
   <string name="arrays__enabled">ସକ୍ଷମ</string>
   <string name="arrays__disabled">ଅକ୍ଷମ</string>
@@ -1815,6 +1843,7 @@
     <item quantity="other">%dଘ</item>
   </plurals>
   <!--preferences.xml-->
+  <string name="preferences_beta">ବିଟା</string>
   <string name="preferences__sms_mms">SMS ଏବଂ MMS</string>
   <string name="preferences__pref_all_sms_title">ସମସ୍ତ SMS ଗ୍ରହଣ କରନ୍ତୁ</string>
   <string name="preferences__pref_all_mms_title">ସମସ୍ତ MMS ଗ୍ରହଣ କରନ୍ତୁ</string>
@@ -1843,6 +1872,7 @@
   <string name="preferences__pref_led_blink_title">LED ଝିଲିମିଲି ପ୍ରତିରୂପ</string>
   <string name="preferences__sound">ଧ୍ୱନି</string>
   <string name="preferences__silent">ନୀରବ</string>
+  <string name="preferences__default">ଡିଫଲ୍ଟ</string>
   <string name="preferences__repeat_alerts">ପୁନରାବୃତ୍ତି ସତର୍କତା</string>
   <string name="preferences__never">କଦାପି ନୁହେଁ</string>
   <string name="preferences__one_time">ଗୋଟିଏ ଥର</string>
@@ -1877,6 +1907,8 @@
   <string name="preferences__request_a_delivery_report_for_each_sms_message_you_send">ଆପଣ ପଠାଉଥିବା ପ୍ରତ୍ୟେକ SMS ବାର୍ତ୍ତା ପାଇଁ ଏକ ବିତରଣ ରିପୋର୍ଟ ଅନୁରୋଧ</string>
   <string name="preferences__data_and_storage">ଡାଟା ଏବଂ ଷ୍ଟୋରେଜ୍</string>
   <string name="preferences__storage">ଷ୍ଟୋରେଜ୍</string>
+  <string name="preferences__payments">ପଇସା ଦେୟ</string>
+  <string name="preferences__payments_beta">ପଇସା ଦେୟ (ବିଟା)</string>
   <string name="preferences__conversation_length_limit">ବାର୍ତ୍ତାଳାପ ଲମ୍ବ ସୀମା</string>
   <string name="preferences__keep_messages">ବାର୍ତ୍ତା ରଖନ୍ତୁ</string>
   <string name="preferences__clear_message_history">ବାର୍ତ୍ତା ଇତିହାସ ସଫା କରନ୍ତୁ</string>
@@ -1965,8 +1997,75 @@
   <string name="preferences_communication__sealed_sender_allow_from_anyone_description">ସଂପର୍କ ରେ ନଥିବା ଏବଂ ଯାହାଙ୍କ ସହିତ ଆପଣ ଆପଣଙ୍କର ପ୍ରୋଫାଇଲ୍ ଅଂଶୀଦାର କରିନାହାଁନ୍ତି, ସେମାନଙ୍କ ଠାରୁ ଆସୁଥିବା ବାର୍ତ୍ତାଗୁଡିକ ପାଇଁ ସିଲ୍ ହେଇଥିବା ପ୍ରେରକ ସକ୍ଷମ କରନ୍ତୁ </string>
   <string name="preferences_communication__sealed_sender_learn_more">ଅଧିକ ଜାଣନ୍ତୁ</string>
   <string name="preferences_setup_a_username">ବ୍ୟବହାରିକ-ନାମ ସୃଷ୍ଟି କରନ୍ତୁ</string>
+  <string name="preferences_proxy">ପ୍ରକ୍ସି</string>
+  <string name="preferences_use_proxy">ପ୍ରକ୍ସି ବ୍ୟବହାର କରନ୍ତୁ </string>
+  <string name="preferences_off">ବନ୍ଦ</string>
+  <string name="preferences_on">ଚାଲୁ</string>
+  <string name="preferences_proxy_address">ପ୍ରକ୍ସି ଠିକଣା </string>
+  <string name="preferences_only_use_a_proxy_if">ଯଦି ଆପଣ ସେଲୁଲାର୍ କିମ୍ବା ୱାଇ-ଫାଇରେ Signal ସହିତ ସଂଯୋଗ କରିବାକୁ ସକ୍ଷମ ନୁହଁନ୍ତି ତେବେ କେବଳ ଏକ ପ୍ରକ୍ସି ବ୍ୟବହାର କରନ୍ତୁ</string>
+  <string name="preferences_share">ଅଂଶୀଦାର କରନ୍ତୁ</string>
+  <string name="preferences_save">ସଞ୍ଚୟ କରନ୍ତୁ</string>
+  <string name="preferences_connecting_to_proxy">ପ୍ରକ୍ସି ସହିତ ସଂଯୋଜିତ ହେଉଛି …</string>
+  <string name="preferences_connected_to_proxy">ପ୍ରକ୍ସି ସହିତ ସଂଯୋଜିତ ହେଲା …</string>
+  <string name="preferences_connection_failed">ସଂଯୋଗ ବିଫଳ ହେଲା </string>
+  <string name="preferences_couldnt_connect_to_the_proxy">ପ୍ରକ୍ସି ସହିତ ସଂଯୋଗ ହୋଇପାରିଲା ନାହିଁ | ପ୍ରକ୍ସି ଠିକଣା ଯାଞ୍ଚ କରନ୍ତୁ ଏବଂ ପୁନର୍ବାର ଚେଷ୍ଟା କରନ୍ତୁ</string>
+  <string name="preferences_you_are_connected_to_the_proxy">ଆପଣ ପ୍ରକ୍ସି ସହିତ ସଂଯୁକ୍ତ ଅଟନ୍ତି | ଆପଣ ସେଟିଂମୂହରୁ ଯେକୌଣସି ସମୟରେ ପ୍ରକ୍ସି ବନ୍ଦ କରିପାରିବେ</string>
+  <string name="preferences_success">ସଫଳତା!</string>
+  <string name="preferences_failed_to_connect">ସଂଯୋଗ କରିବାରେ ବିଫଳ</string>
+  <string name="preferences_enter_proxy_address">ପ୍ରକ୍ସି ଠିକଣା ପ୍ରବେଶ କରନ୍ତୁ</string>
   <string name="configurable_single_select__customize_option">ବିକଳ୍ପ କଷ୍ଟମାଇଜ୍ କରନ୍ତୁ</string>
   <!--Internal only preferences-->
+  <!--Payments-->
+  <string name="PaymentsActivityFragment__all_activity">ସମସ୍ତ କାର୍ଯ୍ୟକଳାପ</string>
+  <string name="PaymentsAllActivityFragment__all">ସବୁକିଛି</string>
+  <string name="PaymentsAllActivityFragment__sent">ପଠାଗଲା</string>
+  <string name="PaymentsAllActivityFragment__received">ପ୍ରାପ୍ତ</string>
+  <string name="PaymentsHomeFragment__introducing_payments">\"ପଇସା ଦେୟ\" ବୈଶିଷ୍ଟ୍ୟ ଅଣାଗଲା (ବିଟା)</string>
+  <string name="PaymentsHomeFragment__recent_activity">ସାମ୍ପ୍ରତିକ କାର୍ଯ୍ୟକଳାପ</string>
+  <string name="PaymentsHomeFragment__see_all">ସମସ୍ତ ଦେଖନ୍ତୁ</string>
+  <string name="PaymentsHomeFragment__send">ପଠାନ୍ତୁ</string>
+  <string name="PaymentsHomeFragment__sent_s">%1$s ପଠାନ୍ତୁ</string>
+  <string name="PaymentsHomeFragment__received_s">%1$s ପ୍ରାପ୍ତ</string>
+  <string name="PaymentsHomeFragment__currency_conversion">ମୁଦ୍ରା ବିନିମୟ</string>
+  <string name="PaymentsHomeFragment__help">ସାହାଯ୍ୟ</string>
+  <string name="PaymentsHomeFragment__unknown_amount">---</string>
+  <string name="PaymentsHomeFragment__continue">ଜାରି ରଖନ୍ତୁ</string>
+  <string name="PaymentsHomeFragment__payment_failed">ପଇସା ଦେୟ ବିଫଳ ହେଲା</string>
+  <string name="PaymentsHomeFragment__details">ବିବରଣୀ</string>
+  <string name="PaymentsHomeFragment__activate">ସକ୍ରିୟ କରନ୍ତୁ</string>
+  <!--PaymentsAddMoneyFragment-->
+  <string name="PaymentsAddMoneyFragment__copy">ନକଲ ବନାନ୍ତୁ</string>
+  <string name="PaymentsAddMoneyFragment__copied_to_clipboard">କ୍ଲିପବୋର୍ଡରେ ନକଲ କରାଯାଇଛି</string>
+  <!--PaymentsDetailsFragment-->
+  <string name="PaymentsDetailsFragment__details">ବିବରଣୀ</string>
+  <string name="PaymentsDetailsFragment__status">ସ୍ଥିତି</string>
+  <string name="PaymentsDetailsFragment__submitting_payment">ପଇସା ଦେୟ ଜମା ହେଉଛି</string>
+  <string name="PaymentsDetailsFragment__processing_payment">ପଇସା ଦେୟ ପ୍ରକ୍ରିୟାକରଣ ଚାଲୁଛି</string>
+  <string name="PaymentsDetailsFragment__payment_complete">ପଇସା ଦେୟ ସମାପ୍ତ</string>
+  <string name="PaymentsDetailsFragment__payment_failed">ପଇସା ଦେୟ ବିଫଳ ହେଲା</string>
+  <string name="PaymentsDetailsFragment__network_fee">ନେଟୱର୍କ ଦେୟ</string>
+  <string name="PaymentsDetailsFragment__sent_by">ଦ୍ୱାରା ପଠାଯାଇଛି</string>
+  <string name="PaymentsDetailsFragment__sent_to_s">%1$s ଙ୍କୁ ପଠାଯାଇଛି</string>
+  <string name="PaymentsDetailsFragment__to">ଙ୍କୁ</string>
+  <string name="PaymentsDetailsFragment__from">ଙ୍କଠାରୁ </string>
+  <!--PaymentsTransferFragment-->
+  <string name="PaymentsTransferFragment__transfer">ସ୍ଥାନାନ୍ତର</string>
+  <string name="PaymentsTransferFragment__scan_qr_code">QR କୋଡ୍ ସ୍କାନ୍ କରନ୍ତୁ</string>
+  <string name="PaymentsTransferFragment__next">ପରବର୍ତ୍ତୀ</string>
+  <string name="PaymentsTransferFragment__settings">ସେଟିଂସମୂହ</string>
+  <!--PaymentsTransferQrScanFragment-->
+  <!--CreatePaymentFragment-->
+  <string name="CreatePaymentFragment__request">ଅନୁରୋଧ</string>
+  <!--EditNoteFragment-->
+  <!--ConfirmPaymentFragment-->
+  <string name="ConfirmPayment__network_fee">ନେଟୱର୍କ ଦେୟ</string>
+  <string name="ConfirmPayment__to">ଙ୍କୁ</string>
+  <string name="ConfirmPayment__submitting_payment">ପଇସା ଦେୟ ଜମା ହେଉଛି</string>
+  <string name="ConfirmPayment__processing_payment">ପଇସା ଦେୟ ପ୍ରକ୍ରିୟାକରଣ ଚାଲୁଛି</string>
+  <string name="ConfirmPayment__payment_complete">ପଇସା ଦେୟ ସମାପ୍ତ</string>
+  <string name="ConfirmPayment__payment_failed">ପଇସା ଦେୟ ବିଫଳ ହେଲା</string>
+  <!--CurrencyAmountFormatter_s_at_s-->
+  <!--SetCurrencyFragment-->
   <!--****************************************-->
   <!--menus-->
   <!--****************************************-->
@@ -2147,6 +2246,8 @@
   <string name="RegistrationLockFragment__incorrect_pin">ଭୁଲ ପିନ୍</string>
   <string name="RegistrationLockFragment__forgot_your_pin">ପିନ୍ ଭୁଲିଗଲେ କି?</string>
   <string name="RegistrationLockFragment__not_many_tries_left">ବେଶୀ ପ୍ରଚେଷ୍ଟା ବାକି ନାହିଁ!</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Signal ପଞ୍ଜୀକରଣ - ଆଣ୍ଡ୍ରଏଡ୍ (v1 ପିନ୍) ପାଇଁ ପିନ୍ ସହିତ ସାହାଯ୍ୟ ଆବଶ୍ୟକ</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Signal ପଞ୍ଜୀକରଣ - ଆଣ୍ଡ୍ରଏଡ୍ (v2 ପିନ୍) ପାଇଁ ପିନ୍ ସହିତ ସାହାଯ୍ୟ ଆବଶ୍ୟକ</string>
   <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
     <item quantity="one">ଆପଣଙ୍କର ଗୋପନୀୟତା ଏବଂ ସୁରକ୍ଷା ପାଇଁ, ଆପଣଙ୍କର ପିନ୍ ପୁନରୁଦ୍ଧାର କରିବାର କୌଣସି ଉପାୟ ନାହିଁ | ଯଦି ଆପଣ ଆପଣଙ୍କର ପିନ୍ ମନେ ପକାଇପାରିବେ ନାହିଁ, ଆପଣ %1$d ଦିନର ନିଷ୍କ୍ରିୟତା ପରେ SMS ସହିତ ପୁନଃଯାଞ୍ଚ କରିପାରିବେ | ଏହି କ୍ଷେତ୍ରରେ, ଆପଣଙ୍କର ଖାତା ଏବଂ ସମସ୍ତ ବିଷୟବସ୍ତୁ ବିଲୋପ ହେବ</item>
     <item quantity="other">ଆପଣଙ୍କର ଗୋପନୀୟତା ଏବଂ ସୁରକ୍ଷା ପାଇଁ, ଆପଣଙ୍କର ପିନ୍ ପୁନରୁଦ୍ଧାର କରିବାର କୌଣସି ଉପାୟ ନାହିଁ | ଯଦି ଆପଣ ଆପଣଙ୍କର ପିନ୍ ମନେ ପକାଇପାରିବେ ନାହିଁ, ଆପଣ %1$d ଦିନର ନିଷ୍କ୍ରିୟତା ପରେ SMS ସହିତ ପୁନଃଯାଞ୍ଚ କରିପାରିବେ | ଏହି କ୍ଷେତ୍ରରେ, ଆପଣଙ୍କର ଖାତା ଏବଂ ସମସ୍ତ ବିଷୟବସ୍ତୁ ବିଲୋପ ହେବ</item>
@@ -2277,6 +2378,27 @@
   <string name="prompt_passphrase_activity__signal_is_locked">Signal ରେ ତାଲା ପଡ଼ିଛି</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">ତାଲା ଖୋଲିବାକୁ ଟ୍ୟାପ୍ କରନ୍ତୁ</string>
   <string name="Recipient_unknown">ଅଜଣା</string>
+  <!--TransferOrRestoreFragment-->
+  <!--NewDeviceTransferInstructionsFragment-->
+  <string name="NewDeviceTransferInstructions__continue">ଜାରି ରଖନ୍ତୁ</string>
+  <!--NewDeviceTransferSetupFragment-->
+  <!--OldDeviceTransferSetupFragment-->
+  <!--DeviceTransferSetupFragment-->
+  <string name="DeviceTransferSetup__continue">ଜାରି ରଖନ୍ତୁ</string>
+  <string name="DeviceTransferSetup__try_again">ପୁଣିଥରେ ଚେଷ୍ଟା କରନ୍ତୁ</string>
+  <!--NewDeviceTransferFragment-->
+  <!--DeviceTransferFragment-->
+  <string name="DeviceTransfer__cancel">ବାତିଲ କରନ୍ତୁ</string>
+  <string name="DeviceTransfer__try_again">ପୁଣିଥରେ ଚେଷ୍ଟା କରନ୍ତୁ</string>
+  <!--OldDeviceTransferInstructionsFragment-->
+  <string name="OldDeviceTransferInstructions__continue">ଜାରି ରଖନ୍ତୁ</string>
+  <!--OldDeviceTransferComplete-->
+  <!--NewDeviceTransferComplete-->
+  <!--DeviceToDeviceTransferService-->
+  <!--OldDeviceTransferLockedDialog-->
+  <string name="OldDeviceTransferLockedDialog__done">ହେଇଗଲା</string>
+  <!--AdvancedPreferenceFragment-->
+  <string name="AdvancedPreferenceFragment__transfer">ସ୍ଥାନାନ୍ତର</string>
   <!--RecipientBottomSheet-->
   <string name="RecipientBottomSheet_block">ବ୍ଲକ୍ କରନ୍ତୁ</string>
   <string name="RecipientBottomSheet_unblock">ଅଣବ୍ଲକ୍ କରନ୍ତୁ</string>
@@ -2307,6 +2429,8 @@
   <string name="GroupsLearnMore_paragraph_2">ଉତ୍ତରାଧିକାରୀ ଗୋଷ୍ଠୀଗୁଡିକ ଏପର୍ଯ୍ୟନ୍ତ ନୂତନ ଗୋଷ୍ଠୀକୁ ନବୀକରଣ ହୋଇପାରିବ ନାହିଁ, କିନ୍ତୁ ଯଦି ସେମାନେ Signal ର ସର୍ବଶେଷ ସଂସ୍କରଣରେ ଅଛନ୍ତି ତେବେ ସମାନ ସଦସ୍ୟଙ୍କ ସହିତ ଆପଣ ଏକ ନୂତନ ଗୋଷ୍ଠୀ ସୃଷ୍ଟି କରିପାରିବେ</string>
   <string name="GroupsLearnMore_paragraph_3">ଭବିଷ୍ୟତରେ ଉତ୍ତରାଧିକାରୀ ଗୋଷ୍ଠୀ ଅଦ୍ୟତନ କରିବାକୁ Signal ଏକ ଉପାୟ ପ୍ରଦାନ କରିବ</string>
   <!--GroupLinkBottomSheetDialogFragment-->
+  <string name="GroupLinkBottomSheet_share_hint_requiring_approval">ଏହି ଲିଙ୍କ୍ ଥିବା ଯେକେହି ଲୋକ ଗୋଷ୍ଠୀର ନାମ ଏବଂ ଛବି ଦେଖିପାରିବେ ଏବଂ ଯୋଗଦେବାକୁ ଅନୁରୋଧ କରିପାରିବେ | ଆପଣ ବିଶ୍ୱାସ କରୁଥିବା ଲୋକଙ୍କ ସହିତ ଏହାକୁ ଅଂଶୀଦାର କରନ୍ତୁ |</string>
+  <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">ଏହି ଲିଙ୍କ୍ ଥିବା ଯେକେହି ଲୋକ ଗୋଷ୍ଠୀର ନାମ ଏବଂ ଛବି ଦେଖିପାରିବେ ଏବଂ ଏଥିରେ ଯୋଗଦେଇ କରିପାରିବେ | ଆପଣ ବିଶ୍ୱାସ କରୁଥିବା ଲୋକଙ୍କ ସହିତ ଏହାକୁ ଅଂଶୀଦାର କରନ୍ତୁ |</string>
   <string name="GroupLinkBottomSheet_share_via_signal">Signal ମାଧ୍ୟମରେ ଅଂଶୀଦାର କରନ୍ତୁ</string>
   <string name="GroupLinkBottomSheet_copy">ନକଲ ବନାନ୍ତୁ</string>
   <string name="GroupLinkBottomSheet_qr_code">କ୍ୟୁ.ଆର. କୋଡ୍</string>
@@ -2421,5 +2545,36 @@
   <string name="WallpaperCropActivity__set_wallpaper_for_s">%s ପାଇଁ କାନ୍ଥଛବି ସେଟ୍ କରନ୍ତୁ</string>
   <string name="WallpaperCropActivity__error_setting_wallpaper">କାନ୍ଥଛବି ସେଟ୍ କରିବାରେ ତ୍ରୁଟି</string>
   <string name="WallpaperCropActivity__blur_photo">ଛବି ଅସ୍ପଷ୍ଟ କରନ୍ତୁ</string>
+  <!--InfoCard-->
+  <string name="payment_info_card_hide">ଲୁଚାନ୍ତୁ</string>
+  <string name="payment_info_card_update_pin">ପିନ୍ ଅଦ୍ୟତନ କରନ୍ତୁ</string>
+  <!--DeactivateWalletFragment-->
+  <!--PaymentsRecoveryStartFragment-->
+  <string name="PaymentsRecoveryStartFragment__start">ଆରମ୍ଭ</string>
+  <!--PaymentsRecoveryPasteFragment-->
+  <string name="PaymentsRecoveryPasteFragment__next">ପରବର୍ତ୍ତୀ</string>
+  <!--PaymentsRecoveryPhraseFragment-->
+  <string name="PaymentsRecoveryPhraseFragment__next">ପରବର୍ତ୍ତୀ</string>
+  <string name="PaymentsRecoveryPhraseFragment__edit">ସମ୍ପାଦନ</string>
+  <string name="PaymentsRecoveryPhraseFragment__copy">ନକଲ ବନାନ୍ତୁ</string>
+  <!--PaymentsRecoveryPhraseConfirmFragment-->
+  <string name="PaymentRecoveryPhraseConfirmFragment__word_d">ଶବ୍ଦ %1$d</string>
+  <string name="PaymentRecoveryPhraseConfirmFragment__done">ହେଇଗଲା</string>
+  <!--PaymentsRecoveryEntryFragment-->
+  <string name="PaymentsRecoveryEntryFragment__enter_word_d">ଶବ୍ଦ ପ୍ରବେଶ କରନ୍ତୁ %1$d</string>
+  <string name="PaymentsRecoveryEntryFragment__word_d">ଶବ୍ଦ %1$d</string>
+  <string name="PaymentsRecoveryEntryFragment__next">ପରବର୍ତ୍ତୀ</string>
+  <string name="PaymentsRecoveryEntryFragment__invalid_word">ଅବୈଧ ଶବ୍ଦ</string>
+  <!--ClearClipboardAlarmReceiver-->
+  <string name="ClearClipboardAlarmReceiver__clipboard_cleared">କ୍ଲିପବୋର୍ଡ ସଫା ହେଲା</string>
+  <!--PaymentNotificationsView-->
+  <string name="PaymentNotificationsView__view">ଦେଖନ୍ତୁ</string>
+  <!--UnreadPayments-->
+  <string name="UnreadPayments__s_sent_you_s">%1$s ଆପଣଙ୍କୁ %2$s ପଠେଇଲେ</string>
+  <string name="UnreadPayments__d_new_payment_notifications">%1$d ନୂଆ ପଇସା ଦେୟ ବିଜ୍ଞପ୍ତି</string>
+  <!--CanNotSendPaymentDialog-->
+  <string name="CanNotSendPaymentDialog__cant_send_payment">ପଇସା ଦେୟ ହେଇ ପାରୁନାହିଁ </string>
+  <string name="CanNotSendPaymentDialog__to_send_a_payment_to_this_user">ଏହି ଉପଭୋକ୍ତାଙ୍କୁ ଏକ ଦେୟ ପଠାଇବାକୁ ସେମାନେ ଆପଣଙ୍କଠାରୁ ଏକ ବାର୍ତ୍ତା ଅନୁରୋଧ ଗ୍ରହଣ କରିବା ଆବଶ୍ୟକ କରନ୍ତି | ଏକ ବାର୍ତ୍ତା ଅନୁରୋଧ ସୃଷ୍ଟି କରିବାକୁ ସେମାନଙ୍କୁ ଏକ ବାର୍ତ୍ତା ପଠାନ୍ତୁ |</string>
+  <string name="CanNotSendPaymentDialog__send_a_message">ଗୋଟେ ବାର୍ତ୍ତା ପଠାନ୍ତୁ</string>
   <!--EOF-->
 </resources>

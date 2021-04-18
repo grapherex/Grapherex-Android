@@ -72,7 +72,7 @@ public final class PushGroupSendJob extends PushSendJob {
 
   public static final String KEY = "PushGroupSendJob";
 
-  private static final String TAG = PushGroupSendJob.class.getSimpleName();
+  private static final String TAG = Log.tag(PushGroupSendJob.class);
 
   private static final String KEY_MESSAGE_ID       = "message_id";
   private static final String KEY_FILTER_RECIPIENT = "filter_recipient";
@@ -155,10 +155,10 @@ public final class PushGroupSendJob extends PushSendJob {
   {
     MessageDatabase           database                   = DatabaseFactory.getMmsDatabase(context);
     OutgoingMediaMessage      message                    = database.getOutgoingMessage(messageId);
+    long                      threadId                   = database.getMessageRecord(messageId).getThreadId();
     List<NetworkFailure>      existingNetworkFailures    = message.getNetworkFailures();
     List<IdentityKeyMismatch> existingIdentityMismatches = message.getIdentityKeyMismatches();
 
-    long threadId = DatabaseFactory.getThreadDatabase(context).getThreadIdFor(message.getRecipient());
     ApplicationDependencies.getJobManager().cancelAllInQueue(TypingSendJob.getQueue(threadId));
 
     if (database.isSent(messageId)) {
@@ -177,7 +177,7 @@ public final class PushGroupSendJob extends PushSendJob {
     }
 
     try {
-      log(TAG, String.valueOf(message.getSentTimeMillis()), "Sending message: " + messageId);
+      log(TAG, String.valueOf(message.getSentTimeMillis()), "Sending message: " + messageId + ", Recipient: " + message.getRecipient().getId() + ", Thread: " + threadId);
 
       if (!groupRecipient.resolve().isProfileSharing() && !database.isGroupQuitMessage(messageId)) {
         RecipientUtil.shareProfileIfFirstSecureMessage(context, groupRecipient);
@@ -236,9 +236,8 @@ public final class PushGroupSendJob extends PushSendJob {
 
         if (message.getExpiresIn() > 0 && !message.isExpirationUpdate()) {
           database.markExpireStarted(messageId);
-          ApplicationContext.getInstance(context)
-                            .getExpiringMessageManager()
-                            .scheduleDeletion(messageId, true, message.getExpiresIn());
+          ApplicationDependencies.getExpiringMessageManager()
+                                 .scheduleDeletion(messageId, true, message.getExpiresIn());
         }
 
         if (message.isViewOnce()) {
@@ -261,13 +260,6 @@ public final class PushGroupSendJob extends PushSendJob {
       database.markAsSentFailed(messageId);
       notifyMediaMessageDeliveryFailed(context, messageId);
     }
-  }
-
-  @Override
-  public boolean onShouldRetry(@NonNull Exception exception) {
-    if (exception instanceof IOException)         return true;
-    if (exception instanceof RetryLaterException) return true;
-    return false;
   }
 
   @Override

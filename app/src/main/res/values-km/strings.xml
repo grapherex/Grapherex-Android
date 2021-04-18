@@ -888,7 +888,7 @@
   <string name="RatingManager_rate_now">ដាក់ពិន្ទុឥលូវ!</string>
   <string name="RatingManager_no_thanks">ទេ អរគុណ</string>
   <string name="RatingManager_later">ពេលក្រោយ</string>
-  <string name="RatingManager_whoops_the_play_store_app_does_not_appear_to_be_installed">ចុម កម្មវិធី Play Store មានសម្រាប់ដំឡើងក្នុងឧបករណ៍របស់អ្នកទេ។</string>
+  <!-- Removed by excludeNonTranslatables <string name="RatingManager_whoops_the_play_store_app_does_not_appear_to_be_installed">ចុម កម្មវិធី Play Store មានសម្រាប់ដំឡើងក្នុងឧបករណ៍របស់អ្នកទេ។</string> -->
   <!--ReactionsBottomSheetDialogFragment-->
   <string name="ReactionsBottomSheetDialogFragment_all">ទាំងអស់ · %1$d</string>
   <!--ReactionsConversationView-->
@@ -1176,14 +1176,14 @@
   <string name="MessageNotifier_reacted_s_to_your_sticker">ប្រតិកម្ម %1$s ទៅស្ទីកគ័រអ្នក។</string>
   <string name="MessageNotifier_this_message_was_deleted">សារនេះត្រូវបានលុប។</string>
   <!--Notification Channels-->
-  <string name="NotificationChannel_messages">លំនាំដើម</string>
+  <!-- Removed by excludeNonTranslatables <string name="NotificationChannel_messages">លំនាំដើម</string> -->
   <string name="NotificationChannel_calls">ការហៅ</string>
   <string name="NotificationChannel_failures">បរាជ័យ</string>
   <string name="NotificationChannel_backups">បម្រុងទុក</string>
   <string name="NotificationChannel_locked_status">ស្ថានភាពចាក់សោរ</string>
   <string name="NotificationChannel_app_updates">បច្ចុប្បន្នភាពកម្មវិធី</string>
   <string name="NotificationChannel_other">ផ្សេងៗ</string>
-  <string name="NotificationChannel_group_messages">សារ</string>
+  <!-- Removed by excludeNonTranslatables <string name="NotificationChannel_group_messages">សារ</string> -->
   <string name="NotificationChannel_missing_display_name">មិនស្គាល់</string>
   <!--ProfileEditNameFragment-->
   <!-- Removed by excludeNonTranslatables <string name="ProfileEditNameFragment_successfully_set_profile_name">កំណត់ឈ្មោះប្រវត្តិរូបដោយជោគជ័យ។</string> -->
@@ -1545,10 +1545,10 @@
   <string name="arrays__use_default">ប្រើលំនាំដើម</string>
   <string name="arrays__use_custom">ប្រើផ្សេងៗ</string>
   <string name="arrays__mute_for_one_hour">បិទសំឡេង 1 ម៉ោង</string>
-  <string name="arrays__mute_for_two_hours">បិទសំឡេង 2 ម៉ោង</string>
+  <!-- Removed by excludeNonTranslatables <string name="arrays__mute_for_two_hours">បិទសំឡេង 2 ម៉ោង</string> -->
   <string name="arrays__mute_for_one_day">បិទសំឡេង 1 ថ្ងៃ</string>
   <string name="arrays__mute_for_seven_days">បិទសំឡេង 7 ថ្ងៃ</string>
-  <string name="arrays__mute_for_one_year">បិទសំឡេង 1 ឆ្នាំ</string>
+  <!-- Removed by excludeNonTranslatables <string name="arrays__mute_for_one_year">បិទសំឡេង 1 ឆ្នាំ</string> -->
   <string name="arrays__settings_default">ការកំណត់លំនាំដើម</string>
   <string name="arrays__enabled">បានបើក</string>
   <string name="arrays__disabled">បានបិទ</string>

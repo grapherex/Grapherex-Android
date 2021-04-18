@@ -22,10 +22,10 @@ import androidx.annotation.DimenRes;
 import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.core.view.ViewCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.animation.AnimationCompleteListener;
@@ -42,7 +42,6 @@ import org.thoughtcrime.securesms.mms.QuoteModel;
 import org.thoughtcrime.securesms.mms.SlideDeck;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.util.TextSecurePreferences;
-import org.thoughtcrime.securesms.util.Util;
 import org.thoughtcrime.securesms.util.ViewUtil;
 import org.thoughtcrime.securesms.util.concurrent.AssertedSuccessListener;
 import org.thoughtcrime.securesms.util.concurrent.ListenableFuture;
@@ -59,7 +58,7 @@ public class InputPanel extends LinearLayout
                ConversationStickerSuggestionAdapter.EventListener
 {
 
-  private static final String TAG = InputPanel.class.getSimpleName();
+  private static final String TAG = Log.tag(InputPanel.class);
 
   private static final long QUOTE_REVEAL_DURATION_MILLIS = 150;
   private static final int  FADE_TIME                    = 150;
@@ -74,6 +73,7 @@ public class InputPanel extends LinearLayout
   private View            buttonToggle;
   private View            recordingContainer;
   private View            recordLockCancel;
+  private View            composeContainer;
 
   private MicrophoneRecorderView microphoneRecorderView;
   private SlideToCancel          slideToCancel;
@@ -103,6 +103,7 @@ public class InputPanel extends LinearLayout
 
     View quoteDismiss = findViewById(R.id.quote_dismiss);
 
+    this.composeContainer       = findViewById(R.id.compose_bubble);
     this.stickerSuggestion      = findViewById(R.id.input_panel_sticker_suggestion);
     this.quoteView              = findViewById(R.id.quote_view);
     this.linkPreview            = findViewById(R.id.link_preview);
@@ -286,6 +287,16 @@ public class InputPanel extends LinearLayout
     return mediaKeyboard;
   }
 
+  public void setWallpaperEnabled(boolean enabled) {
+    if (enabled) {
+      setBackgroundColor(getContext().getResources().getColor(R.color.wallpaper_compose_background));
+      composeContainer.setBackgroundResource(R.drawable.compose_background_wallpaper);
+    } else {
+      setBackgroundColor(getResources().getColor(R.color.signal_background_primary));
+      composeContainer.setBackgroundResource(R.drawable.compose_background);
+    }
+  }
+
   @Override
   public void onRecordPermissionRequired() {
     if (listener != null) listener.onRecorderPermissionRequired();
@@ -323,11 +334,10 @@ public class InputPanel extends LinearLayout
   public void onRecordMoved(float offsetX, float absoluteX) {
     slideToCancel.moveTo(offsetX);
 
-    int   direction = ViewCompat.getLayoutDirection(this);
     float position  = absoluteX / recordingContainer.getWidth();
 
-    if (direction == ViewCompat.LAYOUT_DIRECTION_LTR && position <= 0.5 ||
-        direction == ViewCompat.LAYOUT_DIRECTION_RTL && position >= 0.6)
+    if (ViewUtil.isLtr(this) && position <= 0.5 ||
+        ViewUtil.isRtl(this) && position >= 0.6)
     {
       this.microphoneRecorderView.cancelAction();
     }
@@ -490,7 +500,7 @@ public class InputPanel extends LinearLayout
       this.startTime = System.currentTimeMillis();
       this.recordTimeView.setText(DateUtils.formatElapsedTime(0));
       ViewUtil.fadeIn(this.recordTimeView, FADE_TIME);
-      Util.runOnMainDelayed(this, TimeUnit.SECONDS.toMillis(1));
+      ThreadUtil.runOnMainDelayed(this, TimeUnit.SECONDS.toMillis(1));
       microphone.setVisibility(View.VISIBLE);
       microphone.startAnimation(pulseAnimation());
     }
@@ -516,7 +526,7 @@ public class InputPanel extends LinearLayout
           onLimitHit.run();
         } else {
           recordTimeView.setText(DateUtils.formatElapsedTime(elapsedSeconds));
-          Util.runOnMainDelayed(this, TimeUnit.SECONDS.toMillis(1));
+          ThreadUtil.runOnMainDelayed(this, TimeUnit.SECONDS.toMillis(1));
         }
       }
     }

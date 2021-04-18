@@ -38,6 +38,9 @@
   <string name="ApplicationPreferencesActivity_pin_disabled">PIN הושבת.</string>
   <string name="ApplicationPreferencesActivity_hide">הסתר</string>
   <string name="ApplicationPreferencesActivity_hide_reminder">להסתיר תזכורת?</string>
+  <string name="ApplicationPreferencesActivity_record_payments_recovery_phrase">תעד משפט השבה של תשלומים</string>
+  <string name="ApplicationPreferencesActivity_record_phrase">תעד משפט</string>
+  <string name="ApplicationPreferencesActivity_before_you_can_disable_your_pin">לפני שתוכל להשבית את ה־PIN שלך, אתה חייב לתעד את משפט ההשבה של התשלומים שלך כדי להבטיח שתוכל להשיב את חשבון התשלומים שלך.</string>
   <!--AppProtectionPreferenceFragment-->
   <plurals name="AppProtectionPreferenceFragment_minutes">
     <item quantity="one">דקה %d</item>
@@ -59,6 +62,7 @@
   <string name="AttachmentKeyboard_location">מיקום</string>
   <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Signal צריך הרשאה כדי להראות את התמונות והסרטונים שלך.</string>
   <string name="AttachmentKeyboard_give_access">תן גישה</string>
+  <string name="AttachmentKeyboard_payment">תשלום</string>
   <!--AttachmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">לא ניתן למצוא יישום לבחירת מדיה.</string>
   <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal דורש את הרשאת האחסון על מנת לצרף תמונות, סרטונים, או שמע, אבל היא נדחתה לצמיתות. אנא המשך אל תפריט הגדרות היישום, בחר \"הרשאות\" ואפשר את \"אחסון\".</string>
@@ -67,6 +71,8 @@
   <!--AttachmentUploadJob-->
   <string name="AttachmentUploadJob_uploading_media">מעלה מדיה…</string>
   <string name="AttachmentUploadJob_compressing_video_start">דוחס סרטון…</string>
+  <!--BackgroundMessageRetriever-->
+  <string name="BackgroundMessageRetriever_checking_for_messages">בודק אחר הודעות…</string>
   <!--BlockedUsersActivity-->
   <string name="BlockedUsersActivity__blocked_users">משתמשים חסומים</string>
   <string name="BlockedUsersActivity__add_blocked_user">הוסף משתמש חסום</string>
@@ -234,6 +240,7 @@
   <string name="ConversationActivity__more_options_now_in_group_settings">עוד אפשרויות עכשיו ב\"הגדרות קבוצה\"</string>
   <string name="ConversationActivity_join">הצטרף</string>
   <string name="ConversationActivity_full">מלאה</string>
+  <string name="ConversationActivity_error_sending_media">שגיאה בשליחת מדיה</string>
   <!--ConversationAdapter-->
   <plurals name="ConversationAdapter_n_unread_messages">
     <item quantity="one">הודעה %d לא נקראה</item>
@@ -503,7 +510,7 @@
   <!--GroupsV1MigrationInitiationReminder-->
   <string name="GroupsV1MigrationInitiationReminder_to_access_new_features_like_mentions">כדי להשיג גישה אל מאפיינים חדשים כמו @אזכורים ומנהלנים, שדרג קבוצה זו.</string>
   <string name="GroupsV1MigrationInitiationReminder_not_now">לא עכשיו</string>
-  <string name="GroupsV1MigrationInitiationReminder_update_group">עדכון קבוצה</string>
+  <string name="GroupsV1MigrationInitiationReminder_upgrade_group">שדרג קבוצה</string>
   <!--GroupsV1MigrationSuggestionsReminder-->
   <plurals name="GroupsV1MigrationSuggestionsReminder_members_couldnt_be_added_to_the_new_group">
     <item quantity="one">%1$d חבר קבוצה לא היה יכול להתווסף מחדש אל הקבוצה החדשה. האם אתה רוצה להוסיף אותו עכשיו?</item>
@@ -668,6 +675,7 @@
   <string name="ManageGroupActivity_mentions">אזכורים</string>
   <string name="ManageGroupActivity_chat_wallpaper">טפט התכתבות</string>
   <string name="ManageGroupActivity_until_s">עד %1$s</string>
+  <string name="ManageGroupActivity_always">תמיד</string>
   <string name="ManageGroupActivity_off">כבוי</string>
   <string name="ManageGroupActivity_on">מופעל</string>
   <string name="ManageGroupActivity_view_all_members">הצג את כל חברי הקבוצה</string>
@@ -720,6 +728,7 @@
   <string name="ManageRecipientActivity_mute_notifications">השתק התראות</string>
   <string name="ManageRecipientActivity_custom_notifications">התראות מותאמות אישית</string>
   <string name="ManageRecipientActivity_until_s">עד %1$s</string>
+  <string name="ManageRecipientActivity_always">תמיד</string>
   <string name="ManageRecipientActivity_off">כבוי</string>
   <string name="ManageRecipientActivity_on">מופעל</string>
   <string name="ManageRecipientActivity_add_to_a_group">הוסף אל קבוצה</string>
@@ -916,10 +925,16 @@
   <string name="NotificationBarManager_signal_call_in_progress">שיחת Signal בתהליך</string>
   <string name="NotificationBarManager__establishing_signal_call">מקים שיחת Signal</string>
   <string name="NotificationBarManager__incoming_signal_call">שיחת Signal נכנסת</string>
+  <string name="NotificationBarManager__stopping_signal_call_service">עוצר את שירות השיחות של Signal</string>
   <string name="NotificationBarManager__deny_call">דחה שיחה</string>
   <string name="NotificationBarManager__answer_call">ענה לשיחה</string>
   <string name="NotificationBarManager__end_call">סיים שיחה</string>
   <string name="NotificationBarManager__cancel_call">בטל שיחה</string>
+  <!--NotificationsMegaphone-->
+  <string name="NotificationsMegaphone_turn_on_notifications">להפעיל התראות?</string>
+  <string name="NotificationsMegaphone_never_miss_a_message">לעולם לא תפספס הודעה מאנשי הקשר והקבוצות שלך.</string>
+  <string name="NotificationsMegaphone_turn_on">הפעל</string>
+  <string name="NotificationsMegaphone_not_now">לא עכשיו</string>
   <!--NotificationMmsMessageRecord-->
   <string name="NotificationMmsMessageRecord_multimedia_message">הודעת מולטימדיה</string>
   <string name="NotificationMmsMessageRecord_downloading_mms_message">מוריד הודעת MMS</string>
@@ -961,9 +976,9 @@
   <string name="MessageRecord_s_joined_signal">%s נמצא ב־Signal!</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">הִשְׁבַּתָּ הודעות נעלמות.</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$s השבית הודעות נעלמות.</string>
-  <string name="MessageRecord_you_set_disappearing_message_time_to_s">הִגְדַּרְתָּ את קוצב הזמן של ההודעות הנעלמות אל %1$s.</string>
-  <string name="MessageRecord_s_set_disappearing_message_time_to_s">%1$sהגדיר את קוצב הזמן של ההודעות הנעלמות אל %2$s. </string>
-  <string name="MessageRecord_disappearing_message_time_set_to_s">קוצב הזמן של ההודעות הנעלמות הוגדר אל %1$s.</string>
+  <string name="MessageRecord_you_set_disappearing_message_time_to_s">הִגְדַּרְתָּ את קוצב הזמן של הודעות נעלמות אל %1$s.</string>
+  <string name="MessageRecord_s_set_disappearing_message_time_to_s">%1$sהגדיר את קוצב הזמן של הודעות נעלמות אל %2$s. </string>
+  <string name="MessageRecord_disappearing_message_time_set_to_s">קוצב הזמן של הודעות נעלמות הוגדר אל %1$s.</string>
   <string name="MessageRecord_this_group_was_updated_to_a_new_group">קבוצה זו עודכנה אל קבוצה חדשה.</string>
   <string name="MessageRecord_you_couldnt_be_added_to_the_new_group_and_have_been_invited_to_join">לא יכולת להתווסף אל הקבוצה החדשה והוזמנת להצטרף.</string>
   <string name="MessageRecord_chat_session_refreshed">שיח התכתבות רוענן</string>
@@ -1219,6 +1234,7 @@
   <string name="PassphrasePromptActivity_ok_button_content_description">הגש משפט־סיסמה</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">משפט־סיסמה בלתי תקף!</string>
   <string name="PassphrasePromptActivity_unlock_signal">שחרר נעילת Signal</string>
+  <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android - מסך נעילה</string>
   <!--PlacePickerActivity-->
   <string name="PlacePickerActivity_title">מפה</string>
   <string name="PlacePickerActivity_drop_pin">זרוק מצביע</string>
@@ -1258,7 +1274,6 @@
   <string name="RatingManager_rate_now">דרג עכשיו!</string>
   <string name="RatingManager_no_thanks">לא תודה</string>
   <string name="RatingManager_later">מאוחר יותר</string>
-  <string name="RatingManager_whoops_the_play_store_app_does_not_appear_to_be_installed">אוי, נראה שיישום חנות Play אינו מותקן במכשיר שלך.</string>
   <!--ReactionsBottomSheetDialogFragment-->
   <string name="ReactionsBottomSheetDialogFragment_all">כל ה־%1$d</string>
   <!--ReactionsConversationView-->
@@ -1321,6 +1336,12 @@
   <string name="CallParticipantView__cant_receive_audio_video_from_s">לא ניתן לקבל שמע ווידאו מן %1$s</string>
   <string name="CallParticipantView__cant_receive_audio_and_video_from_s">לא ניתן לקבל שמע ווידאו מן %1$s</string>
   <string name="CallParticipantView__this_may_be_Because_they_have_not_verified_your_safety_number_change">ייתכן שזה מאחר שהם לא וידאו את שינוי מספר הביטחון שלך, או שיש בעיה עם המכשיר שלהם, או שהם חסמו אותך.</string>
+  <!--ProxyBottomSheetFragment-->
+  <string name="ProxyBottomSheetFragment_proxy_server">שרת יפוי כוח</string>
+  <string name="ProxyBottomSheetFragment_proxy_address">כתובת יפוי כוח</string>
+  <string name="ProxyBottomSheetFragment_do_you_want_to_use_this_proxy_address">האם אתה רוצה להשתמש בכתובת יפוי כוח זו?</string>
+  <string name="ProxyBottomSheetFragment_use_proxy">השתמש ביפוי כוח</string>
+  <string name="ProxyBottomSheetFragment_successfully_connected_to_proxy">התחברת בהצלחה אל יפוי כוח.</string>
   <!--RegistrationActivity-->
   <string name="RegistrationActivity_select_your_country">בחר את מדינתך</string>
   <string name="RegistrationActivity_you_must_specify_your_country_code">אתה חייב לציין את
@@ -1358,6 +1379,7 @@
   <string name="RegistrationActivity_continue">המשך</string>
   <string name="RegistrationActivity_take_privacy_with_you_be_yourself_in_every_message">קח פרטיות איתך.\nהייה עצמך בכל הודעה.</string>
   <string name="RegistrationActivity_enter_your_phone_number_to_get_started">הכנס את מספר הטלפון שלך כדי להתחיל</string>
+  <string name="RegistrationActivity_enter_your_phone_number">הכנס את מספר הטלפון שלך</string>
   <string name="RegistrationActivity_you_will_receive_a_verification_code">תקבל קוד וידוא. תשלומי מפעיל עשויים לחול.</string>
   <string name="RegistrationActivity_enter_the_code_we_sent_to_s">הכנס את הקוד ששלחנו אל %s</string>
   <string name="RegistrationActivity_make_sure_your_phone_has_a_cellular_signal">וודא שלטלפון שלך יש אות סלולרי לקבל מסרון או שיחה</string>
@@ -1577,16 +1599,18 @@
   <string name="MessageNotifier_this_message_was_deleted">הודעה זו נמחקה.</string>
   <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">לכבות התראות של איש קשר הצטרף אל Signal? אתה יכול לאפשר אותן שוב דרך Signal &lt; הגדרות &lt; התראות.</string>
   <!--Notification Channels-->
-  <string name="NotificationChannel_messages">ברירת מחדל</string>
+  <string name="NotificationChannel_channel_messages">הודעות</string>
   <string name="NotificationChannel_calls">שיחות</string>
   <string name="NotificationChannel_failures">כישלונות</string>
   <string name="NotificationChannel_backups">גיבויים</string>
   <string name="NotificationChannel_locked_status">מעמד נעילה</string>
   <string name="NotificationChannel_app_updates">עדכוני יישום</string>
   <string name="NotificationChannel_other">אחר</string>
-  <string name="NotificationChannel_group_messages">הודעות</string>
+  <string name="NotificationChannel_group_chats">התכתבויות</string>
   <string name="NotificationChannel_missing_display_name">בלתי ידוע</string>
   <string name="NotificationChannel_voice_notes">הערות קוליות</string>
+  <string name="NotificationChannel_contact_joined_signal">איש קשר הצטרף אל Signal</string>
+  <string name="NotificationChannels__no_activity_available_to_open_notification_channel_settings">אין פעילות זמינה כדי לפתוח הגדרות של ערוץ התראות.</string>
   <!--ProfileEditNameFragment-->
   <!--QuickResponseService-->
   <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">תגובה מהירה אינה זמינה כאשר Signal נעול!</string>
@@ -1602,6 +1626,7 @@
   <!--SingleRecipientNotificationBuilder-->
   <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
   <string name="SingleRecipientNotificationBuilder_new_message">הודעה חדשה</string>
+  <string name="SingleRecipientNotificationBuilder_message_request">בקשת הודעה</string>
   <!--ThumbnailView-->
   <string name="ThumbnailView_Play_video_description">נגן סרטון</string>
   <string name="ThumbnailView_Has_a_caption_description">יש כיתוב</string>
@@ -1713,6 +1738,7 @@
   <string name="ConversationUpdateItem_return_to_call">חזור לשיחה</string>
   <string name="ConversationUpdateItem_call_is_full">השיחה מלאה</string>
   <string name="ConversationUpdateItem_invite_friends">הזמן חברים</string>
+  <string name="ConversationUpdateItem_enable_call_notifications">אפשר התראות שיחה</string>
   <!--audio_view-->
   <string name="audio_view__play_pause_accessibility_description">נגן … השהה</string>
   <string name="audio_view__download_accessibility_description">הורד</string>
@@ -1736,6 +1762,18 @@
   <string name="safety_number_change_dialog__the_following_people_may_have_reinstalled_or_changed_devices">האנשים הבאים ייתכן התקינו מחדש את היישום או שינו מכשירים. וודא את מספר הביטחון שלך איתם כדי להבטיח פרטיות.</string>
   <string name="safety_number_change_dialog__view">הצג</string>
   <string name="safety_number_change_dialog__previous_verified">וֻדָּא בעבר</string>
+  <!--EnableCallNotificationSettingsDialog__call_notifications_checklist-->
+  <string name="EnableCallNotificationSettingsDialog__call_notifications_enabled">התראות שיחה מאופשרות.</string>
+  <string name="EnableCallNotificationSettingsDialog__enable_call_notifications">אפשר התראות שיחה</string>
+  <string name="EnableCallNotificationSettingsDialog__enable_background_activity">אפשר פעילות ברקע</string>
+  <string name="EnableCallNotificationSettingsDialog__everything_looks_good_now">הכול נִרְאֶה כראוי עכשיו!</string>
+  <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_here_and_turn_on_show_notifications">כדי לקבל התראות שיחה, הקש כאן והפעל את \"הראה התראות\".</string>
+  <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_here_and_turn_on_notifications">כדי לקבל התראות שיחה, הקש כאן והפעל התראות ווודא שצליל וחלון קופץ מאופשרים.</string>
+  <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_here_and_enable_background_activity_in_battery_settings">כדי לקבל התראות שיחה, הקש כאן ואפשר את פעילות ברקע בהגדרות \"סוללה\".</string>
+  <string name="EnableCallNotificationSettingsDialog__settings">הגדרות</string>
+  <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_settings_and_turn_on_show_notifications">כדי לקבל התראות שיחה, הקש על  הגדרות והפעל את \"הראה התראות\".</string>
+  <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_settings_and_turn_on_notifications">כדי לקבל התראות שיחה, הקש על הגדרות והפעל התראות ווודא שצליל וחלון קופץ מאופשרים.</string>
+  <string name="EnableCallNotificationSettingsDialog__to_receive_call_notifications_tap_settings_and_enable_background_activity_in_battery_settings">כדי לקבל התראות שיחה, הקש על הגדרות ואפשר את פעילות ברקע בהגדרות \"סוללה\".</string>
   <!--country_selection_fragment-->
   <string name="country_selection_fragment__loading_countries">טוען מדינות…</string>
   <string name="country_selection_fragment__search">חפש</string>
@@ -1845,7 +1883,7 @@
   <!--EditAboutFragment-->
   <string name="EditAboutFragment_about">אודות</string>
   <string name="EditAboutFragment_write_a_few_words_about_yourself">כתוב כמה מילים על עצמך…</string>
-  <string name="EditAboutFragment_count">%d/%d</string>
+  <string name="EditAboutFragment_count">%1$d/%2$d</string>
   <string name="EditAboutFragment_speak_freely">דבר בחופשיות</string>
   <string name="EditAboutFragment_encrypted">מוצפן</string>
   <string name="EditAboutFragment_be_kind">תהיו אדיבים</string>
@@ -1916,11 +1954,20 @@
   <string name="HelpFragment__include_debug_log">כלול יומן ניפוי תקלים.</string>
   <string name="HelpFragment__whats_this">מה זה?</string>
   <string name="HelpFragment__how_do_you_feel">איך אתה מרגיש? (רשותי)</string>
+  <string name="HelpFragment__tell_us_why_youre_reaching_out">ספר לנו מדוע אתה יוצר קשר.</string>
   <string name="HelpFragment__support_info">מידע תמיכה</string>
   <string name="HelpFragment__signal_android_support_request">בקשת תמיכה של Signal Android</string>
   <string name="HelpFragment__debug_log">יומן ניפוי תקלים:</string>
   <string name="HelpFragment__could_not_upload_logs">לא היה ניתן להעלות יומן</string>
   <string name="HelpFragment__please_be_as_descriptive_as_possible">אנא הייה מפורט ככל האפשר כדי לעזור לנו להבין את הסוגייה.</string>
+  <string-array name="HelpFragment__categories">
+    <item>משהו לא עובד</item>
+    <item>בקשת מאפיין</item>
+    <item>שאלה</item>
+    <item>משוב</item>
+    <item>אחר</item>
+    <item>תשלומים</item>
+  </string-array>
   <!--ReactWithAnyEmojiBottomSheetDialogFragment-->
   <string name="ReactWithAnyEmojiBottomSheetDialogFragment__this_message">הודעה זו</string>
   <string name="ReactWithAnyEmojiBottomSheetDialogFragment__recently_used">בשימוש לאחרונה</string>
@@ -1937,10 +1984,10 @@
   <string name="arrays__use_default">השתמש בברירת מחדל</string>
   <string name="arrays__use_custom">השתמש במותאם אישית</string>
   <string name="arrays__mute_for_one_hour">השתק למשך שעה</string>
-  <string name="arrays__mute_for_two_hours">השתק למשך שעתיים</string>
+  <string name="arrays__mute_for_eight_hours">השתק למשך 8 שעות</string>
   <string name="arrays__mute_for_one_day">השתק למשך יום</string>
   <string name="arrays__mute_for_seven_days">השתק למשך 7 ימים</string>
-  <string name="arrays__mute_for_one_year">השתק למשך שנה</string>
+  <string name="arrays__always">תמיד</string>
   <string name="arrays__settings_default">ברירת מחדל</string>
   <string name="arrays__enabled">מאופשר</string>
   <string name="arrays__disabled">מושבת</string>
@@ -1966,6 +2013,7 @@
     <item quantity="other">%d שע\'</item>
   </plurals>
   <!--preferences.xml-->
+  <string name="preferences_beta">בטא</string>
   <string name="preferences__sms_mms">מסרון ו־MMS</string>
   <string name="preferences__pref_all_sms_title">קבל את כל המסרונים</string>
   <string name="preferences__pref_all_mms_title">קבל את כל ה־MMS</string>
@@ -1978,7 +2026,7 @@
   <string name="preferences__generate_link_previews">חולל תצוגות מקדימות של קישורים</string>
   <string name="preferences__retrieve_link_previews_from_websites_for_messages">אחזר תצוגות מקדימות של קישורים ישירות מאתרים עבור הודעות שאתה שולח.</string>
   <string name="preferences__choose_identity">בחר זהות</string>
-  <string name="preferences__choose_your_contact_entry_from_the_contacts_list">בחר את כניסת איש הקשר שלך מתוך רשימת אנשי הקשר.</string>
+  <string name="preferences__choose_your_contact_entry_from_the_contacts_list">בחר את רשומת איש הקשר שלך מתוך רשימת אנשי הקשר.</string>
   <string name="preferences__change_passphrase">שנה משפט־סיסמה</string>
   <string name="preferences__change_your_passphrase">שנה את משפט־הסיסמה שלך</string>
   <string name="preferences__enable_passphrase">אפשר נעילת מסך עם משפט־סיסמה</string>
@@ -1994,7 +2042,8 @@
   <string name="preferences__pref_led_blink_title">תבנית הבהוב LED</string>
   <string name="preferences__sound">קול</string>
   <string name="preferences__silent">שקט</string>
-  <string name="preferences__repeat_alerts">חזור על התראות</string>
+  <string name="preferences__default">ברירת מחדל</string>
+  <string name="preferences__repeat_alerts">חזור על התרעות</string>
   <string name="preferences__never">אף פעם</string>
   <string name="preferences__one_time">פעם אחת</string>
   <string name="preferences__two_times">פעמיים</string>
@@ -2028,6 +2077,8 @@
   <string name="preferences__request_a_delivery_report_for_each_sms_message_you_send">בקש דוח מסירה לכל מסרון שאתה שולח</string>
   <string name="preferences__data_and_storage">נתונים ואחסון</string>
   <string name="preferences__storage">אחסון</string>
+  <string name="preferences__payments">תשלומים</string>
+  <string name="preferences__payments_beta">תשלומים (בטא)</string>
   <string name="preferences__conversation_length_limit">מגבלת אורך שיחה</string>
   <string name="preferences__keep_messages">שמור הודעות</string>
   <string name="preferences__clear_message_history">נקה היסטורית הודעות</string>
@@ -2048,8 +2099,8 @@
   <string name="preferences__free_private_messages_and_calls">הודעות ושיחות פרטיות חינמיות אל משתמשי Signal</string>
   <string name="preferences__submit_debug_log">הגש יומן ניפוי תקלים</string>
   <string name="preferences__delete_account">מחק חשבון</string>
-  <string name="preferences__support_wifi_calling">מצב תאימות \'התקשרות WiFi\'</string>
-  <string name="preferences__enable_if_your_device_supports_sms_mms_delivery_over_wifi">אפשר אם המכשיר שלך משתמש במשלוח של מסרונים או MMS על גבי WiFi (אפשר רק כאשר \'התקשרות WiFi\' מאופשרת במכשיר שלך)</string>
+  <string name="preferences__support_wifi_calling">מצב תאימות \'התקשרות דרך WiFi\'</string>
+  <string name="preferences__enable_if_your_device_supports_sms_mms_delivery_over_wifi">אפשר אם המכשיר שלך משתמש במשלוח של מסרונים או MMS על גבי WiFi (אפשר רק כאשר מצב תאימות \'התקשרות דרך WiFi\' מאופשר במכשיר שלך)</string>
   <string name="preferences__incognito_keyboard">מקלדת סמויה</string>
   <string name="preferences__read_receipts">אישורי קריאה</string>
   <string name="preferences__if_read_receipts_are_disabled_you_wont_be_able_to_see_read_receipts">אם אישורי קריאה מושבתים, לא תוכל לראות אישורי קריאה מאחרים.</string>
@@ -2116,8 +2167,155 @@
   <string name="preferences_communication__sealed_sender_allow_from_anyone_description">אפשר שולח אטום עבור הודעות נכנסות מאת אי־אנשי קשר ומאת אנשים איתם לא שיתפת את הפרופיל שלך.</string>
   <string name="preferences_communication__sealed_sender_learn_more">למד עוד</string>
   <string name="preferences_setup_a_username">הגדר שם משתמש</string>
+  <string name="preferences_proxy">יפוי כוח</string>
+  <string name="preferences_use_proxy">השתמש ביפוי כוח</string>
+  <string name="preferences_off">כבוי</string>
+  <string name="preferences_on">מופעל</string>
+  <string name="preferences_proxy_address">כתובת יפוי כוח</string>
+  <string name="preferences_only_use_a_proxy_if">השתמש ביפוי כוח רק אם אתה לא מסוגל להתחבר אל Signal על סלולר או Wi-Fi.</string>
+  <string name="preferences_share">שתף</string>
+  <string name="preferences_save">שמור</string>
+  <string name="preferences_connecting_to_proxy">מתחבר אל יפוי כוח…</string>
+  <string name="preferences_connected_to_proxy">מחובר אל יפוי כוח</string>
+  <string name="preferences_connection_failed">חיבור נכשל</string>
+  <string name="preferences_couldnt_connect_to_the_proxy">לא היה ניתן להתחבר אל יפוי הכוח. בדוק את כתובת יפוי הכוח ונסה שוב.</string>
+  <string name="preferences_you_are_connected_to_the_proxy">אתה מחובר אל יפוי הכוח. אתה יכול לכבות את יפוי הכוח בכל זמן מתוך ההגדרות.</string>
+  <string name="preferences_success">הצלחה</string>
+  <string name="preferences_failed_to_connect">נכשל בהתחברות</string>
+  <string name="preferences_enter_proxy_address">הכנס כתובת יפוי כוח</string>
   <string name="configurable_single_select__customize_option">התאם אישית אפשרות</string>
   <!--Internal only preferences-->
+  <!--Payments-->
+  <string name="PaymentsActivityFragment__all_activity">כל הפעילות</string>
+  <string name="PaymentsAllActivityFragment__all">הכל</string>
+  <string name="PaymentsAllActivityFragment__sent">נשלח</string>
+  <string name="PaymentsAllActivityFragment__received">התקבל</string>
+  <string name="PaymentsHomeFragment__introducing_payments">היכרות עם תשלומים (בטא)</string>
+  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">השתמש ב־Signal כדי לשלוח ולקבל MobileCoin, מטבע דיגיטלי חדש ממוקד פרטיות. הפעל כדי להתחיל.</string>
+  <string name="PaymentsHomeFragment__activate_payments">הפעל תשלומים</string>
+  <string name="PaymentsHomeFragment__activating_payments">מפעיל תשלומים…</string>
+  <string name="PaymentsHomeFragment__restore_payments_account">שחזר חשבון תשלומים</string>
+  <string name="PaymentsHomeFragment__no_recent_activity_yet">אין פעילות מהזמן האחרון עדיין</string>
+  <string name="PaymentsHomeFragment__pending_requests">בקשות ממתינות</string>
+  <string name="PaymentsHomeFragment__recent_activity">פעילות מהזמן האחרון</string>
+  <string name="PaymentsHomeFragment__see_all">ראה הכל</string>
+  <string name="PaymentsHomeFragment__add_funds">הוסף כספים</string>
+  <string name="PaymentsHomeFragment__send">שלח</string>
+  <string name="PaymentsHomeFragment__sent_s">%1$s נשלחו</string>
+  <string name="PaymentsHomeFragment__received_s">%1$s התקבלו</string>
+  <string name="PaymentsHomeFragment__transfer_to_exchange">העבר אל מסחר</string>
+  <string name="PaymentsHomeFragment__currency_conversion">המרת מטבע</string>
+  <string name="PaymentsHomeFragment__deactivate_payments">בטל הפעלת תשלומים</string>
+  <string name="PaymentsHomeFragment__recovery_phrase">משפט השבה</string>
+  <string name="PaymentsHomeFragment__help">עזרה</string>
+  <string name="PaymentsHomeFragment__coin_cleanup_fee">עמלת ניקוי מטבעות</string>
+  <string name="PaymentsHomeFragment__sent_payment">תשלום נשלח</string>
+  <string name="PaymentsHomeFragment__received_payment">תשלום התקבל</string>
+  <string name="PaymentsHomeFragment__processing_payment">מעבד תשלום</string>
+  <string name="PaymentsHomeFragment__unknown_amount">---</string>
+  <string name="PaymentsHomeFragment__currency_conversion_not_available">המרת מטבע אינה זמינה</string>
+  <string name="PaymentsHomeFragment__cant_display_currency_conversion">לא ניתן להציג המרת מטבע. בדוק את החיבור של הטלפון שלך ונסה שוב.</string>
+  <string name="PaymentsHomeFragment__payments_is_not_available_in_your_region">תשלומים אינם זמינים באזור שלך.</string>
+  <string name="PaymentsHomeFragment__could_not_enable_payments">לא היה ניתן לאפשר תשלומים. נסה שוב מאוחר יותר.</string>
+  <string name="PaymentsHomeFragment__deactivate_payments_question">לבטל הפעלת תשלומים?</string>
+  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">לא תוכל לשלוח או לקבל MobileCoin ב־Signal אם תבטל הפעלת תשלומים.</string>
+  <string name="PaymentsHomeFragment__deactivate">בטל הפעלה</string>
+  <string name="PaymentsHomeFragment__continue">המשך</string>
+  <string name="PaymentsHomeFragment__balance_is_not_currently_available">מאזן אינו זמין כרגע.</string>
+  <string name="PaymentsHomeFragment__payments_deactivated">הפעלת תשלומים בוטלה.</string>
+  <string name="PaymentsHomeFragment__payment_failed">תשלום נכשל</string>
+  <string name="PaymentsHomeFragment__details">פרטים</string>
+  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">אתה יכול להשתמש ב־Signal כדי לשלוח ולקבל MobileCoin. כל התשלומים כפופים אל תנאי השימוש עבור MobileCoins וארנק MobileCoin. זהו מאפיין בטא כך שאתה עשוי להיתקל במספר סוגיות ותשלומים או מאזנים שיתכן שתאבד אינם ניתנים להשבה.</string>
+  <string name="PaymentsHomeFragment__activate">הפעל</string>
+  <string name="PaymentsHomeFragment__view_mobile_coin_terms">הצג תנאי MobileCoin</string>
+  <string name="PaymentsHomeFragment__payments_not_available">תשלומים ב־Signal אינם זמינים יותר. אתה עדיין יכול להעביר כספים אל מסחר אבל אתה לא יכול יותר לשלוח ולקבל תשלומים או להוסיף כספים.</string>
+  <!--PaymentsAddMoneyFragment-->
+  <string name="PaymentsAddMoneyFragment__add_funds">הוסף כספים</string>
+  <string name="PaymentsAddMoneyFragment__your_wallet_address">כתובת הארנק שלך</string>
+  <string name="PaymentsAddMoneyFragment__copy">העתק</string>
+  <string name="PaymentsAddMoneyFragment__copied_to_clipboard">הועתק ללוח</string>
+  <string name="PaymentsAddMoneyFragment__to_add_funds">כדי להוסיף כספים, שלח MobileCoin  אל כתובת הארנק שלך. התחל עסקה מהחשבון שלך במסחר שתומך ב־MobileCoin, ואז סרוק את קוד ה־QR או העתק את כתובת הארנק שלך.</string>
+  <!--PaymentsDetailsFragment-->
+  <string name="PaymentsDetailsFragment__details">פרטים</string>
+  <string name="PaymentsDetailsFragment__status">מעמד</string>
+  <string name="PaymentsDetailsFragment__submitting_payment">מגיש תשלום…</string>
+  <string name="PaymentsDetailsFragment__processing_payment">מעבד תשלום…</string>
+  <string name="PaymentsDetailsFragment__payment_complete">תשלום הושלם</string>
+  <string name="PaymentsDetailsFragment__payment_failed">תשלום נכשל</string>
+  <string name="PaymentsDetailsFragment__network_fee">עמלת רשת</string>
+  <string name="PaymentsDetailsFragment__sent_by">נשלח ע״י</string>
+  <string name="PaymentsDetailsFragment__sent_to_s">נשלח אל %1$s</string>
+  <string name="PaymentsDetailsFragment__you_on_s_at_s">את/ה בתאריך %1$s בשעה %2$s</string>
+  <string name="PaymentsDetailsFragment__s_on_s_at_s">%1$s בתאריך %2$s בשעה %3$s</string>
+  <string name="PaymentsDetailsFragment__to">אל</string>
+  <string name="PaymentsDetailsFragment__from">מאת</string>
+  <string name="PaymentsDetailsFragment__information">פרטי עסקה כולל סכום התשלום וזמן העסקה הם חלק מן MobileCoin Ledger.</string>
+  <string name="PaymentsDetailsFragment__coin_cleanup_fee">עמלת ניקוי מטבעות</string>
+  <string name="PaymentsDetailsFragment__coin_cleanup_information">\"עמלת ניקוי מטבעות\" מחויבת כאשר המטבעות בחזקתך אינם יכולים להתאחד כדי להשלים עסקה. ניקוי יתיר לך להמשיך לשלוח תשלומים.</string>
+  <string name="PaymentsDetailsFragment__no_details_available">אין פרטים נוספים זמינים עבור עסקה זו</string>
+  <string name="PaymentsDetailsFragment__sent_payment">תשלום נשלח</string>
+  <string name="PaymentsDetailsFragment__received_payment">תשלום התקבל</string>
+  <string name="PaymentsDeatilsFragment__payment_completed_s">תשלום הושלם %1$s</string>
+  <string name="PaymentsDetailsFragment__block_number">חסום מספר</string>
+  <!--PaymentsTransferFragment-->
+  <string name="PaymentsTransferFragment__transfer">העבר</string>
+  <string name="PaymentsTransferFragment__scan_qr_code">סריקת קוד QR</string>
+  <string name="PaymentsTransferFragment__to_scan_or_enter_wallet_address">אל: סרוק או הכנס כתובת ארנק</string>
+  <string name="PaymentsTransferFragment__you_can_transfer">אתה יכול להעביר MobileCoin ע״י השלמת העברה אל כתובת הארנק שסופקה ע״י המסחר. כתובת הארנק היא המחרוזת של המספרים והאותיות שמופיעה בדרך כלל מתחת אל קוד ה־QR.</string>
+  <string name="PaymentsTransferFragment__next">הבא</string>
+  <string name="PaymentsTransferFragment__invalid_address">כתובת בלתי תקפה</string>
+  <string name="PaymentsTransferFragment__check_the_wallet_address">בדוק את כתובת הארנק שאתה מנסה להעביר אליה ונסה שוב.</string>
+  <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">אתה לא יכול להעביר אל כתובת הארנק של Signal של עצמך. הכנס את כתובת הארנק מהחשבון שלך במסחר נתמך.</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">כדי לסרוק קוד QR, היישום Signal צריך גישה אל המצלמה.</string>
+  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Signal צריך את הרשאת המצלמה כדי ללכוד קוד QR. לך אל הגדרות, בחר \"הרשאות\", ואפשר את \"מצלמה\".</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">כדי לסרוק קוד QR, היישום Signal צריך גישה אל המצלמה.</string>
+  <string name="PaymentsTransferFragment__settings">הגדרות</string>
+  <!--PaymentsTransferQrScanFragment-->
+  <string name="PaymentsTransferQrScanFragment__scan_address_qr_code">סרוק קוד QR של כתובת</string>
+  <string name="PaymentsTransferQrScanFragment__scan_the_address_qr_code_of_the_payee">סרוק את קוד ה־QR של הכתובת של המשלם</string>
+  <!--CreatePaymentFragment-->
+  <string name="CreatePaymentFragment__request">בקשה</string>
+  <string name="CreatePaymentFragment__pay">שלם</string>
+  <string name="CreatePaymentFragment__available_balance_s">מאזן זמין: %1$s</string>
+  <string name="CreatePaymentFragment__toggle_content_description">עורר</string>
+  <string name="CreatePaymentFragment__1">1</string>
+  <string name="CreatePaymentFragment__2">2</string>
+  <string name="CreatePaymentFragment__3">3</string>
+  <string name="CreatePaymentFragment__4">4</string>
+  <string name="CreatePaymentFragment__5">5</string>
+  <string name="CreatePaymentFragment__6">6</string>
+  <string name="CreatePaymentFragment__7">7</string>
+  <string name="CreatePaymentFragment__8">8</string>
+  <string name="CreatePaymentFragment__9">9</string>
+  <string name="CreatePaymentFragment__decimal">.</string>
+  <string name="CreatePaymentFragment__0">0</string>
+  <string name="CreatePaymentFragment__lt">&lt;</string>
+  <string name="CreatePaymentFragment__backspace">מקש חזרה</string>
+  <string name="CreatePaymentFragment__add_note">הוסף הערה</string>
+  <string name="CreatePaymentFragment__conversions_are_just_estimates">המרות הן רק השערות ויתכן שהן לא מדויקות.</string>
+  <!--EditNoteFragment-->
+  <string name="EditNoteFragment_note">הערה</string>
+  <!--ConfirmPaymentFragment-->
+  <string name="ConfirmPayment__confirm_payment">אשר תשלום</string>
+  <string name="ConfirmPayment__network_fee">עמלת רשת</string>
+  <string name="ConfirmPayment__error_getting_fee">שגיאה בהשגת עמלה</string>
+  <string name="ConfirmPayment__estimated_s">משוער %1$s</string>
+  <string name="ConfirmPayment__to">אל</string>
+  <string name="ConfirmPayment__total_amount">סכום כולל</string>
+  <string name="ConfirmPayment__balance_s">מאזן: %1$s</string>
+  <string name="ConfirmPayment__submitting_payment">מגיש תשלום…</string>
+  <string name="ConfirmPayment__processing_payment">מעבד תשלום…</string>
+  <string name="ConfirmPayment__payment_complete">תשלום הושלם</string>
+  <string name="ConfirmPayment__payment_failed">תשלום נכשל</string>
+  <string name="ConfirmPayment__payment_will_continue_processing">התשלום ימשיך לעבד</string>
+  <string name="ConfirmPaymentFragment__invalid_recipient">מקבל בלתי תקף</string>
+  <string name="ConfirmPaymentFragment__this_person_has_not_activated_payments">איש זה לא הפעיל תשלומים</string>
+  <string name="ConfirmPaymentFragment__unable_to_request_a_network_fee">לא היה ניתן לבקש עמלת רשת. כדי להמשיך תשלום זה, הקש על בסדר ונסה שוב.</string>
+  <!--CurrencyAmountFormatter_s_at_s-->
+  <string name="CurrencyAmountFormatter_s_at_s">%1$s בשעה %2$s</string>
+  <!--SetCurrencyFragment-->
+  <string name="SetCurrencyFragment__set_currency">הגדר מטבע</string>
+  <string name="SetCurrencyFragment__all_currencies">כל המטבעות</string>
   <!--****************************************-->
   <!--menus-->
   <!--****************************************-->
@@ -2302,6 +2500,8 @@
   <string name="RegistrationLockFragment__incorrect_pin">PIN שגוי</string>
   <string name="RegistrationLockFragment__forgot_your_pin">שכחת את ה־PIN שלך?</string>
   <string name="RegistrationLockFragment__not_many_tries_left">אין הרבה ניסיונות נותרים!</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">הרשמה אל Signal - עזרה עם PIN עבור Android (v1 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">הרשמה אל Signal - עזרה עם PIN עבור Android (v2 PIN)</string>
   <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
     <item quantity="one">למען פרטיותך ואבטחתך, אין דרך להשיב את ה־PIN שלך. אם אינך זוכר את ה־PIN שלך, תוכל לוודא מחדש עם מסרון לאחר יום %1$d של אי־פעילות. במקרה זה, חשבונך ינוקה וכל התוכן יימחק.</item>
     <item quantity="two">למען פרטיותך ואבטחתך, אין דרך להשיב את ה־PIN שלך. אם אינך זוכר את ה־PIN שלך, תוכל לוודא מחדש עם מסרון לאחר %1$d ימים של אי־פעילות. במקרה זה, חשבונך ינוקה וכל התוכן יימחק.</item>
@@ -2366,9 +2566,13 @@
   <string name="backup_enable_dialog__folder">תיקייה</string>
   <string name="backup_enable_dialog__i_have_written_down_this_passphrase">כתבתי משפט־סיסמה זה. בלעדיו, לא אוכל לשחזר גיבוי.</string>
   <string name="registration_activity__restore_backup">שחזר גיבוי</string>
+  <string name="registration_activity__transfer_or_restore_account">העבר או שחזר חשבון</string>
+  <string name="registration_activity__transfer_account">העבר חשבון</string>
   <string name="registration_activity__skip">דלג</string>
   <string name="preferences_chats__chat_backups">גיבויי התכתבויות</string>
   <string name="preferences_chats__backup_chats_to_external_storage">גבה התכתבויות באחסון חיצוני</string>
+  <string name="preferences_chats__transfer_account">העבר חשבון</string>
+  <string name="preferences_chats__transfer_account_to_a_new_android_device">העבר חשבון אל מכשיר Android חדש</string>
   <string name="RegistrationActivity_enter_backup_passphrase">הכנס משפט־סיסמה של גיבוי</string>
   <string name="RegistrationActivity_restore">שחזר</string>
   <string name="RegistrationActivity_backup_failure_downgrade">לא ניתן לייבא גיבויים מגרסאות חדשות יותר של Signal</string>
@@ -2442,6 +2646,123 @@
   <string name="prompt_passphrase_activity__signal_is_locked">Signal נעול</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">הקש כדי לשחרר נעילה</string>
   <string name="Recipient_unknown">בלתי ידוע</string>
+  <!--TransferOrRestoreFragment-->
+  <string name="TransferOrRestoreFragment__transfer_or_restore_account">העבר או שחזר חשבון</string>
+  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">במקרה שנרשמת קודם לכן אל חשבון Signal, אתה יכול להעביר או לשחזר את החשבון וההודעות שלך.</string>
+  <string name="TransferOrRestoreFragment__transfer_from_android_device">העבר ממכשיר Android</string>
+  <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">העבר את החשבון וההודעות שלך ממכשיר Android ישן שלך. אתה צריך גישה אל המכשיר הישן שלך.</string>
+  <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">אתה צריך גישה אל המכשיר הישן שלך.</string>
+  <string name="TransferOrRestoreFragment__restore_from_backup">שחזר מגיבוי</string>
+  <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">שחזר את ההודעות שלך מגיבוי מקומי. אם לא תשחזר עכשיו, לא תוכל לשחזר מאוחר יותר.</string>
+  <!--NewDeviceTransferInstructionsFragment-->
+  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">פתח את Signal בטלפון Android הישן שלך</string>
+  <string name="NewDeviceTransferInstructions__continue">המשך</string>
+  <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
+  <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">הקש על תמונת הפרופיל שלך בקצה העליון השמאלי כדי לפתוח הגדרות</string>
+  <string name="NewDeviceTransferInstructions__second_bullet">2.</string>
+  <string name="NewDeviceTransferInstructions__tap_on_chats">הקש על \"התכתבויות\"</string>
+  <string name="NewDeviceTransferInstructions__third_bullet">3.</string>
+  <string name="NewDeviceTransferInstructions__tap_transfer_account_and_then_continue_on_both_devices">הקש על \"העבר חשבון\" ואז \"המשך\" בשני המכשירים</string>
+  <!--NewDeviceTransferSetupFragment-->
+  <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">מתכונן להתחבר אל מכשיר Android ישן…</string>
+  <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">רק רגע, זה יהיה מוכן בקרוב</string>
+  <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">ממתין אל מכשיר Android ישן שיתחבר…</string>
+  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Signal צריך את הרשאת המיקום כדי לגלות ולהתחבר אל מכשיר ה־Android הישן שלך.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Signal צריך שירותי מיקום מופעלים כדי לגלות ולהתחבר אל מכשיר ה־Android הישן שלך.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Signal צריך Wi-Fi מופעל כדי לגלות להתחבר אל מכשיר ה־Android הישן שלך. Wi-Fi צריך להיות מופעל אבל הוא לא חייב להיות מחובר אל רשת Wi-Fi.</string>
+  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">סליחה, נראה שמכשיר זה אינו תומך ב־Wi-Fi Direct. היישום Signal משתמש ב־Wi-Fi Direct כדי לגלות להתחבר אל מכשיר Android הישן שלך. אתה עדין יכול לשחזר גיבוי כדי לשחזר את החשבון שלך ממכשיר ה־Android הישן שלך.</string>
+  <string name="NewDeviceTransferSetup__restore_a_backup">שחזר גיבוי</string>
+  <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">שגיאה בלתי צפויה התרחשה בזמן ניסיון להתחבר אל מכשיר ה־Android הישן שלך.</string>
+  <!--OldDeviceTransferSetupFragment-->
+  <string name="OldDeviceTransferSetup__searching_for_new_android_device">מחפש מכשיר Android חדש…</string>
+  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Signal צריך את הרשאת המיקום כדי לגלות ולהתחבר אל מכשיר ה־Android החדש שלך.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Signal צריך שירותי מיקום מופעלים כדי לגלות ולהתחבר אל מכשיר ה־Android החדש שלך.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Signal צריך Wi-Fi מופעל כדי לגלות להתחבר אל מכשיר ה־Android החדש שלך. Wi-Fi צריך להיות מופעל אבל הוא לא חייב להיות מחובר אל רשת Wi-Fi.</string>
+  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">סליחה, נראה שמכשיר זה אינו תומך ב־Wi-Fi Direct. היישום Signal משתמש ב־Wi-Fi Direct כדי לגלות להתחבר אל מכשיר Android החדש שלך. אתה עדין יכול ליצור גיבוי כדי לשחזר את החשבון שלך במכשיר ה־Android החדש שלך.</string>
+  <string name="OldDeviceTransferSetup__create_a_backup">צור גיבוי</string>
+  <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">שגיאה בלתי צפויה התרחשה בזמן ניסיון להתחבר אל מכשיר ה־Android החדש שלך.</string>
+  <!--DeviceTransferSetupFragment-->
+  <string name="DeviceTransferSetup__unable_to_open_wifi_settings">לא היה ניתן לפתוח הגדרות Wi-Fi. אנא הפעל Wi-Fi באופן ידני.</string>
+  <string name="DeviceTransferSetup__grant_location_permission">הענק הרשאת מיקום</string>
+  <string name="DeviceTransferSetup__turn_on_location_services">הפעל שירותי מיקום</string>
+  <string name="DeviceTransferSetup__unable_to_open_location_settings">לא היה ניתן לפתוח הגדרות מיקום.</string>
+  <string name="DeviceTransferSetup__turn_on_wifi">הפעל Wi-Fi</string>
+  <string name="DeviceTransferSetup__error_connecting">שגיאה בהתחברות</string>
+  <string name="DeviceTransferSetup__retry">נסה שוב</string>
+  <string name="DeviceTransferSetup__submit_debug_logs">הגש יומני ניפוי תקלים</string>
+  <string name="DeviceTransferSetup__verify_code">וודא קוד</string>
+  <string name="DeviceTransferSetup__verify_that_the_code_below_matches_on_both_of_your_devices">וודא שהקוד למטה תואם בשני המכשירים שלך. לאחר מכן הקש על המשך.</string>
+  <string name="DeviceTransferSetup__the_numbers_do_not_match">המספרים אינם תואמים</string>
+  <string name="DeviceTransferSetup__continue">המשך</string>
+  <string name="DeviceTransferSetup__number_is_not_the_same">המספר אינו זהה</string>
+  <string name="DeviceTransferSetup__if_the_numbers_on_your_devices_do_not_match_its_possible_you_connected_to_the_wrong_device">אם המספרים במכשירים שלך אינם תואמים, ייתכן שהתחברת אל מכשיר לא נכון. כדי לתקן זאת, הפסק את ההעברה ונסה שוב, והשאר את שני המכשירים שלך קרובים.</string>
+  <string name="DeviceTransferSetup__stop_transfer">הפסק העברה</string>
+  <string name="DeviceTransferSetup__unable_to_discover_old_device">לא היה ניתן לגלות מכשיר ישן</string>
+  <string name="DeviceTransferSetup__unable_to_discover_new_device">לא היה ניתן לגלות מכשיר חדש</string>
+  <string name="DeviceTransferSetup__make_sure_the_following_permissions_are_enabled">וודא שההרשאות הבאות מאופשרות ושהחיבורים הבאים מאופשרים:</string>
+  <string name="DeviceTransferSetup__location_permission">הרשאת מיקום</string>
+  <string name="DeviceTransferSetup__location_services">שירותי מיקום</string>
+  <string name="DeviceTransferSetup__wifi">Wi-Fi</string>
+  <string name="DeviceTransferSetup__on_the_wifi_direct_screen_remove_all_remembered_groups_and_unlink_any_invited_or_connected_devices">במסך WiFi Direct, הסר את כל הקבוצות הזכורות ובטל קישור של מכשירים מוזמנים או מחוברים כלשהם.</string>
+  <string name="DeviceTransferSetup__wifi_direct_screen">מסך WiFi Direct</string>
+  <string name="DeviceTransferSetup__try_turning_wifi_off_and_on_on_both_devices">נסה לכבות Wi-Fi ולהפעיל אותו, בשני המכשירים.</string>
+  <string name="DeviceTransferSetup__make_sure_both_devices_are_in_transfer_mode">וודא ששני המכשירים במצב העברה.</string>
+  <string name="DeviceTransferSetup__go_to_support_page">לך אל דף התמיכה</string>
+  <string name="DeviceTransferSetup__try_again">נסה שוב</string>
+  <string name="DeviceTransferSetup__waiting_for_other_device">ממתין אל המכשיר האחר</string>
+  <string name="DeviceTransferSetup__tap_continue_on_your_other_device_to_start_the_transfer">הקש על המסך במכשיר האחר שלך כדי להתחיל את ההעברה.</string>
+  <string name="DeviceTransferSetup__tap_continue_on_your_other_device">הקש על המשך במכשיר האחר שלך…</string>
+  <!--NewDeviceTransferFragment-->
+  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">לא ניתן להעביר מגרסאות חדשות יותר של Signal</string>
+  <!--DeviceTransferFragment-->
+  <string name="DeviceTransfer__transferring_data">מעביר נתונים</string>
+  <string name="DeviceTransfer__keep_both_devices_near_each_other">השאר את שני המכשירים קרובים אחד לשני. אל תכבה את המכשירים והשאר את Signal פתוח. העברות מוצפנות מקצה־אל־קצה.</string>
+  <string name="DeviceTransfer__d_messages_so_far">%1$d הודעות עד כה…</string>
+  <string name="DeviceTransfer__cancel">בטל</string>
+  <string name="DeviceTransfer__try_again">נסה שוב</string>
+  <string name="DeviceTransfer__stop_transfer_question">להפסיק העברה?</string>
+  <string name="DeviceTransfer__stop_transfer">הפסק העברה</string>
+  <string name="DeviceTransfer__all_transfer_progress_will_be_lost">כל תהליך ההעברה יאבד.</string>
+  <string name="DeviceTransfer__transfer_failed">העברה נכשלה</string>
+  <string name="DeviceTransfer__unable_to_transfer">לא היה ניתן להעביר</string>
+  <!--OldDeviceTransferInstructionsFragment-->
+  <string name="OldDeviceTransferInstructions__transfer_account">העבר חשבון</string>
+  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">אתה יכול להעביר את חשבון Signal שלך בזמן הגדרת Signal על מכשיר Android חדש. לפני המשכה:</string>
+  <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
+  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">הורד את Signal במכשיר Android החדש שלך</string>
+  <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
+  <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">הקש על \"העבר או שחזר חשבון\"</string>
+  <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
+  <string name="OldDeviceTransferInstructions__select_transfer_from_android_device_when_prompted_and_then_continue">בחר \"העבר ממכשיר Android\" כאשר תיודע ולאחר מכן \"המשך\". השאר את שני המכשירים בקרבת מקום.</string>
+  <string name="OldDeviceTransferInstructions__continue">המשך</string>
+  <!--OldDeviceTransferComplete-->
+  <string name="OldDeviceTransferComplete__transfer_complete">העברה הושלמה</string>
+  <string name="OldDeviceTransferComplete__go_to_your_new_device">לך אל המכשיר החדש שלך</string>
+  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">נתוני Signal שלך הועברו אל המכשיר החדש שלך. כדי להשלים את תהליך ההעברה, אתה חייב להמשיך את ההרשמה במכשיר החדש שלך.</string>
+  <string name="OldDeviceTransferComplete__close">סגור</string>
+  <!--NewDeviceTransferComplete-->
+  <string name="NewDeviceTransferComplete__transfer_successful">העברה מוצלחת</string>
+  <string name="NewDeviceTransferComplete__transfer_complete">העברה הושלמה</string>
+  <string name="NewDeviceTransferComplete__to_complete_the_transfer_process_you_must_continue_registration">כדי להשלים את תהליך ההרשמה, אתה חייב להמשיך את ההרשמה.</string>
+  <string name="NewDeviceTransferComplete__continue_registration">המשך הרשמה</string>
+  <!--DeviceToDeviceTransferService-->
+  <string name="DeviceToDeviceTransferService_content_title">העברת חשבון</string>
+  <string name="DeviceToDeviceTransferService_status_ready">מתכונן להתחבר אל מכשיר Android האחר שלך…</string>
+  <string name="DeviceToDeviceTransferService_status_starting_up">מתכונן להתחבר אל מכשיר Android האחר שלך…</string>
+  <string name="DeviceToDeviceTransferService_status_discovery">מחפש את מכשיר Android האחר שלך…</string>
+  <string name="DeviceToDeviceTransferService_status_network_connected">מתחבר אל מכשיר Android האחר שלך…</string>
+  <string name="DeviceToDeviceTransferService_status_verification_required">וידוא נדרש</string>
+  <string name="DeviceToDeviceTransferService_status_service_connected">מעביר חשבון…</string>
+  <!--OldDeviceTransferLockedDialog-->
+  <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">השלם את ההרשמה במכשיר החדש שלך</string>
+  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">חשבון Signal שלך הועבר אל המכשיר החדש שלך, אבל אתה חייב להשלים בו את ההרשמה כדי להמשיך. Signal יהיה בלתי פעיל במכשיר זה.</string>
+  <string name="OldDeviceTransferLockedDialog__done">סיים</string>
+  <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">בטל והפעל מכשיר זה</string>
+  <!--AdvancedPreferenceFragment-->
+  <string name="AdvancedPreferenceFragment__transfer_mob_balance">להעביר מאזן?</string>
+  <string name="AdvancedPreferenceFragment__you_have_a_balance_of_s">יש לך מאזן של %1$s. אם לא תעביר את הכספים שלך אל כתובת ארנק אחרת לפני מחיקת החשבון שלך, תאבד אותם לנצח.</string>
+  <string name="AdvancedPreferenceFragment__dont_transfer">אל תעביר</string>
+  <string name="AdvancedPreferenceFragment__transfer">העבר</string>
   <!--RecipientBottomSheet-->
   <string name="RecipientBottomSheet_block">חסום</string>
   <string name="RecipientBottomSheet_unblock">שחרר חסימה</string>
@@ -2472,6 +2793,8 @@
   <string name="GroupsLearnMore_paragraph_2">קבוצות מיושנות אינן יכולות להשתדרג עדין אל קבוצות חדשות, אבל אתה יכול ליצור קבוצה חדשה עם אותם חברי קבוצה אם יש להם את הגרסה האחרונה של Signal.</string>
   <string name="GroupsLearnMore_paragraph_3">Signal יציע דרך לשדרג קבוצות מיושנות בעתיד.</string>
   <!--GroupLinkBottomSheetDialogFragment-->
+  <string name="GroupLinkBottomSheet_share_hint_requiring_approval">כל אחד עם קישור זה יכול לראות את השם והתמונה של הקבוצה ולבקש להצטרף. שתף אותו עם אנשים שאתה בוטח בהם.</string>
+  <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">כל אחד עם קישור זה יכול לראות את השם והתמונה של הקבוצה ולהצטרף אל הקבוצה. שתף אותו עם אנשים שאתה בוטח בהם.</string>
   <string name="GroupLinkBottomSheet_share_via_signal">שתף באמצעות Signal</string>
   <string name="GroupLinkBottomSheet_copy">העתק</string>
   <string name="GroupLinkBottomSheet_qr_code">קוד QR:</string>
@@ -2536,6 +2859,7 @@
   <string name="DeleteAccountFragment__delete_account">מחק חשבון</string>
   <string name="DeleteAccountFragment__delete_your_account_info_and_profile_photo">מחק את מידע החשבון שלך ואת תמונת הפרופיל שלך</string>
   <string name="DeleteAccountFragment__delete_all_your_messages">מחק את כל ההודעות שלך</string>
+  <string name="DeleteAccountFragment__delete_s_in_your_payments_account">מחק %1$s בחשבון התשלומים שלך</string>
   <string name="DeleteAccountFragment__no_country_code">קוד מדינה לא צויין</string>
   <string name="DeleteAccountFragment__no_number">מספר לא צויין</string>
   <string name="DeleteAccountFragment__the_phone_number">מספר הטלפון שהכנסת אינו תואם אל מספר הטלפון של החשבון שלך.</string>
@@ -2590,5 +2914,83 @@
   <string name="WallpaperCropActivity__set_wallpaper_for_s">טפט הוגדר עבור %s.</string>
   <string name="WallpaperCropActivity__error_setting_wallpaper">שגיאה בהגדרת טפט.</string>
   <string name="WallpaperCropActivity__blur_photo">טשטש תמונה</string>
+  <!--InfoCard-->
+  <string name="payment_info_card_about_mobilecoin">על אודות MobileCoin</string>
+  <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">MobileCoin הוא מטבע דיגיטלי חדש ממוקד פרטיות.</string>
+  <string name="payment_info_card_adding_funds">הוספת כספים</string>
+  <string name="payment_info_card_you_can_add_funds_for_use_in">אתה יכול להוסיף כספים לשימוש ב־Signal ע״י שליחת MobileCoin אל כתובת הארנק שלך.</string>
+  <string name="payment_info_card_cashing_out">פדיון</string>
+  <string name="payment_info_card_you_can_cash_out_mobilecoin">אתה יכול לפדות MobileCoin בכל זמן במסחר שתומך ב־MobileCoin. פשוט בצע העברה אל החשבון שלך במסחר הזה.</string>
+  <string name="payment_info_card_hide_this_card">להסתיר כרטיס זה?</string>
+  <string name="payment_info_card_hide">הסתר</string>
+  <string name="payment_info_card_record_recovery_phrase">תעד משפט השבה</string>
+  <string name="payment_info_card_your_recovery_phrase_gives_you">משפט ההשבה שלך נותן לך דרך אחרת לשחזר את חשבון התשלומים שלך</string>
+  <string name="payment_info_card_record_your_phrase">תעד את המשפט שלך</string>
+  <string name="payment_info_card_update_your_pin">עדכן את ה־PIN שלך</string>
+  <string name="payment_info_card_with_a_high_balance">עם מאזן גבוה, יתכן שתרצה לעדכן אל PIN אלפאנומרי כדי להוסיף עוד הגנה אל החשבון שלך</string>
+  <string name="payment_info_card_update_pin">עדכן PIN</string>
+  <!--DeactivateWalletFragment-->
+  <string name="DeactivateWalletFragment__deactivate_wallet">בטל הפעלת ארנק</string>
+  <string name="DeactivateWalletFragment__your_balance">המאזן שלך</string>
+  <string name="DeactivateWalletFragment__its_recommended_that_you">מומלץ שתעביר את הכספים שלך אל כתובת ארנק אחרת לפני ביטול הפעלת תשלומים. אם תבחר לא להעביר את הכספים שלך עכשיו, הם יישארו בארנק שמקושר אל Signal אם תפעיל מחדש תשלומים.</string>
+  <string name="DeactivateWalletFragment__transfer_remaining_balance">העבר מאזן נותר</string>
+  <string name="DeactivateWalletFragment__deactivate_without_transferring">בטל הפעלה בלי להעביר</string>
+  <string name="DeactivateWalletFragment__deactivate">בטל הפעלה</string>
+  <string name="DeactivateWalletFragment__deactivate_without_transferring_question">לבטל הפעלה בלי להעביר?</string>
+  <string name="DeactivateWalletFragment__your_balance_will_remain">המאזן שלך יישאר בארנק שמקושר אל Signal אם תבחר להפעיל מחדש תשלומים.</string>
+  <string name="DeactivateWalletFragment__error_deactivating_wallet">שגיאה בביטול הפעלת ארנק.</string>
+  <!--PaymentsRecoveryStartFragment-->
+  <string name="PaymentsRecoveryStartFragment__recovery_phrase">משפט השבה</string>
+  <string name="PaymentsRecoveryStartFragment__view_recovery_phrase">הצג משפט השבה</string>
+  <string name="PaymentsRecoveryStartFragment__enter_recovery_phrase">הכנס משפט השבה</string>
+  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">המאזן שלך ישוחזר באופן אוטומטי כשתתקין מחדש את Signal אם תאשר את PIN של Signal שלך. אתה יכול גם לשחזר את המאזן שלך ע״י שימוש במשפט השבה, שהוא משפט בן %1$d מילים ייחודי לך. כתוב אותו ואחסן אותו במקום בטוח.</string>
+  <string name="PaymentsRecoveryStartFragment__your_recovery_phrase_is_a">משפט ההשבה שלך הוא משפט בן %1$d מילים ייחודי לך. השתמש במשפט הזה כדי לשחזר את המאזן שלך.</string>
+  <string name="PaymentsRecoveryStartFragment__start">התחל</string>
+  <string name="PaymentsRecoveryStartFragment__enter_manually">הכנס באופן ידני</string>
+  <string name="PaymentsRecoveryStartFragment__paste_from_clipboard">הדבק מלוח הגזירה</string>
+  <!--PaymentsRecoveryPasteFragment-->
+  <string name="PaymentsRecoveryPasteFragment__paste_recovery_phrase">הדבק משפט השבה</string>
+  <string name="PaymentsRecoveryPasteFragment__recovery_phrase">משפט השבה</string>
+  <string name="PaymentsRecoveryPasteFragment__next">הבא</string>
+  <string name="PaymentsRecoveryPasteFragment__invalid_recovery_phrase">משפט השבה בלתי תקף</string>
+  <string name="PaymentsRecoveryPasteFragment__make_sure">וודא שהכנסת %1$d מילים ונסה שוב.</string>
+  <!--PaymentsRecoveryPhraseFragment-->
+  <string name="PaymentsRecoveryPhraseFragment__next">הבא</string>
+  <string name="PaymentsRecoveryPhraseFragment__edit">ערוך</string>
+  <string name="PaymentsRecoveryPhraseFragment__previous">הקודם</string>
+  <string name="PaymentsRecoveryPhraseFragment__your_recovery_phrase">משפט ההשבה שלך</string>
+  <string name="PaymentsRecoveryPhraseFragment__write_down_the_following_d_words">כתוב את %1$d המילים הבאות לפי הסדר. אחסן את הרשימה שלך במקום מאובטח.</string>
+  <string name="PaymentsRecoveryPhraseFragment__make_sure_youve_entered">וודא שהכנסת את המשפט שלך כראוי.</string>
+  <string name="PaymentsRecoveryPhraseFragment__do_not_screenshot_or_send_by_email">אל תצלם צילום מסך או תשלח בדוא״ל.</string>
+  <string name="PaymentsRecoveryPhraseFragment__payments_account_restored">חשבון תשלומים שוחזר.</string>
+  <string name="PaymentsRecoveryPhraseFragment__invalid_recovery_phrase">משפט השבה בלתי תקף</string>
+  <string name="PaymentsRecoveryPhraseFragment__make_sure_youve_entered_your_phrase_correctly_and_try_again">וודא שהכנסת את המשפט שלך כראוי ונסה שוב</string>
+  <string name="PaymentsRecoveryPhraseFragment__copy_to_clipboard">להעתיק ללוח הגזירה?</string>
+  <string name="PaymentsRecoveryPhraseFragment__if_you_choose_to_store">אם אתה בוחר לאחסן את משפט ההשבה שלך באופן דיגיטלי, הבטח שהוא מאוחסן באופן מאובטח במקום כלשהו שאתה בוטח.</string>
+  <string name="PaymentsRecoveryPhraseFragment__copy">העתק</string>
+  <!--PaymentsRecoveryPhraseConfirmFragment-->
+  <string name="PaymentRecoveryPhraseConfirmFragment__confirm_recovery_phrase">אשר משפט השבה</string>
+  <string name="PaymentRecoveryPhraseConfirmFragment__enter_the_following_words">הכנס את המילים הבאות מתוך משפט ההשבה שלך.</string>
+  <string name="PaymentRecoveryPhraseConfirmFragment__word_d">מילה %1$d</string>
+  <string name="PaymentRecoveryPhraseConfirmFragment__see_phrase_again">ראה משפט שוב</string>
+  <string name="PaymentRecoveryPhraseConfirmFragment__done">סיים</string>
+  <string name="PaymentRecoveryPhraseConfirmFragment__recovery_phrase_confirmed">משפט השבה אושר</string>
+  <!--PaymentsRecoveryEntryFragment-->
+  <string name="PaymentsRecoveryEntryFragment__enter_recovery_phrase">הכנס משפט השבה</string>
+  <string name="PaymentsRecoveryEntryFragment__enter_word_d">הכנס את מילה %1$d</string>
+  <string name="PaymentsRecoveryEntryFragment__word_d">מילה %1$d</string>
+  <string name="PaymentsRecoveryEntryFragment__next">הבא</string>
+  <string name="PaymentsRecoveryEntryFragment__invalid_word">מילה בלתי תקפה</string>
+  <!--ClearClipboardAlarmReceiver-->
+  <string name="ClearClipboardAlarmReceiver__clipboard_cleared">לוח הגזירה נוקה.</string>
+  <!--PaymentNotificationsView-->
+  <string name="PaymentNotificationsView__view">הצג</string>
+  <!--UnreadPayments-->
+  <string name="UnreadPayments__s_sent_you_s">%1$s שלח/ה לך %2$s</string>
+  <string name="UnreadPayments__d_new_payment_notifications">%1$d התראות תשלום חדשות</string>
+  <!--CanNotSendPaymentDialog-->
+  <string name="CanNotSendPaymentDialog__cant_send_payment">לא ניתן לשלוח תשלום</string>
+  <string name="CanNotSendPaymentDialog__to_send_a_payment_to_this_user">כדי לשלוח תשלום אל המשתמש הזה, הוא צריך לאשר בקשת הודעה ממך. שלח לו הודעה כדי ליצור בקשת הודעה.</string>
+  <string name="CanNotSendPaymentDialog__send_a_message">שלח הודעה</string>
   <!--EOF-->
 </resources>

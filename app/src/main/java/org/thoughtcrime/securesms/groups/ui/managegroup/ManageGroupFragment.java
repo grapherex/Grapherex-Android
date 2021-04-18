@@ -60,6 +60,7 @@ import org.thoughtcrime.securesms.util.AsynchronousCallback;
 import org.thoughtcrime.securesms.util.DateUtils;
 import org.thoughtcrime.securesms.util.FeatureFlags;
 import org.thoughtcrime.securesms.util.LifecycleCursorWrapper;
+import org.thoughtcrime.securesms.util.ViewUtil;
 import org.thoughtcrime.securesms.util.views.LearnMoreTextView;
 import org.thoughtcrime.securesms.util.views.SimpleProgressDialog;
 import org.thoughtcrime.securesms.wallpaper.ChatWallpaperActivity;
@@ -261,8 +262,8 @@ public class ManageGroupFragment extends LoggingFragment {
       threadPhotoRailView.setListener(mediaRecord ->
           startActivityForResult(MediaPreviewActivity.intentFromMediaRecord(context,
                                                                             mediaRecord,
-                                                                            ViewCompat.getLayoutDirection(threadPhotoRailView) == ViewCompat.LAYOUT_DIRECTION_LTR),
-                                 RETURN_FROM_MEDIA));
+                                                                            ViewUtil.isLtr(threadPhotoRailView)),
+                                                                            RETURN_FROM_MEDIA));
 
       groupLinkCard.setVisibility(vs.getGroupRecipient().requireGroupId().isV2() ? View.VISIBLE : View.GONE);
     });
@@ -332,10 +333,14 @@ public class ManageGroupFragment extends LoggingFragment {
       muteNotificationsUntilLabel.setVisibility(muteState.isMuted() ? View.VISIBLE : View.GONE);
 
       if (muteState.isMuted()) {
-        muteNotificationsUntilLabel.setText(getString(R.string.ManageGroupActivity_until_s,
-                                                      DateUtils.getTimeString(requireContext(),
-                                                                              Locale.getDefault(),
-                                                                              muteState.getMutedUntil())));
+        if (muteState.getMutedUntil() == Long.MAX_VALUE) {
+          muteNotificationsUntilLabel.setText(R.string.ManageGroupActivity_always);
+        } else {
+          muteNotificationsUntilLabel.setText(getString(R.string.ManageGroupActivity_until_s,
+                                                        DateUtils.getTimeString(requireContext(),
+                                                                                Locale.getDefault(),
+                                                                                muteState.getMutedUntil())));
+        }
       }
     });
 
@@ -352,10 +357,8 @@ public class ManageGroupFragment extends LoggingFragment {
     viewModel.getMentionSetting().observe(getViewLifecycleOwner(), value -> mentionsValue.setText(value));
 
     viewModel.getCanLeaveGroup().observe(getViewLifecycleOwner(), canLeave -> leaveGroup.setVisibility(canLeave ? View.VISIBLE : View.GONE));
-    viewModel.getCanBlockGroup().observe(getViewLifecycleOwner(), canBlock -> {
-      blockGroup.setVisibility(canBlock ? View.VISIBLE : View.GONE);
-      unblockGroup.setVisibility(canBlock ? View.GONE : View.VISIBLE);
-    });
+    viewModel.getCanBlockGroup().observe(getViewLifecycleOwner(), canBlock -> blockGroup.setVisibility(canBlock ? View.VISIBLE : View.GONE));
+    viewModel.getCanUnblockGroup().observe(getViewLifecycleOwner(), canUnblock -> unblockGroup.setVisibility(canUnblock ? View.VISIBLE : View.GONE));
 
     viewModel.getGroupInfoMessage().observe(getViewLifecycleOwner(), message -> {
       switch (message) {

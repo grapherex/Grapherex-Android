@@ -14,13 +14,21 @@ import org.thoughtcrime.securesms.jobs.FcmRefreshJob;
 import org.thoughtcrime.securesms.registration.PushChallengeRequest;
 import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
+import java.util.Locale;
+
 public class FcmReceiveService extends FirebaseMessagingService {
 
-  private static final String TAG = FcmReceiveService.class.getSimpleName();
+  private static final String TAG = Log.tag(FcmReceiveService.class);
+
 
   @Override
   public void onMessageReceived(RemoteMessage remoteMessage) {
-    Log.i(TAG, "FCM message... Delay: " + (System.currentTimeMillis() - remoteMessage.getSentTime()));
+    Log.i(TAG, String.format(Locale.US,
+                             "onMessageReceived() ID: %s, Delay: %d, Priority: %d, Original Priority: %d",
+                             remoteMessage.getMessageId(),
+                             (System.currentTimeMillis() - remoteMessage.getSentTime()),
+                             remoteMessage.getPriority(),
+                             remoteMessage.getOriginalPriority()));
 
     String challenge = remoteMessage.getData().get("challenge");
     if (challenge != null) {
@@ -28,6 +36,12 @@ public class FcmReceiveService extends FirebaseMessagingService {
     } else {
       handleReceivedNotification(ApplicationDependencies.getApplication());
     }
+  }
+
+  @Override
+  public void onDeletedMessages() {
+    Log.w(TAG, "onDeleteMessages() -- Messages may have been dropped. Doing a normal message fetch.");
+    handleReceivedNotification(ApplicationDependencies.getApplication());
   }
 
   @Override
@@ -40,6 +54,16 @@ public class FcmReceiveService extends FirebaseMessagingService {
     }
 
     ApplicationDependencies.getJobManager().add(new FcmRefreshJob());
+  }
+
+  @Override
+  public void onMessageSent(@NonNull String s) {
+    Log.i(TAG, "onMessageSent()" + s);
+  }
+
+  @Override
+  public void onSendError(@NonNull String s, @NonNull Exception e) {
+    Log.w(TAG, "onSendError()", e);
   }
 
   private static void handleReceivedNotification(Context context) {

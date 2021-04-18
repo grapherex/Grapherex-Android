@@ -60,6 +60,7 @@ public class LogSectionSystemInfo implements LogSection {
     builder.append("Censored      : ").append(CensorshipUtil.isCensored(context)).append("\n");
     builder.append("Play Services : ").append(getPlayServicesString(context)).append("\n");
     builder.append("FCM           : ").append(!TextSecurePreferences.isFcmDisabled(context)).append("\n");
+    builder.append("BkgRestricted : ").append(Build.VERSION.SDK_INT >= 28 ? DeviceProperties.isBackgroundRestricted(context) : "N/A").append("\n");
     builder.append("Locale        : ").append(Locale.getDefault().toString()).append("\n");
     builder.append("Linked Devices: ").append(TextSecurePreferences.isMultiDevice(context)).append("\n");
     builder.append("First Version : ").append(TextSecurePreferences.getFirstInstallVersion(context)).append("\n");
@@ -73,7 +74,8 @@ public class LogSectionSystemInfo implements LogSection {
              .append(BuildConfig.CANONICAL_VERSION_CODE)
              .append(", ")
              .append(Util.getManifestApkVersion(context))
-             .append(")\n");
+             .append(") (")
+             .append(BuildConfig.GIT_HASH).append(") \n");
     } catch (PackageManager.NameNotFoundException nnfe) {
       builder.append("Unknown\n");
     }

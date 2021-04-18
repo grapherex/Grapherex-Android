@@ -16,6 +16,7 @@ import androidx.lifecycle.Transformations;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
+import org.signal.core.util.ThreadUtil;
 import org.thoughtcrime.securesms.BlockUnblockDialog;
 import org.thoughtcrime.securesms.ContactSelectionListFragment;
 import org.thoughtcrime.securesms.ExpirationDialog;
@@ -44,10 +45,10 @@ import org.thoughtcrime.securesms.util.AsynchronousCallback;
 import org.thoughtcrime.securesms.util.DefaultValueLiveData;
 import org.thoughtcrime.securesms.util.ExpirationUtil;
 import org.thoughtcrime.securesms.util.FeatureFlags;
-import org.thoughtcrime.securesms.util.Util;
 import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
 import org.thoughtcrime.securesms.util.views.SimpleProgressDialog;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ManageGroupViewModel extends ViewModel {
@@ -77,6 +78,7 @@ public class ManageGroupViewModel extends ViewModel {
   private final DefaultValueLiveData<CollapseState>         memberListCollapseState   = new DefaultValueLiveData<>(CollapseState.COLLAPSED);
   private final LiveData<Boolean>                           canLeaveGroup;
   private final LiveData<Boolean>                           canBlockGroup;
+  private final LiveData<Boolean>                           canUnblockGroup;
   private final LiveData<Boolean>                           showLegacyIndicator;
   private final LiveData<String>                            mentionSetting;
   private final LiveData<Boolean>                           groupLinkOn;
@@ -119,7 +121,8 @@ public class ManageGroupViewModel extends ViewModel {
     this.hasCustomNotifications    = Transformations.map(this.groupRecipient,
                                                          recipient -> recipient.getNotificationChannel() != null || !NotificationChannels.supported());
     this.canLeaveGroup             = liveGroup.isActive();
-    this.canBlockGroup             = Transformations.map(this.groupRecipient, recipient -> !recipient.isBlocked());
+    this.canBlockGroup             = Transformations.map(this.groupRecipient, recipient -> RecipientUtil.isBlockable(recipient) && !recipient.isBlocked());
+    this.canUnblockGroup           = Transformations.map(this.groupRecipient, Recipient::isBlocked);
     this.mentionSetting            = Transformations.distinctUntilChanged(Transformations.map(this.groupRecipient,
                                                                                               recipient -> MentionUtil.getMentionSettingDisplayValue(context, recipient.getMentionSetting())));
     this.groupLinkOn               = Transformations.map(liveGroup.getGroupLink(), GroupLinkUrlAndStatus::isEnabled);
@@ -127,12 +130,10 @@ public class ManageGroupViewModel extends ViewModel {
                                                          recipient -> {
                                                            boolean showLegacyInfo = recipient.requireGroupId().isV1();
 
-                                                           if (showLegacyInfo && FeatureFlags.groupsV1ManualMigration() && recipient.getParticipants().size() > FeatureFlags.groupLimits().getHardLimit()) {
+                                                           if (showLegacyInfo && recipient.getParticipants().size() > FeatureFlags.groupLimits().getHardLimit()) {
                                                              return GroupInfoMessage.LEGACY_GROUP_TOO_LARGE;
-                                                           } else if (showLegacyInfo && FeatureFlags.groupsV1ManualMigration()) {
-                                                             return GroupInfoMessage.LEGACY_GROUP_UPGRADE;
                                                            } else if (showLegacyInfo) {
-                                                             return GroupInfoMessage.LEGACY_GROUP_LEARN_MORE;
+                                                             return GroupInfoMessage.LEGACY_GROUP_UPGRADE;
                                                            } else if (groupId.isMms()) {
                                                              return GroupInfoMessage.MMS_WARNING;
                                                            } else {
@@ -218,6 +219,10 @@ public class ManageGroupViewModel extends ViewModel {
 
   LiveData<Boolean> getCanBlockGroup() {
     return canBlockGroup;
+  }
+
+  LiveData<Boolean> getCanUnblockGroup() {
+    return canUnblockGroup;
   }
 
   LiveData<Boolean> getCanLeaveGroup() {
@@ -315,7 +320,7 @@ public class ManageGroupViewModel extends ViewModel {
 
   @WorkerThread
   private void showErrorToast(@NonNull GroupChangeFailureReason e) {
-    Util.runOnMain(() -> Toast.makeText(context, GroupErrors.getUserDisplayMessage(e), Toast.LENGTH_LONG).show());
+    ThreadUtil.runOnMain(() -> Toast.makeText(context, GroupErrors.getUserDisplayMessage(e), Toast.LENGTH_LONG).show());
   }
 
   public void onAddMembersClick(@NonNull Fragment fragment, int resultCode) {
@@ -328,7 +333,7 @@ public class ManageGroupViewModel extends ViewModel {
         intent.putExtra(AddMembersActivity.GROUP_ID, getGroupId().toString());
         intent.putExtra(ContactSelectionListFragment.DISPLAY_MODE, ContactsCursorLoader.DisplayMode.FLAG_PUSH);
         intent.putExtra(ContactSelectionListFragment.SELECTION_LIMITS, new SelectionLimits(capacity.getSelectionWarning(), capacity.getSelectionLimit()));
-        intent.putParcelableArrayListExtra(ContactSelectionListFragment.CURRENT_SELECTION, capacity.getMembersWithoutSelf());
+        intent.putParcelableArrayListExtra(ContactSelectionListFragment.CURRENT_SELECTION, new ArrayList<>(capacity.getMembersWithoutSelf()));
         fragment.startActivityForResult(intent, resultCode);
       }
     });

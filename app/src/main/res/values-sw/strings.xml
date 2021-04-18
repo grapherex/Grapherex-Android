@@ -631,7 +631,7 @@ Signal inahitaji ruhusa ya Kamera ili kuskani msimbo wa QR, lakini imekataliwa k
   <string name="RatingManager_rate_now">Tathmini sasa</string>
   <string name="RatingManager_no_thanks">Hapana nashukuru</string>
   <string name="RatingManager_later">Baadaye</string>
-  <string name="RatingManager_whoops_the_play_store_app_does_not_appear_to_be_installed">Duh, programu ya Play Store inaonekana haijasakinishwa kwenye kifaa chako.</string>
+  <!-- Removed by excludeNonTranslatables <string name="RatingManager_whoops_the_play_store_app_does_not_appear_to_be_installed">Duh, programu ya Play Store inaonekana haijasakinishwa kwenye kifaa chako.</string> -->
   <!--ReactionsBottomSheetDialogFragment-->
   <!--ReactionsConversationView-->
   <string name="ReactionsConversationView_plus">+%1$d</string>
@@ -891,14 +891,14 @@ nambari yako ya simu</string>
   <string name="MessageNotifier_reacted_s_to_your_sticker">Ametoa hisia%1$s kwa kibandiko chako.</string>
   <string name="MessageNotifier_this_message_was_deleted">Ujumbe huu umefutwa</string>
   <!--Notification Channels-->
-  <string name="NotificationChannel_messages">Chaguo Msingi</string>
+  <!-- Removed by excludeNonTranslatables <string name="NotificationChannel_messages">Chaguo Msingi</string> -->
   <string name="NotificationChannel_calls">Simu</string>
   <string name="NotificationChannel_failures">Zilizoshindwa</string>
   <string name="NotificationChannel_backups">Nakalahifadhi</string>
   <string name="NotificationChannel_locked_status">Funga hali</string>
   <string name="NotificationChannel_app_updates">Sasisho za programu</string>
   <string name="NotificationChannel_other">ingine</string>
-  <string name="NotificationChannel_group_messages">Jumbe</string>
+  <!-- Removed by excludeNonTranslatables <string name="NotificationChannel_group_messages">Jumbe</string> -->
   <string name="NotificationChannel_missing_display_name">Isiyojulikana</string>
   <!--ProfileEditNameFragment-->
   <!-- Removed by excludeNonTranslatables <string name="ProfileEditNameFragment_successfully_set_profile_name">Jina lako la wasifa limefanikiwa kuwekwa.</string> -->
@@ -1220,10 +1220,10 @@ nambari yako ya simu</string>
   <string name="arrays__use_default">Tumia chaguo msingi</string>
   <string name="arrays__use_custom">Tumia kaida</string>
   <string name="arrays__mute_for_one_hour">Zima kwa saa 1</string>
-  <string name="arrays__mute_for_two_hours">Zima kwa masaa 2</string>
+  <!-- Removed by excludeNonTranslatables <string name="arrays__mute_for_two_hours">Zima kwa masaa 2</string> -->
   <string name="arrays__mute_for_one_day">Zima kwa siku 1</string>
   <string name="arrays__mute_for_seven_days">Zima kwa siku 7</string>
-  <string name="arrays__mute_for_one_year">Zima kwa mwaka 1</string>
+  <!-- Removed by excludeNonTranslatables <string name="arrays__mute_for_one_year">Zima kwa mwaka 1</string> -->
   <string name="arrays__settings_default">Mipangilio chaguo msingi</string>
   <string name="arrays__enabled">Imewezeshwa</string>
   <string name="arrays__disabled">Imelemazwa</string>

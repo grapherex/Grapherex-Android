@@ -9,6 +9,7 @@ import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -19,12 +20,16 @@ import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentActivity;
 import androidx.navigation.ActivityNavigator;
 import androidx.navigation.Navigation;
+import androidx.navigation.fragment.NavHostFragment;
 
 import com.dd.CircularProgressButton;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import com.google.i18n.phonenumbers.Phonenumber;
 
+import org.greenrobot.eventbus.EventBus;
 import org.signal.core.util.logging.Log;
+import org.signal.devicetransfer.DeviceToDeviceTransferService;
+import org.signal.devicetransfer.TransferStatus;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.permissions.Permissions;
 import org.thoughtcrime.securesms.registration.viewmodel.RegistrationViewModel;
@@ -33,9 +38,6 @@ import org.thoughtcrime.securesms.util.CommunicationActions;
 import org.thoughtcrime.securesms.util.TextSecurePreferences;
 import org.thoughtcrime.securesms.util.Util;
 import org.whispersystems.libsignal.util.guava.Optional;
-
-import java.util.Arrays;
-import java.util.Locale;
 
 public final class WelcomeFragment extends BaseRegistrationFragment {
 
@@ -64,7 +66,7 @@ public final class WelcomeFragment extends BaseRegistrationFragment {
   private static final            int[]          HEADERS_API_29     = { R.drawable.ic_contacts_white_48dp };
 
   private CircularProgressButton continueButton;
-  private View                   restoreFromBackup;
+  private Button                 restoreFromBackup;
 
   @Override
   public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -107,15 +109,14 @@ public final class WelcomeFragment extends BaseRegistrationFragment {
       continueButton = view.findViewById(R.id.welcome_continue_button);
       continueButton.setOnClickListener(this::continueClicked);
 
-      restoreFromBackup = view.findViewById(R.id.welcome_restore_backup);
+      restoreFromBackup = view.findViewById(R.id.welcome_transfer_or_restore);
       restoreFromBackup.setOnClickListener(this::restoreFromBackupClicked);
 
       TextView welcomeTermsButton = view.findViewById(R.id.welcome_terms_button);
       welcomeTermsButton.setOnClickListener(v -> onTermsClicked());
 
-      if (canUserSelectBackup()) {
-        restoreFromBackup.setVisibility(View.VISIBLE);
-        welcomeTermsButton.setTextColor(ContextCompat.getColor(requireActivity(), R.color.core_grey_60));
+      if (!canUserSelectBackup()) {
+        restoreFromBackup.setText(R.string.registration_activity__transfer_account);
       }
     }
   }
@@ -123,6 +124,17 @@ public final class WelcomeFragment extends BaseRegistrationFragment {
   @Override
   public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
     Permissions.onRequestPermissionsResult(this, requestCode, permissions, grantResults);
+  }
+
+  @Override
+  public void onResume() {
+    super.onResume();
+    if (EventBus.getDefault().getStickyEvent(TransferStatus.class) != null) {
+      Log.i(TAG, "Found existing transferStatus, redirect to transfer flow");
+      NavHostFragment.findNavController(this).navigate(R.id.action_welcomeFragment_to_deviceTransferSetup);
+    } else {
+      DeviceToDeviceTransferService.stop(requireContext());
+    }
   }
 
   private void continueClicked(@NonNull View view) {
@@ -180,7 +192,7 @@ public final class WelcomeFragment extends BaseRegistrationFragment {
     initializeNumber();
 
     Navigation.findNavController(view)
-              .navigate(WelcomeFragmentDirections.actionChooseBackup());
+              .navigate(WelcomeFragmentDirections.actionTransferOrRestore());
   }
 
   @SuppressLint("MissingPermission")
@@ -196,14 +208,7 @@ public final class WelcomeFragment extends BaseRegistrationFragment {
     if (localNumber.isPresent()) {
       Log.i(TAG, "Phone number detected");
       Phonenumber.PhoneNumber phoneNumber    = localNumber.get();
-      String                  nationalNumber = String.valueOf(phoneNumber.getNationalNumber());
-
-      if (phoneNumber.getNumberOfLeadingZeros() != 0) {
-        char[] value = new char[phoneNumber.getNumberOfLeadingZeros()];
-        Arrays.fill(value, '0');
-        nationalNumber = new String(value) + nationalNumber;
-        Log.i(TAG, String.format(Locale.US, "Padded national number with %d zeros", phoneNumber.getNumberOfLeadingZeros()));
-      }
+      String                  nationalNumber = PhoneNumberUtil.getInstance().format(phoneNumber, PhoneNumberUtil.PhoneNumberFormat.NATIONAL);
 
       getModel().onNumberDetected(phoneNumber.getCountryCode(), nationalNumber);
     } else {

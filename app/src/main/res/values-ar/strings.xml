@@ -61,6 +61,7 @@
   <string name="AttachmentKeyboard_location">الموقع الجغرافي</string>
   <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">يحتاج Signal إلى إذن لإظهار الصور ومقاطع الفيديو الخاصة بك.</string>
   <string name="AttachmentKeyboard_give_access">منح الصلاحيات</string>
+  <string name="AttachmentKeyboard_payment">دفع مال</string>
   <!--AttachmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">لم يتم العثور على تطبيق لاختيار ملف.</string>
   <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">يحتاج Signal إلى إذن الوصول إلى التخزين من أجل إرفاق الصور والفيديوهات والملفّات الصوتيّة، ولكن الإذن لم يُمنح  بشكل دائم. الّرجاء زيارة قائمة إعدادات التطبيق، واختيار \"الأذونات\"، ومن ثمّ تفعيل \"سعة التخزين\".</string>
@@ -69,6 +70,8 @@
   <!--AttachmentUploadJob-->
   <string name="AttachmentUploadJob_uploading_media">جاري رفع الملف …</string>
   <string name="AttachmentUploadJob_compressing_video_start">جاري ضغط الفيديو…</string>
+  <!--BackgroundMessageRetriever-->
+  <string name="BackgroundMessageRetriever_checking_for_messages">يبحث عن الرسائل…</string>
   <!--BlockedUsersActivity-->
   <string name="BlockedUsersActivity__blocked_users">المستخدمون المحظورون</string>
   <string name="BlockedUsersActivity__add_blocked_user">أضف مستخدما محظورا</string>
@@ -137,8 +140,8 @@
   <string name="CommunicationActions_insecure_call">مكالمة غير آمنة</string>
   <string name="CommunicationActions_carrier_charges_may_apply">قد تُطبَّق عليك رسوم شركة الاتصال. الرقم الذي تتصل به غير مسجل في Signal. سيتم إجراء هذه المكالمة من خلال مشغِّل شبكة الجوال، وليس عبر الانترنت.</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">تم تغيير رقم السلامة مع %1$s. وهذا يعني إما محاولة أحداً اعتراض المحادثة أو ببساطة قيام %2$s بإعادة تثبيت Signal.</string>
-  <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">ربما ترغب بالتحقق من رقم السلامة مع جهة الاتصال هذه.</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">تغيَّر رقم الأمان مع %1$s. وهذا يعني إما محاولة أحدٍ اعتراض المحادثة أو ببساطة قيام %2$s بإعادة تثبيت Signal.</string>
+  <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">ربما ترغب بالتحقق من رقم الأمان مع جهة الاتصال هذه.</string>
   <string name="ConfirmIdentityDialog_accept">موافقة</string>
   <!--ContactsCursorLoader-->
   <string name="ContactsCursorLoader_recent_chats">المحادثات الأحدث</string>
@@ -236,6 +239,7 @@
   <string name="ConversationActivity__more_options_now_in_group_settings">ثمة خيارات إضافية الآن في \"إعدادات المجموعة\"</string>
   <string name="ConversationActivity_join">انضم</string>
   <string name="ConversationActivity_full">ممتليء</string>
+  <string name="ConversationActivity_error_sending_media">خَطَأُ في إرسال الوَسط</string>
   <!--ConversationAdapter-->
   <plurals name="ConversationAdapter_n_unread_messages">
     <item quantity="zero">%d رسالة غير مقروءة</item>
@@ -538,7 +542,7 @@
   <!--GroupsV1MigrationInitiationReminder-->
   <string name="GroupsV1MigrationInitiationReminder_to_access_new_features_like_mentions">للوصول إلى الميزات الجديدة مثل ‎@mentions والمشرفين، قم بترقية هذه المجموعة.</string>
   <string name="GroupsV1MigrationInitiationReminder_not_now">ليس الآن</string>
-  <string name="GroupsV1MigrationInitiationReminder_update_group">تحديث المجموعة</string>
+  <string name="GroupsV1MigrationInitiationReminder_upgrade_group">رقِّ المجموعة</string>
   <!--GroupsV1MigrationSuggestionsReminder-->
   <plurals name="GroupsV1MigrationSuggestionsReminder_members_couldnt_be_added_to_the_new_group">
     <item quantity="zero">تعذرت إضافة %1$d عضو مرة ثانية إلى المجموعة الجديدة. ألديك نية ﻹضافة الشخص الآن ؟</item>
@@ -733,6 +737,7 @@
   <string name="ManageGroupActivity_mentions">الرسائل التي ذُكر فيها اسمك</string>
   <string name="ManageGroupActivity_chat_wallpaper">خلفية المحادثة</string>
   <string name="ManageGroupActivity_until_s">حتى %1$s</string>
+  <string name="ManageGroupActivity_always">دائمًا</string>
   <string name="ManageGroupActivity_off">غير مشغل</string>
   <string name="ManageGroupActivity_on">مُشغَّل</string>
   <string name="ManageGroupActivity_view_all_members">إظهار جميع الأعضاء</string>
@@ -787,6 +792,7 @@
   <string name="ManageRecipientActivity_mute_notifications">كتم الإشعارات</string>
   <string name="ManageRecipientActivity_custom_notifications">إشعارات مخصصة</string>
   <string name="ManageRecipientActivity_until_s">حتى %1$s</string>
+  <string name="ManageRecipientActivity_always">دائمًا</string>
   <string name="ManageRecipientActivity_off">غير مُشغَّل</string>
   <string name="ManageRecipientActivity_on">مُشغَّل</string>
   <string name="ManageRecipientActivity_add_to_a_group">إضافة إلى مجموعة</string>
@@ -1007,6 +1013,11 @@
   <string name="NotificationBarManager__answer_call">الرد على المكالمة</string>
   <string name="NotificationBarManager__end_call">إنهاء المكالمة</string>
   <string name="NotificationBarManager__cancel_call">إلغاء المكالمة</string>
+  <!--NotificationsMegaphone-->
+  <string name="NotificationsMegaphone_turn_on_notifications">تفعيل الإشعارات؟</string>
+  <string name="NotificationsMegaphone_never_miss_a_message">عدم تفويت أي رسالة من جهات الاتصال والمجموعات الخاصة بك.</string>
+  <string name="NotificationsMegaphone_turn_on">شغّل</string>
+  <string name="NotificationsMegaphone_not_now">ليس الآن</string>
   <!--NotificationMmsMessageRecord-->
   <string name="NotificationMmsMessageRecord_multimedia_message">رسالة وسائط متعددة</string>
   <string name="NotificationMmsMessageRecord_downloading_mms_message">تنزيل رسالة متعددة الوسائط </string>
@@ -1214,11 +1225,11 @@
   <string name="MessageRecord_you_canceled_your_request_to_join_the_group">لقد ألغيت طلب انضمامك للمجموعة.</string>
   <string name="MessageRecord_s_canceled_their_request_to_join_the_group">ألغي طلب الانضمام للمجموعة من طرف %1$s.</string>
   <!--End of GV2 specific update messages-->
-  <string name="MessageRecord_your_safety_number_with_s_has_changed">تم تغيير رقم السلامة الخاص بينك وبين %s.</string>
-  <string name="MessageRecord_you_marked_your_safety_number_with_s_verified">لقد قمت بالتحقق من رقم السلامة مع %s</string>
-  <string name="MessageRecord_you_marked_your_safety_number_with_s_verified_from_another_device">لقد قمت بالإشعار بأنّك تحقّقت من رقم السلامة مع %s عن طريق جهاز آخر</string>
-  <string name="MessageRecord_you_marked_your_safety_number_with_s_unverified">لقد قمت بالإشعار بأنّ رقم السلامة مع %s لم يتم التحقّق منه</string>
-  <string name="MessageRecord_you_marked_your_safety_number_with_s_unverified_from_another_device">لقد قمت بالإشعار بأنّ رقم السلامة مع %s لم يتم التحقّق منه عن طريق جهاز آخر</string>
+  <string name="MessageRecord_your_safety_number_with_s_has_changed">تم تغيير  رقم الأمان الخاص بينك وبين %s.</string>
+  <string name="MessageRecord_you_marked_your_safety_number_with_s_verified">لقد قمت بالتحقق من رقم الأمان مع %s</string>
+  <string name="MessageRecord_you_marked_your_safety_number_with_s_verified_from_another_device">لقد قمت بالإشعار بأنك تحققت من رقم الأمان مع %s عن طريق جهاز آخر</string>
+  <string name="MessageRecord_you_marked_your_safety_number_with_s_unverified">لقد قمت بالإشعار بأنّ رقم الأمان مع %s لم يتم التحقّق منه</string>
+  <string name="MessageRecord_you_marked_your_safety_number_with_s_unverified_from_another_device">لقد قمت بالإشعار بأنّ رقم الأمان مع %s لم يتم التحقّق منه عن طريق جهاز آخر</string>
   <!--Group Calling update messages-->
   <string name="MessageRecord_s_started_a_group_call_s">قام العضو %1$s ببدء مكالمة جماعية · %2$s</string>
   <string name="MessageRecord_s_is_in_the_group_call_s">العضو %1$s موجود في المكالمة الجماعية · %2$s</string>
@@ -1333,6 +1344,7 @@
   <string name="PassphrasePromptActivity_ok_button_content_description">أدخل العبارة السرية</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">عبارة سرية غير صحيحة!</string>
   <string name="PassphrasePromptActivity_unlock_signal">فك قفل Signal </string>
+  <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android - قفل الشاشة</string>
   <!--PlacePickerActivity-->
   <string name="PlacePickerActivity_title">الخريطة</string>
   <string name="PlacePickerActivity_drop_pin">إدخال إشارة </string>
@@ -1375,7 +1387,6 @@
   <string name="RatingManager_rate_now">قَيّم الآن</string>
   <string name="RatingManager_no_thanks">لا، شكرا</string>
   <string name="RatingManager_later">لاحقا</string>
-  <string name="RatingManager_whoops_the_play_store_app_does_not_appear_to_be_installed">عفوا، يبدو أنّ تطبيق Play Store غير مثبّت على جهازك. </string>
   <!--ReactionsBottomSheetDialogFragment-->
   <string name="ReactionsBottomSheetDialogFragment_all">الكل · %1$d </string>
   <!--ReactionsConversationView-->
@@ -1442,6 +1453,12 @@
   <string name="CallParticipantView__cant_receive_audio_video_from_s">لا يمكن تلقي الصوت والصورة من %1$s</string>
   <string name="CallParticipantView__cant_receive_audio_and_video_from_s">لا يمكن تلقي الصوت والصورة من %1$s</string>
   <string name="CallParticipantView__this_may_be_Because_they_have_not_verified_your_safety_number_change">ربما يكون ذلك بسبب عدم تحقق الشخص من تغيير رقم أمانك، أو بسبب وجود مشكلة في جهازه، أو قيامه بحظرك.</string>
+  <!--ProxyBottomSheetFragment-->
+  <string name="ProxyBottomSheetFragment_proxy_server">الخادم الوكيل</string>
+  <string name="ProxyBottomSheetFragment_proxy_address">عنوان الوكيل</string>
+  <string name="ProxyBottomSheetFragment_do_you_want_to_use_this_proxy_address">ألديك رغبة في استخدام عنوان الوكيل هذا ؟</string>
+  <string name="ProxyBottomSheetFragment_use_proxy">استخدم الوكيل</string>
+  <string name="ProxyBottomSheetFragment_successfully_connected_to_proxy">نجح في الاتصال بالوكيل.</string>
   <!--RegistrationActivity-->
   <string name="RegistrationActivity_select_your_country">يجب عليك اختيار بلدك</string>
   <string name="RegistrationActivity_you_must_specify_your_country_code">يجب عليك تحديد رمز دولتك</string>
@@ -1480,6 +1497,7 @@
 
 كن على طبيعتك في كل رسالة.</string>
   <string name="RegistrationActivity_enter_your_phone_number_to_get_started">أدخل رقم هاتفك للبدء</string>
+  <string name="RegistrationActivity_enter_your_phone_number">يُرجى إدخال رقم هاتفك</string>
   <string name="RegistrationActivity_you_will_receive_a_verification_code">ستستلم رمز تحقّق. قد تنطبّق تكلفة من مزوّد الخدمة.</string>
   <string name="RegistrationActivity_enter_the_code_we_sent_to_s">أدخل الرمز الذي أرسلناه إلى%s</string>
   <string name="RegistrationActivity_make_sure_your_phone_has_a_cellular_signal">يُرجى التأكد من أن هاتفك يلتقط الإشارة الخلوية لتلقي الرسائل القصيرة أو المكالمات</string>
@@ -1587,8 +1605,8 @@
   <string name="ThreadRecord_s_is_on_signal">%sمتواجد على Signal !</string>
   <string name="ThreadRecord_disappearing_messages_disabled">الرسائل المختفية غير مفعّلة</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">ضبط توقيت إخفاء الرسائل إلى %s</string>
-  <string name="ThreadRecord_safety_number_changed">هناك تغيير في رقم السلامة</string>
-  <string name="ThreadRecord_your_safety_number_with_s_has_changed">لقد تغيّر رقم السلامة بينك وبـين %s.</string>
+  <string name="ThreadRecord_safety_number_changed">هناك تغيير في رقم الأمان</string>
+  <string name="ThreadRecord_your_safety_number_with_s_has_changed">لقد تغيّر رقم الأمان بينك وبـين %s.</string>
   <string name="ThreadRecord_you_marked_verified">لقد قمت بالإشارة بالتحقّق </string>
   <string name="ThreadRecord_you_marked_unverified">لقد قمت بإلغاء التحقق</string>
   <string name="ThreadRecord_message_could_not_be_processed">لم يمكن معالجة الرسالة</string>
@@ -1630,11 +1648,11 @@
     <item quantity="other">%d جهة اتصال تستخدم Signal !</item>
   </plurals>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">جهة الاتصال هذه تستخدم إصدار قديم من Signal. اطلب منه تحديث التطبيق قبل التحقق من رقم السلامة.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">جهة الاتصال هذه تستخدم إصدار قديم من Signal. اطلب منه تحديث التطبيق قبل التحقق من رقم الأمان.</string>
   <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">جهة الاتصال هذه تستخدم نسخة أحدث من تطبيق Signal وصيغة رمز الاستجابة السريع أو QR فيها لا تتوافق مع نسختك. يرجى تحديث النسخة للمقارنة.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">إن رمز الاستجابة السّريع الذي تمّ مسحه ليس برمز تحقق لرقم سلامة مُصاغ بشكل صحيح. يُرجى محاولة المسح من جديد.</string>
-  <string name="VerifyIdentityActivity_share_safety_number_via">شارك رقم السلامة بواسطة…</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">رقم السلامة الخاص بنا في Signal:</string>
+  <string name="VerifyIdentityActivity_share_safety_number_via">شارك رقم الأمان بواسطة…</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">رقم الأمان الخاص بنا في Signal:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">يبدو عدم وجود أي تطبيقات لديك للمشاركة من خلالها.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">لم يُعثر على رقم سلامة يمكن مقارنته في الحافظة</string>
   <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">يحتاج Signal إلى إذن الكاميرا من أجل مسح رمز الاستجابة السريع QR ولكن تم إيقاف الإذن على نحو دائم، الرجاء زيارة إعدادات التطبيق واختيار \"الأذونات\"، ثم تفعيل \"الكاميرا\".</string>
@@ -1698,16 +1716,17 @@
   <string name="MessageNotifier_this_message_was_deleted">تم حذف هذه الرسالة.</string>
   <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">تعطيل إشعارات انضمام شخص إلى Signal ؟ تمكنك تفعيلها مجددا في Signal &gt; الإعدادات &gt; الإشعارات.</string>
   <!--Notification Channels-->
-  <string name="NotificationChannel_messages">افتراضي</string>
+  <string name="NotificationChannel_channel_messages">الرسائل</string>
   <string name="NotificationChannel_calls">المُكالمات</string>
   <string name="NotificationChannel_failures">الأخطاء</string>
   <string name="NotificationChannel_backups">النُسخ الإحتياطية</string>
   <string name="NotificationChannel_locked_status">حالة القفل</string>
   <string name="NotificationChannel_app_updates">تحديثات التطبيق</string>
   <string name="NotificationChannel_other">أخرى</string>
-  <string name="NotificationChannel_group_messages">الرسائل</string>
+  <string name="NotificationChannel_group_chats">المُحادثات</string>
   <string name="NotificationChannel_missing_display_name">مجهول</string>
   <string name="NotificationChannel_voice_notes">الملاحظات الصوتية</string>
+  <string name="NotificationChannel_contact_joined_signal">انضمّت جهة الاتصال إلى Signal</string>
   <!--ProfileEditNameFragment-->
   <!--QuickResponseService-->
   <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">الردود السريعة غير متاحة عند قفل Signal!</string>
@@ -1860,9 +1879,11 @@
   <string name="safety_number_change_dialog__join_call">الانضمام للمكالمة</string>
   <string name="safety_number_change_dialog__continue_call">استئناف المكالمة</string>
   <string name="safety_number_change_dialog__leave_call">مغادرة المكالمة</string>
-  <string name="safety_number_change_dialog__the_following_people_may_have_reinstalled_or_changed_devices">هؤلاء الأشخاص قاموا بإعادة تثبيت أو قاموا بتغيبر أجهزتهم. يرجى تأكيد رقم الأمان معهم لضمان الخصوصية.</string>
+  <string name="safety_number_change_dialog__the_following_people_may_have_reinstalled_or_changed_devices">ربما قام هؤلاء الأشخاص بإعادة تثبيت التطبيق أو قاموا بتغيير أجهزتهم. يُرجى تأكيد رقم الأمان معهم لضمان الخصوصية.</string>
   <string name="safety_number_change_dialog__view">إظهار</string>
   <string name="safety_number_change_dialog__previous_verified">سبق التحقق منه</string>
+  <!--EnableCallNotificationSettingsDialog__call_notifications_checklist-->
+  <string name="EnableCallNotificationSettingsDialog__settings">الإعدادات</string>
   <!--country_selection_fragment-->
   <string name="country_selection_fragment__loading_countries">تحميل البلدان جارٍ …</string>
   <string name="country_selection_fragment__search">بحث</string>
@@ -1923,13 +1944,13 @@
   <string name="expiration_weeks_abbreviated">%d أسبوع</string>
   <string name="expiration_combined">‏%1$s‏%2$s‏</string>
   <!--unverified safety numbers-->
-  <string name="IdentityUtil_unverified_banner_one">رقم السلامة مع %s قد تغيير ولم يعد التحقّق السابق منه وافٍ.</string>
+  <string name="IdentityUtil_unverified_banner_one">رقم اﻷمان مع %s قد تغير ولم يعد التحقُّق السابق منه وافٍ.</string>
   <string name="IdentityUtil_unverified_banner_two">التحقق من أرقام السلامة مع كل من %1$s و%2$s لم يعد واف بعد الآن.</string>
   <string name="IdentityUtil_unverified_banner_many">أرقام السلامة مع كل من %1$s، %2$s، و%3$s قد تغيّيرت، والتحقّق غير وافٍ بعد الآن.</string>
-  <string name="IdentityUtil_unverified_dialog_one">لقد تغيير رقم السلامة مع %1$s والتحقّق السابق غير وافٍ، قد يعني هذا  إما محاولة أحد ما لاعتراض المحادثة أو ببساطة قيام %1$s بإعادة تثبيت Signal.</string>
-  <string name="IdentityUtil_unverified_dialog_two">لقد تغيير رقم السلامة مع كل من %1$s و%2$s، والتحقّق السابق غير وافٍ، وهذا يعني إما محاولة أحداً اعتراض المحادثة أو ببساطة قيامهم بإعادة تثبيت Signal.</string>
+  <string name="IdentityUtil_unverified_dialog_one">لقد تغير رقم اﻷمان مع %1$s والتحقُّق السابق غير وافٍ، قد يعني هذا  إما محاولة أحد ما اعتراض المحادثة أو ببساطة قيام %1$s بإعادة تثبيت Signal.</string>
+  <string name="IdentityUtil_unverified_dialog_two">لقد تغير رقم اﻷمان مع كل من %1$s و%2$s، والتحقُّق السابق غير وافٍ، وهذا يعني إما محاولة أحدٍ اعتراض المحادثة أو ببساطة قيامهما بإعادة تثبيت Signal.</string>
   <string name="IdentityUtil_unverified_dialog_many">تم تغيير أرقام السلامة مع %1$s، %2$s، و%3$s، والتحقّق السابق غير وافٍ، وهذا يعني إما محاولة أحداً لاعتراض المحادثة أو ببساطة قيامهم بإعادة تثبيت Signal.</string>
-  <string name="IdentityUtil_untrusted_dialog_one">لقد تغير رقم السلامة بينك وبين %s للتو.</string>
+  <string name="IdentityUtil_untrusted_dialog_one">لقد تغير رقم اﻷمان بينك وبين %s للتو.</string>
   <string name="IdentityUtil_untrusted_dialog_two">لقد تغيرت أرقام السلامة للتو مع كل من%1$s و%2$s.</string>
   <string name="IdentityUtil_untrusted_dialog_many">لقد تغيرت أرقام السلامة مع كل من %1$s و %2$s و %3$s للتو.</string>
   <plurals name="identity_others">
@@ -1986,7 +2007,7 @@
   <!--EditAboutFragment-->
   <string name="EditAboutFragment_about">حول</string>
   <string name="EditAboutFragment_write_a_few_words_about_yourself">اكتب عدة كلمات عن نفسك….</string>
-  <string name="EditAboutFragment_count">%d/%d</string>
+  <string name="EditAboutFragment_count">%1$d/%2$d</string>
   <string name="EditAboutFragment_speak_freely">ما عليك إلا التحدث بكل حرية</string>
   <string name="EditAboutFragment_encrypted">مُعمَّى</string>
   <string name="EditAboutFragment_be_kind">كن لطيفا</string>
@@ -2013,7 +2034,7 @@
   <string name="verify_display_fragment__loading">قيد التحميل…</string>
   <string name="verify_display_fragment__verified"> تمّ التحقق </string>
   <!--verify_identity-->
-  <string name="verify_identity__share_safety_number">شارك رقم السلامة</string>
+  <string name="verify_identity__share_safety_number">شارك رقم اﻷمان</string>
   <!--webrtc_answer_decline_button-->
   <string name="webrtc_answer_decline_button__swipe_up_to_answer">إسحب للأعلى للإجابة</string>
   <string name="webrtc_answer_decline_button__swipe_down_to_reject">إسحب للأسفل لرفض المكالمة</string>
@@ -2037,7 +2058,7 @@
   <string name="AndroidManifest__create_passphrase">إنشاء عبارة سرية</string>
   <string name="AndroidManifest__select_contacts">اخر جهات الاتصال</string>
   <string name="AndroidManifest__change_passphrase">غير العبارة السرية</string>
-  <string name="AndroidManifest__verify_safety_number">تحقق من رقم السلامة</string>
+  <string name="AndroidManifest__verify_safety_number">تحقق من رقم اﻷمان</string>
   <string name="AndroidManifest__log_submit">إرسال سِجل التصحيح</string>
   <string name="AndroidManifest__media_preview">معاينة الوسائط</string>
   <string name="AndroidManifest__message_details">تفاصيل الرسالة</string>
@@ -2057,6 +2078,7 @@
   <string name="HelpFragment__include_debug_log">أرفق سِجل التصحيح.</string>
   <string name="HelpFragment__whats_this">ما هذا ؟</string>
   <string name="HelpFragment__how_do_you_feel">ما هو شعورك ؟ (اختياري)</string>
+  <string name="HelpFragment__tell_us_why_youre_reaching_out">يُرجى إخبارنا عن سبب تواصلك.</string>
   <string name="HelpFragment__support_info">معلومات الدعم</string>
   <string name="HelpFragment__signal_android_support_request">طلب الدعم حول Signal Android</string>
   <string name="HelpFragment__debug_log">سِجل التصحيح :</string>
@@ -2078,10 +2100,9 @@
   <string name="arrays__use_default">استخدم الافتراضي</string>
   <string name="arrays__use_custom">تخصيص</string>
   <string name="arrays__mute_for_one_hour">كتم لمدة ساعة</string>
-  <string name="arrays__mute_for_two_hours">كتم لمدة ساعتين</string>
   <string name="arrays__mute_for_one_day">كتم لمدة يوم</string>
   <string name="arrays__mute_for_seven_days">كتم لمدة سبعة أيام</string>
-  <string name="arrays__mute_for_one_year">كتم لمدة عام واحد</string>
+  <string name="arrays__always">دائمًا</string>
   <string name="arrays__settings_default">الإعدادات الافتراضية</string>
   <string name="arrays__enabled">مفعل</string>
   <string name="arrays__disabled">معطل</string>
@@ -2137,6 +2158,7 @@
   <string name="preferences__pref_led_blink_title">نمط وميض LED</string>
   <string name="preferences__sound">صوت</string>
   <string name="preferences__silent">صامت</string>
+  <string name="preferences__default">افتراضي</string>
   <string name="preferences__repeat_alerts">تكرار التنبيهات</string>
   <string name="preferences__never">أبدا</string>
   <string name="preferences__one_time">مرة واحدة</string>
@@ -2171,6 +2193,8 @@
   <string name="preferences__request_a_delivery_report_for_each_sms_message_you_send">طلب تقرير تسليم لكل رسالة SMS ترسلها</string>
   <string name="preferences__data_and_storage">البيانات والتخزين</string>
   <string name="preferences__storage">التخزين</string>
+  <string name="preferences__payments">المدفوعات</string>
+  <string name="preferences__payments_beta">المدفوعات (تجريبي)</string>
   <string name="preferences__conversation_length_limit">حد طول المحادثة</string>
   <string name="preferences__keep_messages">احتفظ بالرسائل</string>
   <string name="preferences__clear_message_history">محو محفوظات الرسائل</string>
@@ -2259,8 +2283,69 @@
   <string name="preferences_communication__sealed_sender_allow_from_anyone_description">تفعيل استقبال الرّسائل من جهة غير معروفة أي ليست من ضمن جهات اتصالك أو لم تشاركها ملفّك الشخصي.</string>
   <string name="preferences_communication__sealed_sender_learn_more">لمعرفة المزيد</string>
   <string name="preferences_setup_a_username">إعداد اسم المستخدم</string>
+  <string name="preferences_proxy">الوكيل</string>
+  <string name="preferences_use_proxy">استخدم الوكيل</string>
+  <string name="preferences_off">غير مُشغَّل</string>
+  <string name="preferences_on">مُشغَّل</string>
+  <string name="preferences_proxy_address">عنوان الوكيل</string>
+  <string name="preferences_only_use_a_proxy_if">عليك باستخدام وكيل فقط إذا تعذر عليك الاتصال بـ Signal (عبر البيانات الخلوية أو عبر Wi-Fi).</string>
+  <string name="preferences_share">المشاركة</string>
+  <string name="preferences_save">حفظ</string>
+  <string name="preferences_connecting_to_proxy">يجري الاتصال بالوكيل…</string>
+  <string name="preferences_connected_to_proxy">متصل بالوكيل</string>
+  <string name="preferences_connection_failed">فشِل الاتصال</string>
+  <string name="preferences_couldnt_connect_to_the_proxy">تعذر الاتصال بالوكيل. عليك بالتحقق من عنوانه ثم إعادة المحاولة مرة أخرى.</string>
+  <string name="preferences_you_are_connected_to_the_proxy">إنك متصل بالوكيل. يمكنك تعطيله في أي وقت، انطلاقا من اﻹعدادات.</string>
+  <string name="preferences_success">نجحت</string>
+  <string name="preferences_failed_to_connect">فشِل الاتصال</string>
+  <string name="preferences_enter_proxy_address">عليك بإدخال عنوان الوكيل</string>
   <string name="configurable_single_select__customize_option">تخصيص الخيارات</string>
   <!--Internal only preferences-->
+  <!--Payments-->
+  <string name="PaymentsAllActivityFragment__all">الجميع</string>
+  <string name="PaymentsAllActivityFragment__sent">تمّ الارسال</string>
+  <string name="PaymentsAllActivityFragment__received">تمَّ الاستلام</string>
+  <string name="PaymentsHomeFragment__see_all">مشاهدة الكل</string>
+  <string name="PaymentsHomeFragment__send">إرسال</string>
+  <string name="PaymentsHomeFragment__help">المُساعدة</string>
+  <string name="PaymentsHomeFragment__deactivate_payments_question">تعطيل المدفوعات؟</string>
+  <string name="PaymentsHomeFragment__deactivate">تعطيل</string>
+  <string name="PaymentsHomeFragment__continue">الاِستِمرار</string>
+  <string name="PaymentsHomeFragment__details">التفاصيل</string>
+  <string name="PaymentsHomeFragment__activate">تفعيل</string>
+  <!--PaymentsAddMoneyFragment-->
+  <string name="PaymentsAddMoneyFragment__your_wallet_address">عنوان محفظتك</string>
+  <string name="PaymentsAddMoneyFragment__copy">نسخ</string>
+  <string name="PaymentsAddMoneyFragment__copied_to_clipboard">تم النسخ إلى الحافظة</string>
+  <!--PaymentsDetailsFragment-->
+  <string name="PaymentsDetailsFragment__details">التفاصيل</string>
+  <string name="PaymentsDetailsFragment__status">الحالة</string>
+  <string name="PaymentsDetailsFragment__to">إلى</string>
+  <string name="PaymentsDetailsFragment__from">مِن</string>
+  <!--PaymentsTransferFragment-->
+  <string name="PaymentsTransferFragment__scan_qr_code">مَسح رَمز الاِستِجابَة السَّريعَة</string>
+  <string name="PaymentsTransferFragment__next">التالي</string>
+  <string name="PaymentsTransferFragment__settings">الإعدادات</string>
+  <!--PaymentsTransferQrScanFragment-->
+  <!--CreatePaymentFragment-->
+  <string name="CreatePaymentFragment__request">الطلب</string>
+  <string name="CreatePaymentFragment__pay">دَفع</string>
+  <string name="CreatePaymentFragment__1">1</string>
+  <string name="CreatePaymentFragment__2">2</string>
+  <string name="CreatePaymentFragment__3">3</string>
+  <string name="CreatePaymentFragment__4">4</string>
+  <string name="CreatePaymentFragment__5">5</string>
+  <string name="CreatePaymentFragment__6">6</string>
+  <string name="CreatePaymentFragment__7">7</string>
+  <string name="CreatePaymentFragment__8">8</string>
+  <string name="CreatePaymentFragment__9">9</string>
+  <string name="CreatePaymentFragment__0">0</string>
+  <!--EditNoteFragment-->
+  <string name="EditNoteFragment_note">مُلاحظة</string>
+  <!--ConfirmPaymentFragment-->
+  <string name="ConfirmPayment__to">إلى</string>
+  <!--CurrencyAmountFormatter_s_at_s-->
+  <!--SetCurrencyFragment-->
   <!--****************************************-->
   <!--menus-->
   <!--****************************************-->
@@ -2449,6 +2534,8 @@
   <string name="RegistrationLockFragment__incorrect_pin">الرقم التعريفي الشخصي غير صحيح</string>
   <string name="RegistrationLockFragment__forgot_your_pin">هل نسيت الرقم التعريفي الشخصي؟</string>
   <string name="RegistrationLockFragment__not_many_tries_left">لم يتبق الكثير من المحاولات!</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">تسجيل Signal - تحتاج مساعدة بالرقم التعريفي الشخصي في أندرويد (النسخة الأولى للرقم التعريفي الشخصي)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">تسجيل Signal - تحتاج مساعدة بالرقم التعريفي الشخصي في أندرويد (النسخة الثانية للرقم التعريفي الشخصي)</string>
   <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
     <item quantity="zero">لخصوصيتك ولأمانك، لا توجد طريقة لاسترجاع رقمك التعريفي الشخصي. إن لم تستطع تذكره، يمكنك إعادة التسجيل باستخدام رسالة قصيرة بعد %1$d أيام من عدم الاستخدام. في هذه الحالة، سيتم حذف حسابك وجميع المحتوى الخاص بك. </item>
     <item quantity="one">لخصوصيتك ولأمانك، لا توجد طريقة لاسترجاع رقمك التعريفي الشخصي. إن لم تستطع تذكره، يمكنك إعادة التسجيل باستخدام رسالة قصيرة بعد %1$d يوم من عدم الاستخدام. في هذه الحالة، سيتم حذف حسابك وجميع المحتوى الخاص بك. </item>
@@ -2523,9 +2610,13 @@
   <string name="backup_enable_dialog__folder">المجلد</string>
   <string name="backup_enable_dialog__i_have_written_down_this_passphrase">قمت بتدوين هذه العبارة السرية. بدونها، لن يمكنني استعادة أي نسخة احتياطية.</string>
   <string name="registration_activity__restore_backup">استعادة نسخة احتياطية</string>
+  <string name="registration_activity__transfer_or_restore_account">نقل أو استعادة الحساب</string>
+  <string name="registration_activity__transfer_account">نقل الحساب</string>
   <string name="registration_activity__skip">تخطّي</string>
   <string name="preferences_chats__chat_backups">النسخ الاحتياطية للمحادثات</string>
   <string name="preferences_chats__backup_chats_to_external_storage">حفظ نسخة احتياطية من المحادثات في سعة التخزين خارجية</string>
+  <string name="preferences_chats__transfer_account">نقل الحساب</string>
+  <string name="preferences_chats__transfer_account_to_a_new_android_device">نقل الحساب نحو جهاز أندرويد جديد</string>
   <string name="RegistrationActivity_enter_backup_passphrase">ادخل العبارة السرية الخاصة بالنسخ الاحتياطية</string>
   <string name="RegistrationActivity_restore">استعادة</string>
   <string name="RegistrationActivity_backup_failure_downgrade">لا يمكن استيراد نسخ احتياطية من اصدارات أحدث من Signal</string>
@@ -2599,6 +2690,40 @@
   <string name="prompt_passphrase_activity__signal_is_locked">Signal مُقفَل</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">أنقُر لفك القُفل</string>
   <string name="Recipient_unknown">مجهول</string>
+  <!--TransferOrRestoreFragment-->
+  <string name="TransferOrRestoreFragment__transfer_or_restore_account">نقل أو استعادة الحساب</string>
+  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">إذا سبق لك التسجيل بحساب Signal، يمكنك نقل أو استعادة حسابك وكذا رسائلك.</string>
+  <string name="TransferOrRestoreFragment__transfer_from_android_device">نقل انطلاقا من جهاز أندرويد</string>
+  <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">يمكنك نقل حسابك ورسائلك من جهاز أندرويد القديم. إنك بحاجة إلى الوصول إلى جهازك القديم.</string>
+  <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">يلزمك الوصول إلى جهازك القديم.</string>
+  <string name="TransferOrRestoreFragment__restore_from_backup">الاستعادة مِن نسخة احتياطية</string>
+  <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup"> استعادة رسائلك من نسخة احتياطية محلية. إذا تجاهلت الاستعادة الآن، فسيتعذر عليك الاستعادة لاحقا.</string>
+  <!--NewDeviceTransferInstructionsFragment-->
+  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">عليك بفتح Signal في هاتف أندرويد القديم</string>
+  <string name="NewDeviceTransferInstructions__continue">الاِستِمرار</string>
+  <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
+  <!--NewDeviceTransferSetupFragment-->
+  <!--OldDeviceTransferSetupFragment-->
+  <!--DeviceTransferSetupFragment-->
+  <string name="DeviceTransferSetup__retry">إعادة المُحاولة</string>
+  <string name="DeviceTransferSetup__continue">الاِستِمرار</string>
+  <string name="DeviceTransferSetup__wifi">الـWi-Fi</string>
+  <string name="DeviceTransferSetup__try_again">حاول مجدداً</string>
+  <!--NewDeviceTransferFragment-->
+  <!--DeviceTransferFragment-->
+  <string name="DeviceTransfer__cancel">إلغاء</string>
+  <string name="DeviceTransfer__try_again">حاول مجدداً</string>
+  <!--OldDeviceTransferInstructionsFragment-->
+  <string name="OldDeviceTransferInstructions__transfer_account">نقل الحساب</string>
+  <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
+  <string name="OldDeviceTransferInstructions__continue">الاِستِمرار</string>
+  <!--OldDeviceTransferComplete-->
+  <string name="OldDeviceTransferComplete__close">إغلاق</string>
+  <!--NewDeviceTransferComplete-->
+  <!--DeviceToDeviceTransferService-->
+  <!--OldDeviceTransferLockedDialog-->
+  <string name="OldDeviceTransferLockedDialog__done">تمّ</string>
+  <!--AdvancedPreferenceFragment-->
   <!--RecipientBottomSheet-->
   <string name="RecipientBottomSheet_block">حظر</string>
   <string name="RecipientBottomSheet_unblock">رفع الحظر</string>
@@ -2629,6 +2754,8 @@
   <string name="GroupsLearnMore_paragraph_2">المجموعات من الطراز القديم لا يمكن ترقيتها إلى مجموعة جديدة، ولكن يمكنك إنشاء مجموعة جديدة بنفس الأعضاء ولكن من الطراز الجديد، بشرط استخدام الجميع آخر إصدار لـ Signal.</string>
   <string name="GroupsLearnMore_paragraph_3">سيوفر Signal طريقة لترقية المجموعات من الطراز القديم  مستقبلا.</string>
   <!--GroupLinkBottomSheetDialogFragment-->
+  <string name="GroupLinkBottomSheet_share_hint_requiring_approval">يمكن لكل من لديه هذه الوصلة أن يعرض اسم المجموعة وصورتها وكذا طلب الانضمام إليها. يكفيك مشاركتها مع من لديك فيهم الثقة.</string>
+  <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">يمكن لأي شخص لديه هذه الوصلة أن يعرض اسم المجموعة وصورتها وكذا طلب الانضمام إليها. يكفيك مشاركتها مع من لديك فيهم الثقة.</string>
   <string name="GroupLinkBottomSheet_share_via_signal">المشاركة عبر Signal</string>
   <string name="GroupLinkBottomSheet_copy">نسخ</string>
   <string name="GroupLinkBottomSheet_qr_code">الرمز المربع</string>
@@ -2735,10 +2862,10 @@
   <string name="ChatWallpaperFragment__wallpaper_preview_description">معاينة الخلفية</string>
   <!--ChatWallpaperSelectionFragment-->
   <string name="ChatWallpaperSelectionFragment__choose_from_photos">الاختيار من الصور</string>
-  <string name="ChatWallpaperSelectionFragment__presets">الإعدادات المسبقة</string>
+  <string name="ChatWallpaperSelectionFragment__presets">الإعدادات الأولية</string>
   <!--ChatWallpaperPreviewActivity-->
   <string name="ChatWallpaperPreviewActivity__preview">مُعاينة</string>
-  <string name="ChatWallpaperPreviewActivity__set_wallpaper">ضبط الخلفية</string>
+  <string name="ChatWallpaperPreviewActivity__set_wallpaper">تعيين خلفية</string>
   <string name="ChatWallpaperPreviewActivity__swipe_to_preview_more_wallpapers">يُرجى السحب لمعاينة بقية الخلفيات</string>
   <string name="ChatWallpaperPreviewActivity__set_wallpaper_for_all_chats">ضبط الخلفية لجميع المحادثات</string>
   <string name="ChatWallpaperPreviewActivity__set_wallpaper_for_s">ضبط الخلفية لـ %1$s</string>
@@ -2751,5 +2878,31 @@
   <string name="WallpaperCropActivity__set_wallpaper_for_s">ضبط الخلفية لـ %s.‏</string>
   <string name="WallpaperCropActivity__error_setting_wallpaper">حدث خطأ خلال ضبط الخلفية.</string>
   <string name="WallpaperCropActivity__blur_photo">تضبيب الصورة</string>
+  <!--InfoCard-->
+  <string name="payment_info_card_about_mobilecoin">حَول MobileCoin</string>
+  <string name="payment_info_card_hide">إخفاء</string>
+  <string name="payment_info_card_update_your_pin">حدِّث الـPIN الخاص بك</string>
+  <string name="payment_info_card_update_pin">تحديث الرقم التعريفي الشخصي</string>
+  <!--DeactivateWalletFragment-->
+  <string name="DeactivateWalletFragment__deactivate">تعطيل</string>
+  <!--PaymentsRecoveryStartFragment-->
+  <string name="PaymentsRecoveryStartFragment__start">البدأ</string>
+  <!--PaymentsRecoveryPasteFragment-->
+  <string name="PaymentsRecoveryPasteFragment__next">التالي</string>
+  <!--PaymentsRecoveryPhraseFragment-->
+  <string name="PaymentsRecoveryPhraseFragment__next">التالي</string>
+  <string name="PaymentsRecoveryPhraseFragment__edit">تحرير</string>
+  <string name="PaymentsRecoveryPhraseFragment__previous">السابق</string>
+  <string name="PaymentsRecoveryPhraseFragment__copy">نسخ</string>
+  <!--PaymentsRecoveryPhraseConfirmFragment-->
+  <string name="PaymentRecoveryPhraseConfirmFragment__done">تمّ</string>
+  <!--PaymentsRecoveryEntryFragment-->
+  <string name="PaymentsRecoveryEntryFragment__next">التالي</string>
+  <!--ClearClipboardAlarmReceiver-->
+  <!--PaymentNotificationsView-->
+  <string name="PaymentNotificationsView__view">إظهار</string>
+  <!--UnreadPayments-->
+  <!--CanNotSendPaymentDialog-->
+  <string name="CanNotSendPaymentDialog__send_a_message">إرسال رسالة</string>
   <!--EOF-->
 </resources>

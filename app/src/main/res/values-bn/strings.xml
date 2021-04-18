@@ -811,7 +811,7 @@
   <string name="RatingManager_rate_now">এখন রেটিং দিন!</string>
   <string name="RatingManager_no_thanks">না ধন্যবাদ</string>
   <string name="RatingManager_later">পরবর্তীতে</string>
-  <string name="RatingManager_whoops_the_play_store_app_does_not_appear_to_be_installed">ওহো, প্লে স্টোর অ্যাপ আপনার ডিভাইস এ ইনস্টল করা আছে বলে মনে হচ্ছে না।</string>
+  <!-- Removed by excludeNonTranslatables <string name="RatingManager_whoops_the_play_store_app_does_not_appear_to_be_installed">ওহো, প্লে স্টোর অ্যাপ আপনার ডিভাইস এ ইনস্টল করা আছে বলে মনে হচ্ছে না।</string> -->
   <!--ReactionsBottomSheetDialogFragment-->
   <string name="ReactionsBottomSheetDialogFragment_all">সবগুলো। %1$d</string>
   <!--ReactionsConversationView-->
@@ -1095,14 +1095,14 @@
   <string name="MessageNotifier_reacted_s_to_your_sticker">আপনার স্টিকারে %1$s প্রতিক্রিয়া জানিয়েছে|</string>
   <string name="MessageNotifier_this_message_was_deleted">এই বার্তাটি মুছে ফেলা হয়েছে।</string>
   <!--Notification Channels-->
-  <string name="NotificationChannel_messages">সচারচর</string>
+  <!-- Removed by excludeNonTranslatables <string name="NotificationChannel_messages">সচারচর</string> -->
   <string name="NotificationChannel_calls">কল সমূহ</string>
   <string name="NotificationChannel_failures">ব্যর্থতাসমূহ</string>
   <string name="NotificationChannel_backups">ব্যাকআপ সমূহ</string>
   <string name="NotificationChannel_locked_status">লক্ অবস্থা</string>
   <string name="NotificationChannel_app_updates">অ্যাপ আপডেট সমূহ</string>
   <string name="NotificationChannel_other">অন্যান্য</string>
-  <string name="NotificationChannel_group_messages">বার্তা সমূহ</string>
+  <!-- Removed by excludeNonTranslatables <string name="NotificationChannel_group_messages">বার্তা সমূহ</string> -->
   <string name="NotificationChannel_missing_display_name">অজানা</string>
   <!--ProfileEditNameFragment-->
   <!-- Removed by excludeNonTranslatables <string name="ProfileEditNameFragment_successfully_set_profile_name">সফলভাবে প্রোফাইল নাম সেট করা হয়েছে।</string> -->
@@ -1458,10 +1458,10 @@
   <string name="arrays__use_default">ডিফল্ট ব্যবহার করুন</string>
   <string name="arrays__use_custom">কাস্টম ব্যবহার করুন</string>
   <string name="arrays__mute_for_one_hour">1 ঘন্টা নিঃশব্দ করুন</string>
-  <string name="arrays__mute_for_two_hours">2 ঘন্টা নিঃশব্দ করুন</string>
+  <!-- Removed by excludeNonTranslatables <string name="arrays__mute_for_two_hours">2 ঘন্টা নিঃশব্দ করুন</string> -->
   <string name="arrays__mute_for_one_day">1 দিনের জন্য নিঃশব্দ করুন</string>
   <string name="arrays__mute_for_seven_days">7 দিনের জন্য নিঃশব্দ করুন</string>
-  <string name="arrays__mute_for_one_year">1 বছরের জন্য নিঃশব্দ করুন</string>
+  <!-- Removed by excludeNonTranslatables <string name="arrays__mute_for_one_year">1 বছরের জন্য নিঃশব্দ করুন</string> -->
   <string name="arrays__settings_default">সেটিংস ডিফল্ট</string>
   <string name="arrays__enabled">সক্রিয়</string>
   <string name="arrays__disabled">নিষ্ক্রিয়</string>

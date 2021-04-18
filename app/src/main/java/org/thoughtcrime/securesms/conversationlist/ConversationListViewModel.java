@@ -9,23 +9,29 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
+import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
 import org.signal.paging.PagedData;
 import org.signal.paging.PagingConfig;
 import org.signal.paging.PagingController;
 import org.thoughtcrime.securesms.conversationlist.model.Conversation;
 import org.thoughtcrime.securesms.conversationlist.model.SearchResult;
+import org.thoughtcrime.securesms.conversationlist.model.UnreadPayments;
+import org.thoughtcrime.securesms.conversationlist.model.UnreadPaymentsLiveData;
 import org.thoughtcrime.securesms.database.DatabaseFactory;
 import org.thoughtcrime.securesms.database.DatabaseObserver;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.megaphone.Megaphone;
 import org.thoughtcrime.securesms.megaphone.MegaphoneRepository;
 import org.thoughtcrime.securesms.megaphone.Megaphones;
+import org.thoughtcrime.securesms.net.PipeConnectivityListener;
+import org.thoughtcrime.securesms.payments.UnreadPaymentsRepository;
 import org.thoughtcrime.securesms.search.SearchRepository;
 import org.thoughtcrime.securesms.util.Debouncer;
-import org.thoughtcrime.securesms.util.Util;
+import org.thoughtcrime.securesms.util.ThrottledDebouncer;
 import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
 import org.thoughtcrime.securesms.util.paging.Invalidator;
+import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.List;
 
@@ -35,36 +41,44 @@ class ConversationListViewModel extends ViewModel {
 
   private static boolean coldStart = true;
 
-  private final MutableLiveData<Megaphone>     megaphone;
-  private final MutableLiveData<SearchResult>  searchResult;
-  private final PagedData<Conversation>        pagedData;
-  private final LiveData<Boolean>              hasNoConversations;
-  private final SearchRepository               searchRepository;
-  private final MegaphoneRepository            megaphoneRepository;
-  private final Debouncer                      debouncer;
-  private final DatabaseObserver.Observer      observer;
-  private final Invalidator                    invalidator;
+  private final MutableLiveData<Megaphone>    megaphone;
+  private final MutableLiveData<SearchResult> searchResult;
+  private final PagedData<Conversation>       pagedData;
+  private final LiveData<Boolean>             hasNoConversations;
+  private final SearchRepository              searchRepository;
+  private final MegaphoneRepository           megaphoneRepository;
+  private final Debouncer                     searchDebouncer;
+  private final ThrottledDebouncer            updateDebouncer;
+  private final DatabaseObserver.Observer     observer;
+  private final Invalidator                   invalidator;
+  private final UnreadPaymentsLiveData        unreadPaymentsLiveData;
+  private final UnreadPaymentsRepository      unreadPaymentsRepository;
 
   private String lastQuery;
   private int    pinnedCount;
 
   private ConversationListViewModel(@NonNull Application application, @NonNull SearchRepository searchRepository, boolean isArchived) {
-    this.megaphone           = new MutableLiveData<>();
-    this.searchResult        = new MutableLiveData<>();
-    this.searchRepository    = searchRepository;
-    this.megaphoneRepository = ApplicationDependencies.getMegaphoneRepository();
-    this.debouncer           = new Debouncer(300);
-    this.invalidator         = new Invalidator();
-    this.pagedData           = PagedData.create(ConversationListDataSource.create(application, isArchived),
-                                                new PagingConfig.Builder()
-                                                                .setPageSize(15)
-                                                                .setBufferPages(2)
-                                                                .build());
-    this.observer            = () -> {
-      if (!TextUtils.isEmpty(getLastQuery())) {
-        searchRepository.query(getLastQuery(), searchResult::postValue);
-      }
-      pagedData.getController().onDataInvalidated();
+    this.megaphone                = new MutableLiveData<>();
+    this.searchResult             = new MutableLiveData<>();
+    this.searchRepository         = searchRepository;
+    this.megaphoneRepository      = ApplicationDependencies.getMegaphoneRepository();
+    this.unreadPaymentsRepository = new UnreadPaymentsRepository();
+    this.searchDebouncer          = new Debouncer(300);
+    this.updateDebouncer          = new ThrottledDebouncer(500);
+    this.invalidator              = new Invalidator();
+    this.pagedData                = PagedData.create(ConversationListDataSource.create(application, isArchived),
+                                                     new PagingConfig.Builder()
+                                                         .setPageSize(15)
+                                                         .setBufferPages(2)
+                                                         .build());
+    this.unreadPaymentsLiveData   = new UnreadPaymentsLiveData();
+    this.observer                 = () -> {
+      updateDebouncer.publish(() -> {
+        if (!TextUtils.isEmpty(getLastQuery())) {
+          searchRepository.query(getLastQuery(), searchResult::postValue);
+        }
+        pagedData.getController().onDataInvalidated();
+      });
     };
 
     this.hasNoConversations = LiveDataUtil.mapAsync(pagedData.getData(), conversations -> {
@@ -100,6 +114,14 @@ class ConversationListViewModel extends ViewModel {
     return pagedData.getController();
   }
 
+  @NonNull LiveData<PipeConnectivityListener.State> getPipeState() {
+    return ApplicationDependencies.getPipeListener().getState();
+  }
+
+  @NonNull LiveData<Optional<UnreadPayments>> getUnreadPaymentsLiveData() {
+    return unreadPaymentsLiveData;
+  }
+
   public int getPinnedCount() {
     return pinnedCount;
   }
@@ -128,10 +150,14 @@ class ConversationListViewModel extends ViewModel {
     megaphoneRepository.markVisible(visible.getEvent());
   }
 
+  void onUnreadPaymentsClosed() {
+    unreadPaymentsRepository.markAllPaymentsSeen();
+  }
+
   void updateQuery(String query) {
     lastQuery = query;
-    debouncer.publish(() -> searchRepository.query(query, result -> {
-      Util.runOnMain(() -> {
+    searchDebouncer.publish(() -> searchRepository.query(query, result -> {
+      ThreadUtil.runOnMain(() -> {
         if (query.equals(lastQuery)) {
           searchResult.setValue(result);
         }
@@ -146,7 +172,8 @@ class ConversationListViewModel extends ViewModel {
   @Override
   protected void onCleared() {
     invalidator.invalidate();
-    debouncer.clear();
+    searchDebouncer.clear();
+    updateDebouncer.clear();
     ApplicationDependencies.getDatabaseObserver().unregisterObserver(observer);
   }
 
@@ -159,7 +186,7 @@ class ConversationListViewModel extends ViewModel {
     }
 
     @Override
-    public @NonNull<T extends ViewModel> T create(@NonNull Class<T> modelClass) {
+    public @NonNull <T extends ViewModel> T create(@NonNull Class<T> modelClass) {
       //noinspection ConstantConditions
       return modelClass.cast(new ConversationListViewModel(ApplicationDependencies.getApplication(), new SearchRepository(), isArchived));
     }
