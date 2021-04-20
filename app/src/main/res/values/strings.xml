@@ -2,10 +2,10 @@
 <resources>
     <string name="app_name" translatable="false">Signal</string>
 
-    <string name="install_url" translatable="false">https://signal.org/install</string>
-    <string name="donate_url" translatable="false">https://signal.org/donate</string>
-    <string name="backup_support_url" translatable="false">https://support.signal.org/hc/articles/360007059752</string>
-    <string name="transfer_support_url" translatable="false">https://support.signal.org/hc/articles/360007059752</string>
+    <string name="install_url" translatable="false">https://Grapherex.org/install</string>
+    <string name="donate_url" translatable="false">https://Grapherex.org/donate</string>
+    <string name="backup_support_url" translatable="false">https://support.Grapherex.org/hc/articles/360007059752</string>
+    <string name="transfer_support_url" translatable="false">https://support.Grapherex.org/hc/articles/360007059752</string>
 
     <string name="yes">Yes</string>
     <string name="no">No</string>
@@ -21,23 +21,23 @@
     <string name="AlbumThumbnailView_plus" translatable="false">\+%d</string>
 
     <!-- ApplicationMigrationActivity -->
-    <string name="ApplicationMigrationActivity__signal_is_updating">Signal is updating…</string>
+    <string name="ApplicationMigrationActivity__signal_is_updating">Grapherex is updating…</string>
 
     <!-- ApplicationPreferencesActivity -->
     <string name="ApplicationPreferencesActivity_currently_s">Currently: %s</string>
     <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">You haven\'t set a passphrase yet!</string>
     <string name="ApplicationPreferencesActivity_disable_passphrase">Disable passphrase?</string>
-    <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">This will permanently unlock Signal and message notifications.</string>
+    <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">This will permanently unlock Grapherex and message notifications.</string>
     <string name="ApplicationPreferencesActivity_disable">Disable</string>
     <string name="ApplicationPreferencesActivity_unregistering">Unregistering</string>
-    <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Unregistering from Signal messages and calls…</string>
-    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Disable Signal messages and calls?</string>
-    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Disable Signal messages and calls by unregistering from the server. You will need to re-register your phone number to use them again in the future.</string>
+    <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Unregistering from Grapherex messages and calls…</string>
+    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Disable Grapherex messages and calls?</string>
+    <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Disable Grapherex messages and calls by unregistering from the server. You will need to re-register your phone number to use them again in the future.</string>
     <string name="ApplicationPreferencesActivity_error_connecting_to_server">Error connecting to server!</string>
     <string name="ApplicationPreferencesActivity_sms_enabled">SMS Enabled</string>
-    <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Touch to change your default SMS app</string>
+    <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Signz</string>
     <string name="ApplicationPreferencesActivity_sms_disabled">SMS Disabled</string>
-    <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Touch to make Signal your default SMS app</string>
+    <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Touch to make Grapherex your default SMS app</string>
     <string name="ApplicationPreferencesActivity_on">on</string>
     <string name="ApplicationPreferencesActivity_On">On</string>
     <string name="ApplicationPreferencesActivity_off">off</string>
@@ -73,15 +73,15 @@
     <string name="AttachmentKeyboard_file">File</string>
     <string name="AttachmentKeyboard_contact">Contact</string>
     <string name="AttachmentKeyboard_location">Location</string>
-    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Signal needs permission to show your photos and videos.</string>
+    <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Grapherex needs permission to show your photos and videos.</string>
     <string name="AttachmentKeyboard_give_access">Give Access</string>
     <string name="AttachmentKeyboard_payment">Payment</string>
 
     <!-- AttachmentManager -->
     <string name="AttachmentManager_cant_open_media_selection">Can\'t find an app to select media.</string>
-    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal requires the Storage permission in order to attach photos, videos, or audio, but it has been permanently denied. Please continue to the app settings menu, select \"Permissions\", and enable \"Storage\".</string>
-    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Signal requires Contacts permission in order to attach contact information, but it has been permanently denied. Please continue to the app settings menu, select \"Permissions\", and enable \"Contacts\".</string>
-    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Signal requires Location permission in order to attach a location, but it has been permanently denied. Please continue to the app settings menu, select \"Permissions\", and enable \"Location\".</string>
+    <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Grapherex requires the Storage permission in order to attach photos, videos, or audio, but it has been permanently denied. Please continue to the app settings menu, select \"Permissions\", and enable \"Storage\".</string>
+    <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Grapherex requires Contacts permission in order to attach contact information, but it has been permanently denied. Please continue to the app settings menu, select \"Permissions\", and enable \"Contacts\".</string>
+    <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Grapherex requires Location permission in order to attach a location, but it has been permanently denied. Please continue to the app settings menu, select \"Permissions\", and enable \"Location\".</string>
 
     <!-- AttachmentUploadJob -->
     <string name="AttachmentUploadJob_uploading_media">Uploading media…</string>
@@ -133,14 +133,14 @@
 
     <!-- CameraContacts -->
     <string name="CameraContacts_recent_contacts">Recent contacts</string>
-    <string name="CameraContacts_signal_contacts">Signal contacts</string>
-    <string name="CameraContacts_signal_groups">Signal groups</string>
+    <string name="CameraContacts_signal_contacts">Grapherex contacts</string>
+    <string name="CameraContacts_signal_groups">Grapherex groups</string>
     <string name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">You can share with a maximum of %d conversations.</string>
-    <string name="CameraContacts_select_signal_recipients">Select Signal recipients</string>
-    <string name="CameraContacts_no_signal_contacts">No Signal contacts</string>
-    <string name="CameraContacts_you_can_only_use_the_camera_button">You can only use the camera button to send photos to Signal contacts. </string>
+    <string name="CameraContacts_select_signal_recipients">Select Grapherex recipients</string>
+    <string name="CameraContacts_no_signal_contacts">No Grapherex contacts</string>
+    <string name="CameraContacts_you_can_only_use_the_camera_button">You can only use the camera button to send photos to Grapherex contacts. </string>
     <string name="CameraContacts_cant_find_who_youre_looking_for">Can\'t find who you\'re looking for?</string>
-    <string name="CameraContacts_invite_a_contact_to_join_signal">Invite a contact to join Signal</string>
+    <string name="CameraContacts_invite_a_contact_to_join_signal">Invite a contact to join Grapherex</string>
     <string name="CameraContacts__menu_search">Search</string>
 
     <!-- ClearProfileActivity -->
@@ -149,12 +149,12 @@
     <string name="ClearProfileActivity_remove_group_photo">Remove group photo?</string>
 
     <!-- ClientDeprecatedActivity -->
-    <string name="ClientDeprecatedActivity_update_signal">Update Signal</string>
+    <string name="ClientDeprecatedActivity_update_signal">Update Grapherex</string>
     <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">This version of the app is no longer supported. To continue sending and receiving messages, update to the latest version.</string>
     <string name="ClientDeprecatedActivity_update">Update</string>
     <string name="ClientDeprecatedActivity_dont_update">Don\'t Update</string>
     <string name="ClientDeprecatedActivity_warning">Warning</string>
-    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Your version of Signal has expired. You can view your message history but you won\'t be able to send or receive messages until you update.</string>
+    <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Your version of Grapherex has expired. You can view your message history but you won\'t be able to send or receive messages until you update.</string>
 
     <!-- CommunicationActions -->
     <string name="CommunicationActions_no_browser_found">No web browser found.</string>
@@ -164,10 +164,10 @@
     <string name="CommunicationActions_cancel">Cancel</string>
     <string name="CommunicationActions_call">Call</string>
     <string name="CommunicationActions_insecure_call">Insecure call</string>
-    <string name="CommunicationActions_carrier_charges_may_apply">Carrier charges may apply. The number you are calling is not registered with Signal. This call will be placed through your mobile carrier, not over the internet.</string>
+    <string name="CommunicationActions_carrier_charges_may_apply">Carrier charges may apply. The number you are calling is not registered with Grapherex. This call will be placed through your mobile carrier, not over the internet.</string>
 
     <!-- ConfirmIdentityDialog -->
-    <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Your safety number with %1$s has changed. This could either mean that someone is trying to intercept your communication, or that %2$s simply reinstalled Signal.</string>
+    <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Your safety number with %1$s has changed. This could either mean that someone is trying to intercept your communication, or that %2$s simply reinstalled Grapherex.</string>
     <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">You may wish to verify your safety number with this contact.</string>
     <string name="ConfirmIdentityDialog_accept">Accept</string>
 
@@ -180,7 +180,7 @@
 
     <!-- ContactsDatabase -->
     <string name="ContactsDatabase_message_s">Message %s</string>
-    <string name="ContactsDatabase_signal_call_s">Signal Call %s</string>
+    <string name="ContactsDatabase_signal_call_s">Grapherex Call %s</string>
 
     <!-- ContactNameEditActivity -->
     <string name="ContactNameEditActivity_given_name">Given name</string>
@@ -205,7 +205,7 @@
     <string name="ConversationItem_click_to_approve_unencrypted">Send failed, tap for unsecured fallback</string>
     <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">Fallback to unencrypted SMS?</string>
     <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">Fallback to unencrypted MMS?</string>
-    <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">This message will <b>not</b> be encrypted because the recipient is no longer a Signal user.\n\nSend unsecured message?</string>
+    <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">This message will <b>not</b> be encrypted because the recipient is no longer a Grapherex user.\n\nSend unsecured message?</string>
     <string name="ConversationItem_unable_to_open_media">Can\'t find an app able to open this media.</string>
     <string name="ConversationItem_copied_text">Copied %s</string>
     <string name="ConversationItem_from_s">from %s</string>
@@ -235,8 +235,8 @@
     <string name="ConversationActivity_this_device_does_not_appear_to_support_dial_actions">This device does not appear to support dial actions.</string>
     <string name="ConversationActivity_transport_insecure_sms">Insecure SMS</string>
     <string name="ConversationActivity_transport_insecure_mms">Insecure MMS</string>
-    <string name="ConversationActivity_transport_signal">Signal</string>
-    <string name="ConversationActivity_lets_switch_to_signal">Let\'s switch to Signal %1$s</string>
+    <string name="ConversationActivity_transport_signal">Grapherex</string>
+    <string name="ConversationActivity_lets_switch_to_signal">Let\'s switch to Grapherex %1$s</string>
     <string name="ConversationActivity_specify_recipient">Please choose a contact</string>
     <string name="ConversationActivity_unblock">Unblock</string>
     <string name="ConversationActivity_attachment_exceeds_size_limits">Attachment exceeds size limits for the type of message you\'re sending.</string>
@@ -246,18 +246,18 @@
     <string name="ConversationActivity_your_request_to_join_has_been_sent_to_the_group_admin">Your request to join has been sent to the group admin. You\'ll be notified when they take action.</string>
     <string name="ConversationActivity_cancel_request">Cancel Request</string>
 
-    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">To send audio messages, allow Signal access to your microphone.</string>
-    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal requires the Microphone permission in order to send audio messages, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Microphone\".</string>
-    <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signal needs the Microphone and Camera permissions in order to call %s, but they have been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Microphone\" and \"Camera\".</string>
-    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">To capture photos and video, allow Signal access to the camera.</string>
-    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal needs the Camera permission to take photos or video, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Camera\".</string>
-    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signal needs Camera permissions to take photos or video</string>
+    <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">To send audio messages, allow Grapherex access to your microphone.</string>
+    <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Grapherex requires the Microphone permission in order to send audio messages, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Microphone\".</string>
+    <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Grapherex needs the Microphone and Camera permissions in order to call %s, but they have been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Microphone\" and \"Camera\".</string>
+    <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">To capture photos and video, allow Grapherex access to the camera.</string>
+    <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Grapherex needs the Camera permission to take photos or video, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Camera\".</string>
+    <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Grapherex needs Camera permissions to take photos or video</string>
     <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">Enable the microphone permission to capture videos with sound.</string>
-    <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Signal needs microphone permissions to record videos, but they have been denied. Please continue to app settings, select \"Permissions\", and enable \"Microphone\" and \"Camera\".</string>
-    <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Signal needs microphone permissions to record videos.</string>
+    <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Grapherex needs microphone permissions to record videos, but they have been denied. Please continue to app settings, select \"Permissions\", and enable \"Microphone\" and \"Camera\".</string>
+    <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Grapherex needs microphone permissions to record videos.</string>
 
     <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
-    <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Signal cannot send SMS/MMS messages because it is not your default SMS app. Would you like to change this in your Android settings?</string>
+    <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Grapherex cannot send SMS/MMS messages because it is not your default SMS app. Would you like to change this in your Android settings?</string>
     <string name="ConversationActivity_yes">Yes</string>
     <string name="ConversationActivity_no">No</string>
     <string name="ConversationActivity_search_position">%1$d of %2$d</string>
@@ -273,7 +273,7 @@
     <string name="ConversationActivity_you_will_leave_this_group_and_it_will_be_deleted_from_all_of_your_devices">You will leave this group, and it will be deleted from all your devices.</string>
     <string name="ConversationActivity_delete">Delete</string>
     <string name="ConversationActivity_delete_and_leave">Delete and leave</string>
-    <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">To call %1$s, Signal needs access to your microphone</string>
+    <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">To call %1$s, Grapherex needs access to your microphone</string>
 
     <string name="ConversationActivity__more_options_now_in_group_settings">More options now in \"Group settings\"</string>
 
@@ -312,14 +312,14 @@
         <item quantity="other">Saving %1$d attachments to storage…</item>
     </plurals>
     <string name="ConversationFragment_pending">Pending…</string>
-    <string name="ConversationFragment_push">Data (Signal)</string>
+    <string name="ConversationFragment_push">Data (Grapherex)</string>
     <string name="ConversationFragment_mms">MMS</string>
     <string name="ConversationFragment_sms">SMS</string>
     <string name="ConversationFragment_deleting">Deleting</string>
     <string name="ConversationFragment_deleting_messages">Deleting messages…</string>
     <string name="ConversationFragment_delete_for_me">Delete for me</string>
     <string name="ConversationFragment_delete_for_everyone">Delete for everyone</string>
-    <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">This message will be deleted for everyone in the conversation if they’re on a recent version of Signal. They will be able to see that you deleted a message.</string>
+    <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">This message will be deleted for everyone in the conversation if they’re on a recent version of Grapherex. They will be able to see that you deleted a message.</string>
     <string name="ConversationFragment_quoted_message_not_found">Original message not found</string>
     <string name="ConversationFragment_quoted_message_no_longer_available">Original message no longer available</string>
     <string name="ConversationFragment_failed_to_open_message">Failed to open message</string>
@@ -331,12 +331,12 @@
     <string name="ConversationFragment__d_group_members_have_the_same_name">%1$d group members have the same name.</string>
     <string name="ConversationFragment__tap_to_review">Tap to review</string>
     <string name="ConversationFragment__review_requests_carefully">Review requests carefully</string>
-    <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Signal found another contact with the same name.</string>
+    <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Grapherex found another contact with the same name.</string>
     <string name="ConversationFragment_contact_us">Contact us</string>
     <string name="ConversationFragment_verify">Verify</string>
     <string name="ConversationFragment_not_now">Not now</string>
     <string name="ConversationFragment_your_safety_number_with_s_changed">Your safety number with %s changed</string>
-    <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Your safety number with %s changed, likely because they reinstalled Signal or changed devices. Tap Verify to confirm the new safety number. This is optional.</string>
+    <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Your safety number with %s changed, likely because they reinstalled Grapherex or changed devices. Tap Verify to confirm the new safety number. This is optional.</string>
 
     <plurals name="ConversationListFragment_delete_selected_conversations">
         <item quantity="one">Delete selected conversation?</item>
@@ -402,11 +402,11 @@
     <string name="BackupsPreferenceFragment__test_your_backup_passphrase">Test your backup passphrase and verify that it matches</string>
     <string name="BackupsPreferenceFragment__turn_on">Turn on</string>
     <string name="BackupsPreferenceFragment__turn_off">Turn off</string>
-    <string name="BackupsPreferenceFragment__to_restore_a_backup">To restore a backup, install a new copy of Signal. Open the app and tap "Restore backup", then locate a backup file. %1$s</string>
+    <string name="BackupsPreferenceFragment__to_restore_a_backup">To restore a backup, install a new copy of Grapherex. Open the app and tap "Restore backup", then locate a backup file. %1$s</string>
     <string name="BackupsPreferenceFragment__learn_more">Learn more</string>
     <string name="BackupsPreferenceFragment__in_progress">In progress…</string>
     <string name="BackupsPreferenceFragment__d_so_far">%1$d so far…</string>
-    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Signal requires external storage permission in order to create backups, but it has been permanently denied. Please continue to app settings, select \"Permissions\" and enable \"Storage\".</string>
+    <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Grapherex requires external storage permission in order to create backups, but it has been permanently denied. Please continue to app settings, select \"Permissions\" and enable \"Storage\".</string>
 
 
     <!-- CustomDefaultPreference -->
@@ -430,7 +430,7 @@
 
     <!-- DecryptionFailedDialog -->
     <string name="DecryptionFailedDialog_chat_session_refreshed">Chat session refreshed</string>
-    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Signal uses end-to-end encryption and it may need to refresh your chat session sometimes. This doesn\'t affect your chat\'s security, but you may have missed a message from this contact, and you can ask them to resend it.</string>
+    <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Grapherex uses end-to-end encryption and it may need to refresh your chat session sometimes. This doesn\'t affect your chat\'s security, but you may have missed a message from this contact, and you can ask them to resend it.</string>
 
     <!-- DeviceListActivity -->
     <string name="DeviceListActivity_unlink_s">Unlink \'%s\'?</string>
@@ -452,8 +452,8 @@
 
 
     <!-- DonateMegaphone -->
-    <string name="DonateMegaphone_donate_to_signal">Donate to Signal</string>
-    <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Signal is powered by people like you. Show your support today!</string>
+    <string name="DonateMegaphone_donate_to_signal">Donate to Grapherex</string>
+    <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Grapherex is powered by people like you. Show your support today!</string>
     <string name="DonateMegaphone_donate">Donate</string>
     <string name="DonateMegaphone_no_thanks">No Thanks</string>
 
@@ -463,10 +463,10 @@
 
     <!-- DozeReminder -->
     <string name="DozeReminder_optimize_for_missing_play_services">Optimize for missing Play Services</string>
-    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">This device does not support Play Services. Tap to disable system battery optimizations that prevent Signal from retrieving messages while inactive.</string>
+    <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">This device does not support Play Services. Tap to disable system battery optimizations that prevent Grapherex from retrieving messages while inactive.</string>
 
     <!-- ExpiredBuildReminder -->
-    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">This version of Signal has expired. Update now to send and receive messages.</string>
+    <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">This version of Grapherex has expired. Update now to send and receive messages.</string>
     <string name="ExpiredBuildReminder_update_now">Update now</string>
 
     <!-- PendingGroupJoinRequestsReminder -->
@@ -481,8 +481,8 @@
     <string name="ShareActivity_multiple_attachments_are_only_supported">Multiple attachments are only supported for images and videos</string>
 
     <!-- GcmRefreshJob -->
-    <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Permanent Signal communication failure!</string>
-    <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal was unable to register with Google Play Services. Signal messages and calls have been disabled, please try re-registering in Settings &gt; Advanced.</string>
+    <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Permanent Grapherex communication failure!</string>
+    <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Grapherex was unable to register with Google Play Services. Grapherex messages and calls have been disabled, please try re-registering in Settings &gt; Advanced.</string>
 
 
     <!-- GiphyActivity -->
@@ -672,7 +672,7 @@
     <string name="AddGroupDetailsFragment__this_field_is_required">This field is required.</string>
     <string name="AddGroupDetailsFragment__group_creation_failed">Group creation failed.</string>
     <string name="AddGroupDetailsFragment__try_again_later">Try again later.</string>
-    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">You\'ve selected a contact that doesn\'t support Signal groups, so this group will be MMS.</string>
+    <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">You\'ve selected a contact that doesn\'t support Grapherex groups, so this group will be MMS.</string>
     <string name="AddGroupDetailsFragment_custom_mms_group_names_and_photos_will_only_be_visible_to_you">Custom MMS group names and photos will only be visible to you.</string>
     <string name="AddGroupDetailsFragment__remove">Remove</string>
     <string name="AddGroupDetailsFragment__sms_contact">SMS contact</string>
@@ -687,15 +687,15 @@
     </plurals>
 
     <!-- NonGv2MemberDialog -->
-    <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">A Legacy Group will be created because “%1$s” is using an old version of Signal. You can create a New Style Group with them after they update Signal, or remove them before creating the group.</string>
+    <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">A Legacy Group will be created because “%1$s” is using an old version of Grapherex. You can create a New Style Group with them after they update Grapherex, or remove them before creating the group.</string>
     <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable">
-        <item quantity="one">A Legacy Group will be created because %1$d member is using an old version of Signal. You can create a New Style Group with them after they update Signal, or remove them before creating the group.</item>
-        <item quantity="other">A Legacy Group will be created because %1$d members are using an old version of Signal. You can create a New Style Group with them after they update Signal, or remove them before creating the group.</item>
+        <item quantity="one">A Legacy Group will be created because %1$d member is using an old version of Grapherex. You can create a New Style Group with them after they update Grapherex, or remove them before creating the group.</item>
+        <item quantity="other">A Legacy Group will be created because %1$d members are using an old version of Grapherex. You can create a New Style Group with them after they update Grapherex, or remove them before creating the group.</item>
     </plurals>
-    <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">This group cannot be created because “%1$s” is using an old version of Signal. You must remove them before creating the group.</string>
+    <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">This group cannot be created because “%1$s” is using an old version of Grapherex. You must remove them before creating the group.</string>
     <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable_forced_migration">
-        <item quantity="one">This group cannot be created because %1$d member is using an old version of Signal. You must remove them before creating the group.</item>
-        <item quantity="other">This group cannot be created because %1$d members are using an old version of Signal. You must remove them before creating the group.</item>
+        <item quantity="one">This group cannot be created because %1$d member is using an old version of Grapherex. You must remove them before creating the group.</item>
+        <item quantity="other">This group cannot be created because %1$d members are using an old version of Grapherex. You must remove them before creating the group.</item>
     </plurals>
 
     <!-- ManageGroupActivity -->
@@ -729,7 +729,7 @@
     <string name="ManageGroupActivity_only_admins_can_reset_the_sharable_group_link">Only admins can reset the sharable group link.</string>
 
     <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">You don\'t have the rights to do this</string>
-    <string name="ManageGroupActivity_not_capable">Someone you added does not support new groups and needs to update Signal</string>
+    <string name="ManageGroupActivity_not_capable">Someone you added does not support new groups and needs to update Grapherex</string>
     <string name="ManageGroupActivity_failed_to_update_the_group">Failed to update the group</string>
     <string name="ManageGroupActivity_youre_not_a_member_of_the_group">You\'re not a member of the group</string>
     <string name="ManageGroupActivity_failed_to_update_the_group_please_retry_later">Failed to update the group please retry later</string>
@@ -741,7 +741,7 @@
     <string name="ManageGroupActivity_legacy_group_upgrade">This is a Legacy Group. To access new features like @mentions and admins,</string>
     <string name="ManageGroupActivity_legacy_group_too_large">This Legacy Group can’t be upgraded to a New Group because it is too large. The maximum group size is %1$d.</string>
     <string name="ManageGroupActivity_upgrade_this_group">upgrade this group.</string>
-    <string name="ManageGroupActivity_this_is_an_insecure_mms_group">This is an insecure MMS Group. To chat privately, invite your contacts to Signal.</string>
+    <string name="ManageGroupActivity_this_is_an_insecure_mms_group">This is an insecure MMS Group. To chat privately, invite your contacts to Grapherex.</string>
     <string name="ManageGroupActivity_invite_now">Invite now</string>
 
     <!-- GroupMentionSettingDialog -->
@@ -844,10 +844,10 @@
     </plurals>
 
     <!-- GroupJoinUpdateRequiredBottomSheetDialogFragment -->
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Update Signal to use group links</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">The version of Signal you’re using does not support this group link. Update to the latest version to join this group via link.</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Update Signal</string>
-    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">One or more of your linked devices are running a version of Signal that doesn\'t support group links. Update Signal on your linked device(s) to join this group.</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Update Grapherex to use group links</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">The version of Grapherex you’re using does not support this group link. Update to the latest version to join this group via link.</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Update Grapherex</string>
+    <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">One or more of your linked devices are running a version of Grapherex that doesn\'t support group links. Update Grapherex on your linked device(s) to join this group.</string>
     <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">Group link is not valid</string>
 
     <!-- GroupInviteLinkEnableAndShareBottomSheetDialogFragment -->
@@ -885,7 +885,7 @@
     <string name="InviteActivity_cancel">Cancel</string>
     <string name="InviteActivity_sending">Sending…</string>
     <string name="InviteActivity_invitations_sent">Invitations sent!</string>
-    <string name="InviteActivity_invite_to_signal">Invite to Signal</string>
+    <string name="InviteActivity_invite_to_signal">Invite to Grapherex</string>
     <plurals name="InviteActivity_send_sms_to_friends">
         <item quantity="one">SEND SMS TO %d FRIEND</item>
         <item quantity="other">SEND SMS TO %d FRIENDS</item>
@@ -894,7 +894,7 @@
         <item quantity="one">Send %d SMS invite?</item>
         <item quantity="other">Send %d SMS invites?</item>
     </plurals>
-    <string name="InviteActivity_lets_switch_to_signal">Let\'s switch to Signal: %1$s</string>
+    <string name="InviteActivity_lets_switch_to_signal">Let\'s switch to Grapherex: %1$s</string>
     <string name="InviteActivity_no_app_to_share_to">It looks like you don\'t have any apps to share to.</string>
     <string name="InviteActivity_friends_dont_let_friends_text_unencrypted">Friends don\'t let friends chat unencrypted.</string>
 
@@ -907,7 +907,7 @@
     <string name="LongMessageActivity_your_message">Your message</string>
 
     <!-- MessageRetrievalService -->
-    <string name="MessageRetrievalService_signal">Signal</string>
+    <string name="MessageRetrievalService_signal">Grapherex</string>
     <string name="MessageRetrievalService_background_connection_enabled">Background connection enabled</string>
 
     <!-- MmsDownloader -->
@@ -963,7 +963,7 @@
     <string name="Megaphones_introducing_reactions">Introducing Reactions</string>
     <string name="Megaphones_tap_and_hold_any_message_to_quicky_share_how_you_feel">Tap and hold any message to quickly share how you feel.</string>
     <string name="Megaphones_remind_me_later">Remind me later</string>
-    <string name="Megaphones_verify_your_signal_pin">Verify your Signal PIN</string>
+    <string name="Megaphones_verify_your_signal_pin">Verify your Grapherex PIN</string>
     <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">We\'ll occasionally ask you to verify your PIN so that you remember it.</string>
     <string name="Megaphones_verify_pin">Verify PIN</string>
     <string name="Megaphones_get_started">Get started</string>
@@ -972,10 +972,10 @@
     <string name="Megaphones_use_sms">Use SMS</string>
 
     <!-- NotificationBarManager -->
-    <string name="NotificationBarManager_signal_call_in_progress">Signal call in progress</string>
-    <string name="NotificationBarManager__establishing_signal_call">Establishing Signal call</string>
-    <string name="NotificationBarManager__incoming_signal_call">Incoming Signal call</string>
-    <string name="NotificationBarManager__stopping_signal_call_service">Stopping Signal call service</string>
+    <string name="NotificationBarManager_signal_call_in_progress">Grapherex call in progress</string>
+    <string name="NotificationBarManager__establishing_signal_call">Establishing Grapherex call</string>
+    <string name="NotificationBarManager__incoming_signal_call">Incoming Grapherex call</string>
+    <string name="NotificationBarManager__stopping_signal_call_service">Stopping Grapherex call service</string>
     <string name="NotificationBarManager__deny_call">Deny call</string>
     <string name="NotificationBarManager__answer_call">Answer call</string>
     <string name="NotificationBarManager__end_call">End call</string>
@@ -1003,8 +1003,8 @@
     <string name="MediaSendActivity_message_to_s">Message to %s</string>
     <string name="MediaSendActivity_message">Message</string>
     <string name="MediaSendActivity_select_recipients">Select recipients</string>
-    <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Signal needs access to your contacts in order to display them.</string>
-    <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Signal needs Contacts permission in order to show your contacts, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Contacts\".</string>
+    <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Grapherex needs access to your contacts in order to display them.</string>
+    <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Grapherex needs Contacts permission in order to show your contacts, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Contacts\".</string>
     <plurals name="MediaSendActivity_cant_share_more_than_n_items">
         <item quantity="one">You can\'t share more than %d item.</item>
         <item quantity="other">You can\'t share more than %d items.</item>
@@ -1018,7 +1018,7 @@
 
     <!-- MessageRecord -->
     <string name="MessageRecord_unknown">Unknown</string>
-    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Received a message encrypted using an old version of Signal that is no longer supported. Please ask the sender to update to the most recent version and resend the message.</string>
+    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Received a message encrypted using an old version of Grapherex that is no longer supported. Please ask the sender to update to the most recent version and resend the message.</string>
     <string name="MessageRecord_left_group">You have left the group.</string>
     <string name="MessageRecord_you_updated_group">You updated the group.</string>
     <string name="MessageRecord_the_group_was_updated">The group was updated.</string>
@@ -1027,7 +1027,7 @@
     <string name="MessageRecord_missed_video_call_date">Missed video call · %1$s</string>
     <string name="MessageRecord_s_updated_group">%s updated the group.</string>
     <string name="MessageRecord_s_called_you_date">%1$s called you · %2$s</string>
-    <string name="MessageRecord_s_joined_signal">%s is on Signal!</string>
+    <string name="MessageRecord_s_joined_signal">%s is on Grapherex!</string>
     <string name="MessageRecord_you_disabled_disappearing_messages">You disabled disappearing messages.</string>
     <string name="MessageRecord_s_disabled_disappearing_messages">%1$s disabled disappearing messages.</string>
     <string name="MessageRecord_you_set_disappearing_message_time_to_s">You set the disappearing message timer to %1$s.</string>
@@ -1233,7 +1233,7 @@
     <string name="MessageRequestBottomView_do_you_want_to_join_this_group_they_wont_know_youve_seen_their_messages_until_you_accept">Join this group and share your name and photo with its members? They won\'t know you\'ve seen their messages until you accept.</string>
     <string name="MessageRequestBottomView_join_this_group_they_wont_know_youve_seen_their_messages_until_you_accept">Join this group? They won’t know you’ve seen their messages until you accept.</string>
     <string name="MessageRequestBottomView_unblock_this_group_and_share_your_name_and_photo_with_its_members">Unblock this group and share your name and photo with its members? You won\'t receive any messages until you unblock them.</string>
-    <string name="MessageRequestBottomView_legacy_learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007459591</string>
+    <string name="MessageRequestBottomView_legacy_learn_more_url" translatable="false">https://support.Grapherex.org/hc/articles/360007459591</string>
     <string name="MessageRequestProfileView_member_of_one_group">Member of %1$s</string>
     <string name="MessageRequestProfileView_member_of_two_groups">Member of %1$s and %2$s</string>
     <string name="MessageRequestProfileView_member_of_many_groups">Member of %1$s, %2$s, and %3$s</string>
@@ -1272,10 +1272,10 @@
     <string name="DeviceProvisioningActivity_content_progress_key_error">Invalid QR code.</string>
     <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Sorry, you have too many devices linked already, try removing some</string>
     <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Sorry, this is not a valid device link QR code.</string>
-    <string name="DeviceProvisioningActivity_link_a_signal_device">Link a Signal device?</string>
-    <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">It looks like you\'re trying to link a Signal device using a 3rd party scanner.  For your protection, please scan the code again from within Signal.</string>
+    <string name="DeviceProvisioningActivity_link_a_signal_device">Link a Grapherex device?</string>
+    <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">It looks like you\'re trying to link a Grapherex device using a 3rd party scanner.  For your protection, please scan the code again from within Grapherex.</string>
 
-    <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Signal needs the Camera permission in order to scan a QR code, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Camera\".</string>
+    <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Grapherex needs the Camera permission in order to scan a QR code, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Camera\".</string>
     <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Unable to scan a QR code without the Camera permission</string>
 
     <!-- ExpirationDialog -->
@@ -1285,19 +1285,19 @@
 
     <!-- OutdatedBuildReminder -->
     <string name="OutdatedBuildReminder_update_now">Update now</string>
-    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">This version of Signal will expire today. Update to the most recent version.</string>
+    <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">This version of Grapherex will expire today. Update to the most recent version.</string>
     <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-        <item quantity="one">This version of Signal will expire tomorrow. Update to the most recent version.</item>
-        <item quantity="other">This version of Signal will expire in %d days. Update to the most recent version.</item>
+        <item quantity="one">This version of Grapherex will expire tomorrow. Update to the most recent version.</item>
+        <item quantity="other">This version of Grapherex will expire in %d days. Update to the most recent version.</item>
     </plurals>
 
     <!-- PassphrasePromptActivity -->
     <string name="PassphrasePromptActivity_enter_passphrase">Enter passphrase</string>
-    <string name="PassphrasePromptActivity_watermark_content_description">Signal icon</string>
+    <string name="PassphrasePromptActivity_watermark_content_description">Grapherex icon</string>
     <string name="PassphrasePromptActivity_ok_button_content_description">Submit passphrase</string>
     <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Invalid passphrase!</string>
-    <string name="PassphrasePromptActivity_unlock_signal">Unlock Signal</string>
-    <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android - Lock Screen</string>
+    <string name="PassphrasePromptActivity_unlock_signal">Unlock Grapherex</string>
+    <string name="PassphrasePromptActivity_signal_android_lock_screen">Grapherex Android - Lock Screen</string>
 
     <!-- PlacePickerActivity -->
     <string name="PlacePickerActivity_title">Map</string>
@@ -1322,19 +1322,19 @@
         <item quantity="one">You have %1$d attempt remaining. If you run out of attempts, you can create a new PIN. You can register and use your account but you\'ll lose some saved settings like your profile information.</item>
         <item quantity="other">You have %1$d attempts remaining. If you run out of attempts, you can create a new PIN. You can register and use your account but you\'ll lose some saved settings like your profile information.</item>
     </plurals>
-    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Signal Registration - Need Help with PIN for Android</string>
+    <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Grapherex Registration - Need Help with PIN for Android</string>
     <string name="PinRestoreEntryFragment_enter_alphanumeric_pin">Enter alphanumeric PIN</string>
     <string name="PinRestoreEntryFragment_enter_numeric_pin">Enter numeric PIN</string>
 
     <!-- PinRestoreLockedFragment -->
     <string name="PinRestoreLockedFragment_create_your_pin">Create your PIN</string>
-    <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">You\'ve run out of PIN guesses, but you can still access your Signal account by creating a new PIN. For your privacy and security your account will be restored without any saved profile information or settings.</string>
+    <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">You\'ve run out of PIN guesses, but you can still access your Grapherex account by creating a new PIN. For your privacy and security your account will be restored without any saved profile information or settings.</string>
     <string name="PinRestoreLockedFragment_create_new_pin">Create new PIN</string>
-    <string name="PinRestoreLockedFragment_learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string>
+    <string name="PinRestoreLockedFragment_learn_more_url" translatable="false">https://support.Grapherex.org/hc/articles/360007059792</string>
 
     <!-- PinOptOutDialog -->
     <string name="PinOptOutDialog_warning">Warning</string>
-    <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">If you disable the PIN, you will lose all data when you re-register Signal unless you manually back up and restore. You can not turn on Registration Lock while the PIN is disabled.</string>
+    <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">If you disable the PIN, you will lose all data when you re-register Grapherex unless you manually back up and restore. You can not turn on Registration Lock while the PIN is disabled.</string>
     <string name="PinOptOutDialog_disable_pin">Disable PIN</string>
 
     <!-- RatingManager -->
@@ -1373,13 +1373,13 @@
 
     <!-- WebRtcCallActivity -->
     <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">Tap here to turn on your video</string>
-    <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">To call %1$s, Signal needs access to your camera</string>
-    <string name="WebRtcCallActivity__signal_s">Signal %1$s</string>
+    <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">To call %1$s, Grapherex needs access to your camera</string>
+    <string name="WebRtcCallActivity__signal_s">Grapherex %1$s</string>
     <string name="WebRtcCallActivity__calling">Calling…</string>
 
     <!-- WebRtcCallView -->
-    <string name="WebRtcCallView__signal_voice_call">Signal voice call…</string>
-    <string name="WebRtcCallView__signal_video_call">Signal video call…</string>
+    <string name="WebRtcCallView__signal_voice_call">Grapherex voice call…</string>
+    <string name="WebRtcCallView__signal_video_call">Grapherex video call…</string>
     <string name="WebRtcCallView__start_call">Start Call</string>
     <string name="WebRtcCallView__join_call">Join Call</string>
     <string name="WebRtcCallView__call_is_full">Call is full</string>
@@ -1439,13 +1439,13 @@
     <string name="RegistrationActivity_is_your_phone_number_above_correct">Is your phone number above correct?</string>
     <string name="RegistrationActivity_edit_number">Edit number</string>
     <string name="RegistrationActivity_missing_google_play_services">Missing Google Play Services</string>
-    <string name="RegistrationActivity_this_device_is_missing_google_play_services">This device is missing Google Play Services. You can still use Signal, but this configuration may result in reduced reliability or performance.\n\nIf you are not an advanced user, are not running an aftermarket Android ROM, or believe that you are seeing this in error, please contact support@signal.org for help troubleshooting.</string>
+    <string name="RegistrationActivity_this_device_is_missing_google_play_services">This device is missing Google Play Services. You can still use Grapherex, but this configuration may result in reduced reliability or performance.\n\nIf you are not an advanced user, are not running an aftermarket Android ROM, or believe that you are seeing this in error, please contact support@Grapherex.org for help troubleshooting.</string>
     <string name="RegistrationActivity_i_understand">I understand</string>
     <string name="RegistrationActivity_play_services_error">Play Services Error</string>
     <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play Services is updating or temporarily unavailable. Please try again.</string>
     <string name="RegistrationActivity_terms_and_privacy">Terms &amp; Privacy Policy</string>
-    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signal needs access to your contacts and media in order to connect with friends, exchange messages, and make secure calls</string>
-    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Signal needs access to your contacts in order to connect with friends, exchange messages, and make secure calls</string>
+    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Grapherex needs access to your contacts and media in order to connect with friends, exchange messages, and make secure calls</string>
+    <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Grapherex needs access to your contacts in order to connect with friends, exchange messages, and make secure calls</string>
     <string name="RegistrationActivity_rate_limited_to_service">You\'ve made too many attempts to register this number. Please try again later.</string>
     <string name="RegistrationActivity_unable_to_connect_to_service">Unable to connect to service. Please check network connection and try again.</string>
     <plurals name="RegistrationActivity_debug_log_hint">
@@ -1460,7 +1460,7 @@
     <string name="RegistrationActivity_enter_your_phone_number">Enter your phone number</string>
     <string name="RegistrationActivity_you_will_receive_a_verification_code">You will receive a verification code. Carrier rates may apply.</string>
     <string name="RegistrationActivity_enter_the_code_we_sent_to_s">Enter the code we sent to %s</string>
-    <string name="RegistrationActivity_make_sure_your_phone_has_a_cellular_signal">Make sure your phone has a cellular signal to receive your SMS or call</string>
+    <string name="RegistrationActivity_make_sure_your_phone_has_a_cellular_signal">Make sure your phone has a cellular Grapherex to receive your SMS or call</string>
 
     <string name="RegistrationActivity_phone_number_description">Phone number</string>
     <string name="RegistrationActivity_country_code_description">Country code</string>
@@ -1469,7 +1469,7 @@
     <!-- RegistrationLockV2Dialog -->
     <string name="RegistrationLockV2Dialog_turn_on_registration_lock">Turn on Registration Lock?</string>
     <string name="RegistrationLockV2Dialog_turn_off_registration_lock">Turn off Registration Lock?</string>
-    <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">If you forget your Signal PIN when registering with Signal again, you’ll be locked out of your account for 7 days.</string>
+    <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">If you forget your Grapherex PIN when registering with Grapherex again, you’ll be locked out of your account for 7 days.</string>
     <string name="RegistrationLockV2Dialog_turn_on">Turn on</string>
     <string name="RegistrationLockV2Dialog_turn_off">Turn off</string>
 
@@ -1495,16 +1495,16 @@
 
     <!-- SharedContactDetailsActivity -->
     <string name="SharedContactDetailsActivity_add_to_contacts">Add to Contacts</string>
-    <string name="SharedContactDetailsActivity_invite_to_signal">Invite to Signal</string>
-    <string name="SharedContactDetailsActivity_signal_message">Signal Message</string>
-    <string name="SharedContactDetailsActivity_signal_call">Signal Call</string>
+    <string name="SharedContactDetailsActivity_invite_to_signal">Invite to Grapherex</string>
+    <string name="SharedContactDetailsActivity_signal_message">Grapherex Message</string>
+    <string name="SharedContactDetailsActivity_signal_call">Grapherex Call</string>
 
     <!-- SharedContactView -->
     <string name="SharedContactView_add_to_contacts">Add to Contacts</string>
-    <string name="SharedContactView_invite_to_signal">Invite to Signal</string>
-    <string name="SharedContactView_message">Signal Message</string>
+    <string name="SharedContactView_invite_to_signal">Invite to Grapherex</string>
+    <string name="SharedContactView_message">Grapherex Message</string>
 
-    <!-- SignalPinReminders -->
+    <!-- GrapherexPinReminders -->
     <string name="SignalPinReminders_well_remind_you_again_later">We\'ll remind you again later.</string>
     <string name="SignalPinReminders_well_remind_you_again_tomorrow">We\'ll remind you again tomorrow.</string>
     <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">We\'ll remind you again in a few days.</string>
@@ -1529,7 +1529,7 @@
     <string name="SmsMessageRecord_secure_session_reset">You reset the secure session.</string>
     <string name="SmsMessageRecord_secure_session_reset_s">%s reset the secure session.</string>
     <string name="SmsMessageRecord_duplicate_message">Duplicate message.</string>
-    <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">This message could not be processed because it was sent from a newer version of Signal. You can ask your contact to send this message again after you update.</string>
+    <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">This message could not be processed because it was sent from a newer version of Grapherex. You can ask your contact to send this message again after you update.</string>
     <string name="SmsMessageRecord_error_handling_incoming_message">Error handling incoming message.</string>
 
     <!-- StickerManagementActivity -->
@@ -1538,7 +1538,7 @@
     <!-- StickerManagementAdapter -->
     <string name="StickerManagementAdapter_installed_stickers">Installed Stickers</string>
     <string name="StickerManagementAdapter_stickers_you_received">Stickers You Received</string>
-    <string name="StickerManagementAdapter_signal_artist_series">Signal Artist Series</string>
+    <string name="StickerManagementAdapter_signal_artist_series">Grapherex Artist Series</string>
     <string name="StickerManagementAdapter_no_stickers_installed">No stickers installed</string>
     <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">Stickers from incoming messages will appear here</string>
     <string name="StickerManagementAdapter_untitled">Untitled</string>
@@ -1563,12 +1563,12 @@
     <string name="SubmitDebugLogActivity_share">Share</string>
 
     <!-- SupportEmailUtil -->
-    <string name="SupportEmailUtil_support_email" translatable="false">support@signal.org</string>
+    <string name="SupportEmailUtil_support_email" translatable="false">support@Grapherex.org</string>
     <string name="SupportEmailUtil_filter">Filter:</string>
     <string name="SupportEmailUtil_device_info">Device info:</string>
     <string name="SupportEmailUtil_android_version">Android version:</string>
-    <string name="SupportEmailUtil_signal_version">Signal version:</string>
-    <string name="SupportEmailUtil_signal_package">Signal package:</string>
+    <string name="SupportEmailUtil_signal_version">Grapherex version:</string>
+    <string name="SupportEmailUtil_signal_package">Grapherex package:</string>
     <string name="SupportEmailUtil_registration_lock">Registration lock:</string>
     <string name="SupportEmailUtil_locale">Locale:</string>
 
@@ -1588,7 +1588,7 @@
     <string name="ThreadRecord_view_once_media">View-once media</string>
     <string name="ThreadRecord_this_message_was_deleted">This message was deleted.</string>
     <string name="ThreadRecord_you_deleted_this_message">You deleted this message.</string>
-    <string name="ThreadRecord_s_is_on_signal">%s is on Signal!</string>
+    <string name="ThreadRecord_s_is_on_signal">%s is on Grapherex!</string>
     <string name="ThreadRecord_disappearing_messages_disabled">Disappearing messages disabled</string>
     <string name="ThreadRecord_disappearing_message_time_updated_to_s">Disappearing message time set to %s</string>
     <string name="ThreadRecord_safety_number_changed">Safety number changed</string>
@@ -1605,8 +1605,8 @@
     <string name="ThreadRecord_chat_session_refreshed">Chat session refreshed</string>
 
     <!-- UpdateApkReadyListener -->
-    <string name="UpdateApkReadyListener_Signal_update">Signal update</string>
-    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">A new version of Signal is available, tap to update</string>
+    <string name="UpdateApkReadyListener_Signal_update">Grapherex update</string>
+    <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">A new version of Grapherex is available, tap to update</string>
 
     <!-- UntrustedSendDialog -->
     <string name="UntrustedSendDialog_send_message">Send message?</string>
@@ -1628,22 +1628,22 @@
     <string name="UsernameEditFragment_usernames_cannot_begin_with_a_number">Usernames cannot begin with a number.</string>
     <string name="UsernameEditFragment_username_is_invalid">Username is invalid.</string>
     <string name="UsernameEditFragment_usernames_must_be_between_a_and_b_characters">Usernames must be between %1$d and %2$d characters.</string>
-    <string name="UsernameEditFragment_usernames_on_signal_are_optional">Usernames on Signal are optional. If you choose to create a username, other Signal users will be able to find you by this username and contact you without knowing your phone number.</string>
+    <string name="UsernameEditFragment_usernames_on_signal_are_optional">Usernames on Grapherex are optional. If you choose to create a username, other Grapherex users will be able to find you by this username and contact you without knowing your phone number.</string>
 
     <plurals name="UserNotificationMigrationJob_d_contacts_are_on_signal">
-        <item quantity="one">%d contact is on Signal!</item>
-        <item quantity="other">%d contacts are on Signal!</item>
+        <item quantity="one">%d contact is on Grapherex!</item>
+        <item quantity="other">%d contacts are on Grapherex!</item>
     </plurals>
 
     <!-- VerifyIdentityActivity -->
-    <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Your contact is running an old version of Signal. Please ask them to update before verifying your safety number.</string>
-    <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Your contact is running a newer version of Signal with an incompatible QR code format. Please update to compare.</string>
+    <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Your contact is running an old version of Grapherex. Please ask them to update before verifying your safety number.</string>
+    <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Your contact is running a newer version of Grapherex with an incompatible QR code format. Please update to compare.</string>
     <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">The scanned QR code is not a correctly formatted safety number verification code. Please try scanning again.</string>
     <string name="VerifyIdentityActivity_share_safety_number_via">Share safety number via…</string>
-    <string name="VerifyIdentityActivity_our_signal_safety_number">Our Signal safety number:</string>
+    <string name="VerifyIdentityActivity_our_signal_safety_number">Our Grapherex safety number:</string>
     <string name="VerifyIdentityActivity_no_app_to_share_to">It looks like you don\'t have any apps to share to.</string>
     <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">No safety number to compare was found in the clipboard</string>
-    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signal needs the Camera permission in order to scan a QR code, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Camera\".</string>
+    <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Grapherex needs the Camera permission in order to scan a QR code, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Camera\".</string>
     <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">Unable to scan QR code without Camera permission</string>
     <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">You must first exchange messages in order to view %1$s\'s safety number.</string>
 
@@ -1671,14 +1671,14 @@
 
     <!-- KeyCachingService -->
     <string name="KeyCachingService_signal_passphrase_cached">Touch to open.</string>
-    <string name="KeyCachingService_passphrase_cached">Signal is unlocked</string>
-    <string name="KeyCachingService_lock">Lock Signal</string>
+    <string name="KeyCachingService_passphrase_cached">Grapherex is unlocked</string>
+    <string name="KeyCachingService_lock">Lock Grapherex</string>
 
     <!-- MediaPreviewActivity -->
     <string name="MediaPreviewActivity_you">You</string>
     <string name="MediaPreviewActivity_unssuported_media_type">Unsupported media type</string>
     <string name="MediaPreviewActivity_draft">Draft</string>
-    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Signal needs the Storage permission in order to save to external storage, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Storage\".</string>
+    <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Grapherex needs the Storage permission in order to save to external storage, but it has been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Storage\".</string>
     <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Unable to save to external storage without permissions</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_title">Delete message?</string>
     <string name="MediaPreviewActivity_media_delete_confirmation_message">This will permanently delete this message.</string>
@@ -1699,10 +1699,10 @@
     <string name="MessageNotifier_view_once_photo">View-once photo</string>
     <string name="MessageNotifier_view_once_video">View-once video</string>
     <string name="MessageNotifier_reply">Reply</string>
-    <string name="MessageNotifier_signal_message">Signal Message</string>
+    <string name="MessageNotifier_signal_message">Grapherex Message</string>
     <string name="MessageNotifier_unsecured_sms">Unsecured SMS</string>
     <string name="MessageNotifier_you_may_have_new_messages">You may have new messages</string>
-    <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Open Signal to check for recent notifications.</string>
+    <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Open Grapherex to check for recent notifications.</string>
     <string name="MessageNotifier_contact_message">%1$s %2$s</string>
     <string name="MessageNotifier_unknown_contact_message">Contact</string>
     <string name="MessageNotifier_reacted_s_to_s">Reacted %1$s to: \"%2$s\".</string>
@@ -1714,7 +1714,7 @@
     <string name="MessageNotifier_reacted_s_to_your_sticker">Reacted %1$s to your sticker.</string>
     <string name="MessageNotifier_this_message_was_deleted">This message was deleted.</string>
 
-    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Turn off contact joined Signal notifications? You can enable them again in Signal > Settings > Notifications.</string>
+    <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Turn off contact joined Grapherex notifications? You can enable them again in Grapherex > Settings > Notifications.</string>
 
     <!-- Notification Channels -->
     <string name="NotificationChannel_channel_messages">Messages</string>
@@ -1727,12 +1727,12 @@
     <string name="NotificationChannel_group_chats">Chats</string>
     <string name="NotificationChannel_missing_display_name">Unknown</string>
     <string name="NotificationChannel_voice_notes">Voice Notes</string>
-    <string name="NotificationChannel_contact_joined_signal">Contact joined Signal</string>
+    <string name="NotificationChannel_contact_joined_signal">Contact joined Grapherex</string>
     <string name="NotificationChannels__no_activity_available_to_open_notification_channel_settings">No activity available to open notification channel settings.</string>
     <!-- ProfileEditNameFragment -->
 
     <!-- QuickResponseService -->
-    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Quick response unavailable when Signal is locked!</string>
+    <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Quick response unavailable when Grapherex is locked!</string>
     <string name="QuickResponseService_problem_sending_message">Problem sending message!</string>
 
     <!-- SaveAttachmentTask -->
@@ -1747,7 +1747,7 @@
     <string name="ShortcutLauncherActivity_invalid_shortcut">Invalid shortcut</string>
 
     <!-- SingleRecipientNotificationBuilder -->
-    <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+    <string name="SingleRecipientNotificationBuilder_signal">Grapherex</string>
     <string name="SingleRecipientNotificationBuilder_new_message">New message</string>
     <string name="SingleRecipientNotificationBuilder_message_request">Message request</string>
 
@@ -1763,11 +1763,11 @@
 
     <!-- UnauthorizedReminder -->
     <string name="UnauthorizedReminder_device_no_longer_registered">Device no longer registered</string>
-    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">This is likely because you registered your phone number with Signal on a different device. Tap to re-register.</string>
+    <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">This is likely because you registered your phone number with Grapherex on a different device. Tap to re-register.</string>
 
     <!-- WebRtcCallActivity -->
-    <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">To answer the call from %s, give Signal access to your microphone.</string>
-    <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Signal requires Microphone and Camera permissions in order to make or receive calls, but they have been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Microphone\" and \"Camera\".</string>
+    <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">To answer the call from %s, give Grapherex access to your microphone.</string>
+    <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Grapherex requires Microphone and Camera permissions in order to make or receive calls, but they have been permanently denied. Please continue to app settings, select \"Permissions\", and enable \"Microphone\" and \"Camera\".</string>
     <string name="WebRtcCallActivity__answered_on_a_linked_device">Answered on a linked device.</string>
     <string name="WebRtcCallActivity__declined_on_a_linked_device">Declined on a linked device.</string>
     <string name="WebRtcCallActivity__busy_on_a_linked_device">Busy on a linked device.</string>
@@ -1798,7 +1798,7 @@
 
     <!-- contact_selection_activity -->
     <string name="contact_selection_activity__enter_name_or_number">Enter name or number</string>
-    <string name="contact_selection_activity__invite_to_signal">Invite to Signal</string>
+    <string name="contact_selection_activity__invite_to_signal">Invite to Grapherex</string>
     <string name="contact_selection_activity__new_group">New group</string>
 
     <!-- contact_filter_toolbar -->
@@ -1814,22 +1814,22 @@
     <string name="SingleContactSelectionActivity_contact_photo">Contact Photo</string>
 
     <!-- ContactSelectionListFragment-->
-    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Signal requires the Contacts permission in order to display your contacts, but it has been permanently denied. Please continue to the app settings menu, select \"Permissions\", and enable \"Contacts\".</string>
+    <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Grapherex requires the Contacts permission in order to display your contacts, but it has been permanently denied. Please continue to the app settings menu, select \"Permissions\", and enable \"Contacts\".</string>
     <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Error retrieving contacts, check your network connection</string>
     <string name="ContactSelectionListFragment_username_not_found">Username not found</string>
-    <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"%1$s" is not a Signal user. Please check the username and try again.</string>
+    <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"%1$s" is not a Grapherex user. Please check the username and try again.</string>
     <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">You do not need to add yourself to the group</string>
     <string name="ContactSelectionListFragment_maximum_group_size_reached">Maximum group size reached</string>
-    <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Signal groups can have a maximum of %1$d members.</string>
+    <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Grapherex groups can have a maximum of %1$d members.</string>
     <string name="ContactSelectionListFragment_recommended_member_limit_reached">Recommended member limit reached</string>
-    <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Signal groups perform best with %1$d members or fewer. Adding more members will cause delays sending and receiving messages.</string>
+    <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Grapherex groups perform best with %1$d members or fewer. Adding more members will cause delays sending and receiving messages.</string>
     <plurals name="ContactSelectionListFragment_d_members">
         <item quantity="one">%1$d member</item>
         <item quantity="other">%1$d members</item>
     </plurals>
 
     <!-- contact_selection_list_fragment -->
-    <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Signal needs access to your contacts in order to display them.</string>
+    <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Grapherex needs access to your contacts in order to display them.</string>
     <string name="contact_selection_list_fragment__show_contacts">Show Contacts</string>
 
     <!-- contact_selection_list_item -->
@@ -1839,7 +1839,7 @@
     </plurals>
 
     <!-- conversation_activity -->
-    <string name="conversation_activity__type_message_push">Signal message</string>
+    <string name="conversation_activity__type_message_push">Grapherex message</string>
     <string name="conversation_activity__type_message_sms_insecure">Unsecured SMS</string>
     <string name="conversation_activity__type_message_mms_insecure">Unsecured MMS</string>
     <string name="conversation_activity__from_sim_name">From %1$s</string>
@@ -1851,7 +1851,7 @@
     <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Toggle quick camera attachment drawer</string>
     <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Record and send audio attachment</string>
     <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Lock recording of audio attachment</string>
-    <string name="conversation_activity__enable_signal_for_sms">Enable Signal for SMS</string>
+    <string name="conversation_activity__enable_signal_for_sms">Enable Grapherex for SMS</string>
     <string name="conversation_activity__message_could_not_be_sent">Message could not be sent. Check your connection and try again.</string>
 
     <!-- conversation_input_panel -->
@@ -1979,9 +1979,9 @@
     <string name="IdentityUtil_unverified_banner_two">Your safety numbers with %1$s and %2$s are no longer verified</string>
     <string name="IdentityUtil_unverified_banner_many">Your safety numbers with %1$s, %2$s, and %3$s are no longer verified</string>
 
-    <string name="IdentityUtil_unverified_dialog_one">Your safety number with %1$s has changed and is no longer verified. This could either mean that someone is trying to intercept your communication, or that %1$s simply reinstalled Signal.</string>
-    <string name="IdentityUtil_unverified_dialog_two">Your safety numbers with %1$s and %2$s are no longer verified. This could either mean that someone is trying to intercept your communication, or that they simply reinstalled Signal.</string>
-    <string name="IdentityUtil_unverified_dialog_many">Your safety numbers with %1$s, %2$s, and %3$s are no longer verified. This could either mean that someone is trying to intercept your communication, or that they simply reinstalled Signal.</string>
+    <string name="IdentityUtil_unverified_dialog_one">Your safety number with %1$s has changed and is no longer verified. This could either mean that someone is trying to intercept your communication, or that %1$s simply reinstalled Grapherex.</string>
+    <string name="IdentityUtil_unverified_dialog_two">Your safety numbers with %1$s and %2$s are no longer verified. This could either mean that someone is trying to intercept your communication, or that they simply reinstalled Grapherex.</string>
+    <string name="IdentityUtil_unverified_dialog_many">Your safety numbers with %1$s, %2$s, and %3$s are no longer verified. This could either mean that someone is trying to intercept your communication, or that they simply reinstalled Grapherex.</string>
 
     <string name="IdentityUtil_untrusted_dialog_one">Your safety number with %s just changed.</string>
     <string name="IdentityUtil_untrusted_dialog_two">Your safety numbers with %1$s and %2$s just changed.</string>
@@ -2002,7 +2002,7 @@
     <string name="log_submit_activity__this_log_will_be_posted_online">This log will be posted publicly online for contributors to view, you may examine and edit it before submitting.</string>
 
     <!-- database_migration_activity -->
-    <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Would you like to import your existing text messages into Signal\'s encrypted database?</string>
+    <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Would you like to import your existing text messages into Grapherex\'s encrypted database?</string>
     <string name="database_migration_activity__the_default_system_database_will_not_be_modified">The default system database will not be modified or altered in any way.</string>
     <string name="database_migration_activity__skip">Skip</string>
     <string name="database_migration_activity__import">Import</string>
@@ -2032,7 +2032,7 @@
     <string name="prompt_passphrase_activity__unlock">Unlock</string>
 
     <!-- prompt_mms_activity -->
-    <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Signal requires MMS settings to deliver media and group messages through your wireless carrier. Your device does not make this information available, which is occasionally true for locked devices and other restrictive configurations.</string>
+    <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Grapherex requires MMS settings to deliver media and group messages through your wireless carrier. Your device does not make this information available, which is occasionally true for locked devices and other restrictive configurations.</string>
     <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">To send media and group messages, tap \'OK\' and complete the requested settings. The MMS settings for your carrier can generally be located by searching for \'your carrier APN\'. You will only need to do this once.</string>
 
     <!-- profile_create_activity -->
@@ -2058,7 +2058,7 @@
     <!-- EditProfileFragment -->
     <string name="EditProfileFragment__edit_group_name_and_photo">Edit group name and photo</string>
     <string name="EditProfileFragment__group_name">Group name</string>
-    <string name="EditProfileFragment__support_link" translatable="false">https://support.signal.org/hc/articles/360007459591</string>
+    <string name="EditProfileFragment__support_link" translatable="false">https://support.Grapherex.org/hc/articles/360007459591</string>
 
     <!-- EditProfileNameFragment -->
     <string name="EditProfileNameFragment_your_name">Your name</string>
@@ -2074,7 +2074,7 @@
     <string name="recipients_panel__to"><small>Enter a name or number</small></string>
 
     <!-- verify_display_fragment -->
-    <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[If you wish to verify the security of your encryption with %s, compare the number above with the number on their device. Alternatively, you can scan the code on their phone, or ask them to scan your code. <a href="https://signal.org/redirect/safety-numbers">Learn more.</a>]]></string>
+    <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[If you wish to verify the security of your encryption with %s, compare the number above with the number on their device. Alternatively, you can scan the code on their phone, or ask them to scan your code. <a href="https://Grapherex.org/redirect/safety-numbers">Learn more.</a>]]></string>
     <string name="verify_display_fragment__tap_to_scan">Tap to scan</string>
     <string name="verify_display_fragment__loading">Loading…</string>
     <string name="verify_display_fragment__verified">Verified</string>
@@ -2137,10 +2137,10 @@
     <string name="HelpFragment__emoji_3" translatable="false">emoji_3</string>
     <string name="HelpFragment__emoji_2" translatable="false">emoji_2</string>
     <string name="HelpFragment__emoji_1" translatable="false">emoji_1</string>
-    <string name="HelpFragment__link__debug_info" translatable="false">https://support.signal.org/hc/articles/360007318591</string>
-    <string name="HelpFragment__link__faq" translatable="false">https://support.signal.org</string>
+    <string name="HelpFragment__link__debug_info" translatable="false">https://support.Grapherex.org/hc/articles/360007318591</string>
+    <string name="HelpFragment__link__faq" translatable="false">https://support.Grapherex.org</string>
     <string name="HelpFragment__support_info">Support Info</string>
-    <string name="HelpFragment__signal_android_support_request">Signal Android Support Request</string>
+    <string name="HelpFragment__signal_android_support_request">Grapherex Android Support Request</string>
     <string name="HelpFragment__debug_log">Debug Log:</string>
     <string name="HelpFragment__could_not_upload_logs">Could not upload logs</string>
     <string name="HelpFragment__please_be_as_descriptive_as_possible">Please be as descriptive as possible to help us understand the issue.</string>
@@ -2209,8 +2209,8 @@
     <string name="preferences__sms_mms">SMS and MMS</string>
     <string name="preferences__pref_all_sms_title">Receive all SMS</string>
     <string name="preferences__pref_all_mms_title">Receive all MMS</string>
-    <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Use Signal for all incoming text messages</string>
-    <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Use Signal for all incoming multimedia messages</string>
+    <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Use Grapherex for all incoming text messages</string>
+    <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Use Grapherex for all incoming multimedia messages</string>
     <string name="preferences__pref_enter_sends_title">Enter key sends</string>
     <string name="preferences__pressing_the_enter_key_will_send_text_messages">Pressing the Enter key will send text messages</string>
     <string name="preferences__pref_use_address_book_photos">Use address book photos</string>
@@ -2225,7 +2225,7 @@
     <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Lock screen and notifications with a passphrase</string>
     <string name="preferences__screen_security">Screen security</string>
     <string name="preferences__disable_screen_security_to_allow_screen_shots">Block screenshots in the recents list and inside the app</string>
-    <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Auto-lock Signal after a specified time interval of inactivity</string>
+    <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Auto-lock Grapherex after a specified time interval of inactivity</string>
     <string name="preferences__inactivity_timeout_passphrase">Inactivity timeout passphrase</string>
     <string name="preferences__inactivity_timeout_interval">Inactivity timeout interval</string>
     <string name="preferences__notifications">Notifications</string>
@@ -2256,7 +2256,7 @@
     <string name="preferences__slow">Slow</string>
     <string name="preferences__help">Help</string>
     <string name="preferences__advanced">Advanced</string>
-    <string name="preferences__donate_to_signal">Donate to Signal</string>
+    <string name="preferences__donate_to_signal">Donate to Grapherex</string>
     <string name="preferences__privacy">Privacy</string>
     <string name="preferences__mms_user_agent">MMS User Agent</string>
     <string name="preferences__advanced_mms_access_point_names">Manual MMS settings</string>
@@ -2282,13 +2282,13 @@
     <string name="preferences__chat_wallpaper">Chat wallpaper</string>
     <string name="preferences__disable_pin">Disable PIN</string>
     <string name="preferences__enable_pin">Enable PIN</string>
-    <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">If you disable the PIN, you will lose all data when you re-register Signal unless you manually back up and restore. You can not turn on Registration Lock while the PIN is disabled.</string>
-    <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PINs keep information stored with Signal encrypted so only you can access it. Your profile, settings, and contacts will restore when you reinstall. You won’t need your PIN to open the app.</string>
+    <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">If you disable the PIN, you will lose all data when you re-register Grapherex unless you manually back up and restore. You can not turn on Registration Lock while the PIN is disabled.</string>
+    <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PINs keep information stored with Grapherex encrypted so only you can access it. Your profile, settings, and contacts will restore when you reinstall. You won’t need your PIN to open the app.</string>
     <string name="preferences__system_default">System default</string>
     <string name="preferences__language">Language</string>
-    <string name="preferences__signal_messages_and_calls">Signal messages and calls</string>
+    <string name="preferences__signal_messages_and_calls">Grapherex messages and calls</string>
     <string name="preferences__advanced_pin_settings">Advanced PIN settings</string>
-    <string name="preferences__free_private_messages_and_calls">Free private messages and calls to Signal users</string>
+    <string name="preferences__free_private_messages_and_calls">Free private messages and calls to Grapherex users</string>
     <string name="preferences__submit_debug_log">Submit debug log</string>
     <string name="preferences__delete_account">Delete account</string>
     <string name="preferences__support_wifi_calling">\'WiFi Calling\' compatibility mode</string>
@@ -2327,8 +2327,8 @@
     <string name="preferences_storage__s_messages">%1$s messages</string>
     <string name="preferences_storage__custom">Custom</string>
     <string name="preferences_advanced__use_system_emoji">Use system emoji</string>
-    <string name="preferences_advanced__disable_signal_built_in_emoji_support">Disable Signal\'s built-in emoji support</string>
-    <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Relay all calls through the Signal server to avoid revealing your IP address to your contact. Enabling will reduce call quality.</string>
+    <string name="preferences_advanced__disable_signal_built_in_emoji_support">Disable Grapherex\'s built-in emoji support</string>
+    <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Relay all calls through the Grapherex server to avoid revealing your IP address to your contact. Enabling will reduce call quality.</string>
     <string name="preferences_advanced__always_relay_calls">Always relay calls</string>
     <string name="preferences_app_protection__who_can">Who can…</string>
     <string name="preferences_app_protection__app_access">App access</string>
@@ -2348,9 +2348,9 @@
     <string name="preferences_notifications__calls">Calls</string>
     <string name="preferences_notifications__ringtone">Ringtone</string>
     <string name="preferences_chats__show_invitation_prompts">Show invitation prompts</string>
-    <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Display invitation prompts for contacts without Signal</string>
+    <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Display invitation prompts for contacts without Grapherex</string>
     <string name="preferences_chats__message_text_size">Message font size</string>
-    <string name="preferences_events__contact_joined_signal">Contact joined Signal</string>
+    <string name="preferences_events__contact_joined_signal">Contact joined Grapherex</string>
     <string name="preferences_notifications__priority">Priority</string>
     <string name="preferences_communication__category_sealed_sender">Sealed Sender</string>
     <string name="preferences_communication__sealed_sender_display_indicators">Display indicators</string>
@@ -2364,7 +2364,7 @@
     <string name="preferences_off">Off</string>
     <string name="preferences_on">On</string>
     <string name="preferences_proxy_address">Proxy address</string>
-    <string name="preferences_only_use_a_proxy_if">Only use a proxy if you\'re not able to connect to Signal on cellular or Wi-Fi.</string>
+    <string name="preferences_only_use_a_proxy_if">Only use a proxy if you\'re not able to connect to Grapherex on cellular or Wi-Fi.</string>
     <string name="preferences_share">Share</string>
     <string name="preferences_save">Save</string>
     <string name="preferences_connecting_to_proxy">Connecting to proxy…</string>
@@ -2413,7 +2413,7 @@
     <string name="preferences__internal_force_storage_service_sync_description" translatable="false">Forces remote storage to match the local device state.</string>
     <string name="preferences__internal_network" translatable="false">Network</string>
     <string name="preferences__internal_force_censorship" translatable="false">Force censorship</string>
-    <string name="preferences__internal_force_censorship_description" translatable="false">Force the app to behave as if it is in a country where Signal is censored.</string>
+    <string name="preferences__internal_force_censorship_description" translatable="false">Force the app to behave as if it is in a country where Grapherex is censored.</string>
     <string name="preferences__internal_conversations_and_shortcuts" translatable="false">Conversations and Shortcuts</string>
     <string name="preferences__internal_delete_all_dynamic_shortcuts" translatable="false">Delete all dynamic shortcuts</string>
     <string name="preferences__internal_click_to_delete_all_dynamic_shortcuts" translatable="false">Click to delete all dynamic shortcuts</string>
@@ -2426,7 +2426,7 @@
     <string name="PaymentsAllActivityFragment__received">Received</string>
 
     <string name="PaymentsHomeFragment__introducing_payments">Introducing payments (Beta)</string>
-    <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Use Signal to send and receive MobileCoin, a new privacy focused digital currency. Activate to get started.</string>
+    <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Use Grapherex to send and receive MobileCoin, a new privacy focused digital currency. Activate to get started.</string>
     <string name="PaymentsHomeFragment__activate_payments">Activate Payments</string>
     <string name="PaymentsHomeFragment__activating_payments">Activating payments…</string>
     <string name="PaymentsHomeFragment__restore_payments_account">Restore payments account</string>
@@ -2453,18 +2453,18 @@
     <string name="PaymentsHomeFragment__payments_is_not_available_in_your_region">Payments is not available in your region.</string>
     <string name="PaymentsHomeFragment__could_not_enable_payments">Could not enable payments. Try again later.</string>
     <string name="PaymentsHomeFragment__deactivate_payments_question">Deactivate Payments?</string>
-    <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">You will not be able to send or receive MobileCoin in Signal if you deactivate payments.</string>
+    <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">You will not be able to send or receive MobileCoin in Grapherex if you deactivate payments.</string>
     <string name="PaymentsHomeFragment__deactivate">Deactivate</string>
     <string name="PaymentsHomeFragment__continue">Continue</string>
     <string name="PaymentsHomeFragment__balance_is_not_currently_available">Balance is not currently available.</string>
     <string name="PaymentsHomeFragment__payments_deactivated">Payments deactivated.</string>
     <string name="PaymentsHomeFragment__payment_failed">Payment failed</string>
     <string name="PaymentsHomeFragment__details">Details</string>
-    <string name="PaymentsHomeFragment__learn_more__activate_payments" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_activate </string>
-    <string name="PaymentsHomeFragment__you_can_use_signal_to_send">You can use Signal to send and receive MobileCoin. All payments are subject to the Terms of Use for MobileCoins and the MobileCoin Wallet. This is a beta feature so you may encounter some issues and payments or balances you may lose can\'t be recovered. </string>
+    <string name="PaymentsHomeFragment__learn_more__activate_payments" translatable="false">https://support.Grapherex.org/hc/articles/360057625692#payments_activate </string>
+    <string name="PaymentsHomeFragment__you_can_use_signal_to_send">You can use Grapherex to send and receive MobileCoin. All payments are subject to the Terms of Use for MobileCoins and the MobileCoin Wallet. This is a beta feature so you may encounter some issues and payments or balances you may lose can\'t be recovered. </string>
     <string name="PaymentsHomeFragment__activate">Activate</string>
     <string name="PaymentsHomeFragment__view_mobile_coin_terms">View MobileCoin terms</string>
-    <string name="PaymentsHomeFragment__payments_not_available">Payments in Signal is no longer available. You can still transfer funds to an exchange but you can no longer send and receive payments or add funds.</string>
+    <string name="PaymentsHomeFragment__payments_not_available">Payments in Grapherex is no longer available. You can still transfer funds to an exchange but you can no longer send and receive payments or add funds.</string>
 
     <string name="PaymentsHomeFragment__mobile_coin_terms_url" translatable="false">https://www.mobilecoin.com/terms-of-use.html</string>
 
@@ -2474,7 +2474,7 @@
     <string name="PaymentsAddMoneyFragment__copy">Copy</string>
     <string name="PaymentsAddMoneyFragment__copied_to_clipboard">Copied to clipboard</string>
     <string name="PaymentsAddMoneyFragment__to_add_funds">To add funds, send MobileCoin to your wallet address. Start a transaction from your account on an exchange that supports MobileCoin, then scan the QR code or copy your wallet address.</string>
-    <string name="PaymentsAddMoneyFragment__learn_more__information" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_transfer_from_exchange</string>
+    <string name="PaymentsAddMoneyFragment__learn_more__information" translatable="false">https://support.Grapherex.org/hc/articles/360057625692#payments_transfer_from_exchange</string>
     
     <!-- PaymentsDetailsFragment -->
     <string name="PaymentsDetailsFragment__details">Details</string>
@@ -2494,8 +2494,8 @@
     <string name="PaymentsDetailsFragment__coin_cleanup_fee">Coin cleanup fee</string>
     <string name="PaymentsDetailsFragment__coin_cleanup_information">A “coin cleanup fee” is charged when the coins in your possession can not be combined to complete a transaction. Cleanup will allow you to continue sending payments.</string>
     <string name="PaymentsDetailsFragment__no_details_available">No further details available for this transaction</string>
-    <string name="PaymentsDetailsFragment__learn_more__information" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_details</string>
-    <string name="PaymentsDetailsFragment__learn_more__cleanup_fee" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_details_fees</string>
+    <string name="PaymentsDetailsFragment__learn_more__information" translatable="false">https://support.Grapherex.org/hc/articles/360057625692#payments_details</string>
+    <string name="PaymentsDetailsFragment__learn_more__cleanup_fee" translatable="false">https://support.Grapherex.org/hc/articles/360057625692#payments_details_fees</string>
     <string name="PaymentsDetailsFragment__sent_payment">Sent payment</string>
     <string name="PaymentsDetailsFragment__received_payment">Received payment</string>
     <string name="PaymentsDeatilsFragment__payment_completed_s">Payment completed %1$s</string>
@@ -2509,10 +2509,10 @@
     <string name="PaymentsTransferFragment__next">Next</string>
     <string name="PaymentsTransferFragment__invalid_address">Invalid address</string>
     <string name="PaymentsTransferFragment__check_the_wallet_address">Check the wallet address you\'re attempting to transfer to and try again.</string>
-    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">You can\'t transfer to your own Signal wallet address. Enter the wallet address from your account at a supported exchange.</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">To scan a QR code, Signal needs access to the camera.</string>
-    <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Signal needs the Camera permission to capture a QR code. Go to settings, select \"Permissions\", and enable \"Camera\".</string>
-    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">To scan a QR code, Signal needs access to the camera.</string>
+    <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">You can\'t transfer to your own Grapherex wallet address. Enter the wallet address from your account at a supported exchange.</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">To scan a QR code, Grapherex needs access to the camera.</string>
+    <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Grapherex needs the Camera permission to capture a QR code. Go to settings, select \"Permissions\", and enable \"Camera\".</string>
+    <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">To scan a QR code, Grapherex needs access to the camera.</string>
     <string name="PaymentsTransferFragment__settings">Settings</string>
 
     <!-- PaymentsTransferQrScanFragment -->
@@ -2539,7 +2539,7 @@
     <string name="CreatePaymentFragment__backspace">Backspace</string>
     <string name="CreatePaymentFragment__add_note">Add note</string>
     <string name="CreatePaymentFragment__conversions_are_just_estimates">Conversions are just estimates and may not be accurate.</string>
-    <string name="CreatePaymentFragment__learn_more__conversions" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_currency_conversion</string>
+    <string name="CreatePaymentFragment__learn_more__conversions" translatable="false">https://support.Grapherex.org/hc/articles/360057625692#payments_currency_conversion</string>
 
     <!-- EditNoteFragment -->
     <string name="EditNoteFragment_note">Note</string>
@@ -2581,8 +2581,8 @@
     <string name="conversation_callable_insecure__menu_call">Call</string>
 
     <!-- conversation_callable_secure -->
-    <string name="conversation_callable_secure__menu_call">Signal call</string>
-    <string name="conversation_callable_secure__menu_video">Signal video call</string>
+    <string name="conversation_callable_secure__menu_call">Grapherex call</string>
+    <string name="conversation_callable_secure__menu_video">Grapherex video call</string>
 
     <!-- conversation_context -->
     <string name="conversation_context__menu_message_details">Message details</string>
@@ -2676,10 +2676,10 @@
 
     <!-- reminder_header -->
     <string name="reminder_header_sms_import_title">Import system SMS</string>
-    <string name="reminder_header_sms_import_text">Tap to copy your phone\'s SMS messages into Signal\'s encrypted database.</string>
-    <string name="reminder_header_push_title">Enable Signal messages and calls</string>
+    <string name="reminder_header_sms_import_text">Tap to copy your phone\'s SMS messages into Grapherex\'s encrypted database.</string>
+    <string name="reminder_header_push_title">Enable Grapherex messages and calls</string>
     <string name="reminder_header_push_text">Upgrade your communication experience.</string>
-    <string name="reminder_header_service_outage_text">Signal is experiencing technical difficulties. We are working hard to restore service as quickly as possible.</string>
+    <string name="reminder_header_service_outage_text">Grapherex is experiencing technical difficulties. We are working hard to restore service as quickly as possible.</string>
     <string name="reminder_header_progress">%1$d%%</string>
 
     <!-- media_preview -->
@@ -2699,23 +2699,23 @@
     <string name="Insights__percent">%</string>
     <string name="Insights__title">Insights</string>
     <string name="InsightsDashboardFragment__title">Insights</string>
-    <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Signal Protocol automatically protected %1$d%% of your outgoing messages over the past %2$d days. Conversations between Signal users are always end-to-end encrypted.</string>
-    <string name="InsightsDashboardFragment__boost_your_signal">Signal boost</string>
+    <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Grapherex Protocol automatically protected %1$d%% of your outgoing messages over the past %2$d days. Conversations between Grapherex users are always end-to-end encrypted.</string>
+    <string name="InsightsDashboardFragment__boost_your_signal">Grapherex boost</string>
     <string name="InsightsDashboardFragment__not_enough_data">Not enough data</string>
     <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">Your Insights percentage is calculated based on outgoing messages within the past %1$d days that have not disappeared or been deleted.</string>
     <string name="InsightsDashboardFragment__start_a_conversation">Start a conversation</string>
-    <string name="InsightsDashboardFragment__invite_your_contacts">Start communicating securely and enable new features that go beyond the limitations of unencrypted SMS messages by inviting more contacts to join Signal.</string>
+    <string name="InsightsDashboardFragment__invite_your_contacts">Start communicating securely and enable new features that go beyond the limitations of unencrypted SMS messages by inviting more contacts to join Grapherex.</string>
     <string name="InsightsDashboardFragment__this_stat_was_generated_locally">These statistics were locally generated on your device and can only be seen by you. They are never transmitted anywhere.</string>
     <string name="InsightsDashboardFragment__encrypted_messages">Encrypted messages</string>
     <string name="InsightsDashboardFragment__cancel">Cancel</string>
     <string name="InsightsDashboardFragment__send">Send</string>
     <string name="InsightsModalFragment__title">Introducing Insights</string>
-    <string name="InsightsModalFragment__description">Find out how many of your outgoing messages were sent securely, then quickly invite new contacts to boost your Signal percentage.</string>
+    <string name="InsightsModalFragment__description">Find out how many of your outgoing messages were sent securely, then quickly invite new contacts to boost your Grapherex percentage.</string>
     <string name="InsightsModalFragment__view_insights">View Insights</string>
 
-    <string name="FirstInviteReminder__title">Invite to Signal</string>
+    <string name="FirstInviteReminder__title">Invite to Grapherex</string>
     <string name="FirstInviteReminder__description">You could increase the number of encrypted messages you send by %1$d%%</string>
-    <string name="SecondInviteReminder__title">Boost your Signal</string>
+    <string name="SecondInviteReminder__title">Boost your Grapherex</string>
     <string name="SecondInviteReminder__description">Invite %1$s</string>
     <string name="InsightsReminder__view_insights">View Insights</string>
     <string name="InsightsReminder__invite">Invite</string>
@@ -2726,7 +2726,7 @@
     <string name="BaseKbsPinFragment__next">Next</string>
     <string name="BaseKbsPinFragment__create_alphanumeric_pin">Create alphanumeric PIN</string>
     <string name="BaseKbsPinFragment__create_numeric_pin">Create numeric PIN</string>
-    <string name="BaseKbsPinFragment__learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string>
+    <string name="BaseKbsPinFragment__learn_more_url" translatable="false">https://support.Grapherex.org/hc/articles/360007059792</string>
 
     <!-- CreateKbsPinFragment -->
     <plurals name="CreateKbsPinFragment__pin_must_be_at_least_characters">
@@ -2740,7 +2740,7 @@
     <string name="CreateKbsPinFragment__create_a_new_pin">Create a new PIN</string>
     <string name="CreateKbsPinFragment__you_can_choose_a_new_pin_as_long_as_this_device_is_registered">You can change your PIN as long as this device is registered.</string>
     <string name="CreateKbsPinFragment__create_your_pin">Create your PIN</string>
-    <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">PINs keep information stored with Signal encrypted so only you can access it. Your profile, settings, and contacts will restore when you reinstall. You won\'t need your PIN to open the app.</string>
+    <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">PINs keep information stored with Grapherex encrypted so only you can access it. Your profile, settings, and contacts will restore when you reinstall. You won\'t need your PIN to open the app.</string>
     <string name="CreateKbsPinFragment__choose_a_stronger_pin">Choose a stronger PIN</string>
 
     <!-- ConfirmKbsPinFragment -->
@@ -2754,9 +2754,9 @@
 
     <!-- KbsSplashFragment -->
     <string name="KbsSplashFragment__introducing_pins">Introducing PINs</string>
-    <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PINs keep information stored with Signal encrypted so only you can access it. Your profile, settings, and contacts will restore when you reinstall. You won\'t need your PIN to open the app.</string>
+    <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PINs keep information stored with Grapherex encrypted so only you can access it. Your profile, settings, and contacts will restore when you reinstall. You won\'t need your PIN to open the app.</string>
     <string name="KbsSplashFragment__learn_more">Learn More</string>
-    <string name="KbsSplashFragment__learn_more_link" translatable="false">https://support.signal.org/hc/articles/360007059792</string>
+    <string name="KbsSplashFragment__learn_more_link" translatable="false">https://support.Grapherex.org/hc/articles/360007059792</string>
     <string name="KbsSplashFragment__registration_lock_equals_pin">Registration Lock = PIN</string>
     <string name="KbsSplashFragment__your_registration_lock_is_now_called_a_pin">Your Registration Lock is now called a PIN, and it does more. Update it now.</string>
     <string name="KbsSplashFragment__update_pin">Update PIN</string>
@@ -2765,7 +2765,7 @@
     <string name="KbsSplashFragment__disable_pin">Disable PIN</string>
 
     <!-- KBS Reminder Dialog -->
-    <string name="KbsReminderDialog__enter_your_signal_pin">Enter your Signal PIN</string>
+    <string name="KbsReminderDialog__enter_your_signal_pin">Enter your Grapherex PIN</string>
     <string name="KbsReminderDialog__to_help_you_memorize_your_pin">To help you memorize your PIN, we\'ll ask you to enter it periodically. We ask you less over time.</string>
     <string name="KbsReminderDialog__skip">Skip</string>
     <string name="KbsReminderDialog__submit">Submit</string>
@@ -2777,7 +2777,7 @@
     <string name="AccountLockedFragment__your_account_has_been_locked_to_protect_your_privacy">Your account has been locked to protect your privacy and security. After %1$d days of inactivity in your account you\'ll be able to re-register this phone number without needing your PIN. All content will be deleted.</string>
     <string name="AccountLockedFragment__next">Next</string>
     <string name="AccountLockedFragment__learn_more">Learn More</string>
-    <string name="AccountLockedFragment__learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string>
+    <string name="AccountLockedFragment__learn_more_url" translatable="false">https://support.Grapherex.org/hc/articles/360007059792</string>
 
     <!-- KbsLockFragment -->
     <string name="RegistrationLockFragment__enter_your_pin">Enter your PIN</string>
@@ -2789,8 +2789,8 @@
     <string name="RegistrationLockFragment__incorrect_pin">Incorrect PIN</string>
     <string name="RegistrationLockFragment__forgot_your_pin">Forgot your PIN?</string>
     <string name="RegistrationLockFragment__not_many_tries_left">Not many tries left!</string>
-    <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Signal Registration - Need Help with PIN for Android (v1 PIN)</string>
-    <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Signal Registration - Need Help with PIN for Android (v2 PIN)</string>
+    <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Grapherex Registration - Need Help with PIN for Android (v1 PIN)</string>
+    <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Grapherex Registration - Need Help with PIN for Android (v2 PIN)</string>
 
     <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
         <item quantity="one">For your privacy and security, there is no way to recover your PIN. If you can\'t remember your PIN, you can re-verify with SMS after %1$d day of inactivity. In this case, your account will be wiped and all content deleted.</item>
@@ -2822,31 +2822,31 @@
 
     <!-- KBS Megaphone -->
     <string name="KbsMegaphone__create_a_pin">Create a PIN</string>
-    <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PINs keep information that’s stored with Signal encrypted.</string>
+    <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PINs keep information that’s stored with Grapherex encrypted.</string>
     <string name="KbsMegaphone__create_pin">Create PIN</string>
 
     <!-- Research Megaphone -->
-    <string name="ResearchMegaphone_tell_signal_what_you_think">Tell Signal what you think</string>
-    <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">To make Signal the best messaging app on the planet, we\'d love to hear your feedback.</string>
+    <string name="ResearchMegaphone_tell_signal_what_you_think">Tell Grapherex what you think</string>
+    <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">To make Grapherex the best messaging app on the planet, we\'d love to hear your feedback.</string>
     <string name="ResearchMegaphone_learn_more">Learn more</string>
     <string name="ResearchMegaphone_dismiss">Dismiss</string>
 
-    <string name="ResearchMegaphoneDialog_signal_research">Signal Research</string>
-    <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>We believe in privacy.</b></p><p>Signal doesn\'t track you or collect your data. To improve Signal for everyone, we rely on user feedback, <b>and we\'d love yours.</b></p><p>We\'re running a survey to understand how you use Signal. Our survey doesn\'t collect any data that will identify you. If you’re interested in sharing additional feedback, you\'ll have the option to provide contact information.</p><p>If you have a few minutes and feedback to offer, we\'d love to hear from you.</p>]]></string>
+    <string name="ResearchMegaphoneDialog_signal_research">Grapherex Research</string>
+    <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>We believe in privacy.</b></p><p>Grapherex doesn\'t track you or collect your data. To improve Grapherex for everyone, we rely on user feedback, <b>and we\'d love yours.</b></p><p>We\'re running a survey to understand how you use Grapherex. Our survey doesn\'t collect any data that will identify you. If you’re interested in sharing additional feedback, you\'ll have the option to provide contact information.</p><p>If you have a few minutes and feedback to offer, we\'d love to hear from you.</p>]]></string>
     <string name="ResearchMegaphoneDialog_take_the_survey">Take the survey</string>
     <string name="ResearchMegaphoneDialog_no_thanks">No thanks</string>
-    <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">The survey is hosted by Alchemer at the secure domain surveys.signalusers.org</string>
+    <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">The survey is hosted by Alchemer at the secure domain surveys.Grapherexusers.org</string>
 
     <!-- transport_selection_list_item -->
     <string name="transport_selection_list_item__transport_icon">Transport icon</string>
     <string name="ConversationListFragment_loading">Loading…</string>
     <string name="CallNotificationBuilder_connecting">Connecting…</string>
     <string name="Permissions_permission_required">Permission required</string>
-    <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Signal needs SMS permission in order to send an SMS, but it has been permanently denied. Please continue to app settings, select \"Permissions\" and enable \"SMS\".</string>
+    <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Grapherex needs SMS permission in order to send an SMS, but it has been permanently denied. Please continue to app settings, select \"Permissions\" and enable \"SMS\".</string>
     <string name="Permissions_continue">Continue</string>
     <string name="Permissions_not_now">Not now</string>
-    <string name="conversation_activity__enable_signal_messages">ENABLE SIGNAL MESSAGES</string>
-    <string name="SQLCipherMigrationHelper_migrating_signal_database">Migrating Signal database</string>
+    <string name="conversation_activity__enable_signal_messages">ENABLE Grapherex MESSAGES</string>
+    <string name="SQLCipherMigrationHelper_migrating_signal_database">Migrating Grapherex database</string>
     <string name="PushDecryptJob_new_locked_message">New locked message</string>
     <string name="PushDecryptJob_unlock_to_view_pending_messages">Unlock to view pending messages</string>
     <string name="enter_backup_passphrase_dialog__backup_passphrase">Backup passphrase</string>
@@ -2864,7 +2864,7 @@
     <string name="preferences_chats__transfer_account_to_a_new_android_device">Transfer account to a new Android device</string>
     <string name="RegistrationActivity_enter_backup_passphrase">Enter backup passphrase</string>
     <string name="RegistrationActivity_restore">Restore</string>
-    <string name="RegistrationActivity_backup_failure_downgrade">Cannot import backups from newer versions of Signal</string>
+    <string name="RegistrationActivity_backup_failure_downgrade">Cannot import backups from newer versions of Grapherex</string>
     <string name="RegistrationActivity_incorrect_backup_passphrase">Incorrect backup passphrase</string>
     <string name="RegistrationActivity_checking">Checking…</string>
     <string name="RegistrationActivity_d_messages_so_far">%d messages so far…</string>
@@ -2895,8 +2895,8 @@
     <string name="ProgressPreference_d_messages_so_far">%d messages so far</string>
     <string name="RegistrationActivity_wrong_number">Wrong number</string>
     <string name="RegistrationActivity_call_me_instead_available_in">Call me instead \n (Available in %1$02d:%2$02d)</string>
-    <string name="RegistrationActivity_contact_signal_support">Contact Signal Support</string>
-    <string name="RegistrationActivity_code_support_subject">Signal Registration - Verification Code for Android</string>
+    <string name="RegistrationActivity_contact_signal_support">Contact Grapherex Support</string>
+    <string name="RegistrationActivity_code_support_subject">Grapherex Registration - Verification Code for Android</string>
     <string name="BackupUtil_never">Never</string>
     <string name="BackupUtil_unknown">Unknown</string>
     <string name="preferences_app_protection__see_my_phone_number">See my phone number</string>
@@ -2905,21 +2905,21 @@
     <string name="PhoneNumberPrivacy_my_contacts">My contacts</string>
     <string name="PhoneNumberPrivacy_nobody">Nobody</string>
     <string name="PhoneNumberPrivacy_everyone_see_description">Your phone number will be visible to all people and groups you message.</string>
-    <string name="PhoneNumberPrivacy_everyone_find_description">Anyone who has your phone number in their contacts will see you as a contact on Signal. Others will be able to find you in search.</string>
+    <string name="PhoneNumberPrivacy_everyone_find_description">Anyone who has your phone number in their contacts will see you as a contact on Grapherex. Others will be able to find you in search.</string>
     <string name="preferences_app_protection__screen_lock">Screen lock</string>
-    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Lock Signal access with Android screen lock or fingerprint</string>
+    <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Lock Grapherex access with Android screen lock or fingerprint</string>
     <string name="preferences_app_protection__screen_lock_inactivity_timeout">Screen lock inactivity timeout</string>
-    <string name="preferences_app_protection__signal_pin">Signal PIN</string>
+    <string name="preferences_app_protection__signal_pin">Grapherex PIN</string>
     <string name="preferences_app_protection__create_a_pin">Create a PIN</string>
     <string name="preferences_app_protection__change_your_pin">Change your PIN</string>
     <string name="preferences_app_protection__pin_reminders">PIN reminders</string>
-    <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PINs keep information stored with Signal encrypted so only you can access it. Your profile, settings, and contacts will restore when you reinstall Signal.</string>
-    <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Add extra security by requiring your Signal PIN to register your phone number with Signal again.</string>
+    <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PINs keep information stored with Grapherex encrypted so only you can access it. Your profile, settings, and contacts will restore when you reinstall Grapherex.</string>
+    <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Add extra security by requiring your Grapherex PIN to register your phone number with Grapherex again.</string>
     <string name="preferences_app_protection__reminders_help_you_remember_your_pin">Reminders help you remember your PIN since it can\'t be recovered. You\'ll be asked less frequently over time.</string>
     <string name="preferences_app_protection__turn_off">Turn off</string>
     <string name="preferences_app_protection__confirm_pin">Confirm PIN</string>
-    <string name="preferences_app_protection__confirm_your_signal_pin">Confirm your Signal PIN</string>
-    <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Make sure you memorize or securely store your PIN as it can\'t be recovered. If you forget your PIN, you may lose data when re-registering your Signal account.</string>
+    <string name="preferences_app_protection__confirm_your_signal_pin">Confirm your Grapherex PIN</string>
+    <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Make sure you memorize or securely store your PIN as it can\'t be recovered. If you forget your PIN, you may lose data when re-registering your Grapherex account.</string>
     <string name="preferences_app_protection__incorrect_pin_try_again">Incorrect PIN. Try again.</string>
     <string name="preferences_app_protection__failed_to_enable_registration_lock">Failed to enable registration lock.</string>
     <string name="preferences_app_protection__failed_to_disable_registration_lock">Failed to disable registration lock.</string>
@@ -2932,13 +2932,13 @@
     <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">You\'ve made too many attempts. Please try again later.</string>
     <string name="RegistrationActivity_error_connecting_to_service">Error connecting to service</string>
     <string name="preferences_chats__backups">Backups</string>
-    <string name="prompt_passphrase_activity__signal_is_locked">Signal is locked</string>
+    <string name="prompt_passphrase_activity__signal_is_locked">Grapherex is locked</string>
     <string name="prompt_passphrase_activity__tap_to_unlock">TAP TO UNLOCK</string>
     <string name="Recipient_unknown">Unknown</string>
 
     <!-- TransferOrRestoreFragment -->
     <string name="TransferOrRestoreFragment__transfer_or_restore_account">Transfer or restore account</string>
-    <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">If you have previously registered a Signal account, you can transfer or restore your account and messages</string>
+    <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">If you have previously registered a Grapherex account, you can transfer or restore your account and messages</string>
     <string name="TransferOrRestoreFragment__transfer_from_android_device">Transfer from Android device</string>
     <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">Transfer your account and messages from your old Android device. You need access to your old device.</string>
     <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">You need access to your old device.</string>
@@ -2946,7 +2946,7 @@
     <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">Restore your messages from a local backup. If you don’t restore now, you won\'t be able to restore later.</string>
 
     <!-- NewDeviceTransferInstructionsFragment -->
-    <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Open Signal on your old Android phone</string>
+    <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Open Grapherex on your old Android phone</string>
     <string name="NewDeviceTransferInstructions__continue">Continue</string>
     <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
     <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">Tap on your profile photo in the top left to open Settings</string>
@@ -2959,19 +2959,19 @@
     <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">Preparing to connect to old Android device…</string>
     <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">Taking a moment, should be ready soon</string>
     <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">Waiting for old Android device to connect…</string>
-    <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Signal needs the location permission to discover and connect to your old Android device.</string>
-    <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Signal needs location services enabled to discover and connect with your old Android device.</string>
-    <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Signal needs Wi-Fi on to discover and connect with your old Android device. Wi-Fi needs to be on but it does not have to be connected to a Wi-Fi network.</string>
-    <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Sorry, it appears this device does not support Wi-Fi Direct. Signal uses Wi-Fi Direct to discover and connect with your old Android device. You can still restore a backup to restore your account from your old Android device.</string>
+    <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Grapherex needs the location permission to discover and connect to your old Android device.</string>
+    <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Grapherex needs location services enabled to discover and connect with your old Android device.</string>
+    <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Grapherex needs Wi-Fi on to discover and connect with your old Android device. Wi-Fi needs to be on but it does not have to be connected to a Wi-Fi network.</string>
+    <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Sorry, it appears this device does not support Wi-Fi Direct. Grapherex uses Wi-Fi Direct to discover and connect with your old Android device. You can still restore a backup to restore your account from your old Android device.</string>
     <string name="NewDeviceTransferSetup__restore_a_backup">Restore a backup</string>
     <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">An unexpected error occurred while attempting to connect to your old Android device.</string>
 
     <!-- OldDeviceTransferSetupFragment -->
     <string name="OldDeviceTransferSetup__searching_for_new_android_device">Searching for new Android device…</string>
-    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Signal needs the location permission to discover and connect to your new Android device.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Signal needs location services enabled to discover and connect with your new Android device.</string>
-    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Signal needs Wi-Fi on to discover and connect with your new Android device. Wi-Fi needs to be on but it does not have to be connected to a Wi-Fi network.</string>
-    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Sorry, it appears this device does not support Wi-Fi Direct. Signal uses Wi-Fi Direct to discover and connect with your new Android device. You can still create a backup to restore your account on your new Android device.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Grapherex needs the location permission to discover and connect to your new Android device.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Grapherex needs location services enabled to discover and connect with your new Android device.</string>
+    <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Grapherex needs Wi-Fi on to discover and connect with your new Android device. Wi-Fi needs to be on but it does not have to be connected to a Wi-Fi network.</string>
+    <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Sorry, it appears this device does not support Wi-Fi Direct. Grapherex uses Wi-Fi Direct to discover and connect with your new Android device. You can still create a backup to restore your account on your new Android device.</string>
     <string name="OldDeviceTransferSetup__create_a_backup">Create a backup</string>
     <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">An unexpected error occurred while attempting to connect to your new Android device.</string>
 
@@ -3008,11 +3008,11 @@
     <string name="DeviceTransferSetup__tap_continue_on_your_other_device">Tap Continue on your other device…</string>
 
     <!-- NewDeviceTransferFragment -->
-    <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Cannot transfer from a newer versions of Signal</string>
+    <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Cannot transfer from a newer versions of Grapherex</string>
 
     <!-- DeviceTransferFragment -->
     <string name="DeviceTransfer__transferring_data">Transferring data</string>
-    <string name="DeviceTransfer__keep_both_devices_near_each_other">Keep both devices near each other. Do not turn off the devices and keep Signal open. Transfers are end-to-end encrypted.</string>
+    <string name="DeviceTransfer__keep_both_devices_near_each_other">Keep both devices near each other. Do not turn off the devices and keep Grapherex open. Transfers are end-to-end encrypted.</string>
     <string name="DeviceTransfer__d_messages_so_far">%1$d messages so far…</string>
     <string name="DeviceTransfer__cancel">Cancel</string>
     <string name="DeviceTransfer__try_again">Try again</string>
@@ -3024,9 +3024,9 @@
 
     <!-- OldDeviceTransferInstructionsFragment -->
     <string name="OldDeviceTransferInstructions__transfer_account">Transfer Account</string>
-    <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">You can transfer your Signal account when setting up Signal on a new Android device. Before continuing:</string>
+    <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">You can transfer your Grapherex account when setting up Grapherex on a new Android device. Before continuing:</string>
     <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Download Signal on your new Android device</string>
+    <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Download Grapherex on your new Android device</string>
     <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
     <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">Tap on "Transfer or restore account"</string>
     <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -3036,7 +3036,7 @@
     <!-- OldDeviceTransferComplete -->
     <string name="OldDeviceTransferComplete__transfer_complete">Transfer complete</string>
     <string name="OldDeviceTransferComplete__go_to_your_new_device">Go to your new device</string>
-    <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Your Signal data has been transferred to your new device. To complete the transfer process, you must continue registration on your new device.</string>
+    <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Your Grapherex data has been transferred to your new device. To complete the transfer process, you must continue registration on your new device.</string>
     <string name="OldDeviceTransferComplete__close">Close</string>
 
     <!-- NewDeviceTransferComplete -->
@@ -3056,7 +3056,7 @@
 
     <!-- OldDeviceTransferLockedDialog -->
     <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">Complete registration on your new device</string>
-    <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Your Signal account has been transferred to your new device, but you must complete registration on it to continue. Signal will be inactive on this device.</string>
+    <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Your Grapherex account has been transferred to your new device, but you must complete registration on it to continue. Grapherex will be inactive on this device.</string>
     <string name="OldDeviceTransferLockedDialog__done">Done</string>
     <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">Cancel and activate this device</string>
 
@@ -3098,13 +3098,13 @@
     <string name="GroupsLearnMore_what_are_legacy_groups">What are Legacy Groups?</string>
     <string name="GroupsLearnMore_paragraph_1">Legacy Groups are groups that are not compatible with New Group features like admins and more descriptive group updates.</string>
     <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">Can I upgrade a Legacy Group?</string>
-    <string name="GroupsLearnMore_paragraph_2">Legacy Groups can\'t yet be upgraded to New Groups, but you can create a New Group with the same members if they\'re on the latest version of Signal.</string>
-    <string name="GroupsLearnMore_paragraph_3">Signal will offer a way to upgrade Legacy Groups in the future.</string>
+    <string name="GroupsLearnMore_paragraph_2">Legacy Groups can\'t yet be upgraded to New Groups, but you can create a New Group with the same members if they\'re on the latest version of Grapherex.</string>
+    <string name="GroupsLearnMore_paragraph_3">Grapherex will offer a way to upgrade Legacy Groups in the future.</string>
 
     <!-- GroupLinkBottomSheetDialogFragment -->
     <string name="GroupLinkBottomSheet_share_hint_requiring_approval">Anyone with this link can view the group\'s name and photo and request to join. Share it with people you trust.</string>
     <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">Anyone with this link can view the group\'s name and photo and join the group. Share it with people you trust.</string>
-    <string name="GroupLinkBottomSheet_share_via_signal">Share via Signal</string>
+    <string name="GroupLinkBottomSheet_share_via_signal">Share via Grapherex</string>
     <string name="GroupLinkBottomSheet_copy">Copy</string>
     <string name="GroupLinkBottomSheet_qr_code">QR Code</string>
     <string name="GroupLinkBottomSheet_share">Share</string>
@@ -3177,7 +3177,7 @@
     <string name="DeleteAccountFragment__no_number">No number specified</string>
     <string name="DeleteAccountFragment__the_phone_number">The phone number you entered doesn\'t match your account\'s.</string>
     <string name="DeleteAccountFragment__are_you_sure">Are you sure you want to delete your account?</string>
-    <string name="DeleteAccountFragment__this_will_delete_your_signal_account">This will delete your Signal account and reset the application. The app will close after the process is complete.</string>
+    <string name="DeleteAccountFragment__this_will_delete_your_signal_account">This will delete your Grapherex account and reset the application. The app will close after the process is complete.</string>
     <string name="DeleteAccountFragment__failed_to_delete_account">Failed to delete account. Do you have a network connection?</string>
     <string name="DeleteAccountFragment__failed_to_delete_local_data">Failed to delete local data. You can manually clear it in the system application settings.</string>
     <string name="DeleteAccountFragment__launch_app_settings">Launch App Settings</string>
@@ -3192,7 +3192,7 @@
     <string name="ShareActivity__share">Share</string>
     <string name="ShareActivity__send">Send</string>
     <string name="ShareActivity__s_comma">%1$s,</string>
-    <string name="ShareActivity__sharing_to_multiple_chats_is">Sharing to multiple chats is only supported for Signal messages</string>
+    <string name="ShareActivity__sharing_to_multiple_chats_is">Sharing to multiple chats is only supported for Grapherex messages</string>
 
     <!-- MultiShareDialogs -->
     <string name="MultiShareDialogs__failed_to_send_to_some_users">Failed to send to some users</string>
@@ -3243,7 +3243,7 @@
     <string name="payment_info_card_about_mobilecoin">About MobileCoin</string>
     <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">MobileCoin is a new privacy focused digital currency.</string>
     <string name="payment_info_card_adding_funds">Adding funds</string>
-    <string name="payment_info_card_you_can_add_funds_for_use_in">You can add funds for use in Signal by sending MobileCoin to your wallet address.</string>
+    <string name="payment_info_card_you_can_add_funds_for_use_in">You can add funds for use in Grapherex by sending MobileCoin to your wallet address.</string>
     <string name="payment_info_card_cashing_out">Cashing out</string>
     <string name="payment_info_card_you_can_cash_out_mobilecoin">You can cash out MobileCoin anytime on an exchange that supports MobileCoin. Just make a transfer to your account at that exchange.</string>
     <string name="payment_info_card_hide_this_card">Hide this card?</string>
@@ -3255,27 +3255,27 @@
     <string name="payment_info_card_with_a_high_balance">With a high balance, you may want to update to an alphanumeric PIN to add more protection to your account.</string>
     <string name="payment_info_card_update_pin">Update PIN</string>
 
-    <string name="payment_info_card__learn_more__about_mobilecoin" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_which_ones</string>
-    <string name="payment_info_card__learn_more__adding_to_your_wallet" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_transfer_from_exchange</string>
-    <string name="payment_info_card__learn_more__cashing_out" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_transfer_to_exchange</string>
+    <string name="payment_info_card__learn_more__about_mobilecoin" translatable="false">https://support.Grapherex.org/hc/articles/360057625692#payments_which_ones</string>
+    <string name="payment_info_card__learn_more__adding_to_your_wallet" translatable="false">https://support.Grapherex.org/hc/articles/360057625692#payments_transfer_from_exchange</string>
+    <string name="payment_info_card__learn_more__cashing_out" translatable="false">https://support.Grapherex.org/hc/articles/360057625692#payments_transfer_to_exchange</string>
 
     <!-- DeactivateWalletFragment -->
     <string name="DeactivateWalletFragment__deactivate_wallet">Deactivate Wallet</string>
     <string name="DeactivateWalletFragment__your_balance">Your balance</string>
-    <string name="DeactivateWalletFragment__its_recommended_that_you">It\'s recommended that you transfer your funds to another wallet address before deactivating payments. If you choose not to transfer your funds now, they will remain in your wallet linked to Signal if you reactivate payments.</string>
+    <string name="DeactivateWalletFragment__its_recommended_that_you">It\'s recommended that you transfer your funds to another wallet address before deactivating payments. If you choose not to transfer your funds now, they will remain in your wallet linked to Grapherex if you reactivate payments.</string>
     <string name="DeactivateWalletFragment__transfer_remaining_balance">Transfer remaining balance</string>
     <string name="DeactivateWalletFragment__deactivate_without_transferring">Deactivate without transferring</string>
     <string name="DeactivateWalletFragment__deactivate">Deactivate</string>
     <string name="DeactivateWalletFragment__deactivate_without_transferring_question">Deactivate without transferring?</string>
-    <string name="DeactivateWalletFragment__your_balance_will_remain">Your balance will remain in your wallet linked to Signal if you choose to reactivate payments.</string>
+    <string name="DeactivateWalletFragment__your_balance_will_remain">Your balance will remain in your wallet linked to Grapherex if you choose to reactivate payments.</string>
     <string name="DeactivateWalletFragment__error_deactivating_wallet">Error deactivating wallet.</string>
-    <string name="DeactivateWalletFragment__learn_more__we_recommend_transferring_your_funds" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_deactivate</string>
+    <string name="DeactivateWalletFragment__learn_more__we_recommend_transferring_your_funds" translatable="false">https://support.Grapherex.org/hc/articles/360057625692#payments_deactivate</string>
 
     <!-- PaymentsRecoveryStartFragment -->
     <string name="PaymentsRecoveryStartFragment__recovery_phrase">Recovery phrase</string>
     <string name="PaymentsRecoveryStartFragment__view_recovery_phrase">View recovery phrase</string>
     <string name="PaymentsRecoveryStartFragment__enter_recovery_phrase">Enter recovery phrase</string>
-    <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">Your balance will automatically restore when you reinstall Signal if you confirm your Signal PIN. You can also restore your balance using a recovery phrase, which is a %1$d-word phrase unique to you. Write it down and store it in a safe place.</string>
+    <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">Your balance will automatically restore when you reinstall Grapherex if you confirm your Grapherex PIN. You can also restore your balance using a recovery phrase, which is a %1$d-word phrase unique to you. Write it down and store it in a safe place.</string>
     <string name="PaymentsRecoveryStartFragment__your_recovery_phrase_is_a">Your recovery phrase is a %1$d-word phrase unique to you. Use this phrase to restore your balance.</string>
     <string name="PaymentsRecoveryStartFragment__start">Start</string>
     <string name="PaymentsRecoveryStartFragment__enter_manually">Enter manually</string>
@@ -3288,8 +3288,8 @@
     <string name="PaymentsRecoveryPasteFragment__invalid_recovery_phrase">Invalid recovery phrase</string>
     <string name="PaymentsRecoveryPasteFragment__make_sure">Make sure you\'ve entered %1$d words and try again.</string>
 
-    <string name="PaymentsRecoveryStartFragment__learn_more__view" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_wallet_view_passphrase</string>
-    <string name="PaymentsRecoveryStartFragment__learn_more__restore" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_wallet_restore_passphrase</string>
+    <string name="PaymentsRecoveryStartFragment__learn_more__view" translatable="false">https://support.Grapherex.org/hc/articles/360057625692#payments_wallet_view_passphrase</string>
+    <string name="PaymentsRecoveryStartFragment__learn_more__restore" translatable="false">https://support.Grapherex.org/hc/articles/360057625692#payments_wallet_restore_passphrase</string>
 
     <!-- PaymentsRecoveryPhraseFragment -->
     <string name="PaymentsRecoveryPhraseFragment__next">Next</string>

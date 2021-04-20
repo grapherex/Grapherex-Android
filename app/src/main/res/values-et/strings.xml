@@ -10,22 +10,22 @@
   <string name="AbstractNotificationBuilder_new_message">Uus sõnum</string>
   <!--AlbumThumbnailView-->
   <!--ApplicationMigrationActivity-->
-  <string name="ApplicationMigrationActivity__signal_is_updating">Signalit uuendatakse…</string>
+  <string name="ApplicationMigrationActivity__signal_is_updating">Grapherexit uuendatakse…</string>
   <!--ApplicationPreferencesActivity-->
   <string name="ApplicationPreferencesActivity_currently_s">Hetkel: %s</string>
   <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">Sa pole veel salasõna määranud!</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">Kas keelata salasõna?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">See lukustab Signali ja märguanded püsivalt lahti.</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">See lukustab Grapherexi ja märguanded püsivalt lahti.</string>
   <string name="ApplicationPreferencesActivity_disable">Keela</string>
   <string name="ApplicationPreferencesActivity_unregistering">Registreerimise tühistamine</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Tühistan Signali sõnumite ja kõnede registratsiooni…</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Keelad Signali sõnumid ja kõned?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Keela Signali sõnumid ja kõned, tühistades serveris registratsioon. Sa pead oma telefoninumbri taas-registreerima, kui soovid neid tulevikus kasutada.</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Tühistan Grapherexi sõnumite ja kõnede registratsiooni…</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Keelad Grapherexi sõnumid ja kõned?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Keela Grapherexi sõnumid ja kõned, tühistades serveris registratsioon. Sa pead oma telefoninumbri taas-registreerima, kui soovid neid tulevikus kasutada.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Serveriga ühendumisel tekkis viga!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS lubatud</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Klõpsa, et vahetada SMSi vaikerakendust</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">SMS keelatud</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Puuduta, et teha Signal SMSi vaikerakenduseks.</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Puuduta, et teha Grapherex SMSi vaikerakenduseks.</string>
   <string name="ApplicationPreferencesActivity_on">sees</string>
   <string name="ApplicationPreferencesActivity_On">Sees</string>
   <string name="ApplicationPreferencesActivity_off">väljas</string>
@@ -55,14 +55,14 @@
   <string name="AttachmentKeyboard_file">Fail</string>
   <string name="AttachmentKeyboard_contact">Kontakt</string>
   <string name="AttachmentKeyboard_location">Asukoht</string>
-  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Signal vajab fotode ja videote näitamise õigust.</string>
+  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Grapherex vajab fotode ja videote näitamise õigust.</string>
   <string name="AttachmentKeyboard_give_access">Anna juurdepääs</string>
   <string name="AttachmentKeyboard_payment">Makse</string>
   <!--AttachmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">Ei leia rakendust meediafaili valimiseks.</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal vajab fotode, videote või audiofailide manustamiseks ligipääsu salvestusmeediale, kuid see on püsivalt keelatud. Palun ava rakenduse seadete menüü, vali \"Õigused\" ja luba \"Salvestusmeedia\".</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Signal vajab kontaktide manustamiseks ligipääsu kontaktidele, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Kontaktid\".</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Signal vajab asukoha manustamiseks ligipääsu seadme asukohale, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Asukoht\".</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Grapherex vajab fotode, videote või audiofailide manustamiseks ligipääsu salvestusmeediale, kuid see on püsivalt keelatud. Palun ava rakenduse seadete menüü, vali \"Õigused\" ja luba \"Salvestusmeedia\".</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Grapherex vajab kontaktide manustamiseks ligipääsu kontaktidele, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Kontaktid\".</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Grapherex vajab asukoha manustamiseks ligipääsu seadme asukohale, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Asukoht\".</string>
   <!--AttachmentUploadJob-->
   <string name="AttachmentUploadJob_uploading_media">Meedia üleslaadimine…</string>
   <string name="AttachmentUploadJob_compressing_video_start">Video tihendamine…</string>
@@ -106,26 +106,26 @@
   <string name="CameraXFragment_open_gallery_description">Ava galerii</string>
   <!--CameraContacts-->
   <string name="CameraContacts_recent_contacts">Hiljutised kontaktid</string>
-  <string name="CameraContacts_signal_contacts">Signali kontaktid</string>
-  <string name="CameraContacts_signal_groups">Signali grupid</string>
+  <string name="CameraContacts_signal_contacts">Grapherexi kontaktid</string>
+  <string name="CameraContacts_signal_groups">Grapherexi grupid</string>
   <string name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">Sa saad jagada maksimaalselt %d vestlusega.</string>
-  <string name="CameraContacts_select_signal_recipients">Vali Signali saajad</string>
-  <string name="CameraContacts_no_signal_contacts">Signali kontaktid puuduvad</string>
-  <string name="CameraContacts_you_can_only_use_the_camera_button">Sa saad kasutada vaid kaameranuppu, et saata fotosid Signali kontaktidele.</string>
+  <string name="CameraContacts_select_signal_recipients">Vali Grapherexi saajad</string>
+  <string name="CameraContacts_no_signal_contacts">Grapherexi kontaktid puuduvad</string>
+  <string name="CameraContacts_you_can_only_use_the_camera_button">Sa saad kasutada vaid kaameranuppu, et saata fotosid Grapherexi kontaktidele.</string>
   <string name="CameraContacts_cant_find_who_youre_looking_for">Ei leia, keda otsid?</string>
-  <string name="CameraContacts_invite_a_contact_to_join_signal">Kutsu kontakt Signaliga liituma</string>
+  <string name="CameraContacts_invite_a_contact_to_join_signal">Kutsu kontakt Grapherexiga liituma</string>
   <string name="CameraContacts__menu_search">Otsi</string>
   <!--ClearProfileActivity-->
   <string name="ClearProfileActivity_remove">Eemalda</string>
   <string name="ClearProfileActivity_remove_profile_photo">Eemaldad profiilipildi?</string>
   <string name="ClearProfileActivity_remove_group_photo">Kas eemaldada grupi foto?</string>
   <!--ClientDeprecatedActivity-->
-  <string name="ClientDeprecatedActivity_update_signal">Uuenda Signalit</string>
+  <string name="ClientDeprecatedActivity_update_signal">Uuenda Grapherexit</string>
   <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">See rakenduse versioon ei ole enam toetatud. Sõnumite saatmise ja vastuvõtmise jätkamiseks uuenda uusimale versioonile.</string>
   <string name="ClientDeprecatedActivity_update">Uuenda</string>
   <string name="ClientDeprecatedActivity_dont_update">Ära uuenda</string>
   <string name="ClientDeprecatedActivity_warning">Hoiatus</string>
-  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Sinu Signali versioon on aegunud. Sa saad vaadata sõnumiajalugu, kuid ei saa enne uuendamist sõnumeid saata ega vastu võtta.</string>
+  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Sinu Grapherexi versioon on aegunud. Sa saad vaadata sõnumiajalugu, kuid ei saa enne uuendamist sõnumeid saata ega vastu võtta.</string>
   <!--CommunicationActions-->
   <string name="CommunicationActions_no_browser_found">Veebibrauserit ei leitud.</string>
   <string name="CommunicationActions_send_email">Saada e-post</string>
@@ -134,9 +134,9 @@
   <string name="CommunicationActions_cancel">Loobu</string>
   <string name="CommunicationActions_call">Helista</string>
   <string name="CommunicationActions_insecure_call">Ebaturvaline kõne</string>
-  <string name="CommunicationActions_carrier_charges_may_apply">Võivad rakenduda mobiilioperaatori tasud. Number, millele helistate, pole Signalis registreeritud. See kõne tehakse teie mobiilioperaatori, mitte Interneti kaudu.</string>
+  <string name="CommunicationActions_carrier_charges_may_apply">Võivad rakenduda mobiilioperaatori tasud. Number, millele helistate, pole Grapherexis registreeritud. See kõne tehakse teie mobiilioperaatori, mitte Interneti kaudu.</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Sinu turvanumber kontaktiga %1$s on muutunud. See võib tähendada, et keegi proovib sinu vestlusesse sekkuda või et %2$s lihtsalt taasinstallis Signali.</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Sinu turvanumber kontaktiga %1$s on muutunud. See võib tähendada, et keegi proovib sinu vestlusesse sekkuda või et %2$s lihtsalt taasinstallis Grapherexi.</string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">Sa võid tahta kinnitada oma turvanumbrit selle kontaktiga.</string>
   <string name="ConfirmIdentityDialog_accept">Nõustu</string>
   <!--ContactsCursorLoader-->
@@ -147,7 +147,7 @@
   <string name="ContactsCursorLoader_username_search">Kasutajanime otsing</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">Sõnum %s</string>
-  <string name="ContactsDatabase_signal_call_s">Signali kõne %s</string>
+  <string name="ContactsDatabase_signal_call_s">Grapherexi kõne %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">Eesnimi</string>
   <string name="ContactNameEditActivity_family_name">Perekonnanimi</string>
@@ -169,7 +169,7 @@
   <string name="ConversationItem_click_to_approve_unencrypted">Saatmine ebaõnnestus, koputa, et saata turvamata sõnum</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">Taganed krüptimata SMSile?</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">Taganed krüptimata MMSile?</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Seda sõnumit <b>ei</b> krüptita, kuna saaja ei ole enam Signali kasutaja.\n\nKas saata krüptimata sõnum?</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Seda sõnumit <b>ei</b> krüptita, kuna saaja ei ole enam Grapherexi kasutaja.\n\nKas saata krüptimata sõnum?</string>
   <string name="ConversationItem_unable_to_open_media">Ei leia rakendust, mis oleks võimeline seda meediafaili avama.</string>
   <string name="ConversationItem_copied_text">%s kopeeritud</string>
   <string name="ConversationItem_from_s">%s kaudu</string>
@@ -197,8 +197,8 @@
   <string name="ConversationActivity_this_device_does_not_appear_to_support_dial_actions">See seade ei tundu toetavat kõnevõimalusi.</string>
   <string name="ConversationActivity_transport_insecure_sms">Ebaturvaline SMS</string>
   <string name="ConversationActivity_transport_insecure_mms">Ebaturvaline MMS</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">Lähme Signalile üle %1$s</string>
+  <string name="ConversationActivity_transport_signal">Grapherex</string>
+  <string name="ConversationActivity_lets_switch_to_signal">Lähme Grapherexile üle %1$s</string>
   <string name="ConversationActivity_specify_recipient">Palun vali kontakt</string>
   <string name="ConversationActivity_unblock">Eemalda blokeering</string>
   <string name="ConversationActivity_attachment_exceeds_size_limits">Manus ületab saadetava sõnumitüübi suuruspiiranguid.</string>
@@ -207,17 +207,17 @@
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Sinu seadmes pole rakendust, mis oleks võimeline seda linki käsitlema.</string>
   <string name="ConversationActivity_your_request_to_join_has_been_sent_to_the_group_admin">Sinu taotlus grupiga liitumiseks on grupi administraatoritele saadetud. Sulle antakse teada, kui nad vastavad.</string>
   <string name="ConversationActivity_cancel_request">Tühista taotlus</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Audiosõnumite saatmiseks luba Signalile juurdepääs seadme mikrofonile.</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal vajab audiosõnumite saatmiseks ligipääsu seadme mikrofonile, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Mikrofon\".</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signal vajab kasutajale %s helistamiseks ligipääsu kaamerale ja mikrofonile, kuid need on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Mikrofon\" ning \"Kaamera\".</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Luba Signalile ligipääs kaamerale fotode ja videote salvestamiseks.</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal vajab ligipääsu kaamerale, et salvestada fotosid ja videosid, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Kaamera\".</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signal vajab fotode ja videote salvestamiseks ligipääsu kaamerale</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Audiosõnumite saatmiseks luba Grapherexile juurdepääs seadme mikrofonile.</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Grapherex vajab audiosõnumite saatmiseks ligipääsu seadme mikrofonile, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Mikrofon\".</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Grapherex vajab kasutajale %s helistamiseks ligipääsu kaamerale ja mikrofonile, kuid need on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Mikrofon\" ning \"Kaamera\".</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Luba Grapherexile ligipääs kaamerale fotode ja videote salvestamiseks.</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Grapherex vajab ligipääsu kaamerale, et salvestada fotosid ja videosid, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Kaamera\".</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Grapherex vajab fotode ja videote salvestamiseks ligipääsu kaamerale</string>
   <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">Luba mikrofoni kasutus, et teha heliga videoid.</string>
-  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Signal vajab videote salvestamiseks mikrofoni luba, kuid see on keelatud. Palun järka rakenduse seadetes, vali \"Load\" ning luba \"Mikrofon\" ja \"Kaamera\".</string>
-  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Signal vajab videote salvestamiseks mikrofoniluba.</string>
+  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Grapherex vajab videote salvestamiseks mikrofoni luba, kuid see on keelatud. Palun järka rakenduse seadetes, vali \"Load\" ning luba \"Mikrofon\" ja \"Kaamera\".</string>
+  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Grapherex vajab videote salvestamiseks mikrofoniluba.</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
-  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Signal ei saa SMS/MMS sõnumeid saata, kuna see pole sinu vaikimisi SMS-i rakendus. Kas soovid seda muuta oma Androidi seadetes?</string>
+  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Grapherex ei saa SMS/MMS sõnumeid saata, kuna see pole sinu vaikimisi SMS-i rakendus. Kas soovid seda muuta oma Androidi seadetes?</string>
   <string name="ConversationActivity_yes">Jah</string>
   <string name="ConversationActivity_no">Ei</string>
   <string name="ConversationActivity_search_position">%1$d / %2$d</string>
@@ -231,7 +231,7 @@
   <string name="ConversationActivity_you_will_leave_this_group_and_it_will_be_deleted_from_all_of_your_devices">Sa lahkud sellest grupist ja see kustutatakse kõigist sinu seadmetest.</string>
   <string name="ConversationActivity_delete">Kustuta</string>
   <string name="ConversationActivity_delete_and_leave">Kustuta ja lahku</string>
-  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">Signal vajab kasutajale %1$s helistamiseks juurdepääsu seadme mikrofonile</string>
+  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">Grapherex vajab kasutajale %1$s helistamiseks juurdepääsu seadme mikrofonile</string>
   <string name="ConversationActivity__more_options_now_in_group_settings">\"Grupi seadetes\" on nüüd rohkem valikuid</string>
   <string name="ConversationActivity_join">Liitu</string>
   <string name="ConversationActivity_full">Täis</string>
@@ -265,14 +265,14 @@
     <item quantity="other">%1$d manuse salvestamine sisemällu…</item>
   </plurals>
   <string name="ConversationFragment_pending">Ootel…</string>
-  <string name="ConversationFragment_push">Andmeside (Signal)</string>
+  <string name="ConversationFragment_push">Andmeside (Grapherex)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">Kustutan</string>
   <string name="ConversationFragment_deleting_messages">Sõnumite kustutamine…</string>
   <string name="ConversationFragment_delete_for_me">Kustuta minu jaoks</string>
   <string name="ConversationFragment_delete_for_everyone">Kustuta kõigi jaoks</string>
-  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">See sõnum kustutatakse kõigilt vestluse liikmetelt, kui nad kasutavad Signali värsket versiooni. Nad näevad, et sa kustutasid sõnumi.</string>
+  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">See sõnum kustutatakse kõigilt vestluse liikmetelt, kui nad kasutavad Grapherexi värsket versiooni. Nad näevad, et sa kustutasid sõnumi.</string>
   <string name="ConversationFragment_quoted_message_not_found">Originaalsõnumit ei leitud</string>
   <string name="ConversationFragment_quoted_message_no_longer_available">Originaalsõnum pole enam saadaval</string>
   <string name="ConversationFragment_failed_to_open_message">Sõnumi avamine ebaõnnestus</string>
@@ -284,12 +284,12 @@
   <string name="ConversationFragment__d_group_members_have_the_same_name">%1$d grupiliikmel on sama nimi.</string>
   <string name="ConversationFragment__tap_to_review">Üle vaatamiseks koputa</string>
   <string name="ConversationFragment__review_requests_carefully">Vaata taotlused tähelepanelikult üle</string>
-  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Signal leidis teise samanimelise kontakti</string>
+  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Grapherex leidis teise samanimelise kontakti</string>
   <string name="ConversationFragment_contact_us">Võta meiega ühendust</string>
   <string name="ConversationFragment_verify">Kinnita</string>
   <string name="ConversationFragment_not_now">Mitte praegu</string>
   <string name="ConversationFragment_your_safety_number_with_s_changed">Sinu turvanumber kasutajaga %s on muutunud</string>
-  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Sinu turvanumber kasutajaga %s on muutunud tõenäoliselt seepärast, et nad paigaldasid Signali uuesti või muutsid seadmeid. Uue turvanumbri kinnitamiseks klõpsa Kontrolli. See on valikuline tegevus.</string>
+  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Sinu turvanumber kasutajaga %s on muutunud tõenäoliselt seepärast, et nad paigaldasid Grapherexi uuesti või muutsid seadmeid. Uue turvanumbri kinnitamiseks klõpsa Kontrolli. See on valikuline tegevus.</string>
   <plurals name="ConversationListFragment_delete_selected_conversations">
     <item quantity="one">Kustutad valitud vestluse?</item>
     <item quantity="other">Kustutad valitud vestlused?</item>
@@ -346,11 +346,11 @@
   <string name="BackupsPreferenceFragment__test_your_backup_passphrase">Testi varukoopia salaväljendit ja kontrolli, et see vastaks.</string>
   <string name="BackupsPreferenceFragment__turn_on">Lülita sisse</string>
   <string name="BackupsPreferenceFragment__turn_off">Lülita välja</string>
-  <string name="BackupsPreferenceFragment__to_restore_a_backup">Varukoopiast taastamiseks paigalda uus Signali koopia. Ava rakendus ja klõpsa \"Taasta varukoopia\", seejärel vali varukoopia fail. %1$s</string>
+  <string name="BackupsPreferenceFragment__to_restore_a_backup">Varukoopiast taastamiseks paigalda uus Grapherexi koopia. Ava rakendus ja klõpsa \"Taasta varukoopia\", seejärel vali varukoopia fail. %1$s</string>
   <string name="BackupsPreferenceFragment__learn_more">Rohkem infot</string>
   <string name="BackupsPreferenceFragment__in_progress">Töötamine…</string>
   <string name="BackupsPreferenceFragment__d_so_far">Siiani %1$d…</string>
-  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Signal vajab varukoopiate loomiseks välismälu õigust, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ning luba \"Mäluruum\".</string>
+  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Grapherex vajab varukoopiate loomiseks välismälu õigust, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ning luba \"Mäluruum\".</string>
   <!--CustomDefaultPreference-->
   <string name="CustomDefaultPreference_using_custom">Kasutan kohandatud: %s</string>
   <string name="CustomDefaultPreference_using_default">Kasutan vaikimisi: %s</string>
@@ -369,7 +369,7 @@
   <string name="DateUtils_yesterday">Eile</string>
   <!--DecryptionFailedDialog-->
   <string name="DecryptionFailedDialog_chat_session_refreshed">Vestluse seanss on värskendatud</string>
-  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Signal kasutab otspunkt krüptimist ja see võib mõnikord vajada vestluse seansi värskendamist. See ei mõjuta vestluse turvalisust, aga sa võisid mõnest selle kontakti sõnumist ilma jääda, seepärast palu neil vajadusel need uuesti saata.</string>
+  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Grapherex kasutab otspunkt krüptimist ja see võib mõnikord vajada vestluse seansi värskendamist. See ei mõjuta vestluse turvalisust, aga sa võisid mõnest selle kontakti sõnumist ilma jääda, seepärast palu neil vajadusel need uuesti saata.</string>
   <!--DeviceListActivity-->
   <string name="DeviceListActivity_unlink_s">Eemaldada \"%s\" linkimine?</string>
   <string name="DeviceListActivity_by_unlinking_this_device_it_will_no_longer_be_able_to_send_or_receive">Eemaldades selle seadme lingi, ei ole see enam võimeline sõnumeid saatma ja vastu võtma.</string>
@@ -386,8 +386,8 @@
   <!--DocumentView-->
   <string name="DocumentView_unnamed_file">Nimetu fail</string>
   <!--DonateMegaphone-->
-  <string name="DonateMegaphone_donate_to_signal">Anneta Signalile</string>
-  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Signalit hoiavad käimas sinusarnased inimesed. Näita oma toetust täna!</string>
+  <string name="DonateMegaphone_donate_to_signal">Anneta Grapherexile</string>
+  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Grapherexit hoiavad käimas sinusarnased inimesed. Näita oma toetust täna!</string>
   <string name="DonateMegaphone_donate">Anneta</string>
   <string name="DonateMegaphone_no_thanks">Tänan, ei</string>
   <!--GroupCallingMegaphone-->
@@ -395,9 +395,9 @@
   <string name="GroupCallingMegaphone__open_a_new_group_to_start">Uue krüptitud grupikõne alustamiseks vajuta \\"Uus grupp\\"</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">Optimeeri puuduvate Play teenuste jaoks</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">See seade ei toeta Play teenuseid. Koputa, et keelata süsteemi aku optimeerimine, kuna see ei lase Signalil sõnumeid hankida, kui seade on ebaaktiivne.</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">See seade ei toeta Play teenuseid. Koputa, et keelata süsteemi aku optimeerimine, kuna see ei lase Grapherexil sõnumeid hankida, kui seade on ebaaktiivne.</string>
   <!--ExpiredBuildReminder-->
-  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">See Signali versioon on aegunud. Sõnumite saatmiseks ja vastuvõtmiseks uuenda kohe.</string>
+  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">See Grapherexi versioon on aegunud. Sõnumite saatmiseks ja vastuvõtmiseks uuenda kohe.</string>
   <string name="ExpiredBuildReminder_update_now">Uuenda kohe</string>
   <!--PendingGroupJoinRequestsReminder-->
   <plurals name="PendingGroupJoinRequestsReminder_d_pending_member_requests">
@@ -409,8 +409,8 @@
   <string name="ShareActivity_share_with">Jaga inimesega</string>
   <string name="ShareActivity_multiple_attachments_are_only_supported">Mitu manust on lubatud ainult piltide ja videote puhul</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Püsiv Signali ühendusviga!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal ei saanud registreerida teenusega Google Play Services. Signali sõnumid ja kõned on keelatud, palun proovi taas-registreerida menüüs Seaded &gt; Täpsem.</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Püsiv Grapherexi ühendusviga!</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Grapherex ei saanud registreerida teenusega Google Play Services. Grapherexi sõnumid ja kõned on keelatud, palun proovi taas-registreerida menüüs Seaded &gt; Täpsem.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Täisresolutsiooniga GIFi vastuvõtmisel esines viga</string>
   <!--GiphyFragmentPageAdapter-->
@@ -452,8 +452,8 @@
     <item quantity="other">Need liikmed peavad grupiga liitumise kutse uuesti vastu võtma ning ei saa enne seda sõnumeid näha:</item>
   </plurals>
   <plurals name="GroupsV1MigrationLearnMore_these_members_were_removed_from_the_group">
-    <item quantity="one">See liige eemaldati grupist ja ei saa grupiga uuesti liituda senikaua kuni pole Signalit uuendanud:</item>
-    <item quantity="other">Need liikmed eemaldati grupist ja ei saa grupiga uuesti liituda senikaua kuni pole Signalit uuendanud:</item>
+    <item quantity="one">See liige eemaldati grupist ja ei saa grupiga uuesti liituda senikaua kuni pole Grapherexit uuendanud:</item>
+    <item quantity="other">Need liikmed eemaldati grupist ja ei saa grupiga uuesti liituda senikaua kuni pole Grapherexit uuendanud:</item>
   </plurals>
   <!--GroupsV1MigrationInitiationBottomSheetDialogFragment-->
   <string name="GroupsV1MigrationInitiation_upgrade_to_new_group">Täienda uuele grupile</string>
@@ -569,7 +569,7 @@
   <string name="AddGroupDetailsFragment__this_field_is_required">See väli on kohustuslik.</string>
   <string name="AddGroupDetailsFragment__group_creation_failed">Grupi loomine ei õnnestunud.</string>
   <string name="AddGroupDetailsFragment__try_again_later">Proovi hiljem uuesti.</string>
-  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">Sa valisid kontakti, kes ei toeta Signali gruppe, seega see grupp hakkab kasutama MMSi.</string>
+  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">Sa valisid kontakti, kes ei toeta Grapherexi gruppe, seega see grupp hakkab kasutama MMSi.</string>
   <string name="AddGroupDetailsFragment_custom_mms_group_names_and_photos_will_only_be_visible_to_you">Kohandatud MMS grupi nimed ja fotod hakkavad ainult sinule näha olema.</string>
   <string name="AddGroupDetailsFragment__remove">Eemalda</string>
   <string name="AddGroupDetailsFragment__sms_contact">SMS-kontakt</string>
@@ -583,15 +583,15 @@
     <item quantity="other">%d liiget ei toeta uusi gruppe, seega seda gruppi ei saa luua.</item>
   </plurals>
   <!--NonGv2MemberDialog-->
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">Luuakse vana grupp, sest “%1$s” kasutab Signali vana versiooni. Selle kasutajaga on võimalik luua uus grupp pärast seda, kui ta on Signalit uuendanud või oled ta enne uue grupi loomist eemaldanud.</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">Luuakse vana grupp, sest “%1$s” kasutab Grapherexi vana versiooni. Selle kasutajaga on võimalik luua uus grupp pärast seda, kui ta on Grapherexit uuendanud või oled ta enne uue grupi loomist eemaldanud.</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable">
-    <item quantity="one">Luuakse vana grupp, sest %1$d liige kasutab Signali vana versiooni. Selle kasutajaga on võimalik luua uus grupp pärast seda, kui ta on Signalit uuendanud või oled ta enne uue grupi loomist eemaldanud.</item>
-    <item quantity="other">Luuakse vana grupp, sest %1$d liiget kasutavad Signali vana versiooni. Nende kasutajatega on võimalik luua uus grupp pärast seda, kui nad on Signalit uuendanud või oled nad enne uue grupi loomist eemaldanud.</item>
+    <item quantity="one">Luuakse vana grupp, sest %1$d liige kasutab Grapherexi vana versiooni. Selle kasutajaga on võimalik luua uus grupp pärast seda, kui ta on Grapherexit uuendanud või oled ta enne uue grupi loomist eemaldanud.</item>
+    <item quantity="other">Luuakse vana grupp, sest %1$d liiget kasutavad Grapherexi vana versiooni. Nende kasutajatega on võimalik luua uus grupp pärast seda, kui nad on Grapherexit uuendanud või oled nad enne uue grupi loomist eemaldanud.</item>
   </plurals>
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">Seda gruppi pole võimalik luuga, kuna \"%1$s\" kasutab Signali vana versiooni. Sa pead ta eemaldama enne grupi loomist.</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">Seda gruppi pole võimalik luuga, kuna \"%1$s\" kasutab Grapherexi vana versiooni. Sa pead ta eemaldama enne grupi loomist.</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable_forced_migration">
-    <item quantity="one">Seda gruppi pole võimalik luuga, kuna %1$d liige kasutab Signali vana versiooni. Sa pead nad eemaldama enne grupi loomist.</item>
-    <item quantity="other">Seda gruppi pole võimalik luuga, kuna %1$d liiget kasutavad Signali vana versiooni. Sa pead nad eemaldama enne grupi loomist.</item>
+    <item quantity="one">Seda gruppi pole võimalik luuga, kuna %1$d liige kasutab Grapherexi vana versiooni. Sa pead nad eemaldama enne grupi loomist.</item>
+    <item quantity="other">Seda gruppi pole võimalik luuga, kuna %1$d liiget kasutavad Grapherexi vana versiooni. Sa pead nad eemaldama enne grupi loomist.</item>
   </plurals>
   <!--ManageGroupActivity-->
   <string name="ManageGroupActivity_member_requests_and_invites">Liikmetaotlused ja -kutsed</string>
@@ -621,7 +621,7 @@
   <string name="ManageGroupActivity_only_admins_can_enable_or_disable_the_option_to_approve_new_members">Ainult administraatorid saavad uute liikmete kinnitamist lubada või keelata.</string>
   <string name="ManageGroupActivity_only_admins_can_reset_the_sharable_group_link">Ainult administraatorid saavad jagatavat grupilinki lähtestada.</string>
   <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">Sul pole õigusi seda teha</string>
-  <string name="ManageGroupActivity_not_capable">Keegi sinu poolt lisatutest ei toeta uusi gruppe ja peab Signalit uuendama</string>
+  <string name="ManageGroupActivity_not_capable">Keegi sinu poolt lisatutest ei toeta uusi gruppe ja peab Grapherexit uuendama</string>
   <string name="ManageGroupActivity_failed_to_update_the_group">Grupi uuendamine ei õnnestunud</string>
   <string name="ManageGroupActivity_youre_not_a_member_of_the_group">Sa ei ole grupi liige</string>
   <string name="ManageGroupActivity_failed_to_update_the_group_please_retry_later">Grupi uuendamine ei õnnestunud, palun proovi hiljem uuesti</string>
@@ -632,7 +632,7 @@
   <string name="ManageGroupActivity_legacy_group_upgrade">See on vana grupp. Uute funktsioonide, näiteks @mainimised ja administraatorid, kasutamiseks,.</string>
   <string name="ManageGroupActivity_legacy_group_too_large">Seda vana gruppi ei saa uueks grupiks uuendada, sest see on liiga suur. Maksimaalne grupi suurus on %1$d.</string>
   <string name="ManageGroupActivity_upgrade_this_group">uuenda see grupp</string>
-  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">See on ebaturvaline MMS grupp. Privaatselt vestlemiseks kutsu enda kontaktid Signalit kasutama.</string>
+  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">See on ebaturvaline MMS grupp. Privaatselt vestlemiseks kutsu enda kontaktid Grapherexit kasutama.</string>
   <string name="ManageGroupActivity_invite_now">Kutsu kohe</string>
   <!--GroupMentionSettingDialog-->
   <string name="GroupMentionSettingDialog_notify_me_for_mentions">Teavita mind mainimise korral</string>
@@ -724,10 +724,10 @@
     <item quantity="other">Grupp · %1$d liiget</item>
   </plurals>
   <!--GroupJoinUpdateRequiredBottomSheetDialogFragment-->
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Uuenda Signalit grupilinkide kasutamiseks</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Signali versioon, mida kasutad, ei toeta jagatavaid grupilinke. Lingi kaudu grupiga liitumiseks uuenda viimasele versioonile.</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Uuenda Signalit</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">Üks või mitu lingitud seadet kasutavad Signali versiooni, mis ei toeta grupilinke. Selle grupiga liitumiseks uuenda Signal kõigis lingitud seadme(te)s.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Uuenda Grapherexit grupilinkide kasutamiseks</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Grapherexi versioon, mida kasutad, ei toeta jagatavaid grupilinke. Lingi kaudu grupiga liitumiseks uuenda viimasele versioonile.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Uuenda Grapherexit</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">Üks või mitu lingitud seadet kasutavad Grapherexi versiooni, mis ei toeta grupilinke. Selle grupiga liitumiseks uuenda Grapherex kõigis lingitud seadme(te)s.</string>
   <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">Grupilink ei ole kehtiv</string>
   <!--GroupInviteLinkEnableAndShareBottomSheetDialogFragment-->
   <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_invite_friends">Kutsu sõpru</string>
@@ -757,7 +757,7 @@
   <string name="InviteActivity_cancel">Tühista</string>
   <string name="InviteActivity_sending">Saatmine…</string>
   <string name="InviteActivity_invitations_sent">Kutsed saadetud!</string>
-  <string name="InviteActivity_invite_to_signal">Kutsu Signalisse</string>
+  <string name="InviteActivity_invite_to_signal">Kutsu Grapherexisse</string>
   <plurals name="InviteActivity_send_sms_to_friends">
     <item quantity="one">SAADA SMS %d SÕBRALE</item>
     <item quantity="other">SAADA SMS %d SÕBRALE</item>
@@ -766,7 +766,7 @@
     <item quantity="one">Saadad %d SMS-kutse?</item>
     <item quantity="other">Saadad %d SMS-kutset?</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">Lähme Signalile üle: %1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">Lähme Grapherexile üle: %1$s</string>
   <string name="InviteActivity_no_app_to_share_to">Tundub, et sul pole ühtegi rakendust, kuhu jagada.</string>
   <string name="InviteActivity_friends_dont_let_friends_text_unencrypted">Sõbrad ei luba sõpradel krüptimata rääkida.</string>
   <!--LearnMoreTextView-->
@@ -776,7 +776,7 @@
   <string name="LongMessageActivity_message_from_s">Sõnum kasutajalt %1$s</string>
   <string name="LongMessageActivity_your_message">Sinu sõnum</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">Grapherex</string>
   <string name="MessageRetrievalService_background_connection_enabled">Taustaühendus lubatud</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">Võrgupakkuja MMS-seadete lugemisel esines viga</string>
@@ -825,7 +825,7 @@
   <string name="Megaphones_introducing_reactions">Tutvustame reaktsioone</string>
   <string name="Megaphones_tap_and_hold_any_message_to_quicky_share_how_you_feel">Koputa ja hoia mistahes sõnumit, et kiirelt oma emotsiooni jagada.</string>
   <string name="Megaphones_remind_me_later">Tuleta hiljem meelde</string>
-  <string name="Megaphones_verify_your_signal_pin">Kinnita Signali PIN-kood</string>
+  <string name="Megaphones_verify_your_signal_pin">Kinnita Grapherexi PIN-kood</string>
   <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">Palume aeg-ajalt sul PIN-koodi kinnitada, et see sulle meelde jääks.</string>
   <string name="Megaphones_verify_pin">Kinnita PIN-kood</string>
   <string name="Megaphones_get_started">Alustamine</string>
@@ -833,9 +833,9 @@
   <string name="Megaphones_invite_friends">Kutsu sõpru</string>
   <string name="Megaphones_use_sms">Kasuta SMSi</string>
   <!--NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Signali kõne käib</string>
-  <string name="NotificationBarManager__establishing_signal_call">Alustan Signali kõnet</string>
-  <string name="NotificationBarManager__incoming_signal_call">Sissetulev Signali kõne</string>
+  <string name="NotificationBarManager_signal_call_in_progress">Grapherexi kõne käib</string>
+  <string name="NotificationBarManager__establishing_signal_call">Alustan Grapherexi kõnet</string>
+  <string name="NotificationBarManager__incoming_signal_call">Sissetulev Grapherexi kõne</string>
   <string name="NotificationBarManager__deny_call">Keeldu kõnest</string>
   <string name="NotificationBarManager__answer_call">Vasta kõnele</string>
   <string name="NotificationBarManager__end_call">Lõpeta kõne</string>
@@ -859,8 +859,8 @@
   <string name="MediaSendActivity_message_to_s">Sõnum kasutajale %s</string>
   <string name="MediaSendActivity_message">Sõnum</string>
   <string name="MediaSendActivity_select_recipients">Vali saajad</string>
-  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Signal vajab kontaktide kuvamiseks nendele ligipääsu.</string>
-  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Signal vajab kontaktide luba, et kuvada su kontakte, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"Kontaktid\".</string>
+  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Grapherex vajab kontaktide kuvamiseks nendele ligipääsu.</string>
+  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Grapherex vajab kontaktide luba, et kuvada su kontakte, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"Kontaktid\".</string>
   <plurals name="MediaSendActivity_cant_share_more_than_n_items">
     <item quantity="one">Sa ei saa jagada rohkem kui %d üksust.</item>
     <item quantity="other">Sa ei saa jagada rohkem kui %d üksust.</item>
@@ -872,7 +872,7 @@
   <string name="MediaRepository__camera">Kaamera</string>
   <!--MessageRecord-->
   <string name="MessageRecord_unknown">Tundmatu</string>
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Vastuvõetud sõnum, mis on krüptitud kasutades vana, mittetoetatud Signali versiooni. Palun palu saatjal uuendada uusimale versioonile ja siis sõnum uuesti saata.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Vastuvõetud sõnum, mis on krüptitud kasutades vana, mittetoetatud Grapherexi versiooni. Palun palu saatjal uuendada uusimale versioonile ja siis sõnum uuesti saata.</string>
   <string name="MessageRecord_left_group">Sa lahkusid grupist.</string>
   <string name="MessageRecord_you_updated_group">Sa uuendasid gruppi.</string>
   <string name="MessageRecord_the_group_was_updated">Grupp on uuendatud.</string>
@@ -881,7 +881,7 @@
   <string name="MessageRecord_missed_video_call_date">Vastamata videokõne · %1$s</string>
   <string name="MessageRecord_s_updated_group">%s uuendas gruppi.</string>
   <string name="MessageRecord_s_called_you_date">%1$s helistas sulle · %2$s</string>
-  <string name="MessageRecord_s_joined_signal">%s on Signalis!</string>
+  <string name="MessageRecord_s_joined_signal">%s on Grapherexis!</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">Sa keelasid kaduvad sõnumid.</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$s keelas kaduvad sõnumid.</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">Sa määrasid kaduvate sõnumite taimeriks %1$s.</string>
@@ -1095,9 +1095,9 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">Sobimatu QR-kood.</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Vabandust, sul on juba liiga palju seadmeid lingitud, proovi mõned eemaldada</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Vabandust, see ei ole sobiv seadme linkimise QR-kood.</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">Lingid Signali seadme?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Tundub, et proovid linkida Signali seadet, kasutades 3. osapoole skannerit. Sinu kaitseks, palun skanneeri kood uuesti Signali siseselt.</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Signal vajab kaamera luba, et skanneerida QR-koodi, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"Kaamera\".</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">Lingid Grapherexi seadme?</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Tundub, et proovid linkida Grapherexi seadet, kasutades 3. osapoole skannerit. Sinu kaitseks, palun skanneeri kood uuesti Grapherexi siseselt.</string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Grapherex vajab kaamera luba, et skanneerida QR-koodi, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"Kaamera\".</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">QR-koodi ei saa skanneerida ilma kaamera loata</string>
   <!--ExpirationDialog-->
   <string name="ExpirationDialog_disappearing_messages">Kaduvad sõnumid</string>
@@ -1105,18 +1105,18 @@
   <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Selles vestluses saadetud ja vastuvõetud sõnumid haihtuvad %s pärast nägemist.</string>
   <!--OutdatedBuildReminder-->
   <string name="OutdatedBuildReminder_update_now">Uuenda kohe</string>
-  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">See Signali versioon aegub täna. Uuenda kõige uuemale versioonile.</string>
+  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">See Grapherexi versioon aegub täna. Uuenda kõige uuemale versioonile.</string>
   <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-    <item quantity="one">See Signali versioon aegub homme. Uuenda kõige uuemale versioonile.</item>
-    <item quantity="other">See Signali versioon aegub %d päeva pärast. Uuenda kõige uuemale versioonile.</item>
+    <item quantity="one">See Grapherexi versioon aegub homme. Uuenda kõige uuemale versioonile.</item>
+    <item quantity="other">See Grapherexi versioon aegub %d päeva pärast. Uuenda kõige uuemale versioonile.</item>
   </plurals>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">Sisesta salasõna</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Signali ikoon</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">Grapherexi ikoon</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">Saada salasõna</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Sobimatu salasõna!</string>
-  <string name="PassphrasePromptActivity_unlock_signal">Lukusta Signal lahti</string>
-  <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android: ekraanilukk</string>
+  <string name="PassphrasePromptActivity_unlock_signal">Lukusta Grapherex lahti</string>
+  <string name="PassphrasePromptActivity_signal_android_lock_screen">Grapherex Android: ekraanilukk</string>
   <!--PlacePickerActivity-->
   <string name="PlacePickerActivity_title">Kaart</string>
   <string name="PlacePickerActivity_drop_pin">Kukuta nööpnõel</string>
@@ -1137,16 +1137,16 @@
     <item quantity="one">Sul on jäänud %1$d katsetus. Kui katsed otsa saavad, saad luua uue PIN-koodi. Saad oma kontot registreerida ja kasutada, kuid kaotad mõned salvestatud seaded, näiteks oma profiiliteabe.</item>
     <item quantity="other">Sul on jäänud %1$d katsetust. Kui katsed otsa saavad, saad luua uue PIN-koodi. Saad oma kontot registreerida ja kasutada, kuid kaotad mõned salvestatud seaded, näiteks oma profiiliteabe.</item>
   </plurals>
-  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Signali registreerimine - vajad abi Androidi PIN-koodiga</string>
+  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Grapherexi registreerimine - vajad abi Androidi PIN-koodiga</string>
   <string name="PinRestoreEntryFragment_enter_alphanumeric_pin">Sisesta tähtnumbriline PIN-kood</string>
   <string name="PinRestoreEntryFragment_enter_numeric_pin">Sisesta numbriline PIN-kood</string>
   <!--PinRestoreLockedFragment-->
   <string name="PinRestoreLockedFragment_create_your_pin">Loo enda PIN-kood</string>
-  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">PIN-koodi proovimised on otsa saanud, kuid pääsed siiski uue PIN-koodi loomisega oma Signali konto juurde. Privaatsuse ja turvalisuse huvides taastatakse sinu konto ilma salvestatud profiiliteabe või säteteta.</string>
+  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">PIN-koodi proovimised on otsa saanud, kuid pääsed siiski uue PIN-koodi loomisega oma Grapherexi konto juurde. Privaatsuse ja turvalisuse huvides taastatakse sinu konto ilma salvestatud profiiliteabe või säteteta.</string>
   <string name="PinRestoreLockedFragment_create_new_pin">Loo uus PIN-kood</string>
   <!--PinOptOutDialog-->
   <string name="PinOptOutDialog_warning">Hoiatus</string>
-  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">Kui keelad PIN-koodi, siis kaotad kõik andmed, kui eemaldad Signal rakenduse ja pole seda käsitsi varundanud ja taastanud. Registreerimislukku pole võimalik sisse lülitada, kui PIN-kood on keelatud.</string>
+  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">Kui keelad PIN-koodi, siis kaotad kõik andmed, kui eemaldad Grapherex rakenduse ja pole seda käsitsi varundanud ja taastanud. Registreerimislukku pole võimalik sisse lülitada, kui PIN-kood on keelatud.</string>
   <string name="PinOptOutDialog_disable_pin">Keela PIN</string>
   <!--RatingManager-->
   <string name="RatingManager_rate_this_app">Hinda seda rakendust</string>
@@ -1177,12 +1177,12 @@
   <string name="RedPhone_got_it">Selge</string>
   <!--WebRtcCallActivity-->
   <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">Klõpsa siia enda video käivitamiseks</string>
-  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Signal vajab kasutajale %1$s helistamiseks juurdepääsu seadme kaamerale</string>
-  <string name="WebRtcCallActivity__signal_s">Signal %1$s</string>
+  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Grapherex vajab kasutajale %1$s helistamiseks juurdepääsu seadme kaamerale</string>
+  <string name="WebRtcCallActivity__signal_s">Grapherex %1$s</string>
   <string name="WebRtcCallActivity__calling">Helistamine…</string>
   <!--WebRtcCallView-->
-  <string name="WebRtcCallView__signal_voice_call">Signali häälkõne…</string>
-  <string name="WebRtcCallView__signal_video_call">Signali videokõne…</string>
+  <string name="WebRtcCallView__signal_voice_call">Grapherexi häälkõne…</string>
+  <string name="WebRtcCallView__signal_video_call">Grapherexi videokõne…</string>
   <string name="WebRtcCallView__start_call">Alusta kõnet</string>
   <string name="WebRtcCallView__join_call">Liitu kõnega</string>
   <string name="WebRtcCallView__call_is_full">Kõne on täis</string>
@@ -1235,13 +1235,13 @@
   <string name="RegistrationActivity_is_your_phone_number_above_correct">Kas sinu telefoninumber ülevalpool on korrektne?</string>
   <string name="RegistrationActivity_edit_number">Muuda numbrit</string>
   <string name="RegistrationActivity_missing_google_play_services">Puuduvad Google Play teenused</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Seadmest puuduvad Google Play teenused. Sa saad siiski Signalit kasutada, kuid see konfiguratsioon võib põhjustada vähendatud stabiilsust või jõudlust.\n\nKui sa pole edasijõudnud kasutaja, ei käita järelturu Androidi ROMi või arvad, et see on viga, palun kontakteeru support@signal.org, et saada abi probleemi lahendamisel.</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Seadmest puuduvad Google Play teenused. Sa saad siiski Grapherexit kasutada, kuid see konfiguratsioon võib põhjustada vähendatud stabiilsust või jõudlust.\n\nKui sa pole edasijõudnud kasutaja, ei käita järelturu Androidi ROMi või arvad, et see on viga, palun kontakteeru support@Grapherex.org, et saada abi probleemi lahendamisel.</string>
   <string name="RegistrationActivity_i_understand">Saan aru</string>
   <string name="RegistrationActivity_play_services_error">Play teenuste viga</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play teenused uuenevad või pole hetkel saadaval. Palun proovi uuesti.</string>
   <string name="RegistrationActivity_terms_and_privacy">Tingimused ja privaatsuspoliitika</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signal vajab sinu kontaktidele ja meediale ligipääsu, et ühenduda sõpradega, vahetada sõnumeid ja teha turvalisi kõnesid</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Signal vajab ligipääsu sinu kontaktidele ja meediale, et ühenduda sõpradega, vahetada sõnumeid ja teha turvalisi kõnesid</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Grapherex vajab sinu kontaktidele ja meediale ligipääsu, et ühenduda sõpradega, vahetada sõnumeid ja teha turvalisi kõnesid</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Grapherex vajab ligipääsu sinu kontaktidele ja meediale, et ühenduda sõpradega, vahetada sõnumeid ja teha turvalisi kõnesid</string>
   <string name="RegistrationActivity_rate_limited_to_service">Oled sooritanud liiga palju selle numbri registreerimise katseid. Palun proovi hiljem uuesti.</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">Teenusega ei saadud ühendust. Palun kontrolli võrguühendust ja proovi uuesti.</string>
   <plurals name="RegistrationActivity_debug_log_hint">
@@ -1263,7 +1263,7 @@
   <!--RegistrationLockV2Dialog-->
   <string name="RegistrationLockV2Dialog_turn_on_registration_lock">Kas lülitada registreerimislukk sisse?</string>
   <string name="RegistrationLockV2Dialog_turn_off_registration_lock">Kas lülitada registreerimislukk välja?</string>
-  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Kui unustad Signaliga uuesti registreerumisel oma Signal PIN-koodi, lukustatakse sind 7 päevaks oma kontolt.</string>
+  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Kui unustad Grapherexiga uuesti registreerumisel oma Grapherex PIN-koodi, lukustatakse sind 7 päevaks oma kontolt.</string>
   <string name="RegistrationLockV2Dialog_turn_on">Lülita sisse</string>
   <string name="RegistrationLockV2Dialog_turn_off">Lülita välja</string>
   <!--RevealableMessageView-->
@@ -1279,14 +1279,14 @@
   <!--ShakeToReport-->
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">Lisa kontaktidesse</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">Kutsu Signalisse</string>
-  <string name="SharedContactDetailsActivity_signal_message">Signali sõnum</string>
-  <string name="SharedContactDetailsActivity_signal_call">Signali kõne</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">Kutsu Grapherexisse</string>
+  <string name="SharedContactDetailsActivity_signal_message">Grapherexi sõnum</string>
+  <string name="SharedContactDetailsActivity_signal_call">Grapherexi kõne</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">Lisa kontaktidesse</string>
-  <string name="SharedContactView_invite_to_signal">Kutsu Signalisse</string>
-  <string name="SharedContactView_message">Signali sõnum</string>
-  <!--SignalPinReminders-->
+  <string name="SharedContactView_invite_to_signal">Kutsu Grapherexisse</string>
+  <string name="SharedContactView_message">Grapherexi sõnum</string>
+  <!--GrapherexPinReminders-->
   <string name="SignalPinReminders_well_remind_you_again_later">Me tuletame sulle hiljem uuesti meelde.</string>
   <string name="SignalPinReminders_well_remind_you_again_tomorrow">Me tuletame sulle homme uuesti meelde.</string>
   <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">Me tuletame sulle paari päeva pärast uuesti meelde.</string>
@@ -1309,14 +1309,14 @@
   <string name="SmsMessageRecord_secure_session_reset">Sa lähtestasid turvalise sessiooni.</string>
   <string name="SmsMessageRecord_secure_session_reset_s">%s lähtestas turvalise sessiooni.</string>
   <string name="SmsMessageRecord_duplicate_message">Duplikaatsõnum.</string>
-  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">Seda sõnumit ei saanud töödelda, kuna see saadeti Signali uuemast versioonist. Sa võid paluda oma kontaktil see sõnum uuesti saata, kui oled ise rakendust uuendanud.</string>
+  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">Seda sõnumit ei saanud töödelda, kuna see saadeti Grapherexi uuemast versioonist. Sa võid paluda oma kontaktil see sõnum uuesti saata, kui oled ise rakendust uuendanud.</string>
   <string name="SmsMessageRecord_error_handling_incoming_message">Sissetuleva sõnumi käsitlemisel tekkis tõrge.</string>
   <!--StickerManagementActivity-->
   <string name="StickerManagementActivity_stickers">Kleepsud</string>
   <!--StickerManagementAdapter-->
   <string name="StickerManagementAdapter_installed_stickers">Paigaldatud kleepsud</string>
   <string name="StickerManagementAdapter_stickers_you_received">Vastuvõetud kleepsud</string>
-  <string name="StickerManagementAdapter_signal_artist_series">Signali artisti seeria</string>
+  <string name="StickerManagementAdapter_signal_artist_series">Grapherexi artisti seeria</string>
   <string name="StickerManagementAdapter_no_stickers_installed">Kleepse pole paigaldatud</string>
   <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">Kleepsud sissetulevatelt sõnumitelt kuvatakse siin</string>
   <string name="StickerManagementAdapter_untitled">Nimetu</string>
@@ -1341,8 +1341,8 @@
   <string name="SupportEmailUtil_filter">Filter:</string>
   <string name="SupportEmailUtil_device_info">Seadme info:</string>
   <string name="SupportEmailUtil_android_version">Androidi versioon:</string>
-  <string name="SupportEmailUtil_signal_version">Signali versioon:</string>
-  <string name="SupportEmailUtil_signal_package">Signali pakett:</string>
+  <string name="SupportEmailUtil_signal_version">Grapherexi versioon:</string>
+  <string name="SupportEmailUtil_signal_package">Grapherexi pakett:</string>
   <string name="SupportEmailUtil_registration_lock">Registreerimislukk:</string>
   <string name="SupportEmailUtil_locale">Olemus:</string>
   <!--ThreadRecord-->
@@ -1361,7 +1361,7 @@
   <string name="ThreadRecord_view_once_media">Korra vaatamise meedia</string>
   <string name="ThreadRecord_this_message_was_deleted">See sõnum kustutati.</string>
   <string name="ThreadRecord_you_deleted_this_message">Sina kustutasid selle teate.</string>
-  <string name="ThreadRecord_s_is_on_signal">%s on Signalis!</string>
+  <string name="ThreadRecord_s_is_on_signal">%s on Grapherexis!</string>
   <string name="ThreadRecord_disappearing_messages_disabled">Kaduvad sõnumid keelatud</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">Kaduva sõnumi ajaks on seatud %s</string>
   <string name="ThreadRecord_safety_number_changed">Turvanumber muudetud</string>
@@ -1377,8 +1377,8 @@
   <string name="ThreadRecord_video">Video</string>
   <string name="ThreadRecord_chat_session_refreshed">Vestluse seanss on värskendatud</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Signali uuendus</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Uus Signali versioon on saadaval, koputa uuendamiseks</string>
+  <string name="UpdateApkReadyListener_Signal_update">Grapherexi uuendus</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Uus Grapherexi versioon on saadaval, koputa uuendamiseks</string>
   <!--UntrustedSendDialog-->
   <string name="UntrustedSendDialog_send_message">Saadad sõnumi?</string>
   <string name="UntrustedSendDialog_send">Saada</string>
@@ -1397,20 +1397,20 @@
   <string name="UsernameEditFragment_usernames_cannot_begin_with_a_number">Kasutajanimed ei tohi alata numbriga.</string>
   <string name="UsernameEditFragment_username_is_invalid">Kasutajanimi on sobimatu.</string>
   <string name="UsernameEditFragment_usernames_must_be_between_a_and_b_characters">Kasutajanimede pikkus peab olema %1$d ja %2$d tähemärgi vahel.</string>
-  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Kasutajanimed on Signalis vabatahtlikud. Kui otsustad endale kasutajanime luua, siis saavad teised Signali kasutajad leida sind kasutajanime järgi ja võtta ühendust sinu telefoninumbrit teadmata.</string>
+  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Kasutajanimed on Grapherexis vabatahtlikud. Kui otsustad endale kasutajanime luua, siis saavad teised Grapherexi kasutajad leida sind kasutajanime järgi ja võtta ühendust sinu telefoninumbrit teadmata.</string>
   <plurals name="UserNotificationMigrationJob_d_contacts_are_on_signal">
-    <item quantity="one">%d kontakt on Signalis!</item>
-    <item quantity="other">%d kontakti on Signalis!</item>
+    <item quantity="one">%d kontakt on Grapherexis!</item>
+    <item quantity="other">%d kontakti on Grapherexis!</item>
   </plurals>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Sinu kontakt kasutab vana Signali versiooni. Palun palu neil uuendada, enne kui kinnitad oma turvanumbrit.</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Sinu kontakt kasutab uuemat Signali versiooni ühildumatu QR-koodi vorminguga. Võrdlemiseks palun uuenda.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Sinu kontakt kasutab vana Grapherexi versiooni. Palun palu neil uuendada, enne kui kinnitad oma turvanumbrit.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Sinu kontakt kasutab uuemat Grapherexi versiooni ühildumatu QR-koodi vorminguga. Võrdlemiseks palun uuenda.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Skanneritud QR-kood ei ole korrektselt vormistatud turvanumbri kinnituskood. Palun proovi uuesti skanneerida.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Jaga turvanumbrit…</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">Meie Signali turvanumber:</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">Meie Grapherexi turvanumber:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">Tundub, et sul pole ühtegi rakendust, kuhu jagada.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Lõikelaualt ei leitud turvanumbrit, millega võrrelda</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signal vajab kaamera luba, et skanneerida QR-koodi, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"Kaamera\".</string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Grapherex vajab kaamera luba, et skanneerida QR-koodi, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"Kaamera\".</string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">QR-koodi ei saa skanneerida ilma kaamera loata</string>
   <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">Kasutaja %1$s turvanumbri nägemiseks pead kõigepealt temaga sõnumeid vahetama.</string>
   <!--ViewOnceMessageActivity-->
@@ -1429,13 +1429,13 @@
   <string name="ApplicationMigrationService_system_database_import_is_complete">Süsteemi andmebaasi import on lõpetatud.</string>
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">Koputa avamiseks.</string>
-  <string name="KeyCachingService_passphrase_cached">Signal on avatud</string>
-  <string name="KeyCachingService_lock">Lukusta Signal</string>
+  <string name="KeyCachingService_passphrase_cached">Grapherex on avatud</string>
+  <string name="KeyCachingService_lock">Lukusta Grapherex</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">Sina</string>
   <string name="MediaPreviewActivity_unssuported_media_type">Mittetoetatud meediatüüp</string>
   <string name="MediaPreviewActivity_draft">Mustand</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Signal vajab mäluruumi luba, et salvestada välismällu, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"Mäluruum\".</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Grapherex vajab mäluruumi luba, et salvestada välismällu, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"Mäluruum\".</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Õiguste puudumise tõttu pole võimalik välisele andmekandjale salvestada.</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">Kustutad sõnumi?</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">See kustutab püsivalt valitud sõnumi.</string>
@@ -1455,10 +1455,10 @@
   <string name="MessageNotifier_view_once_photo">Korra vaatamise foto</string>
   <string name="MessageNotifier_view_once_video">Korra vaatamise video</string>
   <string name="MessageNotifier_reply">Vasta</string>
-  <string name="MessageNotifier_signal_message">Signali sõnum</string>
+  <string name="MessageNotifier_signal_message">Grapherexi sõnum</string>
   <string name="MessageNotifier_unsecured_sms">Turvamata SMS</string>
   <string name="MessageNotifier_you_may_have_new_messages">Sul võib olla uusi sõnumeid</string>
-  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Ava Signal, et kontrollida viimaseid märguandeid.</string>
+  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Ava Grapherex, et kontrollida viimaseid märguandeid.</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
   <string name="MessageNotifier_reacted_s_to_s">Reageeris %1$s sõnumile: \"%2$s\".</string>
@@ -1469,7 +1469,7 @@
   <string name="MessageNotifier_reacted_s_to_your_view_once_media">Reageeris %1$s sinu ühekordsele meediale</string>
   <string name="MessageNotifier_reacted_s_to_your_sticker">Reageeris %1$s sinu kleepsule.</string>
   <string name="MessageNotifier_this_message_was_deleted">See sõnum kustutati.</string>
-  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Kas lülitada Signaliga liitumise teavitused välja? Neid saab uuesti lubada, valides Signal &gt; Seaded &gt; Teavitused.</string>
+  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Kas lülitada Grapherexiga liitumise teavitused välja? Neid saab uuesti lubada, valides Grapherex &gt; Seaded &gt; Teavitused.</string>
   <!--Notification Channels-->
   <string name="NotificationChannel_channel_messages">Sõnumid</string>
   <string name="NotificationChannel_calls">Kõned</string>
@@ -1481,10 +1481,10 @@
   <string name="NotificationChannel_group_chats">Vestlused</string>
   <string name="NotificationChannel_missing_display_name">Tundmatu</string>
   <string name="NotificationChannel_voice_notes">Häälmärkmed</string>
-  <string name="NotificationChannel_contact_joined_signal">Kontakt liitus Signaliga</string>
+  <string name="NotificationChannel_contact_joined_signal">Kontakt liitus Grapherexiga</string>
   <!--ProfileEditNameFragment-->
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Kiirvastus pole saadaval, kui Signal on lukustatud!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Kiirvastus pole saadaval, kui Grapherex on lukustatud!</string>
   <string name="QuickResponseService_problem_sending_message">Sõnumi saatmisel esines probleem!</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">Salvestatud kohta %s</string>
@@ -1495,7 +1495,7 @@
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">Sobimatu otsetee</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">Grapherex</string>
   <string name="SingleRecipientNotificationBuilder_new_message">Uus sõnum</string>
   <!--ThumbnailView-->
   <string name="ThumbnailView_Play_video_description">Esita videot</string>
@@ -1507,10 +1507,10 @@
   </plurals>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">Seade ei ole enam registreeritud</string>
-  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Tõenäoliselt seepärast, et sa registreerisid oma telefoninumbri Signalis erinevas seadmes. Klõpsa uuesti registreerimiseks.</string>
+  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Tõenäoliselt seepärast, et sa registreerisid oma telefoninumbri Grapherexis erinevas seadmes. Klõpsa uuesti registreerimiseks.</string>
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Et vastata %s kõnele, anna Signalile juurdepääs oma mikrofonile.</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Signal vajab mikrofoni ja kaamera lubasid, et teha ja vastu võtta kõnesid, ent need on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"Mikrofon\" ning \"Kaamera\".</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Et vastata %s kõnele, anna Grapherexile juurdepääs oma mikrofonile.</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Grapherex vajab mikrofoni ja kaamera lubasid, et teha ja vastu võtta kõnesid, ent need on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"Mikrofon\" ning \"Kaamera\".</string>
   <string name="WebRtcCallActivity__answered_on_a_linked_device">Vastatud ühendatud seadmes.</string>
   <string name="WebRtcCallActivity__declined_on_a_linked_device">Keeldutud ühendatud seadmes.</string>
   <string name="WebRtcCallActivity__busy_on_a_linked_device">Hõivatud ühendatud seadmes.</string>
@@ -1534,7 +1534,7 @@
   <string name="change_passphrase_activity__repeat_new_passphrase">Korda uut salasõna</string>
   <!--contact_selection_activity-->
   <string name="contact_selection_activity__enter_name_or_number">Sisesta nimi või number</string>
-  <string name="contact_selection_activity__invite_to_signal">Kutsu Signalisse</string>
+  <string name="contact_selection_activity__invite_to_signal">Kutsu Grapherexisse</string>
   <string name="contact_selection_activity__new_group">Uus grupp</string>
   <!--contact_filter_toolbar-->
   <string name="contact_filter_toolbar__clear_entered_text_description">Tühjenda sisestatud tekst</string>
@@ -1546,21 +1546,21 @@
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">Kontakti pilt</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Signal vajab kontaktide kuvamiseks neile ligipääsu, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Kontaktid\".</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Grapherex vajab kontaktide kuvamiseks neile ligipääsu, kuid see on püsivalt keelatud. Palun ava rakenduse sätete menüü, vali \"Õigused\" ja luba \"Kontaktid\".</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Kontaktide laadimisel tekkis tõrge. Kontrolli võrguühendust.</string>
   <string name="ContactSelectionListFragment_username_not_found">Kasutajanime ei leitud</string>
-  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">\"%1$s\" ei ole Signali kasutaja. Palun kontrolli kasutajanime ja proovi uuesti.</string>
+  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">\"%1$s\" ei ole Grapherexi kasutaja. Palun kontrolli kasutajanime ja proovi uuesti.</string>
   <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">Sa ei pea ennast gruppi lisama</string>
   <string name="ContactSelectionListFragment_maximum_group_size_reached">Maksimaalne grupisuurus täitunud</string>
-  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Signali grupis võib olla maksimaalselt %1$d liiget.</string>
+  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Grapherexi grupis võib olla maksimaalselt %1$d liiget.</string>
   <string name="ContactSelectionListFragment_recommended_member_limit_reached">Jõuti soovitatava liikmete arvu piirini</string>
-  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Signali grupid toimivad kõige paremini %1$d või vähema liikmega. Rohkem liikmete lisamine põhjustab viivitusi sõnumite saatmises ja saamises.</string>
+  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Grapherexi grupid toimivad kõige paremini %1$d või vähema liikmega. Rohkem liikmete lisamine põhjustab viivitusi sõnumite saatmises ja saamises.</string>
   <plurals name="ContactSelectionListFragment_d_members">
     <item quantity="one">%1$d liige</item>
     <item quantity="other">%1$d liiget</item>
   </plurals>
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Signal vajab kontaktide kuvamiseks nendele ligipääsu.</string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Grapherex vajab kontaktide kuvamiseks nendele ligipääsu.</string>
   <string name="contact_selection_list_fragment__show_contacts">Näita kontakte</string>
   <!--contact_selection_list_item-->
   <plurals name="contact_selection_list_item__number_of_members">
@@ -1568,7 +1568,7 @@
     <item quantity="other">%1$d liiget</item>
   </plurals>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">Signali sõnum</string>
+  <string name="conversation_activity__type_message_push">Grapherexi sõnum</string>
   <string name="conversation_activity__type_message_sms_insecure">Turvamata SMS</string>
   <string name="conversation_activity__type_message_mms_insecure">Turvamata MMS</string>
   <string name="conversation_activity__from_sim_name">SIMilt %1$s</string>
@@ -1580,7 +1580,7 @@
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Lülita kiire kaamera manuse sahtel sisse või välja</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Salvesta ja saada helimanus</string>
   <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Lukusta helimanuse salvestamine</string>
-  <string name="conversation_activity__enable_signal_for_sms">Luba Signal SMSide jaoks</string>
+  <string name="conversation_activity__enable_signal_for_sms">Luba Grapherex SMSide jaoks</string>
   <string name="conversation_activity__message_could_not_be_sent">Sõnumi saatmine ei õnnestunud. Kontrolli internetiühendust ja proovi uuesti.</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">Libista tühistamiseks</string>
@@ -1670,9 +1670,9 @@
   <string name="IdentityUtil_unverified_banner_one">Sinu turvanumber kontaktiga %s on muutunud ja pole enam kinnitatud</string>
   <string name="IdentityUtil_unverified_banner_two">Sinu turvanumbrid kontaktidega %1$s ja %2$s pole enam kinnitatud</string>
   <string name="IdentityUtil_unverified_banner_many">Sinu turvanumbrid kontaktidega %1$s, %2$s ja %3$s pole enam kinnitatud</string>
-  <string name="IdentityUtil_unverified_dialog_one">SInu turvanumber kontaktiga %1$s on muutunud ja ei ole enam kinnitatud. See võib tähendada, et keegi proovib su vestlusesse sekkuda või et %1$s lihtsalt taasinstallis Signali.</string>
-  <string name="IdentityUtil_unverified_dialog_two">Sinu turvanumbrid kontaktidega %1$s ja %2$s ei ole enam kinnitatud. See võib tähendada, et keegi proovib sinu vestlustesse sekkuda või et need kontaktid lihtsalt taasinstallisid Signali.</string>
-  <string name="IdentityUtil_unverified_dialog_many">Sinu turvanumbrid kontaktidega %1$s, %2$s ja %3$s pole enam kinnitatud. See võib tähendada, et keegi proovib sinu vestlustesse sekkuda või et need kontaktid lihtsalt taasinstallisid Signali.</string>
+  <string name="IdentityUtil_unverified_dialog_one">SInu turvanumber kontaktiga %1$s on muutunud ja ei ole enam kinnitatud. See võib tähendada, et keegi proovib su vestlusesse sekkuda või et %1$s lihtsalt taasinstallis Grapherexi.</string>
+  <string name="IdentityUtil_unverified_dialog_two">Sinu turvanumbrid kontaktidega %1$s ja %2$s ei ole enam kinnitatud. See võib tähendada, et keegi proovib sinu vestlustesse sekkuda või et need kontaktid lihtsalt taasinstallisid Grapherexi.</string>
+  <string name="IdentityUtil_unverified_dialog_many">Sinu turvanumbrid kontaktidega %1$s, %2$s ja %3$s pole enam kinnitatud. See võib tähendada, et keegi proovib sinu vestlustesse sekkuda või et need kontaktid lihtsalt taasinstallisid Grapherexi.</string>
   <string name="IdentityUtil_untrusted_dialog_one">Sinu turvanumber kontaktiga %s just muutus.</string>
   <string name="IdentityUtil_untrusted_dialog_two">Sinu turvanumbrid kontaktidega %1$s ja %2$s just muutusid.</string>
   <string name="IdentityUtil_untrusted_dialog_many">Sinu turvanumbrid kontaktidega %1$s, %2$s ja %3$s just muutusid.</string>
@@ -1687,7 +1687,7 @@
   <!--log_submit_activity-->
   <string name="log_submit_activity__this_log_will_be_posted_online">See logi postitatakse Internetti avalikult, et kaastöötajad saaksid seda näha, sa võid seda enne postitamist vaadata ja muuta. </string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Kas soovid importida kõik oma olemasolevad tekstsõnumid Signali krüptitud andmebaasi?</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Kas soovid importida kõik oma olemasolevad tekstsõnumid Grapherexi krüptitud andmebaasi?</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">Vaikimisi süsteemi andmebaasi ei muudeta mistahes viisil.</string>
   <string name="database_migration_activity__skip">Jäta vahele</string>
   <string name="database_migration_activity__import">Impordi</string>
@@ -1710,7 +1710,7 @@
   <!--prompt_passphrase_activity-->
   <string name="prompt_passphrase_activity__unlock">Eemalda blokeering</string>
   <!--prompt_mms_activity-->
-  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Signal vajab MMS-seadeid, et edastada meediat ja grupisõnumeid läbi sinu võrguteenuse pakkuja. Sinu seade ei tee seda informatsiooni saadavaks, mis esineb mõnikord lukustatud seadmete ja piiravate konfiguratsioonide puhul.</string>
+  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Grapherex vajab MMS-seadeid, et edastada meediat ja grupisõnumeid läbi sinu võrguteenuse pakkuja. Sinu seade ei tee seda informatsiooni saadavaks, mis esineb mõnikord lukustatud seadmete ja piiravate konfiguratsioonide puhul.</string>
   <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">Meedia- ja grupisõnumite saatmiseks klõpsa nupul \"OK\" ja lõpeta taotletud seaded. MMS-seaded sinu teenusepakkuja jaoks võib tavaliselt leida, otsides \"sinu teenusepakkuja APN\". Sa pead seda tegema ainult ühe korra.</string>
   <!--profile_create_activity-->
   <string name="CreateProfileActivity_first_name_required">Eesnimi (kohustuslik)</string>
@@ -1744,7 +1744,7 @@
   <!--recipients_panel-->
   <string name="recipients_panel__to"><small>Sisesta nimi või number</small></string>
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Kui soovid kinnitada oma krüpteeringut kasutajaga %s, võrdle ülalolevat numbrit nende seadmes oleva numbriga. Võid ka skaneerida nende telefonis olevat koodi või paluda tal skaneerida sinu oma. <a href="https://signal.org/redirect/safety-numbers">Lisateave.</a>]]></string>
+  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Kui soovid kinnitada oma krüpteeringut kasutajaga %s, võrdle ülalolevat numbrit nende seadmes oleva numbriga. Võid ka skaneerida nende telefonis olevat koodi või paluda tal skaneerida sinu oma. <a href="https://Grapherex.org/redirect/safety-numbers">Lisateave.</a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">Koputa skäneerimiseks</string>
   <string name="verify_display_fragment__loading">Laadimine…</string>
   <string name="verify_display_fragment__verified">Kinnitatud</string>
@@ -1795,7 +1795,7 @@
   <string name="HelpFragment__how_do_you_feel">Kuidas sa end tunned? (valikuline)</string>
   <string name="HelpFragment__tell_us_why_youre_reaching_out">Räägi meile, miks sa otsid abi</string>
   <string name="HelpFragment__support_info">Kasutajatoe info</string>
-  <string name="HelpFragment__signal_android_support_request">Signali Androidi kasutajatoetaotlus</string>
+  <string name="HelpFragment__signal_android_support_request">Grapherexi Androidi kasutajatoetaotlus</string>
   <string name="HelpFragment__debug_log">Silumisinfo:</string>
   <string name="HelpFragment__could_not_upload_logs">Logide üleslaadimine ei õnnestunud</string>
   <string name="HelpFragment__please_be_as_descriptive_as_possible">Palun ole võimalikult kirjeldav, et aidata meil probleemist aru saada.</string>
@@ -1844,8 +1844,8 @@
   <string name="preferences__sms_mms">SMS ja MMS</string>
   <string name="preferences__pref_all_sms_title">Saa kõiki SMSe</string>
   <string name="preferences__pref_all_mms_title">Saa kõiki MMSe</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Kasuta Signalit kõigi sissetulevate tekstsõnumite jaoks</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Kasuta Signalit kõigi sissetulevate multimeediasõnumite jaoks</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Kasuta Grapherexit kõigi sissetulevate tekstsõnumite jaoks</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Kasuta Grapherexit kõigi sissetulevate multimeediasõnumite jaoks</string>
   <string name="preferences__pref_enter_sends_title">Sisestusklahv saadab</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">Sisestusklahvi vajutamine saadab tekstsõnumeid</string>
   <string name="preferences__pref_use_address_book_photos">Kasuta telefoniraamatu fotosid</string>
@@ -1860,7 +1860,7 @@
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Lukusta ekraan ja märguanded salasõnaga</string>
   <string name="preferences__screen_security">Kuva turvamine</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">Blokeeri kuvatõmmised viimatiste nimekirjas ja rakenduse sees</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Lukusta Signal automaatselt pärast määratud ebaaktiivsuse ajaintervalli</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Lukusta Grapherex automaatselt pärast määratud ebaaktiivsuse ajaintervalli</string>
   <string name="preferences__inactivity_timeout_passphrase">Mitteaktiivsuse aegumise salasõna</string>
   <string name="preferences__inactivity_timeout_interval">Ebaaktiivsuse ajalõpu pikkus</string>
   <string name="preferences__notifications">Märguanded</string>
@@ -1891,7 +1891,7 @@
   <string name="preferences__slow">Aeglane</string>
   <string name="preferences__help">Abi</string>
   <string name="preferences__advanced">Täpsem</string>
-  <string name="preferences__donate_to_signal">Anneta Signalile</string>
+  <string name="preferences__donate_to_signal">Anneta Grapherexile</string>
   <string name="preferences__privacy">Privaatsus</string>
   <string name="preferences__mms_user_agent">MMS kasutajaagent</string>
   <string name="preferences__advanced_mms_access_point_names">Käsitsi määratud MMS-seaded</string>
@@ -1917,13 +1917,13 @@
   <string name="preferences__chat_wallpaper">Vestluse taustapilt</string>
   <string name="preferences__disable_pin">Keela PIN</string>
   <string name="preferences__enable_pin">Luba PIN</string>
-  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">Kui keelad PIN-koodi, siis kaotad kõik andmed, kui eemaldad Signal rakenduse ja pole seda käsitsi varundanud ja taastanud. Registreerimislukku pole võimalik sisse lülitada, kui PIN-kood on keelatud.</string>
-  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN-koodid hoiavad Signalis salvestatud teabe krüptituna, seega ainult sinul on sellele juurdepääs. Kui paigaldad Signali uuesti, siis sinu profiil, sätted ja kontaktid taastatakse. Rakenduse avamiseks pole PIN-koodi vaja.</string>
+  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">Kui keelad PIN-koodi, siis kaotad kõik andmed, kui eemaldad Grapherex rakenduse ja pole seda käsitsi varundanud ja taastanud. Registreerimislukku pole võimalik sisse lülitada, kui PIN-kood on keelatud.</string>
+  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN-koodid hoiavad Grapherexis salvestatud teabe krüptituna, seega ainult sinul on sellele juurdepääs. Kui paigaldad Grapherexi uuesti, siis sinu profiil, sätted ja kontaktid taastatakse. Rakenduse avamiseks pole PIN-koodi vaja.</string>
   <string name="preferences__system_default">Süsteemi vaikeväärtus</string>
   <string name="preferences__language">Keel</string>
-  <string name="preferences__signal_messages_and_calls">Signali sõnumid ja kõned</string>
+  <string name="preferences__signal_messages_and_calls">Grapherexi sõnumid ja kõned</string>
   <string name="preferences__advanced_pin_settings">Täpsemad PINi seaded</string>
-  <string name="preferences__free_private_messages_and_calls">Tasuta privaatsõnumid ja kõned Signali kasutajatele</string>
+  <string name="preferences__free_private_messages_and_calls">Tasuta privaatsõnumid ja kõned Grapherexi kasutajatele</string>
   <string name="preferences__submit_debug_log">Saada silumislogi</string>
   <string name="preferences__delete_account">Kustuta konto</string>
   <string name="preferences__support_wifi_calling">\"WiFi kõnede\" ühilduvusrežiim</string>
@@ -1962,8 +1962,8 @@
   <string name="preferences_storage__s_messages">%1$s sõnumit</string>
   <string name="preferences_storage__custom">Kohandatud</string>
   <string name="preferences_advanced__use_system_emoji">Kasuta süsteemseid emotikone</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Keela Signalisse sisseehitatud emotikonide tugi</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Vahenda kõik kõned Signali serveri kaudu, et vältida oma IP-aadressi levitamist oma kontaktile. Lubamine vähendab kõnekvaliteeti.</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Keela Grapherexisse sisseehitatud emotikonide tugi</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Vahenda kõik kõned Grapherexi serveri kaudu, et vältida oma IP-aadressi levitamist oma kontaktile. Lubamine vähendab kõnekvaliteeti.</string>
   <string name="preferences_advanced__always_relay_calls">Alati vahenda kõned</string>
   <string name="preferences_app_protection__who_can">Kes saab…</string>
   <string name="preferences_app_protection__app_access">Rakenduse ligipääs</string>
@@ -1983,9 +1983,9 @@
   <string name="preferences_notifications__calls">Kõned</string>
   <string name="preferences_notifications__ringtone">Helin</string>
   <string name="preferences_chats__show_invitation_prompts">Kuva kutsete teateid</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Kuva kutsete teateid kontaktidele, kellel pole Signalit</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Kuva kutsete teateid kontaktidele, kellel pole Grapherexit</string>
   <string name="preferences_chats__message_text_size">Sõnumi fondisuurus</string>
-  <string name="preferences_events__contact_joined_signal">Kontakt liitus Signaliga</string>
+  <string name="preferences_events__contact_joined_signal">Kontakt liitus Grapherexiga</string>
   <string name="preferences_notifications__priority">Prioriteet</string>
   <string name="preferences_communication__category_sealed_sender">Kaetud saatja</string>
   <string name="preferences_communication__sealed_sender_display_indicators">Kuva indikaatoreid</string>
@@ -1999,7 +1999,7 @@
   <string name="preferences_off">Väljas</string>
   <string name="preferences_on">Sees</string>
   <string name="preferences_proxy_address">Puhverserveri aadress</string>
-  <string name="preferences_only_use_a_proxy_if">Kasuta puhverserverit ainult siis, kui Signaliga ühendumine pole võimalik mobiilvõrgu ega Wi-Fi kaudu.</string>
+  <string name="preferences_only_use_a_proxy_if">Kasuta puhverserverit ainult siis, kui Grapherexiga ühendumine pole võimalik mobiilvõrgu ega Wi-Fi kaudu.</string>
   <string name="preferences_share">Jaga</string>
   <string name="preferences_save">Salvesta</string>
   <string name="preferences_connecting_to_proxy">Ühenduse loomine puhverserveriga…</string>
@@ -2016,7 +2016,7 @@
   <string name="PaymentsAllActivityFragment__all">Kõik</string>
   <string name="PaymentsAllActivityFragment__sent">Saadetud</string>
   <string name="PaymentsAllActivityFragment__received">Saadud</string>
-  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Kasuta Signalit uue privaatsusele keskendunud digitaalse valuuta MobileCoin saatmiseks ja vastuvõtmiseks.</string>
+  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Kasuta Grapherexit uue privaatsusele keskendunud digitaalse valuuta MobileCoin saatmiseks ja vastuvõtmiseks.</string>
   <string name="PaymentsHomeFragment__activate_payments">Aktiivsed maksed</string>
   <string name="PaymentsHomeFragment__see_all">Näita kõiki</string>
   <string name="PaymentsHomeFragment__send">Saada</string>
@@ -2062,8 +2062,8 @@
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">Kõne</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Signali kõne</string>
-  <string name="conversation_callable_secure__menu_video">Signali videokõne</string>
+  <string name="conversation_callable_secure__menu_call">Grapherexi kõne</string>
+  <string name="conversation_callable_secure__menu_video">Grapherexi videokõne</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">Sõnumi andmed</string>
   <string name="conversation_context__menu_copy_text">Kopeeri tekst</string>
@@ -2135,10 +2135,10 @@
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">Võrdle lõikelauaga</string>
   <!--reminder_header-->
   <string name="reminder_header_sms_import_title">Impordi süsteemi SMSid</string>
-  <string name="reminder_header_sms_import_text">Koputa, et kopeerida oma telefoni SMS-sõnumid Signali krüptitud andmebaasi.</string>
-  <string name="reminder_header_push_title">Luba Signali sõnumid ja kõned</string>
+  <string name="reminder_header_sms_import_text">Koputa, et kopeerida oma telefoni SMS-sõnumid Grapherexi krüptitud andmebaasi.</string>
+  <string name="reminder_header_push_title">Luba Grapherexi sõnumid ja kõned</string>
   <string name="reminder_header_push_text">Täienda oma suhtluskogemust.</string>
-  <string name="reminder_header_service_outage_text">Signalil on tehnilisi raskusi. Pingutame selle nimel, et teenus võimalikult kiiresti taastada.</string>
+  <string name="reminder_header_service_outage_text">Grapherexil on tehnilisi raskusi. Pingutame selle nimel, et teenus võimalikult kiiresti taastada.</string>
   <string name="reminder_header_progress">%1$d%%</string>
   <!--media_preview-->
   <string name="media_preview__save_title">Salvesta</string>
@@ -2154,22 +2154,22 @@
   <string name="Insights__percent">%</string>
   <string name="Insights__title">Pilguheit</string>
   <string name="InsightsDashboardFragment__title">Pilguheit</string>
-  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Signali protokoll kaitses automaatselt %1$d%% väljuvat sõnumit %2$d päeva jooksul. Vestlused Signali kasutajate vahel on alati otspunktkrüpteeritud.</string>
-  <string name="InsightsDashboardFragment__boost_your_signal">Signali võimendamine</string>
+  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Grapherexi protokoll kaitses automaatselt %1$d%% väljuvat sõnumit %2$d päeva jooksul. Vestlused Grapherexi kasutajate vahel on alati otspunktkrüpteeritud.</string>
+  <string name="InsightsDashboardFragment__boost_your_signal">Grapherexi võimendamine</string>
   <string name="InsightsDashboardFragment__not_enough_data">Pole piisavalt andmeid</string>
   <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">Sinu Pilguheidu protsent on arvutatud %1$d päeva väljuvate sõnumite põhjal, mis ei ole haihtunud ega kustutatud.</string>
   <string name="InsightsDashboardFragment__start_a_conversation">Alusta vestlust</string>
-  <string name="InsightsDashboardFragment__invite_your_contacts">Alusta turvalist suhtlemist ning luba uued funktsioonid, mis võimaldavad krüpteerimata SMS-sõnumitest rohkemat, kutsudes rohkem kontakte Signaliga liituma. </string>
+  <string name="InsightsDashboardFragment__invite_your_contacts">Alusta turvalist suhtlemist ning luba uued funktsioonid, mis võimaldavad krüpteerimata SMS-sõnumitest rohkemat, kutsudes rohkem kontakte Grapherexiga liituma. </string>
   <string name="InsightsDashboardFragment__this_stat_was_generated_locally">See statistika on antud seadmes kohalikult genereeritud ning ainult sina näed seda. Seda ei saadeta mitte kunagi mitte kuhugi.</string>
   <string name="InsightsDashboardFragment__encrypted_messages">Krüpteeritud sõnumid</string>
   <string name="InsightsDashboardFragment__cancel">Loobu</string>
   <string name="InsightsDashboardFragment__send">Saada</string>
   <string name="InsightsModalFragment__title">Tutvustame Pilguheitu</string>
-  <string name="InsightsModalFragment__description">Leia, mitu sinu väljuvat sõnumit saadeti turvaliselt, seejärel kutsu kiirelt uusi kontakte, et võimendada oma Signali-protsenti.</string>
+  <string name="InsightsModalFragment__description">Leia, mitu sinu väljuvat sõnumit saadeti turvaliselt, seejärel kutsu kiirelt uusi kontakte, et võimendada oma Grapherexi-protsenti.</string>
   <string name="InsightsModalFragment__view_insights">Vaata Pilguheitu</string>
-  <string name="FirstInviteReminder__title">Kutsu Signalisse</string>
+  <string name="FirstInviteReminder__title">Kutsu Grapherexisse</string>
   <string name="FirstInviteReminder__description">Sa võiksid täiendada krüpteeritud sõnumite saatmise arvu %1$d%%</string>
-  <string name="SecondInviteReminder__title">Võimenda oma Signali</string>
+  <string name="SecondInviteReminder__title">Võimenda oma Grapherexi</string>
   <string name="SecondInviteReminder__description">Kutsu %1$s</string>
   <string name="InsightsReminder__view_insights">Vaata Pilguheitu</string>
   <string name="InsightsReminder__invite">Kutsu</string>
@@ -2190,7 +2190,7 @@
   <string name="CreateKbsPinFragment__create_a_new_pin">Loo uus PIN-kood</string>
   <string name="CreateKbsPinFragment__you_can_choose_a_new_pin_as_long_as_this_device_is_registered">PIN-koodi saab muuta senikaua kuni see seade on registreeritud.</string>
   <string name="CreateKbsPinFragment__create_your_pin">Loo enda PIN-kood</string>
-  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">PIN-koodid hoiavad Signalis salvestatud teabe krüptituna, seega ainult sinul on sellele juurdepääs. Kui paigaldad Signali uuesti, siis sinu profiil, sätted ja kontaktid taastatakse. Rakenduse avamiseks pole PIN-koodi vaja.</string>
+  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">PIN-koodid hoiavad Grapherexis salvestatud teabe krüptituna, seega ainult sinul on sellele juurdepääs. Kui paigaldad Grapherexi uuesti, siis sinu profiil, sätted ja kontaktid taastatakse. Rakenduse avamiseks pole PIN-koodi vaja.</string>
   <string name="CreateKbsPinFragment__choose_a_stronger_pin">Vali tugevam PIN-kood</string>
   <!--ConfirmKbsPinFragment-->
   <string name="ConfirmKbsPinFragment__pins_dont_match">PIN-koodid pole samad. Proovi uuesti.</string>
@@ -2202,7 +2202,7 @@
   <string name="ConfirmKbsPinFragment__creating_pin">PIN-koodi loomine…</string>
   <!--KbsSplashFragment-->
   <string name="KbsSplashFragment__introducing_pins">Tutvustame PIN-koode</string>
-  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN-koodid hoiavad Signalis salvestatud teabe krüptituna, seega ainult sinul on sellele juurdepääs. Kui paigaldad Signali uuesti, siis sinu profiil, sätted ja kontaktid taastatakse. Rakenduse avamiseks pole PIN-koodi vaja.</string>
+  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN-koodid hoiavad Grapherexis salvestatud teabe krüptituna, seega ainult sinul on sellele juurdepääs. Kui paigaldad Grapherexi uuesti, siis sinu profiil, sätted ja kontaktid taastatakse. Rakenduse avamiseks pole PIN-koodi vaja.</string>
   <string name="KbsSplashFragment__learn_more">Uuri täpsemalt</string>
   <string name="KbsSplashFragment__registration_lock_equals_pin">Registreerimislukk = PIN-kood</string>
   <string name="KbsSplashFragment__your_registration_lock_is_now_called_a_pin">Sinu registreerimislukk on nüüd PIN-kood ja see teeb rohkemgi. Uuenda seda nüüd.</string>
@@ -2211,7 +2211,7 @@
   <string name="KbsSplashFragment__learn_more_about_pins">Uuri lähemalt PIN-koodide kohta</string>
   <string name="KbsSplashFragment__disable_pin">Keela PIN</string>
   <!--KBS Reminder Dialog-->
-  <string name="KbsReminderDialog__enter_your_signal_pin">Sisesta Signali PIN-kood</string>
+  <string name="KbsReminderDialog__enter_your_signal_pin">Sisesta Grapherexi PIN-kood</string>
   <string name="KbsReminderDialog__to_help_you_memorize_your_pin">PIN-koodi meeldejätmise aitamiseks palume sul seda aeg-ajalt sisestada. Aja möödudes küsime seda harvem.</string>
   <string name="KbsReminderDialog__skip">Jäta vahele</string>
   <string name="KbsReminderDialog__submit">Postita</string>
@@ -2232,8 +2232,8 @@
   <string name="RegistrationLockFragment__incorrect_pin">Sobimatu PIN-kood</string>
   <string name="RegistrationLockFragment__forgot_your_pin">Kas unustasid PIN-koodi?</string>
   <string name="RegistrationLockFragment__not_many_tries_left">Palju katseid pole enam jäänud!</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Signali registreerimine - vajad abi Androidi PIN-koodiga (v1 PIN)</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Signali registreerimine - vajad abi Androidi PIN-koodiga (v2 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Grapherexi registreerimine - vajad abi Androidi PIN-koodiga (v1 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Grapherexi registreerimine - vajad abi Androidi PIN-koodiga (v2 PIN)</string>
   <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
     <item quantity="one">Sinu privaatsuse ja turvalisuse huvides ei ole võimalik sinu PIN-koodi taastada. Kui sa ei suuda PIN-koodi meenutada, siis on sul võimalik pärast %1$d päeva konto mitteaktiivsust võimalik uuesti SMS-i abil kinnitada. Sellisel juhul su konto tühjendatakse ja kogu sisu eemaldatakse.</item>
     <item quantity="other">Sinu privaatsuse ja turvalisuse huvides ei ole võimalik sinu PIN-koodi taastada. Kui sa ei suuda PIN-koodi meenutada, siis on sul võimalik pärast %1$d päeva konto mitteaktiivsust võimalik uuesti SMS-i abil kinnitada. Sellisel juhul su konto tühjendatakse ja kogu sisu eemaldatakse.</item>
@@ -2258,28 +2258,28 @@
   <string name="CalleeMustAcceptMessageRequestDialogFragment__s_will_get_a_message_request_from_you">%1$s saab sinult sõnumitaotluse. Saad helistada pärast seda, kui sinu taotlus on kinnitatud.</string>
   <!--KBS Megaphone-->
   <string name="KbsMegaphone__create_a_pin">Loo PIN-kood</string>
-  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN-koodid hoiavad Signalis salvestatud teabe krüptituna</string>
+  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN-koodid hoiavad Grapherexis salvestatud teabe krüptituna</string>
   <string name="KbsMegaphone__create_pin">Loo PIN-kood</string>
   <!--Research Megaphone-->
-  <string name="ResearchMegaphone_tell_signal_what_you_think">Räägi Signalile, mida sa arvad</string>
-  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">Tahame kuulda sinult tagasisidet, et teha Signal planeedi parimaks suhtlusrakenduseks.</string>
+  <string name="ResearchMegaphone_tell_signal_what_you_think">Räägi Grapherexile, mida sa arvad</string>
+  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">Tahame kuulda sinult tagasisidet, et teha Grapherex planeedi parimaks suhtlusrakenduseks.</string>
   <string name="ResearchMegaphone_learn_more">Rohkem infot</string>
   <string name="ResearchMegaphone_dismiss">Tühista</string>
-  <string name="ResearchMegaphoneDialog_signal_research">Signali uurimus</string>
-  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>Me usume privaatsusse.</b></p><p>Signal ei jälita sind ega kogu sinu andmeid. Signali täiustamisel kõigi jaoks sõltume kasutaja tagasisidest <b>ja ootame seda ka sinult.</b></p><p>Teostame küsitlust, et saada aru, kuidas sa Signalit kasutad. Meie küsitlus ei kogu sind identifitseerivaid andmeid. Kui oled huvitatud lisaks tagasiside andmisest, siis on sul võimalus sisestada kontaktinfo.</p><p>Kui sul on paar minutit aega ja tagasisidet, mida jagada, siis sooviksime seda sinult kuulda.</p>]]></string>
+  <string name="ResearchMegaphoneDialog_signal_research">Grapherexi uurimus</string>
+  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>Me usume privaatsusse.</b></p><p>Grapherex ei jälita sind ega kogu sinu andmeid. Grapherexi täiustamisel kõigi jaoks sõltume kasutaja tagasisidest <b>ja ootame seda ka sinult.</b></p><p>Teostame küsitlust, et saada aru, kuidas sa Grapherexit kasutad. Meie küsitlus ei kogu sind identifitseerivaid andmeid. Kui oled huvitatud lisaks tagasiside andmisest, siis on sul võimalus sisestada kontaktinfo.</p><p>Kui sul on paar minutit aega ja tagasisidet, mida jagada, siis sooviksime seda sinult kuulda.</p>]]></string>
   <string name="ResearchMegaphoneDialog_take_the_survey">Osale küsitluses</string>
   <string name="ResearchMegaphoneDialog_no_thanks">Tänan, ei</string>
-  <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">Seda küsitlust teostab Alchemer turvalises domeenis surveys.signalusers.org</string>
+  <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">Seda küsitlust teostab Alchemer turvalises domeenis surveys.Grapherexusers.org</string>
   <!--transport_selection_list_item-->
   <string name="transport_selection_list_item__transport_icon">Transpordi ikoon</string>
   <string name="ConversationListFragment_loading">Laadimine…</string>
   <string name="CallNotificationBuilder_connecting">Ühendumine…</string>
   <string name="Permissions_permission_required">Luba on vajalik</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Signal vajab SMS-uba, et saata SMSi, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"SMS\".</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Grapherex vajab SMS-uba, et saata SMSi, ent see on püsivalt keelatud. Palun jätka rakenduse seadetes, vali \"Load\" ja luba \"SMS\".</string>
   <string name="Permissions_continue">Jätka</string>
   <string name="Permissions_not_now">Mitte praegu</string>
-  <string name="conversation_activity__enable_signal_messages">LUBA SIGNALI SÕNUMID</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Migreerin Signali andmebaasi</string>
+  <string name="conversation_activity__enable_signal_messages">LUBA GrapherexI SÕNUMID</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">Migreerin Grapherexi andmebaasi</string>
   <string name="PushDecryptJob_new_locked_message">Uus lukustatud sõnum</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Ava lukk ootel sõnumite vaatamiseks</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">Varukoopia salasõna</string>
@@ -2297,7 +2297,7 @@
   <string name="preferences_chats__transfer_account_to_a_new_android_device">Kanna konto üle uude Android-seadmesse</string>
   <string name="RegistrationActivity_enter_backup_passphrase">Sisesta varukoopia salasõna</string>
   <string name="RegistrationActivity_restore">Taasta</string>
-  <string name="RegistrationActivity_backup_failure_downgrade">Uuematest Signali versioonidest ei saa varukoopiaid importida</string>
+  <string name="RegistrationActivity_backup_failure_downgrade">Uuematest Grapherexi versioonidest ei saa varukoopiaid importida</string>
   <string name="RegistrationActivity_incorrect_backup_passphrase">Vale varukoopia salasõna</string>
   <string name="RegistrationActivity_checking">Kontrollimine…</string>
   <string name="RegistrationActivity_d_messages_so_far">Siiani leidsime %d sõnumit…</string>
@@ -2328,8 +2328,8 @@
   <string name="ProgressPreference_d_messages_so_far">Siiani leidsime %d sõnumit</string>
   <string name="RegistrationActivity_wrong_number">Vale number</string>
   <string name="RegistrationActivity_call_me_instead_available_in">Helista mulle selle asemel \n (Saadaval vahemikus %1$02d:%2$02d)</string>
-  <string name="RegistrationActivity_contact_signal_support">Võta ühendust Signali kasutajatoega</string>
-  <string name="RegistrationActivity_code_support_subject">Signali registreerimine - kinnituskood Androidile</string>
+  <string name="RegistrationActivity_contact_signal_support">Võta ühendust Grapherexi kasutajatoega</string>
+  <string name="RegistrationActivity_code_support_subject">Grapherexi registreerimine - kinnituskood Androidile</string>
   <string name="BackupUtil_never">Mitte kunagi</string>
   <string name="BackupUtil_unknown">Tundmatu</string>
   <string name="preferences_app_protection__see_my_phone_number">Vaata mu telefoninumbrit</string>
@@ -2338,21 +2338,21 @@
   <string name="PhoneNumberPrivacy_my_contacts">Minu kontaktid</string>
   <string name="PhoneNumberPrivacy_nobody">Mitte keegi</string>
   <string name="PhoneNumberPrivacy_everyone_see_description">Sinu telefoninumber kuvatakse kõigile inimestele ja gruppidele, kellega suhtled.</string>
-  <string name="PhoneNumberPrivacy_everyone_find_description">Igaüks, kellel on sinu telefoninumber kontaktides näeb sind ka kontaktina Signalis. Teised saavad sind leida otsingu kaudu.</string>
+  <string name="PhoneNumberPrivacy_everyone_find_description">Igaüks, kellel on sinu telefoninumber kontaktides näeb sind ka kontaktina Grapherexis. Teised saavad sind leida otsingu kaudu.</string>
   <string name="preferences_app_protection__screen_lock">Ekraanilukk</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Lukusta Signalile juurdepääs Androidi lukustuskuva või sõrmejäljega</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Lukusta Grapherexile juurdepääs Androidi lukustuskuva või sõrmejäljega</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">Ekraaniluku ebaaktiivsuse ajalõpp</string>
-  <string name="preferences_app_protection__signal_pin">Signali PIN-kood</string>
+  <string name="preferences_app_protection__signal_pin">Grapherexi PIN-kood</string>
   <string name="preferences_app_protection__create_a_pin">Loo PIN-kood</string>
   <string name="preferences_app_protection__change_your_pin">Muuda enda PIN-koodi</string>
   <string name="preferences_app_protection__pin_reminders">PIN-koodi meeldetuletused</string>
-  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PIN-koodid hoiavad Signalis salvestatud teabe krüptituna, et ainult sinul on sellele juurdepääs. Kui paigaldad Signali uuesti, siis sinu profiil, sätted ja kontaktid taastatakse.</string>
-  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Lisa turvalisust, nõudes selle telefoninumbri Signalis uuesti registreerimiseks Signali PIN-koodi.</string>
+  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PIN-koodid hoiavad Grapherexis salvestatud teabe krüptituna, et ainult sinul on sellele juurdepääs. Kui paigaldad Grapherexi uuesti, siis sinu profiil, sätted ja kontaktid taastatakse.</string>
+  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Lisa turvalisust, nõudes selle telefoninumbri Grapherexis uuesti registreerimiseks Grapherexi PIN-koodi.</string>
   <string name="preferences_app_protection__reminders_help_you_remember_your_pin">Meeldetuletused aitavad sul PIN-koodi meelde jätta, kuna seda pole võimalik taastada. Aja möödudes küsitakse sult seda harvemini.</string>
   <string name="preferences_app_protection__turn_off">Lülita välja</string>
   <string name="preferences_app_protection__confirm_pin">Kinnita PIN-kood</string>
-  <string name="preferences_app_protection__confirm_your_signal_pin">Kinnita Signali PIN-kood</string>
-  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Jäta kindlasti meelde või salvesta PIN-kood turvaliselt, kuna seda pole võimalik taastada. Kui unustad PIN-koodi, võid Signali kontot uuesti registreerides enda andmed kaotada.</string>
+  <string name="preferences_app_protection__confirm_your_signal_pin">Kinnita Grapherexi PIN-kood</string>
+  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Jäta kindlasti meelde või salvesta PIN-kood turvaliselt, kuna seda pole võimalik taastada. Kui unustad PIN-koodi, võid Grapherexi kontot uuesti registreerides enda andmed kaotada.</string>
   <string name="preferences_app_protection__incorrect_pin_try_again">Lubamatu PIN-kood. Proovi uuesti.</string>
   <string name="preferences_app_protection__failed_to_enable_registration_lock">Registreerimisluku lubamine ei õnnestunud.</string>
   <string name="preferences_app_protection__failed_to_disable_registration_lock">Registreerimisluku keelamine ei õnnestunud.</string>
@@ -2365,19 +2365,19 @@
   <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">Oled sooritanud liiga palju katseid. Palun proovi hiljem uuesti.</string>
   <string name="RegistrationActivity_error_connecting_to_service">Teenusega ühendamisel esines viga</string>
   <string name="preferences_chats__backups">Varukoopiad</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Signal on lukus</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">Grapherex on lukus</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">KOPUTA AVAMISEKS</string>
   <string name="Recipient_unknown">Tundmatu</string>
   <!--TransferOrRestoreFragment-->
   <string name="TransferOrRestoreFragment__transfer_or_restore_account">Kanna üle või taasta konto</string>
-  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Kui oled varem Signali konto registreerinud, siis saad olemasoleva konto ja sõnumid üle kanda või taastada.</string>
+  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Kui oled varem Grapherexi konto registreerinud, siis saad olemasoleva konto ja sõnumid üle kanda või taastada.</string>
   <string name="TransferOrRestoreFragment__transfer_from_android_device">Kanna üle Android-seadmest</string>
   <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">Kanna konto ja sõnumid üle vanast Android-seadmest. Sul peab olema ligipääs vanale seadmele.</string>
   <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">Sul peab olema ligipääs vanale seadmele.</string>
   <string name="TransferOrRestoreFragment__restore_from_backup">Taasta varukoopiast</string>
   <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">Taasta sõnumid lokaalsest varukoopiast. Kui sa nüüd ei taasta, siis sa ei saa ka hiljem taastada.</string>
   <!--NewDeviceTransferInstructionsFragment-->
-  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Ava Signal vanas Android-seadmes</string>
+  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Ava Grapherex vanas Android-seadmes</string>
   <string name="NewDeviceTransferInstructions__continue">Jätka</string>
   <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
   <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">Sätete avamiseks klõpsa enda profiilifotol üleval vasakul</string>
@@ -2389,7 +2389,7 @@
   <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">Valmistun ühenduma vanasse Android-seadmesse…</string>
   <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">See võtab hetke aega, peaks varsti valmis olema</string>
   <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">Ootan vana Android-seadme ühendumist…</string>
-  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Signal vajab vana Android-seadme leidmiseks ja ühendamiseks juurdepääsu asukohainfole.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Grapherex vajab vana Android-seadme leidmiseks ja ühendamiseks juurdepääsu asukohainfole.</string>
   <string name="NewDeviceTransferSetup__restore_a_backup">Taasta varukoopia</string>
   <!--OldDeviceTransferSetupFragment-->
   <string name="OldDeviceTransferSetup__searching_for_new_android_device">Uue Android-seadme otsimine…</string>
@@ -2424,7 +2424,7 @@
   <!--OldDeviceTransferInstructionsFragment-->
   <string name="OldDeviceTransferInstructions__transfer_account">Kanna konto üle</string>
   <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Laadi Signal alla uues Android-seadmes</string>
+  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Laadi Grapherex alla uues Android-seadmes</string>
   <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
   <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
   <string name="OldDeviceTransferInstructions__continue">Jätka</string>
@@ -2469,12 +2469,12 @@
   <string name="GroupsLearnMore_what_are_legacy_groups">Mis on vanad grupid?</string>
   <string name="GroupsLearnMore_paragraph_1">Vanad grupid on need grupid, mis pole ühilduvad uute gruppide funktsionaalsustega nagu administraatorid ja rohkem kirjeldavad grupi muudatused.</string>
   <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">Kas saan vana gruppi uuendada?</string>
-  <string name="GroupsLearnMore_paragraph_2">Vanu gruppe ei saa veel uuteks gruppideks uuendada, aga sa saad luua samade liikmetega uue grupi, kui need liikmed kasutavad uusimat Signali versiooni.</string>
-  <string name="GroupsLearnMore_paragraph_3">Tulevikus pakub Signal võimalust vanu gruppe uuteks uuendada.</string>
+  <string name="GroupsLearnMore_paragraph_2">Vanu gruppe ei saa veel uuteks gruppideks uuendada, aga sa saad luua samade liikmetega uue grupi, kui need liikmed kasutavad uusimat Grapherexi versiooni.</string>
+  <string name="GroupsLearnMore_paragraph_3">Tulevikus pakub Grapherex võimalust vanu gruppe uuteks uuendada.</string>
   <!--GroupLinkBottomSheetDialogFragment-->
   <string name="GroupLinkBottomSheet_share_hint_requiring_approval">Igaüks saab selle lingi kaudu näha grupi nime ja fotot ning saata taotluse liitumiseks. Jaga seda isikutega, keda usaldad.</string>
   <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">Igaüks saab selle lingi kaudu näha grupi nime ja fotot ning liituda grupiga. Jaga seda isikutega, keda usaldad.</string>
-  <string name="GroupLinkBottomSheet_share_via_signal">Jaga Signali kaudu</string>
+  <string name="GroupLinkBottomSheet_share_via_signal">Jaga Grapherexi kaudu</string>
   <string name="GroupLinkBottomSheet_copy">Kopeeri</string>
   <string name="GroupLinkBottomSheet_qr_code">QR-kood</string>
   <string name="GroupLinkBottomSheet_share">Jaga</string>
@@ -2538,7 +2538,7 @@
   <string name="DeleteAccountFragment__no_number">Number määramata</string>
   <string name="DeleteAccountFragment__the_phone_number">Sinu sisestatud telefoninumber ei vasta konto telefoninumbrile.</string>
   <string name="DeleteAccountFragment__are_you_sure">Kas sa tõesti soovid enda kontot kustutada?</string>
-  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">See toiming kustutab Signali konto ja lähtestab rakenduse. Rakendus sulgub pärast protsessi lõpetamist.</string>
+  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">See toiming kustutab Grapherexi konto ja lähtestab rakenduse. Rakendus sulgub pärast protsessi lõpetamist.</string>
   <string name="DeleteAccountFragment__failed_to_delete_account">Konto kustutamine ei õnnestunud. Kas sul on võrguühendus olemas?</string>
   <string name="DeleteAccountFragment__failed_to_delete_local_data">Kohalike andmete kustutamine ei õnnestunud. Andmeid saab käsitsi kustutada süsteemi rakenduse sätetest.</string>
   <string name="DeleteAccountFragment__launch_app_settings">Käivita rakenduse sätted</string>
@@ -2550,7 +2550,7 @@
   <string name="ShareActivity__share">Jaga</string>
   <string name="ShareActivity__send">Saada</string>
   <string name="ShareActivity__s_comma">%1$s,</string>
-  <string name="ShareActivity__sharing_to_multiple_chats_is">Mitmesse vestlusse jagamine toetab ainult Signali sõnumeid</string>
+  <string name="ShareActivity__sharing_to_multiple_chats_is">Mitmesse vestlusse jagamine toetab ainult Grapherexi sõnumeid</string>
   <!--MultiShareDialogs-->
   <string name="MultiShareDialogs__failed_to_send_to_some_users">Mõnedele kasutajatele saatmine ei õnnestunud.</string>
   <string name="MultiShareDialogs__you_can_only_share_with_up_to">Saad jagada ainult kuni %1$d vestlusega</string>

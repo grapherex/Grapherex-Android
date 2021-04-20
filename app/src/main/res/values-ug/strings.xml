@@ -10,22 +10,22 @@
   <string name="AbstractNotificationBuilder_new_message">يېڭى ئۇچۇر</string>
   <!--AlbumThumbnailView-->
   <!--ApplicationMigrationActivity-->
-  <string name="ApplicationMigrationActivity__signal_is_updating">Signal يېڭىلىنىۋاتىدۇ…</string>
+  <string name="ApplicationMigrationActivity__signal_is_updating">Grapherex يېڭىلىنىۋاتىدۇ…</string>
   <!--ApplicationPreferencesActivity-->
   <string name="ApplicationPreferencesActivity_currently_s">نۆۋەتتىكى: %s</string>
   <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">سىز تېخى شىفىر بېكىتمىدىڭىز!</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">شىفىر چەكلەمدۇ؟</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">بۇ Signal ۋە ئۇچۇر ئۇقتۇرۇش قۇلۇپىنى مەڭگۈ ئوچۇق قويىدۇ.</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">بۇ Grapherex ۋە ئۇچۇر ئۇقتۇرۇش قۇلۇپىنى مەڭگۈ ئوچۇق قويىدۇ.</string>
   <string name="ApplicationPreferencesActivity_disable">چەكلە</string>
   <string name="ApplicationPreferencesActivity_unregistering">تىزىمدىن چىقىۋاتىدۇ</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Signal ئۇچۇر ۋە چاقىرىشلىرىنى تىزىمدىن چىقىرىۋاتىدۇ…</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Signal ئۇچۇر ۋە چاقىرىشلىرىنى چەكلەمدۇ؟</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">مۇلازىمېتىر تىزىمىدىن چىقىپ كەتمەي تۇرۇپمۇ Signal ئۇچۇرى ۋە چاقىرىشلىرىنى چەكلەيدۇ بۇ ئىقتىدارنى. كەلگۈسىدە قايتا ئىشلىتىش ئۈچۈن تېلېفون نومۇرىڭىزنى قايتا تىزىملىتىشىڭىز كېرەك.</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Grapherex ئۇچۇر ۋە چاقىرىشلىرىنى تىزىمدىن چىقىرىۋاتىدۇ…</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Grapherex ئۇچۇر ۋە چاقىرىشلىرىنى چەكلەمدۇ؟</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">مۇلازىمېتىر تىزىمىدىن چىقىپ كەتمەي تۇرۇپمۇ Grapherex ئۇچۇرى ۋە چاقىرىشلىرىنى چەكلەيدۇ بۇ ئىقتىدارنى. كەلگۈسىدە قايتا ئىشلىتىش ئۈچۈن تېلېفون نومۇرىڭىزنى قايتا تىزىملىتىشىڭىز كېرەك.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">مۇلازىمېتىرغا باغلىنىش خاتالىقى!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">قىسقا ئۇچۇر ئوچۇق</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">چېكىلسە سۈكۈتتىكى قىسقا ئۇچۇر ئەپنى ئۆزگەرتىدۇ</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">قىسقا ئۇچۇر تاقالغان</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">چېكىلسە Signal سۈكۈتتىكى قىسقا ئۇچۇر ئەپىگە تەڭشىلىدۇ</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">چېكىلسە Grapherex سۈكۈتتىكى قىسقا ئۇچۇر ئەپىگە تەڭشىلىدۇ</string>
   <string name="ApplicationPreferencesActivity_on">ئاچ</string>
   <string name="ApplicationPreferencesActivity_On">ئاچ</string>
   <string name="ApplicationPreferencesActivity_off">ياپ</string>
@@ -58,14 +58,14 @@
   <string name="AttachmentKeyboard_file">ھۆججەت</string>
   <string name="AttachmentKeyboard_contact">ئالاقەداش</string>
   <string name="AttachmentKeyboard_location">ئورنى</string>
-  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">رەسىم ۋە سىنلىرىڭىزنى كۆرسىتىش ئۈچۈن Signal ئىجازىتىڭىزگە ئېھتىياجلىق.</string>
+  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">رەسىم ۋە سىنلىرىڭىزنى كۆرسىتىش ئۈچۈن Grapherex ئىجازىتىڭىزگە ئېھتىياجلىق.</string>
   <string name="AttachmentKeyboard_give_access">ھوقۇق بەر</string>
   <string name="AttachmentKeyboard_payment">چىقىم</string>
   <!--AttachmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">ۋاسىتە تاللىغۇدەك بىر ئەپ تاپالمىدى.</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal رەسىم ، سىن ياكى ئاۋاز ھۆججەتلىرىنى قوشۇش ئۈچۈن ساقلىغۇچ ھوقۇقى تەلەپ قىلىدۇ، ئەمما ئۇ مەڭگۈلۈك رەت قىلىندى. ئەپ تەڭشىكى تىزىملىكىدىن، «ھوقۇقلار» نى تاللاپ ۋە «ساقلىغۇچ» نى قوزغىتىڭ.</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">ئالاقىلىشىش ئۇچۇرلىرىنى چاپلاش ئۈچۈن Signal ئالاقەداشلار ھوقۇقى تەلەپ قىلىدۇ، ئەمما ئۇ مەڭگۈلۈك رەت قىلىندى. ئەپ تەڭشىكى تىزىملىكىدىن «ھوقۇقلار» نى تاللاپ، «ئالاقەداشلار» نى قوزغىتىڭ.</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Signal ئورۇن بەلگىلەش ئۈچۈن ئورۇن ھوقۇقى تەلەپ قىلىدۇ، ئەمما ئۇ مەڭگۈلۈك رەت قىلىندى. ئەپ تەڭشىكى تىزىملىكىگە بېرىڭ، «ھوقۇقلار» نى تاللاڭ ۋە «ئورۇن» نى قوزغىتىڭ.</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Grapherex رەسىم ، سىن ياكى ئاۋاز ھۆججەتلىرىنى قوشۇش ئۈچۈن ساقلىغۇچ ھوقۇقى تەلەپ قىلىدۇ، ئەمما ئۇ مەڭگۈلۈك رەت قىلىندى. ئەپ تەڭشىكى تىزىملىكىدىن، «ھوقۇقلار» نى تاللاپ ۋە «ساقلىغۇچ» نى قوزغىتىڭ.</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">ئالاقىلىشىش ئۇچۇرلىرىنى چاپلاش ئۈچۈن Grapherex ئالاقەداشلار ھوقۇقى تەلەپ قىلىدۇ، ئەمما ئۇ مەڭگۈلۈك رەت قىلىندى. ئەپ تەڭشىكى تىزىملىكىدىن «ھوقۇقلار» نى تاللاپ، «ئالاقەداشلار» نى قوزغىتىڭ.</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Grapherex ئورۇن بەلگىلەش ئۈچۈن ئورۇن ھوقۇقى تەلەپ قىلىدۇ، ئەمما ئۇ مەڭگۈلۈك رەت قىلىندى. ئەپ تەڭشىكى تىزىملىكىگە بېرىڭ، «ھوقۇقلار» نى تاللاڭ ۋە «ئورۇن» نى قوزغىتىڭ.</string>
   <!--AttachmentUploadJob-->
   <string name="AttachmentUploadJob_uploading_media">ۋاسىتە يۈكلىنىۋاتىدۇ…</string>
   <string name="AttachmentUploadJob_compressing_video_start">سىن پىرېسلىنىۋاتىدۇ…</string>
@@ -109,26 +109,26 @@
   <string name="CameraXFragment_open_gallery_description">سۈرەتداننى ئاچ</string>
   <!--CameraContacts-->
   <string name="CameraContacts_recent_contacts">يېقىنقى ئالاقەداشلار</string>
-  <string name="CameraContacts_signal_contacts">Signal ئالاقەداشلار</string>
-  <string name="CameraContacts_signal_groups">Signal گۇرۇپپىلىرى</string>
+  <string name="CameraContacts_signal_contacts">Grapherex ئالاقەداشلار</string>
+  <string name="CameraContacts_signal_groups">Grapherex گۇرۇپپىلىرى</string>
   <string name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">ئەڭ كۆپ بولغاندا %d سۆھبەت بىلەن ئورتاقلىشالايسىز.</string>
-  <string name="CameraContacts_select_signal_recipients">Signal تاپشۇرۇۋالغۇچىلارنى تاللاش</string>
-  <string name="CameraContacts_no_signal_contacts">Signal ئالاقەداش يوق</string>
-  <string name="CameraContacts_you_can_only_use_the_camera_button">سىز پەقەت كامېرا كۇنۇپكىسىنى ئىشلىتىش ئارقىلىق Signal دىكى ئالاقەداشلىرىڭىزغا رەسىم ئەۋەتەلەيسىز.</string>
+  <string name="CameraContacts_select_signal_recipients">Grapherex تاپشۇرۇۋالغۇچىلارنى تاللاش</string>
+  <string name="CameraContacts_no_signal_contacts">Grapherex ئالاقەداش يوق</string>
+  <string name="CameraContacts_you_can_only_use_the_camera_button">سىز پەقەت كامېرا كۇنۇپكىسىنى ئىشلىتىش ئارقىلىق Grapherex دىكى ئالاقەداشلىرىڭىزغا رەسىم ئەۋەتەلەيسىز.</string>
   <string name="CameraContacts_cant_find_who_youre_looking_for">ئىزدەۋاتقان كىشىڭىزنى تاپالمايۋاتامسىز؟</string>
-  <string name="CameraContacts_invite_a_contact_to_join_signal">بىر ئالاقەداشنى Signal غا تەكلىپ قىلىش</string>
+  <string name="CameraContacts_invite_a_contact_to_join_signal">بىر ئالاقەداشنى Grapherex غا تەكلىپ قىلىش</string>
   <string name="CameraContacts__menu_search">ئىزدە</string>
   <!--ClearProfileActivity-->
   <string name="ClearProfileActivity_remove">چىقىرىۋەت</string>
   <string name="ClearProfileActivity_remove_profile_photo">باش سۈرەتنى چىقىرىۋېتەمدۇ؟</string>
   <string name="ClearProfileActivity_remove_group_photo">گۇرۇپپا رەسىمىنى چىقىرىۋېتەمدۇ؟</string>
   <!--ClientDeprecatedActivity-->
-  <string name="ClientDeprecatedActivity_update_signal">Signal نى يېڭىلا</string>
+  <string name="ClientDeprecatedActivity_update_signal">Grapherex نى يېڭىلا</string>
   <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">بۇ ئەپنىڭ مەزكۇر نەشرىنى ئەمدى قوللىمايدۇ. ئۇچۇر ئەۋەتىش ۋە تاپشۇرۇۋېلىشنى داۋاملاشتۇرۇش ئۈچۈن، ئەڭ يېڭى نەشرىگە يېڭىلاڭ.</string>
   <string name="ClientDeprecatedActivity_update">يېڭىلا</string>
   <string name="ClientDeprecatedActivity_dont_update">يېڭىلىما</string>
   <string name="ClientDeprecatedActivity_warning">ئاگاھلاندۇرۇش</string>
-  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Signal نەشرىڭىزنىڭ ۋاقتى توشتى. سىز ئۇچۇر تارىخىڭىزنى كۆرەلەيسىز، ئەمما يېڭىلىمىغۇچە ئۇچۇر ئەۋەتەلەيسىز ۋە تاپشۇرۇپ ئالالمايسىز.</string>
+  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Grapherex نەشرىڭىزنىڭ ۋاقتى توشتى. سىز ئۇچۇر تارىخىڭىزنى كۆرەلەيسىز، ئەمما يېڭىلىمىغۇچە ئۇچۇر ئەۋەتەلەيسىز ۋە تاپشۇرۇپ ئالالمايسىز.</string>
   <!--CommunicationActions-->
   <string name="CommunicationActions_no_browser_found">توركۆرگۈ تېپىلمىدى.</string>
   <string name="CommunicationActions_send_email">ئېلخەت يوللا</string>
@@ -137,9 +137,9 @@
   <string name="CommunicationActions_cancel">ۋاز كەچ</string>
   <string name="CommunicationActions_call">چاقىر</string>
   <string name="CommunicationActions_insecure_call">ئادەتتىكى چاقىرىش</string>
-  <string name="CommunicationActions_carrier_charges_may_apply">كەزمە ھەققى ئېلىنىشى مۇمكىن. سىز چاقىرىۋاتقان نومۇر Signal غا تىزىملاتمىغان. شۇڭا بۇ تېلېفون ئىنتېرنېت ئارقىلىق ئەمەس، كۆچمە خەۋەرلىشىش شىركىتىڭىز ئارقىلىق ئورۇنلاشتۇرۇلىدۇ.</string>
+  <string name="CommunicationActions_carrier_charges_may_apply">كەزمە ھەققى ئېلىنىشى مۇمكىن. سىز چاقىرىۋاتقان نومۇر Grapherex غا تىزىملاتمىغان. شۇڭا بۇ تېلېفون ئىنتېرنېت ئارقىلىق ئەمەس، كۆچمە خەۋەرلىشىش شىركىتىڭىز ئارقىلىق ئورۇنلاشتۇرۇلىدۇ.</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">سىزنىڭ %1$s بىلەن بولغان بىخەتەر نومۇرىڭىز ئۆزگەردى. باشقىلار ئالاقىڭىزگە ئېرىشىشنى سىناۋاتقان بولۇشى مۇمكىن، ياكى Signal نى %2$sقايتا ئورناتقان بولۇشى مۇمكىن.</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">سىزنىڭ %1$s بىلەن بولغان بىخەتەر نومۇرىڭىز ئۆزگەردى. باشقىلار ئالاقىڭىزگە ئېرىشىشنى سىناۋاتقان بولۇشى مۇمكىن، ياكى Grapherex نى %2$sقايتا ئورناتقان بولۇشى مۇمكىن.</string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">بۇ ئالاقەداش ئارقىلىق بىخەتەرلىك نومۇرىڭىزنى دەلىللىسىڭىز بولىدۇ.</string>
   <string name="ConfirmIdentityDialog_accept">قوشۇل</string>
   <!--ContactsCursorLoader-->
@@ -150,7 +150,7 @@
   <string name="ContactsCursorLoader_username_search">ئىشلەتكۈچى ئىسمى  ئىزدەش</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">ئۇچۇر%s</string>
-  <string name="ContactsDatabase_signal_call_s">Signal چاقىرغىنى %s</string>
+  <string name="ContactsDatabase_signal_call_s">Grapherex چاقىرغىنى %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">ئىسىم</string>
   <string name="ContactNameEditActivity_family_name">تەگئات</string>
@@ -172,7 +172,7 @@
   <string name="ConversationItem_click_to_approve_unencrypted">ئەۋەتەلمىدى ، چېكىلسە شىفىرلىماي ئەۋەتىدۇ</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">شىفىرلانمىغان قىسقا ئۇچۇرغا چېكىنەمسىز؟</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">شىفىرلانمىغان MMS غا چېكىنەمسىز؟</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">بۇ ئۇچۇر <b>شىفىر</b>لانمايدۇ چۈنكى قارشى تەرەپ ئەمدى Signal ئىشلەتكۈچىسى ئەمەس. \n\nشىفىرلانمىغان ئۇچۇر ئەۋەتەمدۇ؟</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">بۇ ئۇچۇر <b>شىفىر</b>لانمايدۇ چۈنكى قارشى تەرەپ ئەمدى Grapherex ئىشلەتكۈچىسى ئەمەس. \n\nشىفىرلانمىغان ئۇچۇر ئەۋەتەمدۇ؟</string>
   <string name="ConversationItem_unable_to_open_media">بۇ ۋاسىتەنى ئاچالايدىغان ئەپ تاپالمىدى.</string>
   <string name="ConversationItem_copied_text">%sكۆچۈرۈلدى</string>
   <string name="ConversationItem_from_s">ئورنى%s</string>
@@ -200,8 +200,8 @@
   <string name="ConversationActivity_this_device_does_not_appear_to_support_dial_actions">بۇ ئۈسكۈنە نومۇر بۇراش مەشغۇلاتىنى قوللىمايدىغاندەك قىلىدۇ.</string>
   <string name="ConversationActivity_transport_insecure_sms">شىفىرلانمىغان قىسقا ئۇچۇر</string>
   <string name="ConversationActivity_transport_insecure_mms">شىفىرلانمىغان كۆپ ۋاسىتە ئۇچۇرى</string>
-  <string name="ConversationActivity_transport_signal">Signal </string>
-  <string name="ConversationActivity_lets_switch_to_signal">Signal دا پاراڭلىشايلى%1$s</string>
+  <string name="ConversationActivity_transport_signal">Grapherex </string>
+  <string name="ConversationActivity_lets_switch_to_signal">Grapherex دا پاراڭلىشايلى%1$s</string>
   <string name="ConversationActivity_specify_recipient">بىر ئالاقىلەشكۈچى تاللاڭ</string>
   <string name="ConversationActivity_unblock">چەكلىمە</string>
   <string name="ConversationActivity_attachment_exceeds_size_limits">قوشۇمچە ھۆججەت سىز ئەۋەتىۋاتقان ئۇچۇر تىپىنىڭ سىغىم چېكىدىن ئېشىپ كەتتى.</string>
@@ -210,17 +210,17 @@
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">ئۈسكۈنىڭىزدە بۇ ئۇلانمىنى بىر تەرەپ قىلالايدىغان ئەپ يوق.</string>
   <string name="ConversationActivity_your_request_to_join_has_been_sent_to_the_group_admin">قوشۇلۇش تەلىپىڭىز گۇرۇپپا باشقۇرغۇچىسىغا ئەۋەتىلدى. ئۇلار قارار قىلغاندا سىزگە ئۇقتۇرۇلىدۇ.</string>
   <string name="ConversationActivity_cancel_request">ئىلتىماستىن ۋاز كەچ</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">ئاۋازلىق ئۇچۇر يوللاش ئۈچۈن، Signal نىڭ مىكروفونىڭىزنى زىيارەت قىلىشىغا رۇخسەت قىلىڭ.</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">ئاۋازلىق ئۇچۇر يوللاش ئۈچۈن Signal مىكروفون ھوقۇقى تەلەپ قىلىدۇ، ئەمما ئۇ مەڭگۈلۈك رەت قىلىندى. ئەپ تەڭشىكى تىزىملىكىدىن «ھوقۇقلار» نى تاللاپ ۋە «مىكروفون» نى قوزغىتىڭ.</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">سىز %sنى چاقىرىش ئۈچۈن Signal مىكروفون ۋە كامېرا ھوقۇقىغا ئېھتىياجلىق، ئەمما ئۇلار مەڭگۈلۈك رەت قىلىندى. ئەپ تەڭشىكىدىن، «ھوقۇقلار» نى تاللاپ ۋە «مىكروفون» ۋە «كامېرا» نى قوزغىتىڭ.</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">رەسىم ۋە سىنغا ئېلىش ئۈچۈن ، Signal نىڭ كامېرانى زىيارەت قىلىشىغا يول قويۇڭ.</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">رەسىم تارتىش ياكى سىنغا ئېلىش ئۈچۈن Signal كامېرا ھوقۇقىغا موھتاج ، ئەمما ئۇ مەڭگۈلۈك رەت قىلىندى. ئەپ تەڭشەكلىرىدىن، «ھوقۇقلار» نى تاللاپ ۋە «كامېرا» نى قوزغىتىڭ.</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">رەسىم تارتىش ياكى سىنغا ئېلىش ئۈچۈن Signal كامېرا ھوقۇقىغا موھتاج</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">ئاۋازلىق ئۇچۇر يوللاش ئۈچۈن، Grapherex نىڭ مىكروفونىڭىزنى زىيارەت قىلىشىغا رۇخسەت قىلىڭ.</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">ئاۋازلىق ئۇچۇر يوللاش ئۈچۈن Grapherex مىكروفون ھوقۇقى تەلەپ قىلىدۇ، ئەمما ئۇ مەڭگۈلۈك رەت قىلىندى. ئەپ تەڭشىكى تىزىملىكىدىن «ھوقۇقلار» نى تاللاپ ۋە «مىكروفون» نى قوزغىتىڭ.</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">سىز %sنى چاقىرىش ئۈچۈن Grapherex مىكروفون ۋە كامېرا ھوقۇقىغا ئېھتىياجلىق، ئەمما ئۇلار مەڭگۈلۈك رەت قىلىندى. ئەپ تەڭشىكىدىن، «ھوقۇقلار» نى تاللاپ ۋە «مىكروفون» ۋە «كامېرا» نى قوزغىتىڭ.</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">رەسىم ۋە سىنغا ئېلىش ئۈچۈن ، Grapherex نىڭ كامېرانى زىيارەت قىلىشىغا يول قويۇڭ.</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">رەسىم تارتىش ياكى سىنغا ئېلىش ئۈچۈن Grapherex كامېرا ھوقۇقىغا موھتاج ، ئەمما ئۇ مەڭگۈلۈك رەت قىلىندى. ئەپ تەڭشەكلىرىدىن، «ھوقۇقلار» نى تاللاپ ۋە «كامېرا» نى قوزغىتىڭ.</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">رەسىم تارتىش ياكى سىنغا ئېلىش ئۈچۈن Grapherex كامېرا ھوقۇقىغا موھتاج</string>
   <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">ئاۋازلىق سىنغا ئېلىش ئۈچۈن مىكروفون ھوقۇقىنى قوزغىتىڭ.</string>
-  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">سىنغا ئېلىش ئۈچۈن Signal مىكروفون ھوقۇقىغا موھتاج ، ئەمما ئۇلار رەت قىلىندى. ئەپ تەڭشەكلىرىدىن «ھوقۇقلار» نى تاللاپ ۋە «مىكروفون» ۋە «كامېرا» نى قوزغىتىڭ.</string>
-  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">سىنغا ئېلىش ئۈچۈن Signal غا مىكروفون ئىجازىتى لازىم.</string>
+  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">سىنغا ئېلىش ئۈچۈن Grapherex مىكروفون ھوقۇقىغا موھتاج ، ئەمما ئۇلار رەت قىلىندى. ئەپ تەڭشەكلىرىدىن «ھوقۇقلار» نى تاللاپ ۋە «مىكروفون» ۋە «كامېرا» نى قوزغىتىڭ.</string>
+  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">سىنغا ئېلىش ئۈچۈن Grapherex غا مىكروفون ئىجازىتى لازىم.</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
-  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Signal قىسقا ئۇچۇر ۋە كۆپ ۋاسىتە ئۇچۇر يوللىيالمايدۇ چۈنكى ئۇ كۆڭۈلدىكى قىسقا ئۇچۇر ئەپى ئەمەس. بۇنى ئاندىرويىد تەڭشىكىدىن ئۆزگەرتىشنى خالامسىز؟</string>
+  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Grapherex قىسقا ئۇچۇر ۋە كۆپ ۋاسىتە ئۇچۇر يوللىيالمايدۇ چۈنكى ئۇ كۆڭۈلدىكى قىسقا ئۇچۇر ئەپى ئەمەس. بۇنى ئاندىرويىد تەڭشىكىدىن ئۆزگەرتىشنى خالامسىز؟</string>
   <string name="ConversationActivity_yes">ھەئە</string>
   <string name="ConversationActivity_no">ياق</string>
   <string name="ConversationActivity_search_position">%1$d نىڭ%2$d</string>
@@ -234,7 +234,7 @@
   <string name="ConversationActivity_you_will_leave_this_group_and_it_will_be_deleted_from_all_of_your_devices">بۇ گۇرۇپپىدىن چېكىنىپ چىقىسىز، شۇنداقلا بۇ گۇرۇپپا بارلىق ئۈسكۈنىلىرىڭىزدىن ئۆچۈرۈلىدۇ.</string>
   <string name="ConversationActivity_delete">ئۆچۈر</string>
   <string name="ConversationActivity_delete_and_leave">ئۆچۈر ۋە ئايرىل</string>
-  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">%1$sنى چاقىرىش ئۈچۈن Signal مىكروفونىڭىزنى ئىشلىتەلىشى كېرەك</string>
+  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">%1$sنى چاقىرىش ئۈچۈن Grapherex مىكروفونىڭىزنى ئىشلىتەلىشى كېرەك</string>
   <string name="ConversationActivity__more_options_now_in_group_settings">«گۇرۇپپا تەڭشەكلەر» گە تېخىمۇ كۆپ تاللانمىلار قوشۇلدى</string>
   <string name="ConversationActivity_join">قوشۇل</string>
   <string name="ConversationActivity_full">توشتى</string>
@@ -268,14 +268,14 @@
     <item quantity="other">%1$d يۈكلەنمىسىنى ساقلىغۇچقا ساقلاۋاتىدۇ</item>
   </plurals>
   <string name="ConversationFragment_pending">كۈتۈۋاتىدۇ…</string>
-  <string name="ConversationFragment_push">مەلۇمات(Signal)</string>
+  <string name="ConversationFragment_push">مەلۇمات(Grapherex)</string>
   <string name="ConversationFragment_mms">كۆپ مېدىيا ئۇچۇرى</string>
   <string name="ConversationFragment_sms">قىسقا ئۇچۇر</string>
   <string name="ConversationFragment_deleting">ئۆچۈرۈلۈۋاتىدۇ</string>
   <string name="ConversationFragment_deleting_messages">ئۇچۇرلار ئۆچۈرۈلۈۋاتىدۇ…</string>
   <string name="ConversationFragment_delete_for_me">مېنىڭ ئۈچۈن ئۆچەر</string>
   <string name="ConversationFragment_delete_for_everyone">ھەممەيلەن ئۈچۈن ئۆچەر</string>
-  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">ئەگەر Signal نىڭ يېقىنقى نەشرىنى ئىشلىتىۋاتقان بولسا، بۇ ئۇچۇر سۆھبەتتىكى ھەممە ئادەملەردىن ئۆچۈرۈلىدۇ. ئۇلار سىزنىڭ بىر ئۇچۇرنى ئۆچۈرگەنلىكىڭىزنى كۆرەلەيدۇ.</string>
+  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">ئەگەر Grapherex نىڭ يېقىنقى نەشرىنى ئىشلىتىۋاتقان بولسا، بۇ ئۇچۇر سۆھبەتتىكى ھەممە ئادەملەردىن ئۆچۈرۈلىدۇ. ئۇلار سىزنىڭ بىر ئۇچۇرنى ئۆچۈرگەنلىكىڭىزنى كۆرەلەيدۇ.</string>
   <string name="ConversationFragment_quoted_message_not_found">ئەسلى ئۇچۇر تېپىلمىدى</string>
   <string name="ConversationFragment_quoted_message_no_longer_available">ئەسلى ئۇچۇرنى ئەمدى يوق</string>
   <string name="ConversationFragment_failed_to_open_message">ئۇچۇرنى ئېچىشتا مەغلۇپ بولدى</string>
@@ -287,12 +287,12 @@
   <string name="ConversationFragment__d_group_members_have_the_same_name">%1$d گۇرۇپپا ئەزالىرىنىڭمۇ ئوخشاش نامى بار.</string>
   <string name="ConversationFragment__tap_to_review">كۆزدىن كەچۈرۈش ئۈچۈن چېكىڭ</string>
   <string name="ConversationFragment__review_requests_carefully">تەلەپلەرنى ئەستايىدىللىق بىلەن تەكشۈرۈڭ</string>
-  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Signal ئوخشاش ئىسىملىك باشقا ئالاقەداشنى تاپتى.</string>
+  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Grapherex ئوخشاش ئىسىملىك باشقا ئالاقەداشنى تاپتى.</string>
   <string name="ConversationFragment_contact_us">بىز بىلەن ئالاقىلىشىڭ</string>
   <string name="ConversationFragment_verify">دەلىللەش</string>
   <string name="ConversationFragment_not_now">ھازىر ئەمەس</string>
   <string name="ConversationFragment_your_safety_number_with_s_changed">%s بىلەن بولغان بىخەتەرلىك نومۇرىڭىز ئۆزگەردى</string>
-  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">%s دىكى بىخەتەرلىك نومۇرىڭىز ئۆزگەردى، بەلكىم ئۇلار Signal نى قايتا قاچىلىغان ياكى ئۈسكۈنىلەرنى ئۆزگەرتكەن بولۇشى مۇمكىن. يېڭى بىخەتەرلىك نومۇرىنى جەزملەشتۈرۈش ئۈچۈن «دەلىللەش» نى چېكىڭ. بۇنى قىلىش ئىختىيارىڭىز.</string>
+  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">%s دىكى بىخەتەرلىك نومۇرىڭىز ئۆزگەردى، بەلكىم ئۇلار Grapherex نى قايتا قاچىلىغان ياكى ئۈسكۈنىلەرنى ئۆزگەرتكەن بولۇشى مۇمكىن. يېڭى بىخەتەرلىك نومۇرىنى جەزملەشتۈرۈش ئۈچۈن «دەلىللەش» نى چېكىڭ. بۇنى قىلىش ئىختىيارىڭىز.</string>
   <plurals name="ConversationListFragment_delete_selected_conversations">
     <item quantity="one">تاللانغان پاراڭنى ئۆچۈرەمسىز؟</item>
     <item quantity="other">تاللانغان پاراڭلارنى ئۆچۈرەمسىز؟</item>
@@ -349,11 +349,11 @@
   <string name="BackupsPreferenceFragment__test_your_backup_passphrase">زاپاسلاش پارولىڭىزنى سىناپ بېقىڭ ھەمدە ئۇنىڭ ماس كەلگەن-كەلمىگەنلىكىنى دەلىللەڭ</string>
   <string name="BackupsPreferenceFragment__turn_on">ئاچ</string>
   <string name="BackupsPreferenceFragment__turn_off">ئەت</string>
-  <string name="BackupsPreferenceFragment__to_restore_a_backup">زاپاسلاشنى ئەسلىگە كەلتۈرۈش ئۈچۈن ، Signal بىر يېڭى نەشرىنى قاچىلاڭ. ئاندىن ئەپنى ئېچىپ «زاپاسلاشنى ئەسلىگە كەلتۈرۈش» نى چېكىڭ، ئاندىن زاپاس ھۆججىتىنى كۆرسىتىپ بېرىڭ.%1$s</string>
+  <string name="BackupsPreferenceFragment__to_restore_a_backup">زاپاسلاشنى ئەسلىگە كەلتۈرۈش ئۈچۈن ، Grapherex بىر يېڭى نەشرىنى قاچىلاڭ. ئاندىن ئەپنى ئېچىپ «زاپاسلاشنى ئەسلىگە كەلتۈرۈش» نى چېكىڭ، ئاندىن زاپاس ھۆججىتىنى كۆرسىتىپ بېرىڭ.%1$s</string>
   <string name="BackupsPreferenceFragment__learn_more">كۆپرەك ئۆگىنىش</string>
   <string name="BackupsPreferenceFragment__in_progress">داۋام قىلىۋاتىدۇ…</string>
   <string name="BackupsPreferenceFragment__d_so_far">%1$d ھازىرغىچە..</string>
-  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">زاپاسلاشنى قۇرۇش ئۈچۈن Signal سىرتقى ساقلىغۇچ ھوقۇقىنى تەلەپ قىلىدۇ، ئەمما ئۇ مەڭگۈلۈك رەت قىلىندى. ئەپ تەڭشەكلىرىگە بېرىڭ، «ھوقۇقلار» نى تاللاڭ ۋە «ساقلىغۇچ» نى قوزغىتىڭ.</string>
+  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">زاپاسلاشنى قۇرۇش ئۈچۈن Grapherex سىرتقى ساقلىغۇچ ھوقۇقىنى تەلەپ قىلىدۇ، ئەمما ئۇ مەڭگۈلۈك رەت قىلىندى. ئەپ تەڭشەكلىرىگە بېرىڭ، «ھوقۇقلار» نى تاللاڭ ۋە «ساقلىغۇچ» نى قوزغىتىڭ.</string>
   <!--CustomDefaultPreference-->
   <string name="CustomDefaultPreference_using_custom">ئىختىيارىچە ئىشلىتىش: %s</string>
   <string name="CustomDefaultPreference_using_default">كۆڭۈلدىكىنى ئىشلىتىش: %s</string>
@@ -372,7 +372,7 @@
   <string name="DateUtils_yesterday">تۈنۈگۈن</string>
   <!--DecryptionFailedDialog-->
   <string name="DecryptionFailedDialog_chat_session_refreshed">سۆھبەت يېڭىلاندى</string>
-  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Signal ئۇچتىن-ئۇچقىچە مەخپىيلەشتۈرۈش تېخنىكىسىنى ئىشلىتىدۇ ۋە بەزىدە پاراڭلىشىش مۇددىتىڭىزنى يېڭىلاشقا ئېھتىياجلىق بولۇشى مۇمكىن. بۇ پاراڭنىڭ بىخەتەرلىكىگە تەسىر كۆرسەتمەيدۇ، ئەمما سىز بۇ ئالاقەداشتىن كەلگەن ئۇچۇرنى كەتكۈزۈپ قويغان بولۇشىڭىز مۇمكىن، سىز ئۇلاردىن ئۇچۇرنى قايتا ئەۋەتىشنى تەلەپ قىلسىڭىز بولىدۇ.</string>
+  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Grapherex ئۇچتىن-ئۇچقىچە مەخپىيلەشتۈرۈش تېخنىكىسىنى ئىشلىتىدۇ ۋە بەزىدە پاراڭلىشىش مۇددىتىڭىزنى يېڭىلاشقا ئېھتىياجلىق بولۇشى مۇمكىن. بۇ پاراڭنىڭ بىخەتەرلىكىگە تەسىر كۆرسەتمەيدۇ، ئەمما سىز بۇ ئالاقەداشتىن كەلگەن ئۇچۇرنى كەتكۈزۈپ قويغان بولۇشىڭىز مۇمكىن، سىز ئۇلاردىن ئۇچۇرنى قايتا ئەۋەتىشنى تەلەپ قىلسىڭىز بولىدۇ.</string>
   <!--DeviceListActivity-->
   <string name="DeviceListActivity_unlink_s">«%s»نى ئاجراىتامسىز؟</string>
   <string name="DeviceListActivity_by_unlinking_this_device_it_will_no_longer_be_able_to_send_or_receive">بۇ ئۈسكۈنىنى ئاجراتقاندىن كېيىن، ئۇ داۋاملىق ئۇچۇر ئەۋەتەلمەيدۇ ياكى قوبۇل قىلالمايدۇ.</string>
@@ -389,8 +389,8 @@
   <!--DocumentView-->
   <string name="DocumentView_unnamed_file">ئىسىمسىز ھۆججەت</string>
   <!--DonateMegaphone-->
-  <string name="DonateMegaphone_donate_to_signal">Signal غا ئىئانە قىلىڭ</string>
-  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Signal سىزگە ئوخشاش كىشىلەر تەرىپىدىن ماڭدۇرۇلغان. بۈگۈن بىزنى قوللىشىڭىزنى كۆرسىتىڭ!</string>
+  <string name="DonateMegaphone_donate_to_signal">Grapherex غا ئىئانە قىلىڭ</string>
+  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Grapherex سىزگە ئوخشاش كىشىلەر تەرىپىدىن ماڭدۇرۇلغان. بۈگۈن بىزنى قوللىشىڭىزنى كۆرسىتىڭ!</string>
   <string name="DonateMegaphone_donate">ئىئانە قىلىڭ</string>
   <string name="DonateMegaphone_no_thanks">ياق، رەھمەت</string>
   <!--GroupCallingMegaphone-->
@@ -398,9 +398,9 @@
   <string name="GroupCallingMegaphone__open_a_new_group_to_start">ھەقسىز شىفىرلانغان گۇرۇپپا چاقىرىشنى باشلاش ئۈچۈن «يېڭى گۇرۇپپا»نى ئېچىڭ</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">يۈتكەن Google Play مۇلازىمەتلىرىگە ئەلالاشتۇرۇش</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">بۇ ئۈسكۈنە Google Play مۇلازىمەتلىرىنى قوللىمايدۇ. Signalنىڭ ھەرىكەتسىز ھالەتتىمۇ ئۇچۇر ئېلىشىنى توسۇپ قويىدىغان «سىستېما باتارېيەسىنى ئەلالاشتۇرۇش»نى چەكلەڭ.</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">بۇ ئۈسكۈنە Google Play مۇلازىمەتلىرىنى قوللىمايدۇ. Grapherexنىڭ ھەرىكەتسىز ھالەتتىمۇ ئۇچۇر ئېلىشىنى توسۇپ قويىدىغان «سىستېما باتارېيەسىنى ئەلالاشتۇرۇش»نى چەكلەڭ.</string>
   <!--ExpiredBuildReminder-->
-  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">بۇ Signal نەشرىنىڭ ۋاقتى توشتى. ئۇچۇر يوللىيالىشىڭىز ۋە قوبۇل قىلالىشىڭىز ئۈچۈن ھازىرلا يېڭىلاڭ.</string>
+  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">بۇ Grapherex نەشرىنىڭ ۋاقتى توشتى. ئۇچۇر يوللىيالىشىڭىز ۋە قوبۇل قىلالىشىڭىز ئۈچۈن ھازىرلا يېڭىلاڭ.</string>
   <string name="ExpiredBuildReminder_update_now">ھازىر يېڭىلاڭ</string>
   <!--PendingGroupJoinRequestsReminder-->
   <plurals name="PendingGroupJoinRequestsReminder_d_pending_member_requests">
@@ -412,8 +412,8 @@
   <string name="ShareActivity_share_with">بىلەن ئورتاقلىشىڭ</string>
   <string name="ShareActivity_multiple_attachments_are_only_supported">كۆپلىگەن قوشۇمچە ھۆججەتلەر پەقەت رەسىم ۋە سىنلارنىلا قوللايدۇ</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">مەڭگۈلۈك Signal ئالاقىسى مەغلۇپ بولدى!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal Google Play مۇلازىمەتلىرىگە تىزىملىتالمىدى. Signal ئۇچۇرلىرى ۋە تېلېفونلىرى چەكلىنىپ قالدى، تەڭشەكلەر &gt; ئىلغار دېگەن يەرگە بېرىپ قايتا تىزىملىتىپ سىناپ بېقىڭ.</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">مەڭگۈلۈك Grapherex ئالاقىسى مەغلۇپ بولدى!</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Grapherex Google Play مۇلازىمەتلىرىگە تىزىملىتالمىدى. Grapherex ئۇچۇرلىرى ۋە تېلېفونلىرى چەكلىنىپ قالدى، تەڭشەكلەر &gt; ئىلغار دېگەن يەرگە بېرىپ قايتا تىزىملىتىپ سىناپ بېقىڭ.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">تولۇق ئېنىقلىقتىكى GIF نى ئېلىۋاتقاندا مەسىلە چىقتى</string>
   <!--GiphyFragmentPageAdapter-->
@@ -573,7 +573,7 @@
   <string name="AddGroupDetailsFragment__this_field_is_required">بۇ رايون تەلەپ قىلىنىدۇ.</string>
   <string name="AddGroupDetailsFragment__group_creation_failed">گۇرۇپپا قۇرۇش مەغلۇپ بولدى.</string>
   <string name="AddGroupDetailsFragment__try_again_later">سەل تۇرۇپ قايتا سىناڭ.</string>
-  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">سىز Signal گۇرۇپپىسىنى قوللىمايدىغان ئالاقەداشنى تاللىدىڭىز، شۇڭا بۇ گۇرۇپپا MMS بولىدۇ.</string>
+  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">سىز Grapherex گۇرۇپپىسىنى قوللىمايدىغان ئالاقەداشنى تاللىدىڭىز، شۇڭا بۇ گۇرۇپپا MMS بولىدۇ.</string>
   <string name="AddGroupDetailsFragment_custom_mms_group_names_and_photos_will_only_be_visible_to_you">ئىختىيارى MMS گۇرۇپپا ئىسمى ۋە رەسىملىرى سىزگىلا كۆرۈنىدۇ.</string>
   <string name="AddGroupDetailsFragment__remove">چىقىرىش</string>
   <string name="AddGroupDetailsFragment__sms_contact">قىسقا ئۇچۇر ئالاقەداشى</string>
@@ -587,15 +587,15 @@
     <item quantity="other">يېڭى گۇرۇپپىنى %d ئەزا ئىشلىتەلمەيدۇ، شۇڭلاشقا بۇ گۇرۇپپىنى قۇرغىلى بولمايدۇ.</item>
   </plurals>
   <!--NonGv2MemberDialog-->
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">بىر كونا گۇرۇپپا قۇرۇلىدۇ چۈنكى «%1$s» كونا نەشرىدىكى Signal ئىشلىتىۋاتىدۇ. ئۇلارنىڭ ھەممىسى Signal يېڭى نەشرىگە يېڭىلىغاندىن كېيىن ئاندىن يېڭى ئۇسلۇبتىكى گۇرۇپپا قۇرالايسىز، ياكى گۇرۇپپا قۇرۇشتىن ئىلگىرى ئۇلارنى گۇرۇپپىدىن چىقىرىۋېتىڭ.</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">بىر كونا گۇرۇپپا قۇرۇلىدۇ چۈنكى «%1$s» كونا نەشرىدىكى Grapherex ئىشلىتىۋاتىدۇ. ئۇلارنىڭ ھەممىسى Grapherex يېڭى نەشرىگە يېڭىلىغاندىن كېيىن ئاندىن يېڭى ئۇسلۇبتىكى گۇرۇپپا قۇرالايسىز، ياكى گۇرۇپپا قۇرۇشتىن ئىلگىرى ئۇلارنى گۇرۇپپىدىن چىقىرىۋېتىڭ.</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable">
-    <item quantity="one">بىر كونا گۇرۇپپا قۇرۇلىدۇ چۈنكى %1$d ئەزا كونا نەشرىدىكى Signal ئىشلىتىۋاتىدۇ. ئۇلارنىڭ ھەممىسى Signal يېڭى نەشرىگە يېڭىلىغاندىن كېيىن ئاندىن يېڭى ئۇسلۇبتىكى گۇرۇپپا قۇرالايسىز، ياكى گۇرۇپپا قۇرۇشتىن ئىلگىرى ئۇلارنى گۇرۇپپىدىن چىقىرىۋېتىڭ.</item>
-    <item quantity="other">بىر كونا گۇرۇپپا قۇرۇلىدۇ چۈنكى %1$dئەزا كونا نەشرىدىكى Signal ئىشلىتىۋاتىدۇ. ئۇلارنىڭ ھەممىسى Signal يېڭى نەشرىگە يېڭىلىغاندىن كېيىن ئاندىن يېڭى ئۇسلۇبتىكى گۇرۇپپا قۇرالايسىز، ياكى گۇرۇپپا قۇرۇشتىن ئىلگىرى ئۇلارنى گۇرۇپپىدىن چىقىرىۋېتىڭ.</item>
+    <item quantity="one">بىر كونا گۇرۇپپا قۇرۇلىدۇ چۈنكى %1$d ئەزا كونا نەشرىدىكى Grapherex ئىشلىتىۋاتىدۇ. ئۇلارنىڭ ھەممىسى Grapherex يېڭى نەشرىگە يېڭىلىغاندىن كېيىن ئاندىن يېڭى ئۇسلۇبتىكى گۇرۇپپا قۇرالايسىز، ياكى گۇرۇپپا قۇرۇشتىن ئىلگىرى ئۇلارنى گۇرۇپپىدىن چىقىرىۋېتىڭ.</item>
+    <item quantity="other">بىر كونا گۇرۇپپا قۇرۇلىدۇ چۈنكى %1$dئەزا كونا نەشرىدىكى Grapherex ئىشلىتىۋاتىدۇ. ئۇلارنىڭ ھەممىسى Grapherex يېڭى نەشرىگە يېڭىلىغاندىن كېيىن ئاندىن يېڭى ئۇسلۇبتىكى گۇرۇپپا قۇرالايسىز، ياكى گۇرۇپپا قۇرۇشتىن ئىلگىرى ئۇلارنى گۇرۇپپىدىن چىقىرىۋېتىڭ.</item>
   </plurals>
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">بۇ گۇرۇپپىنى قۇرغىلى بولمايدۇ، چۈنكى «%1$s» Signal نىڭ كونا نەشرىنى ئىشلىتىۋاتىدۇ. گۇرۇپپا قۇرۇشتىن بۇرۇن ئۇلارنى چىقىرىۋېتىشىڭىز كېرەك.</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">بۇ گۇرۇپپىنى قۇرغىلى بولمايدۇ، چۈنكى «%1$s» Grapherex نىڭ كونا نەشرىنى ئىشلىتىۋاتىدۇ. گۇرۇپپا قۇرۇشتىن بۇرۇن ئۇلارنى چىقىرىۋېتىشىڭىز كېرەك.</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable_forced_migration">
-    <item quantity="one">بۇ گۇرۇپپىنى قۇرغىلى بولمايدۇ، چۈنكى «%1$d» ئەزاسى Signal نىڭ كونا نەشرىنى ئىشلىتىۋاتىدۇ. گۇرۇپپا قۇرۇشتىن بۇرۇن ئۇنى چىقىرىۋېتىشىڭىز كېرەك.</item>
-    <item quantity="other">بۇ گۇرۇپپىنى قۇرغىلى بولمايدۇ، چۈنكى «%1$d» ئەزالىرى Signal نىڭ كونا نەشرىنى ئىشلىتىۋاتىدۇ. گۇرۇپپا قۇرۇشتىن بۇرۇن ئۇلارنى چىقىرىۋېتىشىڭىز كېرەك.</item>
+    <item quantity="one">بۇ گۇرۇپپىنى قۇرغىلى بولمايدۇ، چۈنكى «%1$d» ئەزاسى Grapherex نىڭ كونا نەشرىنى ئىشلىتىۋاتىدۇ. گۇرۇپپا قۇرۇشتىن بۇرۇن ئۇنى چىقىرىۋېتىشىڭىز كېرەك.</item>
+    <item quantity="other">بۇ گۇرۇپپىنى قۇرغىلى بولمايدۇ، چۈنكى «%1$d» ئەزالىرى Grapherex نىڭ كونا نەشرىنى ئىشلىتىۋاتىدۇ. گۇرۇپپا قۇرۇشتىن بۇرۇن ئۇلارنى چىقىرىۋېتىشىڭىز كېرەك.</item>
   </plurals>
   <!--ManageGroupActivity-->
   <string name="ManageGroupActivity_member_requests_and_invites">ئەزا تەلەپلىرى &amp; تەكلىپلىرى</string>
@@ -625,7 +625,7 @@
   <string name="ManageGroupActivity_only_admins_can_enable_or_disable_the_option_to_approve_new_members">پەقەت باشقۇرغۇچىلارلا يېڭى ئەزا دەلىللەش تاللانمىسىنى قوزغىتىپ ياكى چەكلىيەلەيدۇ.</string>
   <string name="ManageGroupActivity_only_admins_can_reset_the_sharable_group_link">پەقەت باشقۇرغۇچىلارلا ھەمبەھىرچان گۇرۇپپا ئۇلانمىسىنى ئەسلىگە قايتۇرالايدۇ.</string>
   <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">سىزنىڭ بۇنداق مەشغۇلات ھوقۇقىڭىز يوق.</string>
-  <string name="ManageGroupActivity_not_capable">سىز قوشقانلاردىن بەزىلەر يېڭى گۇرۇپپىنى ئىشلىتەلمەيدۇ، ئۇلار Signal نەشرىنى يېڭىلىشى كېرەك.</string>
+  <string name="ManageGroupActivity_not_capable">سىز قوشقانلاردىن بەزىلەر يېڭى گۇرۇپپىنى ئىشلىتەلمەيدۇ، ئۇلار Grapherex نەشرىنى يېڭىلىشى كېرەك.</string>
   <string name="ManageGroupActivity_failed_to_update_the_group">گۇرۇپپا دەرىجىسىنى يېڭىلىيالمىدى.</string>
   <string name="ManageGroupActivity_youre_not_a_member_of_the_group">سىز گۇرۇپپىنىڭ ئەزاسى ئەمەس</string>
   <string name="ManageGroupActivity_failed_to_update_the_group_please_retry_later">گۇرۇپپا دەرىجىسىنى يېڭىلىيالمىدى سەل تۇرۇپ قايتا سىناڭ</string>
@@ -636,7 +636,7 @@
   <string name="ManageGroupActivity_legacy_group_upgrade">بۇ كونا گۇرۇپپا. @ئاتاش ۋە باشقۇرغۇچىلارغا ئوخشاش ئىقتىدارنى ئىشلىتىشتە،</string>
   <string name="ManageGroupActivity_legacy_group_too_large">بۇ كونا گۇرۇپپىنى يېڭى گۇرۇپپىغا يۈكسەلتەلمەيدۇ چۈنكى ئادەم بەك كۆپ. يۈكسەلتىشنىڭ ئەزا سان چېكى %1$d .</string>
   <string name="ManageGroupActivity_upgrade_this_group">بۇ گۇرۇپپىنى يۈكسەلتىدۇ.</string>
-  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">بۇ شىفىرلانمىغان كۆپ ۋاسىتە ئۇچۇر گۇرۇپپىسى. شىفىرلىق سۆھبەتلىشىشتە، ئالاقەداشلارنى Signal غا تەكلىپ قىلىڭ.</string>
+  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">بۇ شىفىرلانمىغان كۆپ ۋاسىتە ئۇچۇر گۇرۇپپىسى. شىفىرلىق سۆھبەتلىشىشتە، ئالاقەداشلارنى Grapherex غا تەكلىپ قىلىڭ.</string>
   <string name="ManageGroupActivity_invite_now">شۇئان تەكلىپ</string>
   <!--GroupMentionSettingDialog-->
   <string name="GroupMentionSettingDialog_notify_me_for_mentions">ئاتالسام ئەسكەرتسۇن</string>
@@ -728,10 +728,10 @@
     <item quantity="other">توپ. %1$d ئەزا</item>
   </plurals>
   <!--GroupJoinUpdateRequiredBottomSheetDialogFragment-->
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">توپ ئۇلانمىسىنى ئىشلىتىش ئۈچۈن Signal نى يېڭىلاڭ</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">سىز ئىشلىتىۋاتقان Signal نەشرى توپ ئۇلانمىسىنى قوللىمايدۇ. توپ ئۇلانمىسى ئارقىلىق قوشۇلماقچى بولسىڭىز ئەڭ يېڭى نەشرىگە يېڭىلاڭ.</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Signal نى يېڭىلاش</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">سىز ئىشلىتىۋاتقان بىر ياكى بىر قانچە ئۈسكۈنىدىكى Signal  نەشرى توپ ئۇلانمىسىنى قوللىمايدۇ. ئۇلانغان ئۈسكۈنىڭىزدىكى Signal  نەشرىنى يېڭىلاپ بۇ توپقا قوشۇلۇڭ.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">توپ ئۇلانمىسىنى ئىشلىتىش ئۈچۈن Grapherex نى يېڭىلاڭ</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">سىز ئىشلىتىۋاتقان Grapherex نەشرى توپ ئۇلانمىسىنى قوللىمايدۇ. توپ ئۇلانمىسى ئارقىلىق قوشۇلماقچى بولسىڭىز ئەڭ يېڭى نەشرىگە يېڭىلاڭ.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Grapherex نى يېڭىلاش</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">سىز ئىشلىتىۋاتقان بىر ياكى بىر قانچە ئۈسكۈنىدىكى Grapherex  نەشرى توپ ئۇلانمىسىنى قوللىمايدۇ. ئۇلانغان ئۈسكۈنىڭىزدىكى Grapherex  نەشرىنى يېڭىلاپ بۇ توپقا قوشۇلۇڭ.</string>
   <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">توپ ئۇلانمىسى ئىناۋەتسىز</string>
   <!--GroupInviteLinkEnableAndShareBottomSheetDialogFragment-->
   <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_invite_friends">دوستلىرىڭىزنى تەكلىپ قىلىڭ</string>
@@ -761,7 +761,7 @@
   <string name="InviteActivity_cancel">بىكار قىل</string>
   <string name="InviteActivity_sending">ئەۋەتىلىۋاتىدۇ…</string>
   <string name="InviteActivity_invitations_sent">تەكلىپ يوللاندى!</string>
-  <string name="InviteActivity_invite_to_signal">Signal ئىشلىتىش تەكلىپى</string>
+  <string name="InviteActivity_invite_to_signal">Grapherex ئىشلىتىش تەكلىپى</string>
   <plurals name="InviteActivity_send_sms_to_friends">
     <item quantity="one">كۆپ ۋاسىتە ئۇچۇرنى %d دوستىغا يوللايدۇ</item>
     <item quantity="other">كۆپ ۋاسىتە ئۇچۇرنى %d دوستىغا يوللايدۇ</item>
@@ -770,7 +770,7 @@
     <item quantity="one">%d كۆپ ۋاسىتە ئۇچۇر تەكلىپىنى يوللامدۇ؟</item>
     <item quantity="other">%d كۆپ ۋاسىتە ئۇچۇر تەكلىپىنى يوللامدۇ؟</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">Signal دا پاراڭلىشايلى:%1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">Grapherex دا پاراڭلىشايلى:%1$s</string>
   <string name="InviteActivity_no_app_to_share_to">قارىغاندا ھەمبەھىرلەيدىغان ئەپ يوقتەك تۇرىدۇ.</string>
   <string name="InviteActivity_friends_dont_let_friends_text_unencrypted">دوستلار شىفىرلىق پاراڭلاشسا ياخشى.</string>
   <!--LearnMoreTextView-->
@@ -780,7 +780,7 @@
   <string name="LongMessageActivity_message_from_s">%1$s نىڭ ئۇچۇرى</string>
   <string name="LongMessageActivity_your_message">ئۇچۇرىڭىز</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal </string>
+  <string name="MessageRetrievalService_signal">Grapherex </string>
   <string name="MessageRetrievalService_background_connection_enabled">ئارقا سۇپا باغلىنىشى قوزغىتىلدى</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">كۆچمە خەۋەرلىشىش سودىگىرىنىڭ كۆپ ۋاسىتە ئۇچۇر تەڭشىكىنى ئوقۇشتا خاتالىق كۆرۈلدى</string>
@@ -829,7 +829,7 @@
   <string name="Megaphones_introducing_reactions">ئىنكاس تونۇشتۇرۇش</string>
   <string name="Megaphones_tap_and_hold_any_message_to_quicky_share_how_you_feel">ھەر قانداق ئۇچۇرنى چېكىپ تۇرۇپ تېزلىكتە كەيپىياتىڭىزنى ھەمبەھىرلىيەلەيسىز.</string>
   <string name="Megaphones_remind_me_later">كېيىنچە ئەسكەرت</string>
-  <string name="Megaphones_verify_your_signal_pin">Signal PIN نى دەلىللەڭ</string>
+  <string name="Megaphones_verify_your_signal_pin">Grapherex PIN نى دەلىللەڭ</string>
   <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">ئەستە تۇتۇشىڭىز ئۈچۈن بەزىدە PIN دەلىللىشىڭىزنى سورايمىز.</string>
   <string name="Megaphones_verify_pin">PIN دەلىللەش</string>
   <string name="Megaphones_get_started">ئىشلىتىشكە باشلاش</string>
@@ -837,10 +837,10 @@
   <string name="Megaphones_invite_friends">دوستلىرىڭىزنى تەكلىپ قىلىڭ</string>
   <string name="Megaphones_use_sms">قىسقا ئۇچۇر ئىشلىتىش</string>
   <!--NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Signal چاقىرىشى داۋاملىشىۋاتىدۇ</string>
-  <string name="NotificationBarManager__establishing_signal_call">Signal چاقىرىشى قۇرۇلۇۋاتىدۇ</string>
-  <string name="NotificationBarManager__incoming_signal_call">Signal چاقىرىلىشى</string>
-  <string name="NotificationBarManager__stopping_signal_call_service">Signal چاقىرىش مۇلازىمىتىنى توختىتىۋاتىدۇ</string>
+  <string name="NotificationBarManager_signal_call_in_progress">Grapherex چاقىرىشى داۋاملىشىۋاتىدۇ</string>
+  <string name="NotificationBarManager__establishing_signal_call">Grapherex چاقىرىشى قۇرۇلۇۋاتىدۇ</string>
+  <string name="NotificationBarManager__incoming_signal_call">Grapherex چاقىرىلىشى</string>
+  <string name="NotificationBarManager__stopping_signal_call_service">Grapherex چاقىرىش مۇلازىمىتىنى توختىتىۋاتىدۇ</string>
   <string name="NotificationBarManager__deny_call">رەت قىلىنغان چاقىرىش</string>
   <string name="NotificationBarManager__answer_call">سۆزلەشكەن چاقىرىش</string>
   <string name="NotificationBarManager__end_call">ئاخىرلاشقان چاقىرىش</string>
@@ -864,8 +864,8 @@
   <string name="MediaSendActivity_message_to_s">%s  غا ئۇچۇر يېزىش</string>
   <string name="MediaSendActivity_message">ئۇچۇر</string>
   <string name="MediaSendActivity_select_recipients">تاپشۇرۇۋالغۇچىلارنى تاللاڭ</string>
-  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Signal ئۇلارنى كۆرسىتىش ئۈچۈن ئالاقەداشلىرىڭىزنى زىيارەت قىلىشى كېرەك.</string>
-  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Signal ئالاقەداشلىرىڭىزنى كۆرسىتىش ئۈچۈن ئالاقەداش ھوقۇقى تەلەپ قىلىدۇ، ئەمما ئۇ مەڭگۈلۈك رەت قىلىندى. ئەپ تەڭشىكى تىزىملىكىگە بېرىڭ، «ھوقۇقلار» نى تاللاڭ ۋە «ئالاقەداشلار» نى قوزغىتىڭ.</string>
+  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Grapherex ئۇلارنى كۆرسىتىش ئۈچۈن ئالاقەداشلىرىڭىزنى زىيارەت قىلىشى كېرەك.</string>
+  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Grapherex ئالاقەداشلىرىڭىزنى كۆرسىتىش ئۈچۈن ئالاقەداش ھوقۇقى تەلەپ قىلىدۇ، ئەمما ئۇ مەڭگۈلۈك رەت قىلىندى. ئەپ تەڭشىكى تىزىملىكىگە بېرىڭ، «ھوقۇقلار» نى تاللاڭ ۋە «ئالاقەداشلار» نى قوزغىتىڭ.</string>
   <plurals name="MediaSendActivity_cant_share_more_than_n_items">
     <item quantity="one">سىز %d دىن كۆپ تۈرنى ھەمبەھىرلىيەلمەيسىز.</item>
     <item quantity="other">سىز %d دىن كۆپ تۈرنى ھەمبەھىرلىيەلمەيسىز.</item>
@@ -877,7 +877,7 @@
   <string name="MediaRepository__camera">كامېرا</string>
   <!--MessageRecord-->
   <string name="MessageRecord_unknown">نامەلۇم</string>
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">ئەمدى تېخنىكىلىق ئاسرالمايدىغان Signal نىڭ كونا نەشرىنى ئىشلىتىپ شىفىرلانغان ئۇچۇرنى تاپشۇرۇۋالدىڭىز. ئەۋەتكۈچىدىن ئەڭ يېڭى نەشرىگە يېڭىلاپ ئۇچۇرنى قايتا ئەۋەتىشنى تەلەپ قىلىڭ.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">ئەمدى تېخنىكىلىق ئاسرالمايدىغان Grapherex نىڭ كونا نەشرىنى ئىشلىتىپ شىفىرلانغان ئۇچۇرنى تاپشۇرۇۋالدىڭىز. ئەۋەتكۈچىدىن ئەڭ يېڭى نەشرىگە يېڭىلاپ ئۇچۇرنى قايتا ئەۋەتىشنى تەلەپ قىلىڭ.</string>
   <string name="MessageRecord_left_group">سىز گۇرۇپپىدىن ئايرىلدىڭىز.</string>
   <string name="MessageRecord_you_updated_group">گۇرۇپپىنى يېڭىلىدىڭىز.</string>
   <string name="MessageRecord_the_group_was_updated">بۇ گۇرۇپپا يېڭىلاندى.</string>
@@ -886,7 +886,7 @@
   <string name="MessageRecord_missed_video_call_date">سۆزلەشمىگەن سىن چاقىرىش. %1$s</string>
   <string name="MessageRecord_s_updated_group">%s توپنى يېڭىلىدى.</string>
   <string name="MessageRecord_s_called_you_date">%1$s سىزنى چاقىرغان. %2$s</string>
-  <string name="MessageRecord_s_joined_signal">Signal غا%s قوشۇلدى!</string>
+  <string name="MessageRecord_s_joined_signal">Grapherex غا%s قوشۇلدى!</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">سىز غايىب ئۇچۇرنى چەكلىدىڭىز.</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$s غايىب ئۇچۇرنى چەكلىدى.</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">ئوقۇلسا غايىب بولىدىغان ئۇچۇرنىڭ ۋاقتىنى %1$s قا تەڭشىدىڭىز.</string>
@@ -1099,9 +1099,9 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">ئىناۋەتسىز QR كودى.</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">كەچۈرۈڭ، ئۇلانغان ئۈسكۈنىلىرىڭىز بەك كۆپ بولۇپ كەتتى، بەزىلىرىنى چىقىرىۋېتىڭ</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">كەچۈرۈڭ، بۇ ئىناۋەتلىك بولغان ئۈسكۈنە ئۇلانمىسى QR كودى ئەمەس.</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">بىر Signal ئۈسكۈنىسى ئۇلامسىز؟</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">قارىماققا 3-تەرەپ سايىلىغۇچى ئارقىلىق Signal ئۈسكۈنىسىنى ئۇلىماقچى بولۇۋاتىسىز. سىزنىڭ بىخەتەرلىكىڭىز ئۈچۈن، كودنى Signal ئىچىدىن قايتا سايىلەڭ.</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">QR كودىنى سايىلەش ئۈچۈن Signal كامېرا ھوقۇقىغا موھتاج ، ئەمما ئۇ مەڭگۈلۈك رەت قىلىندى. ئەپ تەڭشەكلىرىدىن، «ھوقۇقلار» نى تاللاپ ۋە «كامېرا» نى قوزغىتىڭ. </string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">بىر Grapherex ئۈسكۈنىسى ئۇلامسىز؟</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">قارىماققا 3-تەرەپ سايىلىغۇچى ئارقىلىق Grapherex ئۈسكۈنىسىنى ئۇلىماقچى بولۇۋاتىسىز. سىزنىڭ بىخەتەرلىكىڭىز ئۈچۈن، كودنى Grapherex ئىچىدىن قايتا سايىلەڭ.</string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">QR كودىنى سايىلەش ئۈچۈن Grapherex كامېرا ھوقۇقىغا موھتاج ، ئەمما ئۇ مەڭگۈلۈك رەت قىلىندى. ئەپ تەڭشەكلىرىدىن، «ھوقۇقلار» نى تاللاپ ۋە «كامېرا» نى قوزغىتىڭ. </string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">كامېرا ھوقۇقى بولمىغاچقا QR كودىنى سايىلىغىلى بولمىدى</string>
   <!--ExpirationDialog-->
   <string name="ExpirationDialog_disappearing_messages">غايىب ئۇچۇرلار</string>
@@ -1109,18 +1109,18 @@
   <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">بۇ سۆھبەتتە يوللانغان ۋە تاپشۇرۇۋېلىنغان ئۇچۇرلار كۆرۈنۈپ %s دا غايىب بولىدۇ.</string>
   <!--OutdatedBuildReminder-->
   <string name="OutdatedBuildReminder_update_now">ھازىر يېڭىلاڭ</string>
-  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">بۇ Signal نەشرىنىڭ ۋاقتى بۈگۈن توشىدۇ. ئەڭ يېڭى نەشرىگە يېڭىلاڭ.</string>
+  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">بۇ Grapherex نەشرىنىڭ ۋاقتى بۈگۈن توشىدۇ. ئەڭ يېڭى نەشرىگە يېڭىلاڭ.</string>
   <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-    <item quantity="one">بۇ Signal نەشرىنىڭ ۋاقتى ئەتە توشىدۇ. ئەڭ يېڭى نەشرىگە يېڭىلاڭ.</item>
-    <item quantity="other">بۇ Signal نەشرىنىڭ ۋاقتى %d كۈندىن كېيىن توشىدۇ. ئەڭ يېڭى نەشرىگە يېڭىلاڭ.</item>
+    <item quantity="one">بۇ Grapherex نەشرىنىڭ ۋاقتى ئەتە توشىدۇ. ئەڭ يېڭى نەشرىگە يېڭىلاڭ.</item>
+    <item quantity="other">بۇ Grapherex نەشرىنىڭ ۋاقتى %d كۈندىن كېيىن توشىدۇ. ئەڭ يېڭى نەشرىگە يېڭىلاڭ.</item>
   </plurals>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">پارول كىرگۈزۈڭ</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Signal سىنبەلگىسى</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">Grapherex سىنبەلگىسى</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">پارولنى تاپشۇرۇڭ</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">خاتا پارول!</string>
-  <string name="PassphrasePromptActivity_unlock_signal">Signal نى ئاجرىتىڭ</string>
-  <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android - قۇلۇپ ئېكرانى</string>
+  <string name="PassphrasePromptActivity_unlock_signal">Grapherex نى ئاجرىتىڭ</string>
+  <string name="PassphrasePromptActivity_signal_android_lock_screen">Grapherex Android - قۇلۇپ ئېكرانى</string>
   <!--PlacePickerActivity-->
   <string name="PlacePickerActivity_title">خەرىتە</string>
   <string name="PlacePickerActivity_drop_pin">ئەن</string>
@@ -1141,16 +1141,16 @@
     <item quantity="one">سىزنىڭ يەنە %1$d قېتىملىق پۇرسىتىڭىز قالدى. سىناق قېتىم سانى چەككە يەتسە، يېڭىدىن بىر PIN قۇرسىڭىز بولىدۇ. ھېساباتىڭىزنى تىزىملىتالايسىز ۋە ئىشلىتەلەيسىز، ئەمما سەپلىمە ھۆججەتكە ئوخشاش ئۇچۇرلىرىڭىز ساقلانغان تەڭشەكلەرنى يوقىتىپ قويىسىز.</item>
     <item quantity="other">سىزنىڭ يەنە %1$d قېتىملىق پۇرسىتىڭىز قالدى. سىناق قېتىم سانى چەككە يەتسە، يېڭىدىن بىر PIN قۇرسىڭىز بولىدۇ. ھېساباتىڭىزنى تىزىملىتالايسىز ۋە ئىشلىتەلەيسىز، ئەمما سەپلىمە ھۆججەتكە ئوخشاش ئۇچۇرلىرىڭىز ساقلانغان تەڭشەكلەرنى يوقىتىپ قويىسىز.</item>
   </plurals>
-  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Signal تىزىملىتىش - Android نىڭ PIN بىلەن ياردەمگە موھتاج</string>
+  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Grapherex تىزىملىتىش - Android نىڭ PIN بىلەن ياردەمگە موھتاج</string>
   <string name="PinRestoreEntryFragment_enter_alphanumeric_pin">Enter alphanumeric PIN</string>
   <string name="PinRestoreEntryFragment_enter_numeric_pin">سان-ھەرپلىك PIN كىرگۈزۈڭ</string>
   <!--PinRestoreLockedFragment-->
   <string name="PinRestoreLockedFragment_create_your_pin">يېڭى PIN قۇر</string>
-  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">سىزنىڭ PIN نى ئەسلەش قېتىم سانىڭىز چەككە يەتتى، ئەمما سىز يېڭى PIN قۇرۇش ئارقىلىق Signal ھېساباتىڭىزنى زىيارەت قىلالايسىز. شەخسىيەت ۋە بىخەتەرلىك سەۋەبىدىن ھېساباتىڭىز ھېچقانداق سەپلىمە ھۆججەت ياكى تەڭشەكلەرنى ساقلاپ قالمىغان ئاساستا ئەسلىگە كەلتۈرۈلىدۇ.</string>
+  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">سىزنىڭ PIN نى ئەسلەش قېتىم سانىڭىز چەككە يەتتى، ئەمما سىز يېڭى PIN قۇرۇش ئارقىلىق Grapherex ھېساباتىڭىزنى زىيارەت قىلالايسىز. شەخسىيەت ۋە بىخەتەرلىك سەۋەبىدىن ھېساباتىڭىز ھېچقانداق سەپلىمە ھۆججەت ياكى تەڭشەكلەرنى ساقلاپ قالمىغان ئاساستا ئەسلىگە كەلتۈرۈلىدۇ.</string>
   <string name="PinRestoreLockedFragment_create_new_pin">يېڭى PIN قۇرۇڭ</string>
   <!--PinOptOutDialog-->
   <string name="PinOptOutDialog_warning">ئاگاھلاندۇرۇش</string>
-  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">ئەگەر PIN نى چەكلىسىڭىز، Signal غا قايتا تىزىملاتقاندا ئۆزىڭىز زاپاسلاپ ۋە ئەسلىگە كەلتۈرمىگۈچە ھەممە سانلىق مەلۇماتلىرىڭىز يوقىلىدۇ، PIN چەكلەنسە تىزىملىتىش قۇلۇپىنى ئاچالمايسىز.</string>
+  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">ئەگەر PIN نى چەكلىسىڭىز، Grapherex غا قايتا تىزىملاتقاندا ئۆزىڭىز زاپاسلاپ ۋە ئەسلىگە كەلتۈرمىگۈچە ھەممە سانلىق مەلۇماتلىرىڭىز يوقىلىدۇ، PIN چەكلەنسە تىزىملىتىش قۇلۇپىنى ئاچالمايسىز.</string>
   <string name="PinOptOutDialog_disable_pin">PIN چەكلە</string>
   <!--RatingManager-->
   <string name="RatingManager_rate_this_app">بۇ ئەپكە باھا</string>
@@ -1181,12 +1181,12 @@
   <string name="RedPhone_got_it">بىلدىم</string>
   <!--WebRtcCallActivity-->
   <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">بۇ جاي چېكىلسە سىن ئېچىلىدۇ</string>
-  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">%1$sنى چاقىرىش ئۈچۈن Signal كامېرانى ئىشلىتەلىشى كېرەك</string>
-  <string name="WebRtcCallActivity__signal_s">Signal %1$s</string>
+  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">%1$sنى چاقىرىش ئۈچۈن Grapherex كامېرانى ئىشلىتەلىشى كېرەك</string>
+  <string name="WebRtcCallActivity__signal_s">Grapherex %1$s</string>
   <string name="WebRtcCallActivity__calling">چاقىرىۋاتىدۇ…</string>
   <!--WebRtcCallView-->
-  <string name="WebRtcCallView__signal_voice_call">Signal ئاۋازلىق چاقىرىق…</string>
-  <string name="WebRtcCallView__signal_video_call">Signal سىنلىق چاقىرىق…</string>
+  <string name="WebRtcCallView__signal_voice_call">Grapherex ئاۋازلىق چاقىرىق…</string>
+  <string name="WebRtcCallView__signal_video_call">Grapherex سىنلىق چاقىرىق…</string>
   <string name="WebRtcCallView__start_call">چاقىرىق باشلا</string>
   <string name="WebRtcCallView__join_call">چاقىرىققا قېتىل</string>
   <string name="WebRtcCallView__call_is_full">چاقىرىق توشتى</string>
@@ -1239,13 +1239,13 @@
   <string name="RegistrationActivity_is_your_phone_number_above_correct">ئۈستىدىكى تېلېفون نومۇرىڭىز توغرىمۇ؟</string>
   <string name="RegistrationActivity_edit_number">نومۇرنى تەھرىرلەش</string>
   <string name="RegistrationActivity_missing_google_play_services">Google Play مۇلازىمەتلىرى كەم</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">بۇ ئۈسكۈنىدە Google Play مۇلازىمىتى كەم ئىكەن. شۇنداقتىمۇ سىز يەنىلا Signal نى ئىشلىتەلەيسىز، ئەمما بۇ سەپلىمە تۆۋەنلىتىلگەن ئىشەنچ ياكى ئىقتىدارنى كەلتۈرۈپ چىقىرىشى مۇمكىن.\n\nئەگەر سىز تەجرىبىلىك ئىشلەتكۈچى بولمىسىڭىز، ياكى بازارغا سېلىنغان Android ROM نى ئىشلەتمىگەن بولسىڭىز ياكى بۇنى خاتالىق دەپ كۆرۈۋاتقانلىقىڭىزغا ئىشەنسىڭىز، كاشىلا تېپىشىمىزغا ياردەم قىلىش ئۈچۈن support@signal.org بىلەن ئالاقىلىشىڭ.</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">بۇ ئۈسكۈنىدە Google Play مۇلازىمىتى كەم ئىكەن. شۇنداقتىمۇ سىز يەنىلا Grapherex نى ئىشلىتەلەيسىز، ئەمما بۇ سەپلىمە تۆۋەنلىتىلگەن ئىشەنچ ياكى ئىقتىدارنى كەلتۈرۈپ چىقىرىشى مۇمكىن.\n\nئەگەر سىز تەجرىبىلىك ئىشلەتكۈچى بولمىسىڭىز، ياكى بازارغا سېلىنغان Android ROM نى ئىشلەتمىگەن بولسىڭىز ياكى بۇنى خاتالىق دەپ كۆرۈۋاتقانلىقىڭىزغا ئىشەنسىڭىز، كاشىلا تېپىشىمىزغا ياردەم قىلىش ئۈچۈن support@Grapherex.org بىلەن ئالاقىلىشىڭ.</string>
   <string name="RegistrationActivity_i_understand">چۈشەندىم</string>
   <string name="RegistrationActivity_play_services_error">Play مۇلازىمەتلىرى خاتالىقى</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play مۇلازىمەتلىرى يېڭىلىنىۋاتىدۇ ياكى ئۇلارنى ۋاقىتلىق ئىشلەتكىلى بولمايدۇ. سەل تۇرۇپ قايتا سىناڭ.</string>
   <string name="RegistrationActivity_terms_and_privacy">شەرتلەر &amp;  مەخپىيەتلىك تۈزۈمى</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">دوستلار بىلەن ئالاقە قىلىش ، ئۇچۇر ئالماشتۇرۇش ۋە بىخەتەر تېلېفون قىلالىشىڭىز ئۈچۈن Signal ئالاقىداشلىرىڭىز ۋە مېدىيالىرىڭىزنى زىيارەت قىلىشى كېرەك</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">دوستلار بىلەن ئالاقىلىشىش، ئۇچۇر ئالماشتۇرۇش ۋە بىخەتەر تېلېفون قىلالىشىڭىز ئۈچۈن Signal ئالاقەداشلىرىڭىزنى زىيارەت قىلىشى كېرەك</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">دوستلار بىلەن ئالاقە قىلىش ، ئۇچۇر ئالماشتۇرۇش ۋە بىخەتەر تېلېفون قىلالىشىڭىز ئۈچۈن Grapherex ئالاقىداشلىرىڭىز ۋە مېدىيالىرىڭىزنى زىيارەت قىلىشى كېرەك</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">دوستلار بىلەن ئالاقىلىشىش، ئۇچۇر ئالماشتۇرۇش ۋە بىخەتەر تېلېفون قىلالىشىڭىز ئۈچۈن Grapherex ئالاقەداشلىرىڭىزنى زىيارەت قىلىشى كېرەك</string>
   <string name="RegistrationActivity_rate_limited_to_service">سىز بۇ نومۇرنى تىزىملىتىشقا بەك كۆپ قېتىم ئۇرۇندىڭىز. كېيىنرەك قايتا سىناڭ.</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">مۇلازىمەتكە ئۇلانغىلى بولمىدى. تور ئۇلىنىشىنى تەكشۈرۈپ قايتا سىناڭ.</string>
   <plurals name="RegistrationActivity_debug_log_hint">
@@ -1267,7 +1267,7 @@
   <!--RegistrationLockV2Dialog-->
   <string name="RegistrationLockV2Dialog_turn_on_registration_lock">تىزىملىتىش قۇلۇپىنى ئاچامسىز؟</string>
   <string name="RegistrationLockV2Dialog_turn_off_registration_lock">تىزىملىتىش قۇلۇپىنى ئېتەمسىز؟</string>
-  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">ئەگەر Signal غا قايتا تىزىملاتقىنىڭىزدا Signal PIN نى ئۇنتۇپ قالغان بولسىڭىز، ھېساباتىڭىزنى 7 كۈن قۇلۇپلاپ سالىسىز.</string>
+  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">ئەگەر Grapherex غا قايتا تىزىملاتقىنىڭىزدا Grapherex PIN نى ئۇنتۇپ قالغان بولسىڭىز، ھېساباتىڭىزنى 7 كۈن قۇلۇپلاپ سالىسىز.</string>
   <string name="RegistrationLockV2Dialog_turn_on">ئېچىش</string>
   <string name="RegistrationLockV2Dialog_turn_off">ئېتىش</string>
   <!--RevealableMessageView-->
@@ -1283,14 +1283,14 @@
   <!--ShakeToReport-->
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">ئالاقەداشلارغا قوش</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">Signal ئىشلىتىش تەكلىپى</string>
-  <string name="SharedContactDetailsActivity_signal_message">Signal ئۇچۇرى</string>
-  <string name="SharedContactDetailsActivity_signal_call">Signal چاقىرىشى</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">Grapherex ئىشلىتىش تەكلىپى</string>
+  <string name="SharedContactDetailsActivity_signal_message">Grapherex ئۇچۇرى</string>
+  <string name="SharedContactDetailsActivity_signal_call">Grapherex چاقىرىشى</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">ئالاقەداشلارغا قوش</string>
-  <string name="SharedContactView_invite_to_signal">Signal ئىشلىتىش تەكلىپى</string>
-  <string name="SharedContactView_message">Signal ئۇچۇرى</string>
-  <!--SignalPinReminders-->
+  <string name="SharedContactView_invite_to_signal">Grapherex ئىشلىتىش تەكلىپى</string>
+  <string name="SharedContactView_message">Grapherex ئۇچۇرى</string>
+  <!--GrapherexPinReminders-->
   <string name="SignalPinReminders_well_remind_you_again_later">سەل تۇرۇپ سىزنى قايتا ئەسكەرتىمىز.</string>
   <string name="SignalPinReminders_well_remind_you_again_tomorrow">ئەتە سىزنى قايتا ئەسكەرتىمىز.</string>
   <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">بىر قانچە كۈندىن كېيىن سىزنى قايتا ئەسكەرتىمىز.</string>
@@ -1311,14 +1311,14 @@
   <string name="SmsMessageRecord_secure_session_reset">سىز بىخەتەر سۆزلەشكۈنى ئەسلىگە قايتۇردىڭىز.</string>
   <string name="SmsMessageRecord_secure_session_reset_s">%s بىخەتەر سۆزلەشكۈنى ئەسلىگە قايتۇردى.</string>
   <string name="SmsMessageRecord_duplicate_message">تەكرار ئۇچۇر.</string>
-  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">بۇ ئۇچۇرنى بىر تەرەپ قىلالمايدۇ چۈنكى ئۇ يېڭى نەشرىدىكى Signal دىن يوللانغان. سىز Signal نى يېڭىلىغاندىن كېيىن ئالاقەدىشىڭىزغا ئۇچۇرنى قايتا يوللاتقۇزۇڭ.</string>
+  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">بۇ ئۇچۇرنى بىر تەرەپ قىلالمايدۇ چۈنكى ئۇ يېڭى نەشرىدىكى Grapherex دىن يوللانغان. سىز Grapherex نى يېڭىلىغاندىن كېيىن ئالاقەدىشىڭىزغا ئۇچۇرنى قايتا يوللاتقۇزۇڭ.</string>
   <string name="SmsMessageRecord_error_handling_incoming_message">كەلگەن ئۇچۇرنى بىر تەرەپ قىلىشقا خاتالىق كۆرۈلدى.</string>
   <!--StickerManagementActivity-->
   <string name="StickerManagementActivity_stickers">ئىپادىلەر</string>
   <!--StickerManagementAdapter-->
   <string name="StickerManagementAdapter_installed_stickers">ئورنىتىلغان چىراي ئىپادىلىرى</string>
   <string name="StickerManagementAdapter_stickers_you_received">تاپشۇرۇۋالغان چىراي ئىپادىلىرى</string>
-  <string name="StickerManagementAdapter_signal_artist_series">Signal ئارتىس يۈرۈشلۈكى</string>
+  <string name="StickerManagementAdapter_signal_artist_series">Grapherex ئارتىس يۈرۈشلۈكى</string>
   <string name="StickerManagementAdapter_no_stickers_installed">چىراي ئىپادىسى ئورنىتىلمىغان</string>
   <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">بۇ جايدا كەلگەن ئۇچۇرلاردىكى چىراي ئىپادىلىرى كۆرۈنىدۇ</string>
   <string name="StickerManagementAdapter_untitled">ماۋزۇسىز</string>
@@ -1343,8 +1343,8 @@
   <string name="SupportEmailUtil_filter">سۈزگۈچ:</string>
   <string name="SupportEmailUtil_device_info">ئۈسكۈنە ئۇچۇرى:</string>
   <string name="SupportEmailUtil_android_version">Android نەشرى</string>
-  <string name="SupportEmailUtil_signal_version">Signal نەشرى:</string>
-  <string name="SupportEmailUtil_signal_package">Signal بوغچا:</string>
+  <string name="SupportEmailUtil_signal_version">Grapherex نەشرى:</string>
+  <string name="SupportEmailUtil_signal_package">Grapherex بوغچا:</string>
   <string name="SupportEmailUtil_registration_lock">تىزىملاش قۇلۇپى:</string>
   <string name="SupportEmailUtil_locale">تىل:</string>
   <!--ThreadRecord-->
@@ -1363,7 +1363,7 @@
   <string name="ThreadRecord_view_once_media">بىرلا كۆرسەت ۋاسىتە</string>
   <string name="ThreadRecord_this_message_was_deleted">بۇ ئۇچۇر ئۆچۈرۈلگەن</string>
   <string name="ThreadRecord_you_deleted_this_message">بۇ ئۇچۇرنى ئۆچۈردىڭىز</string>
-  <string name="ThreadRecord_s_is_on_signal">Signal غا%s قوشۇلدى!</string>
+  <string name="ThreadRecord_s_is_on_signal">Grapherex غا%s قوشۇلدى!</string>
   <string name="ThreadRecord_disappearing_messages_disabled">غايىب ئۇچۇر چەكلەندى</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">غايىب ئۇچۇر ۋاقتى %s غا تەڭشەلدى</string>
   <string name="ThreadRecord_safety_number_changed">بىخەتەر نومۇر ئۆزگەردى</string>
@@ -1379,8 +1379,8 @@
   <string name="ThreadRecord_video">سىن</string>
   <string name="ThreadRecord_chat_session_refreshed">سۆھبەت يېڭىلاندى</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Signal يېڭىلاش</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Signal نىڭ يېڭى نەشرى باركەن، چېكىپ يېڭىلاڭ</string>
+  <string name="UpdateApkReadyListener_Signal_update">Grapherex يېڭىلاش</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Grapherex نىڭ يېڭى نەشرى باركەن، چېكىپ يېڭىلاڭ</string>
   <!--UntrustedSendDialog-->
   <string name="UntrustedSendDialog_send_message">ئۇچۇر ئەۋەتەمسىز؟</string>
   <string name="UntrustedSendDialog_send">ئەۋەت</string>
@@ -1399,20 +1399,20 @@
   <string name="UsernameEditFragment_usernames_cannot_begin_with_a_number">ئىشلەتكۈچى ئىسمى ساندىن باشلانمايدۇ.</string>
   <string name="UsernameEditFragment_username_is_invalid">ئىشلەتكۈچى ئىسمى ئىناۋەتسىز</string>
   <string name="UsernameEditFragment_usernames_must_be_between_a_and_b_characters">ئىشلەتكۈچى ئىسمى%1$d دىن %2$d غىچە ھەرپ ئارىسىدا بولىدۇ.</string>
-  <string name="UsernameEditFragment_usernames_on_signal_are_optional">ئىشلەتكۈچى ئىسمى Signal دىكى تاللاشچان ئىقتىدار. ئەگەر ئىشلەتكۈچى ئاتى قۇرۇشنى تاللىسىڭىز، باشقا Signal ئىشلەتكۈچىلىرى مۇشۇ ئىسىم بىلەن سىزنى ئىزدەپ ئالاقە قىلالايدۇ ھەمدە تېلېفون نومۇرىڭىزنى بىلىش ھاجەتسىز.</string>
+  <string name="UsernameEditFragment_usernames_on_signal_are_optional">ئىشلەتكۈچى ئىسمى Grapherex دىكى تاللاشچان ئىقتىدار. ئەگەر ئىشلەتكۈچى ئاتى قۇرۇشنى تاللىسىڭىز، باشقا Grapherex ئىشلەتكۈچىلىرى مۇشۇ ئىسىم بىلەن سىزنى ئىزدەپ ئالاقە قىلالايدۇ ھەمدە تېلېفون نومۇرىڭىزنى بىلىش ھاجەتسىز.</string>
   <plurals name="UserNotificationMigrationJob_d_contacts_are_on_signal">
-    <item quantity="one">%d ئالاقەداش Signal ئىشلىتىۋاتىدۇ!</item>
-    <item quantity="other">%d ئالاقەداش Signal ئىشلىتىۋاتىدۇ!</item>
+    <item quantity="one">%d ئالاقەداش Grapherex ئىشلىتىۋاتىدۇ!</item>
+    <item quantity="other">%d ئالاقەداش Grapherex ئىشلىتىۋاتىدۇ!</item>
   </plurals>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">ئالاقىلەشكۈچىڭىز كونا نەشردىكى Signal نى ئىشلىتىۋېتىپتۇ. سىزنىڭ بىخەتەرلىك نومۇرىڭىزنى تەستىقلاشتىن بۇرۇن يېڭىلىۋېلىشىنى سوراڭ.</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">سىزنىڭ ئالاقىلەشكۈچىڭىز QR كودى سىغىشمايدىغان يېڭىراق نەشردىكى Signal نى ئىشلىتىۋېتىپتۇ. نەشرىڭىزنى يېڭىلاپ سېلىشتۇرۇڭ.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">ئالاقىلەشكۈچىڭىز كونا نەشردىكى Grapherex نى ئىشلىتىۋېتىپتۇ. سىزنىڭ بىخەتەرلىك نومۇرىڭىزنى تەستىقلاشتىن بۇرۇن يېڭىلىۋېلىشىنى سوراڭ.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">سىزنىڭ ئالاقىلەشكۈچىڭىز QR كودى سىغىشمايدىغان يېڭىراق نەشردىكى Grapherex نى ئىشلىتىۋېتىپتۇ. نەشرىڭىزنى يېڭىلاپ سېلىشتۇرۇڭ.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">سايىلەنگەن QR كودى توغرا فورماتتىكى بىخەتەرلىك نومۇرى توغرىلاش كودى ئەمەس. قايتا سايىلەپ سىناڭ.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">بىخەتەرلىك نومۇرىنى شۇ ئارقىلىق ئورتاقلاش…</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">Signal بىخەتەرلىك نومۇرىمىز:</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">Grapherex بىخەتەرلىك نومۇرىمىز:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">قارىغاندا ھەمبەھىرلەيدىغان ئەپ يوقتەك تۇرىدۇ.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">چاپلاش تاختىسىدا سېلىشتۇرغۇدەك بىر بىخەتەرلىك نومۇرى تېپىلمىدى</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">QR كودىنى سايىلەش ئۈچۈن Signal كامېرا ھوقۇقىغا موھتاج ، ئەمما ئۇ مەڭگۈلۈك رەت قىلىندى. ئەپ تەڭشەكلىرىدىن، «ھوقۇقلار» نى تاللاپ ۋە «كامېرا» نى قوزغىتىڭ.
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">QR كودىنى سايىلەش ئۈچۈن Grapherex كامېرا ھوقۇقىغا موھتاج ، ئەمما ئۇ مەڭگۈلۈك رەت قىلىندى. ئەپ تەڭشەكلىرىدىن، «ھوقۇقلار» نى تاللاپ ۋە «كامېرا» نى قوزغىتىڭ.
  </string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">كامېرا ھوقۇقى بولمىسا QR كودىنى سايىلىغىلى بولمايدۇ</string>
   <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view"> %1$sنىڭ بىخەتەرلىك نومۇرىنى كۆرۈش ئۈچۈن. ئاۋۋال ئۇنىڭ بىلەن ئۇچۇر ئالماشتۇرىشىڭىز كېرەك.</string>
@@ -1432,13 +1432,13 @@
   <string name="ApplicationMigrationService_system_database_import_is_complete">سېسىتما ساندانىنى ئىمپورت قىلىش تۈگىدى.</string>
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">نوقۇپ ئېچىڭ.</string>
-  <string name="KeyCachingService_passphrase_cached">Signal ئېچىلىپ كەتتى.</string>
-  <string name="KeyCachingService_lock">Signal نى قۇلۇپلاش</string>
+  <string name="KeyCachingService_passphrase_cached">Grapherex ئېچىلىپ كەتتى.</string>
+  <string name="KeyCachingService_lock">Grapherex نى قۇلۇپلاش</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">سىز</string>
   <string name="MediaPreviewActivity_unssuported_media_type">قوللىمايدىغان تاراتقۇ تىپى</string>
   <string name="MediaPreviewActivity_draft">ئارگىنال</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">ھۆججەتنى سىرتقا ساقلىغۇچقا ساقلاش ئۈچۈن Signal ساقلاش ھوقۇقىغا ئېھتىياجلىق، ئەمما ئۇ مەڭگۈلۈك چەكلەنگەن، ئەپ تەڭشىكىدىن، «ھوقۇقلار» نى تاللاپ، «ساقلاش» نى قوزغىتىڭ.</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">ھۆججەتنى سىرتقا ساقلىغۇچقا ساقلاش ئۈچۈن Grapherex ساقلاش ھوقۇقىغا ئېھتىياجلىق، ئەمما ئۇ مەڭگۈلۈك چەكلەنگەن، ئەپ تەڭشىكىدىن، «ھوقۇقلار» نى تاللاپ، «ساقلاش» نى قوزغىتىڭ.</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">ئىجازەتسىز سىرتقى ساقلىغۇچقا ساقلىيالمايدۇ</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">ئۇچۇرنى ئۆچۈرەمسىز؟</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">بۇ ئۇچۇر مەڭگۈلۈك ئۆچۈرۈلىدۇ.</string>
@@ -1458,10 +1458,10 @@
   <string name="MessageNotifier_view_once_photo">بىرلا كۆرسەت سۈرەت</string>
   <string name="MessageNotifier_view_once_video">بىرلا كۆرسەت سىن</string>
   <string name="MessageNotifier_reply">جاۋاب</string>
-  <string name="MessageNotifier_signal_message">Signal ئۇچۇرى</string>
+  <string name="MessageNotifier_signal_message">Grapherex ئۇچۇرى</string>
   <string name="MessageNotifier_unsecured_sms">شىفىرلانمىغان كۆپ ۋاسىتە ئۇچۇر</string>
   <string name="MessageNotifier_you_may_have_new_messages">يېڭى ئۇچۇرىڭىز بار</string>
-  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Signal نى ئېچىپ يېقىنقى ئۇقتۇرۇشلارنى تەكشۈرىدۇ.</string>
+  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Grapherex نى ئېچىپ يېقىنقى ئۇقتۇرۇشلارنى تەكشۈرىدۇ.</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">ئالاقىلەشكۈچى</string>
   <string name="MessageNotifier_reacted_s_to_s">«%2$s» غا قايتۇرغان ئىنكاس %1$s.</string>
@@ -1472,7 +1472,7 @@
   <string name="MessageNotifier_reacted_s_to_your_view_once_media">كۆرۈن-غايىپ ۋاسىتىڭىزگە %1$s ئىنكاس قايتۇردى.</string>
   <string name="MessageNotifier_reacted_s_to_your_sticker">چىراي ئىپادىڭىزگە %1$s ئىنكاس قايتۇردى.</string>
   <string name="MessageNotifier_this_message_was_deleted">بۇ ئۇچۇر ئۆچۈرۈلگەن</string>
-  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">ئالاقەداشلار Signal غا قوشۇلغانلىق ئۇقتۇرۇشىنى تاقامسىز؟ سىز Signal &gt; تەڭشەكلەر&gt;ئۇقتۇرۇشتىن قايتا قوزغىتالايسىز.</string>
+  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">ئالاقەداشلار Grapherex غا قوشۇلغانلىق ئۇقتۇرۇشىنى تاقامسىز؟ سىز Grapherex &gt; تەڭشەكلەر&gt;ئۇقتۇرۇشتىن قايتا قوزغىتالايسىز.</string>
   <!--Notification Channels-->
   <string name="NotificationChannel_channel_messages">ئۇچۇرلار</string>
   <string name="NotificationChannel_calls">چاقىرىشلار</string>
@@ -1484,11 +1484,11 @@
   <string name="NotificationChannel_group_chats">سۆھبەتلەر</string>
   <string name="NotificationChannel_missing_display_name">نامەلۇم</string>
   <string name="NotificationChannel_voice_notes">ئۈن خاتىرە</string>
-  <string name="NotificationChannel_contact_joined_signal">ئالاقاداش Signal غا قېتىلدى</string>
+  <string name="NotificationChannel_contact_joined_signal">ئالاقاداش Grapherex غا قېتىلدى</string>
   <string name="NotificationChannels__no_activity_available_to_open_notification_channel_settings">ئۇقتۇرۇش قانال تەڭشەكلىرىنى ئاچىدىغان پائالىيەت يوق.</string>
   <!--ProfileEditNameFragment-->
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Signal قۇلۇپلانغاندا تېز ئىنكاسنى ئىشلەتكىلى بولمايدۇ!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Grapherex قۇلۇپلانغاندا تېز ئىنكاسنى ئىشلەتكىلى بولمايدۇ!</string>
   <string name="QuickResponseService_problem_sending_message">ئۇچۇر يوللاشتا مەسىلە كۆرۈلدى!</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">%s غا ساقلاندى</string>
@@ -1499,7 +1499,7 @@
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">ئىناۋەتسىز قىسقا يول</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal </string>
+  <string name="SingleRecipientNotificationBuilder_signal">Grapherex </string>
   <string name="SingleRecipientNotificationBuilder_new_message">يېڭى ئۇچۇر</string>
   <string name="SingleRecipientNotificationBuilder_message_request">ئۇچۇر ئىلتىماسى</string>
   <!--ThumbnailView-->
@@ -1512,10 +1512,10 @@
   </plurals>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">ئۈسكۈنە ئەمدى تىزىمدا يوق</string>
-  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">قارىغاندا سىز باشقا ئۈسكۈنىدە تېلېفون نومۇرىڭىزنى ئىشلىتىپ Signal نى تىزىملىتىپسىز، چېكىلسە قايتا تىزىملايدۇ.</string>
+  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">قارىغاندا سىز باشقا ئۈسكۈنىدە تېلېفون نومۇرىڭىزنى ئىشلىتىپ Grapherex نى تىزىملىتىپسىز، چېكىلسە قايتا تىزىملايدۇ.</string>
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">%s نىڭ چاقىرىشىغا جاۋاب بېرىش ئۈچۈن، Signal غا مىكروفون زىيارەت ھوقۇقى بېرىڭ.</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">سۆزلىشىشتە Signal مىكروفون ۋە كامېرا ئىجازىتىگە ئېھتىياجلىق، ئەمما ئۇلار رەت قىلىندى. ئەپ تەڭشىكىدىن، «ھوقۇقلار» نى تاللاپ ۋە «مىكروفون» ۋە «كامېرا» نى قوزغىتىڭ.</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">%s نىڭ چاقىرىشىغا جاۋاب بېرىش ئۈچۈن، Grapherex غا مىكروفون زىيارەت ھوقۇقى بېرىڭ.</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">سۆزلىشىشتە Grapherex مىكروفون ۋە كامېرا ئىجازىتىگە ئېھتىياجلىق، ئەمما ئۇلار رەت قىلىندى. ئەپ تەڭشىكىدىن، «ھوقۇقلار» نى تاللاپ ۋە «مىكروفون» ۋە «كامېرا» نى قوزغىتىڭ.</string>
   <string name="WebRtcCallActivity__answered_on_a_linked_device">باغلانغان بىر ئۈسكۈنىدە جاۋاب قايتۇردى.</string>
   <string name="WebRtcCallActivity__declined_on_a_linked_device">باغلانغان بىر ئۈسكۈنىدە رەت قىلدى.</string>
   <string name="WebRtcCallActivity__busy_on_a_linked_device">باغلانغان بىر ئۈسكۈنىدە ئالدىراش.</string>
@@ -1539,7 +1539,7 @@
   <string name="change_passphrase_activity__repeat_new_passphrase">يېڭى ئىم قايتا</string>
   <!--contact_selection_activity-->
   <string name="contact_selection_activity__enter_name_or_number">ئات ياكى نومۇر كىرگۈزۈڭ</string>
-  <string name="contact_selection_activity__invite_to_signal">Signal ئىشلىتىش تەكلىپى</string>
+  <string name="contact_selection_activity__invite_to_signal">Grapherex ئىشلىتىش تەكلىپى</string>
   <string name="contact_selection_activity__new_group">يېڭى توپ</string>
   <!--contact_filter_toolbar-->
   <string name="contact_filter_toolbar__clear_entered_text_description">كىرگۈزگەن خەتنى تازىلاش</string>
@@ -1551,21 +1551,21 @@
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">ئالاقەداش سۈرەت</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Signal ئالاقەداشلىرىڭىزنى كۆرسىتىش ئۈچۈن ئالاقەداش ھوقۇقى تەلەپ قىلىدۇ، ئەمما ئۇ مەڭگۈلۈك رەت قىلىندى. ئەپ تەڭشىكى تىزىملىكىگە بېرىڭ، «ھوقۇقلار» نى تاللاڭ ۋە «ئالاقەداشلار» نى قوزغىتىڭ.</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Grapherex ئالاقەداشلىرىڭىزنى كۆرسىتىش ئۈچۈن ئالاقەداش ھوقۇقى تەلەپ قىلىدۇ، ئەمما ئۇ مەڭگۈلۈك رەت قىلىندى. ئەپ تەڭشىكى تىزىملىكىگە بېرىڭ، «ھوقۇقلار» نى تاللاڭ ۋە «ئالاقەداشلار» نى قوزغىتىڭ.</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">ئالاقەداش ئېرىشىشتە خاتالىق كۆرۈلدى، تور باغلىنىشىڭىزنى تەكشۈرۈڭ</string>
   <string name="ContactSelectionListFragment_username_not_found">ئىشلەتكۈچى ئىسمى تېپىلمىدى</string>
-  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">«%1$s» تېخى Signal ئىشلەتكۈچىسى ئەمەس. ئىشلەتكۈچى ئاتىنى تەكشۈرۈپ ئاندىن قايتا سىناڭ.</string>
+  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">«%1$s» تېخى Grapherex ئىشلەتكۈچىسى ئەمەس. ئىشلەتكۈچى ئاتىنى تەكشۈرۈپ ئاندىن قايتا سىناڭ.</string>
   <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">ئۆزىڭىزنى توپقا قوشۇشىڭىز ھاجەتسىز</string>
   <string name="ContactSelectionListFragment_maximum_group_size_reached">توپنىڭ ئادەم سانى چېكىگە يەتتى</string>
-  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Signal  توپى %1$d ئەزانى سىغدۇرالايدۇ.</string>
+  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Grapherex  توپى %1$d ئەزانى سىغدۇرالايدۇ.</string>
   <string name="ContactSelectionListFragment_recommended_member_limit_reached">تەۋسىيە ئەزا چېكىگە يەتتى</string>
-  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">ئەزا سانى %1$d ياكى ئاز بولغاندا Signal توپىنىڭ ئىقتىدارى ئەڭ ياخشى. تېخىمۇ كۆپ ئەزا قوشۇلسا ئۇچۇر يوللاش ۋە تاپشۇرۇۋېلىش سەل كېچىكىدۇ.</string>
+  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">ئەزا سانى %1$d ياكى ئاز بولغاندا Grapherex توپىنىڭ ئىقتىدارى ئەڭ ياخشى. تېخىمۇ كۆپ ئەزا قوشۇلسا ئۇچۇر يوللاش ۋە تاپشۇرۇۋېلىش سەل كېچىكىدۇ.</string>
   <plurals name="ContactSelectionListFragment_d_members">
     <item quantity="one">1</item>
     <item quantity="other">0</item>
   </plurals>
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Signal ئۇلارنى كۆرسىتىش ئۈچۈن ئالاقەداشلىرىڭىزنى زىيارەت قىلىشى كېرەك.</string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Grapherex ئۇلارنى كۆرسىتىش ئۈچۈن ئالاقەداشلىرىڭىزنى زىيارەت قىلىشى كېرەك.</string>
   <string name="contact_selection_list_fragment__show_contacts">ئالاقەداشنى كۆرسەت</string>
   <!--contact_selection_list_item-->
   <plurals name="contact_selection_list_item__number_of_members">
@@ -1573,7 +1573,7 @@
     <item quantity="other">0</item>
   </plurals>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">Signal ئۇچۇرى</string>
+  <string name="conversation_activity__type_message_push">Grapherex ئۇچۇرى</string>
   <string name="conversation_activity__type_message_sms_insecure">شىفىرلانمىغان كۆپ ۋاسىتە ئۇچۇر</string>
   <string name="conversation_activity__type_message_mms_insecure">شىفىرلانمىغانMMS</string>
   <string name="conversation_activity__from_sim_name">دىن باشلاپ%1$s</string>
@@ -1585,7 +1585,7 @@
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">تېز كامېرا قوشۇمچە تارتمىسىغا ئالماشتۇر</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">ئاۋاز قوشۇمچىسىنى ئۇنگە ئال ۋە ئەۋەت</string>
   <string name="conversation_activity__quick_attachment_drawer_lock_record_description">ئاۋاز قوشۇمچىسىنى ئۈنگەئېلىشنى قۇلۇپلا</string>
-  <string name="conversation_activity__enable_signal_for_sms">Signal بىلەن ئۇچۇرلىشىشىنى ئاچ</string>
+  <string name="conversation_activity__enable_signal_for_sms">Grapherex بىلەن ئۇچۇرلىشىشىنى ئاچ</string>
   <string name="conversation_activity__message_could_not_be_sent">ئۇچۇر ئەۋەتىلەلمىدى. ئۇلىنىشڭىزنى تەكشۈرۈپ قايتا سىناڭ.</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">بىكار قىلىش ئۈچۈن سىيرىڭ</string>
@@ -1686,9 +1686,9 @@
   <string name="IdentityUtil_unverified_banner_one">سىزنىڭ %s بىلەن بولغان بىخەتەرلىك نومۇرىڭىز ئۆزگەردى ۋە تېخىچە دەلىللەنمىدى.</string>
   <string name="IdentityUtil_unverified_banner_two">سىزنىڭ %1$s ۋە %2$s بولغان بىخەتەرلىك نومۇرىڭىز تېخىچە دەلىللەنمىدى</string>
   <string name="IdentityUtil_unverified_banner_many">سىزنىڭ %1$s، %2$s ۋە %3$s بىلەن بولغان بىخەتەرلىك نومۇرىڭىز تېخىچە دەلىللەنمىدى</string>
-  <string name="IdentityUtil_unverified_dialog_one">سىز بىلەن %1$s نىڭ بىخەتەرلىك نومۇرى ئۆزگەردى، ئەمدى دەلىللەندى دەپ تونۇلمايدۇ. بەلكىم بەزىلەر ئالاقىڭىزغا ئېرىشىشنى سىناۋاتقان ياكى %1$sئادەتتىكىدەك Signal نى قايتا ئورناتقان بولۇشى مۇمكىن.</string>
-  <string name="IdentityUtil_unverified_dialog_two">سىزنىڭ %1$s ۋە %2$s بىلەن بولغان بىخەتەرلىك نومۇرىڭىز دەلىللەنمىگەن. بەلكىم بەزىلەر ئالاقىڭىزغا ئېرىشىشنى سىناۋاتقان ياكى ئۇلار ئادەتتىكىدەك Signal نى قايتا ئورناتقان بولۇشى مۇمكىن.</string>
-  <string name="IdentityUtil_unverified_dialog_many">سىزنىڭ %1$s، %2$s ۋە %3$s بىلەن بولغان بىخەتەرلىك نومۇرىڭىز دەلىللەنمىگەن. بەلكىم بەزىلەر ئالاقىڭىزغا ئېرىشىشنى سىناۋاتقان ياكى ئۇلار ئادەتتىكىدەك Signal نى قايتا ئورناتقان بولۇشى مۇمكىن.</string>
+  <string name="IdentityUtil_unverified_dialog_one">سىز بىلەن %1$s نىڭ بىخەتەرلىك نومۇرى ئۆزگەردى، ئەمدى دەلىللەندى دەپ تونۇلمايدۇ. بەلكىم بەزىلەر ئالاقىڭىزغا ئېرىشىشنى سىناۋاتقان ياكى %1$sئادەتتىكىدەك Grapherex نى قايتا ئورناتقان بولۇشى مۇمكىن.</string>
+  <string name="IdentityUtil_unverified_dialog_two">سىزنىڭ %1$s ۋە %2$s بىلەن بولغان بىخەتەرلىك نومۇرىڭىز دەلىللەنمىگەن. بەلكىم بەزىلەر ئالاقىڭىزغا ئېرىشىشنى سىناۋاتقان ياكى ئۇلار ئادەتتىكىدەك Grapherex نى قايتا ئورناتقان بولۇشى مۇمكىن.</string>
+  <string name="IdentityUtil_unverified_dialog_many">سىزنىڭ %1$s، %2$s ۋە %3$s بىلەن بولغان بىخەتەرلىك نومۇرىڭىز دەلىللەنمىگەن. بەلكىم بەزىلەر ئالاقىڭىزغا ئېرىشىشنى سىناۋاتقان ياكى ئۇلار ئادەتتىكىدەك Grapherex نى قايتا ئورناتقان بولۇشى مۇمكىن.</string>
   <string name="IdentityUtil_untrusted_dialog_one">سىزنىڭ %s بىلەن بولغان بىخەتەرلىك نومۇرىڭىز شۇئان ئۆزگەردى.</string>
   <string name="IdentityUtil_untrusted_dialog_two">سىزنىڭ %1$s ۋە %2$s بىلەن بولغان بىخەتەرلىك نومۇرىڭىز شۇئان ئۆزگەردى.</string>
   <string name="IdentityUtil_untrusted_dialog_many">سىزنىڭ %1$s، %2$s ۋە %3$s بىلەن بولغان بىخەتەرلىك نومۇرىڭىز شۇئان ئۆزگەردى.</string>
@@ -1703,7 +1703,7 @@
   <!--log_submit_activity-->
   <string name="log_submit_activity__this_log_will_be_posted_online">بۇ خاتىرە قاتناشقۇچىلارنىڭ كۆرۈشى ئۈچۈن توردا ئاشكارا ئېلان قىلىنىدۇ، يوللاشتىن ئىلگىرى مەزكۇر خاتىرەنى تەكشۈرۈپ ۋە تەھرىرلىيەلەيسىز.</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">مەۋجۇت تېكىست ئۇچۇرلىرىڭىزنى Signal نىڭ شىفىرلانغان ساندانىغا ئەكىرەمسىز؟</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">مەۋجۇت تېكىست ئۇچۇرلىرىڭىزنى Grapherex نىڭ شىفىرلانغان ساندانىغا ئەكىرەمسىز؟</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">كۆڭۈلدىكى سىستېما ساندانىدا ھېچقانداق ئۆزگەرتىش ياكى ئۆزگىرىش بولمايدۇ</string>
   <string name="database_migration_activity__skip">ئاتلاش</string>
   <string name="database_migration_activity__import">ئەكىر</string>
@@ -1726,7 +1726,7 @@
   <!--prompt_passphrase_activity-->
   <string name="prompt_passphrase_activity__unlock">قۇلۇپ ئاچ</string>
   <!--prompt_mms_activity-->
-  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">سىمسىز تېلېگراف سودىگىرىڭىزنىڭ تورى ئارقىلىق كۆپ ۋاسىتە ئۇچۇر ۋە توپ ئۇچۇرى يوللاشتا، Signal كۆپ ۋاسىتە ئۇچۇر تەڭشىكىنى زىيارەت قىلىشقا ئېھتىياجلىق. ئۈسكۈنىڭىزدىن بۇ ئۇچۇرلارغا ئېرىشكىلى بولمىدى، قۇلۇپلانغان ئۈسكۈنە ياكى چەكلىك سەپلىمىلىك ئۈسكۈنىلەردە مۇشۇنىڭغا ئوخشاش ئەھۋال مەۋجۇت.</string>
+  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">سىمسىز تېلېگراف سودىگىرىڭىزنىڭ تورى ئارقىلىق كۆپ ۋاسىتە ئۇچۇر ۋە توپ ئۇچۇرى يوللاشتا، Grapherex كۆپ ۋاسىتە ئۇچۇر تەڭشىكىنى زىيارەت قىلىشقا ئېھتىياجلىق. ئۈسكۈنىڭىزدىن بۇ ئۇچۇرلارغا ئېرىشكىلى بولمىدى، قۇلۇپلانغان ئۈسكۈنە ياكى چەكلىك سەپلىمىلىك ئۈسكۈنىلەردە مۇشۇنىڭغا ئوخشاش ئەھۋال مەۋجۇت.</string>
   <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">ۋاسىتە ۋە توپ ئۇچۇرى يوللاشتا، «جەزملە» نى چېكىپ زۆرۈر تەڭشەكلەرنى تاماملاش كېرەك. كۆپ ۋاسىتە ئۇچۇر تەڭشىكىنى تېلېگراف سودىگىرىڭىزنىڭ «تېلگراف سودىگەر APN» دىن تاپالايسىز. بۇ مەشغۇلاتنى بىرلا قېتىم قىلىسىز.</string>
   <!--profile_create_activity-->
   <string name="CreateProfileActivity_first_name_required">ئات (زۆرۈر)</string>
@@ -1760,7 +1760,7 @@
   <!--recipients_panel-->
   <string name="recipients_panel__to"><small>ئات ياكى نومۇر كىرگۈزۈڭ</small></string>
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[سىز %s بىلەن بولغان شىفىر بىخەتەرلىكىنى دەلىللىمەكچى بولسىڭىز، ئۈستىدىكى نومۇر بىلەن ئۇنىڭ ئۈسكۈنىسىدىكى نومۇرنى سېلىشتۇرۇڭ. ئۇنىڭدىن باشقا، ئۇلارنىڭ تېلېفونىدىكى كودنى تارىسىڭىز ياكى ئۇلاردىن سىزنىڭ كودىڭىزنى تاراشنى تەلەپ قىلسىڭىز بولىدۇ.<a href="https://signal.org/redirect/safety-numbers">تېخىمۇ كۆپ بىلدۈرگۈ</a>]]></string>
+  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[سىز %s بىلەن بولغان شىفىر بىخەتەرلىكىنى دەلىللىمەكچى بولسىڭىز، ئۈستىدىكى نومۇر بىلەن ئۇنىڭ ئۈسكۈنىسىدىكى نومۇرنى سېلىشتۇرۇڭ. ئۇنىڭدىن باشقا، ئۇلارنىڭ تېلېفونىدىكى كودنى تارىسىڭىز ياكى ئۇلاردىن سىزنىڭ كودىڭىزنى تاراشنى تەلەپ قىلسىڭىز بولىدۇ.<a href="https://Grapherex.org/redirect/safety-numbers">تېخىمۇ كۆپ بىلدۈرگۈ</a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">چېكىلسە تارايدۇ</string>
   <string name="verify_display_fragment__loading">قاچىلىنىۋاتىدۇ…</string>
   <string name="verify_display_fragment__verified">دەلىللەندى</string>
@@ -1811,7 +1811,7 @@
   <string name="HelpFragment__how_do_you_feel">قانداقراق ھېس قىلىۋاتىسىز؟ (تاللاشچان)</string>
   <string name="HelpFragment__tell_us_why_youre_reaching_out">نېمە ئۈچۈن بىز بىلەن ئالاقە قىلغانلىقىڭىزنى ئېيتىڭ.</string>
   <string name="HelpFragment__support_info">قوللاش ئۇچۇرى</string>
-  <string name="HelpFragment__signal_android_support_request">Signal Android قوللاش ئىلتىماسى</string>
+  <string name="HelpFragment__signal_android_support_request">Grapherex Android قوللاش ئىلتىماسى</string>
   <string name="HelpFragment__debug_log">سازلاش خاتىرىسى:</string>
   <string name="HelpFragment__could_not_upload_logs">خاتىرىنى يۈكلىيەلمىدى</string>
   <string name="HelpFragment__please_be_as_descriptive_as_possible">ئامالنىڭ بارىچە ئەتراپلىق بايان قىلىپ ۋەقەنى چۈشىنىشىمىزگە ياردەم بېرىڭ.</string>
@@ -1870,8 +1870,8 @@
   <string name="preferences__sms_mms">تېكىست ئۇچۇر ۋە كۆپ ۋاسىتە ئۇچۇر</string>
   <string name="preferences__pref_all_sms_title">ھەممە تېكىست ئۇچۇرنى قوبۇللايدۇ</string>
   <string name="preferences__pref_all_mms_title">ھەممە كۆپ ۋاسىتە ئۇچۇرنى قوبۇللايدۇ</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">ھەممە تېكىست ئۇچۇرنى Signal دا قوبۇل قىلىدۇ.</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">ھەممە كۆپ ۋاسىتە ئۇچۇرنى Signal دا قوبۇل قىلىدۇ</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">ھەممە تېكىست ئۇچۇرنى Grapherex دا قوبۇل قىلىدۇ.</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">ھەممە كۆپ ۋاسىتە ئۇچۇرنى Grapherex دا قوبۇل قىلىدۇ</string>
   <string name="preferences__pref_enter_sends_title">Enter نى باسسا يوللايدۇ</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">Enter نى باسسا تېكىست ئۇچۇر يوللايدۇ</string>
   <string name="preferences__pref_use_address_book_photos">ئالاقە دەپتىرىدىكى سۈرەتنى ئىشلىتىدۇ</string>
@@ -1886,7 +1886,7 @@
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">ئېكران ۋە ئۇقتۇرۇشلارنى ئىم بىلەن قۇلۇپلايدۇ</string>
   <string name="preferences__screen_security">ئېكران بىخەتەرلىكى</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots"> يېقىندا ئىشلەتكەن ئەپ ۋە ئېكران كەسمىسىنى چەكلەيدۇ</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">ئەگەر Signal ئىشلەتمىگەن ھالەتتە مۇئەييەن ۋاقىت تۇرسا، ئۆزلۈكىدىن قۇلۇپلىنىدۇ</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">ئەگەر Grapherex ئىشلەتمىگەن ھالەتتە مۇئەييەن ۋاقىت تۇرسا، ئۆزلۈكىدىن قۇلۇپلىنىدۇ</string>
   <string name="preferences__inactivity_timeout_passphrase">ئىشلەتمىگەندە ۋاقىت ھالقىش ئىم</string>
   <string name="preferences__inactivity_timeout_interval">ئىشلەتمىگەندە ۋاقىت ھالقىش ۋاقتى</string>
   <string name="preferences__notifications">ئۇقتۇرۇشلار</string>
@@ -1917,7 +1917,7 @@
   <string name="preferences__slow">ئاستا</string>
   <string name="preferences__help">ياردەم</string>
   <string name="preferences__advanced">ئالىي</string>
-  <string name="preferences__donate_to_signal">Signal غا ئىئانە قىلىڭ</string>
+  <string name="preferences__donate_to_signal">Grapherex غا ئىئانە قىلىڭ</string>
   <string name="preferences__privacy">مەخپىيەتلىك</string>
   <string name="preferences__mms_user_agent">MMS ئىشلەتكۈچى ۋەكىلى</string>
   <string name="preferences__advanced_mms_access_point_names">MMS نىڭ قولدا تەڭشەكلىرى</string>
@@ -1943,13 +1943,13 @@
   <string name="preferences__chat_wallpaper">سۆھبەت تام قەغەز</string>
   <string name="preferences__disable_pin">PIN چەكلە</string>
   <string name="preferences__enable_pin">PIN نى قوزغات</string>
-  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">ئەگەر PIN نى چەكلىسىڭىز، Signal غا قايتا تىزىملاتقاندا ئۆزىڭىز زاپاسلاپ ۋە ئەسلىگە كەلتۈرمىگۈچە ھەممە سانلىق مەلۇماتلىرىڭىز يوقىلىدۇ، PIN چەكلەنسە تىزىملىتىش قۇلۇپىنى ئاچالمايسىز.</string>
-  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PINلەر Signalدا ساقلانغان ئۇچۇرلارنى مەخپىيلەشتۈرۈپ ساقلايدۇ. شۇڭا سىزلا زىيارەت قىلالايسىز. ئارخىپىڭىز، سەپلىمىلىرىڭىز ۋە ئالاقەداشلىرىڭىز Signal نى قايتا قاچىلىغىنىڭىزدا ئەسلىگە كەلتۈرىلىدۇ. ئەپنى ئېچىش PIN نىڭىز كېرەك ئەمەس.</string>
+  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">ئەگەر PIN نى چەكلىسىڭىز، Grapherex غا قايتا تىزىملاتقاندا ئۆزىڭىز زاپاسلاپ ۋە ئەسلىگە كەلتۈرمىگۈچە ھەممە سانلىق مەلۇماتلىرىڭىز يوقىلىدۇ، PIN چەكلەنسە تىزىملىتىش قۇلۇپىنى ئاچالمايسىز.</string>
+  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PINلەر Grapherexدا ساقلانغان ئۇچۇرلارنى مەخپىيلەشتۈرۈپ ساقلايدۇ. شۇڭا سىزلا زىيارەت قىلالايسىز. ئارخىپىڭىز، سەپلىمىلىرىڭىز ۋە ئالاقەداشلىرىڭىز Grapherex نى قايتا قاچىلىغىنىڭىزدا ئەسلىگە كەلتۈرىلىدۇ. ئەپنى ئېچىش PIN نىڭىز كېرەك ئەمەس.</string>
   <string name="preferences__system_default">كۆڭۈلدىكى سىستېما</string>
   <string name="preferences__language">تىل</string>
-  <string name="preferences__signal_messages_and_calls">Signal ئۇچۇر ۋە چاقىرىشلىرى</string>
+  <string name="preferences__signal_messages_and_calls">Grapherex ئۇچۇر ۋە چاقىرىشلىرى</string>
   <string name="preferences__advanced_pin_settings">ئالىي PIN تەڭشەكلىرى</string>
-  <string name="preferences__free_private_messages_and_calls">Signal ئىشلەتكۈچىلىرىگە ھەقسىز شەخسىي ئۇچۇرلار ۋە چاقىرىقلار</string>
+  <string name="preferences__free_private_messages_and_calls">Grapherex ئىشلەتكۈچىلىرىگە ھەقسىز شەخسىي ئۇچۇرلار ۋە چاقىرىقلار</string>
   <string name="preferences__submit_debug_log">سازلاش خاتىرە يوللا</string>
   <string name="preferences__delete_account">ھېساباتنى ئۆچۈر</string>
   <string name="preferences__support_wifi_calling">«WiFi چاقىرىقى» ماسلىشىشچان ھالىتى</string>
@@ -1988,8 +1988,8 @@
   <string name="preferences_storage__s_messages">%1$s ئۇچۇرلار</string>
   <string name="preferences_storage__custom">ئۆزلەشتۈرمە</string>
   <string name="preferences_advanced__use_system_emoji">سېسىتما ئىپادىسىنى قوللان</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Signal نىڭ ئىچكى ئىپادە قوللاشلىرىنى ئېتىۋەت</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">IP ئادرېسىڭىزنىڭ باشقىلارغا كۆرۈنۈپ قېلىشىدىن ساقلىنىش ئۈچۈن، بارلىق چاقىرىقلارنى Signal مۇلازىمېتىر ئارقىلىق ئالاقىداشلىرىڭىزغا ئۇلاپ يوللاڭ. قوزغاتسىڭىز چاقىرىق سۈپىتىنى تۆۋەنلىتىشى مۈمكىن.</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Grapherex نىڭ ئىچكى ئىپادە قوللاشلىرىنى ئېتىۋەت</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">IP ئادرېسىڭىزنىڭ باشقىلارغا كۆرۈنۈپ قېلىشىدىن ساقلىنىش ئۈچۈن، بارلىق چاقىرىقلارنى Grapherex مۇلازىمېتىر ئارقىلىق ئالاقىداشلىرىڭىزغا ئۇلاپ يوللاڭ. قوزغاتسىڭىز چاقىرىق سۈپىتىنى تۆۋەنلىتىشى مۈمكىن.</string>
   <string name="preferences_advanced__always_relay_calls">چاقىرىقلارنى دائىم ئۇلاپ يوللا</string>
   <string name="preferences_app_protection__who_can">كىم قىلالايدۇ…</string>
   <string name="preferences_app_protection__app_access">ئەپ ھوقۇقلىرى</string>
@@ -2009,9 +2009,9 @@
   <string name="preferences_notifications__calls">چاقىرىشلار</string>
   <string name="preferences_notifications__ringtone">قوڭغۇراق ئاۋازى</string>
   <string name="preferences_chats__show_invitation_prompts">تەكلىپ ئەسكەرتىشلىرىنى كۆرسەت </string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Signal ئىشلەتمىگەن ئالاقەداشلارغا تەكلىپ ئەسكەرتىشلەرنى كۆرسەت</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Grapherex ئىشلەتمىگەن ئالاقەداشلارغا تەكلىپ ئەسكەرتىشلەرنى كۆرسەت</string>
   <string name="preferences_chats__message_text_size">ئۇچۇر خەت چوڭلۇقى</string>
-  <string name="preferences_events__contact_joined_signal">ئالاقاداش Signal غا قېتىلدى</string>
+  <string name="preferences_events__contact_joined_signal">ئالاقاداش Grapherex غا قېتىلدى</string>
   <string name="preferences_notifications__priority">مۇھىملىقى</string>
   <string name="preferences_communication__category_sealed_sender">يوشۇرۇن ئەۋەتكۈچى</string>
   <string name="preferences_communication__sealed_sender_display_indicators">ئېكران كۆرسەتكۈچىلىرى</string>
@@ -2025,7 +2025,7 @@
   <string name="preferences_off">ئەت</string>
   <string name="preferences_on">ئاچ</string>
   <string name="preferences_proxy_address">ۋاكالەتچى ئادرېس</string>
-  <string name="preferences_only_use_a_proxy_if">پەقەت Wi-Fi  ياكى يانفون تورى بىلەن Signal غا ئۇلىنىش مۈمكىن بولمىغاندا، ۋاكالەتچى ئىشلىتىڭ.</string>
+  <string name="preferences_only_use_a_proxy_if">پەقەت Wi-Fi  ياكى يانفون تورى بىلەن Grapherex غا ئۇلىنىش مۈمكىن بولمىغاندا، ۋاكالەتچى ئىشلىتىڭ.</string>
   <string name="preferences_share">ئورتاقلاش</string>
   <string name="preferences_save">ساقلاش</string>
   <string name="preferences_connecting_to_proxy">ۋاكالەتچىگە ئۇلىنىۋاتىدۇ…</string>
@@ -2044,7 +2044,7 @@
   <string name="PaymentsAllActivityFragment__sent">يوللانغان</string>
   <string name="PaymentsAllActivityFragment__received">تاپشۇرۇۋالغان</string>
   <string name="PaymentsHomeFragment__introducing_payments">تونۇشتۇرۇش چىقىمى (سىناق)</string>
-  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">سىز Signal دا MobileCoin يوللاپ ۋە قوبۇللىيالايسىز،  ئۇ شەخسىيەت گەۋدىلەندۈرۈلگەن يېڭى رەقەملىك پۇل. باشلاش ئۈچۈن ئاكتىپلاڭ.</string>
+  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">سىز Grapherex دا MobileCoin يوللاپ ۋە قوبۇللىيالايسىز،  ئۇ شەخسىيەت گەۋدىلەندۈرۈلگەن يېڭى رەقەملىك پۇل. باشلاش ئۈچۈن ئاكتىپلاڭ.</string>
   <string name="PaymentsHomeFragment__activate_payments">چىقىم قىلىشنى ئاكتىپلا</string>
   <string name="PaymentsHomeFragment__activating_payments">چىقىم قىلىشنى ئاكتىپلاۋاتىدۇ…</string>
   <string name="PaymentsHomeFragment__restore_payments_account">چىقىم ھېساباتىنى ئەسلىگە قايتۇر</string>
@@ -2071,17 +2071,17 @@
   <string name="PaymentsHomeFragment__payments_is_not_available_in_your_region">چىقىم ئىقتىدارىنى سىز تۇرۇشلۇق جايدا ئىشلەتكىلى بولمايدۇ.</string>
   <string name="PaymentsHomeFragment__could_not_enable_payments">چىقىمنى قوزغىتالمىدى. سەل تۇرۇپ قايتا سىناڭ.</string>
   <string name="PaymentsHomeFragment__deactivate_payments_question">چىقىملارنى چەكلەمدۇ؟</string>
-  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">ئەگەر چىقىم قىلىشنى چەكلىسىڭىز Signal دا MobileCoin ئەۋەتىپ ياكى قوبۇللىيالمايسىز.</string>
+  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">ئەگەر چىقىم قىلىشنى چەكلىسىڭىز Grapherex دا MobileCoin ئەۋەتىپ ياكى قوبۇللىيالمايسىز.</string>
   <string name="PaymentsHomeFragment__deactivate">چەكلە</string>
   <string name="PaymentsHomeFragment__continue">داۋاملىق</string>
   <string name="PaymentsHomeFragment__balance_is_not_currently_available">نۆۋەتتە قالدۇقنى ئىشلەتكىلى بولمايدۇ.</string>
   <string name="PaymentsHomeFragment__payments_deactivated">چىقىم چەكلەندى.</string>
   <string name="PaymentsHomeFragment__payment_failed">چىقىم قىلالمىدى</string>
   <string name="PaymentsHomeFragment__details">تەپسىلاتى</string>
-  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">‫Signal نى ئىشلىتىپ MobileCoin ئەۋەتەلەيسىز ۋە تاپشۇرىۋالالايسىز. بارلىق چىقىملار MobileCoins ۋە MobileCoin ھەميانىنىڭ ئىشلىتىش شەرتلىرىگە بويسۇنىدۇ. بۇ سىناق ئىقتىدارى، شۇڭا بەزى مەسىلىلەرگە دۇچ كېلىشىڭىز ھەمدە چىقىم ياكى قالدۇقلىرىڭىزنى يوقىتىپ قويسىڭىز ئەسلىگە كەلتۈرەلمەسلىكىڭىز مۈمكىن.</string>
+  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">‫Grapherex نى ئىشلىتىپ MobileCoin ئەۋەتەلەيسىز ۋە تاپشۇرىۋالالايسىز. بارلىق چىقىملار MobileCoins ۋە MobileCoin ھەميانىنىڭ ئىشلىتىش شەرتلىرىگە بويسۇنىدۇ. بۇ سىناق ئىقتىدارى، شۇڭا بەزى مەسىلىلەرگە دۇچ كېلىشىڭىز ھەمدە چىقىم ياكى قالدۇقلىرىڭىزنى يوقىتىپ قويسىڭىز ئەسلىگە كەلتۈرەلمەسلىكىڭىز مۈمكىن.</string>
   <string name="PaymentsHomeFragment__activate">ئاكتىپلا</string>
   <string name="PaymentsHomeFragment__view_mobile_coin_terms">MobileCoin ماددىلىرىنى كۆرسەت</string>
-  <string name="PaymentsHomeFragment__payments_not_available">‫Signal دا چىقىم ئەمدى ئىشلىمەيدۇ. سىز مەبلەغلىرىڭىزنى ئالماشتۇرۇش ئورنىغا داۋاملىق يۆتكىيەلەيسىز. ئەمما ئەمدى چىقىمنى يوللاپ ۋە تاپشۇرىۋالالمايسىز ياكى مەبلەغ قوشالمايسىز.</string>
+  <string name="PaymentsHomeFragment__payments_not_available">‫Grapherex دا چىقىم ئەمدى ئىشلىمەيدۇ. سىز مەبلەغلىرىڭىزنى ئالماشتۇرۇش ئورنىغا داۋاملىق يۆتكىيەلەيسىز. ئەمما ئەمدى چىقىمنى يوللاپ ۋە تاپشۇرىۋالالمايسىز ياكى مەبلەغ قوشالمايسىز.</string>
   <!--PaymentsAddMoneyFragment-->
   <string name="PaymentsAddMoneyFragment__add_funds">پۇل قوش</string>
   <string name="PaymentsAddMoneyFragment__your_wallet_address">ھەميان ئادرېسىڭىز</string>
@@ -2118,10 +2118,10 @@
   <string name="PaymentsTransferFragment__next">كېيىنكىسى</string>
   <string name="PaymentsTransferFragment__invalid_address">ئىناۋەتسىز ئادرېس</string>
   <string name="PaymentsTransferFragment__check_the_wallet_address">سىز يۆتكىمەكچى بولغان ھەميان ئادرېسىنى تەكشۈرۈڭ ۋە قايتا سىناڭ.</string>
-  <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">ئۆزىڭىزنىڭ Signal ھەميان ئادرېسىغا يۆتكىيەلمەيسىز. قوللايدىغان ئالماشتۇرغۇچىدىكى ھېساباتىڭىزدىن ھەميان ئادرېسىنى كىرگۈزۈڭ.</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">QR كودىنى سايىلەش ئۈچۈن Signal كامېرانى زىيارەت قىلالىشى كېرەك.</string>
-  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">‫QR كودىنى تۇتۇش ئۈچۈن Signal كامېرا ھوقۇقىغا موھتاج ، تەڭشەكلەرگە بېرىڭ، «ھوقۇقلار» نى تاللاپ ۋە «كامېرا» نى قوزغىتىڭ.</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">QR كودىنى سايىلەش ئۈچۈن Signal كامېرانى زىيارەت قىلالىشى كېرەك.</string>
+  <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">ئۆزىڭىزنىڭ Grapherex ھەميان ئادرېسىغا يۆتكىيەلمەيسىز. قوللايدىغان ئالماشتۇرغۇچىدىكى ھېساباتىڭىزدىن ھەميان ئادرېسىنى كىرگۈزۈڭ.</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">QR كودىنى سايىلەش ئۈچۈن Grapherex كامېرانى زىيارەت قىلالىشى كېرەك.</string>
+  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">‫QR كودىنى تۇتۇش ئۈچۈن Grapherex كامېرا ھوقۇقىغا موھتاج ، تەڭشەكلەرگە بېرىڭ، «ھوقۇقلار» نى تاللاپ ۋە «كامېرا» نى قوزغىتىڭ.</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">QR كودىنى سايىلەش ئۈچۈن Grapherex كامېرانى زىيارەت قىلالىشى كېرەك.</string>
   <string name="PaymentsTransferFragment__settings">تەڭشەكلەر</string>
   <!--PaymentsTransferQrScanFragment-->
   <string name="PaymentsTransferQrScanFragment__scan_address_qr_code">ئادرېس QR كودىنى سايىلە</string>
@@ -2179,8 +2179,8 @@
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">چاقىر</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Signal چاقىرغىنى</string>
-  <string name="conversation_callable_secure__menu_video">Signal سىنلىق چاقىر</string>
+  <string name="conversation_callable_secure__menu_call">Grapherex چاقىرغىنى</string>
+  <string name="conversation_callable_secure__menu_video">Grapherex سىنلىق چاقىر</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">ئۇچۇر تەپسىلاتى</string>
   <string name="conversation_context__menu_copy_text">تېكىست كۆچۈر</string>
@@ -2252,10 +2252,10 @@
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">چاپلاش تاختىسىدىكى بىلەن سېلىشتۇر</string>
   <!--reminder_header-->
   <string name="reminder_header_sms_import_title">سىستېما قىسقا ئۇچۇرنى ئەكىر</string>
-  <string name="reminder_header_sms_import_text">چېكىلسە تېلېفونىڭىزنىڭ تېكىست ئۇچۇرلىرىنى Signal نىڭ شىفىرلانغان ساندانىغا كۆچۈرىدۇ.</string>
-  <string name="reminder_header_push_title">Signal ئۇچۇر ۋە چاقىرىشنى قوزغىتىپ</string>
+  <string name="reminder_header_sms_import_text">چېكىلسە تېلېفونىڭىزنىڭ تېكىست ئۇچۇرلىرىنى Grapherex نىڭ شىفىرلانغان ساندانىغا كۆچۈرىدۇ.</string>
+  <string name="reminder_header_push_title">Grapherex ئۇچۇر ۋە چاقىرىشنى قوزغىتىپ</string>
   <string name="reminder_header_push_text">ئالاقە كەچمىشىڭىزنى يۈكسەلتىڭ.</string>
-  <string name="reminder_header_service_outage_text">Signal دا تېخنىكىلىق قىيىنچىلىق كۆرۈلدى. بىز ئامالنىڭ بارىچە تىرىشىپ ئىشلەپ مۇلازىمەتنى ئەڭ تېز سۈرئەتتە ئەسلىگە كەلتۈرىمىز.</string>
+  <string name="reminder_header_service_outage_text">Grapherex دا تېخنىكىلىق قىيىنچىلىق كۆرۈلدى. بىز ئامالنىڭ بارىچە تىرىشىپ ئىشلەپ مۇلازىمەتنى ئەڭ تېز سۈرئەتتە ئەسلىگە كەلتۈرىمىز.</string>
   <string name="reminder_header_progress">%1$d%%</string>
   <!--media_preview-->
   <string name="media_preview__save_title">ساقلاش</string>
@@ -2271,22 +2271,22 @@
   <string name="Insights__percent">%</string>
   <string name="Insights__title">چۈشىنىش</string>
   <string name="InsightsDashboardFragment__title">چۈشىنىش</string>
-  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">ئۆتكەن %2$d كۈندە Signal كېلىشىمى %1$d%% نىڭ يوللىغان ئۇچۇرلىرىنى ئۆزلۈكىدىن قوغدىدى. Signal ئىشلەتكۈچىلىرى ئارىسىدىكى ئالاقە ئىزچىل نۇقتىدىن نۇقتىغا شىفىرلاپ يوللىنىدۇ.</string>
-  <string name="InsightsDashboardFragment__boost_your_signal">Signal ياخشىلاش</string>
+  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">ئۆتكەن %2$d كۈندە Grapherex كېلىشىمى %1$d%% نىڭ يوللىغان ئۇچۇرلىرىنى ئۆزلۈكىدىن قوغدىدى. Grapherex ئىشلەتكۈچىلىرى ئارىسىدىكى ئالاقە ئىزچىل نۇقتىدىن نۇقتىغا شىفىرلاپ يوللىنىدۇ.</string>
+  <string name="InsightsDashboardFragment__boost_your_signal">Grapherex ياخشىلاش</string>
   <string name="InsightsDashboardFragment__not_enough_data">سانلىق مەلۇمات يېتەرسىز</string>
   <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">پەرقلەندۈرۈش قابىلىيىتىڭىز ئۆتكەن %1$d كۈندە يوللانغان غايىب بولمىغان ۋە ئۆچۈرۈلگەن ئۇچۇرلارغا ئاساسەن ھېسابلىنىدۇ.</string>
   <string name="InsightsDashboardFragment__start_a_conversation">سۆھبەت باشلا</string>
-  <string name="InsightsDashboardFragment__invite_your_contacts">تېخىمۇ كۆپ ئالاقەداشلار Signal غا قوشۇلسا، تېخىمۇ كۆپ يېڭى ئىقتىدارلارنى ئىشلىتەلەيدۇ، شىفىرلانمىغان تېكىست ئۇچۇرنىڭ چەكلىمىسىگە ئۇچرىمايدۇ، بىخەتەر ئالاقىنىڭ يېڭى سەپىرىنى باشلايلى.</string>
+  <string name="InsightsDashboardFragment__invite_your_contacts">تېخىمۇ كۆپ ئالاقەداشلار Grapherex غا قوشۇلسا، تېخىمۇ كۆپ يېڭى ئىقتىدارلارنى ئىشلىتەلەيدۇ، شىفىرلانمىغان تېكىست ئۇچۇرنىڭ چەكلىمىسىگە ئۇچرىمايدۇ، بىخەتەر ئالاقىنىڭ يېڭى سەپىرىنى باشلايلى.</string>
   <string name="InsightsDashboardFragment__this_stat_was_generated_locally">بۇ سىتاتىستىكا ئۇچۇرلار يەرلىك ئۈسكۈنىڭىزدە ھاسىل قىلىندى، پەقەت سىزلا كۆرەلەيسىز. ئۇلار باشقا ھەر قانداق جايغا يوللانمايدۇ.</string>
   <string name="InsightsDashboardFragment__encrypted_messages">شىفىرلانغان ئۇچۇرلار</string>
   <string name="InsightsDashboardFragment__cancel">بىكار قىل</string>
   <string name="InsightsDashboardFragment__send">ئەۋەت</string>
   <string name="InsightsModalFragment__title">چۈشىنىش ئىقتىدارىنى تونۇشتۇرۇش</string>
-  <string name="InsightsModalFragment__description">يوللىغان ئۇچۇرلىرىڭىزنىڭ قانچىلىكى شىفىرلىنىپ يوللانغانلىقىنى كۆرەلەيسىز، ھەمدە تېزلىكتە ئالاقەداشلىرىڭىزنى تەكلىپ قىلىپ بىرلىكتە Signal ئىشلىتىش نىسبىتىنى يۈكسەلتەلەيسىز.</string>
+  <string name="InsightsModalFragment__description">يوللىغان ئۇچۇرلىرىڭىزنىڭ قانچىلىكى شىفىرلىنىپ يوللانغانلىقىنى كۆرەلەيسىز، ھەمدە تېزلىكتە ئالاقەداشلىرىڭىزنى تەكلىپ قىلىپ بىرلىكتە Grapherex ئىشلىتىش نىسبىتىنى يۈكسەلتەلەيسىز.</string>
   <string name="InsightsModalFragment__view_insights">چۈشىنىش كۆرسەت</string>
-  <string name="FirstInviteReminder__title">Signal ئىشلىتىش تەكلىپى</string>
+  <string name="FirstInviteReminder__title">Grapherex ئىشلىتىش تەكلىپى</string>
   <string name="FirstInviteReminder__description">يوللىغان شىفىرلانغان ئۇچۇرلىرىڭىزنىڭ سانىنى ئاشۇرالايسىز %1$d%%</string>
-  <string name="SecondInviteReminder__title">Signal ياخشىلاش</string>
+  <string name="SecondInviteReminder__title">Grapherex ياخشىلاش</string>
   <string name="SecondInviteReminder__description">%1$s تەكلىپ</string>
   <string name="InsightsReminder__view_insights">چۈشىنىش كۆرسەت</string>
   <string name="InsightsReminder__invite">تەكلىپ</string>
@@ -2307,7 +2307,7 @@
   <string name="CreateKbsPinFragment__create_a_new_pin">يېڭى PIN قۇر</string>
   <string name="CreateKbsPinFragment__you_can_choose_a_new_pin_as_long_as_this_device_is_registered">بۇ ئۈسكۈنە تىزىملىتىلغانلا بولسا PIN نى ئۆزگەرتەلەيسىز.</string>
   <string name="CreateKbsPinFragment__create_your_pin">يېڭى PIN قۇر</string>
-  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">Signal ئۇچۇرلارنى شىفىرلاپ ساقلىغاندا PIN ئىشلىتىلىدۇ، شۇڭلاشقا پەقەت سىزلا ئۇنى زىيارەت قىلالايسىز. سىز ئەپنى قايتا ئورناتقاندا سەپلىمە ھۆججەت، تەڭشەك ۋە ئالاقەداشلىرىڭىزنى ئەسلىگە كەلتۈرەلەيسىز. Signal نى قوزغىتىشتا PIN كەتمەيدۇ.</string>
+  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">Grapherex ئۇچۇرلارنى شىفىرلاپ ساقلىغاندا PIN ئىشلىتىلىدۇ، شۇڭلاشقا پەقەت سىزلا ئۇنى زىيارەت قىلالايسىز. سىز ئەپنى قايتا ئورناتقاندا سەپلىمە ھۆججەت، تەڭشەك ۋە ئالاقەداشلىرىڭىزنى ئەسلىگە كەلتۈرەلەيسىز. Grapherex نى قوزغىتىشتا PIN كەتمەيدۇ.</string>
   <string name="CreateKbsPinFragment__choose_a_stronger_pin">تېخىمۇ بىخەتەر PIN تاللاڭ</string>
   <!--ConfirmKbsPinFragment-->
   <string name="ConfirmKbsPinFragment__pins_dont_match">PIN ماس كەلمىدى. قايتا سىناڭ.</string>
@@ -2319,7 +2319,7 @@
   <string name="ConfirmKbsPinFragment__creating_pin">PIN قۇرۇۋاتىدۇ…</string>
   <!--KbsSplashFragment-->
   <string name="KbsSplashFragment__introducing_pins"> PIN تونۇشتۇرۇش</string>
-  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">Signal ئۇچۇرلارنى شىفىرلاپ ساقلىغاندا PIN ئىشلىتىلىدۇ، شۇڭلاشقا پەقەت سىزلا ئۇنى زىيارەت قىلالايسىز. سىز ئەپنى قايتا ئورناتقاندا سەپلىمە ھۆججەت، تەڭشەك ۋە ئالاقەداشلىرىڭىزنى ئەسلىگە كەلتۈرەلەيسىز. Signal نى قوزغىتىشتا PIN كەتمەيدۇ.</string>
+  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">Grapherex ئۇچۇرلارنى شىفىرلاپ ساقلىغاندا PIN ئىشلىتىلىدۇ، شۇڭلاشقا پەقەت سىزلا ئۇنى زىيارەت قىلالايسىز. سىز ئەپنى قايتا ئورناتقاندا سەپلىمە ھۆججەت، تەڭشەك ۋە ئالاقەداشلىرىڭىزنى ئەسلىگە كەلتۈرەلەيسىز. Grapherex نى قوزغىتىشتا PIN كەتمەيدۇ.</string>
   <string name="KbsSplashFragment__learn_more">تېخىمۇ كۆپ بىلدۈرگۈ</string>
   <string name="KbsSplashFragment__registration_lock_equals_pin">تىزىملاش قۇلۇپى = PIN</string>
   <string name="KbsSplashFragment__your_registration_lock_is_now_called_a_pin">تىزىملىتىش قۇلۇپىڭىز ھازىر PIN دەپ ئاتالدى ۋە تېخىمۇ كۆپ ئىقتىدارغا ئىگە بولدى. ئۇنى ھازىرلا يېڭىلاڭ.</string>
@@ -2328,7 +2328,7 @@
   <string name="KbsSplashFragment__learn_more_about_pins">PIN ھەققىدە تېخىمۇ كۆپ بىلىم</string>
   <string name="KbsSplashFragment__disable_pin">PIN چەكلە</string>
   <!--KBS Reminder Dialog-->
-  <string name="KbsReminderDialog__enter_your_signal_pin">Signal PIN نى كىرگۈزۈڭ</string>
+  <string name="KbsReminderDialog__enter_your_signal_pin">Grapherex PIN نى كىرگۈزۈڭ</string>
   <string name="KbsReminderDialog__to_help_you_memorize_your_pin">ئەستە تۇتۇشىڭىزغا قۇلايلىق بولۇشى ئۈچۈن PIN نى قەرەللىك ئەسكەرتىپ تۇرىمىز. ئەسكەرتىش قېتىم سانى تەدرىجىي ئازلايدۇ.</string>
   <string name="KbsReminderDialog__skip">ئاتلاش</string>
   <string name="KbsReminderDialog__submit">تاپشۇر</string>
@@ -2349,8 +2349,8 @@
   <string name="RegistrationLockFragment__incorrect_pin">خاتا PIN</string>
   <string name="RegistrationLockFragment__forgot_your_pin">PIN نىڭىزنى ئۇنتۇپ قالدىڭىزمۇ؟</string>
   <string name="RegistrationLockFragment__not_many_tries_left">جىق سىناش پۇرسىتى قالمىدى!</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Signal تىزىملىتىش - Android نىڭ PIN ى بىلەن ياردەمگە موھتاج (v1 PIN)</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Signal تىزىملىتىش - Android نىڭ PIN ى بىلەن ياردەمگە موھتاج (v2 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Grapherex تىزىملىتىش - Android نىڭ PIN ى بىلەن ياردەمگە موھتاج (v1 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Grapherex تىزىملىتىش - Android نىڭ PIN ى بىلەن ياردەمگە موھتاج (v2 PIN)</string>
   <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
     <item quantity="one">شەخسىي مەخپىيەتلىكىڭىز ۋە بىخەتەرلىكىڭىز ئۈچۈن PIN ڭىزنى ئەسلىگە كەلتۈرۈشكە ھېچقانداق ئامال يوق. ئەگەر PIN نى ئەسلىيەلمىسىڭىز ، %1$d كۈن ھېچقانداق مەشغۇلات قىلمىغاندىن كېيىن، قىسقا ئۇچۇر ئارقىلىق قايتا دەلىللىيەلەيسىز.</item>
     <item quantity="other">شەخسىي مەخپىيەتلىكىڭىز ۋە بىخەتەرلىكىڭىز ئۈچۈن PIN ڭىزنى ئەسلىگە كەلتۈرۈشكە ھېچقانداق ئامال يوق. ئەگەر PIN نى ئەسلىيەلمىسىڭىز ، %1$d كۈن ھېچقانداق مەشغۇلات قىلمىغاندىن كېيىن، قىسقا ئۇچۇر ئارقىلىق قايتا دەلىللىيەلەيسىز.</item>
@@ -2375,28 +2375,28 @@
   <string name="CalleeMustAcceptMessageRequestDialogFragment__s_will_get_a_message_request_from_you">%1$s ئۇچۇر ئىلتىماسىڭىزنى تاپشۇرۇۋالىدۇ. ئىلتىماسىڭىزغا قوشۇلغاندىن كېيىن ئۇنىڭ بىلەن بىر قېتىم سۆزلىشەلەيسىز.</string>
   <!--KBS Megaphone-->
   <string name="KbsMegaphone__create_a_pin">بىر PIN قۇرۇڭ</string>
-  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">Signal ئۇچۇر ساقلىغاندا PIN ئارقىلىق شىفىرلايدۇ.</string>
+  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">Grapherex ئۇچۇر ساقلىغاندا PIN ئارقىلىق شىفىرلايدۇ.</string>
   <string name="KbsMegaphone__create_pin">PIN قۇر</string>
   <!--Research Megaphone-->
-  <string name="ResearchMegaphone_tell_signal_what_you_think">Signal ھەققىدە ئويلىغانلىرىڭىزنى سۆزلەڭ</string>
-  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">Signal نى بۇ پلانېتتىكى ئەڭ ياخشى ئۇچۇرلىشىش ئەپ يۇمتالى قىلىپ چىقىش ئۈچۈن، سىزنىڭ تەكلىپ-پىكىرلىرىڭىزنى ئاڭلىساق سۆيۈنىمىز.</string>
+  <string name="ResearchMegaphone_tell_signal_what_you_think">Grapherex ھەققىدە ئويلىغانلىرىڭىزنى سۆزلەڭ</string>
+  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">Grapherex نى بۇ پلانېتتىكى ئەڭ ياخشى ئۇچۇرلىشىش ئەپ يۇمتالى قىلىپ چىقىش ئۈچۈن، سىزنىڭ تەكلىپ-پىكىرلىرىڭىزنى ئاڭلىساق سۆيۈنىمىز.</string>
   <string name="ResearchMegaphone_learn_more">كۆپرەك ئۆگىنىش</string>
   <string name="ResearchMegaphone_dismiss">تارقىتىۋېتىش</string>
-  <string name="ResearchMegaphoneDialog_signal_research">Signal تەتقىقاتى</string>
-  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>مەخپىيەتلىكىڭىزگە ئىشىنىمىز.</b></p><p> Signal سىزنىڭ ئىزىڭىزغا چۈشمەيدۇ ياكى سانلىق مەلۇماتلىرىڭىزنى توپلىمايدۇ. Signal نى ھەممەيلەن ئۈچۈن ياخشىلاش ئۈچۈن، ئىشلەتكۈچىلەرنىڭ پىكىر-تەكلىلىرىگە ئېھتىياجلىقمىز. <b>ھەم سىلەرنى ياىشى كۆرىمىز</b></p><p> Signal نى قانداق ئىشلەتكىنىڭلارنى بىلىش ئۈچۈن بىز بىر راي-سىناش قىلىۋاتىمىز. بىز سىزنىڭ كىملىگىڭىزنى ئايرىغۇدەك ھېچقانداق مەلۇمات تەلەپ قىلمايمىز. ئەگەر سىزنىڭ قوشۇمچە پىكىر-تەكلىپ بەرگۈڭىز بولسا، ئالاقە ئۇچۇرلىرىرىڭىزنى تەمىنلىگۈدەك تاللاش بىلەن تەمىنلەيمىز.</p><p>ئەگەر بىرنەچچە مىنۇت ۋاقىت چىقىرىپ پىكىر-تەكلىپ بەرسىڭىز، بىز سىزنىڭ پىكىرلىرىڭىزنى ئاڭلاشقا تەشنامىز. ]]></string>
+  <string name="ResearchMegaphoneDialog_signal_research">Grapherex تەتقىقاتى</string>
+  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>مەخپىيەتلىكىڭىزگە ئىشىنىمىز.</b></p><p> Grapherex سىزنىڭ ئىزىڭىزغا چۈشمەيدۇ ياكى سانلىق مەلۇماتلىرىڭىزنى توپلىمايدۇ. Grapherex نى ھەممەيلەن ئۈچۈن ياخشىلاش ئۈچۈن، ئىشلەتكۈچىلەرنىڭ پىكىر-تەكلىلىرىگە ئېھتىياجلىقمىز. <b>ھەم سىلەرنى ياىشى كۆرىمىز</b></p><p> Grapherex نى قانداق ئىشلەتكىنىڭلارنى بىلىش ئۈچۈن بىز بىر راي-سىناش قىلىۋاتىمىز. بىز سىزنىڭ كىملىگىڭىزنى ئايرىغۇدەك ھېچقانداق مەلۇمات تەلەپ قىلمايمىز. ئەگەر سىزنىڭ قوشۇمچە پىكىر-تەكلىپ بەرگۈڭىز بولسا، ئالاقە ئۇچۇرلىرىرىڭىزنى تەمىنلىگۈدەك تاللاش بىلەن تەمىنلەيمىز.</p><p>ئەگەر بىرنەچچە مىنۇت ۋاقىت چىقىرىپ پىكىر-تەكلىپ بەرسىڭىز، بىز سىزنىڭ پىكىرلىرىڭىزنى ئاڭلاشقا تەشنامىز. ]]></string>
   <string name="ResearchMegaphoneDialog_take_the_survey">راي سىناشقا قاتنىشىش</string>
   <string name="ResearchMegaphoneDialog_no_thanks">ياق، رەھمەت</string>
-  <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">راي سىناش, Alchemer تەرىپىدىن بىخەتەر رايون نامى surveys.signalusers.org غا قويۇلغان. </string>
+  <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">راي سىناش, Alchemer تەرىپىدىن بىخەتەر رايون نامى surveys.Grapherexusers.org غا قويۇلغان. </string>
   <!--transport_selection_list_item-->
   <string name="transport_selection_list_item__transport_icon">قاتناش سىنبەلگىسى</string>
   <string name="ConversationListFragment_loading">قاچىلىنىۋاتىدۇ…</string>
   <string name="CallNotificationBuilder_connecting">باغلىنىۋاتىدۇ…</string>
   <string name="Permissions_permission_required">ھوقۇق لازىم</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">بىر قىسقا ئۇچۇر ئەۋەتىش ئۈچۈن Signal قىسقا ئۇچۇر ھوقۇقىغا موھتاج ، ئەمما ئۇ مەڭگۈلۈك رەت قىلىندى. ئەپ تەڭشەكلىرىدىن، «ھوقۇقلار» نى تاللاپ ۋە «قىسقا ئۇچۇر» نى قوزغىتىڭ.</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">بىر قىسقا ئۇچۇر ئەۋەتىش ئۈچۈن Grapherex قىسقا ئۇچۇر ھوقۇقىغا موھتاج ، ئەمما ئۇ مەڭگۈلۈك رەت قىلىندى. ئەپ تەڭشەكلىرىدىن، «ھوقۇقلار» نى تاللاپ ۋە «قىسقا ئۇچۇر» نى قوزغىتىڭ.</string>
   <string name="Permissions_continue">داۋاملىق</string>
   <string name="Permissions_not_now">ھازىر ئەمەس</string>
-  <string name="conversation_activity__enable_signal_messages">SIGNAL ئۇچۇرلىرىنى قوزغىتىڭ</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Signal ساندانىنى كۆچۈرۈش</string>
+  <string name="conversation_activity__enable_signal_messages">Grapherex ئۇچۇرلىرىنى قوزغىتىڭ</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">Grapherex ساندانىنى كۆچۈرۈش</string>
   <string name="PushDecryptJob_new_locked_message">يېڭى قۇلۇپلانغان ئۇچۇر</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">كۈتۈۋاتقان ئۇچۇرلار كۆرۈش قۇلۇپىنى ئېچىش</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">زاپاسلاش پارولى</string>
@@ -2414,7 +2414,7 @@
   <string name="preferences_chats__transfer_account_to_a_new_android_device">يېڭى بىر Android ئۈسكىنىسگە ھېساباتنى يۆتكە</string>
   <string name="RegistrationActivity_enter_backup_passphrase">زاپاسلاش پارولىنى كىرگۈزۈڭ</string>
   <string name="RegistrationActivity_restore">ئەسلىگە كەلتۈرۈش</string>
-  <string name="RegistrationActivity_backup_failure_downgrade">Signal نىڭ يېڭى نەشرىدىن كەلگەن زاپاسلارنى ئەكىرگىلى بولمايدۇ</string>
+  <string name="RegistrationActivity_backup_failure_downgrade">Grapherex نىڭ يېڭى نەشرىدىن كەلگەن زاپاسلارنى ئەكىرگىلى بولمايدۇ</string>
   <string name="RegistrationActivity_incorrect_backup_passphrase">خاتا زاپاسلاش پارولى</string>
   <string name="RegistrationActivity_checking">تەكشۈرۈۋاتىدۇ…</string>
   <string name="RegistrationActivity_d_messages_so_far">ھازىرچە %d ئۇچۇر بار…</string>
@@ -2445,8 +2445,8 @@
   <string name="ProgressPreference_d_messages_so_far">ھازىرچە %d ئۇچۇر</string>
   <string name="RegistrationActivity_wrong_number">خاتا نومۇر</string>
   <string name="RegistrationActivity_call_me_instead_available_in">ئۇنىڭ ئورنىغا ماڭا تېلېفون قىلىڭ \n ( %1$02d:%2$02d دە مەۋجۇت)</string>
-  <string name="RegistrationActivity_contact_signal_support">Signal قوللىغۇچىلىرى  بىلەن ئالاقىلىشىڭ</string>
-  <string name="RegistrationActivity_code_support_subject">Signal تىزىملىتىش - Android ئۈچۈن دەلىللەش كودى</string>
+  <string name="RegistrationActivity_contact_signal_support">Grapherex قوللىغۇچىلىرى  بىلەن ئالاقىلىشىڭ</string>
+  <string name="RegistrationActivity_code_support_subject">Grapherex تىزىملىتىش - Android ئۈچۈن دەلىللەش كودى</string>
   <string name="BackupUtil_never">ھەرگىز</string>
   <string name="BackupUtil_unknown">نامەلۇم</string>
   <string name="preferences_app_protection__see_my_phone_number">تېلېفون نومۇرۇمنى كۆرىمەن</string>
@@ -2455,21 +2455,21 @@
   <string name="PhoneNumberPrivacy_my_contacts">ئالاقەداشلارىم</string>
   <string name="PhoneNumberPrivacy_nobody">ھېچكىم</string>
   <string name="PhoneNumberPrivacy_everyone_see_description">تېلېفون نومۇرىڭىز ئۇچۇرلاشقان بارلىق كىشىلەر ۋە گۇرۇپپىلاردا كۆرۈنگۈسى</string>
-  <string name="PhoneNumberPrivacy_everyone_find_description">ئالاقەداشلىرىدا تېلېفون نومۇرىڭىز بار ھەرقانداق بىرسى Signal دا سىزنى ئالاقەداش قاتارىدا كۆرىدۇ. باشقىلار سىزنى ئىزدەپ تاپالىغۇسى.</string>
+  <string name="PhoneNumberPrivacy_everyone_find_description">ئالاقەداشلىرىدا تېلېفون نومۇرىڭىز بار ھەرقانداق بىرسى Grapherex دا سىزنى ئالاقەداش قاتارىدا كۆرىدۇ. باشقىلار سىزنى ئىزدەپ تاپالىغۇسى.</string>
   <string name="preferences_app_protection__screen_lock">ئېكران قۇلۇپى</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Signal زىيارىتىنى Android ئېكران قۇلۇپى ياكى بارماق ئىزى بىلەن قۇلۇپلا </string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Grapherex زىيارىتىنى Android ئېكران قۇلۇپى ياكى بارماق ئىزى بىلەن قۇلۇپلا </string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">ئېكران قۇلۇپى ۋاقتى توشتى</string>
-  <string name="preferences_app_protection__signal_pin">Signal PIN</string>
+  <string name="preferences_app_protection__signal_pin">Grapherex PIN</string>
   <string name="preferences_app_protection__create_a_pin">بىر PIN قۇر</string>
   <string name="preferences_app_protection__change_your_pin">PIN نىڭنى ئۆزگەرت</string>
   <string name="preferences_app_protection__pin_reminders">PIN ئەسكەرتكۈچىلىرى</string>
-  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PINلەر Signalدا ساقلانغان ئۇچۇرلارنى مەخپىيلەشتۈرۈپ ساقلايدۇ. شۇڭا سىزلا زىيارەت قىلالايسىز. ئارخىپىڭىز، سەپلىمىلىرىڭىز ۋە ئالاقەداشلىرىڭىز Signal نى قايتا قاچىلىغىنىڭىزدا ئەسلىگە كەلتۈرىلىدۇ.</string>
-  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Signal PIN نى مەجبۇرىي ھالەتكە ئەكىلىپ، Signal نى تېلېفون نومۇرىڭىز بىلەن بىرلىكتە قايتا تىزىملىتىش ئارقىلىق، يەنىمۇ بىخەتەر قىلالايسىز.</string>
+  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PINلەر Grapherexدا ساقلانغان ئۇچۇرلارنى مەخپىيلەشتۈرۈپ ساقلايدۇ. شۇڭا سىزلا زىيارەت قىلالايسىز. ئارخىپىڭىز، سەپلىمىلىرىڭىز ۋە ئالاقەداشلىرىڭىز Grapherex نى قايتا قاچىلىغىنىڭىزدا ئەسلىگە كەلتۈرىلىدۇ.</string>
+  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Grapherex PIN نى مەجبۇرىي ھالەتكە ئەكىلىپ، Grapherex نى تېلېفون نومۇرىڭىز بىلەن بىرلىكتە قايتا تىزىملىتىش ئارقىلىق، يەنىمۇ بىخەتەر قىلالايسىز.</string>
   <string name="preferences_app_protection__reminders_help_you_remember_your_pin">PIN نى ئەسلىگە كەلتۈرگىلى بولمىغاچقا، ئەسكەرتكۈچ ئۇنى سىزنىڭ پىششىق ئېىسىڭىزدە تۇتىۋېلىشىڭىزغا ياردەم قىلىدۇ. بارا-بارا تېخىمۇ ئاز سورىغۇسى.</string>
   <string name="preferences_app_protection__turn_off">ئەت</string>
   <string name="preferences_app_protection__confirm_pin">PIN نى جەزىملەڭ</string>
-  <string name="preferences_app_protection__confirm_your_signal_pin">Signal PIN نىڭىزنى جەزىملەڭ</string>
-  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">PIN نى ئەسلىگە كەلتۈرگىلى بولمىغاچقا، ئۇنى ئەستە ساقلىۋالغىنىڭىزغا ياكى بىخەتەر بىر يەردە ساقلىغىنىڭىزغا كاپالەتلىك قىلىڭ. ئەگەر Signal ھېسابىڭىزنى قايتىدىن تىزىملاتسىڭىز، مەلۇماتلىرىڭىزنى يوقىتىشىڭىز مۈمكىن.</string>
+  <string name="preferences_app_protection__confirm_your_signal_pin">Grapherex PIN نىڭىزنى جەزىملەڭ</string>
+  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">PIN نى ئەسلىگە كەلتۈرگىلى بولمىغاچقا، ئۇنى ئەستە ساقلىۋالغىنىڭىزغا ياكى بىخەتەر بىر يەردە ساقلىغىنىڭىزغا كاپالەتلىك قىلىڭ. ئەگەر Grapherex ھېسابىڭىزنى قايتىدىن تىزىملاتسىڭىز، مەلۇماتلىرىڭىزنى يوقىتىشىڭىز مۈمكىن.</string>
   <string name="preferences_app_protection__incorrect_pin_try_again">PIN  خاتا، قايتا سىناڭ</string>
   <string name="preferences_app_protection__failed_to_enable_registration_lock">تىزىملىتىش قۇلۇپىنى قوزغاتقىلى بولمىدى.</string>
   <string name="preferences_app_protection__failed_to_disable_registration_lock">تىزىملىتىش قۇلۇپىنى ئاكتىپسىزلىغىلى بولمىدى.</string>
@@ -2482,19 +2482,19 @@
   <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">بەك كۆپ ئۇرۇندىڭىز، بىردەم ساقلاپ قايتا سىناڭ.</string>
   <string name="RegistrationActivity_error_connecting_to_service">مۇلازىمەتكە باغلىنىشتا خاتالىق</string>
   <string name="preferences_chats__backups">زاپاسلار</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Signal قۇلۇپلاندى</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">Grapherex قۇلۇپلاندى</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">چېكىلسە قۇلۇپ ئاچىدۇ</string>
   <string name="Recipient_unknown">نامەلۇم</string>
   <!--TransferOrRestoreFragment-->
   <string name="TransferOrRestoreFragment__transfer_or_restore_account">ھېساپاتنى ئەۋەت ياكى ئەسلىگە كەلتۈر</string>
-  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">ئەگەر سىز ئىلگىرى Signal غا خەتلەتكەن بولسىڭىز، ھېسابات ۋە ئۇچۇرلىرىڭىزنى يۆتكەپ ياكى ئەسلىگە قايتۇرالايسىز.</string>
+  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">ئەگەر سىز ئىلگىرى Grapherex غا خەتلەتكەن بولسىڭىز، ھېسابات ۋە ئۇچۇرلىرىڭىزنى يۆتكەپ ياكى ئەسلىگە قايتۇرالايسىز.</string>
   <string name="TransferOrRestoreFragment__transfer_from_android_device">Android ئۈسكۈنىسىدىن يۆتكەيدۇ</string>
   <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">ھېسابات ۋە ئۇچۇرلىرىڭىزنى كونا Android ئۈسكۈنىڭىزدىن يۆتكەيدۇ.  كونا ئۈسكۈنىڭىزنى زىيارەت قىلالىشىڭىز كېرەك.</string>
   <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">كونا ئۈسكۈنىڭىزنى زىيارەت قىلالىشىڭىز كېرەك.</string>
   <string name="TransferOrRestoreFragment__restore_from_backup">زاپاستىن ئەسلىگە كەلتۈرىدۇ</string>
   <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">ئۇچۇرلىرىڭىزنى يەرلىك زاپاستىن ئەسلىگە كەلتۈرىدۇ. ئەگەر ھازىر ئەسلىگە كەلتۈرمىسىڭىز، كېيىن ئەسلىگە كەلتۈرەلمەيسىز.</string>
   <!--NewDeviceTransferInstructionsFragment-->
-  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">كونا Android تېلېفونىڭىزدا Signal نى ئېچىڭ</string>
+  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">كونا Android تېلېفونىڭىزدا Grapherex نى ئېچىڭ</string>
   <string name="NewDeviceTransferInstructions__continue">داۋاملىق</string>
   <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
   <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">سول ئۈستىدىكى سەپلىمە ھۆججەت سۈرىتى چېكىلسە تەڭشەكلەر ئېچىلىدۇ</string>
@@ -2506,18 +2506,18 @@
   <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">كونا Android ئۈسكۈنىگە باغلاشقا تەييارلىنىۋاتىدۇ…</string>
   <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">سەل كۈتۈڭ، تېزلا تەييار بولىدۇ</string>
   <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">كونا Android ئۈسكۈنىنىڭ باغلىنىشىنى كۈتۈۋاتىدۇ…</string>
-  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Signal كونا Android ئۈسكۈنىنى بايقاپ ۋە باغلىنىشى ئۈچۈن ئورۇن ھوقۇقىغا ئېھتىياجلىق.</string>
-  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Signal كونا Android ئۈسكۈنىڭىزنى بايقاپ ۋە باغلىنىشى ئۈچۈن ئورۇن مۇلازىمىتى قوزغىتىلغان بولۇشى كېرەك.</string>
-  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Signal كونا Android ئۈسكۈنىڭىزنى بايقاپ ۋە باغلىنىشى ئۈچۈن Wi-Fi قوزغىتىلغان بولۇشى كېرەك. Wi-Fi قوزغىتىلغان بولۇشى ئەمما Wi-Fi تورغا باغلانمىغان بولسىمۇ بولىدۇ.</string>
-  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">كەچۈرۈڭ، بۇ ئۈسكۈنە Wi-Fi Direct نى قوللىمايدىغاندەك قىلىدۇ. Signal كونا Android ئۈسكۈنىڭىزنى Wi-Fi Direct ئارقىلىق بايقاپ ۋە باغلىنىدۇ. سىز Android ئۈسكۈنىڭىزدىن ھېساباتنى ئەسلىگە قايتۈرۈش ئارقىلىق زاپاستىن ئەسلىگە قايتۇرالايسىز.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Grapherex كونا Android ئۈسكۈنىنى بايقاپ ۋە باغلىنىشى ئۈچۈن ئورۇن ھوقۇقىغا ئېھتىياجلىق.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Grapherex كونا Android ئۈسكۈنىڭىزنى بايقاپ ۋە باغلىنىشى ئۈچۈن ئورۇن مۇلازىمىتى قوزغىتىلغان بولۇشى كېرەك.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Grapherex كونا Android ئۈسكۈنىڭىزنى بايقاپ ۋە باغلىنىشى ئۈچۈن Wi-Fi قوزغىتىلغان بولۇشى كېرەك. Wi-Fi قوزغىتىلغان بولۇشى ئەمما Wi-Fi تورغا باغلانمىغان بولسىمۇ بولىدۇ.</string>
+  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">كەچۈرۈڭ، بۇ ئۈسكۈنە Wi-Fi Direct نى قوللىمايدىغاندەك قىلىدۇ. Grapherex كونا Android ئۈسكۈنىڭىزنى Wi-Fi Direct ئارقىلىق بايقاپ ۋە باغلىنىدۇ. سىز Android ئۈسكۈنىڭىزدىن ھېساباتنى ئەسلىگە قايتۈرۈش ئارقىلىق زاپاستىن ئەسلىگە قايتۇرالايسىز.</string>
   <string name="NewDeviceTransferSetup__restore_a_backup">زاپاستىن ئەسلىگە قايتۇر</string>
   <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">كونا Android ئۈسكۈنىڭىزگە باغلىنىشنى سىناۋاتقاندا كۈتۈلمىگەن خاتالىققا يولۇقتى.</string>
   <!--OldDeviceTransferSetupFragment-->
   <string name="OldDeviceTransferSetup__searching_for_new_android_device">يېڭى Android ئۈسكۈنە ئىزدەۋاتىدۇ…</string>
-  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Signal يېڭى Android ئۈسكۈنىڭىزنى بايقاپ ۋە باغلىنىشى ئۈچۈن ئورۇن ھوقۇقىغا ئېھتىياجلىق.</string>
-  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Signal يېڭى Android ئۈسكۈنىڭىزنى بايقاپ ۋە باغلىنىشى ئۈچۈن ئورۇن مۇلازىمىتى قوزغىتىلغان بولۇشى كېرەك.</string>
-  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Signal يېڭى Android ئۈسكۈنىڭىزنى بايقاپ ۋە باغلىنىشى ئۈچۈن Wi-Fi قوزغىتىلغان بولۇشى كېرەك. Wi-Fi قوزغىتىلغان بولۇشى ئەمما Wi-Fi تورغا باغلانمىغان بولسىمۇ بولىدۇ.</string>
-  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">كەچۈرۈڭ، بۇ ئۈسكۈنە Wi-Fi Direct نى قوللىمايدىغاندەك قىلىدۇ. Signal يېڭى Android ئۈسكۈنىڭىزنى Wi-Fi Direct ئارقىلىق بايقاپ ۋە باغلىنىدۇ. سىز Android ئۈسكۈنىڭىزدە زاپاس قۇرۇپ، ھېساباتنى ئەسلىگە قايتۈرۈش ئارقىلىق زاپاسنى يېڭى ئۈسكۈنىڭىزگە ئەسلىگە قايتۇرالايسىز.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Grapherex يېڭى Android ئۈسكۈنىڭىزنى بايقاپ ۋە باغلىنىشى ئۈچۈن ئورۇن ھوقۇقىغا ئېھتىياجلىق.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Grapherex يېڭى Android ئۈسكۈنىڭىزنى بايقاپ ۋە باغلىنىشى ئۈچۈن ئورۇن مۇلازىمىتى قوزغىتىلغان بولۇشى كېرەك.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Grapherex يېڭى Android ئۈسكۈنىڭىزنى بايقاپ ۋە باغلىنىشى ئۈچۈن Wi-Fi قوزغىتىلغان بولۇشى كېرەك. Wi-Fi قوزغىتىلغان بولۇشى ئەمما Wi-Fi تورغا باغلانمىغان بولسىمۇ بولىدۇ.</string>
+  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">كەچۈرۈڭ، بۇ ئۈسكۈنە Wi-Fi Direct نى قوللىمايدىغاندەك قىلىدۇ. Grapherex يېڭى Android ئۈسكۈنىڭىزنى Wi-Fi Direct ئارقىلىق بايقاپ ۋە باغلىنىدۇ. سىز Android ئۈسكۈنىڭىزدە زاپاس قۇرۇپ، ھېساباتنى ئەسلىگە قايتۈرۈش ئارقىلىق زاپاسنى يېڭى ئۈسكۈنىڭىزگە ئەسلىگە قايتۇرالايسىز.</string>
   <string name="OldDeviceTransferSetup__create_a_backup">زاپاس قۇر</string>
   <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">يېڭى Android ئۈسكۈنىڭىزگە باغلىنىشنى سىناۋاتقاندا كۈتۈلمىگەن خاتالىققا يولۇقتى.</string>
   <!--DeviceTransferSetupFragment-->
@@ -2552,10 +2552,10 @@
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device_to_start_the_transfer">يەنە بىر ئۈسكىنىڭزدە داۋاملاشتۇرنى چېكىپ يۆتكەشنى باشلىتىڭ.</string>
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device">يەنە بىر ئۈسكىنىڭزدە داۋاملاشتۇرنى چېكىڭ…</string>
   <!--NewDeviceTransferFragment-->
-  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Signal نىڭ يېڭىراق نەشرلىرىدىن يۆتكىيەلمەيمىز.</string>
+  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Grapherex نىڭ يېڭىراق نەشرلىرىدىن يۆتكىيەلمەيمىز.</string>
   <!--DeviceTransferFragment-->
   <string name="DeviceTransfer__transferring_data">مەلۇمات يۆتكىلىۋاتىدۇ</string>
-  <string name="DeviceTransfer__keep_both_devices_near_each_other">ئىككى ئۈسكىنىنى يېقىن تۇتۇڭ. ئۈسكۈنىلەر ئېتىلىپ قالمىسۇن، Signal ئوچۇق ھالەتتە تۇرسۇن. يۆتكەش ئۇچتىن-ئۇچقا شىفرىلىنىدۇ.</string>
+  <string name="DeviceTransfer__keep_both_devices_near_each_other">ئىككى ئۈسكىنىنى يېقىن تۇتۇڭ. ئۈسكۈنىلەر ئېتىلىپ قالمىسۇن، Grapherex ئوچۇق ھالەتتە تۇرسۇن. يۆتكەش ئۇچتىن-ئۇچقا شىفرىلىنىدۇ.</string>
   <string name="DeviceTransfer__d_messages_so_far">ھازىرچە %1$d ئۇچۇر…</string>
   <string name="DeviceTransfer__cancel">ۋاز كەچ</string>
   <string name="DeviceTransfer__try_again">قايتا سىناڭ</string>
@@ -2566,9 +2566,9 @@
   <string name="DeviceTransfer__unable_to_transfer">يۆتكىيەلمىدى</string>
   <!--OldDeviceTransferInstructionsFragment-->
   <string name="OldDeviceTransferInstructions__transfer_account">ھېساباتنى يۆتكە</string>
-  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">يېڭى بىر Android ئۈسكىنىدە Signal نى سەپلەۋاتقىنىڭىزدا Signal ھېسابىڭىزنى يۆتكىيەلەيسىز. داۋام قىلىشتىن بۇرۇن: </string>
+  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">يېڭى بىر Android ئۈسكىنىدە Grapherex نى سەپلەۋاتقىنىڭىزدا Grapherex ھېسابىڭىزنى يۆتكىيەلەيسىز. داۋام قىلىشتىن بۇرۇن: </string>
   <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">يېڭى Android ئۈسكىنىڭىزدە Signal نى چۈشۈرۈڭ</string>
+  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">يېڭى Android ئۈسكىنىڭىزدە Grapherex نى چۈشۈرۈڭ</string>
   <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
   <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">«ھېسابات يۆتكە ياكى ئەسلىگە كەلتۈر» نىڭ ئۈستىگە چېكىڭ</string>
   <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -2577,7 +2577,7 @@
   <!--OldDeviceTransferComplete-->
   <string name="OldDeviceTransferComplete__transfer_complete">يۆتكەش تاماملاندى</string>
   <string name="OldDeviceTransferComplete__go_to_your_new_device">يېڭى ئۈسكىنىڭىزگە بېرىڭ</string>
-  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Signal مەلۇماتىڭىز يېڭى ئۈسكىنىڭىزگە يۆتكىلىپ بولدى. ئەمما، يۆتكەش جەريانىنى تاماملاش ئۈچۈن، چوقۇم  يېڭى ئۈسكىنىڭىزدە تىزىملىتىشنى داۋاملاشتۇرىشىڭىز كېرەك.</string>
+  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Grapherex مەلۇماتىڭىز يېڭى ئۈسكىنىڭىزگە يۆتكىلىپ بولدى. ئەمما، يۆتكەش جەريانىنى تاماملاش ئۈچۈن، چوقۇم  يېڭى ئۈسكىنىڭىزدە تىزىملىتىشنى داۋاملاشتۇرىشىڭىز كېرەك.</string>
   <string name="OldDeviceTransferComplete__close">تاقا</string>
   <!--NewDeviceTransferComplete-->
   <string name="NewDeviceTransferComplete__transfer_successful">يۆتكەش مۇۋەپپىقىيەتلىك</string>
@@ -2594,7 +2594,7 @@
   <string name="DeviceToDeviceTransferService_status_service_connected">ھېسابات يۆتكىلىۋاتىدۇ…</string>
   <!--OldDeviceTransferLockedDialog-->
   <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">يېڭى ئۈسكىنىڭزدىكى تىزىملىتىشنى تاماملاڭ</string>
-  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Signal ھېساباتىڭىز يېڭى ئۈسكىنىڭىزگە يۆتكىلىپ بولدى. ئەمما، ئۇنى داۋاملاشتۇرۇش ئۈچۈن تىزىملىتىشنى تاماملىشىڭىز كېرەك. Signal بۇ ئۈسكىنىدە ئاكتىپلانمايدۇ.</string>
+  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Grapherex ھېساباتىڭىز يېڭى ئۈسكىنىڭىزگە يۆتكىلىپ بولدى. ئەمما، ئۇنى داۋاملاشتۇرۇش ئۈچۈن تىزىملىتىشنى تاماملىشىڭىز كېرەك. Grapherex بۇ ئۈسكىنىدە ئاكتىپلانمايدۇ.</string>
   <string name="OldDeviceTransferLockedDialog__done">بولدى</string>
   <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">بىكار قىل ۋە بۇ ئۈسكىنىنى ئاكتىپلا</string>
   <!--AdvancedPreferenceFragment-->
@@ -2629,12 +2629,12 @@
   <string name="GroupsLearnMore_what_are_legacy_groups">«كونا گۇرۇپپىلار» دېگەن نېمە؟</string>
   <string name="GroupsLearnMore_paragraph_1">كونا گۇرۇپپا دېگىنىمىز باشقۇرغۇچىلار ۋە تېخىمۇ تەپسىلىي گۇرۇپپا يېڭىلانمىسى قاتارلىقلار يېڭى گۇرۇپپا  ئىقتىدارلىرى بىلەن ماسلاشمايدىغان گۇرۇپپىدۇر.</string>
   <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">كونا گۇرۇپپىنى يۇقىرىلاتسام بولامدۇ؟</string>
-  <string name="GroupsLearnMore_paragraph_2">كونا گۇرۇپپىلارنى ھازىرچە يېڭى گۇرۇپپىغا يۇقىرىلاتقىلى بولمايدۇ. ئەمما ئەزالار يېڭى نەشردىكى Signal نى ئىشلىتىۋاتقان بولسا، سىز ئوخشاش ئەزالار بىلەن يېڭى گۇرۇپپا قۇرالايسىز.</string>
-  <string name="GroupsLearnMore_paragraph_3">Signal كەلگۈسىدە كونا گۇرۇپپىلارنى يۇقىرىلىتىدىغان بىر يول بىلەن تەمىنلەيدۇ.</string>
+  <string name="GroupsLearnMore_paragraph_2">كونا گۇرۇپپىلارنى ھازىرچە يېڭى گۇرۇپپىغا يۇقىرىلاتقىلى بولمايدۇ. ئەمما ئەزالار يېڭى نەشردىكى Grapherex نى ئىشلىتىۋاتقان بولسا، سىز ئوخشاش ئەزالار بىلەن يېڭى گۇرۇپپا قۇرالايسىز.</string>
+  <string name="GroupsLearnMore_paragraph_3">Grapherex كەلگۈسىدە كونا گۇرۇپپىلارنى يۇقىرىلىتىدىغان بىر يول بىلەن تەمىنلەيدۇ.</string>
   <!--GroupLinkBottomSheetDialogFragment-->
   <string name="GroupLinkBottomSheet_share_hint_requiring_approval">بۇ ئۇلانما بىلەن ھەرقانداق كىشى گۇرۇپپىنىڭ ئىسمى ۋە رەسىمىنى كۆرەلەيدۇ. ھەمدە گۇرۇپپىغا قېتىلىشنى ئىلتىماس قىلالايدۇ. ئۇنى ئىشەنچلىك كىشىلەرگە ھەمبەھىرلەڭ.</string>
   <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">بۇ ئۇلانما بىلەن ھەرقانداق كىشى گۇرۇپپىنىڭ ئىسمى ۋە رەسىمىنى كۆرەلەيدۇ. ھەمدە گۇرۇپپىغا قېتىلالايدۇ. ئۇنى ئىشەنچلىك كىشىلەرگە ھەمبەھىرلەڭ.</string>
-  <string name="GroupLinkBottomSheet_share_via_signal">Signal ئارقىلىق ھەمبەھىرلە</string>
+  <string name="GroupLinkBottomSheet_share_via_signal">Grapherex ئارقىلىق ھەمبەھىرلە</string>
   <string name="GroupLinkBottomSheet_copy">كۆچۈر</string>
   <string name="GroupLinkBottomSheet_qr_code">QR كودى</string>
   <string name="GroupLinkBottomSheet_share">ئورتاقلاش</string>
@@ -2699,7 +2699,7 @@
   <string name="DeleteAccountFragment__no_number">نومۇر كۆرسىتىلمىدى</string>
   <string name="DeleteAccountFragment__the_phone_number">كىرگۈزگەن تېلېفون نومۇرىڭىز ھېساباتىڭىزنىڭكى بىلەن ئوخشاش ئەمەس</string>
   <string name="DeleteAccountFragment__are_you_sure">راستلا ھېساباتىڭىزنى ئۆچۈرۈۋېتەمسىز؟</string>
-  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">بۇ سىزنىڭ Signal ھېساباتىڭىزنى ئۆچۈرىدۇ ۋە قوللانما دېتالىڭىزنىمۇ قايتىدىن تەڭشەيدۇ. ئەپ بۇ جەريان تاماملانغاندىن كېيىن ئېتىلىدۇ.</string>
+  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">بۇ سىزنىڭ Grapherex ھېساباتىڭىزنى ئۆچۈرىدۇ ۋە قوللانما دېتالىڭىزنىمۇ قايتىدىن تەڭشەيدۇ. ئەپ بۇ جەريان تاماملانغاندىن كېيىن ئېتىلىدۇ.</string>
   <string name="DeleteAccountFragment__failed_to_delete_account">ھېساباتىڭىزنى ئۆچۈرۈش مەغلۇپ بولدى. تور ئۇلىنىشىڭىز بارمۇ؟</string>
   <string name="DeleteAccountFragment__failed_to_delete_local_data">يەرلىكتىكى مەلۇماتلىرىڭىزنى ئۆچۈرۈش مەغلۇپ بولدى. سىز سىستېما قوللانما دېتاللىرى تەڭشەكلىرىدىن قولدا تازىلىۋەتسىڭىز بولىدۇ.</string>
   <string name="DeleteAccountFragment__launch_app_settings">ئەپ تەڭشەكلىرىنى قوزغات</string>
@@ -2711,7 +2711,7 @@
   <string name="ShareActivity__share">ئورتاقلاش</string>
   <string name="ShareActivity__send">ئەۋەت</string>
   <string name="ShareActivity__s_comma">%1$s،</string>
-  <string name="ShareActivity__sharing_to_multiple_chats_is">كۆپ سۆھبەتلەرگە ھەمبەھىرلەش پەقەت Signal ئۇچۇرلىرىنىلا قوللايدۇ. </string>
+  <string name="ShareActivity__sharing_to_multiple_chats_is">كۆپ سۆھبەتلەرگە ھەمبەھىرلەش پەقەت Grapherex ئۇچۇرلىرىنىلا قوللايدۇ. </string>
   <!--MultiShareDialogs-->
   <string name="MultiShareDialogs__failed_to_send_to_some_users">بەزى ئىشلەتكۈچىلەرگە يوللاش مەغلۇپ بولدى</string>
   <string name="MultiShareDialogs__you_can_only_share_with_up_to">جىق بولغاندا %1$d سۆھبەت بىلەن ئورتاقلىشالايسىز.</string>
@@ -2753,7 +2753,7 @@
   <string name="payment_info_card_about_mobilecoin">MobileCoin ھەققىدە</string>
   <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">‫MobileCoin شەخسىيەت گەۋدىلەندۈرۈلگەن يېڭى رەقەملىك پۇل.</string>
   <string name="payment_info_card_adding_funds"> قوشۇلغان مەبلەغ</string>
-  <string name="payment_info_card_you_can_add_funds_for_use_in">ھەميان ئادرېسىڭىزغا MobileCoin ئەۋەتىش ئارقىلىق Signal دا ئىشلىتىشكە مەبلەغ قوشالايسىز.</string>
+  <string name="payment_info_card_you_can_add_funds_for_use_in">ھەميان ئادرېسىڭىزغا MobileCoin ئەۋەتىش ئارقىلىق Grapherex دا ئىشلىتىشكە مەبلەغ قوشالايسىز.</string>
   <string name="payment_info_card_cashing_out">نەق پۇلغا ئايلاندۇر</string>
   <string name="payment_info_card_you_can_cash_out_mobilecoin">MobileCoin نى قوللايدىغان ئالماشتۇرغۇچىدا خالىغان ۋاقىتتا MobileCoin نى نەقلەشتۈرەلەيسىز. پەقەت بۇ ئالماشتۇرغۇچىدىكى ھېساباتىڭىزغا يۆتكىسىڭىزلا بولىدۇ.</string>
   <string name="payment_info_card_hide_this_card">بۇ كارت كۆرۈنمىسۇنمۇ؟</string>
@@ -2767,18 +2767,18 @@
   <!--DeactivateWalletFragment-->
   <string name="DeactivateWalletFragment__deactivate_wallet">ھەمياننى ئاكتىپسىزلە</string>
   <string name="DeactivateWalletFragment__your_balance">قالدۇقىڭىز</string>
-  <string name="DeactivateWalletFragment__its_recommended_that_you">چىقىمنى ئاكتىپسىزلاشتىن بۇرۇن مەبلىغىڭىزنى باشقا ھەميان ئادرېسىغا يۆتكەش تەۋسىيە قىلىنىدۇ. ئەگەر ھازىر مەبلىغىڭىزنى يۆتكىمەسلىكنى تاللىسىڭىز ، چىقىمنى قايتا ئاكتىپلىسىڭىز ئۇلار Signal غا باغلانغان ھەميانىڭىزدا قالىدۇ.</string>
+  <string name="DeactivateWalletFragment__its_recommended_that_you">چىقىمنى ئاكتىپسىزلاشتىن بۇرۇن مەبلىغىڭىزنى باشقا ھەميان ئادرېسىغا يۆتكەش تەۋسىيە قىلىنىدۇ. ئەگەر ھازىر مەبلىغىڭىزنى يۆتكىمەسلىكنى تاللىسىڭىز ، چىقىمنى قايتا ئاكتىپلىسىڭىز ئۇلار Grapherex غا باغلانغان ھەميانىڭىزدا قالىدۇ.</string>
   <string name="DeactivateWalletFragment__transfer_remaining_balance">قالغان قالدۇقنى يۆتكە</string>
   <string name="DeactivateWalletFragment__deactivate_without_transferring">يۆتكىمەي تۇرۇپ ئاكتىپسىزلا</string>
   <string name="DeactivateWalletFragment__deactivate">چەكلە</string>
   <string name="DeactivateWalletFragment__deactivate_without_transferring_question">يۆتكىمەي تۇرۇپ ئاكتىپسىزلىسۇنمۇ؟</string>
-  <string name="DeactivateWalletFragment__your_balance_will_remain">ئەگەر چىقىمنى قايتا ئاكتىپلاشنى تاللىسىڭىز ، قالدۇقىڭىز Signal غا باغلانغان ھەميانىڭىزدا قالىدۇ.</string>
+  <string name="DeactivateWalletFragment__your_balance_will_remain">ئەگەر چىقىمنى قايتا ئاكتىپلاشنى تاللىسىڭىز ، قالدۇقىڭىز Grapherex غا باغلانغان ھەميانىڭىزدا قالىدۇ.</string>
   <string name="DeactivateWalletFragment__error_deactivating_wallet">ئاكتىپسىزلاشتا خاتالىق كۆرۈلدى.</string>
   <!--PaymentsRecoveryStartFragment-->
   <string name="PaymentsRecoveryStartFragment__recovery_phrase">ئەسلىگە كەلتۈرۈش جۈملىسى</string>
   <string name="PaymentsRecoveryStartFragment__view_recovery_phrase">ئەسلىگە كەلتۈرۈش جۈملىسىنى كۆر</string>
   <string name="PaymentsRecoveryStartFragment__enter_recovery_phrase">ئەسلىگە كەلتۈرۈش جۈملىسىنى كىرگۈزۈڭ</string>
-  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">ئەگەر Signal نى قايتا قاچىلىغاندا Signal PIN نى جەزملەشتۈرگەن بولسىڭىزقالدۇقىڭىز ئاپتوماتىك ئەسلىگە كېلىدۇ. ئەسلىگە كەلتۈرۈش جۈملىسى ئارقىلىقمۇ قالدۇقىڭىزنى ئەسلىگە كەلتۈرەلەيسىز ، بۇ بىر %1$d- سىزگە خاس بولغان سۆزلۈك جۈملە. ئۇنى يېزىۋېلىپ بىر بىخەتەر جايدا ساقلاڭ.</string>
+  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">ئەگەر Grapherex نى قايتا قاچىلىغاندا Grapherex PIN نى جەزملەشتۈرگەن بولسىڭىزقالدۇقىڭىز ئاپتوماتىك ئەسلىگە كېلىدۇ. ئەسلىگە كەلتۈرۈش جۈملىسى ئارقىلىقمۇ قالدۇقىڭىزنى ئەسلىگە كەلتۈرەلەيسىز ، بۇ بىر %1$d- سىزگە خاس بولغان سۆزلۈك جۈملە. ئۇنى يېزىۋېلىپ بىر بىخەتەر جايدا ساقلاڭ.</string>
   <string name="PaymentsRecoveryStartFragment__your_recovery_phrase_is_a">ئەسلىگە كەلتۈرۈش جۈملىڭىز بولسا بىر %1$d- سىزگە خاس بولغان سۆزلۈك جۈملە. قالدۇقىڭىزنى ئەسلىگە كەلتۈرۈش ئۈچۈن بۇ جۈملىنى ئىشلىتىڭ.</string>
   <string name="PaymentsRecoveryStartFragment__start">باشلا</string>
   <string name="PaymentsRecoveryStartFragment__enter_manually">قولدا كىرگۈزۈش</string>

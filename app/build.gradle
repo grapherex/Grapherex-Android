@@ -11,6 +11,8 @@ apply plugin: 'witness'
 apply plugin: 'org.jlleitschuh.gradle.ktlint'
 apply from: 'translations.gradle'
 apply from: 'witness-verifications.gradle'
+apply plugin: 'com.google.firebase.appdistribution'
+apply plugin: 'com.google.gms.google-services'
 
 repositories {
     maven {
@@ -95,7 +97,24 @@ android {
         }
     }
 
+    def versionPropsFile = file('version.properties')
+
     defaultConfig {
+
+        if (versionPropsFile.canRead()) {
+            Properties versionProps = new Properties()
+
+            versionProps.load(new FileInputStream(versionPropsFile))
+
+            canonicalVersionCode = versionProps['VERSION_CODE'].toInteger() + 1
+
+            versionProps['VERSION_CODE']=canonicalVersionCode.toString()
+            versionProps.store(versionPropsFile.newWriter(), null)
+        }
+        else {
+            throw new GradleException("Could not read version.properties!")
+        }
+
         versionCode canonicalVersionCode * postFixSize
         versionName canonicalVersionName
 
@@ -284,15 +303,30 @@ android {
     }
 
     android.applicationVariants.all { variant ->
-        variant.outputs.each { output ->
-            output.outputFileName = output.outputFileName.replace(".apk", "-${variant.versionName}.apk")
-            def abiName = output.getFilter("ABI") ?: 'universal'
-            def postFix = abiPostFix.get(abiName, 0)
-
-            if (postFix >= postFixSize) throw new AssertionError("postFix is too large")
-
-            output.versionCodeOverride = canonicalVersionCode * postFixSize + postFix
-        }
+//        variant.outputs.each { output ->
+//            output.outputFileName = output.outputFileName.replace(".apk", "-${variant.versionName}.apk")
+//            def abiName = output.getFilter("ABI") ?: 'universal'
+//            output.outputFileName = output.outputFileName.replace(".apk", "${abiName}-${variant.versionName}.apk")
+//            def postFix = abiPostFix.get(abiName, 0)
+//
+//            if (postFix >= postFixSize) throw new AssertionError("postFix is too large")
+//
+//            output.versionCodeOverride = canonicalVersionCode * postFixSize + postFix
+//
+//            def filter = output.getFilter(com.android.build.OutputFile.ABI)
+//
+//            if (filter == null) {
+//                tasks.findAll {
+//                    it.name.startsWith(
+//                            "appDistributionUpload${variant.name.capitalize()}")
+//                }.each {
+//                    it.doFirst {
+//                        it.appDistributionProperties.appId = "1:59023565119:android:e9c2c226c1e22be216f38a"
+//                        it.appDistributionProperties.artifactPath = output.outputFile.absolutePath
+//                    }
+//                }
+//            }
+//        }
     }
 
     android.variantFilter { variant ->

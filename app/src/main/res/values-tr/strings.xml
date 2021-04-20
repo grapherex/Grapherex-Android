@@ -10,22 +10,22 @@
   <string name="AbstractNotificationBuilder_new_message">Yeni ileti</string>
   <!--AlbumThumbnailView-->
   <!--ApplicationMigrationActivity-->
-  <string name="ApplicationMigrationActivity__signal_is_updating">Signal güncelleniyor…</string>
+  <string name="ApplicationMigrationActivity__signal_is_updating">Grapherex güncelleniyor…</string>
   <!--ApplicationPreferencesActivity-->
   <string name="ApplicationPreferencesActivity_currently_s">Şu anda: %s</string>
   <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">Henüz bir parola belirlemediniz!</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">Parolayı devre dışı bırak?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Bu işlem Signal ve ileti bildirimlerinin kilidini kalıcı olarak açacaktır.</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Bu işlem Grapherex ve ileti bildirimlerinin kilidini kalıcı olarak açacaktır.</string>
   <string name="ApplicationPreferencesActivity_disable">Devre dışı bırak</string>
   <string name="ApplicationPreferencesActivity_unregistering">Kayıt siliniyor</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Signal ileti ve aramalarından kaydınız siliniyor…</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Signal iletilerini ve aramalarını devre dışı bırak?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Sunucudaki kaydınızı silerek Signal iletilerini ve aramalarını devre dışı bırakın. Bu özellikleri gelecekte yeniden kullanabilmeniz için telefon numaranızı tekrar kaydetmeniz gerekir.</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Grapherex ileti ve aramalarından kaydınız siliniyor…</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Grapherex iletilerini ve aramalarını devre dışı bırak?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Sunucudaki kaydınızı silerek Grapherex iletilerini ve aramalarını devre dışı bırakın. Bu özellikleri gelecekte yeniden kullanabilmeniz için telefon numaranızı tekrar kaydetmeniz gerekir.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Sunucuya bağlanırken hata!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS Etkin</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Varsayılan SMS uygulamanızı değiştirmek için dokunun</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">SMS Devre dışı</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Signal\'i varsayılan SMS uygulaması yapmak için dokunun</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Grapherex\'i varsayılan SMS uygulaması yapmak için dokunun</string>
   <string name="ApplicationPreferencesActivity_on">açık</string>
   <string name="ApplicationPreferencesActivity_On">Açık</string>
   <string name="ApplicationPreferencesActivity_off">kapalı</string>
@@ -57,14 +57,14 @@
   <string name="AttachmentKeyboard_file">Dosya</string>
   <string name="AttachmentKeyboard_contact">Kişi</string>
   <string name="AttachmentKeyboard_location">Konum</string>
-  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Signal\'in fotoğraf ve videolarınızı göstermek için erişim iznine ihtiyacı var.</string>
+  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Grapherex\'in fotoğraf ve videolarınızı göstermek için erişim iznine ihtiyacı var.</string>
   <string name="AttachmentKeyboard_give_access">İzin Ver</string>
   <string name="AttachmentKeyboard_payment">Ödeme</string>
   <!--AttachmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">İçerik seçebilecek uygulama bulunamıyor.</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal, fotoğraflar, videolar, veya ses ekleyebilmek için Depolama iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Depolama\"yı etkinleştirin.</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Signal, iletişim bilgilerini eklemek için Kişiler iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Kişiler\"i etkinleştirin.</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Signal, konum bilgisi eklemek için Konum iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Konum\"u etkinleştirin.</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Grapherex, fotoğraflar, videolar, veya ses ekleyebilmek için Depolama iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Depolama\"yı etkinleştirin.</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Grapherex, iletişim bilgilerini eklemek için Kişiler iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Kişiler\"i etkinleştirin.</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Grapherex, konum bilgisi eklemek için Konum iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Konum\"u etkinleştirin.</string>
   <!--AttachmentUploadJob-->
   <string name="AttachmentUploadJob_uploading_media">İçerik yükleniyor…</string>
   <string name="AttachmentUploadJob_compressing_video_start">Video sıkıştırılıyor…</string>
@@ -108,21 +108,21 @@
   <string name="CameraXFragment_open_gallery_description">Galeriyi aç</string>
   <!--CameraContacts-->
   <string name="CameraContacts_recent_contacts">Son kişiler</string>
-  <string name="CameraContacts_signal_contacts">Signal kişileri</string>
-  <string name="CameraContacts_signal_groups">Signal grupları</string>
+  <string name="CameraContacts_signal_contacts">Grapherex kişileri</string>
+  <string name="CameraContacts_signal_groups">Grapherex grupları</string>
   <string name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">En fazla %d konuşmayla paylaşabilirsiniz.</string>
-  <string name="CameraContacts_select_signal_recipients">Signal alıcılarını seçin</string>
-  <string name="CameraContacts_no_signal_contacts">Hiç Signal kişiniz yok</string>
-  <string name="CameraContacts_you_can_only_use_the_camera_button">Kamera tuşunu yalnızca Signal kişilerine fotoğraf göndermek için kullanabilirsiniz.</string>
+  <string name="CameraContacts_select_signal_recipients">Grapherex alıcılarını seçin</string>
+  <string name="CameraContacts_no_signal_contacts">Hiç Grapherex kişiniz yok</string>
+  <string name="CameraContacts_you_can_only_use_the_camera_button">Kamera tuşunu yalnızca Grapherex kişilerine fotoğraf göndermek için kullanabilirsiniz.</string>
   <string name="CameraContacts_cant_find_who_youre_looking_for">Aradığınız kişiyi bulamadınız mı?</string>
-  <string name="CameraContacts_invite_a_contact_to_join_signal">Signal\'e katılması için bir kişiyi davet edin</string>
+  <string name="CameraContacts_invite_a_contact_to_join_signal">Grapherex\'e katılması için bir kişiyi davet edin</string>
   <string name="CameraContacts__menu_search">Ara</string>
   <!--ClearProfileActivity-->
   <string name="ClearProfileActivity_remove">Kaldır</string>
   <string name="ClearProfileActivity_remove_profile_photo">Profil fotoğrafı kaldırılsın mı?</string>
   <string name="ClearProfileActivity_remove_group_photo">Grup fotoğrafı kaldırılsın mı?</string>
   <!--ClientDeprecatedActivity-->
-  <string name="ClientDeprecatedActivity_update_signal">Signal\'i Güncelle</string>
+  <string name="ClientDeprecatedActivity_update_signal">Grapherex\'i Güncelle</string>
   <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">Uygulamanın bu sürümü artık desteklenmiyor. İleti göndermeye ve almaya devam etmek için en son sürüme güncelleyin.</string>
   <string name="ClientDeprecatedActivity_update">Güncelle</string>
   <string name="ClientDeprecatedActivity_dont_update">Güncelleme</string>
@@ -136,9 +136,9 @@
   <string name="CommunicationActions_cancel">İptal</string>
   <string name="CommunicationActions_call">Ara</string>
   <string name="CommunicationActions_insecure_call">Şifresiz arama</string>
-  <string name="CommunicationActions_carrier_charges_may_apply">Operatör tarifelendirmesine tabii tutulabilir. Aramaya çalıştığınız numara Signal\'e kayıtlı değil. Bu arama internet üzerinden değil telefon operatörünüz tarafından gerçekleştirilecektir.</string>
+  <string name="CommunicationActions_carrier_charges_may_apply">Operatör tarifelendirmesine tabii tutulabilir. Aramaya çalıştığınız numara Grapherex\'e kayıtlı değil. Bu arama internet üzerinden değil telefon operatörünüz tarafından gerçekleştirilecektir.</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">%1$s ile olan güvenlik numaranız değişti. Bu, birisinin iletişiminizi kesmeye çalıştığı ya da %2$s Signal\'i yeniden yüklemiş olduğu anlamına gelebilir.</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">%1$s ile olan güvenlik numaranız değişti. Bu, birisinin iletişiminizi kesmeye çalıştığı ya da %2$s Grapherex\'i yeniden yüklemiş olduğu anlamına gelebilir.</string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">Bu kişiyle güvenlik numaranızı doğrulamak isteyebilirsiniz.</string>
   <string name="ConfirmIdentityDialog_accept">Kabul et</string>
   <!--ContactsCursorLoader-->
@@ -149,7 +149,7 @@
   <string name="ContactsCursorLoader_username_search">Kullanıcı adıyla arama</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">İleti %s</string>
-  <string name="ContactsDatabase_signal_call_s">Signal Araması %s</string>
+  <string name="ContactsDatabase_signal_call_s">Grapherex Araması %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">Ad</string>
   <string name="ContactNameEditActivity_family_name">Soyad</string>
@@ -171,7 +171,7 @@
   <string name="ConversationItem_click_to_approve_unencrypted">Gönderme başarısız oldu, şifresiz göndermek için dokunun</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">Şifrelenmemiş SMS\'e geri dönülsün mü?</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">Şifrelenmemiş MMS\'e geri dönülsün mü?</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Alıcı artık Signal kullanıcısı olmadığı için bu ileti <b>ŞİFRELENMEYECEKTİR</b>.\n\nŞifresiz olarak gönder?</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Alıcı artık Grapherex kullanıcısı olmadığı için bu ileti <b>ŞİFRELENMEYECEKTİR</b>.\n\nŞifresiz olarak gönder?</string>
   <string name="ConversationItem_unable_to_open_media">Bu içeriği açabilen bir uygulama bulunamadı.</string>
   <string name="ConversationItem_copied_text">%s kopyalandı</string>
   <string name="ConversationItem_from_s">gönderen %s</string>
@@ -199,8 +199,8 @@
   <string name="ConversationActivity_this_device_does_not_appear_to_support_dial_actions">Bu cihaz arama işlemlerini destekliyor gibi görünmüyor.</string>
   <string name="ConversationActivity_transport_insecure_sms">Şifresiz SMS</string>
   <string name="ConversationActivity_transport_insecure_mms">Şifresiz MMS</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">Signal uygulamasından konuşalım %1$s</string>
+  <string name="ConversationActivity_transport_signal">Grapherex</string>
+  <string name="ConversationActivity_lets_switch_to_signal">Grapherex uygulamasından konuşalım %1$s</string>
   <string name="ConversationActivity_specify_recipient">Lütfen bir kişi seçin</string>
   <string name="ConversationActivity_unblock">Engeli kaldır</string>
   <string name="ConversationActivity_attachment_exceeds_size_limits">Eklenti gönderdiğiniz ileti türü için olan boyut limitini aşıyor.</string>
@@ -209,17 +209,17 @@
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Cihazınızda bu bağlantıyı işleyebilecek uygulama bulunmamaktadır.</string>
   <string name="ConversationActivity_your_request_to_join_has_been_sent_to_the_group_admin">Katılma isteğiniz grup yöneticisine gönderildi. İsteğiniz yanıtlandığı zaman haberdar edileceksiniz.</string>
   <string name="ConversationActivity_cancel_request">İsteği İptal Et</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Sesli ileti göndermek için Signal\'in mikrofonunuza erişmesine izin verin.</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal, sesli iletiler göndermek için Mikrofon iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Mikrofon\"u etkinleştirin.</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signal, %s ile arama yapmanız için Mikrofon ve Kamera iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, \"Mikrofon\" ve \"Kamera\"yı etkinleştirin.</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Fotoğraf veya video çekmek için, Signal\'in kameraya erişmesine izin verin.</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal, fotoğraf veya video çekmek için Kamera iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Kamera\"yı etkinleştirin.</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signal fotoğraf veya video çekebilmek için kamera erişimine ihtiyaç duyar</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Sesli ileti göndermek için Grapherex\'in mikrofonunuza erişmesine izin verin.</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Grapherex, sesli iletiler göndermek için Mikrofon iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Mikrofon\"u etkinleştirin.</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Grapherex, %s ile arama yapmanız için Mikrofon ve Kamera iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, \"Mikrofon\" ve \"Kamera\"yı etkinleştirin.</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Fotoğraf veya video çekmek için, Grapherex\'in kameraya erişmesine izin verin.</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Grapherex, fotoğraf veya video çekmek için Kamera iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Kamera\"yı etkinleştirin.</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Grapherex fotoğraf veya video çekebilmek için kamera erişimine ihtiyaç duyar</string>
   <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">Sesli videolar kaydedebilmek için mikrofon erişim iznini etkinleştirin.</string>
-  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Signal videolar kaydedebilmek için mikrofon erişimine ihtiyaç duyar, ama bu erişim reddedilmiş. Lütfen uygulama ayarlarına girip, \"İzinler\"i seçin, sonrasında \"Mikrofon\" ve \"Kamera\"yı etkinleştirin.</string>
-  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Signal video kaydedebilmek için mikrofon erişimine izin duyar.</string>
+  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Grapherex videolar kaydedebilmek için mikrofon erişimine ihtiyaç duyar, ama bu erişim reddedilmiş. Lütfen uygulama ayarlarına girip, \"İzinler\"i seçin, sonrasında \"Mikrofon\" ve \"Kamera\"yı etkinleştirin.</string>
+  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Grapherex video kaydedebilmek için mikrofon erişimine izin duyar.</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
-  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Signal varsayılan SMS uygulaması olmadığı için SMS/MMS iletileri gönderemiyor. Bunu Android ayarlarınızdan değiştirmek ister misiniz?</string>
+  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Grapherex varsayılan SMS uygulaması olmadığı için SMS/MMS iletileri gönderemiyor. Bunu Android ayarlarınızdan değiştirmek ister misiniz?</string>
   <string name="ConversationActivity_yes">Evet</string>
   <string name="ConversationActivity_no">Hayır</string>
   <string name="ConversationActivity_search_position">%1$d / %2$d</string>
@@ -233,7 +233,7 @@
   <string name="ConversationActivity_you_will_leave_this_group_and_it_will_be_deleted_from_all_of_your_devices">Bu gruptan ayrılacaksınız ve tüm cihazlarınızdan silinecek.</string>
   <string name="ConversationActivity_delete">Sil</string>
   <string name="ConversationActivity_delete_and_leave">Sil ve ayrıl</string>
-  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">%1$s ile arama yapmanız için, Signal\'in mikrofonunuza erişime ihtiyacı var.</string>
+  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">%1$s ile arama yapmanız için, Grapherex\'in mikrofonunuza erişime ihtiyacı var.</string>
   <string name="ConversationActivity__more_options_now_in_group_settings">\"Grup ayarları\" artık daha fazla seçeneğe sahip</string>
   <string name="ConversationActivity_join">Katıl</string>
   <string name="ConversationActivity_full">Dolu</string>
@@ -267,14 +267,14 @@
     <item quantity="other">%1$d eklenti depolamaya kaydediliyor…</item>
   </plurals>
   <string name="ConversationFragment_pending">Bekleniyor…</string>
-  <string name="ConversationFragment_push">Veri (Signal)</string>
+  <string name="ConversationFragment_push">Veri (Grapherex)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">Siliniyor</string>
   <string name="ConversationFragment_deleting_messages">İletiler siliniyor…</string>
   <string name="ConversationFragment_delete_for_me">Benden sil</string>
   <string name="ConversationFragment_delete_for_everyone">Herkesten sil</string>
-  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Bu ileti konuşmadaki güncel bir Signal sürümü kullanan herkesten silinecektir. Üyeler bir ileti sildiğinizi göreceklerdir.</string>
+  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Bu ileti konuşmadaki güncel bir Grapherex sürümü kullanan herkesten silinecektir. Üyeler bir ileti sildiğinizi göreceklerdir.</string>
   <string name="ConversationFragment_quoted_message_not_found">İletinin aslı bulunamadı</string>
   <string name="ConversationFragment_quoted_message_no_longer_available">İletinin aslı artık mevcut değil</string>
   <string name="ConversationFragment_failed_to_open_message">İleti açılamadı</string>
@@ -286,12 +286,12 @@
   <string name="ConversationFragment__d_group_members_have_the_same_name">%1$d grup üyesi aynı ada sahip.</string>
   <string name="ConversationFragment__tap_to_review">Gözden geçirmek için dokunun</string>
   <string name="ConversationFragment__review_requests_carefully">İstekleri dikkatlice inceleyin</string>
-  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Signal aynı ada sahip başka bir kişi buldu.</string>
+  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Grapherex aynı ada sahip başka bir kişi buldu.</string>
   <string name="ConversationFragment_contact_us">Bizimle iletişime geçin</string>
   <string name="ConversationFragment_verify">Doğrula</string>
   <string name="ConversationFragment_not_now">Şimdi değil</string>
   <string name="ConversationFragment_your_safety_number_with_s_changed">%s ile olan güvenlik numaranız değişti</string>
-  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">%s ile olan güvenlik numaranız değişti, bunun sebebi Signal\'i yeniden yüklemeleri veya cihaz değiştirmeleri olabilir. Yeni güvenlik numarasını onaylamak için Doğrula\'ya dokunun. Bu eylem isteğe bağlıdır.</string>
+  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">%s ile olan güvenlik numaranız değişti, bunun sebebi Grapherex\'i yeniden yüklemeleri veya cihaz değiştirmeleri olabilir. Yeni güvenlik numarasını onaylamak için Doğrula\'ya dokunun. Bu eylem isteğe bağlıdır.</string>
   <plurals name="ConversationListFragment_delete_selected_conversations">
     <item quantity="one">Seçilen konuşmayı sil?</item>
     <item quantity="other">Seçilen konuşmaları sil?</item>
@@ -348,11 +348,11 @@
   <string name="BackupsPreferenceFragment__test_your_backup_passphrase">Yedek parolanızı deneyin ve eşleştiğinden emin olun</string>
   <string name="BackupsPreferenceFragment__turn_on">Aç</string>
   <string name="BackupsPreferenceFragment__turn_off">Kapat</string>
-  <string name="BackupsPreferenceFragment__to_restore_a_backup">Bir yedeği geri yüklemek için, yeni bir Signal kopyası kurun ve \"Yedeği geri yükle\" dokunun ve yedek dosyasını seçin. %1$s</string>
+  <string name="BackupsPreferenceFragment__to_restore_a_backup">Bir yedeği geri yüklemek için, yeni bir Grapherex kopyası kurun ve \"Yedeği geri yükle\" dokunun ve yedek dosyasını seçin. %1$s</string>
   <string name="BackupsPreferenceFragment__learn_more">Dahasını öğrenin</string>
   <string name="BackupsPreferenceFragment__in_progress">Devam ediyor…</string>
   <string name="BackupsPreferenceFragment__d_so_far">Şu ana kadar %1$d…</string>
-  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Signal, yedek oluşturabilmek için Depolama iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Depolama\"yı etkinleştirin.</string>
+  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Grapherex, yedek oluşturabilmek için Depolama iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Depolama\"yı etkinleştirin.</string>
   <!--CustomDefaultPreference-->
   <string name="CustomDefaultPreference_using_custom">Özelleştirilmiş \'%s\' kullanılıyor</string>
   <string name="CustomDefaultPreference_using_default">Varsayılan \'%s\' kullanılıyor</string>
@@ -371,7 +371,7 @@
   <string name="DateUtils_yesterday">Dün</string>
   <!--DecryptionFailedDialog-->
   <string name="DecryptionFailedDialog_chat_session_refreshed">Konuşma oturumu yenilendi</string>
-  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Signal uçtan uca şifreleme kullanır ve bazen konuşma oturumunu yenilemesi gerekebilir. Bu, konuşmanızın güvenliğini etkilemez, ancak bu kişiden gelen iletileri kaçırmış olabilirsiniz, bu durumda yeniden göndermelerini isteyebilirsiniz.</string>
+  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Grapherex uçtan uca şifreleme kullanır ve bazen konuşma oturumunu yenilemesi gerekebilir. Bu, konuşmanızın güvenliğini etkilemez, ancak bu kişiden gelen iletileri kaçırmış olabilirsiniz, bu durumda yeniden göndermelerini isteyebilirsiniz.</string>
   <!--DeviceListActivity-->
   <string name="DeviceListActivity_unlink_s">\'%s\' bağlantısını kaldır?</string>
   <string name="DeviceListActivity_by_unlinking_this_device_it_will_no_longer_be_able_to_send_or_receive">Bu cihazın bağlantısını kaldırarak, artık ileti alamayacak ya da gönderemeyeceksiniz.</string>
@@ -388,8 +388,8 @@
   <!--DocumentView-->
   <string name="DocumentView_unnamed_file">İsimsiz dosya</string>
   <!--DonateMegaphone-->
-  <string name="DonateMegaphone_donate_to_signal">Signal\'e Bağış Yap</string>
-  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Signal, sizin gibi insanlar tarafından desteklenmektedir. Desteğinizi bugün gösterin!</string>
+  <string name="DonateMegaphone_donate_to_signal">Grapherex\'e Bağış Yap</string>
+  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Grapherex, sizin gibi insanlar tarafından desteklenmektedir. Desteğinizi bugün gösterin!</string>
   <string name="DonateMegaphone_donate">Bağış yapın</string>
   <string name="DonateMegaphone_no_thanks">Hayır teşekkürler</string>
   <!--GroupCallingMegaphone-->
@@ -397,9 +397,9 @@
   <string name="GroupCallingMegaphone__open_a_new_group_to_start">Ücretsiz ve şifreli grup araması başlatmak için yeni bir Grup açın.</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">Eksik Google Play Hizmetleri için optimize et</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Bu cihaz Play Hizmetlerini desteklemiyor. Signal etkin değilken ileti almasını engelleyebilecek pil iyileştirmelerini devre dışı bırakmak için dokunun.</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Bu cihaz Play Hizmetlerini desteklemiyor. Grapherex etkin değilken ileti almasını engelleyebilecek pil iyileştirmelerini devre dışı bırakmak için dokunun.</string>
   <!--ExpiredBuildReminder-->
-  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Signal\'in bu sürümü kullanım dışı kaldı. İleti gönderip alabilmek için şimdi güncelleyin.</string>
+  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Grapherex\'in bu sürümü kullanım dışı kaldı. İleti gönderip alabilmek için şimdi güncelleyin.</string>
   <string name="ExpiredBuildReminder_update_now">Şimdi güncelle</string>
   <!--PendingGroupJoinRequestsReminder-->
   <plurals name="PendingGroupJoinRequestsReminder_d_pending_member_requests">
@@ -411,8 +411,8 @@
   <string name="ShareActivity_share_with">Paylaşılacak kişi</string>
   <string name="ShareActivity_multiple_attachments_are_only_supported">Çoklu ekler sadece resim ve dosyalarda destekleniyor</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Kalıcı Signal haberleşme hatası!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal Google Play Hizmetleri\'ne kaydolamadı. Signal iletileri ve aramaları devre dışı bırakıldı, lütfen Ayarlar &gt; Gelişmiş kısmından tekrar kaydolmayı deneyin.</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Kalıcı Grapherex haberleşme hatası!</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Grapherex Google Play Hizmetleri\'ne kaydolamadı. Grapherex iletileri ve aramaları devre dışı bırakıldı, lütfen Ayarlar &gt; Gelişmiş kısmından tekrar kaydolmayı deneyin.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Tam çözünürlüklü GIF alınırken hata</string>
   <!--GiphyFragmentPageAdapter-->
@@ -571,7 +571,7 @@
   <string name="AddGroupDetailsFragment__this_field_is_required">Bu alanın doldurulması gereklidir.</string>
   <string name="AddGroupDetailsFragment__group_creation_failed">Grup yaratma başarısız oldu.</string>
   <string name="AddGroupDetailsFragment__try_again_later">Daha sonra tekrar dene.</string>
-  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">Signal gruplarını desteklemeyen bir kişiyi seçtiniz, bu nedenle bu grup MMS olacaktır. </string>
+  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">Grapherex gruplarını desteklemeyen bir kişiyi seçtiniz, bu nedenle bu grup MMS olacaktır. </string>
   <string name="AddGroupDetailsFragment_custom_mms_group_names_and_photos_will_only_be_visible_to_you">Özel MMS grup adı ve resimlerini yalnızca siz görebilirsiniz</string>
   <string name="AddGroupDetailsFragment__remove">Kaldır</string>
   <string name="AddGroupDetailsFragment__sms_contact">SMS kişisi</string>
@@ -585,15 +585,15 @@
     <item quantity="other">%d üye Yeni Grupları desteklemiyor, bu grup oluşturulamaz.</item>
   </plurals>
   <!--NonGv2MemberDialog-->
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">\"%1$s\" eski bir Signal sürümü kullandığı için bir Eski Grup oluşturulacaktır. Bu kişilerle Yeni Grup Türünü Signal sürümlerini güncelleyince veya grubu oluşturmadan önce kişiyi silerek oluşturabilirsiniz.</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">\"%1$s\" eski bir Grapherex sürümü kullandığı için bir Eski Grup oluşturulacaktır. Bu kişilerle Yeni Grup Türünü Grapherex sürümlerini güncelleyince veya grubu oluşturmadan önce kişiyi silerek oluşturabilirsiniz.</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable">
-    <item quantity="one">%1$d üye Signal\'in eski bir sürümünü kullandığı için eski bir grup oluşturulacaktır. Signal\'i güncelledikten sonra üyeler ile yeni bir grup oluşturabilir veya grubu oluşturmadan önce üyeleri kaldırabilirsiniz.</item>
-    <item quantity="other">%1$d üye Signal\'in eski bir sürümünü kullandığı için eski bir grup oluşturulacaktır. Signal\'i güncelledikten sonra üyeler ile yeni bir grup oluşturabilir veya grubu oluşturmadan önce üyeleri kaldırabilirsiniz.</item>
+    <item quantity="one">%1$d üye Grapherex\'in eski bir sürümünü kullandığı için eski bir grup oluşturulacaktır. Grapherex\'i güncelledikten sonra üyeler ile yeni bir grup oluşturabilir veya grubu oluşturmadan önce üyeleri kaldırabilirsiniz.</item>
+    <item quantity="other">%1$d üye Grapherex\'in eski bir sürümünü kullandığı için eski bir grup oluşturulacaktır. Grapherex\'i güncelledikten sonra üyeler ile yeni bir grup oluşturabilir veya grubu oluşturmadan önce üyeleri kaldırabilirsiniz.</item>
   </plurals>
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">Bu grup \"%1$s\" eski bir Signal sürümü kullandığı için oluşturulamaz. Grubu oluşturmadan önce kendisini çıkartmalısınız.</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">Bu grup \"%1$s\" eski bir Grapherex sürümü kullandığı için oluşturulamaz. Grubu oluşturmadan önce kendisini çıkartmalısınız.</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable_forced_migration">
-    <item quantity="one">Bu grup %1$d üyenin eski bir Signal sürümü kullandığı için oluşturulamaz. Grubu oluşturmadan önce kendisini çıkartmalısınız.</item>
-    <item quantity="other">Bu grup %1$d üyenin eski bir Signal sürümü kullandığı için oluşturulamaz. Grubu oluşturmadan önce kendilerini çıkartmalısınız.</item>
+    <item quantity="one">Bu grup %1$d üyenin eski bir Grapherex sürümü kullandığı için oluşturulamaz. Grubu oluşturmadan önce kendisini çıkartmalısınız.</item>
+    <item quantity="other">Bu grup %1$d üyenin eski bir Grapherex sürümü kullandığı için oluşturulamaz. Grubu oluşturmadan önce kendilerini çıkartmalısınız.</item>
   </plurals>
   <!--ManageGroupActivity-->
   <string name="ManageGroupActivity_member_requests_and_invites">Üyelik istekleri &amp; davetleri</string>
@@ -623,7 +623,7 @@
   <string name="ManageGroupActivity_only_admins_can_enable_or_disable_the_option_to_approve_new_members">Yeni üyeleri onaylama seçeneğini yalnızca yöneticiler etkinleştirebilir veya devre dışı bırakabilir.</string>
   <string name="ManageGroupActivity_only_admins_can_reset_the_sharable_group_link">Paylaşılabilir grup bağlantısını yalnızca yöneticiler sıfırlayabilir.</string>
   <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">Bunu yapma için hakkınız yok</string>
-  <string name="ManageGroupActivity_not_capable">Eklediğiniz biri yeni grupları desteklemiyor ve Signal\'i güncellemesi gerekiyor</string>
+  <string name="ManageGroupActivity_not_capable">Eklediğiniz biri yeni grupları desteklemiyor ve Grapherex\'i güncellemesi gerekiyor</string>
   <string name="ManageGroupActivity_failed_to_update_the_group">Grubu güncelleme başarısız oldu</string>
   <string name="ManageGroupActivity_youre_not_a_member_of_the_group">Grubun üyesi değilsiniz</string>
   <string name="ManageGroupActivity_failed_to_update_the_group_please_retry_later">Grubun güncellenmesi başarısız oldu, lütfen daha sonra tekrar deneyin</string>
@@ -634,7 +634,7 @@
   <string name="ManageGroupActivity_legacy_group_upgrade">Bu bir Eski Gruptur. Bahsedilmeler ve yöneticiler gibi özelliklere erişmek için,</string>
   <string name="ManageGroupActivity_legacy_group_too_large">Bu eski grup, boyutu çok büyük olduğu için Yeni Gruba yükseltilemiyor. Azami grup boyutu %1$d.</string>
   <string name="ManageGroupActivity_upgrade_this_group">bu grubu yükseltin.</string>
-  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Bu şifresiz MMS Grubudur. Özel olarak konuşmak için kişilerinizi Signal\'e davet edin.</string>
+  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Bu şifresiz MMS Grubudur. Özel olarak konuşmak için kişilerinizi Grapherex\'e davet edin.</string>
   <string name="ManageGroupActivity_invite_now">Şimdi davet et</string>
   <!--GroupMentionSettingDialog-->
   <string name="GroupMentionSettingDialog_notify_me_for_mentions">Bahsedilmeleri bana bildir</string>
@@ -726,10 +726,10 @@
     <item quantity="other">Grup · %1$d üye</item>
   </plurals>
   <!--GroupJoinUpdateRequiredBottomSheetDialogFragment-->
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Grup bağlantılarını kullanabilmek için Signal\'i güncelleyin</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Kullandığınız bu Signal sürümü bu grup bağlantısını desteklemiyor. Bu gruba bağlantı aracılığıyla katılmak için son sürüme güncelleyin.</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Signal\'i Güncelle</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">Bağlı aygıtlarınızdan bir veya daha fazla grup bağlantılarını desteklemeyen Signal sürümü kullanıyor. Bu gruba katılabilmek için bağlı aygıtlarınızdaki Signal\'i güncelleyin.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Grup bağlantılarını kullanabilmek için Grapherex\'i güncelleyin</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Kullandığınız bu Grapherex sürümü bu grup bağlantısını desteklemiyor. Bu gruba bağlantı aracılığıyla katılmak için son sürüme güncelleyin.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Grapherex\'i Güncelle</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">Bağlı aygıtlarınızdan bir veya daha fazla grup bağlantılarını desteklemeyen Grapherex sürümü kullanıyor. Bu gruba katılabilmek için bağlı aygıtlarınızdaki Grapherex\'i güncelleyin.</string>
   <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">Grup bağlantısı geçersiz</string>
   <!--GroupInviteLinkEnableAndShareBottomSheetDialogFragment-->
   <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_invite_friends">Arkadaşlarını davet et</string>
@@ -759,7 +759,7 @@
   <string name="InviteActivity_cancel">İptal</string>
   <string name="InviteActivity_sending">Gönderiliyor…</string>
   <string name="InviteActivity_invitations_sent">Davetler gönderildi!</string>
-  <string name="InviteActivity_invite_to_signal">Signal\'e davet et</string>
+  <string name="InviteActivity_invite_to_signal">Grapherex\'e davet et</string>
   <plurals name="InviteActivity_send_sms_to_friends">
     <item quantity="one">%d ARKADAŞINA SMS GÖNDER</item>
     <item quantity="other">%d ARKADAŞINA SMS GÖNDER</item>
@@ -768,7 +768,7 @@
     <item quantity="one">%d SMS daveti gönderilsin mi?</item>
     <item quantity="other">%d SMS daveti gönderilsin mi?</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">Hadi Signal\'e geçelim: %1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">Hadi Grapherex\'e geçelim: %1$s</string>
   <string name="InviteActivity_no_app_to_share_to">Paylaşmak için herhangi bir uygulamanız yok gibi görünüyor.</string>
   <string name="InviteActivity_friends_dont_let_friends_text_unencrypted">Arkadaşlar, arkadaşlarının şifresiz konuşmalarına izin vermez.</string>
   <!--LearnMoreTextView-->
@@ -778,7 +778,7 @@
   <string name="LongMessageActivity_message_from_s">%1$s kişisinden ileti</string>
   <string name="LongMessageActivity_your_message">İletiniz</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">Grapherex</string>
   <string name="MessageRetrievalService_background_connection_enabled">Arkaplan bağlantısı etkinleştirildi</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">Kablosuz MMS sağlayıcısı ayarları okunurken hata</string>
@@ -827,7 +827,7 @@
   <string name="Megaphones_introducing_reactions">Karşınızda Karşılıklar</string>
   <string name="Megaphones_tap_and_hold_any_message_to_quicky_share_how_you_feel">Nasıl hissettiğinizi hızlıca paylaşmak için herhangi bir iletinin üzerine dokunup basılı tutun.</string>
   <string name="Megaphones_remind_me_later">Daha sonra hatırlat</string>
-  <string name="Megaphones_verify_your_signal_pin">Signal PIN\'inizi doğrulayın</string>
+  <string name="Megaphones_verify_your_signal_pin">Grapherex PIN\'inizi doğrulayın</string>
   <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">PIN\'inizi hatırlamanız için arada sırada doğrulamanızı isteyeceğiz.</string>
   <string name="Megaphones_verify_pin">PIN\'i doğrula</string>
   <string name="Megaphones_get_started">Kullanmaya başla</string>
@@ -835,10 +835,10 @@
   <string name="Megaphones_invite_friends">Arkadaşlarını davet et</string>
   <string name="Megaphones_use_sms">SMS kullan</string>
   <!--NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Signal araması sürüyor</string>
-  <string name="NotificationBarManager__establishing_signal_call">Signal araması kuruluyor</string>
-  <string name="NotificationBarManager__incoming_signal_call">Gelen Signal araması</string>
-  <string name="NotificationBarManager__stopping_signal_call_service">Signal\'in arama hizmeti durduruluyor</string>
+  <string name="NotificationBarManager_signal_call_in_progress">Grapherex araması sürüyor</string>
+  <string name="NotificationBarManager__establishing_signal_call">Grapherex araması kuruluyor</string>
+  <string name="NotificationBarManager__incoming_signal_call">Gelen Grapherex araması</string>
+  <string name="NotificationBarManager__stopping_signal_call_service">Grapherex\'in arama hizmeti durduruluyor</string>
   <string name="NotificationBarManager__deny_call">Reddet</string>
   <string name="NotificationBarManager__answer_call">Cevapla</string>
   <string name="NotificationBarManager__end_call">Aramayı sonlandır</string>
@@ -862,8 +862,8 @@
   <string name="MediaSendActivity_message_to_s">%s kişisine ileti</string>
   <string name="MediaSendActivity_message">İleti</string>
   <string name="MediaSendActivity_select_recipients">Alıcıları seçin</string>
-  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Signal\'in kişilerinizi gösterebilmek için erişime ihtiyacı var.</string>
-  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Kişilerinizi göstermek için Signal\'in kişiler iznine ihtiyacı var fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulamanın ayarlarına girip \"İzinleri\" seçin ve \"Kişileri\" etkinleştirin.</string>
+  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Grapherex\'in kişilerinizi gösterebilmek için erişime ihtiyacı var.</string>
+  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Kişilerinizi göstermek için Grapherex\'in kişiler iznine ihtiyacı var fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulamanın ayarlarına girip \"İzinleri\" seçin ve \"Kişileri\" etkinleştirin.</string>
   <plurals name="MediaSendActivity_cant_share_more_than_n_items">
     <item quantity="one">%d öğeden daha fazlasını paylaşamazsınız.</item>
     <item quantity="other">%d öğeden daha fazlasını paylaşamazsınız.</item>
@@ -875,7 +875,7 @@
   <string name="MediaRepository__camera">Kamera</string>
   <!--MessageRecord-->
   <string name="MessageRecord_unknown">Bilinmeyen</string>
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Artık desteklenmeyen eski bir Signal sürümü kullanılarak şifrelenmiş bir ileti alındı. Gönderen kişiden Signal\'i en son sürüme güncellemesini ve iletiyi yeniden göndermesini isteyin.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Artık desteklenmeyen eski bir Grapherex sürümü kullanılarak şifrelenmiş bir ileti alındı. Gönderen kişiden Grapherex\'i en son sürüme güncellemesini ve iletiyi yeniden göndermesini isteyin.</string>
   <string name="MessageRecord_left_group">Gruptan ayrıldınız.</string>
   <string name="MessageRecord_you_updated_group">Grubu güncellediniz.</string>
   <string name="MessageRecord_the_group_was_updated">Grup güncellendi</string>
@@ -884,7 +884,7 @@
   <string name="MessageRecord_missed_video_call_date">Yanıtsız görüntülü arama · %1$s</string>
   <string name="MessageRecord_s_updated_group">%s grubu güncelledi.</string>
   <string name="MessageRecord_s_called_you_date">%1$s sizi aradı · %2$s</string>
-  <string name="MessageRecord_s_joined_signal">%s Signal\'e katıldı!</string>
+  <string name="MessageRecord_s_joined_signal">%s Grapherex\'e katıldı!</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">Kaybolan iletileri devre dışı bıraktınız.</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$s kaybolan iletileri devre dışı bıraktı.</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">Kaybolan ileti zamanlayıcısını %1$s olarak ayarladınız.</string>
@@ -1098,9 +1098,9 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">Geçersiz karekod.</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Üzgünüz, halihazırda bağlı olan çok fazla cihazınız var. Bazılarını kaldırmayı deneyin.</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Üzgünüz, bu geçerli bir cihaz bağlama karekodu değil.</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">Bir Signal cihazı bağlansın mı?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Üçüncül bir tarafın tarayıcısı ile taramaya çalışıyorsunuz gibi gözüküyor. Güvenliğiniz için, lütfen kodu Signal\'in içerisinden tekrar tarayın.</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Signal, bir karekod taramak için Kamera iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Kamera\"yı etkinleştirin.</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">Bir Grapherex cihazı bağlansın mı?</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Üçüncül bir tarafın tarayıcısı ile taramaya çalışıyorsunuz gibi gözüküyor. Güvenliğiniz için, lütfen kodu Grapherex\'in içerisinden tekrar tarayın.</string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Grapherex, bir karekod taramak için Kamera iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Kamera\"yı etkinleştirin.</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Kamera izni olmadan karekod taranamıyor.</string>
   <!--ExpirationDialog-->
   <string name="ExpirationDialog_disappearing_messages">Kaybolan iletiler</string>
@@ -1108,18 +1108,18 @@
   <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Bu konuşmada gönderilen ve alınan iletiler görüldükten %s sonra yok olur.</string>
   <!--OutdatedBuildReminder-->
   <string name="OutdatedBuildReminder_update_now">Şimdi güncelle</string>
-  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Signal\'in bu sürümü bugün kullanım dışı kalacak. En yeni sürüme güncelleyin.</string>
+  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Grapherex\'in bu sürümü bugün kullanım dışı kalacak. En yeni sürüme güncelleyin.</string>
   <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-    <item quantity="one">Signal\'in bu sürümü 1 gün içinde kullanım dışı kalacak. En yeni sürüme güncelleyin.</item>
-    <item quantity="other">Signal\'in bu sürümü %d gün içinde kullanım dışı kalacak. En yeni sürüme güncelleyin.</item>
+    <item quantity="one">Grapherex\'in bu sürümü 1 gün içinde kullanım dışı kalacak. En yeni sürüme güncelleyin.</item>
+    <item quantity="other">Grapherex\'in bu sürümü %d gün içinde kullanım dışı kalacak. En yeni sürüme güncelleyin.</item>
   </plurals>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">Parola girin</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Signal simgesi</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">Grapherex simgesi</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">Parola gir</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Geçersiz parola!</string>
-  <string name="PassphrasePromptActivity_unlock_signal">Signal\'in Kilidini Aç</string>
-  <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android - Kilit Ekranı</string>
+  <string name="PassphrasePromptActivity_unlock_signal">Grapherex\'in Kilidini Aç</string>
+  <string name="PassphrasePromptActivity_signal_android_lock_screen">Grapherex Android - Kilit Ekranı</string>
   <!--PlacePickerActivity-->
   <string name="PlacePickerActivity_title">Harita</string>
   <string name="PlacePickerActivity_drop_pin">İşaretle</string>
@@ -1140,16 +1140,16 @@
     <item quantity="one">%1$d deneme hakkınız kaldı. Eğer hakkınız biterse, yeni bir tane oluşturabilirsiniz. Hesabınızı kaydedebilir ve kullanabilirsiniz, ancak profil bilgileriniz gibi kaydedilmiş bazı ayarları kaybedersiniz.</item>
     <item quantity="other">%1$d deneme hakkınız kaldı. Eğer hakkınız biterse, yeni bir tane oluşturabilirsiniz. Hesabınızı kaydedebilir ve kullanabilirsiniz, ancak profil bilgileriniz gibi kaydedilmiş bazı ayarları kaybedersiniz.</item>
   </plurals>
-  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Signal Kaydı - Android için PIN ile ilgili Yardıma İhtiyacınız Var mı</string>
+  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Grapherex Kaydı - Android için PIN ile ilgili Yardıma İhtiyacınız Var mı</string>
   <string name="PinRestoreEntryFragment_enter_alphanumeric_pin">Alfanumerik PIN\'i Girin</string>
   <string name="PinRestoreEntryFragment_enter_numeric_pin">Sayısal PIN\'i Girin</string>
   <!--PinRestoreLockedFragment-->
   <string name="PinRestoreLockedFragment_create_your_pin">PIN\'inizi oluşturun</string>
-  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">PIN tahminleriniz bitti, fakat yeni bir PIN oluşturarak Signal hesabınıza erişebilirsiniz. Gizliliğiniz ve güvenliğiniz için hesabınız kaydedilmiş Profil bilgileri ve ayarları olmadan geri yüklenecektir.</string>
+  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">PIN tahminleriniz bitti, fakat yeni bir PIN oluşturarak Grapherex hesabınıza erişebilirsiniz. Gizliliğiniz ve güvenliğiniz için hesabınız kaydedilmiş Profil bilgileri ve ayarları olmadan geri yüklenecektir.</string>
   <string name="PinRestoreLockedFragment_create_new_pin">Yeni PIN oluştur</string>
   <!--PinOptOutDialog-->
   <string name="PinOptOutDialog_warning">Uyarı</string>
-  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">PIN\'i devre dışı bırakırsanız, elle yedekleyip geri yüklemediğiniz sürece Signal\'i yeniden kaydettiğinizde tüm verilerinizi kaybedersiniz. PIN devre dışı iken Kayıt Kilidini açamazsınız.</string>
+  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">PIN\'i devre dışı bırakırsanız, elle yedekleyip geri yüklemediğiniz sürece Grapherex\'i yeniden kaydettiğinizde tüm verilerinizi kaybedersiniz. PIN devre dışı iken Kayıt Kilidini açamazsınız.</string>
   <string name="PinOptOutDialog_disable_pin">PIN\'i devre dışı bırak</string>
   <!--RatingManager-->
   <string name="RatingManager_rate_this_app">Bu uygulamaya puan verin</string>
@@ -1180,12 +1180,12 @@
   <string name="RedPhone_got_it">Anladım</string>
   <!--WebRtcCallActivity-->
   <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">Görüntünüzü açmak için buraya dokunun</string>
-  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">%1$s ile arama yapmanız için, Signal\'in kameranıza erişime ihtiyacı var</string>
-  <string name="WebRtcCallActivity__signal_s">Signal %1$s</string>
+  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">%1$s ile arama yapmanız için, Grapherex\'in kameranıza erişime ihtiyacı var</string>
+  <string name="WebRtcCallActivity__signal_s">Grapherex %1$s</string>
   <string name="WebRtcCallActivity__calling">Aranıyor…</string>
   <!--WebRtcCallView-->
-  <string name="WebRtcCallView__signal_voice_call">Signal sesli arama…</string>
-  <string name="WebRtcCallView__signal_video_call">Signal görüntülü arama…</string>
+  <string name="WebRtcCallView__signal_voice_call">Grapherex sesli arama…</string>
+  <string name="WebRtcCallView__signal_video_call">Grapherex görüntülü arama…</string>
   <string name="WebRtcCallView__start_call">Arama Başlat</string>
   <string name="WebRtcCallView__join_call">Çağrıya Katıl</string>
   <string name="WebRtcCallView__call_is_full">Arama dolu</string>
@@ -1238,13 +1238,13 @@
   <string name="RegistrationActivity_is_your_phone_number_above_correct">Yukarıdaki telefon numaranız doğru mu?</string>
   <string name="RegistrationActivity_edit_number">Numarayı düzenle</string>
   <string name="RegistrationActivity_missing_google_play_services">Google Play Hizmetleri eksik</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Bu cihazda Google Play Hizmetleri bulunmamakta. Signal\'i kullanmaya devam edebilirsiniz ancak bu yapılandırma şekli azaltılmış güvenirlik veya performans gibi sonuçları doğurabilir. \n\nEğer ileri düzey kullanıcı değilseniz, alternatif Android ROM kullanmıyorsanız, veya bunu bir hata olarak görüyorsanız, lütfen sorun giderme konusunda yardım almak için support@signal.org adresinden iletişime geçiniz</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Bu cihazda Google Play Hizmetleri bulunmamakta. Grapherex\'i kullanmaya devam edebilirsiniz ancak bu yapılandırma şekli azaltılmış güvenirlik veya performans gibi sonuçları doğurabilir. \n\nEğer ileri düzey kullanıcı değilseniz, alternatif Android ROM kullanmıyorsanız, veya bunu bir hata olarak görüyorsanız, lütfen sorun giderme konusunda yardım almak için support@Grapherex.org adresinden iletişime geçiniz</string>
   <string name="RegistrationActivity_i_understand">Anladım</string>
   <string name="RegistrationActivity_play_services_error">Play Hizmetleri Hatası</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play Hizmetleri güncelleniyor veya geçiçi olarak kullanılamaz durumda. Lütfen tekrar deneyiniz.</string>
   <string name="RegistrationActivity_terms_and_privacy">Koşullar ve Gizlilik İlkesi</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Kişilerinizle iletişim kurabilmeniz ve güvenli aramalar yapabilmeniz için Signal\'in Kişilerinize ve Depolamanıza erişime ihtiyacı var</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Kişilerinizle iletişim kurabilmeniz ve güvenli aramalar yapabilmeniz için Signal\'in Kişilerinize erişime ihtiyacı var</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Kişilerinizle iletişim kurabilmeniz ve güvenli aramalar yapabilmeniz için Grapherex\'in Kişilerinize ve Depolamanıza erişime ihtiyacı var</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Kişilerinizle iletişim kurabilmeniz ve güvenli aramalar yapabilmeniz için Grapherex\'in Kişilerinize erişime ihtiyacı var</string>
   <string name="RegistrationActivity_rate_limited_to_service">Bu numarayı kaydettirmek için çok fazla deneme yaptınız. Lütfen daha sonra tekrar deneyiniz.</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">Hizmete bağlanılamadı. Lütfen ağ bağlantınızı kontrol edip tekrar deneyin. </string>
   <plurals name="RegistrationActivity_debug_log_hint">
@@ -1266,7 +1266,7 @@
   <!--RegistrationLockV2Dialog-->
   <string name="RegistrationLockV2Dialog_turn_on_registration_lock">Kayıt Kilidi Açılsın mı?</string>
   <string name="RegistrationLockV2Dialog_turn_off_registration_lock">Kayıt Kilidi Kapatılsın mı?</string>
-  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Signal\'e tekrar kaydolurken Signal PIN\'inizi unutursanız, hesabınıza 7 gün boyunca erişemezsiniz. </string>
+  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Grapherex\'e tekrar kaydolurken Grapherex PIN\'inizi unutursanız, hesabınıza 7 gün boyunca erişemezsiniz. </string>
   <string name="RegistrationLockV2Dialog_turn_on">Aç</string>
   <string name="RegistrationLockV2Dialog_turn_off">Kapat</string>
   <!--RevealableMessageView-->
@@ -1282,14 +1282,14 @@
   <!--ShakeToReport-->
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">Kişilere Ekle</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">Signal\'e davet et</string>
-  <string name="SharedContactDetailsActivity_signal_message">Signal İletisi</string>
-  <string name="SharedContactDetailsActivity_signal_call">Signal Araması</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">Grapherex\'e davet et</string>
+  <string name="SharedContactDetailsActivity_signal_message">Grapherex İletisi</string>
+  <string name="SharedContactDetailsActivity_signal_call">Grapherex Araması</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">Kişilere Ekle</string>
-  <string name="SharedContactView_invite_to_signal">Signal\'e davet et</string>
-  <string name="SharedContactView_message">Signal İletisi</string>
-  <!--SignalPinReminders-->
+  <string name="SharedContactView_invite_to_signal">Grapherex\'e davet et</string>
+  <string name="SharedContactView_message">Grapherex İletisi</string>
+  <!--GrapherexPinReminders-->
   <string name="SignalPinReminders_well_remind_you_again_later">Size daha sonra hatırlatacağız</string>
   <string name="SignalPinReminders_well_remind_you_again_tomorrow">Size yarın hatırlatacağız.</string>
   <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">Size birkaç gün içinde hatırlatacağız.</string>
@@ -1310,14 +1310,14 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="SmsMessageRecord_secure_session_reset">Güvenli oturumu sıfırladınız.</string>
   <string name="SmsMessageRecord_secure_session_reset_s">%s güvenli oturumu sıfırladı.</string>
   <string name="SmsMessageRecord_duplicate_message">Tekrarlanan ileti.</string>
-  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">Bu ileti Signal\'in yeni sürümünden gönderildiği için işlenemiyor. Güncelledikten sonra kişinizden bu iletiyi tekrar göndermelerini isteyebilirsiniz.</string>
+  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">Bu ileti Grapherex\'in yeni sürümünden gönderildiği için işlenemiyor. Güncelledikten sonra kişinizden bu iletiyi tekrar göndermelerini isteyebilirsiniz.</string>
   <string name="SmsMessageRecord_error_handling_incoming_message">Gelen ileti işlenirken hata oluştu.</string>
   <!--StickerManagementActivity-->
   <string name="StickerManagementActivity_stickers">Çıkartmalar</string>
   <!--StickerManagementAdapter-->
   <string name="StickerManagementAdapter_installed_stickers">Yüklü Çıkartmalar</string>
   <string name="StickerManagementAdapter_stickers_you_received">Aldığınız Çıkartmalar</string>
-  <string name="StickerManagementAdapter_signal_artist_series">Signal Tarafından</string>
+  <string name="StickerManagementAdapter_signal_artist_series">Grapherex Tarafından</string>
   <string name="StickerManagementAdapter_no_stickers_installed">Yüklü çıkartma yok</string>
   <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">Gelen iletilerden aldığınız çıkartmalar burada gözükecektir</string>
   <string name="StickerManagementAdapter_untitled">İsimsiz</string>
@@ -1342,8 +1342,8 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="SupportEmailUtil_filter">Filtre:</string>
   <string name="SupportEmailUtil_device_info">Cihaz bilgisi:</string>
   <string name="SupportEmailUtil_android_version">Android sürümü:</string>
-  <string name="SupportEmailUtil_signal_version">Signal sürümü:</string>
-  <string name="SupportEmailUtil_signal_package">Signal paketi:</string>
+  <string name="SupportEmailUtil_signal_version">Grapherex sürümü:</string>
+  <string name="SupportEmailUtil_signal_package">Grapherex paketi:</string>
   <string name="SupportEmailUtil_registration_lock">Kayıt kilidi:</string>
   <string name="SupportEmailUtil_locale">Dil:</string>
   <!--ThreadRecord-->
@@ -1362,7 +1362,7 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="ThreadRecord_view_once_media">Tek görümlük içerik</string>
   <string name="ThreadRecord_this_message_was_deleted">Bu ileti silindi.</string>
   <string name="ThreadRecord_you_deleted_this_message">Bu iletiyi sildiniz.</string>
-  <string name="ThreadRecord_s_is_on_signal">%s Signal\'e katıldı!</string>
+  <string name="ThreadRecord_s_is_on_signal">%s Grapherex\'e katıldı!</string>
   <string name="ThreadRecord_disappearing_messages_disabled">Kaybolan iletiler devre dışı</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">Kaybolan ileti süresi %s olarak ayarlandı</string>
   <string name="ThreadRecord_safety_number_changed">Güvenlik numarası değişti</string>
@@ -1378,8 +1378,8 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="ThreadRecord_video">Video</string>
   <string name="ThreadRecord_chat_session_refreshed">Konuşma oturumu yenilendi</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Signal güncellemesi</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Signal\'in yeni sürümü mevcut, güncellemek için dokunun</string>
+  <string name="UpdateApkReadyListener_Signal_update">Grapherex güncellemesi</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Grapherex\'in yeni sürümü mevcut, güncellemek için dokunun</string>
   <!--UntrustedSendDialog-->
   <string name="UntrustedSendDialog_send_message">İleti gönderilsin mi?</string>
   <string name="UntrustedSendDialog_send">Gönder</string>
@@ -1398,20 +1398,20 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="UsernameEditFragment_usernames_cannot_begin_with_a_number">Kullanıcı adları rakam ile başlayamaz.</string>
   <string name="UsernameEditFragment_username_is_invalid">Kullanıcı adı geçersiz.</string>
   <string name="UsernameEditFragment_usernames_must_be_between_a_and_b_characters">Kullanıcı adları %1$d ve %2$d karakter aralığında olmalıdır.</string>
-  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Signal\'de kullanıcı adları tamamen isteğe bağlıdır. Eğer kullanıcı adı oluşturursanız diğer Signal kullanıcıları bu kullanıcı adı ile sizi bulup telefon numaranızı bilmeden size ulaşabileceklerdir.</string>
+  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Grapherex\'de kullanıcı adları tamamen isteğe bağlıdır. Eğer kullanıcı adı oluşturursanız diğer Grapherex kullanıcıları bu kullanıcı adı ile sizi bulup telefon numaranızı bilmeden size ulaşabileceklerdir.</string>
   <plurals name="UserNotificationMigrationJob_d_contacts_are_on_signal">
-    <item quantity="one">%d kişi Signal\'e katıldı!</item>
-    <item quantity="other">%d kişi Signal\'e katıldı!</item>
+    <item quantity="one">%d kişi Grapherex\'e katıldı!</item>
+    <item quantity="other">%d kişi Grapherex\'e katıldı!</item>
   </plurals>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Kişiniz Signal\'in eski bir sürümünü kullanmakta. Güvenlik numaranızı doğrulamadan önce uygulamayı güncellemelerini rica edin.</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Kişiniz Signal\'in uyumsuz karekod formatına sahip yeni bir sürümünü kullanıyor. Karşılaştırmak için lütfen güncelleyin.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Kişiniz Grapherex\'in eski bir sürümünü kullanmakta. Güvenlik numaranızı doğrulamadan önce uygulamayı güncellemelerini rica edin.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Kişiniz Grapherex\'in uyumsuz karekod formatına sahip yeni bir sürümünü kullanıyor. Karşılaştırmak için lütfen güncelleyin.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Taranan karekod düzgün biçimlendirilmiş bir güvenlik numarası doğrulama kodu değil. Lütfen tekrar taramayı deneyin.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Güvenlik numarasını şununla paylaş…</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">Signal güvenlik numaramız:</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">Grapherex güvenlik numaramız:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">Paylaşmak için herhangi bir uygulamanız yok gibi görünüyor. </string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Panoda karşılaştırılacak bir güvenlik numarası bulunamadı</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signal, bir karekod taramak için Kamera iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Kamera\"yı etkinleştirin.</string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Grapherex, bir karekod taramak için Kamera iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Kamera\"yı etkinleştirin.</string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">Kamera izni olmadan karekod taranamıyor.</string>
   <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">%1$s\'in güvenli numarasını görmek için önce ona ileti gönderip almanız gerekiyor.</string>
   <!--ViewOnceMessageActivity-->
@@ -1430,13 +1430,13 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="ApplicationMigrationService_system_database_import_is_complete">Sistem veritabanı aktarması tamamlandı.</string>
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">Açmak için dokunun.</string>
-  <string name="KeyCachingService_passphrase_cached">Signal kilidi açık</string>
-  <string name="KeyCachingService_lock">Signal\'i Kilitle</string>
+  <string name="KeyCachingService_passphrase_cached">Grapherex kilidi açık</string>
+  <string name="KeyCachingService_lock">Grapherex\'i Kilitle</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">Siz</string>
   <string name="MediaPreviewActivity_unssuported_media_type">Desteklenmeyen içerik türü</string>
   <string name="MediaPreviewActivity_draft">Taslak</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Signal, harici depolamaya kaydedebilmek için Depolama iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Depolama\"yı etkinleştirin.</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Grapherex, harici depolamaya kaydedebilmek için Depolama iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Depolama\"yı etkinleştirin.</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">İzinler olmadan harici depolamaya kaydedilemiyor</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">İletiyi sil?</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">Bu eylem bu iletiyi kalıcı olarak silecektir.</string>
@@ -1456,10 +1456,10 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="MessageNotifier_view_once_photo">Tek görümlük görüntü</string>
   <string name="MessageNotifier_view_once_video">Tek görümlük video</string>
   <string name="MessageNotifier_reply">Cevapla</string>
-  <string name="MessageNotifier_signal_message">Signal İletisi</string>
+  <string name="MessageNotifier_signal_message">Grapherex İletisi</string>
   <string name="MessageNotifier_unsecured_sms">Şifresiz SMS</string>
   <string name="MessageNotifier_you_may_have_new_messages">Yeni iletileriniz olabilir</string>
-  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Yakın zamandaki bildirimler için Signal\'i açın.</string>
+  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Yakın zamandaki bildirimler için Grapherex\'i açın.</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Kişi</string>
   <string name="MessageNotifier_reacted_s_to_s">\"%2$s\" iletisine karşılık verdi: %1$s</string>
@@ -1470,7 +1470,7 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="MessageNotifier_reacted_s_to_your_view_once_media">Tek görümlük içeriğinize karşılık verdi: %1$s</string>
   <string name="MessageNotifier_reacted_s_to_your_sticker">Çıkartmanıza karşılık verdi: %1$s</string>
   <string name="MessageNotifier_this_message_was_deleted">Bu ileti silindi.</string>
-  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Kişi katıldı Signal bildirimlerini kapatmak mı istiyorsunuz? Signal &gt; Ayarlar &gt; Bildirimler kısmında tekrar açabilirsiniz.</string>
+  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Kişi katıldı Grapherex bildirimlerini kapatmak mı istiyorsunuz? Grapherex &gt; Ayarlar &gt; Bildirimler kısmında tekrar açabilirsiniz.</string>
   <!--Notification Channels-->
   <string name="NotificationChannel_channel_messages">İletiler</string>
   <string name="NotificationChannel_calls">Aramalar</string>
@@ -1482,11 +1482,11 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="NotificationChannel_group_chats">Konuşmalar</string>
   <string name="NotificationChannel_missing_display_name">Bilinmeyen</string>
   <string name="NotificationChannel_voice_notes">Sesli Notlar</string>
-  <string name="NotificationChannel_contact_joined_signal">Kişi Signal\'e katıldı</string>
+  <string name="NotificationChannel_contact_joined_signal">Kişi Grapherex\'e katıldı</string>
   <string name="NotificationChannels__no_activity_available_to_open_notification_channel_settings">Bildirim kanal ayarlarını açmak için mevcut bir faaliyet yok</string>
   <!--ProfileEditNameFragment-->
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Signal kilitliyken hızlı cevap kullanılamaz!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Grapherex kilitliyken hızlı cevap kullanılamaz!</string>
   <string name="QuickResponseService_problem_sending_message">İleti gönderilirken hata!</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">%s konumuna kaydedildi</string>
@@ -1497,7 +1497,7 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">Geçersiz kısayol</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">Grapherex</string>
   <string name="SingleRecipientNotificationBuilder_new_message">Yeni ileti</string>
   <!--ThumbnailView-->
   <string name="ThumbnailView_Play_video_description">Videoyu oynat</string>
@@ -1509,10 +1509,10 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   </plurals>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">Cihaz artık kayıtlı değil</string>
-  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Bunun nedeni büyük olasılıkla telefon numaranızın farklı bir cihazda Signal\'e kaydedilmiş olmasıdır. Tekrar kaydetmek için dokunun.</string>
+  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Bunun nedeni büyük olasılıkla telefon numaranızın farklı bir cihazda Grapherex\'e kaydedilmiş olmasıdır. Tekrar kaydetmek için dokunun.</string>
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">%s tarafından gelen aramayı yanıtlamak için, Signal\'in mikrofonunuza erişmesine izin verin.</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Signal, arama yapmak ve almak için Mikrofon ve Kamera iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, \"Mikrofon\" ve \"Kamera\"yı etkinleştirin.</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">%s tarafından gelen aramayı yanıtlamak için, Grapherex\'in mikrofonunuza erişmesine izin verin.</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Grapherex, arama yapmak ve almak için Mikrofon ve Kamera iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, \"Mikrofon\" ve \"Kamera\"yı etkinleştirin.</string>
   <string name="WebRtcCallActivity__answered_on_a_linked_device">Bağlı cihazdan yanıtlandı.</string>
   <string name="WebRtcCallActivity__declined_on_a_linked_device">Bağlı cihazdan reddedildi.</string>
   <string name="WebRtcCallActivity__busy_on_a_linked_device">Bağlı cihazda meşgul.</string>
@@ -1536,7 +1536,7 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="change_passphrase_activity__repeat_new_passphrase">Yeni parolayı tekrarlayın</string>
   <!--contact_selection_activity-->
   <string name="contact_selection_activity__enter_name_or_number">İsim veya numara girin</string>
-  <string name="contact_selection_activity__invite_to_signal">Signal\'e davet et</string>
+  <string name="contact_selection_activity__invite_to_signal">Grapherex\'e davet et</string>
   <string name="contact_selection_activity__new_group">Yeni grup</string>
   <!--contact_filter_toolbar-->
   <string name="contact_filter_toolbar__clear_entered_text_description">Yazılı metni temizle</string>
@@ -1548,21 +1548,21 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">Kişi Fotoğrafı</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Signal, kişileriniz gösterebilmek için Kişiler iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Kişiler\"i etkinleştirin.</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Grapherex, kişileriniz gösterebilmek için Kişiler iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"Kişiler\"i etkinleştirin.</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Kişiler alınırken hata oluştu, ağ bağlantınızı kontrol edin</string>
   <string name="ContactSelectionListFragment_username_not_found">Kullanıcı adı bulunamadı</string>
-  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">\"%1$s\" bir Signal kullanıcısı değil. Lütfen kullanıcı adını kontrol edin ve tekrar deneyin.</string>
+  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">\"%1$s\" bir Grapherex kullanıcısı değil. Lütfen kullanıcı adını kontrol edin ve tekrar deneyin.</string>
   <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">Kendinizi gruba eklemenize gerek yok</string>
   <string name="ContactSelectionListFragment_maximum_group_size_reached">Grup üye sınırına ulaşıldı</string>
-  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Signal grupları en fazla %1$d üyeye sahip olabilir.</string>
+  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Grapherex grupları en fazla %1$d üyeye sahip olabilir.</string>
   <string name="ContactSelectionListFragment_recommended_member_limit_reached">Önerilen üye sınırına ulaşıldı.</string>
-  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Signal grupları en iyi %1$d veya daha az üyeyle çalışır. Daha fazla üye eklenmesi ileti alımı ve gönderiminde gecikmelere yol açabilir.</string>
+  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Grapherex grupları en iyi %1$d veya daha az üyeyle çalışır. Daha fazla üye eklenmesi ileti alımı ve gönderiminde gecikmelere yol açabilir.</string>
   <plurals name="ContactSelectionListFragment_d_members">
     <item quantity="one">%1$d üye</item>
     <item quantity="other">%1$d üye</item>
   </plurals>
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Signal\'in kişilerinizi gösterebilmek için erişime ihtiyacı var.</string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Grapherex\'in kişilerinizi gösterebilmek için erişime ihtiyacı var.</string>
   <string name="contact_selection_list_fragment__show_contacts">Kişileri Görüntüle</string>
   <!--contact_selection_list_item-->
   <plurals name="contact_selection_list_item__number_of_members">
@@ -1570,7 +1570,7 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
     <item quantity="other">%1$d üye</item>
   </plurals>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">Signal iletisi</string>
+  <string name="conversation_activity__type_message_push">Grapherex iletisi</string>
   <string name="conversation_activity__type_message_sms_insecure">Şifresiz SMS</string>
   <string name="conversation_activity__type_message_mms_insecure">Şifresiz MMS</string>
   <string name="conversation_activity__from_sim_name">Gönderen %1$s</string>
@@ -1582,7 +1582,7 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Hızlı kamera eki çekmecesini göster/gizle</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Ses eki kaydet ve gönder</string>
   <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Ses eklentisi kaydını kilitle</string>
-  <string name="conversation_activity__enable_signal_for_sms">SMS için Signal\'i etkinleştir</string>
+  <string name="conversation_activity__enable_signal_for_sms">SMS için Grapherex\'i etkinleştir</string>
   <string name="conversation_activity__message_could_not_be_sent">İleti gönderilemedi. Bağlantınızı kontrol edip tekrar deneyiniz.</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">İptal etmek için kaydırın</string>
@@ -1683,9 +1683,9 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="IdentityUtil_unverified_banner_one">%s ile olan güvenlik numaranız değişti ve henüz doğrulanmadı.</string>
   <string name="IdentityUtil_unverified_banner_two">%1$s ve %2$s ile olan güvenlik numaralarınız değişti ve henüz doğrulanmadı.</string>
   <string name="IdentityUtil_unverified_banner_many">%1$s, %2$s ve %3$s ile olan güvenlik numaralarınız değişti ve henüz doğrulanmadı.</string>
-  <string name="IdentityUtil_unverified_dialog_one">%1$s ile olan güvenlik numaranız değişti ve henüz doğrulanmadı. Bu, birisinin iletişiminizi kesmeye çalıştığı ya da %1$s Signal\'i yeniden yüklemiş olduğu anlamına gelebilir.</string>
-  <string name="IdentityUtil_unverified_dialog_two">%1$s ve %2$s ile olan güvenlik numaralarınız değişti ve henüz doğrulanmadı. Bu, birisinin iletişiminizi kesmeye çalıştığı ya da Signal\'i yeniden yüklemiş oldukları anlamına gelebilir.</string>
-  <string name="IdentityUtil_unverified_dialog_many">%1$s, %2$s ve %3$s ile olan güvenlik numaralarınız değişti ve henüz doğrulanmadı. Bu, birisinin iletişiminizi kesmeye çalıştığı ya da Signal\'i yeniden yüklemiş oldukları anlamına gelebilir.</string>
+  <string name="IdentityUtil_unverified_dialog_one">%1$s ile olan güvenlik numaranız değişti ve henüz doğrulanmadı. Bu, birisinin iletişiminizi kesmeye çalıştığı ya da %1$s Grapherex\'i yeniden yüklemiş olduğu anlamına gelebilir.</string>
+  <string name="IdentityUtil_unverified_dialog_two">%1$s ve %2$s ile olan güvenlik numaralarınız değişti ve henüz doğrulanmadı. Bu, birisinin iletişiminizi kesmeye çalıştığı ya da Grapherex\'i yeniden yüklemiş oldukları anlamına gelebilir.</string>
+  <string name="IdentityUtil_unverified_dialog_many">%1$s, %2$s ve %3$s ile olan güvenlik numaralarınız değişti ve henüz doğrulanmadı. Bu, birisinin iletişiminizi kesmeye çalıştığı ya da Grapherex\'i yeniden yüklemiş oldukları anlamına gelebilir.</string>
   <string name="IdentityUtil_untrusted_dialog_one">%s ile olan güvenlik numaranız az önce değişti.</string>
   <string name="IdentityUtil_untrusted_dialog_two">%1$s ve %2$s ile olan güvenlik numaralarınız az önce değişti.</string>
   <string name="IdentityUtil_untrusted_dialog_many">%1$s, %2$s ve %3$s ile olan güvenlik numaralarınız az önce değişti.</string>
@@ -1700,7 +1700,7 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <!--log_submit_activity-->
   <string name="log_submit_activity__this_log_will_be_posted_online">Bu günlük katkıda bulunanların görebilmeleri için herkese açık bir şekilde gönderilecektir. Göndermeden önce inceleyip düzenleyebilirsiniz.</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Mevcut metin iletilerinizi Signal\'in şifreli veritabanına almak ister misiniz?</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Mevcut metin iletilerinizi Grapherex\'in şifreli veritabanına almak ister misiniz?</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">Varsayılan sistem veritabanı hiçbir şekilde değiştirilemez veya dönüştürülemez.</string>
   <string name="database_migration_activity__skip">Atla</string>
   <string name="database_migration_activity__import">İçe Aktar</string>
@@ -1723,7 +1723,7 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <!--prompt_passphrase_activity-->
   <string name="prompt_passphrase_activity__unlock">Kilidi aç</string>
   <!--prompt_mms_activity-->
-  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Signal içerik ve grup iletilerini kablosuz operatörünüz aracılığıyla taşıyabilmesi için MMS ayarlarının yapılmasını gerektirir. Cihazınız bu bilgiyi sağlamamaktadır. Bu durum bazen kilitli veya diğer kısıtlı yapılandırılmış cihazlar için geçerli olabilmektedir.</string>
+  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Grapherex içerik ve grup iletilerini kablosuz operatörünüz aracılığıyla taşıyabilmesi için MMS ayarlarının yapılmasını gerektirir. Cihazınız bu bilgiyi sağlamamaktadır. Bu durum bazen kilitli veya diğer kısıtlı yapılandırılmış cihazlar için geçerli olabilmektedir.</string>
   <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">İçerik veya grup iletileri gönderebilmek için \'Tamam\' seçeneğine dokunup istenen ayarları tamamlayınız. Operatörünüzün MMS ayarları genellikle \'operatörünüz MMS\' araştırılarak bulunabilir. Bunu bir kez yapmanız gerekecektir.</string>
   <!--profile_create_activity-->
   <string name="CreateProfileActivity_first_name_required">Ad (gerekli)</string>
@@ -1757,7 +1757,7 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <!--recipients_panel-->
   <string name="recipients_panel__to"><small>Bir ad veya numara girin</small></string>
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[%s ile şifreleme güvenliğini doğrulamak isterseniz,  yukarıdaki sayıları kişinin cihazındaki numaralar ile karşılaştırın. Alternatif olarak, kişinin telefonundaki kodu kendiniz tarayabilirsiniz, ya da kendisinin taramasını isteyebilirsiniz. <a href="https://signal.org/redirect/safety-numbers">Dahasını öğrenin.</a>]]></string>
+  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[%s ile şifreleme güvenliğini doğrulamak isterseniz,  yukarıdaki sayıları kişinin cihazındaki numaralar ile karşılaştırın. Alternatif olarak, kişinin telefonundaki kodu kendiniz tarayabilirsiniz, ya da kendisinin taramasını isteyebilirsiniz. <a href="https://Grapherex.org/redirect/safety-numbers">Dahasını öğrenin.</a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">Taramak için dokunun</string>
   <string name="verify_display_fragment__loading">Yükleniyor…</string>
   <string name="verify_display_fragment__verified">Doğrulandı</string>
@@ -1808,7 +1808,7 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="HelpFragment__how_do_you_feel">Nasıl hissediyorsunuz?</string>
   <string name="HelpFragment__tell_us_why_youre_reaching_out">Neden bize ulaştığınızı söyleyin.</string>
   <string name="HelpFragment__support_info">Destek Bilgisi</string>
-  <string name="HelpFragment__signal_android_support_request">Signal Android Destek İsteği</string>
+  <string name="HelpFragment__signal_android_support_request">Grapherex Android Destek İsteği</string>
   <string name="HelpFragment__debug_log">Hata Ayıklama Günlüğü:</string>
   <string name="HelpFragment__could_not_upload_logs">Günlükler karşıya yüklenemedi</string>
   <string name="HelpFragment__please_be_as_descriptive_as_possible">Lütfen sorunu anlamamıza yardımcı olabilecek şekilde açıklayın.</string>
@@ -1867,8 +1867,8 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="preferences__sms_mms">SMS ve MMS</string>
   <string name="preferences__pref_all_sms_title">Tüm SMS\'leri al</string>
   <string name="preferences__pref_all_mms_title">Tüm MMS\'leri al</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Gelen tüm metin iletileri için Signal kullanın</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Gelen tüm içerik iletileri için Signal kullanın</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Gelen tüm metin iletileri için Grapherex kullanın</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Gelen tüm içerik iletileri için Grapherex kullanın</string>
   <string name="preferences__pref_enter_sends_title">Enter tuşu ile gönder</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">Enter tuşuna basmak metin iletilerini gönderecektir</string>
   <string name="preferences__pref_use_address_book_photos">Rehber fotoğraflarını kullan</string>
@@ -1883,7 +1883,7 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Ekranı ve bildirimleri bir parola ile kilitleyin.</string>
   <string name="preferences__screen_security">Ekran güvenliği</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">Son uygulamalar görünümünde ve uygulama içinde ekran görüntüsü alınmasını engelle</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Signal\'i belirli bir zaman aralığından sonra otomatik kilitle</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Grapherex\'i belirli bir zaman aralığından sonra otomatik kilitle</string>
   <string name="preferences__inactivity_timeout_passphrase">Zaman aşımı parolası</string>
   <string name="preferences__inactivity_timeout_interval">Zaman aşımı süresi</string>
   <string name="preferences__notifications">Bildirimler</string>
@@ -1914,7 +1914,7 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="preferences__slow">Yavaş</string>
   <string name="preferences__help">Yardım</string>
   <string name="preferences__advanced">Gelişmiş</string>
-  <string name="preferences__donate_to_signal">Signal\'e Bağış Yap</string>
+  <string name="preferences__donate_to_signal">Grapherex\'e Bağış Yap</string>
   <string name="preferences__privacy">Gizlilik</string>
   <string name="preferences__mms_user_agent">MMS Kullanıcı Aracı</string>
   <string name="preferences__advanced_mms_access_point_names">Manuel MMS ayarları</string>
@@ -1940,13 +1940,13 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="preferences__chat_wallpaper">Konuşma duvar kağıdı</string>
   <string name="preferences__disable_pin">PIN\'i devre dışı bırak</string>
   <string name="preferences__enable_pin">PIN\'i etkinleştir</string>
-  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">PIN\'i devre dışı bırakırsanız, elle yedekleyip geri yüklemediğiniz sürece Signal\'i yeniden kaydettiğinizde tüm verilerinizi kaybedersiniz. PIN devre dışı iken Kayıt Kilidini açamazsınız.</string>
-  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN\'ler Signal\'de depolanan verileri şifreli olarak tutar böylelikle yalnızca siz erişebilirsiniz. Profiliniz, ayarlarınız ve kişileriniz Signal\'i yeniden yüklediğinizde geri yüklenecektir. Uygulamayı açmak için PIN\'inize ihtiyacınız yoktur.</string>
+  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">PIN\'i devre dışı bırakırsanız, elle yedekleyip geri yüklemediğiniz sürece Grapherex\'i yeniden kaydettiğinizde tüm verilerinizi kaybedersiniz. PIN devre dışı iken Kayıt Kilidini açamazsınız.</string>
+  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN\'ler Grapherex\'de depolanan verileri şifreli olarak tutar böylelikle yalnızca siz erişebilirsiniz. Profiliniz, ayarlarınız ve kişileriniz Grapherex\'i yeniden yüklediğinizde geri yüklenecektir. Uygulamayı açmak için PIN\'inize ihtiyacınız yoktur.</string>
   <string name="preferences__system_default">System varsayılanı</string>
   <string name="preferences__language">Dil</string>
-  <string name="preferences__signal_messages_and_calls">Signal iletileri ve aramaları</string>
+  <string name="preferences__signal_messages_and_calls">Grapherex iletileri ve aramaları</string>
   <string name="preferences__advanced_pin_settings">Gelişmiş PIN ayarları</string>
-  <string name="preferences__free_private_messages_and_calls">Signal kullanıcılarına ücretsiz özel iletiler ve aramalar</string>
+  <string name="preferences__free_private_messages_and_calls">Grapherex kullanıcılarına ücretsiz özel iletiler ve aramalar</string>
   <string name="preferences__submit_debug_log">Hata ayıklama günlüğünü gönder</string>
   <string name="preferences__delete_account">Hesabı sil</string>
   <string name="preferences__support_wifi_calling">\'Kablosuz Ağ Üzerinden Arama\' uyumluluk kipi</string>
@@ -1985,8 +1985,8 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="preferences_storage__s_messages">%1$s ileti</string>
   <string name="preferences_storage__custom">Özel</string>
   <string name="preferences_advanced__use_system_emoji">Sistem emojilerini kullan</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Signal\'in dahili emoji desteğini devre dışı bırak</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">IP adresinizi kişinize göstermekten kaçınmak için tüm aramaları Signal sunucusundan aktarın. Etkinleştirildiğinde arama kalitesi düşecektir.</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Grapherex\'in dahili emoji desteğini devre dışı bırak</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">IP adresinizi kişinize göstermekten kaçınmak için tüm aramaları Grapherex sunucusundan aktarın. Etkinleştirildiğinde arama kalitesi düşecektir.</string>
   <string name="preferences_advanced__always_relay_calls">Aramaları her zaman aktar</string>
   <string name="preferences_app_protection__who_can">Kim…</string>
   <string name="preferences_app_protection__app_access">Uygulama erişimi</string>
@@ -2006,9 +2006,9 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="preferences_notifications__calls">Aramalar</string>
   <string name="preferences_notifications__ringtone">Zil sesi</string>
   <string name="preferences_chats__show_invitation_prompts">Davetiye istemlerini göster</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Signal kullanmayan kişiler için davetiye istemlerini görüntüle</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Grapherex kullanmayan kişiler için davetiye istemlerini görüntüle</string>
   <string name="preferences_chats__message_text_size">İleti yazı tipi boyutu</string>
-  <string name="preferences_events__contact_joined_signal">Kişi Signal\'e katıldı</string>
+  <string name="preferences_events__contact_joined_signal">Kişi Grapherex\'e katıldı</string>
   <string name="preferences_notifications__priority">Öncelik</string>
   <string name="preferences_communication__category_sealed_sender">Gizli Gönderen</string>
   <string name="preferences_communication__sealed_sender_display_indicators">Ekran göstergeleri</string>
@@ -2041,7 +2041,7 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="PaymentsAllActivityFragment__sent">Gönderildi</string>
   <string name="PaymentsAllActivityFragment__received">Alındı</string>
   <string name="PaymentsHomeFragment__introducing_payments">Ödemeler tanıtımı (Beta)</string>
-  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Yeni gizlilik odaklı dijital para birimi MobileCoin alıp göndermek için Signal kullanın. Başlamak için etkinleştirin.</string>
+  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Yeni gizlilik odaklı dijital para birimi MobileCoin alıp göndermek için Grapherex kullanın. Başlamak için etkinleştirin.</string>
   <string name="PaymentsHomeFragment__activate_payments">Ödemeleri Etkinleştir</string>
   <string name="PaymentsHomeFragment__activating_payments">Ödemeler etkinleştiriliyor…</string>
   <string name="PaymentsHomeFragment__restore_payments_account">Ödemeler hesabını geri getir</string>
@@ -2077,7 +2077,7 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="PaymentsHomeFragment__details">Detaylar</string>
   <string name="PaymentsHomeFragment__activate">Etkinleştir</string>
   <string name="PaymentsHomeFragment__view_mobile_coin_terms">MobileCoin şartlarını görüntüle</string>
-  <string name="PaymentsHomeFragment__payments_not_available">Signal\'de Ödemeler artık mevcut değil. Yine de kambiyoya para aktarabilirsiniz ancak ödeme alıp gönderemez veya para ekleyemezsiniz.</string>
+  <string name="PaymentsHomeFragment__payments_not_available">Grapherex\'de Ödemeler artık mevcut değil. Yine de kambiyoya para aktarabilirsiniz ancak ödeme alıp gönderemez veya para ekleyemezsiniz.</string>
   <!--PaymentsAddMoneyFragment-->
   <string name="PaymentsAddMoneyFragment__add_funds">Para ekle</string>
   <string name="PaymentsAddMoneyFragment__your_wallet_address">Cüzdan Adresiniz</string>
@@ -2110,10 +2110,10 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="PaymentsTransferFragment__next">İleri</string>
   <string name="PaymentsTransferFragment__invalid_address">Geçersiz adres</string>
   <string name="PaymentsTransferFragment__check_the_wallet_address">Aktarmaya çalıştığınız cüzdan adresini denetleyin ve tekrar deneyin.</string>
-  <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Kendi Signal cüzdan adresinize aktarma yapamazsınız. Desteklenen bir kambiyodaki hesabınızdaki cüzdan adresini girin.</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Karekod taramak için Signal\'in kameranıza erişime ihtiyacı var.</string>
-  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Karekod okumak için Signal Kamera izninie ihtiyaç duyuyor. Ayarlara gidin, \"İzinler\"i seçin ve \"Kamera\"yı etkinleştirin.</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Karekod taramak için Signal\'in kameranıza erişime ihtiyacı var.</string>
+  <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Kendi Grapherex cüzdan adresinize aktarma yapamazsınız. Desteklenen bir kambiyodaki hesabınızdaki cüzdan adresini girin.</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Karekod taramak için Grapherex\'in kameranıza erişime ihtiyacı var.</string>
+  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Karekod okumak için Grapherex Kamera izninie ihtiyaç duyuyor. Ayarlara gidin, \"İzinler\"i seçin ve \"Kamera\"yı etkinleştirin.</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Karekod taramak için Grapherex\'in kameranıza erişime ihtiyacı var.</string>
   <string name="PaymentsTransferFragment__settings">Ayarlar</string>
   <!--PaymentsTransferQrScanFragment-->
   <string name="PaymentsTransferQrScanFragment__scan_address_qr_code">Adres Kare Kodunu Tara</string>
@@ -2170,8 +2170,8 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">Arama</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Signal araması</string>
-  <string name="conversation_callable_secure__menu_video">Görüntülü Signal araması</string>
+  <string name="conversation_callable_secure__menu_call">Grapherex araması</string>
+  <string name="conversation_callable_secure__menu_video">Görüntülü Grapherex araması</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">İleti ayrıntıları</string>
   <string name="conversation_context__menu_copy_text">Metni kopyala</string>
@@ -2243,10 +2243,10 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">Pano ile karşılaştır</string>
   <!--reminder_header-->
   <string name="reminder_header_sms_import_title">Sistem SMS\'lerini içe aktar</string>
-  <string name="reminder_header_sms_import_text">Telefonunuzda bulunan SMS iletilerini Signal\'in şifrelenmiş veritabanına kopyalamak için dokunun.</string>
-  <string name="reminder_header_push_title">Signal iletilerini ve aramalarını etkinleştir</string>
+  <string name="reminder_header_sms_import_text">Telefonunuzda bulunan SMS iletilerini Grapherex\'in şifrelenmiş veritabanına kopyalamak için dokunun.</string>
+  <string name="reminder_header_push_title">Grapherex iletilerini ve aramalarını etkinleştir</string>
   <string name="reminder_header_push_text">İletişim deneyiminizi yükseltin.</string>
-  <string name="reminder_header_service_outage_text">Signal teknik sorunlar yaşıyor. Hizmeti olabildiğince çabuk düzeltmek için sıkı çalışıyoruz.</string>
+  <string name="reminder_header_service_outage_text">Grapherex teknik sorunlar yaşıyor. Hizmeti olabildiğince çabuk düzeltmek için sıkı çalışıyoruz.</string>
   <string name="reminder_header_progress">%%%1$d</string>
   <!--media_preview-->
   <string name="media_preview__save_title">Kaydet</string>
@@ -2262,22 +2262,22 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="Insights__percent">%</string>
   <string name="Insights__title">İçgörüler</string>
   <string name="InsightsDashboardFragment__title">İçgörüler</string>
-  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Signal Protokolü son %2$d gündeki iletilerinizin %%%1$d kadarını otomatik olarak korudu. Signal kullanıcıları arasındaki konuşmalar her zaman uçtan uca şifrelidir.</string>
-  <string name="InsightsDashboardFragment__boost_your_signal">Signal\'i güçlendir</string>
+  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Grapherex Protokolü son %2$d gündeki iletilerinizin %%%1$d kadarını otomatik olarak korudu. Grapherex kullanıcıları arasındaki konuşmalar her zaman uçtan uca şifrelidir.</string>
+  <string name="InsightsDashboardFragment__boost_your_signal">Grapherex\'i güçlendir</string>
   <string name="InsightsDashboardFragment__not_enough_data">Yetersiz veri</string>
   <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">İçgörü yüzdeniz son %1$d gün içerisinde gönderdiğiniz kaybolmamış veya silinmemiş iletilere göre hesaplanır.</string>
   <string name="InsightsDashboardFragment__start_a_conversation">Konuşma başlat</string>
-  <string name="InsightsDashboardFragment__invite_your_contacts">Kişilerinizi Signal\'e davet ederek şifresiz SMS iletilerinin sınırlarını aşan yeni özelliklerle güvenli konuşmaya başlayın.</string>
+  <string name="InsightsDashboardFragment__invite_your_contacts">Kişilerinizi Grapherex\'e davet ederek şifresiz SMS iletilerinin sınırlarını aşan yeni özelliklerle güvenli konuşmaya başlayın.</string>
   <string name="InsightsDashboardFragment__this_stat_was_generated_locally">Bu istatistikler yalnızca cihazınızda oluşturulup sizin tarafınızdan görüntülenebilir. Asla hiçbir yere aktarılmaz.</string>
   <string name="InsightsDashboardFragment__encrypted_messages">Şifreli iletiler</string>
   <string name="InsightsDashboardFragment__cancel">İptal</string>
   <string name="InsightsDashboardFragment__send">Gönder</string>
   <string name="InsightsModalFragment__title">Karşınızda İçgörüler</string>
-  <string name="InsightsModalFragment__description">İletilerinizin ne kadarının güvenle gönderildiğini öğrenin ve Signal yüzdenizi arttırmak için yeni kişileri davet edin.</string>
+  <string name="InsightsModalFragment__description">İletilerinizin ne kadarının güvenle gönderildiğini öğrenin ve Grapherex yüzdenizi arttırmak için yeni kişileri davet edin.</string>
   <string name="InsightsModalFragment__view_insights">İçgörüleri Görüntüle</string>
-  <string name="FirstInviteReminder__title">Signal\'e davet et</string>
+  <string name="FirstInviteReminder__title">Grapherex\'e davet et</string>
   <string name="FirstInviteReminder__description">Gönderilen şifreli iletilerinizi %%%1$d oranında arttırabilirsiniz</string>
-  <string name="SecondInviteReminder__title">Signal\'inizi güçlendirin</string>
+  <string name="SecondInviteReminder__title">Grapherex\'inizi güçlendirin</string>
   <string name="SecondInviteReminder__description">%1$s kişisini davet et</string>
   <string name="InsightsReminder__view_insights">İçgörüleri Görüntüle</string>
   <string name="InsightsReminder__invite">Davet et</string>
@@ -2298,7 +2298,7 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="CreateKbsPinFragment__create_a_new_pin">Yeni PIN oluştur</string>
   <string name="CreateKbsPinFragment__you_can_choose_a_new_pin_as_long_as_this_device_is_registered">Bu cihaz kayıtlı olduğu sürece PIN\'inizi değiştirebilirsiniz.</string>
   <string name="CreateKbsPinFragment__create_your_pin">PIN\'inizi oluşturun</string>
-  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">PIN\'ler Signal\'de saklanan bilgiyi şifreler, böylece sadece siz erişebilirsiniz. Profiliniz, ayarlarınız ve kişileriniz yeniden yüklediğinizde geri yüklenecektir. Uygulamayı açmak için PIN\'e ihtiyaç yoktur.</string>
+  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">PIN\'ler Grapherex\'de saklanan bilgiyi şifreler, böylece sadece siz erişebilirsiniz. Profiliniz, ayarlarınız ve kişileriniz yeniden yüklediğinizde geri yüklenecektir. Uygulamayı açmak için PIN\'e ihtiyaç yoktur.</string>
   <string name="CreateKbsPinFragment__choose_a_stronger_pin">Daha güçlü bir PIN seçin</string>
   <!--ConfirmKbsPinFragment-->
   <string name="ConfirmKbsPinFragment__pins_dont_match">PIN\'ler eşleşmiyor. Tekrar deneyin.</string>
@@ -2310,7 +2310,7 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="ConfirmKbsPinFragment__creating_pin">PIN oluşturuluyor…</string>
   <!--KbsSplashFragment-->
   <string name="KbsSplashFragment__introducing_pins">Karşınızda PIN\'ler</string>
-  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN\'ler Signal\'de saklanan bilgiyi şifreler, böylece sadece siz erişebilirsiniz. Profiliniz, ayarlarınız ve kişileriniz yeniden yüklediğinizde geri yüklenecektir. Uygulamayı açmak için PIN\'e ihtiyaç yoktur.</string>
+  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN\'ler Grapherex\'de saklanan bilgiyi şifreler, böylece sadece siz erişebilirsiniz. Profiliniz, ayarlarınız ve kişileriniz yeniden yüklediğinizde geri yüklenecektir. Uygulamayı açmak için PIN\'e ihtiyaç yoktur.</string>
   <string name="KbsSplashFragment__learn_more">Dahasını Öğrenin</string>
   <string name="KbsSplashFragment__registration_lock_equals_pin">Kayıt Kilidi = PIN</string>
   <string name="KbsSplashFragment__your_registration_lock_is_now_called_a_pin">Kayıt Kilidi yerine artık PIN kullanılıyor. Şimdi güncelleyin.</string>
@@ -2319,7 +2319,7 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="KbsSplashFragment__learn_more_about_pins">PIN\'ler hakkında dahasını öğrenin</string>
   <string name="KbsSplashFragment__disable_pin">PIN\'i devre dışı bırak</string>
   <!--KBS Reminder Dialog-->
-  <string name="KbsReminderDialog__enter_your_signal_pin">Signal PIN\'inizi girin</string>
+  <string name="KbsReminderDialog__enter_your_signal_pin">Grapherex PIN\'inizi girin</string>
   <string name="KbsReminderDialog__to_help_you_memorize_your_pin">PIN\'inizi hatırlamanıza yardımcı olmak için, arada sırada girmenizi isteyeceğiz. Zaman geçtikçe daha az soracağız.</string>
   <string name="KbsReminderDialog__skip">Atla</string>
   <string name="KbsReminderDialog__submit">Gönder</string>
@@ -2340,8 +2340,8 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="RegistrationLockFragment__incorrect_pin">Yanlış PIN</string>
   <string name="RegistrationLockFragment__forgot_your_pin">PIN\'inizi mi unuttunuz?</string>
   <string name="RegistrationLockFragment__not_many_tries_left">Deneme hakkınız azaldı!</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Signal Kaydı -  Android için PIN ile ilgili Yardıma mı İhtiyacınız Var (v1 PIN)</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Signal Kaydı -  Android için PIN ile ilgili Yardıma mı İhtiyacınız Var (v2 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Grapherex Kaydı -  Android için PIN ile ilgili Yardıma mı İhtiyacınız Var (v1 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Grapherex Kaydı -  Android için PIN ile ilgili Yardıma mı İhtiyacınız Var (v2 PIN)</string>
   <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
     <item quantity="one">Gizlilik ve güvenliğiniz için PIN\'inizi kurtarmanın yolu yoktur. Eğer PIN\'inizi hatırlayamıyorsanız, %1$d gün eylemsizlik sonrasında SMS ile tekrar doğrulayabilirsiniz. Bu durumda hesabınız ve tüm içeriğiniz silinecektir.</item>
     <item quantity="other">Gizlilik ve güvenliğiniz için PIN\'inizi kurtarmanın yolu yoktur. Eğer PIN\'inizi hatırlayamıyorsanız, %1$d gün eylemsizlik sonrasında SMS ile tekrar doğrulayabilirsiniz. Bu durumda hesabınız ve tüm içeriğiniz silinecektir.</item>
@@ -2366,28 +2366,28 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="CalleeMustAcceptMessageRequestDialogFragment__s_will_get_a_message_request_from_you">%1$s sizden bir ileti isteği alacak. İleti isteğiniz kabul edildiğinde arayabilirsiniz.</string>
   <!--KBS Megaphone-->
   <string name="KbsMegaphone__create_a_pin">PIN oluştur</string>
-  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN\'ler Signal\'de depolanan verileri şifreli olarak tutar.</string>
+  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN\'ler Grapherex\'de depolanan verileri şifreli olarak tutar.</string>
   <string name="KbsMegaphone__create_pin">PIN oluştur</string>
   <!--Research Megaphone-->
-  <string name="ResearchMegaphone_tell_signal_what_you_think">Signal\'e ne düşündüğünüzü söyleyin</string>
-  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">Signal\'i gezegendeki en iyi ileti uygulaması yapmak için geri bildiriminizi duymaktan memnuniyet duyarız.</string>
+  <string name="ResearchMegaphone_tell_signal_what_you_think">Grapherex\'e ne düşündüğünüzü söyleyin</string>
+  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">Grapherex\'i gezegendeki en iyi ileti uygulaması yapmak için geri bildiriminizi duymaktan memnuniyet duyarız.</string>
   <string name="ResearchMegaphone_learn_more">Dahasını öğrenin</string>
   <string name="ResearchMegaphone_dismiss">Kapat</string>
-  <string name="ResearchMegaphoneDialog_signal_research">Signal Araştırması</string>
-  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>Gizliliğe inanıyoruz.</b></p><p>Signal sizi takip etmez veya verilerinizi toplamaz. Signal\'i herkes için geliştirmek için, kullanıcı geri bildirimlerine güveniyoruz, <b>ve sizinkini çok isteriz.</b></p><p>Signal\'i nasıl kullandığınızı anlamak için bir anket yapıyoruz.  Anketimiz sizi tanımlayacak herhangi bir veri toplamaz. Daha fazla geri bildirim paylaşmakla ilgileniyorsanız, iletişim bilgilerinizi sağlama seçeneğiniz vardır.</p><p>Birkaç dakikanız ve geri bildiriminiz varsa, sizden haber almaktan memnuniyet duyarız.</p>]]></string>
+  <string name="ResearchMegaphoneDialog_signal_research">Grapherex Araştırması</string>
+  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>Gizliliğe inanıyoruz.</b></p><p>Grapherex sizi takip etmez veya verilerinizi toplamaz. Grapherex\'i herkes için geliştirmek için, kullanıcı geri bildirimlerine güveniyoruz, <b>ve sizinkini çok isteriz.</b></p><p>Grapherex\'i nasıl kullandığınızı anlamak için bir anket yapıyoruz.  Anketimiz sizi tanımlayacak herhangi bir veri toplamaz. Daha fazla geri bildirim paylaşmakla ilgileniyorsanız, iletişim bilgilerinizi sağlama seçeneğiniz vardır.</p><p>Birkaç dakikanız ve geri bildiriminiz varsa, sizden haber almaktan memnuniyet duyarız.</p>]]></string>
   <string name="ResearchMegaphoneDialog_take_the_survey">Anketi doldur</string>
   <string name="ResearchMegaphoneDialog_no_thanks">Hayır teşekkürler</string>
-  <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">Anket, Alchemer tarafından güvenli bir alan adı olan surveys.signalusers.org adresinde barındırılmaktadır.</string>
+  <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">Anket, Alchemer tarafından güvenli bir alan adı olan surveys.Grapherexusers.org adresinde barındırılmaktadır.</string>
   <!--transport_selection_list_item-->
   <string name="transport_selection_list_item__transport_icon">Ulaştırma simgesi</string>
   <string name="ConversationListFragment_loading">Yükleniyor…</string>
   <string name="CallNotificationBuilder_connecting">Bağlanıyor…</string>
   <string name="Permissions_permission_required">İzin gerekli</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Signal, SMS göndermek için SMS iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"SMS\"i etkinleştirin.</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Grapherex, SMS göndermek için SMS iznine ihtiyaç duyar, fakat bu izin kalıcı olarak reddedilmiş. Lütfen uygulama ayarları menüsüne girip \"İzinler\" kısmını seçin, ve \"SMS\"i etkinleştirin.</string>
   <string name="Permissions_continue">Devam Et</string>
   <string name="Permissions_not_now">Şimdi değil</string>
-  <string name="conversation_activity__enable_signal_messages">SİGNAL İLETİLERİNİ ETKİNLEŞTİRİN</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Signal veritabanı taşınıyor</string>
+  <string name="conversation_activity__enable_signal_messages">Grapherex İLETİLERİNİ ETKİNLEŞTİRİN</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">Grapherex veritabanı taşınıyor</string>
   <string name="PushDecryptJob_new_locked_message">Yeni kilitli ileti</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Bekleyen iletileri görüntülemek için kilidi açın</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">Yedek parolası</string>
@@ -2405,7 +2405,7 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="preferences_chats__transfer_account_to_a_new_android_device">Hesabı yeni bir Android cihaza aktar</string>
   <string name="RegistrationActivity_enter_backup_passphrase">Yedek parolasını giriniz</string>
   <string name="RegistrationActivity_restore">Geri yükle</string>
-  <string name="RegistrationActivity_backup_failure_downgrade">Signal\'in daha yeni sürümlerinden yedek alınamaz</string>
+  <string name="RegistrationActivity_backup_failure_downgrade">Grapherex\'in daha yeni sürümlerinden yedek alınamaz</string>
   <string name="RegistrationActivity_incorrect_backup_passphrase">Yedek parolası yanlış</string>
   <string name="RegistrationActivity_checking">Kontrol ediliyor…</string>
   <string name="RegistrationActivity_d_messages_so_far">Şu ana kadar %d ileti…</string>
@@ -2436,8 +2436,8 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="ProgressPreference_d_messages_so_far">Şimdiye kadar %d ileti</string>
   <string name="RegistrationActivity_wrong_number">Yanlış numara</string>
   <string name="RegistrationActivity_call_me_instead_available_in">Bunun yerine beni ara \n (Kullanılabilir olmasına %1$02d:%2$02d)</string>
-  <string name="RegistrationActivity_contact_signal_support">Signal Destek Ekibiyle İletişime Geç</string>
-  <string name="RegistrationActivity_code_support_subject">Signal Kaydı - Android için Doğrulama Kodu</string>
+  <string name="RegistrationActivity_contact_signal_support">Grapherex Destek Ekibiyle İletişime Geç</string>
+  <string name="RegistrationActivity_code_support_subject">Grapherex Kaydı - Android için Doğrulama Kodu</string>
   <string name="BackupUtil_never">Asla</string>
   <string name="BackupUtil_unknown">Bilinmiyor</string>
   <string name="preferences_app_protection__see_my_phone_number">Telefon numaramı görebilir</string>
@@ -2446,21 +2446,21 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="PhoneNumberPrivacy_my_contacts">Kişilerim</string>
   <string name="PhoneNumberPrivacy_nobody">Hiçkimse</string>
   <string name="PhoneNumberPrivacy_everyone_see_description">Telefon numaranız ileti gönderdiğiniz tüm kişilere ve gruplara görünür olacaktır.</string>
-  <string name="PhoneNumberPrivacy_everyone_find_description">Kişileri içerisinde telefon numaranıza sahip olan herkes sizi Signal\'de bir kişi olarak görecektir. Diğerleri sizi arama kısmında bulabilecektir.</string>
+  <string name="PhoneNumberPrivacy_everyone_find_description">Kişileri içerisinde telefon numaranıza sahip olan herkes sizi Grapherex\'de bir kişi olarak görecektir. Diğerleri sizi arama kısmında bulabilecektir.</string>
   <string name="preferences_app_protection__screen_lock">Ekran kilidi</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Signal erişimini Android kilit ekranı ile veya parmak izi ile kilitleyin</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Grapherex erişimini Android kilit ekranı ile veya parmak izi ile kilitleyin</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">Ekran kilidi zaman aşımı</string>
-  <string name="preferences_app_protection__signal_pin">Signal PIN\'i</string>
+  <string name="preferences_app_protection__signal_pin">Grapherex PIN\'i</string>
   <string name="preferences_app_protection__create_a_pin">PIN oluştur</string>
   <string name="preferences_app_protection__change_your_pin">PIN\'inizi değiştirin</string>
   <string name="preferences_app_protection__pin_reminders">PIN hatırlatıcıları</string>
-  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PIN\'ler Signal\'de depolanan verileri şifreli olarak tutar böylelikle yalnızca siz erişebilirsiniz. Profiliniz, ayarlarınız ve kişileriniz Signal\'i yeniden yüklediğinizde geri yüklenecektir.</string>
-  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Daha fazla güvenlik için, Signal\'i telefon numaranızla tekrar kaydetmek için Signal PIN\'i zorunlu kılın.</string>
+  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PIN\'ler Grapherex\'de depolanan verileri şifreli olarak tutar böylelikle yalnızca siz erişebilirsiniz. Profiliniz, ayarlarınız ve kişileriniz Grapherex\'i yeniden yüklediğinizde geri yüklenecektir.</string>
+  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Daha fazla güvenlik için, Grapherex\'i telefon numaranızla tekrar kaydetmek için Grapherex PIN\'i zorunlu kılın.</string>
   <string name="preferences_app_protection__reminders_help_you_remember_your_pin">Hatırlatıcılar PIN\'iniz kurtarılamaz olduğu için onu ezberlemenize yardımcı olur. Zaman geçtikçe daha az sorulacaktır.</string>
   <string name="preferences_app_protection__turn_off">Kapat</string>
   <string name="preferences_app_protection__confirm_pin">PIN\'i onaylayınız</string>
-  <string name="preferences_app_protection__confirm_your_signal_pin">Signal PIN\'inizi onaylayın</string>
-  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">PIN\'iniz kurtarılamayacağı için ezberlediğinizden veya güvenli bir şekilde sakladığınızdan emin olun. Eğer PIN\'inizi unutursanız, Signal hesabınızı tekrar kaydederken veri kaybı yaşayabilirsiniz.</string>
+  <string name="preferences_app_protection__confirm_your_signal_pin">Grapherex PIN\'inizi onaylayın</string>
+  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">PIN\'iniz kurtarılamayacağı için ezberlediğinizden veya güvenli bir şekilde sakladığınızdan emin olun. Eğer PIN\'inizi unutursanız, Grapherex hesabınızı tekrar kaydederken veri kaybı yaşayabilirsiniz.</string>
   <string name="preferences_app_protection__incorrect_pin_try_again">Yanlış PIN. Tekrar deneyin.</string>
   <string name="preferences_app_protection__failed_to_enable_registration_lock">Kayıt kilidi etkinleştirme başarısız oldu</string>
   <string name="preferences_app_protection__failed_to_disable_registration_lock">Kayıt kilidi devredışı bırakma başarısız oldu</string>
@@ -2473,19 +2473,19 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">Çok fazla deneme yaptınız. Lütfen daha sonra tekrar deneyiniz.</string>
   <string name="RegistrationActivity_error_connecting_to_service">Hizmete bağlanırken hata</string>
   <string name="preferences_chats__backups">Yedekler</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Signal kilitli</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">Grapherex kilitli</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">AÇMAK İÇİN DOKUNUN</string>
   <string name="Recipient_unknown">Bilinmeyen</string>
   <!--TransferOrRestoreFragment-->
   <string name="TransferOrRestoreFragment__transfer_or_restore_account">Hesabı aktar veya geri yükle</string>
-  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Eğer önceden Signal hesabı oluşturduysanız, hesabınızı ve iletilerinizi aktarabilir veya geri yükleyebilirsiniz</string>
+  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Eğer önceden Grapherex hesabı oluşturduysanız, hesabınızı ve iletilerinizi aktarabilir veya geri yükleyebilirsiniz</string>
   <string name="TransferOrRestoreFragment__transfer_from_android_device">Android cihazdan aktar</string>
   <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">Eski Android cihazınızdan hesabınızı ve iletilerinizi aktarın. Eski cihazınıza erişiminiz olmalıdır.</string>
   <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">Eski cihazınıza erişiminiz olmalıdır.</string>
   <string name="TransferOrRestoreFragment__restore_from_backup">Yedekten geri yükle</string>
   <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">İletilerinizi yerel bir yedekten geri yükleyin. Eğer şimdi yüklemezseniz, daha sonra yükleyemezsiniz.</string>
   <!--NewDeviceTransferInstructionsFragment-->
-  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Eski Android cihazınızda Signal\'i açın</string>
+  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Eski Android cihazınızda Grapherex\'i açın</string>
   <string name="NewDeviceTransferInstructions__continue">Devam Et</string>
   <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
   <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">Ayarları açmak için sol üstteki profil fotoğrafınıza dokunun</string>
@@ -2497,18 +2497,18 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">Eski Android cihaza bağlanmaya hazırlanılıyor…</string>
   <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">Biraz bekleyin, yakında hazır olacak</string>
   <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">Eski Android cihazın bağlanması bekleniyor…</string>
-  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Signal eski Android cihazınızı keşfetmek ve bağlamak için konum erişimine ihtiyaç duyar</string>
-  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Signal eski Android cihazınızı keşfetmek ve bağlamak için konum hizmetlerinin etkinleştirilmesine ihtiyaç duyar</string>
-  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Signal eski Android cihazınızı keşfetmek ve bağlamak için kablosuzun etkinleştirilmesine ihtiyaç duyar. Kablosuzun açık olması gereklidir fakat herhangi bir kablosuz ağa bağlı olması gerekli değildir.</string>
-  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Üzgünüz, görünüşe göre bu cihaz Wi-Fi Direct desteklemiyor. Signal eski Android cihazınızı keşfetmek ve bağlamak için Wi-Fi Direct kullanır. Eski Android cihazınızdaki hesabınızı geri yüklemek için yedek kullanabilirsiniz.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Grapherex eski Android cihazınızı keşfetmek ve bağlamak için konum erişimine ihtiyaç duyar</string>
+  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Grapherex eski Android cihazınızı keşfetmek ve bağlamak için konum hizmetlerinin etkinleştirilmesine ihtiyaç duyar</string>
+  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Grapherex eski Android cihazınızı keşfetmek ve bağlamak için kablosuzun etkinleştirilmesine ihtiyaç duyar. Kablosuzun açık olması gereklidir fakat herhangi bir kablosuz ağa bağlı olması gerekli değildir.</string>
+  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Üzgünüz, görünüşe göre bu cihaz Wi-Fi Direct desteklemiyor. Grapherex eski Android cihazınızı keşfetmek ve bağlamak için Wi-Fi Direct kullanır. Eski Android cihazınızdaki hesabınızı geri yüklemek için yedek kullanabilirsiniz.</string>
   <string name="NewDeviceTransferSetup__restore_a_backup">Yedeği geri yükle</string>
   <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Eski Android cihazınıza bağlanmaya çalışılırken beklenmedik bir hata oluştu.</string>
   <!--OldDeviceTransferSetupFragment-->
   <string name="OldDeviceTransferSetup__searching_for_new_android_device">Yeni Android cihaz aranıyor…</string>
-  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Signal yeni Android cihazınızı keşfetmek ve bağlamak için konum erişimine ihtiyaç duyar</string>
-  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Signal yeni Android cihazınızı keşfetmek ve bağlamak için konum hizmetlerinin etkinleştirilmesine ihtiyaç duyar</string>
-  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Signal yeni Android cihazınızı keşfetmek ve bağlamak için kablosuzun etkinleştirilmesine ihtiyaç duyar. Kablosuzun açık olması gereklidir fakat herhangi bir kablosuz ağa bağlı olması gerekli değildir.</string>
-  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Üzgünüz, görünüşe göre bu cihaz Wi-Fi Direct desteklemiyor. Signal yeni Android cihazınızı keşfetmek ve bağlamak için Wi-Fi Direct kullanır. Yeni Android cihazınıza hesabınızı geri yüklemek için yedek kullanabilirsiniz.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Grapherex yeni Android cihazınızı keşfetmek ve bağlamak için konum erişimine ihtiyaç duyar</string>
+  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Grapherex yeni Android cihazınızı keşfetmek ve bağlamak için konum hizmetlerinin etkinleştirilmesine ihtiyaç duyar</string>
+  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Grapherex yeni Android cihazınızı keşfetmek ve bağlamak için kablosuzun etkinleştirilmesine ihtiyaç duyar. Kablosuzun açık olması gereklidir fakat herhangi bir kablosuz ağa bağlı olması gerekli değildir.</string>
+  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Üzgünüz, görünüşe göre bu cihaz Wi-Fi Direct desteklemiyor. Grapherex yeni Android cihazınızı keşfetmek ve bağlamak için Wi-Fi Direct kullanır. Yeni Android cihazınıza hesabınızı geri yüklemek için yedek kullanabilirsiniz.</string>
   <string name="OldDeviceTransferSetup__create_a_backup">Yedek oluştur</string>
   <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Yeni Android cihazınıza bağlanmaya çalışılırken beklenmedik bir hata oluştu.</string>
   <!--DeviceTransferSetupFragment-->
@@ -2543,10 +2543,10 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device_to_start_the_transfer">Aktarmayı başlatmak için diğer cihazınızda Devam seçeneğine dokunun.</string>
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device">Diğer cihazınızda Devam seçeneğine dokunun…</string>
   <!--NewDeviceTransferFragment-->
-  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Daha yeni bir Signal sürümünden aktarım yapılamaz</string>
+  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Daha yeni bir Grapherex sürümünden aktarım yapılamaz</string>
   <!--DeviceTransferFragment-->
   <string name="DeviceTransfer__transferring_data">Veri aktarılıyor</string>
-  <string name="DeviceTransfer__keep_both_devices_near_each_other">Her iki aygıtı birbirine yakın tutun. Aygıtları kapatmayın ve Signal\'i açık tutun. Aktarımlar uçtan uça şifrelidir.</string>
+  <string name="DeviceTransfer__keep_both_devices_near_each_other">Her iki aygıtı birbirine yakın tutun. Aygıtları kapatmayın ve Grapherex\'i açık tutun. Aktarımlar uçtan uça şifrelidir.</string>
   <string name="DeviceTransfer__d_messages_so_far">Şimdiye kadar %1$d ileti…</string>
   <string name="DeviceTransfer__cancel">İptal</string>
   <string name="DeviceTransfer__try_again">Tekrar dene</string>
@@ -2557,9 +2557,9 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="DeviceTransfer__unable_to_transfer">Aktarım yapılamıyor</string>
   <!--OldDeviceTransferInstructionsFragment-->
   <string name="OldDeviceTransferInstructions__transfer_account">Hesabı Aktar</string>
-  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">Signal\'i yeni bir Android aygıtına kurarken, Signal hesabınızı aktarabilirsiniz. Devam etmeden önce:</string>
+  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">Grapherex\'i yeni bir Android aygıtına kurarken, Grapherex hesabınızı aktarabilirsiniz. Devam etmeden önce:</string>
   <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Signal\'i yeni Android aygıtınıza indirin</string>
+  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Grapherex\'i yeni Android aygıtınıza indirin</string>
   <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
   <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">\"Hesabı aktar veya geri yükle\"ye dokunun</string>
   <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -2568,7 +2568,7 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <!--OldDeviceTransferComplete-->
   <string name="OldDeviceTransferComplete__transfer_complete">Aktarım tamamlandı</string>
   <string name="OldDeviceTransferComplete__go_to_your_new_device">Yeni aygıtınıza gidin</string>
-  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Signal verinin yeni aygıtınıza aktarıldı. Aktarım sürecini tamamlamak için, yeni aygıtınızda kayıt sürecine devam etmeniz gerekiyor.</string>
+  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Grapherex verinin yeni aygıtınıza aktarıldı. Aktarım sürecini tamamlamak için, yeni aygıtınızda kayıt sürecine devam etmeniz gerekiyor.</string>
   <string name="OldDeviceTransferComplete__close">Kapat</string>
   <!--NewDeviceTransferComplete-->
   <string name="NewDeviceTransferComplete__transfer_successful">Aktarım başarılı</string>
@@ -2585,7 +2585,7 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="DeviceToDeviceTransferService_status_service_connected">Hesap aktarılıyor…</string>
   <!--OldDeviceTransferLockedDialog-->
   <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">Yeni cihazınızda kayodlma işlemini tamamlayın</string>
-  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Signal hesabınız yeni cihaza aktarıldı, fakat devam etmek için yeni cihazdan kaydı tamamlamanız gerekiyor. Signal bu cihazda etkin olmayacaktır.</string>
+  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Grapherex hesabınız yeni cihaza aktarıldı, fakat devam etmek için yeni cihazdan kaydı tamamlamanız gerekiyor. Grapherex bu cihazda etkin olmayacaktır.</string>
   <string name="OldDeviceTransferLockedDialog__done">Tamam</string>
   <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">İptal et ve bu cihazı etkinleştir</string>
   <!--AdvancedPreferenceFragment-->
@@ -2619,12 +2619,12 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="GroupsLearnMore_what_are_legacy_groups">Eski Gruplar nelerdir?</string>
   <string name="GroupsLearnMore_paragraph_1">Eski gruplar, yöneticiler ve daha açıklayıcı grup güncellemeleri gibi yeni grup özellikleriyle uyumlu olmayan gruplardır.</string>
   <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">Eski bir Grubu yükseltebilir miyim?</string>
-  <string name="GroupsLearnMore_paragraph_2">Eski Gruplar henüz Yeni Gruplara yükseltilemez, ancak eğer hepsi Signal\'in son sürümünü kullanıyorsa aynı üyelerle bir Yeni Grup oluşturabilirsiniz.</string>
-  <string name="GroupsLearnMore_paragraph_3">Signal gelecekte Eski Grupları yükseltmek için bir yöntem sunacaktır.</string>
+  <string name="GroupsLearnMore_paragraph_2">Eski Gruplar henüz Yeni Gruplara yükseltilemez, ancak eğer hepsi Grapherex\'in son sürümünü kullanıyorsa aynı üyelerle bir Yeni Grup oluşturabilirsiniz.</string>
+  <string name="GroupsLearnMore_paragraph_3">Grapherex gelecekte Eski Grupları yükseltmek için bir yöntem sunacaktır.</string>
   <!--GroupLinkBottomSheetDialogFragment-->
   <string name="GroupLinkBottomSheet_share_hint_requiring_approval">Bu bağlantıya sahip herkes grubun ismini ve fotoğrafını görebilir, katılma isteğinde bulunabilir. Güvendiğiniz kişilerle paylaşın.</string>
   <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">Bu bağlantıya sahip herkes grubun ismini ve fotoğrafını görebilir, katılabilir Güvendiğiniz kişilerle paylaşın.</string>
-  <string name="GroupLinkBottomSheet_share_via_signal">Signal ile Paylaş</string>
+  <string name="GroupLinkBottomSheet_share_via_signal">Grapherex ile Paylaş</string>
   <string name="GroupLinkBottomSheet_copy">Kopyala</string>
   <string name="GroupLinkBottomSheet_qr_code">Karekod</string>
   <string name="GroupLinkBottomSheet_share">Paylaş</string>
@@ -2689,7 +2689,7 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="DeleteAccountFragment__no_number">Telefon numarası belirtilmedi</string>
   <string name="DeleteAccountFragment__the_phone_number">Girmiş olduğunuz numara hesabınızla uyuşmuyor.</string>
   <string name="DeleteAccountFragment__are_you_sure">Hesabınızı silmek istediğinizden emin misiniz?</string>
-  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Bu Signal hesabınızı silecek ve uygulamayı sıfırlayacaktır. İşlem tamamlandıktan sonra uygulama kapanacaktır.</string>
+  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Bu Grapherex hesabınızı silecek ve uygulamayı sıfırlayacaktır. İşlem tamamlandıktan sonra uygulama kapanacaktır.</string>
   <string name="DeleteAccountFragment__failed_to_delete_account">Hesap silinemedi. İnternet bağlantınız mevcut mu?</string>
   <string name="DeleteAccountFragment__failed_to_delete_local_data">Yerel veri silinemedi. Sisteminizdeki uygulama ayarlarından kendiniz silebilirsiniz.</string>
   <string name="DeleteAccountFragment__launch_app_settings">Uygulama Ayarlarını Aç</string>
@@ -2701,7 +2701,7 @@ Geçersiz protokol sürümünde anahtar değişim iletisi alındı.</string>
   <string name="ShareActivity__share">Paylaş</string>
   <string name="ShareActivity__send">Gönder</string>
   <string name="ShareActivity__s_comma">%1$s,</string>
-  <string name="ShareActivity__sharing_to_multiple_chats_is">Birden fazla konuşmayla paylaşım sadece Signal iletileri için destekleniyor.</string>
+  <string name="ShareActivity__sharing_to_multiple_chats_is">Birden fazla konuşmayla paylaşım sadece Grapherex iletileri için destekleniyor.</string>
   <!--MultiShareDialogs-->
   <string name="MultiShareDialogs__failed_to_send_to_some_users">Bazı kullanıcılara gönderilemedi</string>
   <string name="MultiShareDialogs__you_can_only_share_with_up_to">En fazla %1$d konuşmayı paylaşabilirsiniz</string>

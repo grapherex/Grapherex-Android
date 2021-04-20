@@ -10,7 +10,7 @@
   <string name="AbstractNotificationBuilder_new_message">Ujumbe mpya</string>
   <!--AlbumThumbnailView-->
   <!--ApplicationMigrationActivity-->
-  <string name="ApplicationMigrationActivity__signal_is_updating">Signal inasasishwa…</string>
+  <string name="ApplicationMigrationActivity__signal_is_updating">Grapherex inasasishwa…</string>
   <!--ApplicationPreferencesActivity-->
   <string name="ApplicationPreferencesActivity_currently_s">Hivi sasa:  %s</string>
   <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">Bado haujaweka sisitizo.</string>
@@ -25,17 +25,17 @@
   </plurals> -->
   <!-- Removed by excludeNonTranslatables <string name="ApplicationPreferencesActivity_delete">Futa</string> -->
   <string name="ApplicationPreferencesActivity_disable_passphrase">Lemaza ufafanuzi</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Hii itafungua kabisa Signal na arifu za ujumbe</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Hii itafungua kabisa Grapherex na arifu za ujumbe</string>
   <string name="ApplicationPreferencesActivity_disable">Lemaza</string>
   <string name="ApplicationPreferencesActivity_unregistering">Usajili unaghairiwa</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Usajili unaghairiwa kutoka jumbe za Signal na simu</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Lemaza jumbe za Signal na simu?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Lemaza jumbe na simu za Signal kwa kutosajili kutoka kwenye seva. Utatakiwa kusajili tena numberi yako ya simu ili uzitumie tena baadae.</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Usajili unaghairiwa kutoka jumbe za Grapherex na simu</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Lemaza jumbe za Grapherex na simu?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Lemaza jumbe na simu za Grapherex kwa kutosajili kutoka kwenye seva. Utatakiwa kusajili tena numberi yako ya simu ili uzitumie tena baadae.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Hitilafu kuunganisha kwa mtambo.</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">Ujumbe mfupi wa simu umewezeshwa</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Gusa kubadili mpangilio msingi wa App ya jumbe</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">Ujumbe mfupi umelemazwa</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Gusa kufanya Signal mpangilio msingi wa App ya jumbe</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Gusa kufanya Grapherex mpangilio msingi wa App ya jumbe</string>
   <string name="ApplicationPreferencesActivity_on">Washwa</string>
   <string name="ApplicationPreferencesActivity_On">Washwa</string>
   <string name="ApplicationPreferencesActivity_off">Zima</string>
@@ -62,14 +62,14 @@
   <string name="AttachmentKeyboard_file">Faili</string>
   <string name="AttachmentKeyboard_contact">Mwasiliani</string>
   <string name="AttachmentKeyboard_location">Eneo</string>
-  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Signal inahitaji ruhusa ili kuonyesha picha zako na video.</string>
+  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Grapherex inahitaji ruhusa ili kuonyesha picha zako na video.</string>
   <string name="AttachmentKeyboard_give_access">Ruhusu</string>
   <!--AttachmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">Haiwezi kupata programu ya kuchagua media</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal inahitaji idhini ya Hifadhi ili kuunganisha picha, video, au sauti, lakini imekataliwa kabisa. Tafadhali endelea kwenye orodha ya mipangilio ya programu, chagua \"Ruhusa\", na uwezesha \"Hifadhi\".</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Signal inahitaji idhini ya Mawasiliano ili kuunganisha maelezo ya mawasiliano, lakini imekataliwa kabisa. Tafadhali endelea kwenye orodha ya mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Mawasiliano\".</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Signal inahitaji ruhusa ya Eneo ili kuunganisha mahali, lakini imekataliwa kabisa. Tafadhali endelea kwenye orodha ya mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Eneo\".</string>
-  <!-- Removed by excludeNonTranslatables <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Signal inahitaji ruhusa ya Kamera ili kuchukua picha, lakini imekataliwa kabisa. Tafadhali endelea kwenye orodha ya mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kamera\".</string> -->
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Grapherex inahitaji idhini ya Hifadhi ili kuunganisha picha, video, au sauti, lakini imekataliwa kabisa. Tafadhali endelea kwenye orodha ya mipangilio ya programu, chagua \"Ruhusa\", na uwezesha \"Hifadhi\".</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Grapherex inahitaji idhini ya Mawasiliano ili kuunganisha maelezo ya mawasiliano, lakini imekataliwa kabisa. Tafadhali endelea kwenye orodha ya mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Mawasiliano\".</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Grapherex inahitaji ruhusa ya Eneo ili kuunganisha mahali, lakini imekataliwa kabisa. Tafadhali endelea kwenye orodha ya mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Eneo\".</string>
+  <!-- Removed by excludeNonTranslatables <string name="AttachmentManager_Grapherex_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Grapherex inahitaji ruhusa ya Kamera ili kuchukua picha, lakini imekataliwa kabisa. Tafadhali endelea kwenye orodha ya mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kamera\".</string> -->
   <!--AttachmentUploadJob-->
   <string name="AttachmentUploadJob_uploading_media">Media inapakiwa…</string>
   <string name="AttachmentUploadJob_compressing_video_start">Video inafinyazwa…</string>
@@ -101,14 +101,14 @@
   <string name="CameraXFragment_open_gallery_description">Fungua kitunzio</string>
   <!--CameraContacts-->
   <string name="CameraContacts_recent_contacts">Mawasiliano ya hivi karibuni</string>
-  <string name="CameraContacts_signal_contacts">Mawasiliano ya Signal</string>
-  <string name="CameraContacts_signal_groups">Makundi za Signal</string>
+  <string name="CameraContacts_signal_contacts">Mawasiliano ya Grapherex</string>
+  <string name="CameraContacts_signal_groups">Makundi za Grapherex</string>
   <string name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">Unaweza kushiriki na upeo wa %dwa mazungumzo.</string>
-  <string name="CameraContacts_select_signal_recipients">Chagua wapokeaji wa Signal</string>
-  <string name="CameraContacts_no_signal_contacts">Hakuna mawasiliano ya Signal</string>
-  <string name="CameraContacts_you_can_only_use_the_camera_button">Unaweza kutumia kitufe cha kamera kutuma picha kwa mawasiliano ya Signal.</string>
+  <string name="CameraContacts_select_signal_recipients">Chagua wapokeaji wa Grapherex</string>
+  <string name="CameraContacts_no_signal_contacts">Hakuna mawasiliano ya Grapherex</string>
+  <string name="CameraContacts_you_can_only_use_the_camera_button">Unaweza kutumia kitufe cha kamera kutuma picha kwa mawasiliano ya Grapherex.</string>
   <string name="CameraContacts_cant_find_who_youre_looking_for">Huwezi kumpata unayemtafuta?</string>
-  <string name="CameraContacts_invite_a_contact_to_join_signal">Alika mwasiliani wako ajiunge na Signal</string>
+  <string name="CameraContacts_invite_a_contact_to_join_signal">Alika mwasiliani wako ajiunge na Grapherex</string>
   <string name="CameraContacts__menu_search">Tafuta</string>
   <!--ClearProfileActivity-->
   <string name="ClearProfileActivity_remove">Ondoa</string>
@@ -121,7 +121,7 @@
   <string name="CommunicationActions_cancel">Ghairi</string>
   <string name="CommunicationActions_call">Piga</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Nambari yako ya usalama ya 1 %1$s imebadilika. Hii inamaanisha kuwa aidha kuna mtu anajaribu kuingilia mawasiliano yako, ama tu 2 %2$s amesimiza upya Signal.</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Nambari yako ya usalama ya 1 %1$s imebadilika. Hii inamaanisha kuwa aidha kuna mtu anajaribu kuingilia mawasiliano yako, ama tu 2 %2$s amesimiza upya Grapherex.</string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">Ungependa kuthibitisha nambari yako ya usalama na anwani hii.</string>
   <string name="ConfirmIdentityDialog_accept">Kubali</string>
   <!--ContactsCursorLoader-->
@@ -132,7 +132,7 @@
   <string name="ContactsCursorLoader_username_search">Utafutaji wa jina la mtumizi</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">Ujumbe %s</string>
-  <string name="ContactsDatabase_signal_call_s">Simu ya Signal %s</string>
+  <string name="ContactsDatabase_signal_call_s">Simu ya Grapherex %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">Jina ulilopewa</string>
   <string name="ContactNameEditActivity_family_name">Jina la ukoo</string>
@@ -152,7 +152,7 @@
   <string name="ConversationItem_click_to_approve_unencrypted">Imefeli kutuma, gusa kwa isiyo salama ili kurejea nyuma</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">Rudi nyuma kwa ujumbe usio na msimbo fiche?</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">Rudi nyuma kwa ujumbe usio na msimbo fiche?</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Huu ujumbe hau <b>ta</b>  kuwa na msimbo fiche kwa sababu mpokeaji hatumii tena Signal.\n\n Tuma ujumbe usio salama?</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Huu ujumbe hau <b>ta</b>  kuwa na msimbo fiche kwa sababu mpokeaji hatumii tena Grapherex.\n\n Tuma ujumbe usio salama?</string>
   <string name="ConversationItem_unable_to_open_media">Haiwezi kupata programu inayoweza kufungua media hii.</string>
   <string name="ConversationItem_copied_text">nakala 1%s</string>
   <string name="ConversationItem_from_s">kutoka %s</string>
@@ -181,8 +181,8 @@
   <!-- Removed by excludeNonTranslatables <string name="ConversationActivity_choose_new_admin">Chagua msimamizi mpya</string> -->
   <string name="ConversationActivity_transport_insecure_sms">Ujumbe usio salama</string>
   <string name="ConversationActivity_transport_insecure_mms">MMS isiyo salama</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">Wacha tubadili kwa Signal 1%1$s</string>
+  <string name="ConversationActivity_transport_signal">Grapherex</string>
+  <string name="ConversationActivity_lets_switch_to_signal">Wacha tubadili kwa Grapherex 1%1$s</string>
   <string name="ConversationActivity_specify_recipient">Tafadhali chagua mawasiliano</string>
   <!-- Removed by excludeNonTranslatables <string name="ConversationActivity_unblock_this_contact_question">Ondoa kizuizi kwa mawasiliano haya?</string> -->
   <!-- Removed by excludeNonTranslatables <string name="ConversationActivity_unblock_this_group_question">Ondoa kizuizi kwa kundi hili?</string> -->
@@ -193,17 +193,17 @@
   <!-- Removed by excludeNonTranslatables <string name="ConversationActivity_quick_camera_unavailable">Kamera haipatikani</string> -->
   <string name="ConversationActivity_unable_to_record_audio">Haiwezi kurekodi sauti!</string>
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Hakuna programu ya kuweza kushughulikia kiungo hiki kwenye kifaa chako</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Kutuma jumbe za sauti, ruhusu ufikiaji wa Signal  kwenye kipaza sauti chako.</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal inahitaji idhini ya Kipaza sauti ili kutuma ujumbe wa sauti, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kipaza sauti\".</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signal inahitaji ruhusa ya Kipaza sauti na Kamera ili kupiga%s , lakini zimekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kipaza sauti\" na \"Kamera\".</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Ili kupiga picha na video, ruhusu ufikiaji wa Signal kwa kamera.</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal inahitaji kibali cha Kamera kuchukua picha au video, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kamera\".</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signal inahitaji ruhusa ya kamera kuchukua picha na video</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Kutuma jumbe za sauti, ruhusu ufikiaji wa Grapherex  kwenye kipaza sauti chako.</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Grapherex inahitaji idhini ya Kipaza sauti ili kutuma ujumbe wa sauti, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kipaza sauti\".</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Grapherex inahitaji ruhusa ya Kipaza sauti na Kamera ili kupiga%s , lakini zimekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kipaza sauti\" na \"Kamera\".</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Ili kupiga picha na video, ruhusu ufikiaji wa Grapherex kwa kamera.</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Grapherex inahitaji kibali cha Kamera kuchukua picha au video, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kamera\".</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Grapherex inahitaji ruhusa ya kamera kuchukua picha na video</string>
   <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">Wezesha ruhusa ya kipaza sauti kiweze kunasa video za sauti.</string>
-  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Signal inahitaji ruhusa za kipaza sauti kurekodi video, lakini imekataliwa. Tafadhali enda kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kipaza Sauti\" na \"Kamera\".</string>
-  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Signal inahitaji ruhusa za kipaza sauti ili kurekodi video.</string>
+  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Grapherex inahitaji ruhusa za kipaza sauti kurekodi video, lakini imekataliwa. Tafadhali enda kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kipaza Sauti\" na \"Kamera\".</string>
+  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Grapherex inahitaji ruhusa za kipaza sauti ili kurekodi video.</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
-  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Signal haiwezi kutuma jumbe za SMS au MMS kwa sababu sio programu chaguo-msingi ya SMS. Unataka kubadilisha mipangilio ya Android?</string>
+  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Grapherex haiwezi kutuma jumbe za SMS au MMS kwa sababu sio programu chaguo-msingi ya SMS. Unataka kubadilisha mipangilio ya Android?</string>
   <string name="ConversationActivity_yes">Ndio</string>
   <string name="ConversationActivity_no">Hapana</string>
   <string name="ConversationActivity_search_position">%1$d kwa %2$d</string>
@@ -248,7 +248,7 @@
     <item quantity="other">Inahifadhi viambatisho %1$dkwenye hifadhi</item>
   </plurals>
   <string name="ConversationFragment_pending">Subiriwa…</string>
-  <string name="ConversationFragment_push">Data (Signal)</string>
+  <string name="ConversationFragment_push">Data (Grapherex)</string>
   <string name="ConversationFragment_mms">Ujumbe wa picha</string>
   <string name="ConversationFragment_sms">Ujumbe wa maneno</string>
   <string name="ConversationFragment_deleting">Kufuta</string>
@@ -331,14 +331,14 @@
   <string name="DocumentView_unnamed_file">Faili isiyo na jina</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">Panga kwa Huduma za Play sizizopo.</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Kifaa hiki hakiwezeshi Huduma za Play. Gonga ili kulemaza na kuboresha mfumo wa betri unaozuia Signal kupokea ujumbe wakati haupo kwenye matumizi.</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Kifaa hiki hakiwezeshi Huduma za Play. Gonga ili kulemaza na kuboresha mfumo wa betri unaozuia Grapherex kupokea ujumbe wakati haupo kwenye matumizi.</string>
   <!--ShareActivity-->
   <string name="ShareActivity_share_with">Shiriki na</string>
   <!--GcmBroadcastReceiver-->
   <!-- Removed by excludeNonTranslatables <string name="GcmBroadcastReceiver_retrieving_a_message">Inaleta ujumbe</string> -->
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Muda wote mawasiliano ya Signal yanafeli!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal haikuweza kujisajili na Huduma za Google Play. Ujumbe wa Signal na simu zimezimwa, tafadhali jaribu kujiandikisha katika Mipangilio &gt;  Zaidi.</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Muda wote mawasiliano ya Grapherex yanafeli!</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Grapherex haikuweza kujisajili na Huduma za Google Play. Ujumbe wa Grapherex na simu zimezimwa, tafadhali jaribu kujiandikisha katika Mipangilio &gt;  Zaidi.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Hitilafu wakati wa kurejesha GIF kamili ya azimio</string>
   <!--GiphyFragmentPageAdapter-->
@@ -416,7 +416,7 @@
   <string name="InviteActivity_sending">Inatuma…</string>
   <!-- Removed by excludeNonTranslatables <string name="InviteActivity_heart_content_description">Moyo</string> -->
   <string name="InviteActivity_invitations_sent">Mialiko imetumwa!</string>
-  <string name="InviteActivity_invite_to_signal">Alika kwa Signal</string>
+  <string name="InviteActivity_invite_to_signal">Alika kwa Grapherex</string>
   <plurals name="InviteActivity_send_sms_to_friends">
     <item quantity="one">TUM SMS KWA MARAFIKI %d </item>
     <item quantity="other">TUMA SMS KWA%dMARAFIKI</item>
@@ -425,7 +425,7 @@
     <item quantity="one">Tuma miwito za SMS 1%d?</item>
     <item quantity="other">Tuma %d mialiko ya SMS?</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">Wacha tubadili kwa Signal: %1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">Wacha tubadili kwa Grapherex: %1$s</string>
   <string name="InviteActivity_no_app_to_share_to">Inaonekana huna programu zozote za kushiriki</string>
   <string name="InviteActivity_friends_dont_let_friends_text_unencrypted">Marafiki hawawaachi marafiki kufanya gumzo zisizo na msimbo fiche.</string>
   <!--Job-->
@@ -437,7 +437,7 @@
   <string name="LongMessageActivity_message_from_s">Ujumbe kutoka %1$s</string>
   <string name="LongMessageActivity_your_message">Ujumbe wako</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">Grapherex</string>
   <string name="MessageRetrievalService_background_connection_enabled">kuunganisha kwa usuli kumewezeshwa</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">Hitilafu kusoma mipangilio ya mtoa huduma za wireless MMS </string>
@@ -486,12 +486,12 @@
   <string name="Megaphones_introducing_reactions">Kuzindua hisia</string>
   <string name="Megaphones_tap_and_hold_any_message_to_quicky_share_how_you_feel">Donoa na ushikilie ujumbe wowote ili kwa haraka ushiriki unavyohisi.</string>
   <string name="Megaphones_remind_me_later">Nikumbushe baadaye</string>
-  <string name="Megaphones_verify_your_signal_pin">Thibitisha PINI yako ya Signal</string>
+  <string name="Megaphones_verify_your_signal_pin">Thibitisha PINI yako ya Grapherex</string>
   <string name="Megaphones_verify_pin">Thibitisha PINI</string>
   <!--NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Simu ya Signal inaendelea</string>
-  <string name="NotificationBarManager__establishing_signal_call">Inaanzisha simu ya Signal</string>
-  <string name="NotificationBarManager__incoming_signal_call">Simu ya Signal inayoingia</string>
+  <string name="NotificationBarManager_signal_call_in_progress">Simu ya Grapherex inaendelea</string>
+  <string name="NotificationBarManager__establishing_signal_call">Inaanzisha simu ya Grapherex</string>
+  <string name="NotificationBarManager__incoming_signal_call">Simu ya Grapherex inayoingia</string>
   <string name="NotificationBarManager__deny_call">Ghairi simu</string>
   <string name="NotificationBarManager__answer_call">Pokea simu</string>
   <string name="NotificationBarManager__end_call">Mwisho wa kupiga simu</string>
@@ -512,8 +512,8 @@
   <string name="MediaSendActivity_message_to_s">Tuma ujumbe kwa %s</string>
   <string name="MediaSendActivity_message">Ujumbe</string>
   <string name="MediaSendActivity_select_recipients">Chagua wapokeaji</string>
-  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Signal inahitaji upatikanaji wa anwani zako ili kuzionyesha.</string>
-  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Signal inahitaji ruhusa za Wawasiliani wako ili kuonyesha wawasiliani wako, lakini imekataliwa kabisa. Tafadhali enda kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Wawasiliani\".</string>
+  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Grapherex inahitaji upatikanaji wa anwani zako ili kuzionyesha.</string>
+  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Grapherex inahitaji ruhusa za Wawasiliani wako ili kuonyesha wawasiliani wako, lakini imekataliwa kabisa. Tafadhali enda kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Wawasiliani\".</string>
   <plurals name="MediaSendActivity_cant_share_more_than_n_items">
     <item quantity="one">Huwezi kugawiza kuliko vitu 1%d.</item>
     <item quantity="other">Huwezi kushiriki zaidi ya %dvitu</item>
@@ -524,7 +524,7 @@
   <string name="MediaRepository_all_media">Media zote</string>
   <!--MessageRecord-->
   <string name="MessageRecord_unknown">Isiyojulikana</string>
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Umepokea ujumbe uliosimbwa kutumia toleo la zamani la Signal ambalo halitumiki tena. Tafadhali muombe mtumaji kusasisha hadi toleo la hivi karibuni na kutuma tena ujumbe.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Umepokea ujumbe uliosimbwa kutumia toleo la zamani la Grapherex ambalo halitumiki tena. Tafadhali muombe mtumaji kusasisha hadi toleo la hivi karibuni na kutuma tena ujumbe.</string>
   <string name="MessageRecord_left_group">Umeondoka kwenye kundi.</string>
   <string name="MessageRecord_you_updated_group">Umesasisha kikundi</string>
   <!-- Removed by excludeNonTranslatables <string name="MessageRecord_you_called">Umepiga</string> -->
@@ -534,7 +534,7 @@
   <!-- Removed by excludeNonTranslatables <string name="MessageRecord_s_called_you">1%s alikupigia</string> -->
   <!-- Removed by excludeNonTranslatables <string name="MessageRecord_called_s">Imepiga%s</string> -->
   <!-- Removed by excludeNonTranslatables <string name="MessageRecord_missed_call_from">Umekosa simu kutoka kwa%s</string> -->
-  <string name="MessageRecord_s_joined_signal">1%s yupo Signal!</string>
+  <string name="MessageRecord_s_joined_signal">1%s yupo Grapherex!</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">Umelemaza jumbe zinazopotea</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$s  amelemaza jumbe zinazopotea</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">Umeweka kitufe cha wakati cha ujumbe unaotoweka kwa %1$s.</string>
@@ -591,10 +591,10 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">Msimbo wa QR sio sahihi</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Samahani, una vifaa vingi vilivyounganishwa tayari, jaribu kuondoa baadhi</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Samahani, hiki sio kiungo halali cha msimbo wa QR kwa kifaa</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">Unganisha kifaa cha Signal</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Inaonekana unajaribu kuunganisha kifaa cha Signal kwa kutumia skana ya mhusika wa 3. Kwa usalama wako, tafadhali skani msimbo tena kutoka ndani ya Signal.</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">Unganisha kifaa cha Grapherex</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Inaonekana unajaribu kuunganisha kifaa cha Grapherex kwa kutumia skana ya mhusika wa 3. Kwa usalama wako, tafadhali skani msimbo tena kutoka ndani ya Grapherex.</string>
   <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">
-Signal inahitaji ruhusa ya Kamera ili kuskani msimbo wa QR, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kamera\".</string>
+Grapherex inahitaji ruhusa ya Kamera ili kuskani msimbo wa QR, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kamera\".</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Imeshindwa kuskani msimbo wa QR bila ruhusa ya Kamera</string>
   <!--ExpirationDialog-->
   <string name="ExpirationDialog_disappearing_messages">Jumbe zinazopotea</string>
@@ -602,10 +602,10 @@ Signal inahitaji ruhusa ya Kamera ili kuskani msimbo wa QR, lakini imekataliwa k
   <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Ujumbe utakaotumwa na kupokewa kwenye gumzo hili utatoweka %s baada ya kuonekana.</string>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">Ingiza nenosiri</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Signal ikoni</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">Grapherex ikoni</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">Wasilisha nenosiri</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Nenosiri sio sahihi</string>
-  <string name="PassphrasePromptActivity_unlock_signal">Fungua Signal</string>
+  <string name="PassphrasePromptActivity_unlock_signal">Fungua Grapherex</string>
   <!--PlacePickerActivity-->
   <string name="PlacePickerActivity_title">Ramani</string>
   <!-- Removed by excludeNonTranslatables <string name="PlacePickerActivity_not_a_valid_address">Si anwani halali</string> -->
@@ -669,7 +669,7 @@ nambari yako ya simu</string>
   <string name="RegistrationActivity_invalid_number">Nambari si sahihi</string>
   <string name="RegistrationActivity_the_number_you_specified_s_is_invalid">Nambari  uliyotaja (%s) sio sahihi</string>
   <string name="RegistrationActivity_missing_google_play_services">Huduma za Google Play zinakosekana</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Kifaa hiki kimekosa huduma za Google Play. Bado unaweza kutumia Signal, lakini usanidi huu unaweza kusababisha upungufu wa kutegemewa au utendaji. \ n\n \ Kama wewe si mtumiaji wa juu, hautumii Android ROM, au unaamini kwamba unaona hili kimakosa, tafadhali wasiliana na support@signal.org kwa usaidizi wa matatizo.</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Kifaa hiki kimekosa huduma za Google Play. Bado unaweza kutumia Grapherex, lakini usanidi huu unaweza kusababisha upungufu wa kutegemewa au utendaji. \ n\n \ Kama wewe si mtumiaji wa juu, hautumii Android ROM, au unaamini kwamba unaona hili kimakosa, tafadhali wasiliana na support@Grapherex.org kwa usaidizi wa matatizo.</string>
   <string name="RegistrationActivity_i_understand">Nimeelewa</string>
   <string name="RegistrationActivity_play_services_error">Hitilafu katika huduma za Play</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Huduma za Google Play zinasasisha au hazipatikani kwa muda. Tafadhali jaribu tena.</string>
@@ -677,9 +677,9 @@ nambari yako ya simu</string>
   <!-- Removed by excludeNonTranslatables <string name="RegistrationActivity_no_browser">Haiwezekani kufungua kiungo hiki.  Hakuna kivinjari kilichopatikana</string> -->
   <!-- Removed by excludeNonTranslatables <string name="RegistrationActivity_more_information">Taarifa zaidi</string> -->
   <!-- Removed by excludeNonTranslatables <string name="RegistrationActivity_less_information">Taarifa chache</string> -->
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signal inahitaji kupata wawasiliani wako ama Media ili kukuunganisha na marafiki, kubadilishana jumbe, na kupiga simu kisalama</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Grapherex inahitaji kupata wawasiliani wako ama Media ili kukuunganisha na marafiki, kubadilishana jumbe, na kupiga simu kisalama</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">Imeshindwa kuunganisha kwenye huduma. Tafadhali angalia muunganisho wako wa mtandao na ujaribu tena.</string>
-  <!-- Removed by excludeNonTranslatables <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">Ili kuthibitisha nambari yako ya simu kwa urahisi, Signal inaweza kugundua moja kwa moja msimbo wako wa kuthibitisha kama utakubali Signal itazame jumbe fupi.</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="RegistrationActivity_to_easily_verify_your_phone_number_Grapherex_can_automatically_detect_your_verification_code">Ili kuthibitisha nambari yako ya simu kwa urahisi, Grapherex inaweza kugundua moja kwa moja msimbo wako wa kuthibitisha kama utakubali Grapherex itazame jumbe fupi.</string> -->
   <plurals name="RegistrationActivity_debug_log_hint">
     <item quantity="one">Sasa uko hatua %dkabla uwasilishe faili la rekebisho.</item>
     <item quantity="other">Sasa uko hatua %d kabla uwasilishe faili la rekebisho.</item>
@@ -698,7 +698,7 @@ nambari yako ya simu</string>
   <string name="RegistrationActivity_country_code_description">Nambari ya nchi</string>
   <string name="RegistrationActivity_call">Piga</string>
   <!--RegistrationLockV2Dialog-->
-  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Iwapo utasahau PINI yako ya ishara wakati wa kusajili na Signal tena, utafungiwa akaunti yako kwa siku 7.</string>
+  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Iwapo utasahau PINI yako ya ishara wakati wa kusajili na Grapherex tena, utafungiwa akaunti yako kwa siku 7.</string>
   <!--RevealableMessageView-->
   <string name="RevealableMessageView_view_photo">Onyesha Picha</string>
   <string name="RevealableMessageView_view_video">Tazama video</string>
@@ -713,14 +713,14 @@ nambari yako ya simu</string>
   <string name="SearchFragment_header_messages">Jumbe</string>
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">Ongeza mawasiliano</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">Mwalike kwenye Signal</string>
-  <string name="SharedContactDetailsActivity_signal_message">Ujumbe wa Signal</string>
-  <string name="SharedContactDetailsActivity_signal_call">Simu ya Signal</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">Mwalike kwenye Grapherex</string>
+  <string name="SharedContactDetailsActivity_signal_message">Ujumbe wa Grapherex</string>
+  <string name="SharedContactDetailsActivity_signal_call">Simu ya Grapherex</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">Ongeza kwa wawasiliani</string>
-  <string name="SharedContactView_invite_to_signal">Mwalike kwenye Signal</string>
-  <string name="SharedContactView_message">Ujumbe wa Signal</string>
-  <!--SignalPinReminders-->
+  <string name="SharedContactView_invite_to_signal">Mwalike kwenye Grapherex</string>
+  <string name="SharedContactView_message">Ujumbe wa Grapherex</string>
+  <!--GrapherexPinReminders-->
   <!--Slide-->
   <string name="Slide_image">Picha</string>
   <string name="Slide_sticker">Kibandiko</string>
@@ -734,14 +734,14 @@ nambari yako ya simu</string>
   <string name="SmsMessageRecord_secure_session_reset">Umeseti upya kipindi salama</string>
   <string name="SmsMessageRecord_secure_session_reset_s">%s Seti tena kipindi salama</string>
   <string name="SmsMessageRecord_duplicate_message">Ujumbe nakala</string>
-  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">Huu ujumbe haukuchakatishwa kwa sababu umetumwa kutoka kwa toleo jipya la Signal. Unaweza kuomba mwasiliani wako akutumie ujumbe huu tena baada ya wewe kusasisha.</string>
+  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">Huu ujumbe haukuchakatishwa kwa sababu umetumwa kutoka kwa toleo jipya la Grapherex. Unaweza kuomba mwasiliani wako akutumie ujumbe huu tena baada ya wewe kusasisha.</string>
   <string name="SmsMessageRecord_error_handling_incoming_message">Hitilafu kushughulikia ujumbe unaoingia.</string>
   <!--StickerManagementActivity-->
   <string name="StickerManagementActivity_stickers">Vibandiko</string>
   <!--StickerManagementAdapter-->
   <string name="StickerManagementAdapter_installed_stickers">Vibandiko Vilivyosakinishwa</string>
   <string name="StickerManagementAdapter_stickers_you_received">Vibandiko Ulivyovipokea</string>
-  <string name="StickerManagementAdapter_signal_artist_series">Mfululizo wa Msanii wa Signal</string>
+  <string name="StickerManagementAdapter_signal_artist_series">Mfululizo wa Msanii wa Grapherex</string>
   <string name="StickerManagementAdapter_no_stickers_installed">Hakuna vibandiko vilivyosakinishwa</string>
   <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">Vibandiko kutoka kwa jumbe zinazoingia zitaonekana hapa</string>
   <string name="StickerManagementAdapter_untitled">Haina kichwa</string>
@@ -775,7 +775,7 @@ nambari yako ya simu</string>
   <string name="ThreadRecord_view_once_video">Video ya mtazamo mmoja</string>
   <string name="ThreadRecord_view_once_media">Media ya mtazamo mmoja</string>
   <string name="ThreadRecord_this_message_was_deleted">Ujumbe huu umefutwa</string>
-  <string name="ThreadRecord_s_is_on_signal">%s yupo Signal</string>
+  <string name="ThreadRecord_s_is_on_signal">%s yupo Grapherex</string>
   <string name="ThreadRecord_disappearing_messages_disabled">Jumbe zinazopotea  zimelemazwa</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">Muda wa jumbe zinazopotea umewekwa kwa 1%s</string>
   <string name="ThreadRecord_safety_number_changed">Nambari salama imebadilika</string>
@@ -791,8 +791,8 @@ nambari yako ya simu</string>
   <string name="ThreadRecord_file">Faili</string>
   <string name="ThreadRecord_video">Video</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Sasisho ya Signal</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Toleo jipya la Signal linapatikana, bonyeza kusasisha</string>
+  <string name="UpdateApkReadyListener_Signal_update">Sasisho ya Grapherex</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Toleo jipya la Grapherex linapatikana, bonyeza kusasisha</string>
   <!--UnknownSenderView-->
   <!-- Removed by excludeNonTranslatables <string name="UnknownSenderView_block_s">Zuia 1%s?</string> -->
   <!-- Removed by excludeNonTranslatables <string name="UnknownSenderView_blocked_contacts_will_no_longer_be_able_to_send_you_messages_or_call_you">Nambari zilizozuiliwa hazitoweza kukutumia jumbe au kukupigia simu</string> -->
@@ -818,16 +818,16 @@ nambari yako ya simu</string>
   <string name="UsernameEditFragment_usernames_cannot_begin_with_a_number">Majina ya watumiaji hayawezi kuanza kwa nambari.</string>
   <string name="UsernameEditFragment_username_is_invalid">Jina la mtumiaji si halali.</string>
   <string name="UsernameEditFragment_usernames_must_be_between_a_and_b_characters">Majina ya watumiaji lazima yawe kati ya vibambo  %1$dna %2$d.</string>
-  <!-- Removed by excludeNonTranslatables <string name="UsernameEditFragment_other_signal_users_can_send_message_requests_to_your_unique_username">Watumiaji wengine wa Signal wanaweza kutuma maombi ya ujumbe kwa jina lako la kipekee la mtumiaji bila kujua nambari yako ya simu. Kuchagua jina la mtumiaji ni kwa hiari.</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="UsernameEditFragment_other_Grapherex_users_can_send_message_requests_to_your_unique_username">Watumiaji wengine wa Grapherex wanaweza kutuma maombi ya ujumbe kwa jina lako la kipekee la mtumiaji bila kujua nambari yako ya simu. Kuchagua jina la mtumiaji ni kwa hiari.</string> -->
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Mawasiliano yako yanaendesha toleo la zamani la Signal. Tafadhali waombe wasasishe kabla ya kuthibitisha nambari yako ya usalama.</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Mawasiliano yako yanaendesha toleo jipya la Signal na muundo wa msimbo wa QR usiopatanisha. Tafadhali sasisha ili upatanishe</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Mawasiliano yako yanaendesha toleo la zamani la Grapherex. Tafadhali waombe wasasishe kabla ya kuthibitisha nambari yako ya usalama.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Mawasiliano yako yanaendesha toleo jipya la Grapherex na muundo wa msimbo wa QR usiopatanisha. Tafadhali sasisha ili upatanishe</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Scani ya msimbo wa QR sio ya muundo sahihi wa nambari ya msimbo salama wa kuthibitisha. Tafadhali jaribu kuscani tena.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Shiriki nambari salama kupitia…</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">Nambari yetu ya usalama ya Signal</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">Nambari yetu ya usalama ya Grapherex</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">Inaonekana huna programu yoyote ya kushiriki</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Hamna nambari ya usalama ya kulinganisha iliyopatikana kwenye bodi ya kupogoa</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signal inahitaji ruhusa ya Kamera ili kuskani msimbo wa QR, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kamera\".</string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Grapherex inahitaji ruhusa ya Kamera ili kuskani msimbo wa QR, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kamera\".</string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">Imeshindwa kuskani msimbo wa QR bila ruhusa ya kamera</string>
   <!--ViewOnceMessageActivity-->
   <!--AudioView-->
@@ -848,14 +848,14 @@ nambari yako ya simu</string>
   <string name="ApplicationMigrationService_system_database_import_is_complete">Mfumo wa hifadhidata umemaliza kuingiza</string>
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">Gusa kufungua</string>
-  <!-- Removed by excludeNonTranslatables <string name="KeyCachingService_signal_passphrase_cached_with_lock">Gusa kufungua, au gusa kifungio kufunga</string> -->
-  <string name="KeyCachingService_passphrase_cached">Signal imefunguliwa</string>
-  <string name="KeyCachingService_lock">Funga Signal</string>
+  <!-- Removed by excludeNonTranslatables <string name="KeyCachingService_Grapherex_passphrase_cached_with_lock">Gusa kufungua, au gusa kifungio kufunga</string> -->
+  <string name="KeyCachingService_passphrase_cached">Grapherex imefunguliwa</string>
+  <string name="KeyCachingService_lock">Funga Grapherex</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">Wewe</string>
   <string name="MediaPreviewActivity_unssuported_media_type">Aina ya media isiyowezeshwa</string>
   <string name="MediaPreviewActivity_draft">Rasimu</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Signal inahitaji ruhusa ya Hifadhi ili kuhifadhi kwenye hifadhi ya nje, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Uhifadhi\".</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Grapherex inahitaji ruhusa ya Hifadhi ili kuhifadhi kwenye hifadhi ya nje, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Uhifadhi\".</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Haiwezekani kuhifadhi kwenye hifadhi ya nje bila ruhusa</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">Futa ujumbe?</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">Hii itafuta ujumbe kabisa</string>
@@ -875,10 +875,10 @@ nambari yako ya simu</string>
   <string name="MessageNotifier_view_once_photo">Picha ya mtazamo mmoja</string>
   <string name="MessageNotifier_view_once_video">Video ya mtazamo mmoja</string>
   <string name="MessageNotifier_reply">Jibu</string>
-  <string name="MessageNotifier_signal_message">Ujumbe wa Signal</string>
+  <string name="MessageNotifier_signal_message">Ujumbe wa Grapherex</string>
   <string name="MessageNotifier_unsecured_sms">Ujumbe usio salama</string>
   <string name="MessageNotifier_you_may_have_new_messages">Inawezekana una jumbe mpya</string>
-  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Fungua Signal kuangalia taarifa mpya</string>
+  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Fungua Grapherex kuangalia taarifa mpya</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Mawasiliano</string>
   <string name="MessageNotifier_reacted_s_to_s">Ametoa hisia %1$skwa: \"%2$s\".</string>
@@ -904,7 +904,7 @@ nambari yako ya simu</string>
   <!-- Removed by excludeNonTranslatables <string name="ProfileEditNameFragment_successfully_set_profile_name">Jina lako la wasifa limefanikiwa kuwekwa.</string> -->
   <!-- Removed by excludeNonTranslatables <string name="ProfileEditNameFragment_encountered_a_network_error">Imekumbana na hitilafu ya mtandao.</string> -->
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Jibu la haraka halipatikani wakati Signal imefungwa!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Jibu la haraka halipatikani wakati Grapherex imefungwa!</string>
   <string name="QuickResponseService_problem_sending_message">Tatizo kutuma ujumbe</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">Imehifadhiwa kwa %s</string>
@@ -915,7 +915,7 @@ nambari yako ya simu</string>
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">Mkato batili</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal </string>
+  <string name="SingleRecipientNotificationBuilder_signal">Grapherex </string>
   <string name="SingleRecipientNotificationBuilder_new_message">Ujumbe mpya</string>
   <!--ThumbnailView-->
   <string name="ThumbnailView_Play_video_description">Cheza video</string>
@@ -927,14 +927,14 @@ nambari yako ya simu</string>
   </plurals>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">Kifaa hakijasajiliwa tena</string>
-  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Hii inawezekana kwa sababu umeandikisha nambari yako ya simu na Signal kwenye kifaa tofauti. Gonga ili kujiandikisha tena.</string>
+  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Hii inawezekana kwa sababu umeandikisha nambari yako ya simu na Grapherex kwenye kifaa tofauti. Gonga ili kujiandikisha tena.</string>
   <!--VideoPlayer-->
   <!-- Removed by excludeNonTranslatables <string name="VideoPlayer_error_playing_video">Hitilafu kuchezesha video</string> -->
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Ili kujibu simu kutoka kwa %s, ruhusu Signal ifikie kipaza sauti chako.</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Signal inahitaji ruhusa ya kipaza sauti na Kamera ili kufanya au kupokea simu, lakini zimekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kipaza sauti\" na \"Kamera\".</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Ili kujibu simu kutoka kwa %s, ruhusu Grapherex ifikie kipaza sauti chako.</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Grapherex inahitaji ruhusa ya kipaza sauti na Kamera ili kufanya au kupokea simu, lakini zimekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Kipaza sauti\" na \"Kamera\".</string>
   <!--WebRtcCallScreen-->
-  <!-- Removed by excludeNonTranslatables <string name="WebRtcCallScreen_new_safety_numbers">Nambari ya usalama ya gumzo lako na %1$simebadilika. Hili linaweza kumaanisha kuwa aidha kuna mtu anayejaribu kuingilia mawasiliano yenu, ama tu %2$samesakinisha upya Signal.</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="WebRtcCallScreen_new_safety_numbers">Nambari ya usalama ya gumzo lako na %1$simebadilika. Hili linaweza kumaanisha kuwa aidha kuna mtu anayejaribu kuingilia mawasiliano yenu, ama tu %2$samesakinisha upya Grapherex.</string> -->
   <!-- Removed by excludeNonTranslatables <string name="WebRtcCallScreen_you_may_wish_to_verify_this_contact">Unangependa  kuhakiki nambari yako ya usalama na anwani hii.</string> -->
   <!-- Removed by excludeNonTranslatables <string name="WebRtcCallScreen_new_safety_number_title">Nambari mpya ya usalama</string> -->
   <!-- Removed by excludeNonTranslatables <string name="WebRtcCallScreen_accept">Kubali</string> -->
@@ -977,7 +977,7 @@ nambari yako ya simu</string>
   <string name="change_passphrase_activity__repeat_new_passphrase">Rudia nenosiri mpya</string>
   <!--contact_selection_activity-->
   <string name="contact_selection_activity__enter_name_or_number">Ingiza jina au nambari</string>
-  <string name="contact_selection_activity__invite_to_signal">Mwalike kwenye Signal</string>
+  <string name="contact_selection_activity__invite_to_signal">Mwalike kwenye Grapherex</string>
   <string name="contact_selection_activity__new_group">Kikundi kipya</string>
   <!--contact_filter_toolbar-->
   <string name="contact_filter_toolbar__clear_entered_text_description">Futa matini iliyoingizwa</string>
@@ -989,19 +989,19 @@ nambari yako ya simu</string>
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">Picha ya mwasiliani</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Signal inahitaji idhini ya Wawasiliani ili kuonyesha wawasiliani wako, lakini imekataliwa kabisa. Tafadhali endelea kwenye orodha ya mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Wawasiliani\".</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Grapherex inahitaji idhini ya Wawasiliani ili kuonyesha wawasiliani wako, lakini imekataliwa kabisa. Tafadhali endelea kwenye orodha ya mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe \"Wawasiliani\".</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Hitilafu kupata wawasiliani, angalia uunganisho wako wa mtandao</string>
   <string name="ContactSelectionListFragment_username_not_found">Jina la mtumiaji halijapatikana</string>
-  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">\"%1$s\" sio mtumiaji wa Signal. Tafadhali angalia jina la mtumiaji na ujaribu tena.</string>
+  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">\"%1$s\" sio mtumiaji wa Grapherex. Tafadhali angalia jina la mtumiaji na ujaribu tena.</string>
   <!-- Removed by excludeNonTranslatables <string name="ContactSelectionListFragment_okay">Sawa</string> -->
   <!--blocked_contacts_fragment-->
   <!-- Removed by excludeNonTranslatables <string name="blocked_contacts_fragment__no_blocked_contacts">Hakuna mawasiliano yaliyofungiwa</string> -->
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Signal inahitaji upatikanaji wa wawasiliani yako ili kuonyesha.</string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Grapherex inahitaji upatikanaji wa wawasiliani yako ili kuonyesha.</string>
   <string name="contact_selection_list_fragment__show_contacts">onyesha mawasiliano</string>
   <!--contact_selection_list_item-->
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">Ujumbe wa Signal</string>
+  <string name="conversation_activity__type_message_push">Ujumbe wa Grapherex</string>
   <string name="conversation_activity__type_message_sms_insecure">Ujumbe usio salama</string>
   <string name="conversation_activity__type_message_mms_insecure">MMS isiyo salama</string>
   <string name="conversation_activity__from_sim_name">Kutoka 1%1$s</string>
@@ -1014,7 +1014,7 @@ nambari yako ya simu</string>
  kamera</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Rekodi na tuma kiambatisho cha sauti</string>
   <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Funga kurekodi kwa kiambatisho cha sauti</string>
-  <string name="conversation_activity__enable_signal_for_sms">Wezesha Signal kwa Ujumbe</string>
+  <string name="conversation_activity__enable_signal_for_sms">Wezesha Grapherex kwa Ujumbe</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">Telezesha ili kughairi</string>
   <string name="conversation_input_panel__cancel">Ghairi</string>
@@ -1091,9 +1091,9 @@ nambari yako ya simu</string>
   <string name="IdentityUtil_unverified_banner_one">Nambari yako ya usalama %sna imebadilika na haijathibitishwa tena</string>
   <string name="IdentityUtil_unverified_banner_two">Nambari zako za usalama %1$s na %2$s sasa hazijathibitishwa tena</string>
   <string name="IdentityUtil_unverified_banner_many">Nambari zako za usalama na %1$s, %2$s, na %3$shazijathibitishwa tena. </string>
-  <string name="IdentityUtil_unverified_dialog_one">Nambari yako ya usalama na %1$simebadilika na haijathibitishwa tena. Hili linamaanisha kuwa aidha kuna mtu anayejaribu kuingilia mawasiliano yako, ama tu %1$samesakinisha upya Signal.</string>
-  <string name="IdentityUtil_unverified_dialog_two">Nambari zako za usalama na %1$s na %2$s hazijathibitishwa tena. Hili linaweza kumaanisha kuwa aidha kuna mtu anayejaribu kuingilia mawasiliano yako, au tu amesakinisha upya Signal.</string>
-  <string name="IdentityUtil_unverified_dialog_many">Nambari zako za usalama na %1$s, %2$s, na %3$s hazijahakikishwa. Hili linaweza kumaanisha kuwa aidha kuna mtu anayejaribu kuingilia mawasiliano yenu, au tu wamesimika upya Signal.</string>
+  <string name="IdentityUtil_unverified_dialog_one">Nambari yako ya usalama na %1$simebadilika na haijathibitishwa tena. Hili linamaanisha kuwa aidha kuna mtu anayejaribu kuingilia mawasiliano yako, ama tu %1$samesakinisha upya Grapherex.</string>
+  <string name="IdentityUtil_unverified_dialog_two">Nambari zako za usalama na %1$s na %2$s hazijathibitishwa tena. Hili linaweza kumaanisha kuwa aidha kuna mtu anayejaribu kuingilia mawasiliano yako, au tu amesakinisha upya Grapherex.</string>
+  <string name="IdentityUtil_unverified_dialog_many">Nambari zako za usalama na %1$s, %2$s, na %3$s hazijahakikishwa. Hili linaweza kumaanisha kuwa aidha kuna mtu anayejaribu kuingilia mawasiliano yenu, au tu wamesimika upya Grapherex.</string>
   <string name="IdentityUtil_untrusted_dialog_one">Nambari yako ya usalama pamoja na 1%s imebadilika </string>
   <string name="IdentityUtil_untrusted_dialog_two">Nambari zako za usalama na %1$s na %2$szimebadilika.</string>
   <string name="IdentityUtil_untrusted_dialog_many">Nambari zako za usalama na %1$s, %2$s, na %3$s zimebadilika.</string>
@@ -1121,7 +1121,7 @@ nambari yako ya simu</string>
   <!-- Removed by excludeNonTranslatables <string name="log_submit_activity__please_review_this_log_from_my_app">Tafadhali hakiki faili hili kutoka kwa programu yangu: %1$s</string> -->
   <!-- Removed by excludeNonTranslatables <string name="log_submit_activity__network_failure">Mtandao umefeli. Tafadhali jaribu tena </string> -->
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Je! Ungependa kuingiza jumbe zako za matini zilizopo kwenye hifadhidata salama ya Signal?</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Je! Ungependa kuingiza jumbe zako za matini zilizopo kwenye hifadhidata salama ya Grapherex?</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">Chaguo msingi lako ya mfumo wa hifadhidata halitabadilishwa kwa njia yoyote.</string>
   <string name="database_migration_activity__skip">Ruka</string>
   <string name="database_migration_activity__import">Ingiza</string>
@@ -1151,7 +1151,7 @@ nambari yako ya simu</string>
   <!--prompt_passphrase_activity-->
   <string name="prompt_passphrase_activity__unlock">Fungua</string>
   <!--prompt_mms_activity-->
-  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Signal inahitaji mipangilio ya MMS ili kuwasilisha ujumbe wa media na wa kikundi kwa njia ya mtoa huduma yako ya wireless. Kifaa chako hakitoi taarifa hizi, ambazo mara kwa mara ni za kweli kwa vifaa vilivyofungwa na usanidi mwingine unaozuia.</string>
+  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Grapherex inahitaji mipangilio ya MMS ili kuwasilisha ujumbe wa media na wa kikundi kwa njia ya mtoa huduma yako ya wireless. Kifaa chako hakitoi taarifa hizi, ambazo mara kwa mara ni za kweli kwa vifaa vilivyofungwa na usanidi mwingine unaozuia.</string>
   <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">Kutuma ujumbe wa media na vikundi, gonga \'Sawa\' na kamilisha mipangilio iliyoombwa. Mipangilio ya MMS ya mtoa huduma yako inaweza kwa kawaida kupatikana kwa kutafuta \'APN ya mtoa huduma yako\'. Utahitaji tu kufanya hili mara moja.</string>
   <!--profile_create_activity-->
   <string name="CreateProfileActivity_first_name_required">Jina la kwanza (linahitajika)</string>
@@ -1164,10 +1164,10 @@ nambari yako ya simu</string>
   <!--recipient_preferences_activity-->
   <string name="recipient_preference_activity__shared_media">Media iliyoshirikishwa</string>
   <!--- redphone_call_controls-->
-  <!-- Removed by excludeNonTranslatables <string name="redphone_call_card__signal_call">Simu ya Signal</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="redphone_call_card__Grapherex_call">Simu ya Grapherex</string> -->
   <!--registration_activity-->
   <!-- Removed by excludeNonTranslatables <string name="registration_activity__phone_number">NAMBARI YA SIMU</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">Signal inarahisisha kuwasiliana kwa kutumia nambari yako ya simu iliyopo na kitabu cha anwani. Marafiki na wawasiliani ambao tayari wanajua jinsi ya kuwasiliana nawe kwa simu wataweza kuwasiliana kwa urahisi na Signal. \ n \ nUsajili unatuma maelezo fulani ya mawasiliano kwenye seva. Hayahifadhiwi.</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">Grapherex inarahisisha kuwasiliana kwa kutumia nambari yako ya simu iliyopo na kitabu cha anwani. Marafiki na wawasiliani ambao tayari wanajua jinsi ya kuwasiliana nawe kwa simu wataweza kuwasiliana kwa urahisi na Grapherex. \ n \ nUsajili unatuma maelezo fulani ya mawasiliano kwenye seva. Hayahifadhiwi.</string> -->
   <!-- Removed by excludeNonTranslatables <string name="registration_activity__verify_your_number">Hakiki namba yako</string> -->
   <!-- Removed by excludeNonTranslatables <string name="registration_activity__please_enter_your_mobile_number_to_receive_a_verification_code_carrier_rates_may_apply">Tafadhali ingiza nambari yako ya simu ili upokee nambari ya kuthibitisha. Malipo ya mtoa huduma yatazingatiwa</string> -->
   <!--recipients_panel-->
@@ -1179,7 +1179,7 @@ nambari yako ya simu</string>
   <!-- Removed by excludeNonTranslatables <string name="unknown_sender_view__add_to_contacts">Ongeza kwa wawasiliani</string> -->
   <!-- Removed by excludeNonTranslatables <string name="unknown_sender_view__don_t_add_but_make_my_profile_visible">USIONGEZE, ILA FANYA WASIFA UONEKANE</string> -->
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Iwapo ungependa kuhakiki usalama wa usimbaji wako na %s, linganisha nambari iliyo juu na nambari kwenye kifaa chao. PIa, unaweza kuskani msimbo kwa simu yao, au uwaombe waskani msimbo wako. <a href="https://signal.org/redirect/safety-numbers"> Fahamu zaidi. </a>]]></string>
+  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Iwapo ungependa kuhakiki usalama wa usimbaji wako na %s, linganisha nambari iliyo juu na nambari kwenye kifaa chao. PIa, unaweza kuskani msimbo kwa simu yao, au uwaombe waskani msimbo wako. <a href="https://Grapherex.org/redirect/safety-numbers"> Fahamu zaidi. </a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">Gusa kuskani</string>
   <string name="verify_display_fragment__loading">Inapakia</string>
   <string name="verify_display_fragment__verified">Iliyothibitishwa</string>
@@ -1250,8 +1250,8 @@ nambari yako ya simu</string>
   <string name="preferences__sms_mms">SMS na MMS</string>
   <string name="preferences__pref_all_sms_title">Pokea SMS zote</string>
   <string name="preferences__pref_all_mms_title">Pokea MMS zote</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Tumia Signal kwa ujumbe wote unaoingia</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Tumia Signal kwa ujumbe wote unaoingia wa multimedia</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Tumia Grapherex kwa ujumbe wote unaoingia</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Tumia Grapherex kwa ujumbe wote unaoingia wa multimedia</string>
   <string name="preferences__pref_enter_sends_title">Ingiza za kutuma zilizo muhimu</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">Kubonyeza kitufe cha ingizo kutatutuma ujumbe wa maandishi</string>
   <!-- Removed by excludeNonTranslatables <string name="preferences__send_link_previews">Tuma kiungo cha kuhakiki</string> -->
@@ -1264,7 +1264,7 @@ nambari yako ya simu</string>
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Funga skriini na arifa pamoja na Nenosiri</string>
   <string name="preferences__screen_security">usalama wa skrini</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">Zuia viwambo vya skrini katika orodha ya rekodi na ndani ya programu</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Funga Signal kiotomatiki baada ya muda fulani usio na utendaji</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Funga Grapherex kiotomatiki baada ya muda fulani usio na utendaji</string>
   <string name="preferences__inactivity_timeout_passphrase">Nenosiri la uishaji muda</string>
   <string name="preferences__inactivity_timeout_interval">Kipindi cha uishaji muda </string>
   <string name="preferences__notifications">Arifa</string>
@@ -1319,8 +1319,8 @@ nambari yako ya simu</string>
   <string name="preferences__theme">mandhari</string>
   <!-- Removed by excludeNonTranslatables <string name="preferences__default">Chaguo Msingi</string> -->
   <string name="preferences__language">Lugha</string>
-  <string name="preferences__signal_messages_and_calls">Ujumbe na simu za Signal</string>
-  <string name="preferences__free_private_messages_and_calls">Ujumbe wa faragha wa bure na simu kwa watumiaji wa Signal</string>
+  <string name="preferences__signal_messages_and_calls">Ujumbe na simu za Grapherex</string>
+  <string name="preferences__free_private_messages_and_calls">Ujumbe wa faragha wa bure na simu kwa watumiaji wa Grapherex</string>
   <string name="preferences__submit_debug_log">Wasilisha tunzakumbukumbu ya ueuaji</string>
   <string name="preferences__support_wifi_calling">\'\'Simu ya Wi-Fi\' aina ya utangamano</string>
   <string name="preferences__enable_if_your_device_supports_sms_mms_delivery_over_wifi">Wezesha iwapo kifaa chako kinatumia uwasilishaji wa SMS / MMS juu ya WiFi (wezesha tu wakati \"Simu ya WiFi\" imewezeshwa kwenye kifaa chako)</string>
@@ -1343,8 +1343,8 @@ nambari yako ya simu</string>
   <string name="preferences_storage__audio">Sauti</string>
   <string name="preferences_storage__review_storage">Pitia tena hifadhi</string>
   <string name="preferences_advanced__use_system_emoji">Tumia emoji ya mfumo</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Lemaza emoji iliyojengwa ndani ya Signal</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Wasilisha simu zote kupitia Signal seva kuzuia kutambulisha anwani yako ya IP kwa mwasiliani wako. Kuwezesha kutapunguza ubora wa simu</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Lemaza emoji iliyojengwa ndani ya Grapherex</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Wasilisha simu zote kupitia Grapherex seva kuzuia kutambulisha anwani yako ya IP kwa mwasiliani wako. Kuwezesha kutapunguza ubora wa simu</string>
   <string name="preferences_advanced__always_relay_calls">Wasilisha simu kila mara</string>
   <string name="preferences_app_protection__app_access">Ufikiaji programu</string>
   <string name="preferences_app_protection__communication">Mawasiliano</string>
@@ -1356,9 +1356,9 @@ nambari yako ya simu</string>
   <string name="preferences_notifications__calls">Simu</string>
   <string name="preferences_notifications__ringtone">Mlio wa simu</string>
   <string name="preferences_chats__show_invitation_prompts">Onyesha mwaliko</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Onyesha mwaliko ya wawasiliani wasio na Signal</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Onyesha mwaliko ya wawasiliani wasio na Grapherex</string>
   <string name="preferences_chats__message_text_size">ukubwa wa maandishi ya ujumbe</string>
-  <string name="preferences_events__contact_joined_signal">Mwasiliani amejiunga na Signal</string>
+  <string name="preferences_events__contact_joined_signal">Mwasiliani amejiunga na Grapherex</string>
   <string name="preferences_notifications__priority">Kipaumbele</string>
   <string name="preferences_communication__category_sealed_sender">Mtumaji mwenye muhuri</string>
   <string name="preferences_communication__sealed_sender_display_indicators">Onyesha viashiria</string>
@@ -1375,8 +1375,8 @@ nambari yako ya simu</string>
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">Simu</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Simu ya Signal</string>
-  <string name="conversation_callable_secure__menu_video">Simu ya video ya Signal</string>
+  <string name="conversation_callable_secure__menu_call">Simu ya Grapherex</string>
+  <string name="conversation_callable_secure__menu_video">Simu ya video ya Grapherex</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">Maelezo ya ujumbe</string>
   <string name="conversation_context__menu_copy_text">Nakili matini</string>
@@ -1445,26 +1445,26 @@ nambari yako ya simu</string>
   <string name="verify_display_fragment_context_menu__copy_to_clipboard">Nakili kwenye clipbodi</string>
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">Linganisha na clipbodi</string>
   <!--reminder_header-->
-  <!-- Removed by excludeNonTranslatables <string name="reminder_header_outdated_build">Toleo lako la Signal limepitwa na wakati</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="reminder_header_outdated_build">Toleo lako la Grapherex limepitwa na wakati</string> -->
   <!-- Removed by excludeNonTranslatables <plurals name="reminder_header_outdated_build_details">
-    <item quantity="one">Toleo lako la Signal linaisha baada ya siku %d. Donoa ili usasishe hadi toleo la hivi punde zaidi.</item>
-    <item quantity="other">Toleo lako la Signal linaisha muda siku %d. Donoa ili kusasisha hadi kwenye toleo la hivi punde zaidi.</item>
+    <item quantity="one">Toleo lako la Grapherex linaisha baada ya siku %d. Donoa ili usasishe hadi toleo la hivi punde zaidi.</item>
+    <item quantity="other">Toleo lako la Grapherex linaisha muda siku %d. Donoa ili kusasisha hadi kwenye toleo la hivi punde zaidi.</item>
   </plurals> -->
-  <!-- Removed by excludeNonTranslatables <string name="reminder_header_outdated_build_details_today">Toleo lako la Signal litaisha muda leo. Gonga ili usasishe kwa toleo la hivi karibuni.</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="reminder_header_expired_build">Toleo lako la Signal limepitwa na wakati.</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="reminder_header_outdated_build_details_today">Toleo lako la Grapherex litaisha muda leo. Gonga ili usasishe kwa toleo la hivi karibuni.</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="reminder_header_expired_build">Toleo lako la Grapherex limepitwa na wakati.</string> -->
   <!-- Removed by excludeNonTranslatables <string name="reminder_header_expired_build_details">Jumbe hazitatuma tena kwa mafanikio. Gonga ili usasishe kwa toleo la hivi karibuni.</string> -->
   <!-- Removed by excludeNonTranslatables <string name="reminder_header_sms_default_title">Tumia kama chaguo msingi programu ya meseji</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="reminder_header_sms_default_text">Gonga ili kuifanya Signal programu chaguo msingi ya SMS.</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="reminder_header_sms_default_text">Gonga ili kuifanya Grapherex programu chaguo msingi ya SMS.</string> -->
   <string name="reminder_header_sms_import_title">Ingiza SMS ya mfumo</string>
   <string name="reminder_header_sms_import_text">Gonga ili kunakili jumbe za SMS za simu yako kwenye hifadhidata iliyosimbwa.</string>
-  <string name="reminder_header_push_title">Wezesha jumbe na simu za Signal</string>
+  <string name="reminder_header_push_title">Wezesha jumbe na simu za Grapherex</string>
   <string name="reminder_header_push_text">Boresha uzoefu wako wa mawasiliano</string>
-  <!-- Removed by excludeNonTranslatables <string name="reminder_header_invite_title">Alika kwa Signal</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="reminder_header_invite_title">Alika kwa Grapherex</string> -->
   <!-- Removed by excludeNonTranslatables <string name="reminder_header_invite_text">Peleka mazungumzo pamoja %1$s kwenye ngazi inayofuata</string> -->
   <!-- Removed by excludeNonTranslatables <string name="reminder_header_share_title">Alika marafiki zako</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="reminder_header_share_text">Marafiki zaidi wanapotumia Signal, Inaimarika zaidi</string> -->
-  <string name="reminder_header_service_outage_text">Signal inakabiliwa na matatizo ya kiufundi. Tunajitahidi kurejesha huduma haraka iwezekanavyo.</string>
-  <!-- Removed by excludeNonTranslatables <string name="reminder_header_the_latest_signal_features_wont_work">Vipengele vya hivi punde zaidi vya Signal havitafanya kwenye toleo hili la Android. Tafadhali boresha kifaa hiki ili upate sasisho zijazo za Signal.</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="reminder_header_share_text">Marafiki zaidi wanapotumia Grapherex, Inaimarika zaidi</string> -->
+  <string name="reminder_header_service_outage_text">Grapherex inakabiliwa na matatizo ya kiufundi. Tunajitahidi kurejesha huduma haraka iwezekanavyo.</string>
+  <!-- Removed by excludeNonTranslatables <string name="reminder_header_the_latest_Grapherex_features_wont_work">Vipengele vya hivi punde zaidi vya Grapherex havitafanya kwenye toleo hili la Android. Tafadhali boresha kifaa hiki ili upate sasisho zijazo za Grapherex.</string> -->
   <string name="reminder_header_progress">%1$d%%</string>
   <!--media_preview-->
   <string name="media_preview__save_title">Hifadhi</string>
@@ -1483,22 +1483,22 @@ nambari yako ya simu</string>
   <string name="Insights__percent">%</string>
   <string name="Insights__title">Ufahamu</string>
   <string name="InsightsDashboardFragment__title">Ufahamu</string>
-  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Itifaki za Signal moja kwa moja zimelinda %1$d%% ya jumbe zako zilizotumwa kwenye siku %2$d zilizopita. Gumzo kati ya watumizi wa Signal zimesimbwa mwisho hadi mwisho.</string>
-  <string name="InsightsDashboardFragment__boost_your_signal">Ongezo-hadhi la Signal</string>
+  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Itifaki za Grapherex moja kwa moja zimelinda %1$d%% ya jumbe zako zilizotumwa kwenye siku %2$d zilizopita. Gumzo kati ya watumizi wa Grapherex zimesimbwa mwisho hadi mwisho.</string>
+  <string name="InsightsDashboardFragment__boost_your_signal">Ongezo-hadhi la Grapherex</string>
   <string name="InsightsDashboardFragment__not_enough_data">Data haitoshi</string>
   <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">Asilimia ya Ufahamu wako inahesabiwa kulingana na jumbe zilizotumwa kwa siku %1$dzilizopita  ambazo hazijatoweka wala kufutwa. </string>
   <string name="InsightsDashboardFragment__start_a_conversation">Anza gumzo</string>
-  <string name="InsightsDashboardFragment__invite_your_contacts">Anza kuwasiliana kwa usalama na uwezeshe vipengele vipya ambavyo vinazidi matarajio ya ujumbe mfupi usiosimbwa kwa kualika wawasiliani zaidi kujiunga na Signal.</string>
+  <string name="InsightsDashboardFragment__invite_your_contacts">Anza kuwasiliana kwa usalama na uwezeshe vipengele vipya ambavyo vinazidi matarajio ya ujumbe mfupi usiosimbwa kwa kualika wawasiliani zaidi kujiunga na Grapherex.</string>
   <string name="InsightsDashboardFragment__this_stat_was_generated_locally">Takwimu hizi zimetolewa ndani ya kifaa chako na zinaonekana na wewe pekee. Kamwe hazisambazwi kokote.</string>
   <string name="InsightsDashboardFragment__encrypted_messages">Jumbe zilizosimbwa</string>
   <string name="InsightsDashboardFragment__cancel">Ghairi</string>
   <string name="InsightsDashboardFragment__send">Tuma</string>
   <string name="InsightsModalFragment__title">Kuwasilisha Ufahamu</string>
-  <string name="InsightsModalFragment__description">Pata kujua ni jumbe ngapi ulizotuma zilitumwa salama, halafu alika wawasiliani wapya upesi ili kuongeza asilimia yako ya Signal.</string>
+  <string name="InsightsModalFragment__description">Pata kujua ni jumbe ngapi ulizotuma zilitumwa salama, halafu alika wawasiliani wapya upesi ili kuongeza asilimia yako ya Grapherex.</string>
   <string name="InsightsModalFragment__view_insights">Tazama Ufahamu</string>
-  <string name="FirstInviteReminder__title">Alika kwenye Signal</string>
+  <string name="FirstInviteReminder__title">Alika kwenye Grapherex</string>
   <string name="FirstInviteReminder__description">Unaweza kuongeza nambari ya jumbe zilizosimbwa unazotuma kwa %1$d %%</string>
-  <string name="SecondInviteReminder__title">Ongeza hadhi ya Signal yako</string>
+  <string name="SecondInviteReminder__title">Ongeza hadhi ya Grapherex yako</string>
   <string name="SecondInviteReminder__description">Alika %1$s</string>
   <string name="InsightsReminder__view_insights">Tazama Ufahamu</string>
   <string name="InsightsReminder__invite">Alika</string>
@@ -1537,7 +1537,7 @@ nambari yako ya simu</string>
   <string name="KbsSplashFragment__create_your_pin">Unda Nenosiri lako</string>
   <string name="KbsSplashFragment__learn_more_about_pins">Jifunze zaidi kuhusu PINI</string>
   <!--KBS Reminder Dialog-->
-  <string name="KbsReminderDialog__enter_your_signal_pin">Ingiza Nenosiri lako ya Signal</string>
+  <string name="KbsReminderDialog__enter_your_signal_pin">Ingiza Nenosiri lako ya Grapherex</string>
   <string name="KbsReminderDialog__to_help_you_memorize_your_pin">Ili kukusaidia kukariri Nenosiri lako, tutakuuliza uliingize mara kwa mara. Tunapunguza kukuuliza baada ya muda.</string>
   <string name="KbsReminderDialog__skip">Ruka</string>
   <string name="KbsReminderDialog__submit">Wasilisha</string>
@@ -1593,12 +1593,12 @@ nambari yako ya simu</string>
   <string name="ConversationListFragment_loading">Inafunguka</string>
   <string name="CallNotificationBuilder_connecting">Inaunganisha</string>
   <string name="Permissions_permission_required">Idhini inahitajika</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Signal inahitaji idhini ya SMS ili kutuma SMS, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\" na uwezeshe \"SMS\".</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Grapherex inahitaji idhini ya SMS ili kutuma SMS, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\" na uwezeshe \"SMS\".</string>
   <string name="Permissions_continue">Endelea</string>
   <string name="Permissions_not_now">Sio sasa</string>
-  <!-- Removed by excludeNonTranslatables <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">Signal inahitaji ruhusa ya wawasiliani ili kutafuta wawasiliani wako, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe\" \"Mawasiliano\".</string> -->
-  <string name="conversation_activity__enable_signal_messages">WEZESHA JUMBE ZA SIGNAL</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Inahamisha hifadhidata ya Signal</string>
+  <!-- Removed by excludeNonTranslatables <string name="ConversationListActivity_Grapherex_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">Grapherex inahitaji ruhusa ya wawasiliani ili kutafuta wawasiliani wako, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\", na uwezeshe\" \"Mawasiliano\".</string> -->
+  <string name="conversation_activity__enable_signal_messages">WEZESHA JUMBE ZA Grapherex</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">Inahamisha hifadhidata ya Grapherex</string>
   <string name="PushDecryptJob_new_locked_message">Ujumbe mpya uliofungwa</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Fungua ili uone jumbe zinazosubiri</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">Hifadhi Nenosiri</string>
@@ -1614,7 +1614,7 @@ nambari yako ya simu</string>
   <!-- Removed by excludeNonTranslatables <string name="preferences_chats__test_your_backup_passphrase_and_verify_that_it_matches">Jaribu kifungu maneno chako cha nakilihifadhi na uhakikishe kinalingana</string> -->
   <string name="RegistrationActivity_enter_backup_passphrase">ingiza nenosiri la nakalahifadhi</string>
   <string name="RegistrationActivity_restore">Rejesha</string>
-  <string name="RegistrationActivity_backup_failure_downgrade">Haiwezi kuingiza nakalahifadhi kutoka kwa matoleo mapya ya Signal</string>
+  <string name="RegistrationActivity_backup_failure_downgrade">Haiwezi kuingiza nakalahifadhi kutoka kwa matoleo mapya ya Grapherex</string>
   <string name="RegistrationActivity_incorrect_backup_passphrase">Nenosiri la nakalahifadhi sio sahihi</string>
   <string name="RegistrationActivity_checking">Inaangalia</string>
   <string name="RegistrationActivity_d_messages_so_far">1%d Jumbe hadi sasa</string>
@@ -1633,7 +1633,7 @@ nambari yako ya simu</string>
   <string name="BackupDialog_verify">Hakikisha</string>
   <string name="BackupDialog_you_successfully_entered_your_backup_passphrase">Umefaulu kuweka kifungu maneno chako cha nakilihifadhi</string>
   <string name="BackupDialog_passphrase_was_not_correct">Kifungu maneno hakikuwa sahihi</string>
-  <!-- Removed by excludeNonTranslatables <string name="ChatsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Signal inahitaji idhini ya hifadhi ya nje ili kuunda nakalahifadhi, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\" na uwezeshe \"Hifadhi\".</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="ChatsPreferenceFragment_Grapherex_requires_external_storage_permission_in_order_to_create_backups">Grapherex inahitaji idhini ya hifadhi ya nje ili kuunda nakalahifadhi, lakini imekataliwa kabisa. Tafadhali endelea kwenye mipangilio ya programu, chagua \"Ruhusa\" na uwezeshe \"Hifadhi\".</string> -->
   <!-- Removed by excludeNonTranslatables <string name="ChatsPreferenceFragment_last_backup_s">Nakalahifadhi ya mwisho: 1%s</string> -->
   <!-- Removed by excludeNonTranslatables <string name="ChatsPreferenceFragment_in_progress">Inaendelea</string> -->
   <string name="LocalBackupJob_creating_backup">Inaunda nakalahifadhi</string>
@@ -1641,20 +1641,20 @@ nambari yako ya simu</string>
   <!-- Removed by excludeNonTranslatables <string name="RegistrationActivity_please_enter_the_verification_code_sent_to_s">Tafadhali ingiza msimbo wa uthibitishaji uliotumwa kwa 1%s</string> -->
   <string name="RegistrationActivity_wrong_number">Nambari sio sahihi</string>
   <string name="RegistrationActivity_call_me_instead_available_in">Nipigie badala yake.  \n (Inapatikana kwenye %1$02d : %2$02d)</string>
-  <string name="RegistrationActivity_contact_signal_support">Wasiliana na Msaada wa Signal</string>
-  <string name="RegistrationActivity_code_support_subject">Usajili wa Signal: Msimbo wa Hakiki wa Android</string>
+  <string name="RegistrationActivity_contact_signal_support">Wasiliana na Msaada wa Grapherex</string>
+  <string name="RegistrationActivity_code_support_subject">Usajili wa Grapherex: Msimbo wa Hakiki wa Android</string>
   <string name="BackupUtil_never">Kamwe</string>
   <string name="BackupUtil_unknown">Isiyojulikana</string>
   <string name="preferences_app_protection__screen_lock">Kifunga skrini</string>
   <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">
-Funga ufikiaji wa Signal na ufungaji wa Android au alama za vidole</string>
+Funga ufikiaji wa Grapherex na ufungaji wa Android au alama za vidole</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">Muda wa kuisha Screen Lock isipokuwa na shughuli</string>
-  <string name="preferences_app_protection__signal_pin">Nenosiri la Signal</string>
+  <string name="preferences_app_protection__signal_pin">Nenosiri la Grapherex</string>
   <string name="preferences_app_protection__create_a_pin">Unda Nenosiri</string>
   <string name="preferences_app_protection__change_your_pin">Badilisha PINI yako</string>
-  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PINI hufanya taarifa iliyohifadhiwa na Signal iliyosimbwa kuweza kufikiwa na wewe tu. Wasifu wako, mipangilio, na wawasiliani vitarejeshwa utakaposakinisha upya Signal.</string>
+  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PINI hufanya taarifa iliyohifadhiwa na Grapherex iliyosimbwa kuweza kufikiwa na wewe tu. Wasifu wako, mipangilio, na wawasiliani vitarejeshwa utakaposakinisha upya Grapherex.</string>
   <string name="preferences_app_protection__confirm_pin">Thibitisha PIN</string>
-  <string name="preferences_app_protection__confirm_your_signal_pin">Thibitisha PINI yako ya Signal</string>
+  <string name="preferences_app_protection__confirm_your_signal_pin">Thibitisha PINI yako ya Grapherex</string>
   <string name="preferences_app_protection__incorrect_pin_try_again">Nenosiri sio sahihi. Jaribu tena.</string>
   <string name="AppProtectionPreferenceFragment_none">Hakuna</string>
   <!-- Removed by excludeNonTranslatables <string name="registration_activity__the_registration_lock_pin_is_not_the_same_as_the_sms_verification_code_you_just_received_please_enter_the_pin_you_previously_configured_in_the_application">Nambari ya PIN ya Usajili si sawa na msimbo wa uthibitisho wa SMS unayopokea tu. Tafadhali ingiza PIN uliyoiweka hapo awali katika programu.</string> -->
@@ -1665,7 +1665,7 @@ Funga ufikiaji wa Signal na ufungaji wa Android au alama za vidole</string>
   <!-- Removed by excludeNonTranslatables <string name="registration_lock_dialog_view__confirm_pin">Thibitisha PIN</string> -->
   <!-- Removed by excludeNonTranslatables <string name="registration_lock_reminder_view__enter_your_registration_lock_pin">Ingiza PIN Lock yako ya Usajili</string> -->
   <!-- Removed by excludeNonTranslatables <string name="registration_lock_reminder_view__enter_pin">Ingiza Nenosiri</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="preferences_app_protection__enable_a_registration_lock_pin_that_will_be_required">Wezesha  usajili wa PIN Lock ambayo itahitajika kuandikisha nambari hii ya simu na Signal tena.</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="preferences_app_protection__enable_a_registration_lock_pin_that_will_be_required">Wezesha  usajili wa PIN Lock ambayo itahitajika kuandikisha nambari hii ya simu na Grapherex tena.</string> -->
   <!-- Removed by excludeNonTranslatables <string name="preferences_app_protection__registration_lock_pin">Lock PIN ya usajili</string> -->
   <string name="preferences_app_protection__registration_lock">Lock ya usajili</string>
   <string name="RegistrationActivity_you_must_enter_your_registration_lock_PIN">Ni lazima uingize Lock PIN yako ya usajili</string>
@@ -1675,13 +1675,13 @@ Funga ufikiaji wa Signal na ufungaji wa Android au alama za vidole</string>
   <string name="RegistrationActivity_you_have_made_too_many_incorrect_registration_lock_pin_attempts_please_try_again_in_a_day">Umefanya majaribio mengi ya PIN ya Usajili yasio sahihi. Tafadhali jaribu tena baada ya siku.</string>
   <string name="RegistrationActivity_error_connecting_to_service">Hitilafu kujiunga kwa huduma</string>
   <!-- Removed by excludeNonTranslatables <string name="RegistrationActivity_oh_no">Oo Hapana</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">Usajili wa nambari hii ya simu utawezekana bila Nenosiri lako la Usajili baada ya siku 7 tangu nambari hii ya simu ilipokuwa hai kwenye Signal. Una siku%d zilizobaki.</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">Usajili wa nambari hii ya simu utawezekana bila Nenosiri lako la Usajili baada ya siku 7 tangu nambari hii ya simu ilipokuwa hai kwenye Grapherex. Una siku%d zilizobaki.</string> -->
   <!-- Removed by excludeNonTranslatables <string name="RegistrationActivity_registration_lock_pin">Nambari siri ya usajili</string> -->
   <!-- Removed by excludeNonTranslatables <string name="RegistrationActivity_this_phone_number_has_registration_lock_enabled_please_enter_the_registration_lock_pin">Nambari hii ya simu ina Lock ya Usajili iliyowezeshwa. Tafadhali ingiza Nenosiri la Usajili</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">Lock ya Usajili imewezeshwa kwa nambari yako ya simu. Ili kukusaidia kukariri Nenosiri lako la usajili, Signal itakuuliza mara kwa mara ili ulithibitishe.</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">Lock ya Usajili imewezeshwa kwa nambari yako ya simu. Ili kukusaidia kukariri Nenosiri lako la usajili, Grapherex itakuuliza mara kwa mara ili ulithibitishe.</string> -->
   <!-- Removed by excludeNonTranslatables <string name="RegistrationLockDialog_i_forgot_my_pin">Nilisahau nenosiri</string> -->
   <!-- Removed by excludeNonTranslatables <string name="RegistrationLockDialog_forgotten_pin">Umesahau nenosiri?</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">Usajili Lock husaidia kulinda nambari yako ya simu kutokana na majaribio ya usajili yasiyoidhinishwa. Kipengele hiki kinaweza kulemazwa wakati wowote kwenye mipangilio ya faragha yako ya Signal</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">Usajili Lock husaidia kulinda nambari yako ya simu kutokana na majaribio ya usajili yasiyoidhinishwa. Kipengele hiki kinaweza kulemazwa wakati wowote kwenye mipangilio ya faragha yako ya Grapherex</string> -->
   <!-- Removed by excludeNonTranslatables <string name="RegistrationLockDialog_enable">Wezesha</string> -->
   <!-- Removed by excludeNonTranslatables <string name="RegistrationLockDialog_the_registration_lock_pin_must_be_at_least_d_digits">Nambari ya siri ya Usajili lazima iwe na angalau nambari%d.</string> -->
   <!-- Removed by excludeNonTranslatables <string name="RegistrationLockDialog_the_two_pins_you_entered_do_not_match">Nambari mbili za siri ulizoingiza haziendani.</string> -->
@@ -1691,7 +1691,7 @@ Funga ufikiaji wa Signal na ufungaji wa Android au alama za vidole</string>
   <!-- Removed by excludeNonTranslatables <string name="RegistrationActivity_pin_incorrect">Nambari Ya Siri sio Sahihi</string> -->
   <!-- Removed by excludeNonTranslatables <string name="RegistrationActivity_you_have_d_tries_remaining">Una majaribio %d yaliyobakia</string> -->
   <string name="preferences_chats__backups">Nakala zilizohifadhiwa</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Signal Imefungwa</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">Grapherex Imefungwa</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">Gusa kufungua</string>
   <!-- Removed by excludeNonTranslatables <string name="RegistrationLockDialog_reminder">Kikumbusho</string> -->
   <!-- Removed by excludeNonTranslatables <string name="recipient_preferences__about">Kuhusu</string> -->

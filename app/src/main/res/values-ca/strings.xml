@@ -10,22 +10,22 @@
   <string name="AbstractNotificationBuilder_new_message">Missatge nou</string>
   <!--AlbumThumbnailView-->
   <!--ApplicationMigrationActivity-->
-  <string name="ApplicationMigrationActivity__signal_is_updating">El Signal s\'actualitza…</string>
+  <string name="ApplicationMigrationActivity__signal_is_updating">El Grapherex s\'actualitza…</string>
   <!--ApplicationPreferencesActivity-->
   <string name="ApplicationPreferencesActivity_currently_s">Actualment: %s</string>
   <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">Encara no heu establert cap contrasenya.</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">Voleu desactivar la contrasenya?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">El Signal i les notificacions es desblocaran permanentment.</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">El Grapherex i les notificacions es desblocaran permanentment.</string>
   <string name="ApplicationPreferencesActivity_disable">Desactiva</string>
   <string name="ApplicationPreferencesActivity_unregistering">Cancel·lació del registre</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Es cancel·la el registre per als missatges i les trucades del Signal…</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Voleu desactivarr els missatges i les trucades del Signal?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Desactiveu els missatges i les trucades del Signal cancel·lant el registre del servidor. Haureu de tornar a registrar el número de telèfon per usar-los de nou.</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Es cancel·la el registre per als missatges i les trucades del Grapherex…</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Voleu desactivarr els missatges i les trucades del Grapherex?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Desactiveu els missatges i les trucades del Grapherex cancel·lant el registre del servidor. Haureu de tornar a registrar el número de telèfon per usar-los de nou.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">S\'ha produït un error en connectar amb el servidor.</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS activats</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Toqueu per canviar l\'aplicació d\'SMS predeterminada</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">SMS desactivats</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Toqueu perquè el Signal sigui l\'aplicació d\'SMS predeterminada</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Toqueu perquè el Grapherex sigui l\'aplicació d\'SMS predeterminada</string>
   <string name="ApplicationPreferencesActivity_on">actiu</string>
   <string name="ApplicationPreferencesActivity_On">Actiu</string>
   <string name="ApplicationPreferencesActivity_off">inactiu</string>
@@ -58,14 +58,14 @@
   <string name="AttachmentKeyboard_file">Fitxer</string>
   <string name="AttachmentKeyboard_contact">Contacte</string>
   <string name="AttachmentKeyboard_location">Ubicació</string>
-  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">El Signal necessita permís per mostrar les vostres fotografies i vídeos.</string>
+  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">El Grapherex necessita permís per mostrar les vostres fotografies i vídeos.</string>
   <string name="AttachmentKeyboard_give_access">Permet-hi l\'accés</string>
   <string name="AttachmentKeyboard_payment">Pagament</string>
   <!--AttachmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">No s\'ha trobat cap aplicació compatible.</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">El Signal necessita el permís de l\'emmagatzematge per tal d\'adjuntar fotografies, vídeos o àudio, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi l\'emmagatzematge.</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">El Signal necessita el permís de l\'aplicació dels contactes per tal d\'adjuntar-ne informació, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi els contactes.</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">El Signal necessita el permís de la ubicació per tal d\'adjuntar-ne informació, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi la ubicació.</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">El Grapherex necessita el permís de l\'emmagatzematge per tal d\'adjuntar fotografies, vídeos o àudio, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi l\'emmagatzematge.</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">El Grapherex necessita el permís de l\'aplicació dels contactes per tal d\'adjuntar-ne informació, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi els contactes.</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">El Grapherex necessita el permís de la ubicació per tal d\'adjuntar-ne informació, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi la ubicació.</string>
   <!--AttachmentUploadJob-->
   <string name="AttachmentUploadJob_uploading_media">Es penja el contingut…</string>
   <string name="AttachmentUploadJob_compressing_video_start">Es comprimeix el vídeo…</string>
@@ -109,26 +109,26 @@
   <string name="CameraXFragment_open_gallery_description">Obre la galeria</string>
   <!--CameraContacts-->
   <string name="CameraContacts_recent_contacts">Contactes recents</string>
-  <string name="CameraContacts_signal_contacts">Contactes de Signal</string>
-  <string name="CameraContacts_signal_groups">Grups de Signal</string>
+  <string name="CameraContacts_signal_contacts">Contactes de Grapherex</string>
+  <string name="CameraContacts_signal_groups">Grups de Grapherex</string>
   <string name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">Podeu compartir un màxim de %d converses.</string>
-  <string name="CameraContacts_select_signal_recipients">Seleccioneu els destinataris de Signal</string>
-  <string name="CameraContacts_no_signal_contacts">No hi ha contactes de Signal</string>
-  <string name="CameraContacts_you_can_only_use_the_camera_button">Només podeu usar el botó de la càmera per enviar fotografies a contactes de Signal.</string>
+  <string name="CameraContacts_select_signal_recipients">Seleccioneu els destinataris de Grapherex</string>
+  <string name="CameraContacts_no_signal_contacts">No hi ha contactes de Grapherex</string>
+  <string name="CameraContacts_you_can_only_use_the_camera_button">Només podeu usar el botó de la càmera per enviar fotografies a contactes de Grapherex.</string>
   <string name="CameraContacts_cant_find_who_youre_looking_for">No trobeu qui busqueu?</string>
-  <string name="CameraContacts_invite_a_contact_to_join_signal">Convideu un contacte a Signal</string>
+  <string name="CameraContacts_invite_a_contact_to_join_signal">Convideu un contacte a Grapherex</string>
   <string name="CameraContacts__menu_search">Cerca</string>
   <!--ClearProfileActivity-->
   <string name="ClearProfileActivity_remove">Suprimeix</string>
   <string name="ClearProfileActivity_remove_profile_photo">Voleu suprimir la foto de perfil?</string>
   <string name="ClearProfileActivity_remove_group_photo">Voleu suprimir la foto del grup?</string>
   <!--ClientDeprecatedActivity-->
-  <string name="ClientDeprecatedActivity_update_signal">Actualitza el Signal</string>
+  <string name="ClientDeprecatedActivity_update_signal">Actualitza el Grapherex</string>
   <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">Aquesta versió de l\'aplicació ja no té assistència. Per continuar enviant i rebent missatges, actualitzeu-la a la darrera versió.</string>
   <string name="ClientDeprecatedActivity_update">Actualitza-la</string>
   <string name="ClientDeprecatedActivity_dont_update">No l\'actualitzis</string>
   <string name="ClientDeprecatedActivity_warning">Advertiment</string>
-  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">La versió del Signal ha vençut. Podeu veure l\'historial de missatges però no podreu enviar-ne ni rebre\'n fins que l\'actualitzeu.</string>
+  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">La versió del Grapherex ha vençut. Podeu veure l\'historial de missatges però no podreu enviar-ne ni rebre\'n fins que l\'actualitzeu.</string>
   <!--CommunicationActions-->
   <string name="CommunicationActions_no_browser_found">No s\'ha trobat cap navegador web.</string>
   <string name="CommunicationActions_send_email">Envia el correu</string>
@@ -137,9 +137,9 @@
   <string name="CommunicationActions_cancel">Cancel·la</string>
   <string name="CommunicationActions_call">Truca</string>
   <string name="CommunicationActions_insecure_call">Trucada no segura</string>
-  <string name="CommunicationActions_carrier_charges_may_apply">Es poden aplicar despeses del servei de telefonia. El número que marqueu no està registrat al Signal. Aquesta trucada es farà mitjançant el vostre operador de telefonia mòbil, no a través d’Internet.</string>
+  <string name="CommunicationActions_carrier_charges_may_apply">Es poden aplicar despeses del servei de telefonia. El número que marqueu no està registrat al Grapherex. Aquesta trucada es farà mitjançant el vostre operador de telefonia mòbil, no a través d’Internet.</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">El número de seguretat amb %1$s ha canviat. Això pot significar o bé que algú està provant d\'interceptar la comunicació, o bé que %2$s ha reinstal·lat el Signal.</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">El número de seguretat amb %1$s ha canviat. Això pot significar o bé que algú està provant d\'interceptar la comunicació, o bé que %2$s ha reinstal·lat el Grapherex.</string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">Potser voleu verificar el número de seguretat amb aquest contacte.</string>
   <string name="ConfirmIdentityDialog_accept">Accepta</string>
   <!--ContactsCursorLoader-->
@@ -150,7 +150,7 @@
   <string name="ContactsCursorLoader_username_search">Cerca de nom d\'usuari</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">Missatge %s</string>
-  <string name="ContactsDatabase_signal_call_s">Trucada del Signal %s</string>
+  <string name="ContactsDatabase_signal_call_s">Trucada del Grapherex %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">Nom</string>
   <string name="ContactNameEditActivity_family_name">Cognom</string>
@@ -172,7 +172,7 @@
   <string name="ConversationItem_click_to_approve_unencrypted">Ha fallat l\'enviament. Toqueu per al mode no segur.</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">Voleu canviar a SMS sense encriptar?</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">Voleu canviar a MMS sense encriptar?</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Aquest missatge <b>no</b> s\'encriptarà perquè el destinatari ja no és usuari del Signal.\n\nVoleu enviar un missatge no segur?</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Aquest missatge <b>no</b> s\'encriptarà perquè el destinatari ja no és usuari del Grapherex.\n\nVoleu enviar un missatge no segur?</string>
   <string name="ConversationItem_unable_to_open_media">No s\'ha trobat una aplicació que pugui obrir aquest fitxer.</string>
   <string name="ConversationItem_copied_text">S\'ha copiat %s</string>
   <string name="ConversationItem_from_s">de %s</string>
@@ -200,8 +200,8 @@
   <string name="ConversationActivity_this_device_does_not_appear_to_support_dial_actions">Aquest dispositiu sembla no suportar accions de trucada.</string>
   <string name="ConversationActivity_transport_insecure_sms">SMS no segur</string>
   <string name="ConversationActivity_transport_insecure_mms">MMS no segur</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">Canviem al Signal, %1$s</string>
+  <string name="ConversationActivity_transport_signal">Grapherex</string>
+  <string name="ConversationActivity_lets_switch_to_signal">Canviem al Grapherex, %1$s</string>
   <string name="ConversationActivity_specify_recipient">Trieu un contacte</string>
   <string name="ConversationActivity_unblock">Desbloca</string>
   <string name="ConversationActivity_attachment_exceeds_size_limits">El fitxer adjunt excedeix la mida màxima per a aquest tipus de missatges.</string>
@@ -210,17 +210,17 @@
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">No hi ha cap aplicació que pugui obrir aquest enllaç.</string>
   <string name="ConversationActivity_your_request_to_join_has_been_sent_to_the_group_admin">La sol·licitud per afegir-vos-hi s\'ha enviat a l\'administrador/a del grup. Rebreu una notificació quan la resolguin.</string>
   <string name="ConversationActivity_cancel_request">Cancel·la la sol·licitud</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Per enviar missatges d\'àudio, permeteu que el Signal tingui accés al micròfon.</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">El Signal necessita el permís del micròfon per tal d\'enviar missatges d\'àudio, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi el micròfon.</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">El Signal necessita el permís del micròfon i de la càmera per tal de trucar a %s, però s\'han denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi el micròfon i la càmera.</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Per captar fotografies i vídeos, permeteu que el Signal tingui accés a la càmera.</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">El Signal necessita el permís de la càmera per tal de fer fotografies i vídeos, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi la càmera.</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">El Signal necessita el permís de la càmera per fer fotografies i vídeos.</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Per enviar missatges d\'àudio, permeteu que el Grapherex tingui accés al micròfon.</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">El Grapherex necessita el permís del micròfon per tal d\'enviar missatges d\'àudio, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi el micròfon.</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">El Grapherex necessita el permís del micròfon i de la càmera per tal de trucar a %s, però s\'han denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi el micròfon i la càmera.</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Per captar fotografies i vídeos, permeteu que el Grapherex tingui accés a la càmera.</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">El Grapherex necessita el permís de la càmera per tal de fer fotografies i vídeos, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi la càmera.</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">El Grapherex necessita el permís de la càmera per fer fotografies i vídeos.</string>
   <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">Activeu el permís del micròfon per capturar vídeos amb so.</string>
-  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">El Signal necessita el permís del micròfon per gravar vídeos, però s\'han denegat. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi el micròfon i la càmera.</string>
-  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">El Signal necessita el permís del telèfon per gravar vídeos.</string>
+  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">El Grapherex necessita el permís del micròfon per gravar vídeos, però s\'han denegat. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi el micròfon i la càmera.</string>
+  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">El Grapherex necessita el permís del telèfon per gravar vídeos.</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
-  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">El Signal no pot enviar missatges SMS / MMS perquè no és la vostra aplicació d\'SMS predeterminada. Voleu canviar-ho a la configuració d\'Android?</string>
+  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">El Grapherex no pot enviar missatges SMS / MMS perquè no és la vostra aplicació d\'SMS predeterminada. Voleu canviar-ho a la configuració d\'Android?</string>
   <string name="ConversationActivity_yes">Sí</string>
   <string name="ConversationActivity_no">No</string>
   <string name="ConversationActivity_search_position">%1$d de %2$d</string>
@@ -234,7 +234,7 @@
   <string name="ConversationActivity_you_will_leave_this_group_and_it_will_be_deleted_from_all_of_your_devices">Abandonareu aquest grup i se suprimirà de tots els dispositius.</string>
   <string name="ConversationActivity_delete">Suprimeix</string>
   <string name="ConversationActivity_delete_and_leave">Suprimeix-lo i abandona\'l</string>
-  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">Per trucar a %1$s, el Signal necessita accés al micròfon.</string>
+  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">Per trucar a %1$s, el Grapherex necessita accés al micròfon.</string>
   <string name="ConversationActivity__more_options_now_in_group_settings">Ara hi ha més opcions a la configuració del grup.</string>
   <string name="ConversationActivity_join">Afegeix-m\'hi</string>
   <string name="ConversationActivity_full">Ple</string>
@@ -268,14 +268,14 @@
     <item quantity="other">Es desen %1$d adjunts a l\'emmagatzematge…</item>
   </plurals>
   <string name="ConversationFragment_pending">Pendent…</string>
-  <string name="ConversationFragment_push">Dades (Signal)</string>
+  <string name="ConversationFragment_push">Dades (Grapherex)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">Se suprimeix</string>
   <string name="ConversationFragment_deleting_messages">Se suprimeixen missatges…</string>
   <string name="ConversationFragment_delete_for_me">Suprimeix per a mi</string>
   <string name="ConversationFragment_delete_for_everyone">Suprimeix per a tothom</string>
-  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Aquest missatge se suprimirà per a tothom que sigui a la conversa si tenen una versió recent del Signal. Podran veure que heu suprimit un missatge.</string>
+  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Aquest missatge se suprimirà per a tothom que sigui a la conversa si tenen una versió recent del Grapherex. Podran veure que heu suprimit un missatge.</string>
   <string name="ConversationFragment_quoted_message_not_found">No s\'ha trobat el missatge original.</string>
   <string name="ConversationFragment_quoted_message_no_longer_available">El missatge original ja no està disponible.</string>
   <string name="ConversationFragment_failed_to_open_message">Ha fallat obrir el missatge.</string>
@@ -287,12 +287,12 @@
   <string name="ConversationFragment__d_group_members_have_the_same_name">%1$d membres del grup tenen el mateix nom.</string>
   <string name="ConversationFragment__tap_to_review">Feu un toc per revisar-ho</string>
   <string name="ConversationFragment__review_requests_carefully">Reviseu les sol·licituds amb atenció.</string>
-  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">El Signal ha trobat un altre contacte amb el mateix nom.</string>
+  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">El Grapherex ha trobat un altre contacte amb el mateix nom.</string>
   <string name="ConversationFragment_contact_us">Contacteu-nos</string>
   <string name="ConversationFragment_verify">Verificació</string>
   <string name="ConversationFragment_not_now">Ara no</string>
   <string name="ConversationFragment_your_safety_number_with_s_changed">El vostre número de seguretat amb %s ha canviat.</string>
-  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">El número de segurtat amb %s ha canviat, probablement perquè s\'ha reinstal·lat el Signal o els dispositius han canviat. Toqueu Verifica per confirmar el número de seguretat nou. És opcional.</string>
+  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">El número de segurtat amb %s ha canviat, probablement perquè s\'ha reinstal·lat el Grapherex o els dispositius han canviat. Toqueu Verifica per confirmar el número de seguretat nou. És opcional.</string>
   <plurals name="ConversationListFragment_delete_selected_conversations">
     <item quantity="one">Voleu suprimir la conversa seleccionada?</item>
     <item quantity="other">Voleu suprimir les converses seleccionades?</item>
@@ -349,11 +349,11 @@
   <string name="BackupsPreferenceFragment__test_your_backup_passphrase">Proveu la contrasenya de còpia de seguretat i verifiqueu que coincideix.</string>
   <string name="BackupsPreferenceFragment__turn_on">Activa</string>
   <string name="BackupsPreferenceFragment__turn_off">Desactiva</string>
-  <string name="BackupsPreferenceFragment__to_restore_a_backup">Per restaurar una còpia de seguretat, instal·leu una còpia del Signal. Obriu l\'aplicació i toqueu Restaura la còpia de seguretat. Indiqueu el fitxer de còpia de seguretat. %1$s</string>
+  <string name="BackupsPreferenceFragment__to_restore_a_backup">Per restaurar una còpia de seguretat, instal·leu una còpia del Grapherex. Obriu l\'aplicació i toqueu Restaura la còpia de seguretat. Indiqueu el fitxer de còpia de seguretat. %1$s</string>
   <string name="BackupsPreferenceFragment__learn_more">Més informació</string>
   <string name="BackupsPreferenceFragment__in_progress">En curs…</string>
   <string name="BackupsPreferenceFragment__d_so_far">%1$d fins ara…</string>
-  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">El Signal necessita el permís de l\'emmagatzematge extern per tal de crear còpies de seguretat. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi l\'emmagatzematge.</string>
+  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">El Grapherex necessita el permís de l\'emmagatzematge extern per tal de crear còpies de seguretat. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi l\'emmagatzematge.</string>
   <!--CustomDefaultPreference-->
   <string name="CustomDefaultPreference_using_custom">Ús de la personalització: %s</string>
   <string name="CustomDefaultPreference_using_default">Per defecte: %s</string>
@@ -372,7 +372,7 @@
   <string name="DateUtils_yesterday">Ahir</string>
   <!--DecryptionFailedDialog-->
   <string name="DecryptionFailedDialog_chat_session_refreshed">S\'ha refrescat la sessió.</string>
-  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">El Signal usa encriptació d\'extrem a extrem i és possible que de vegades hagi d’actualitzar la sessió de conversa. Això no n\'afecta la seguretat, però és possible que perdeu algun missatge d’aquest contacte. Podeu demanar que el torni a enviar.</string>
+  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">El Grapherex usa encriptació d\'extrem a extrem i és possible que de vegades hagi d’actualitzar la sessió de conversa. Això no n\'afecta la seguretat, però és possible que perdeu algun missatge d’aquest contacte. Podeu demanar que el torni a enviar.</string>
   <!--DeviceListActivity-->
   <string name="DeviceListActivity_unlink_s">Voleu desenllaçar «%s»?</string>
   <string name="DeviceListActivity_by_unlinking_this_device_it_will_no_longer_be_able_to_send_or_receive">En desenllaçar aquest dispositiu, no es podran rebre ni enviar missatges.</string>
@@ -389,8 +389,8 @@
   <!--DocumentView-->
   <string name="DocumentView_unnamed_file">Fitxer sense nom</string>
   <!--DonateMegaphone-->
-  <string name="DonateMegaphone_donate_to_signal">Feu una donació a Signal</string>
-  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">El Signal funciona gràcies a persones com vosaltres. Demostreu-hi el vostre suport avui!</string>
+  <string name="DonateMegaphone_donate_to_signal">Feu una donació a Grapherex</string>
+  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">El Grapherex funciona gràcies a persones com vosaltres. Demostreu-hi el vostre suport avui!</string>
   <string name="DonateMegaphone_donate">Feu una donació</string>
   <string name="DonateMegaphone_no_thanks">No, gràcies</string>
   <!--GroupCallingMegaphone-->
@@ -398,9 +398,9 @@
   <string name="GroupCallingMegaphone__open_a_new_group_to_start">Obriu un grup nou per iniciar una trucada de grup encriptada</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">Optimitza per a la no presència dels Play Services</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">El dispositiu no és compatible amb Play Services. Toqueu per desactivar les optimitzacions de la bateria que impedeixen que el Signal rebi missatges quan estigui inactiu.</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">El dispositiu no és compatible amb Play Services. Toqueu per desactivar les optimitzacions de la bateria que impedeixen que el Grapherex rebi missatges quan estigui inactiu.</string>
   <!--ExpiredBuildReminder-->
-  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Aquesta versió del Signal ha vençut. Actualitzeu-la ara per enviar i rebre missatges.</string>
+  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Aquesta versió del Grapherex ha vençut. Actualitzeu-la ara per enviar i rebre missatges.</string>
   <string name="ExpiredBuildReminder_update_now">Actualitza-la ara</string>
   <!--PendingGroupJoinRequestsReminder-->
   <plurals name="PendingGroupJoinRequestsReminder_d_pending_member_requests">
@@ -412,8 +412,8 @@
   <string name="ShareActivity_share_with">Comparteix amb</string>
   <string name="ShareActivity_multiple_attachments_are_only_supported">Els adjunts múltiples només s\'admeten per a imatges i vídeos.</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">La comunicació del Signal falla contínuament!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">El Signal no s\'ha pogut registrar al Google Play Services. Els missatges i les trucades del Signal s\'han desactivat, registreu-vos de nou a Configuració &gt; Avançada.</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">La comunicació del Grapherex falla contínuament!</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">El Grapherex no s\'ha pogut registrar al Google Play Services. Els missatges i les trucades del Grapherex s\'han desactivat, registreu-vos de nou a Configuració &gt; Avançada.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">S\'ha produït un error en recuperar el GIF a resolució completa</string>
   <!--GiphyFragmentPageAdapter-->
@@ -572,7 +572,7 @@
   <string name="AddGroupDetailsFragment__this_field_is_required">Aquest camp és necessari.</string>
   <string name="AddGroupDetailsFragment__group_creation_failed">Ha fallat la creació del grup.</string>
   <string name="AddGroupDetailsFragment__try_again_later">Torneu-ho a provar més tard.</string>
-  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">Heu seleccionat un contacte que no admet grups del Signal, per tant aquest grup serà per MMS.</string>
+  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">Heu seleccionat un contacte que no admet grups del Grapherex, per tant aquest grup serà per MMS.</string>
   <string name="AddGroupDetailsFragment_custom_mms_group_names_and_photos_will_only_be_visible_to_you">Els noms i les fotos del grup MMS personalitzat només seran visibles per a vós.</string>
   <string name="AddGroupDetailsFragment__remove">Suprimeix</string>
   <string name="AddGroupDetailsFragment__sms_contact">Contacte d\'SMS</string>
@@ -586,15 +586,15 @@
     <item quantity="other">%d membres no admeten els grups nous, per això no es pot crear aquest grup.</item>
   </plurals>
   <!--NonGv2MemberDialog-->
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">Es crearà un grup de llegat perquè %1$s usa una versió antiga del Signal. Podeu crear un grup d\'estil nou amb ells després que actualitzin el Signal o suprimir-los-en abans de crear el grup.</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">Es crearà un grup de llegat perquè %1$s usa una versió antiga del Grapherex. Podeu crear un grup d\'estil nou amb ells després que actualitzin el Grapherex o suprimir-los-en abans de crear el grup.</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable">
-    <item quantity="one">Es crearà un grup de llegat perquè %1$d membre usa una versió antiga del Signal. Podeu crear un grup d\'estil nou amb ells després que actualitzin el Signal o suprimir-los-en abans de crear el grup.</item>
-    <item quantity="other">Es crearà un grup de llegat perquè %1$d membres usen una versió antiga del Signal. Podeu crear un grup d\'estil nou amb ells després que actualitzin el Signal o suprimir-los-en abans de crear el grup.</item>
+    <item quantity="one">Es crearà un grup de llegat perquè %1$d membre usa una versió antiga del Grapherex. Podeu crear un grup d\'estil nou amb ells després que actualitzin el Grapherex o suprimir-los-en abans de crear el grup.</item>
+    <item quantity="other">Es crearà un grup de llegat perquè %1$d membres usen una versió antiga del Grapherex. Podeu crear un grup d\'estil nou amb ells després que actualitzin el Grapherex o suprimir-los-en abans de crear el grup.</item>
   </plurals>
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">Aquest grup no es pot crear perquè %1$s usa una versió antiga del Signal. L\'heu de suprimir abans de crear el grup.</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">Aquest grup no es pot crear perquè %1$s usa una versió antiga del Grapherex. L\'heu de suprimir abans de crear el grup.</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable_forced_migration">
-    <item quantity="one">Aquest grup no es pot crear perquè %1$d membre usa una versió antiga del Signal. L\'heu de suprimir abans de crear el grup.</item>
-    <item quantity="other">Aquest grup no es pot crear perquè %1$d membres usen una versió antiga del Signal. Els heu de suprimir abans de crear el grup.</item>
+    <item quantity="one">Aquest grup no es pot crear perquè %1$d membre usa una versió antiga del Grapherex. L\'heu de suprimir abans de crear el grup.</item>
+    <item quantity="other">Aquest grup no es pot crear perquè %1$d membres usen una versió antiga del Grapherex. Els heu de suprimir abans de crear el grup.</item>
   </plurals>
   <!--ManageGroupActivity-->
   <string name="ManageGroupActivity_member_requests_and_invites">Sol·licituds d\'adhesió i invitacions</string>
@@ -624,7 +624,7 @@
   <string name="ManageGroupActivity_only_admins_can_enable_or_disable_the_option_to_approve_new_members">Només els administradors poden activar o desactivar l\'opció per aprovar membres nous.</string>
   <string name="ManageGroupActivity_only_admins_can_reset_the_sharable_group_link">Només els administradors poden restablir l\'enllaç de grup que es pot compartir.</string>
   <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">No teniu permís per fer això.</string>
-  <string name="ManageGroupActivity_not_capable">Algú que heu afegit no admet grups nous i cal que actualitzi el Signal.</string>
+  <string name="ManageGroupActivity_not_capable">Algú que heu afegit no admet grups nous i cal que actualitzi el Grapherex.</string>
   <string name="ManageGroupActivity_failed_to_update_the_group">Ha fallat actualitzar el grup.</string>
   <string name="ManageGroupActivity_youre_not_a_member_of_the_group">No sou membre del grup.</string>
   <string name="ManageGroupActivity_failed_to_update_the_group_please_retry_later">Ha fallat actualitzar el grup. Torneu-ho a provar més tard.</string>
@@ -635,7 +635,7 @@
   <string name="ManageGroupActivity_legacy_group_upgrade">Aquest és un grup de llegat. Per accedir a funcions noves com ara les @mencions i als administradors,</string>
   <string name="ManageGroupActivity_legacy_group_too_large">Aquest grup de llegat no es pot actualitzar a un grup nou perquè és massa gros. La mida màxima d\'un grup és %1$d.</string>
   <string name="ManageGroupActivity_upgrade_this_group">actualitzeu aquest grup.</string>
-  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Aquest és un grup d\'MMS no segur. Per conversar privadament, convideu els contactes al Signal.</string>
+  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Aquest és un grup d\'MMS no segur. Per conversar privadament, convideu els contactes al Grapherex.</string>
   <string name="ManageGroupActivity_invite_now">Convida ara</string>
   <!--GroupMentionSettingDialog-->
   <string name="GroupMentionSettingDialog_notify_me_for_mentions">Notifica\'m les mencions</string>
@@ -727,10 +727,10 @@
     <item quantity="other">Grup · %1$d membres</item>
   </plurals>
   <!--GroupJoinUpdateRequiredBottomSheetDialogFragment-->
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Actualitzeu el Signal per usar els enllaços de grup</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">La versió del Signal que useu no admet aquest enllaç de grup. Actualitzeu-lo a la versió més recent per afegir-vos a aquest grup per l\'enllaç.</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Actualitza el Signal</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">Un o més dels vostres dispositius enllaçats executen una versió del Signal que no admet enllaços de grup. Actualitzeu el Signal dels dispositius enllaçats per afegir-vos a aquest grup.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Actualitzeu el Grapherex per usar els enllaços de grup</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">La versió del Grapherex que useu no admet aquest enllaç de grup. Actualitzeu-lo a la versió més recent per afegir-vos a aquest grup per l\'enllaç.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Actualitza el Grapherex</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">Un o més dels vostres dispositius enllaçats executen una versió del Grapherex que no admet enllaços de grup. Actualitzeu el Grapherex dels dispositius enllaçats per afegir-vos a aquest grup.</string>
   <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">L\'enllaç de grup no és vàlid.</string>
   <!--GroupInviteLinkEnableAndShareBottomSheetDialogFragment-->
   <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_invite_friends">Convideu-hi amistats</string>
@@ -760,7 +760,7 @@
   <string name="InviteActivity_cancel">Cancel·la</string>
   <string name="InviteActivity_sending">S\'envia…</string>
   <string name="InviteActivity_invitations_sent">Invitacions enviades!</string>
-  <string name="InviteActivity_invite_to_signal">Convida al Signal</string>
+  <string name="InviteActivity_invite_to_signal">Convida al Grapherex</string>
   <plurals name="InviteActivity_send_sms_to_friends">
     <item quantity="one">ENVIA L\'SMS A %d AMISTAT</item>
     <item quantity="other">ENVIA L\'SMS A %d AMISTATS</item>
@@ -769,7 +769,7 @@
     <item quantity="one">Voleu enviar %d invitació SMS?</item>
     <item quantity="other">Voleu enviar %d invitacions SMS?</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">Canviem al Signal: %1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">Canviem al Grapherex: %1$s</string>
   <string name="InviteActivity_no_app_to_share_to">Sembla que no teniu cap aplicació on compartir-ho.</string>
   <string name="InviteActivity_friends_dont_let_friends_text_unencrypted">Les amistats no deixen que les seves amistats xerrin sense encriptació.</string>
   <!--LearnMoreTextView-->
@@ -779,7 +779,7 @@
   <string name="LongMessageActivity_message_from_s">Missatge de %1$s</string>
   <string name="LongMessageActivity_your_message">El vostre missatge</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">Grapherex</string>
   <string name="MessageRetrievalService_background_connection_enabled">S\'ha activat la connexió en segon pla</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">S\'ha produït un error en llegir la configuració d\'MMS de l\'operador</string>
@@ -828,7 +828,7 @@
   <string name="Megaphones_introducing_reactions">S\'introdueixen les reaccions</string>
   <string name="Megaphones_tap_and_hold_any_message_to_quicky_share_how_you_feel">Mantingueu un toc sobre qualsevol missatge per compartir com us sentiu.</string>
   <string name="Megaphones_remind_me_later">Recorda-m\'ho més tard.</string>
-  <string name="Megaphones_verify_your_signal_pin">Verifiqueu el PIN del Signal</string>
+  <string name="Megaphones_verify_your_signal_pin">Verifiqueu el PIN del Grapherex</string>
   <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">De tant en tant us demanarem de verificar el PIN perquè el recordeu.</string>
   <string name="Megaphones_verify_pin">Verifica el PIN</string>
   <string name="Megaphones_get_started">Comenceu</string>
@@ -836,10 +836,10 @@
   <string name="Megaphones_invite_friends">Convideu-hi amistats</string>
   <string name="Megaphones_use_sms">Usa SMS</string>
   <!--NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Trucada del Signal en curs</string>
-  <string name="NotificationBarManager__establishing_signal_call">S\'estableix la trucada del Signal</string>
-  <string name="NotificationBarManager__incoming_signal_call">Trucada del Signal rebuda</string>
-  <string name="NotificationBarManager__stopping_signal_call_service">S\'atura el servei de trucades del Signal</string>
+  <string name="NotificationBarManager_signal_call_in_progress">Trucada del Grapherex en curs</string>
+  <string name="NotificationBarManager__establishing_signal_call">S\'estableix la trucada del Grapherex</string>
+  <string name="NotificationBarManager__incoming_signal_call">Trucada del Grapherex rebuda</string>
+  <string name="NotificationBarManager__stopping_signal_call_service">S\'atura el servei de trucades del Grapherex</string>
   <string name="NotificationBarManager__deny_call">Rebutja la trucada</string>
   <string name="NotificationBarManager__answer_call">Respon la trucada</string>
   <string name="NotificationBarManager__end_call">Acaba la trucada</string>
@@ -863,8 +863,8 @@
   <string name="MediaSendActivity_message_to_s">Missatge per a %s</string>
   <string name="MediaSendActivity_message">Missatge</string>
   <string name="MediaSendActivity_select_recipients">Seleccioneu destinataris</string>
-  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">El Signal necessita accés als contactes per tal de mostrar-los.</string>
-  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">El Signal necessita el permís de l\'aplicació de contactes per tal de mostrar-ne els vostres, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi els contactes.</string>
+  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">El Grapherex necessita accés als contactes per tal de mostrar-los.</string>
+  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">El Grapherex necessita el permís de l\'aplicació de contactes per tal de mostrar-ne els vostres, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi els contactes.</string>
   <plurals name="MediaSendActivity_cant_share_more_than_n_items">
     <item quantity="one">No podeu compartir més de %d elements.</item>
     <item quantity="other">No podeu compartir més de %d elements.</item>
@@ -876,7 +876,7 @@
   <string name="MediaRepository__camera">Càmera</string>
   <!--MessageRecord-->
   <string name="MessageRecord_unknown">Desconegut</string>
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">S\'ha rebut un missatge encriptat amb una versió antiga del Signal que ja no s\'admet. Digueu-li a l\'emissor que l\'actualitzi a la versió més recent i torni a enviar el missatge.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">S\'ha rebut un missatge encriptat amb una versió antiga del Grapherex que ja no s\'admet. Digueu-li a l\'emissor que l\'actualitzi a la versió més recent i torni a enviar el missatge.</string>
   <string name="MessageRecord_left_group">Heu abandonat el grup.</string>
   <string name="MessageRecord_you_updated_group">Heu actualitzat el grup.</string>
   <string name="MessageRecord_the_group_was_updated">S\'ha actualitzat el grup.</string>
@@ -885,7 +885,7 @@
   <string name="MessageRecord_missed_video_call_date">Trucada de vídeo perduda · %1$s</string>
   <string name="MessageRecord_s_updated_group">%s ha actualitzat el grup.</string>
   <string name="MessageRecord_s_called_you_date">%1$s us ha trucat · %2$s</string>
-  <string name="MessageRecord_s_joined_signal">%s és al Signal!</string>
+  <string name="MessageRecord_s_joined_signal">%s és al Grapherex!</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">Heu desactivat els missatges efímers.</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$s ha desactivat els missatges efímers.</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">Heu establert el temporitzador dels missatges efímers a %1$s.</string>
@@ -1098,9 +1098,9 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">Codi QR no vàlid.</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Teniu massa dispositius enllaçats, proveu de suprimir-ne algun.</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Això no és un codi QR amb enllaç vàlid.</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">Voleu enllaçar un dispositiu de Signal?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Sembla que esteu provant d\'enllaçar un dispositiu de Signal amb un escàner extern. Per seguretat, torneu a escanejar el codi dins del Signal.</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">El Signal necessita el permís de la càmera per tal d\'escanejar un codi QR, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi la càmera.</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">Voleu enllaçar un dispositiu de Grapherex?</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Sembla que esteu provant d\'enllaçar un dispositiu de Grapherex amb un escàner extern. Per seguretat, torneu a escanejar el codi dins del Grapherex.</string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">El Grapherex necessita el permís de la càmera per tal d\'escanejar un codi QR, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi la càmera.</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">No es pot escanejar un codi QR sense permís de la càmera.</string>
   <!--ExpirationDialog-->
   <string name="ExpirationDialog_disappearing_messages">Missatges efímers</string>
@@ -1108,18 +1108,18 @@
   <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Els missatges enviats i rebuts a aquesta conversa desapareixeran %s després que s\'hagin llegit.</string>
   <!--OutdatedBuildReminder-->
   <string name="OutdatedBuildReminder_update_now">Actualitza-la ara</string>
-  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">La vostra versió del Signal vencerà avui. Actualitzeu-la a la versió més recent.</string>
+  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">La vostra versió del Grapherex vencerà avui. Actualitzeu-la a la versió més recent.</string>
   <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-    <item quantity="one">Aquesta versió del Signal vencerà demà. Actualitzeu-la a la versió més recent.</item>
-    <item quantity="other">Aquesta versió del Signal vencerà d\'aquí a %d dies. Actualitzeu-la a la versió més recent.</item>
+    <item quantity="one">Aquesta versió del Grapherex vencerà demà. Actualitzeu-la a la versió més recent.</item>
+    <item quantity="other">Aquesta versió del Grapherex vencerà d\'aquí a %d dies. Actualitzeu-la a la versió més recent.</item>
   </plurals>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">Escriviu la contrasenya</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Icona del Signal</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">Icona del Grapherex</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">Envia la contrasenya</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Contrasenya incorrecta!</string>
-  <string name="PassphrasePromptActivity_unlock_signal">Desbloca el Signal</string>
-  <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android - Bloca la pantalla</string>
+  <string name="PassphrasePromptActivity_unlock_signal">Desbloca el Grapherex</string>
+  <string name="PassphrasePromptActivity_signal_android_lock_screen">Grapherex Android - Bloca la pantalla</string>
   <!--PlacePickerActivity-->
   <string name="PlacePickerActivity_title">Mapa</string>
   <string name="PlacePickerActivity_drop_pin">Marqueu el lloc</string>
@@ -1140,16 +1140,16 @@
     <item quantity="one">Us resta %1$d intent. Si us quedeu sense intents, podeu crear un PIN nou. Podeu registrar-vos i usar el compte, però perdreu algunes configuracions desades, com ara la informació del perfil.</item>
     <item quantity="other">Us resten %1$d intents. Si us quedeu sense intents, podeu crear un PIN nou. Podeu registrar-vos i usar el compte, però perdreu algunes configuracions desades, com ara la informació del perfil.</item>
   </plurals>
-  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Registre del Signal - Cal ajuda amb el PIN per a Android</string>
+  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Registre del Grapherex - Cal ajuda amb el PIN per a Android</string>
   <string name="PinRestoreEntryFragment_enter_alphanumeric_pin">Escriviu un PIN alfanumèric</string>
   <string name="PinRestoreEntryFragment_enter_numeric_pin">Marqueu un PIN numèric</string>
   <!--PinRestoreLockedFragment-->
   <string name="PinRestoreLockedFragment_create_your_pin">Creeu el PIN</string>
-  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Se us han acabat els intents del PIN, però encara podeu accedir al compte del Signal creant un PIN nou. Per a la vostra privadesa i seguretat, el compte es restaurarà sense cap tipus d\'informació ni configuració de perfil.</string>
+  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Se us han acabat els intents del PIN, però encara podeu accedir al compte del Grapherex creant un PIN nou. Per a la vostra privadesa i seguretat, el compte es restaurarà sense cap tipus d\'informació ni configuració de perfil.</string>
   <string name="PinRestoreLockedFragment_create_new_pin">Crea un PIN nou</string>
   <!--PinOptOutDialog-->
   <string name="PinOptOutDialog_warning">Advertiment</string>
-  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">Si desactiveu el PIN, perdreu totes les dades quan torneu a registrar-vos al Signal, si no és que en feu una còpia de seguretat i una restauració manualment. No podeu activar el bloqueig de registre mentre el PIN estigui desactivat.</string>
+  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">Si desactiveu el PIN, perdreu totes les dades quan torneu a registrar-vos al Grapherex, si no és que en feu una còpia de seguretat i una restauració manualment. No podeu activar el bloqueig de registre mentre el PIN estigui desactivat.</string>
   <string name="PinOptOutDialog_disable_pin">Desactiva el PIN</string>
   <!--RatingManager-->
   <string name="RatingManager_rate_this_app">Valoreu l\'aplicació</string>
@@ -1180,12 +1180,12 @@
   <string name="RedPhone_got_it">Entesos</string>
   <!--WebRtcCallActivity-->
   <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">Toqueu aquí per activar el vídeo</string>
-  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Per trucar a %1$s, el Signal necessita accés a la càmera.</string>
-  <string name="WebRtcCallActivity__signal_s">Trucada del Signal: %1$s</string>
+  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Per trucar a %1$s, el Grapherex necessita accés a la càmera.</string>
+  <string name="WebRtcCallActivity__signal_s">Trucada del Grapherex: %1$s</string>
   <string name="WebRtcCallActivity__calling">Es truca…</string>
   <!--WebRtcCallView-->
-  <string name="WebRtcCallView__signal_voice_call">Trucada de veu del Signal…</string>
-  <string name="WebRtcCallView__signal_video_call">Trucada de vídeo del Signal…</string>
+  <string name="WebRtcCallView__signal_voice_call">Trucada de veu del Grapherex…</string>
+  <string name="WebRtcCallView__signal_video_call">Trucada de vídeo del Grapherex…</string>
   <string name="WebRtcCallView__start_call">Inicia una trucada</string>
   <string name="WebRtcCallView__join_call">Afegeix-me a la trucada</string>
   <string name="WebRtcCallView__call_is_full">La trucada és plena</string>
@@ -1235,13 +1235,13 @@ especificat (%s) no és vàlid.</string>
   <string name="RegistrationActivity_is_your_phone_number_above_correct">Aquest número de telèfon és correcte?</string>
   <string name="RegistrationActivity_edit_number">Edita el número</string>
   <string name="RegistrationActivity_missing_google_play_services">No hi ha el Google Play Services.</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Aquest dispositiu no té el Google Play Services. Encara podeu usar el Signal, però aquesta configuració pot resultar en una fiabilitat o un rendiment reduïts.\n\nSi no sou un usuari avançat, si no esteu fent servir una ROM d\'Android de mercat secundari o si creieu que esteu veient això com a error, si us plau, poseu-vos en contacte amb support@signal.org per a la resolució de problemes.</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Aquest dispositiu no té el Google Play Services. Encara podeu usar el Grapherex, però aquesta configuració pot resultar en una fiabilitat o un rendiment reduïts.\n\nSi no sou un usuari avançat, si no esteu fent servir una ROM d\'Android de mercat secundari o si creieu que esteu veient això com a error, si us plau, poseu-vos en contacte amb support@Grapherex.org per a la resolució de problemes.</string>
   <string name="RegistrationActivity_i_understand">Ho entenc</string>
   <string name="RegistrationActivity_play_services_error">Error amb el Play Services</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">El Google Play Services s\'està actualitzant o no està disponible. Torneu a provar-ho.</string>
   <string name="RegistrationActivity_terms_and_privacy">Termes i política de privadesa</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">El Signal necessita accés als contactes i als continguts multimèdia per tal de connectar amb amistats, intercanviar-hi missatges i fer trucades amb seguretat.</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">El Signal necessita accés als contactes per tal de connectar amb amistats, intercanviar-hi missatges i fer trucades amb seguretat.</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">El Grapherex necessita accés als contactes i als continguts multimèdia per tal de connectar amb amistats, intercanviar-hi missatges i fer trucades amb seguretat.</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">El Grapherex necessita accés als contactes per tal de connectar amb amistats, intercanviar-hi missatges i fer trucades amb seguretat.</string>
   <string name="RegistrationActivity_rate_limited_to_service">Heu fet massa intents per registrar aquest número. Si us plau, torneu-ho a provar més tard.</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">No es pot connectar al servei. Si us plau, comproveu la connexió de xarxa i torneu-ho a provar.</string>
   <plurals name="RegistrationActivity_debug_log_hint">
@@ -1263,7 +1263,7 @@ especificat (%s) no és vàlid.</string>
   <!--RegistrationLockV2Dialog-->
   <string name="RegistrationLockV2Dialog_turn_on_registration_lock">Voleu activar el bloqueig de registre?</string>
   <string name="RegistrationLockV2Dialog_turn_off_registration_lock">Voleu desactivar el bloqueig de registre?</string>
-  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Si heu oblidat el PIN quan us torneu a registrar al Signal, se us blocarà el compte durant 7 dies.</string>
+  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Si heu oblidat el PIN quan us torneu a registrar al Grapherex, se us blocarà el compte durant 7 dies.</string>
   <string name="RegistrationLockV2Dialog_turn_on">Activa</string>
   <string name="RegistrationLockV2Dialog_turn_off">Desactiva</string>
   <!--RevealableMessageView-->
@@ -1279,14 +1279,14 @@ especificat (%s) no és vàlid.</string>
   <!--ShakeToReport-->
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">Afegeix als contactes</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">Convida al Signal</string>
-  <string name="SharedContactDetailsActivity_signal_message">Missatge del Signal</string>
-  <string name="SharedContactDetailsActivity_signal_call">Trucada del Signal</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">Convida al Grapherex</string>
+  <string name="SharedContactDetailsActivity_signal_message">Missatge del Grapherex</string>
+  <string name="SharedContactDetailsActivity_signal_call">Trucada del Grapherex</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">Afegeix als contactes</string>
-  <string name="SharedContactView_invite_to_signal">Convida al Signal</string>
-  <string name="SharedContactView_message">Missatge del Signal</string>
-  <!--SignalPinReminders-->
+  <string name="SharedContactView_invite_to_signal">Convida al Grapherex</string>
+  <string name="SharedContactView_message">Missatge del Grapherex</string>
+  <!--GrapherexPinReminders-->
   <string name="SignalPinReminders_well_remind_you_again_later">Us ho recordarem més tard.</string>
   <string name="SignalPinReminders_well_remind_you_again_tomorrow">Us ho recordarem demà.</string>
   <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">Us ho recordarem d\'aquí a uns dies.</string>
@@ -1307,14 +1307,14 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="SmsMessageRecord_secure_session_reset">Heu restablit la sessió segura.</string>
   <string name="SmsMessageRecord_secure_session_reset_s">%s ha restablit la sessió segura.</string>
   <string name="SmsMessageRecord_duplicate_message">Missatge duplicat.</string>
-  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">No s’ha pogut processar aquest missatge perquè s’ha enviat des d’una versió més recent del Signal. Podeu demanar al vostre contacte que enviï aquest missatge un cop l\'hàgiu actualitzat.  </string>
+  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">No s’ha pogut processar aquest missatge perquè s’ha enviat des d’una versió més recent del Grapherex. Podeu demanar al vostre contacte que enviï aquest missatge un cop l\'hàgiu actualitzat.  </string>
   <string name="SmsMessageRecord_error_handling_incoming_message">S\'ha produït un error en gestionar el missatge rebut.</string>
   <!--StickerManagementActivity-->
   <string name="StickerManagementActivity_stickers">Adhesius</string>
   <!--StickerManagementAdapter-->
   <string name="StickerManagementAdapter_installed_stickers">Adhesius instal·lats</string>
   <string name="StickerManagementAdapter_stickers_you_received">Adhesius que heu rebut</string>
-  <string name="StickerManagementAdapter_signal_artist_series">Sèries d\'artistes de Signal</string>
+  <string name="StickerManagementAdapter_signal_artist_series">Sèries d\'artistes de Grapherex</string>
   <string name="StickerManagementAdapter_no_stickers_installed">No hi ha adhesius instal·lats.</string>
   <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">Els adhesius dels missatges d\'entrada apareixeran aquí.</string>
   <string name="StickerManagementAdapter_untitled">Sense títol</string>
@@ -1339,8 +1339,8 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="SupportEmailUtil_filter">Filtre:</string>
   <string name="SupportEmailUtil_device_info">Informació del dispositiu:</string>
   <string name="SupportEmailUtil_android_version">Versió d\'Android:</string>
-  <string name="SupportEmailUtil_signal_version">Versió del Signal:</string>
-  <string name="SupportEmailUtil_signal_package">Paquet del Signal:</string>
+  <string name="SupportEmailUtil_signal_version">Versió del Grapherex:</string>
+  <string name="SupportEmailUtil_signal_package">Paquet del Grapherex:</string>
   <string name="SupportEmailUtil_registration_lock">Bloqueig de registre:</string>
   <string name="SupportEmailUtil_locale">Llengua:</string>
   <!--ThreadRecord-->
@@ -1359,7 +1359,7 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="ThreadRecord_view_once_media">Contingut d\'una sola visualització</string>
   <string name="ThreadRecord_this_message_was_deleted">Aquest missatge s\'ha suprimit.</string>
   <string name="ThreadRecord_you_deleted_this_message">Heu suprimit aquest missatge.</string>
-  <string name="ThreadRecord_s_is_on_signal">%s és al Signal!</string>
+  <string name="ThreadRecord_s_is_on_signal">%s és al Grapherex!</string>
   <string name="ThreadRecord_disappearing_messages_disabled">Missatges efímers desactivats</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">El temps del missatge efímer s\'ha establit a %s</string>
   <string name="ThreadRecord_safety_number_changed">El número de seguretat ha canviat</string>
@@ -1375,8 +1375,8 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="ThreadRecord_video">Vídeo</string>
   <string name="ThreadRecord_chat_session_refreshed">S\'ha refrescat la sessió.</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Actualització del Signal</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Hi ha disponible una versió nova del Signal. Toqueu per actualitzar-lo</string>
+  <string name="UpdateApkReadyListener_Signal_update">Actualització del Grapherex</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Hi ha disponible una versió nova del Grapherex. Toqueu per actualitzar-lo</string>
   <!--UntrustedSendDialog-->
   <string name="UntrustedSendDialog_send_message">Voleu enviar el missatge?</string>
   <string name="UntrustedSendDialog_send">Envia</string>
@@ -1395,20 +1395,20 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="UsernameEditFragment_usernames_cannot_begin_with_a_number">Els noms d\'usuari no poden començar amb un número.</string>
   <string name="UsernameEditFragment_username_is_invalid">El nom d\'usuari no és vàlid.</string>
   <string name="UsernameEditFragment_usernames_must_be_between_a_and_b_characters">Els noms d\'usuari han de tenir entre %1$d i %2$d caràcters.</string>
-  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Els noms d’usuari a Signal són opcionals. Si trieu crear un nom d’usuari, altres usuaris del Signal us podran trobar per aquest nom i contactar-vos sense saber el vostre número de telèfon.</string>
+  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Els noms d’usuari a Grapherex són opcionals. Si trieu crear un nom d’usuari, altres usuaris del Grapherex us podran trobar per aquest nom i contactar-vos sense saber el vostre número de telèfon.</string>
   <plurals name="UserNotificationMigrationJob_d_contacts_are_on_signal">
-    <item quantity="one">%d contacte és al Signal!</item>
-    <item quantity="other">%dcontactes són al Signal!</item>
+    <item quantity="one">%d contacte és al Grapherex!</item>
+    <item quantity="other">%dcontactes són al Grapherex!</item>
   </plurals>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">El vostre contacte està fent servir una versió antiga del Signal. Demaneu-li que l\'actualitzi abans de verificar el número de seguretat.</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">El vostre contacte està fent servir una versió nova del Signal amb un format del codi QR no compatible. Actualitzeu-la per comparar-lo.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">El vostre contacte està fent servir una versió antiga del Grapherex. Demaneu-li que l\'actualitzi abans de verificar el número de seguretat.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">El vostre contacte està fent servir una versió nova del Grapherex amb un format del codi QR no compatible. Actualitzeu-la per comparar-lo.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">El codi QR escanejat no és un codi de verificació de seguretat correctament formatat. Torneu a escanejar-lo.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Comparteix el número de seguretat per…</string>
   <string name="VerifyIdentityActivity_our_signal_safety_number">El nostre número de seguretat:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">Sembla que no teniu cap aplicació on compartir-ho.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">No s\'ha trobat cap número de seguretat al porta-retalls</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">El Signal necessita el permís de la càmera per tal d\'escanejar un codi QR, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi la càmera.</string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">El Grapherex necessita el permís de la càmera per tal d\'escanejar un codi QR, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi la càmera.</string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">No es pot escanejar un codi QR sense permís de la càmera.</string>
   <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">Primer heu d\'intercanviar missatges per tal de veure el número de seguretat de %1$s.</string>
   <!--ViewOnceMessageActivity-->
@@ -1427,13 +1427,13 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="ApplicationMigrationService_system_database_import_is_complete">La importació de la base de dades del sistema s\'ha completat.</string>
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">Toqueu per obrir-ho.</string>
-  <string name="KeyCachingService_passphrase_cached">S\'ha desblocat el Signal</string>
-  <string name="KeyCachingService_lock">Bloca el Signal</string>
+  <string name="KeyCachingService_passphrase_cached">S\'ha desblocat el Grapherex</string>
+  <string name="KeyCachingService_lock">Bloca el Grapherex</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">Jo</string>
   <string name="MediaPreviewActivity_unssuported_media_type">Tipus de fitxer no compatible</string>
   <string name="MediaPreviewActivity_draft">Esborrany</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">El Signal necessita el permís de l\'emmagatzematge per tal de desar en un emmagatzematge extern, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi l\'emmagatzematge.</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">El Grapherex necessita el permís de l\'emmagatzematge per tal de desar en un emmagatzematge extern, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi l\'emmagatzematge.</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">No es pot desar en un emmagatzematge extern sense permís.</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">Voleu suprimir el missatge?</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">Aquest missatge se suprimirà permanentment.</string>
@@ -1453,10 +1453,10 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="MessageNotifier_view_once_photo">Fotografia d\'una sola visualització</string>
   <string name="MessageNotifier_view_once_video">Vídeo d\'una sola visualització</string>
   <string name="MessageNotifier_reply">Respon</string>
-  <string name="MessageNotifier_signal_message">Missatge del Signal</string>
+  <string name="MessageNotifier_signal_message">Missatge del Grapherex</string>
   <string name="MessageNotifier_unsecured_sms">SMS no segur</string>
   <string name="MessageNotifier_you_may_have_new_messages">Potser teniu missatges nous.</string>
-  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Obre el Signal per comprovar si hi ha notificacions noves.</string>
+  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Obre el Grapherex per comprovar si hi ha notificacions noves.</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Contacte</string>
   <string name="MessageNotifier_reacted_s_to_s">%1$s ha reaccionat a : \"%2$s\".</string>
@@ -1467,7 +1467,7 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="MessageNotifier_reacted_s_to_your_view_once_media">%1$s ha reaccionat al vostre contingut d\'una visualització.</string>
   <string name="MessageNotifier_reacted_s_to_your_sticker">%1$s ha reaccionat al vostre adhesiu.</string>
   <string name="MessageNotifier_this_message_was_deleted">Aquest missatge s\'ha suprimit.</string>
-  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Voleu desactivar les notificacions de contactes afegits al Signal? Les podeu tornar a activar a Signal &gt; Configuració &gt; Notificacions.</string>
+  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Voleu desactivar les notificacions de contactes afegits al Grapherex? Les podeu tornar a activar a Grapherex &gt; Configuració &gt; Notificacions.</string>
   <!--Notification Channels-->
   <string name="NotificationChannel_channel_messages">Missatges</string>
   <string name="NotificationChannel_calls">Trucades</string>
@@ -1479,11 +1479,11 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="NotificationChannel_group_chats">Converses</string>
   <string name="NotificationChannel_missing_display_name">Desconegut</string>
   <string name="NotificationChannel_voice_notes">Notes de veu</string>
-  <string name="NotificationChannel_contact_joined_signal">El contacte s\'ha afegit al Signal.</string>
+  <string name="NotificationChannel_contact_joined_signal">El contacte s\'ha afegit al Grapherex.</string>
   <string name="NotificationChannels__no_activity_available_to_open_notification_channel_settings">No hi ha activitat disponible per obrir la configuració del canal de notificacions.</string>
   <!--ProfileEditNameFragment-->
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">La resposta ràpida no és disponible si el Signal està blocat!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">La resposta ràpida no és disponible si el Grapherex està blocat!</string>
   <string name="QuickResponseService_problem_sending_message">S\'ha produït un problema en enviar el missatge!</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">Desat a %s</string>
@@ -1494,7 +1494,7 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">Drecera no vàlida</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">Grapherex</string>
   <string name="SingleRecipientNotificationBuilder_new_message">Missatge nou</string>
   <string name="SingleRecipientNotificationBuilder_message_request">Sol·licitud de missatge</string>
   <!--ThumbnailView-->
@@ -1507,10 +1507,10 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   </plurals>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">El dispositiu ja no està registrat.</string>
-  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Potser és així perquè vau registrar el número de telèfon al Signal des d\'un dispositiu diferent. Feu un toc per a tornar a registrar-lo.</string>
+  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Potser és així perquè vau registrar el número de telèfon al Grapherex des d\'un dispositiu diferent. Feu un toc per a tornar a registrar-lo.</string>
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Per respondre una trucada de %s, permeteu que el Signal tingui accés al micròfon.</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">El Signal necessita el permís del micròfon i de la càmera per tal de fer o rebre trucades, però s\'han denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi el micròfon i la càmera.</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Per respondre una trucada de %s, permeteu que el Grapherex tingui accés al micròfon.</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">El Grapherex necessita el permís del micròfon i de la càmera per tal de fer o rebre trucades, però s\'han denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi el micròfon i la càmera.</string>
   <string name="WebRtcCallActivity__answered_on_a_linked_device">S\'ha respost en un dispositiu enllaçat.</string>
   <string name="WebRtcCallActivity__declined_on_a_linked_device">S\'ha rebutjat en un dispositiu enllaçat.</string>
   <string name="WebRtcCallActivity__busy_on_a_linked_device">Ocupat/da en un dispositiu enllaçat</string>
@@ -1534,7 +1534,7 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="change_passphrase_activity__repeat_new_passphrase">Repetiu la contrasenya nova</string>
   <!--contact_selection_activity-->
   <string name="contact_selection_activity__enter_name_or_number">Escriviu un nom o un número</string>
-  <string name="contact_selection_activity__invite_to_signal">Convida al Signal</string>
+  <string name="contact_selection_activity__invite_to_signal">Convida al Grapherex</string>
   <string name="contact_selection_activity__new_group">Grup nou</string>
   <!--contact_filter_toolbar-->
   <string name="contact_filter_toolbar__clear_entered_text_description">Neteja el text escrit</string>
@@ -1546,13 +1546,13 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">Foto del contacte</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">El Signal necessita el permís de l\'aplicació dels contactes per tal de mostrar-ne els vostres, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi els contactes.</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">El Grapherex necessita el permís de l\'aplicació dels contactes per tal de mostrar-ne els vostres, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi els contactes.</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Error en recuperar els contactes. Comproveu la connexió de xarxa.</string>
   <string name="ContactSelectionListFragment_username_not_found">No s\'ha trobat el nom d\'usuari.</string>
-  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">%1$s no és un usuari del Signal. Si us plau, comproveu-ne el nom i torneu-ho a provar.</string>
+  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">%1$s no és un usuari del Grapherex. Si us plau, comproveu-ne el nom i torneu-ho a provar.</string>
   <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">No cal que us afegiu al grup.</string>
   <string name="ContactSelectionListFragment_maximum_group_size_reached">S\'ha assolit la mida màxima del grup.</string>
-  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Els grups del Signal poden tenir un màxim de %1$d membres.</string>
+  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Els grups del Grapherex poden tenir un màxim de %1$d membres.</string>
   <string name="ContactSelectionListFragment_recommended_member_limit_reached">S\'ha assolit el límit màxim de membres recomanat.</string>
   <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Els grups del Singal funcionen millor amb %1$d membres o menys. Afegir-hi més membres causarà retards d\'enviament i recepció de missatges.</string>
   <plurals name="ContactSelectionListFragment_d_members">
@@ -1560,7 +1560,7 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
     <item quantity="other">%1$d membres</item>
   </plurals>
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">El Signal necessita accés als contactes per tal de mostrar-los.</string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">El Grapherex necessita accés als contactes per tal de mostrar-los.</string>
   <string name="contact_selection_list_fragment__show_contacts">Mostra els contactes</string>
   <!--contact_selection_list_item-->
   <plurals name="contact_selection_list_item__number_of_members">
@@ -1568,7 +1568,7 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
     <item quantity="other">%1$d membres</item>
   </plurals>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">Missatge del Signal</string>
+  <string name="conversation_activity__type_message_push">Missatge del Grapherex</string>
   <string name="conversation_activity__type_message_sms_insecure">SMS no segur</string>
   <string name="conversation_activity__type_message_mms_insecure">MMS no segur</string>
   <string name="conversation_activity__from_sim_name">Des de %1$s</string>
@@ -1580,7 +1580,7 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Desplega la pestanya d\'adjunts de càmera ràpida</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Enregistra i envia un àudio adjunt</string>
   <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Bloqueja la gravació d\'un adjunt d\'àudio</string>
-  <string name="conversation_activity__enable_signal_for_sms">Activa el Signal per als SMS</string>
+  <string name="conversation_activity__enable_signal_for_sms">Activa el Grapherex per als SMS</string>
   <string name="conversation_activity__message_could_not_be_sent">No s\'ha pogut enviar el missatge. Comproveu la connexió i torneu-ho a provar.</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">Llisqueu per cancel·lar-ho</string>
@@ -1681,9 +1681,9 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="IdentityUtil_unverified_banner_one">El número de seguretat amb %s ha canviat i ja no està verificat</string>
   <string name="IdentityUtil_unverified_banner_two">Els números de seguretat amb %1$s i %2$s ja no estan verificats</string>
   <string name="IdentityUtil_unverified_banner_many">Els números de seguretat amb %1$s, %2$s i %3$s ja no estan verificats</string>
-  <string name="IdentityUtil_unverified_dialog_one">El número de seguretat amb %1$s ha canviat i ja no està verificat. Això pot significar o bé que algú està provant d\'interceptar la comunicació, o bé que %1$s ha reinstal·lat el Signal.</string>
-  <string name="IdentityUtil_unverified_dialog_two">Els números de seguretat amb %1$s i %2$s ja no estan verificats. Això pot significar o bé que algú està provant d\'interceptar la comunicació, o bé que han reinstal·lat el Signal.</string>
-  <string name="IdentityUtil_unverified_dialog_many">Els números de seguretat amb %1$s, %2$s i %3$s ja no estan verificats. Això pot significar o bé que algú està provant d\'interceptar la comunicació, o bé que han reinstal·lat el Signal.</string>
+  <string name="IdentityUtil_unverified_dialog_one">El número de seguretat amb %1$s ha canviat i ja no està verificat. Això pot significar o bé que algú està provant d\'interceptar la comunicació, o bé que %1$s ha reinstal·lat el Grapherex.</string>
+  <string name="IdentityUtil_unverified_dialog_two">Els números de seguretat amb %1$s i %2$s ja no estan verificats. Això pot significar o bé que algú està provant d\'interceptar la comunicació, o bé que han reinstal·lat el Grapherex.</string>
+  <string name="IdentityUtil_unverified_dialog_many">Els números de seguretat amb %1$s, %2$s i %3$s ja no estan verificats. Això pot significar o bé que algú està provant d\'interceptar la comunicació, o bé que han reinstal·lat el Grapherex.</string>
   <string name="IdentityUtil_untrusted_dialog_one">El número de seguretat amb %s ha canviat.</string>
   <string name="IdentityUtil_untrusted_dialog_two">Els números de seguretat amb %1$s i %2$s han canviat.</string>
   <string name="IdentityUtil_untrusted_dialog_many">Els números de seguretat amb %1$s, %2$s i %3$s han canviat.</string>
@@ -1698,7 +1698,7 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <!--log_submit_activity-->
   <string name="log_submit_activity__this_log_will_be_posted_online">Aquest registre es penjarà públicament perquè el vegin els col·laboradors. Podeu examinar-lo i editar-lo abans d\'enviar-lo.</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Voleu importar els missatges de text existents a la base de dades encriptada del Signal?</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Voleu importar els missatges de text existents a la base de dades encriptada del Grapherex?</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">La base de dades predeterminada del sistema no es modificarà ni  s\'alterarà de cap manera.</string>
   <string name="database_migration_activity__skip">Omet</string>
   <string name="database_migration_activity__import">Importa</string>
@@ -1721,7 +1721,7 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <!--prompt_passphrase_activity-->
   <string name="prompt_passphrase_activity__unlock">Desbloca</string>
   <!--prompt_mms_activity-->
-  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">El Signal requereix la configuració dels MMS per enviar fitxers i missatges de grup pel vostre operador telefònic. El dispositiu no facilita aquesta informació, fet de tant en tant cert per a dispositius blocats o altres configuracions restrictives.</string>
+  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">El Grapherex requereix la configuració dels MMS per enviar fitxers i missatges de grup pel vostre operador telefònic. El dispositiu no facilita aquesta informació, fet de tant en tant cert per a dispositius blocats o altres configuracions restrictives.</string>
   <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">Per enviar fitxers i missatges als grups, premeu «D\'acord» i completeu la configuració demanada. Podeu trobar la configuració dels MMS del vostre operador telefònic si cerqueu «l\'APN del vostre operador». Només ho haureu de fer una vegada.</string>
   <!--profile_create_activity-->
   <string name="CreateProfileActivity_first_name_required">Nom (necessari)</string>
@@ -1755,7 +1755,7 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <!--recipients_panel-->
   <string name="recipients_panel__to"><small>Escriviu un nom o un número</small></string>
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Si voleu verificar la seguretat de l\'encriptació amb %s, compareu el número anterior amb el del seu dispositiu. Altrament, podeu escanejar el codi al seu telèfon o demanar-los que escanegin el vostre. <a href="https://signal.org/redirect/safety-numbers">Més informació.</a>]]></string>
+  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Si voleu verificar la seguretat de l\'encriptació amb %s, compareu el número anterior amb el del seu dispositiu. Altrament, podeu escanejar el codi al seu telèfon o demanar-los que escanegin el vostre. <a href="https://Grapherex.org/redirect/safety-numbers">Més informació.</a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">Feu un toc per escanejar</string>
   <string name="verify_display_fragment__loading">Es carrega…</string>
   <string name="verify_display_fragment__verified">Verificat</string>
@@ -1806,7 +1806,7 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="HelpFragment__how_do_you_feel">Com us sentiu? (opcional)</string>
   <string name="HelpFragment__tell_us_why_youre_reaching_out">Expliqueu-nos per què us poseu en contacte.</string>
   <string name="HelpFragment__support_info">Informació de suport</string>
-  <string name="HelpFragment__signal_android_support_request">Petició de suport de Signal d\'Android</string>
+  <string name="HelpFragment__signal_android_support_request">Petició de suport de Grapherex d\'Android</string>
   <string name="HelpFragment__debug_log">Informe de depuració:</string>
   <string name="HelpFragment__could_not_upload_logs">No s\'han pogut carregar els registres.</string>
   <string name="HelpFragment__please_be_as_descriptive_as_possible">Si us plau, expliqueu-ho de la manera més descriptiva possible per ajudar-nos a entendre el problema.</string>
@@ -1865,8 +1865,8 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="preferences__sms_mms">SMS i MMS</string>
   <string name="preferences__pref_all_sms_title">Rep tots els SMS</string>
   <string name="preferences__pref_all_mms_title">Rep tots els MMS</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Fes servir el Signal per a tots els missatges de text d\'entrada</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Fes servir el Signal per a tots els missatges multimèdia d\'entrada</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Fes servir el Grapherex per a tots els missatges de text d\'entrada</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Fes servir el Grapherex per a tots els missatges multimèdia d\'entrada</string>
   <string name="preferences__pref_enter_sends_title">S\'envia amb la tecla de Retorn</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">En prémer Retorn s\'envia el missatge de text</string>
   <string name="preferences__pref_use_address_book_photos">Usa les fotos de l\'agenda de contactes</string>
@@ -1881,7 +1881,7 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Bloca la pantalla i les notificacions amb una contrasenya</string>
   <string name="preferences__screen_security">Seguretat de la pantalla</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">Bloca les captures de pantalla a les llistes de recents i dins de l\'aplicació</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Bloca el Signal després d\'un temps d\'inactivitat</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Bloca el Grapherex després d\'un temps d\'inactivitat</string>
   <string name="preferences__inactivity_timeout_passphrase">Contrasenya d\'inactivitat</string>
   <string name="preferences__inactivity_timeout_interval">Interval d\'inactivitat</string>
   <string name="preferences__notifications">Notificacions</string>
@@ -1912,7 +1912,7 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="preferences__slow">Lent</string>
   <string name="preferences__help">Ajuda</string>
   <string name="preferences__advanced">Avançat</string>
-  <string name="preferences__donate_to_signal">Feu una donació a Signal</string>
+  <string name="preferences__donate_to_signal">Feu una donació a Grapherex</string>
   <string name="preferences__privacy">Privadesa</string>
   <string name="preferences__mms_user_agent">Agent usuari dels MMS</string>
   <string name="preferences__advanced_mms_access_point_names">Configuració manual dels MMS</string>
@@ -1938,13 +1938,13 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="preferences__chat_wallpaper">Fons de la conversa</string>
   <string name="preferences__disable_pin">Desactiva el PIN</string>
   <string name="preferences__enable_pin">Activa el PIN</string>
-  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">Si desactiveu el PIN, perdreu totes les dades quan torneu a registrar-vos al Signal, si no és que en feu una còpia de seguretat i una restauració manualment. No podeu activar el bloqueig de registre mentre el PIN estigui desactivat.</string>
-  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">Els PIN mantenen encriptada la informació desada amb el Signal de manera que no hi pugui accedir ningú més. El perfil, la configuració i els contactes es restauraran quan el reinstal·leu. No necessitareu el PIN per obrir l\'aplicació.</string>
+  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">Si desactiveu el PIN, perdreu totes les dades quan torneu a registrar-vos al Grapherex, si no és que en feu una còpia de seguretat i una restauració manualment. No podeu activar el bloqueig de registre mentre el PIN estigui desactivat.</string>
+  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">Els PIN mantenen encriptada la informació desada amb el Grapherex de manera que no hi pugui accedir ningú més. El perfil, la configuració i els contactes es restauraran quan el reinstal·leu. No necessitareu el PIN per obrir l\'aplicació.</string>
   <string name="preferences__system_default">Per defecte del sistema</string>
   <string name="preferences__language">Llengua</string>
-  <string name="preferences__signal_messages_and_calls">Missatges i trucades del Signal</string>
+  <string name="preferences__signal_messages_and_calls">Missatges i trucades del Grapherex</string>
   <string name="preferences__advanced_pin_settings">Configuració avançada del PIN</string>
-  <string name="preferences__free_private_messages_and_calls">Missatges i trucades privades gratuïtes per als usuaris del Signal </string>
+  <string name="preferences__free_private_messages_and_calls">Missatges i trucades privades gratuïtes per als usuaris del Grapherex </string>
   <string name="preferences__submit_debug_log">Envia un registre de depuració</string>
   <string name="preferences__delete_account">Suprimeix el compte</string>
   <string name="preferences__support_wifi_calling">Compatibilitat «Trucada per WiFi»</string>
@@ -1983,8 +1983,8 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="preferences_storage__s_messages">%1$s missatges</string>
   <string name="preferences_storage__custom">Personalitzat</string>
   <string name="preferences_advanced__use_system_emoji">Usa els emoji del sistema</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Desactiva els emojis inclosos al Signal</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Retransmet totes les trucades a través del servidor del Signal per evitar revelar l\'adreça IP al contacte. Activar-ho reduirà la qualitat de la trucada.</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Desactiva els emojis inclosos al Grapherex</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Retransmet totes les trucades a través del servidor del Grapherex per evitar revelar l\'adreça IP al contacte. Activar-ho reduirà la qualitat de la trucada.</string>
   <string name="preferences_advanced__always_relay_calls">Retransmet sempre les trucades</string>
   <string name="preferences_app_protection__who_can">Qui pot…</string>
   <string name="preferences_app_protection__app_access">Accés de l\'aplicació</string>
@@ -2004,9 +2004,9 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="preferences_notifications__calls">Trucades</string>
   <string name="preferences_notifications__ringtone">To de trucada</string>
   <string name="preferences_chats__show_invitation_prompts">Mostra els avisos d\'invitacions</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Mostra els avisos d\'invitacions per als contactes sense Signal</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Mostra els avisos d\'invitacions per als contactes sense Grapherex</string>
   <string name="preferences_chats__message_text_size">Mida de la lletra dels missatges</string>
-  <string name="preferences_events__contact_joined_signal">El contacte s\'ha afegit al Signal.</string>
+  <string name="preferences_events__contact_joined_signal">El contacte s\'ha afegit al Grapherex.</string>
   <string name="preferences_notifications__priority">Prioritat</string>
   <string name="preferences_communication__category_sealed_sender">Remitent segellat</string>
   <string name="preferences_communication__sealed_sender_display_indicators">Indicadors de pantalla</string>
@@ -2020,7 +2020,7 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="preferences_off">Inactiu</string>
   <string name="preferences_on">Actiu</string>
   <string name="preferences_proxy_address">Adreça intermediària</string>
-  <string name="preferences_only_use_a_proxy_if">Useu un servidor intermediari només si no sou capaç de connectar-vos al Signal per les dades mòbils o per Wi-Fi.</string>
+  <string name="preferences_only_use_a_proxy_if">Useu un servidor intermediari només si no sou capaç de connectar-vos al Grapherex per les dades mòbils o per Wi-Fi.</string>
   <string name="preferences_share">Comparteix-lo</string>
   <string name="preferences_save">Desa</string>
   <string name="preferences_connecting_to_proxy">Es connecta amb l\'intermediari…</string>
@@ -2039,7 +2039,7 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="PaymentsAllActivityFragment__sent">Enviat</string>
   <string name="PaymentsAllActivityFragment__received">Rebut</string>
   <string name="PaymentsHomeFragment__introducing_payments">S\'introdueixen els pagaments (beta)</string>
-  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Useu el Signal per enviar i rebre MobileCoin, una moneda digital nova centrada en la privadesa. Activeu-ho per començar.</string>
+  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Useu el Grapherex per enviar i rebre MobileCoin, una moneda digital nova centrada en la privadesa. Activeu-ho per començar.</string>
   <string name="PaymentsHomeFragment__activate_payments">Activa els pagaments</string>
   <string name="PaymentsHomeFragment__activating_payments">S\'activen els pagaments…</string>
   <string name="PaymentsHomeFragment__restore_payments_account">Restaura el compte de pagaments</string>
@@ -2066,17 +2066,17 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="PaymentsHomeFragment__payments_is_not_available_in_your_region">Els pagaments no estan disponibles a la vostra regió.</string>
   <string name="PaymentsHomeFragment__could_not_enable_payments">No s\'han pogut activar els pagaments. Torneu-ho a provar més tard.</string>
   <string name="PaymentsHomeFragment__deactivate_payments_question">Voleu desactivar els pagaments?</string>
-  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">No podreu enviar ni rebre MobileCoin al Signal si desactiveu els pagaments.</string>
+  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">No podreu enviar ni rebre MobileCoin al Grapherex si desactiveu els pagaments.</string>
   <string name="PaymentsHomeFragment__deactivate">Desactiva\'ls</string>
   <string name="PaymentsHomeFragment__continue">Continua</string>
   <string name="PaymentsHomeFragment__balance_is_not_currently_available">El saldo actualment no està disponible.</string>
   <string name="PaymentsHomeFragment__payments_deactivated">Pagaments desactivats</string>
   <string name="PaymentsHomeFragment__payment_failed">Ha fallat el pagament.</string>
   <string name="PaymentsHomeFragment__details">Detalls</string>
-  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">Podeu usar el Signal per enviar i rebre MobileCoin. Tots els pagaments estan subjectes a les Condicions d\'ús de MobileCoins i MobileCoin Wallet. Aquesta és una funció beta, de manera que és possible que tingueu problemes i que no es puguin recuperar pagaments o saldos que poguéssiu perdre.</string>
+  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">Podeu usar el Grapherex per enviar i rebre MobileCoin. Tots els pagaments estan subjectes a les Condicions d\'ús de MobileCoins i MobileCoin Wallet. Aquesta és una funció beta, de manera que és possible que tingueu problemes i que no es puguin recuperar pagaments o saldos que poguéssiu perdre.</string>
   <string name="PaymentsHomeFragment__activate">Activa\'ls</string>
   <string name="PaymentsHomeFragment__view_mobile_coin_terms">Vegeu els termes de MobileCoin</string>
-  <string name="PaymentsHomeFragment__payments_not_available">Els pagaments al Signal ja no estan disponibles. Encara podeu transferir fons a un intercanvi, però ja no podeu enviar ni rebre pagaments ni afegir-hi fons.</string>
+  <string name="PaymentsHomeFragment__payments_not_available">Els pagaments al Grapherex ja no estan disponibles. Encara podeu transferir fons a un intercanvi, però ja no podeu enviar ni rebre pagaments ni afegir-hi fons.</string>
   <!--PaymentsAddMoneyFragment-->
   <string name="PaymentsAddMoneyFragment__add_funds">Afegeix fons</string>
   <string name="PaymentsAddMoneyFragment__your_wallet_address">La vostra adreça de cartera</string>
@@ -2113,10 +2113,10 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="PaymentsTransferFragment__next">Següent</string>
   <string name="PaymentsTransferFragment__invalid_address">Adreça no vàlida</string>
   <string name="PaymentsTransferFragment__check_the_wallet_address">Comproveu l\'adreça de cartera a la qual intenteu fer una transferència i torneu-ho a provar.</string>
-  <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">No podeu fer una transferència a la vostra adreça de cartera del Signal. Introduïu l\'adreça de la cartera des del compte amb un intercanvi compatible.</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Per escanejar un codi QR, el Signal necessita accés a la càmera.</string>
-  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">El Signal necessita el permís de la càmera per capturar un codi QR. Aneu a la configuració, seleccioneu Permisos i activeu la càmera.</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Per escanejar un codi QR, el Signal necessita accés a la càmera.</string>
+  <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">No podeu fer una transferència a la vostra adreça de cartera del Grapherex. Introduïu l\'adreça de la cartera des del compte amb un intercanvi compatible.</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Per escanejar un codi QR, el Grapherex necessita accés a la càmera.</string>
+  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">El Grapherex necessita el permís de la càmera per capturar un codi QR. Aneu a la configuració, seleccioneu Permisos i activeu la càmera.</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Per escanejar un codi QR, el Grapherex necessita accés a la càmera.</string>
   <string name="PaymentsTransferFragment__settings">Configuració</string>
   <!--PaymentsTransferQrScanFragment-->
   <string name="PaymentsTransferQrScanFragment__scan_address_qr_code">Escaneja el codi QR de l\'adreça</string>
@@ -2174,8 +2174,8 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">Truca</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Trucada del Signal</string>
-  <string name="conversation_callable_secure__menu_video">Trucada de vídeo del Signal</string>
+  <string name="conversation_callable_secure__menu_call">Trucada del Grapherex</string>
+  <string name="conversation_callable_secure__menu_video">Trucada de vídeo del Grapherex</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">Detalls del missatge</string>
   <string name="conversation_context__menu_copy_text">Copia el text</string>
@@ -2247,10 +2247,10 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">Compara amb el porta-retalls</string>
   <!--reminder_header-->
   <string name="reminder_header_sms_import_title">Importació dels SMS del sistema</string>
-  <string name="reminder_header_sms_import_text">Premeu per copiar els missatges SMS del telèfon a la base de dades encriptada del Signal.</string>
-  <string name="reminder_header_push_title">Activa els missatges i les trucades del Signal</string>
+  <string name="reminder_header_sms_import_text">Premeu per copiar els missatges SMS del telèfon a la base de dades encriptada del Grapherex.</string>
+  <string name="reminder_header_push_title">Activa els missatges i les trucades del Grapherex</string>
   <string name="reminder_header_push_text">Actualitza l\'experiència comunicativa.</string>
-  <string name="reminder_header_service_outage_text">El Signal té problemes tècnics. Estem treballant per recuperar el servei tan ràpidament com sigui possible.</string>
+  <string name="reminder_header_service_outage_text">El Grapherex té problemes tècnics. Estem treballant per recuperar el servei tan ràpidament com sigui possible.</string>
   <string name="reminder_header_progress">%1$d%%</string>
   <!--media_preview-->
   <string name="media_preview__save_title">Desa</string>
@@ -2266,22 +2266,22 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="Insights__percent">%</string>
   <string name="Insights__title">Interior</string>
   <string name="InsightsDashboardFragment__title">Interior</string>
-  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">El Protocol de Signal ha protegit automàticament %1$d%% dels missatges de sortida durant els darrers %2$d dies. Les converses entre usuaris del Signal sempre estan encriptades de cap a cap.</string>
-  <string name="InsightsDashboardFragment__boost_your_signal">Impuls de Signal</string>
+  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">El Protocol de Grapherex ha protegit automàticament %1$d%% dels missatges de sortida durant els darrers %2$d dies. Les converses entre usuaris del Grapherex sempre estan encriptades de cap a cap.</string>
+  <string name="InsightsDashboardFragment__boost_your_signal">Impuls de Grapherex</string>
   <string name="InsightsDashboardFragment__not_enough_data">Dades insuficients</string>
   <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">El percentatge d’Interior es calcula a partir dels missatges de sortida dels darrers %1$d dies que no han desaparegut ni s’han suprimit.</string>
   <string name="InsightsDashboardFragment__start_a_conversation">Comenceu una conversa</string>
-  <string name="InsightsDashboardFragment__invite_your_contacts">Comenceu a comunicar-vos de manera segura i activeu funcions noves que vagin més enllà de les limitacions dels missatges d\'SMS no encriptats convidant més contactes a unir-se al Signal.</string>
+  <string name="InsightsDashboardFragment__invite_your_contacts">Comenceu a comunicar-vos de manera segura i activeu funcions noves que vagin més enllà de les limitacions dels missatges d\'SMS no encriptats convidant més contactes a unir-se al Grapherex.</string>
   <string name="InsightsDashboardFragment__this_stat_was_generated_locally">Aquestes estadístiques es van generar localment al dispositiu i només vosaltres les podreu veure. Mai es transmeten enlloc.</string>
   <string name="InsightsDashboardFragment__encrypted_messages">Missatges encriptats</string>
   <string name="InsightsDashboardFragment__cancel">Cancel·la</string>
   <string name="InsightsDashboardFragment__send">Envia</string>
   <string name="InsightsModalFragment__title">S\'introdueix l\'Interior</string>
-  <string name="InsightsModalFragment__description">Informeu-vos de quants dels vostres missatges de sortida es van enviar de forma segura i, després, convideu ràpidament nous contactes per augmentar el percentatge del Signal.</string>
+  <string name="InsightsModalFragment__description">Informeu-vos de quants dels vostres missatges de sortida es van enviar de forma segura i, després, convideu ràpidament nous contactes per augmentar el percentatge del Grapherex.</string>
   <string name="InsightsModalFragment__view_insights">Mostra l\'Interior</string>
-  <string name="FirstInviteReminder__title">Convida al Signal</string>
+  <string name="FirstInviteReminder__title">Convida al Grapherex</string>
   <string name="FirstInviteReminder__description">Podeu augmentar el nombre de missatges encriptats que envieu gràcies a %1$d%%</string>
-  <string name="SecondInviteReminder__title">Impulseu el Signal</string>
+  <string name="SecondInviteReminder__title">Impulseu el Grapherex</string>
   <string name="SecondInviteReminder__description">Convida %1$s</string>
   <string name="InsightsReminder__view_insights">Mostra l\'Interior</string>
   <string name="InsightsReminder__invite">Convida</string>
@@ -2302,7 +2302,7 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="CreateKbsPinFragment__create_a_new_pin">Crea un PIN nou</string>
   <string name="CreateKbsPinFragment__you_can_choose_a_new_pin_as_long_as_this_device_is_registered">Podeu canviar el PIN sempre que aquest dispositiu estigui registrat.</string>
   <string name="CreateKbsPinFragment__create_your_pin">Creeu el PIN</string>
-  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">Els PIN mantenen encriptada la informació desada amb el Signal de manera que no hi pugui accedir ningú més. El perfil, la configuració i els contactes es restauraran quan el reinstal·leu. No necessitareu el PIN per obrir l\'aplicació.</string>
+  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">Els PIN mantenen encriptada la informació desada amb el Grapherex de manera que no hi pugui accedir ningú més. El perfil, la configuració i els contactes es restauraran quan el reinstal·leu. No necessitareu el PIN per obrir l\'aplicació.</string>
   <string name="CreateKbsPinFragment__choose_a_stronger_pin">Trieu un PIN més segur.</string>
   <!--ConfirmKbsPinFragment-->
   <string name="ConfirmKbsPinFragment__pins_dont_match">Els codis no coincideixen. Torneu-ho a provar.</string>
@@ -2314,7 +2314,7 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="ConfirmKbsPinFragment__creating_pin">Es crea un PIN…</string>
   <!--KbsSplashFragment-->
   <string name="KbsSplashFragment__introducing_pins">S\'introdueixen els PIN</string>
-  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">Els PIN mantenen encriptada la informació desada amb el Signal de manera que no hi pugui accedir ningú més. El perfil, la configuració i els contactes es restauraran quan el reinstal·leu. No necessitareu el PIN per obrir l\'aplicació.</string>
+  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">Els PIN mantenen encriptada la informació desada amb el Grapherex de manera que no hi pugui accedir ningú més. El perfil, la configuració i els contactes es restauraran quan el reinstal·leu. No necessitareu el PIN per obrir l\'aplicació.</string>
   <string name="KbsSplashFragment__learn_more">Més informació</string>
   <string name="KbsSplashFragment__registration_lock_equals_pin">Bloqueig de registre = PIN</string>
   <string name="KbsSplashFragment__your_registration_lock_is_now_called_a_pin">El bloqueig de registre ara s\'anomena PIN i serveix per a molt més. Actualitzeu-lo ara.</string>
@@ -2323,7 +2323,7 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="KbsSplashFragment__learn_more_about_pins">Apreneu més coses sobre els PIN</string>
   <string name="KbsSplashFragment__disable_pin">Desactiva el PIN</string>
   <!--KBS Reminder Dialog-->
-  <string name="KbsReminderDialog__enter_your_signal_pin">Marqueu el PIN del Signal</string>
+  <string name="KbsReminderDialog__enter_your_signal_pin">Marqueu el PIN del Grapherex</string>
   <string name="KbsReminderDialog__to_help_you_memorize_your_pin">Per ajudar-vos a recordar el PIN, us el demanarem periòdicament. Amb el temps, ho farem menys.</string>
   <string name="KbsReminderDialog__skip">Omet</string>
   <string name="KbsReminderDialog__submit">Envia</string>
@@ -2344,8 +2344,8 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="RegistrationLockFragment__incorrect_pin">PIN incorrecte</string>
   <string name="RegistrationLockFragment__forgot_your_pin">Heu oblidat el PIN?</string>
   <string name="RegistrationLockFragment__not_many_tries_left">No resta cap intent!</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Registre del Signal - Cal ajuda amb el PIN per a Android (PIN v1)</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Registre del Signal - Cal ajuda amb el PIN per a Android (PIN v2)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Registre del Grapherex - Cal ajuda amb el PIN per a Android (PIN v1)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Registre del Grapherex - Cal ajuda amb el PIN per a Android (PIN v2)</string>
   <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
     <item quantity="one">Per a la vostra privadesa i seguretat, no hi ha manera de recuperar el PIN. Si no el podeu recordar, podeu refer la verificació amb un SMS al cap de %1$d dia d\'inactivitat. En aquest cas, el compte s\'esborrarà i se\'n suprimirà el contingut.</item>
     <item quantity="other">Per a la vostra privadesa i seguretat, no hi ha manera de recuperar el PIN. Si no el podeu recordar, podeu refer la verificació amb un SMS al cap de %1$d dies d\'inactivitat. En aquest cas, el compte s\'esborrarà i se\'n suprimirà el contingut.</item>
@@ -2370,28 +2370,28 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="CalleeMustAcceptMessageRequestDialogFragment__s_will_get_a_message_request_from_you">%1$s rebrà una petició de missatge vostra. Podeu trucar-li un cop acceptada.</string>
   <!--KBS Megaphone-->
   <string name="KbsMegaphone__create_a_pin">Crea un PIN</string>
-  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">Els PIN mantenen encriptada la informació desada amb el Signal.</string>
+  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">Els PIN mantenen encriptada la informació desada amb el Grapherex.</string>
   <string name="KbsMegaphone__create_pin">Crea un PIN</string>
   <!--Research Megaphone-->
-  <string name="ResearchMegaphone_tell_signal_what_you_think">Expliqueu a Signal què en penseu</string>
-  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">Per fer del Signal la millor aplicació de missatgeria del planeta, ens agradaria rebre\'n els vostres comentaris.</string>
+  <string name="ResearchMegaphone_tell_signal_what_you_think">Expliqueu a Grapherex què en penseu</string>
+  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">Per fer del Grapherex la millor aplicació de missatgeria del planeta, ens agradaria rebre\'n els vostres comentaris.</string>
   <string name="ResearchMegaphone_learn_more">Més informació</string>
   <string name="ResearchMegaphone_dismiss">Descarta</string>
-  <string name="ResearchMegaphoneDialog_signal_research">Recerca del Signal</string>
-  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[ <p><b>Creiem en la privadesa.</b></p><p> El Signal no us fa un seguiment ni recopila les vostres dades. Per millorar el Signal per a tothom, confiem en els comentaris dels usuaris i <b>ens encantaria rebre el vostre.</b></p><p> Estem fent una enquesta per entendre com useu el Signal. La nostra enquesta no recull cap dada que us identifiqui. Si esteu interessats a compartir comentaris addicionals, podreu proporcionar la informació de contacte.</p><p> Si teniu uns quants minuts i comentaris a oferir, ens encantaria rebre notícies vostres.</p>]]></string>
+  <string name="ResearchMegaphoneDialog_signal_research">Recerca del Grapherex</string>
+  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[ <p><b>Creiem en la privadesa.</b></p><p> El Grapherex no us fa un seguiment ni recopila les vostres dades. Per millorar el Grapherex per a tothom, confiem en els comentaris dels usuaris i <b>ens encantaria rebre el vostre.</b></p><p> Estem fent una enquesta per entendre com useu el Grapherex. La nostra enquesta no recull cap dada que us identifiqui. Si esteu interessats a compartir comentaris addicionals, podreu proporcionar la informació de contacte.</p><p> Si teniu uns quants minuts i comentaris a oferir, ens encantaria rebre notícies vostres.</p>]]></string>
   <string name="ResearchMegaphoneDialog_take_the_survey">Feu l\'enquesta</string>
   <string name="ResearchMegaphoneDialog_no_thanks">No, gràcies.</string>
-  <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">Alchemer en fa el seguiment al domini segur surveys.signalusers.org.</string>
+  <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">Alchemer en fa el seguiment al domini segur surveys.Grapherexusers.org.</string>
   <!--transport_selection_list_item-->
   <string name="transport_selection_list_item__transport_icon">Icona de trànsit</string>
   <string name="ConversationListFragment_loading">Es carrega…</string>
   <string name="CallNotificationBuilder_connecting">Es connecta…</string>
   <string name="Permissions_permission_required">Cal permís</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">El Signal necessita el permís d\'SMS per tal d\'enviar missatges SMS, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi l\'SMS.</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">El Grapherex necessita el permís d\'SMS per tal d\'enviar missatges SMS, però s\'ha denegat permanentment. Si us plau, continueu cap al menú de configuració de l\'aplicació, seleccioneu Permisos i activeu-hi l\'SMS.</string>
   <string name="Permissions_continue">Continua</string>
   <string name="Permissions_not_now">Ara no</string>
-  <string name="conversation_activity__enable_signal_messages">ACTIVA ELS MISSATGES DEL SIGNAL</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Migració de la base de dades del Signal</string>
+  <string name="conversation_activity__enable_signal_messages">ACTIVA ELS MISSATGES DEL Grapherex</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">Migració de la base de dades del Grapherex</string>
   <string name="PushDecryptJob_new_locked_message">Missatge blocat nou</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Desbloqueu-ho per veure els missatges pendents</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">Contrasenya de la còpia de seguretat</string>
@@ -2409,7 +2409,7 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="preferences_chats__transfer_account_to_a_new_android_device">Transfereix el compte a un dispositiu d\'Android nou</string>
   <string name="RegistrationActivity_enter_backup_passphrase">Escriviu la contrasenya de la còpia de seguretat.</string>
   <string name="RegistrationActivity_restore">Restaura</string>
-  <string name="RegistrationActivity_backup_failure_downgrade">No es poden importar còpies de seguretat de versions més noves del Signal.</string>
+  <string name="RegistrationActivity_backup_failure_downgrade">No es poden importar còpies de seguretat de versions més noves del Grapherex.</string>
   <string name="RegistrationActivity_incorrect_backup_passphrase">Contrasenya de còpia de seguretat incorrecta</string>
   <string name="RegistrationActivity_checking">Es comprova…</string>
   <string name="RegistrationActivity_d_messages_so_far">%d missatges fins ara…</string>
@@ -2440,8 +2440,8 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="ProgressPreference_d_messages_so_far">%d missatges fins ara…</string>
   <string name="RegistrationActivity_wrong_number">Número no correcte</string>
   <string name="RegistrationActivity_call_me_instead_available_in">Millor que em truquis.\n (Disponible d\'aquí a %1$02d:%2$02d)</string>
-  <string name="RegistrationActivity_contact_signal_support">Contacteu amb el suport de Signal</string>
-  <string name="RegistrationActivity_code_support_subject">Registre del Signal - Codi de verificació per a Android</string>
+  <string name="RegistrationActivity_contact_signal_support">Contacteu amb el suport de Grapherex</string>
+  <string name="RegistrationActivity_code_support_subject">Registre del Grapherex - Codi de verificació per a Android</string>
   <string name="BackupUtil_never">Mai</string>
   <string name="BackupUtil_unknown">Desconegut</string>
   <string name="preferences_app_protection__see_my_phone_number">Mostra el meu número de telèfon</string>
@@ -2450,21 +2450,21 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="PhoneNumberPrivacy_my_contacts">Els meus contactes</string>
   <string name="PhoneNumberPrivacy_nobody">Ningú</string>
   <string name="PhoneNumberPrivacy_everyone_see_description">El vostre número de telèfon serà visible per a totes les persones i grups a qui envieu un missatge.</string>
-  <string name="PhoneNumberPrivacy_everyone_find_description">Tothom que tingui el vostre número de telèfon als contactes us veurà com a contacte al Signal. La resta us podrà trobar a la cerca.</string>
+  <string name="PhoneNumberPrivacy_everyone_find_description">Tothom que tingui el vostre número de telèfon als contactes us veurà com a contacte al Grapherex. La resta us podrà trobar a la cerca.</string>
   <string name="preferences_app_protection__screen_lock">Bloqueig de pantalla</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Bloca l\'accés al Signal amb el bloqueig de pantalla de l\'Android o amb l\'empremta.</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Bloca l\'accés al Grapherex amb el bloqueig de pantalla de l\'Android o amb l\'empremta.</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">Temps d\'inactivitat per al bloqueig de pantalla</string>
-  <string name="preferences_app_protection__signal_pin">PIN del Signal</string>
+  <string name="preferences_app_protection__signal_pin">PIN del Grapherex</string>
   <string name="preferences_app_protection__create_a_pin">Crea un PIN</string>
   <string name="preferences_app_protection__change_your_pin">Canvieu el PIN</string>
   <string name="preferences_app_protection__pin_reminders">Recordatoris del PIN</string>
-  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">Els PIN mantenen encriptada la informació desada amb el Signal de manera que no hi pugui accedir ningú més. El perfil, la configuració i els contactes es restauraran quan el reinstal·leu.</string>
-  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Afegiu-hi més seguretat fent que el PIN torni a registrar el número de telèfon al Signal.</string>
+  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">Els PIN mantenen encriptada la informació desada amb el Grapherex de manera que no hi pugui accedir ningú més. El perfil, la configuració i els contactes es restauraran quan el reinstal·leu.</string>
+  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Afegiu-hi més seguretat fent que el PIN torni a registrar el número de telèfon al Grapherex.</string>
   <string name="preferences_app_protection__reminders_help_you_remember_your_pin">Els recordatoris us ajuden a recordar el PIN, ja que no es pot recuperar. Se us demanarà menys freqüentment amb el pas del temps.</string>
   <string name="preferences_app_protection__turn_off">Desactiva</string>
   <string name="preferences_app_protection__confirm_pin">Confirmeu-lo</string>
-  <string name="preferences_app_protection__confirm_your_signal_pin">Confirmeu el PIN del Signal</string>
-  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Assegureu-vos de memoritzar o desar de forma segura el PIN, ja que no es pot recuperar. Si l\'oblideu, podríeu perdre dades quan torneu a registrar el compte del Signal.</string>
+  <string name="preferences_app_protection__confirm_your_signal_pin">Confirmeu el PIN del Grapherex</string>
+  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Assegureu-vos de memoritzar o desar de forma segura el PIN, ja que no es pot recuperar. Si l\'oblideu, podríeu perdre dades quan torneu a registrar el compte del Grapherex.</string>
   <string name="preferences_app_protection__incorrect_pin_try_again">PIN incorrecte. Torneu-ho a provar.</string>
   <string name="preferences_app_protection__failed_to_enable_registration_lock">Ha fallat activar el bloqueig de registre.</string>
   <string name="preferences_app_protection__failed_to_disable_registration_lock">Ha fallat desactivar el bloqueig de registre.</string>
@@ -2477,19 +2477,19 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">Massa intents. Si us plau, torneu-ho a provar més tard.</string>
   <string name="RegistrationActivity_error_connecting_to_service">Error en connectar al servei</string>
   <string name="preferences_chats__backups">Còpies de seguretat</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">El Signal està blocat</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">El Grapherex està blocat</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">TOQUEU PER DESBLOCAR-LO</string>
   <string name="Recipient_unknown">Desconegut</string>
   <!--TransferOrRestoreFragment-->
   <string name="TransferOrRestoreFragment__transfer_or_restore_account">Transfereix o restaura el compte</string>
-  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Si prèviament heu registrat un compte del Signal, podeu transferir o restaurar el compte i els missatges.</string>
+  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Si prèviament heu registrat un compte del Grapherex, podeu transferir o restaurar el compte i els missatges.</string>
   <string name="TransferOrRestoreFragment__transfer_from_android_device">Transfereix des d\'un dispositiu d\'Android</string>
   <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">Transfereix el compte i els missatges des del dispositiu d\'Android antic. Cal accés al dispositiu antic.</string>
   <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">Us cal accés al dispositiu antic.</string>
   <string name="TransferOrRestoreFragment__restore_from_backup">Restaura des d\'una còpia de seguretat</string>
   <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">Restaureu els missatges des d\'una còpia de seguretat local. Si no la restaureu ara, no podreu restaurar-la més tard.</string>
   <!--NewDeviceTransferInstructionsFragment-->
-  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Obriu el Signal a l\'antic telèfon Android.</string>
+  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Obriu el Grapherex a l\'antic telèfon Android.</string>
   <string name="NewDeviceTransferInstructions__continue">Continua</string>
   <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
   <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">Toqueu la foto del perfil a la part superior esquerra per obrir-ne la Configuració.</string>
@@ -2501,18 +2501,18 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">Es prepara la connexió amb un dispositiu Android antic…</string>
   <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">Un moment, hauria d’estar llest aviat…</string>
   <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">S\'espera que el dispositiu Android antic es connecti…</string>
-  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">El Signal necessita el permís d’ubicació per descobrir i connectar-se al dispositiu antic d\'Android.</string>
-  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">El Signal necessita els serveis d’ubicació habilitats per descobrir i connectar-se al dispositiu antic d\'Android.</string>
-  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">El Signal necessita la connexió Wi-Fi per descobrir i connectar-se al dispositiu antic d\'Android. La Wi-Fi ha d’estar activa, però no ha d’estar connectat a una xarxa Wi-Fi.</string>
-  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Sembla que aquest dispositiu no admet Wi-Fi Direct. El Signal usa Wi-Fi Direct per descobrir i connectar-se al dispositiu antic d\'Android. Encara podeu restaurar una còpia de seguretat per restaurar el compte des del dispositiu d\'Android antic.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">El Grapherex necessita el permís d’ubicació per descobrir i connectar-se al dispositiu antic d\'Android.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">El Grapherex necessita els serveis d’ubicació habilitats per descobrir i connectar-se al dispositiu antic d\'Android.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">El Grapherex necessita la connexió Wi-Fi per descobrir i connectar-se al dispositiu antic d\'Android. La Wi-Fi ha d’estar activa, però no ha d’estar connectat a una xarxa Wi-Fi.</string>
+  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Sembla que aquest dispositiu no admet Wi-Fi Direct. El Grapherex usa Wi-Fi Direct per descobrir i connectar-se al dispositiu antic d\'Android. Encara podeu restaurar una còpia de seguretat per restaurar el compte des del dispositiu d\'Android antic.</string>
   <string name="NewDeviceTransferSetup__restore_a_backup">Restaura una còpia de seguretat</string>
   <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">S\'ha produït un error inesperat en intentar connectar al dispositiu d\'Android antic.</string>
   <!--OldDeviceTransferSetupFragment-->
   <string name="OldDeviceTransferSetup__searching_for_new_android_device">Se cerca un dispositiu d\'Android nou…</string>
-  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">El Signal necessita el permís d’ubicació per descobrir i connectar-se al dispositiu d\'Android nou.</string>
-  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">El Signal necessita els serveis d’ubicació habilitats per descobrir i connectar-se al dispositiu d\'Android nou.</string>
-  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">El Signal necessita la connexió Wi-Fi per descobrir i connectar-se al dispositiu d\'Android nou. La Wi-Fi ha d’estar activa, però no ha d’estar connectat a una xarxa Wi-Fi.</string>
-  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Sembla que aquest dispositiu no admet Wi-Fi Direct. El Signal usa Wi-Fi Direct per descobrir i connectar-se al dispositiu d\'Android nou. Encara podeu restaurar una còpia de seguretat per restaurar el compte des del dispositiu d\'Android nou.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">El Grapherex necessita el permís d’ubicació per descobrir i connectar-se al dispositiu d\'Android nou.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">El Grapherex necessita els serveis d’ubicació habilitats per descobrir i connectar-se al dispositiu d\'Android nou.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">El Grapherex necessita la connexió Wi-Fi per descobrir i connectar-se al dispositiu d\'Android nou. La Wi-Fi ha d’estar activa, però no ha d’estar connectat a una xarxa Wi-Fi.</string>
+  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Sembla que aquest dispositiu no admet Wi-Fi Direct. El Grapherex usa Wi-Fi Direct per descobrir i connectar-se al dispositiu d\'Android nou. Encara podeu restaurar una còpia de seguretat per restaurar el compte des del dispositiu d\'Android nou.</string>
   <string name="OldDeviceTransferSetup__create_a_backup">Crea una còpia de seguretat</string>
   <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">S\'ha produït un error inesperat en intentar connectar al dispositiu d\'Android nou.</string>
   <!--DeviceTransferSetupFragment-->
@@ -2547,10 +2547,10 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device_to_start_the_transfer">Toqueu Continua a l’altre dispositiu per iniciar la transferència.</string>
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device">Toqueu Continua a l’altre dispositiu…</string>
   <!--NewDeviceTransferFragment-->
-  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">No es pot fer la transferència des de versions més recents del Signal.</string>
+  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">No es pot fer la transferència des de versions més recents del Grapherex.</string>
   <!--DeviceTransferFragment-->
   <string name="DeviceTransfer__transferring_data">Es transfereixen dades</string>
-  <string name="DeviceTransfer__keep_both_devices_near_each_other">Mantingueu els dos dispositius a prop l’un de l’altre. No els apagueu i mantingueu el Signal obert. Les transferències estan encriptades d\'extrem a extrem.</string>
+  <string name="DeviceTransfer__keep_both_devices_near_each_other">Mantingueu els dos dispositius a prop l’un de l’altre. No els apagueu i mantingueu el Grapherex obert. Les transferències estan encriptades d\'extrem a extrem.</string>
   <string name="DeviceTransfer__d_messages_so_far">%1$d missatges fins ara…</string>
   <string name="DeviceTransfer__cancel">Cancel·la</string>
   <string name="DeviceTransfer__try_again">Torna a provar-ho</string>
@@ -2561,9 +2561,9 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="DeviceTransfer__unable_to_transfer">No es pot fer la transferència.</string>
   <!--OldDeviceTransferInstructionsFragment-->
   <string name="OldDeviceTransferInstructions__transfer_account">Transfereix el compte</string>
-  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">Podeu transferir el compte del Signal quan el configureu en un dispositiu d\'Android nou. Abans de continuar:</string>
+  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">Podeu transferir el compte del Grapherex quan el configureu en un dispositiu d\'Android nou. Abans de continuar:</string>
   <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Baixeu el Signal al dispositiu d\'Android nou.</string>
+  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Baixeu el Grapherex al dispositiu d\'Android nou.</string>
   <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
   <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">Toqueu Transfereix o restaura el compte</string>
   <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -2572,7 +2572,7 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <!--OldDeviceTransferComplete-->
   <string name="OldDeviceTransferComplete__transfer_complete">Transferència completa</string>
   <string name="OldDeviceTransferComplete__go_to_your_new_device">Aneu al dispositiu nou.</string>
-  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Les dades del Signal s\'han transferit al dispositiu nou. Per completar el procés de transferència, heu de continuar registrant-vos al dispositiu nou.</string>
+  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Les dades del Grapherex s\'han transferit al dispositiu nou. Per completar el procés de transferència, heu de continuar registrant-vos al dispositiu nou.</string>
   <string name="OldDeviceTransferComplete__close">Tanca</string>
   <!--NewDeviceTransferComplete-->
   <string name="NewDeviceTransferComplete__transfer_successful">Transferència correcta</string>
@@ -2589,7 +2589,7 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="DeviceToDeviceTransferService_status_service_connected">Es transfereix el compte…</string>
   <!--OldDeviceTransferLockedDialog-->
   <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">Completeu el registre al dispositiu nou.</string>
-  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">El compte de Signal s\'ha transferit al dispositiu nou, però heu de completar el registre per continuar. El Signal estarà inactiu en aquest dispositiu.</string>
+  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">El compte de Grapherex s\'ha transferit al dispositiu nou, però heu de completar el registre per continuar. El Grapherex estarà inactiu en aquest dispositiu.</string>
   <string name="OldDeviceTransferLockedDialog__done">Fet</string>
   <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">Cancel·la-ho i activa aquest dispositiu</string>
   <!--AdvancedPreferenceFragment-->
@@ -2624,12 +2624,12 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="GroupsLearnMore_what_are_legacy_groups">Què són els grups de llegat?</string>
   <string name="GroupsLearnMore_paragraph_1">Els grups de llegat són grups que no són compatibles amb les funcions dels grups nous com ara els administradors i les actualitzacions més descriptives.</string>
   <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">Puc actualitzar un grup de llegat?</string>
-  <string name="GroupsLearnMore_paragraph_2">Els grups de llegat no es poden actualitzar a grups nous, però podeu crear un grup nou amb els mateixos membres sempre que tinguin la darrera versió del Signal.</string>
-  <string name="GroupsLearnMore_paragraph_3">El Signal oferirà una manera d\'actualitzar els grups de llegat més endavant.</string>
+  <string name="GroupsLearnMore_paragraph_2">Els grups de llegat no es poden actualitzar a grups nous, però podeu crear un grup nou amb els mateixos membres sempre que tinguin la darrera versió del Grapherex.</string>
+  <string name="GroupsLearnMore_paragraph_3">El Grapherex oferirà una manera d\'actualitzar els grups de llegat més endavant.</string>
   <!--GroupLinkBottomSheetDialogFragment-->
   <string name="GroupLinkBottomSheet_share_hint_requiring_approval">Qualsevol persona amb aquest enllaç pot veure el nom i la fotografia del grup i sol·licitar afegir-s\'hi. Compartiu-lo amb gent en qui confieu.</string>
   <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">Qualsevol persona amb aquest enllaç pot veure el nom i la fotografia del grup i sol·licitar afegir-s\'hi. Compartiu-lo amb gent en qui confieu.</string>
-  <string name="GroupLinkBottomSheet_share_via_signal">Comparteix per Signal</string>
+  <string name="GroupLinkBottomSheet_share_via_signal">Comparteix per Grapherex</string>
   <string name="GroupLinkBottomSheet_copy">Copia</string>
   <string name="GroupLinkBottomSheet_qr_code">Codi QR</string>
   <string name="GroupLinkBottomSheet_share">Compartir-lo</string>
@@ -2694,7 +2694,7 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="DeleteAccountFragment__no_number">No s\'ha especificat el número.</string>
   <string name="DeleteAccountFragment__the_phone_number">El número de telèfon marcat no coincideix amb el del compte.</string>
   <string name="DeleteAccountFragment__are_you_sure">Segur que voleu suprimir el compte?</string>
-  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Això suprimirà el compte del Signal i restablirà l\'aplicació. L\'aplicació es tancarà quan acabi el procés.</string>
+  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Això suprimirà el compte del Grapherex i restablirà l\'aplicació. L\'aplicació es tancarà quan acabi el procés.</string>
   <string name="DeleteAccountFragment__failed_to_delete_account">Ha fallat suprimir el compte. Teniu connexió de xarxa?</string>
   <string name="DeleteAccountFragment__failed_to_delete_local_data">Ha fallat suprimir les dades locals. Les podeu suprimir manualment des de la configuració del sistema.</string>
   <string name="DeleteAccountFragment__launch_app_settings">Obre la configuració de l\'aplicació</string>
@@ -2706,7 +2706,7 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="ShareActivity__share">Compartir-lo</string>
   <string name="ShareActivity__send">Envia</string>
   <string name="ShareActivity__s_comma">%1$s,</string>
-  <string name="ShareActivity__sharing_to_multiple_chats_is">La compartició amb converses múltiples només s\'admet per als missatges del Signal.</string>
+  <string name="ShareActivity__sharing_to_multiple_chats_is">La compartició amb converses múltiples només s\'admet per als missatges del Grapherex.</string>
   <!--MultiShareDialogs-->
   <string name="MultiShareDialogs__failed_to_send_to_some_users">Ha fallat l\'enviament a alguns usuaris.</string>
   <string name="MultiShareDialogs__you_can_only_share_with_up_to">Només podeu compartir fins a %1$d converses.</string>
@@ -2748,7 +2748,7 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <string name="payment_info_card_about_mobilecoin">Quant a MobileCoin</string>
   <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">MobileCoin és una moneda digital nova centrada en la privadesa.</string>
   <string name="payment_info_card_adding_funds">Afegir-hi fons</string>
-  <string name="payment_info_card_you_can_add_funds_for_use_in">Podeu afegir fons per usar-los al Signal enviant MobileCoin a la vostra adreça de cartera.</string>
+  <string name="payment_info_card_you_can_add_funds_for_use_in">Podeu afegir fons per usar-los al Grapherex enviant MobileCoin a la vostra adreça de cartera.</string>
   <string name="payment_info_card_cashing_out">Passar per caixa</string>
   <string name="payment_info_card_you_can_cash_out_mobilecoin">Podeu cobrar els MobileCoin en qualsevol moment amb un intercanvi que admeti MobileCoin. Només heu de fer una transferència al vostre compte amb aquest intercanvi.</string>
   <string name="payment_info_card_hide_this_card">Voleu amagar aquesta targeta?</string>
@@ -2762,18 +2762,18 @@ S\'ha rebut un missatge d\'intercanvi de claus per a una versió del protocol no
   <!--DeactivateWalletFragment-->
   <string name="DeactivateWalletFragment__deactivate_wallet">Desactiva la cartera</string>
   <string name="DeactivateWalletFragment__your_balance">El saldo</string>
-  <string name="DeactivateWalletFragment__its_recommended_that_you">Es recomana transferir els fons a una altra adreça de cartera abans de desactivar els pagaments. Si decidiu no transferir els fons ara, quedaran a la cartera enllaçada al Signal si reactiveu els pagaments.</string>
+  <string name="DeactivateWalletFragment__its_recommended_that_you">Es recomana transferir els fons a una altra adreça de cartera abans de desactivar els pagaments. Si decidiu no transferir els fons ara, quedaran a la cartera enllaçada al Grapherex si reactiveu els pagaments.</string>
   <string name="DeactivateWalletFragment__transfer_remaining_balance">Transfereix el saldo restant</string>
   <string name="DeactivateWalletFragment__deactivate_without_transferring">Desactiveu-ho sense transferència</string>
   <string name="DeactivateWalletFragment__deactivate">Desactiva\'ls</string>
   <string name="DeactivateWalletFragment__deactivate_without_transferring_question">Voleu desactivar els fons sense transferir-los?</string>
-  <string name="DeactivateWalletFragment__your_balance_will_remain">El saldo es mantindrà a la cartera enllaçada amb el Signal si decidiu reactivar els pagaments.</string>
+  <string name="DeactivateWalletFragment__your_balance_will_remain">El saldo es mantindrà a la cartera enllaçada amb el Grapherex si decidiu reactivar els pagaments.</string>
   <string name="DeactivateWalletFragment__error_deactivating_wallet">Error en desactivar la cartera</string>
   <!--PaymentsRecoveryStartFragment-->
   <string name="PaymentsRecoveryStartFragment__recovery_phrase">Frase de recuperació</string>
   <string name="PaymentsRecoveryStartFragment__view_recovery_phrase">Mostra la frase de recuperació</string>
   <string name="PaymentsRecoveryStartFragment__enter_recovery_phrase">Introduïu la frase de recuperació</string>
-  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">El saldo es restaurarà automàticament quan torneu a instal·lar el Signal si confirmeu el PIN del Signal. També podeu restaurar el saldo mitjançant una frase de recuperació, que és una frase de %1$d paraules exclusiva. Anoteu-la i guardeu-la en un lloc segur.</string>
+  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">El saldo es restaurarà automàticament quan torneu a instal·lar el Grapherex si confirmeu el PIN del Grapherex. També podeu restaurar el saldo mitjançant una frase de recuperació, que és una frase de %1$d paraules exclusiva. Anoteu-la i guardeu-la en un lloc segur.</string>
   <string name="PaymentsRecoveryStartFragment__your_recovery_phrase_is_a">La vostra frase de recuperació és una frase de %1$d paraules exclusiva. Useu aquesta frase per restablir el saldo.</string>
   <string name="PaymentsRecoveryStartFragment__start">Inicia</string>
   <string name="PaymentsRecoveryStartFragment__enter_manually">Introducció manual</string>

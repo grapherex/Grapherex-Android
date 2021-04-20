@@ -1238,7 +1238,7 @@
   <string name="RegistrationActivity_is_your_phone_number_above_correct">آیا شمارهٔ همراه شما در بالا صحیح است؟</string>
   <string name="RegistrationActivity_edit_number">ویرایش شماره</string>
   <string name="RegistrationActivity_missing_google_play_services">فاقد خدمات Google Play</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">این دستگاه فاقد خدمات Google Play است. شما می‌توانید به استفاده از سیگنال ادامه دهید، اما این پیکربندی می‌تواند باعث کاهش اطمینان‌پذیری یا عملکرد شود.\n\n اگر یک کاربر حرفه‌ای یا در حال اجرای یک ROM سفارشی اندروید نیستید یا فکر می‌کنید که این پیام به اشتباه به شما نشان داده شده است، برای دریافت کمک در فرآیند عیب‌یابی با support@signal.org تماس بگیرید.</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">این دستگاه فاقد خدمات Google Play است. شما می‌توانید به استفاده از سیگنال ادامه دهید، اما این پیکربندی می‌تواند باعث کاهش اطمینان‌پذیری یا عملکرد شود.\n\n اگر یک کاربر حرفه‌ای یا در حال اجرای یک ROM سفارشی اندروید نیستید یا فکر می‌کنید که این پیام به اشتباه به شما نشان داده شده است، برای دریافت کمک در فرآیند عیب‌یابی با support@Grapherex.org تماس بگیرید.</string>
   <string name="RegistrationActivity_i_understand">متوجهم</string>
   <string name="RegistrationActivity_play_services_error">خطای خدمات Play</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">خدمات Google Play در حال به‌روزرسانی است یا موقتاً در دسترس نیست. لطفاً دوباره تلاش کنید.</string>
@@ -1289,7 +1289,7 @@
   <string name="SharedContactView_add_to_contacts">افزودن به مخاطبین</string>
   <string name="SharedContactView_invite_to_signal">دعوت به سیگنال</string>
   <string name="SharedContactView_message">پیام سیگنال</string>
-  <!--SignalPinReminders-->
+  <!--GrapherexPinReminders-->
   <string name="SignalPinReminders_well_remind_you_again_later">بعداً دوباره به شما یادآوری خواهیم کرد.</string>
   <string name="SignalPinReminders_well_remind_you_again_tomorrow">فردا دوباره به شما یادآوری خواهیم کرد.</string>
   <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">طی چند روز، دوباره به شما یادآوری خواهیم کرد.</string>
@@ -1759,7 +1759,7 @@
   <!--recipients_panel-->
   <string name="recipients_panel__to"><small>یک نام یا شماره را وارد کنید</small></string>
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[ اگر مایل هستید تا امنیت رمزگذاری خود را با %s تأیید کنید، ارقام بالا را با ارقام روی دستگاه آن‌ها مقایسه کنید. در غیر این صورت، می‌توانید کد روی گوشی آن‌ها را اسکن کرده یا از آن‌ها بخواهید تا کد شما را اسکن کنند. <a href="https://signal.org/redirect/safety-numbers">بیشتر یاد بگیرید.</a>]]></string>
+  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[ اگر مایل هستید تا امنیت رمزگذاری خود را با %s تأیید کنید، ارقام بالا را با ارقام روی دستگاه آن‌ها مقایسه کنید. در غیر این صورت، می‌توانید کد روی گوشی آن‌ها را اسکن کرده یا از آن‌ها بخواهید تا کد شما را اسکن کنند. <a href="https://Grapherex.org/redirect/safety-numbers">بیشتر یاد بگیرید.</a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">برای اسکن کردن ضربه بزنید</string>
   <string name="verify_display_fragment__loading">در حال بارگذاری…</string>
   <string name="verify_display_fragment__verified">تأیید شده</string>
@@ -2339,7 +2339,7 @@
   <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>ما به حریم خصوصی باور داریم.</b></p><p>سیگنال شما را دنبال و اطلاعات شما را جمع‌آوری نمی‌کند. برای بهبود سیگنال برای همه، ما به بازخورد کاربران متکی هستیم، <b>و دوست داریم بازخورد شما را داشته باشیم.</b></p><p>ما در حال ترتیب یک نظرسنجی برای فهمیدن اینکه شما چگونه از سیگنال استفاده می‌کنید هستیم. نظرسنجی ما هیچ‌گونه اطلاعاتی را که موجب شناسایی شما بشود، جمع‌آوری نمی‌کند. اگر مایل به اشتراک بازخورد بیشتری هستید، گزینهٔ افزودن اطلاعات تماس خود را خواهید داشت.</p><p>اگر چند دقیقه فرصت و بازخوردی برای ارائه دارید، ما دوست داریم که از شما بشنویم.</p>]]></string>
   <string name="ResearchMegaphoneDialog_take_the_survey">شرکت در نظرسنجی</string>
   <string name="ResearchMegaphoneDialog_no_thanks">نه ممنون</string>
-  <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">این نظرسنجی بوسیلهٔ Alchemer در دامنهٔ امن surveys.signalusers.org ‌میزبانی می‌شود.</string>
+  <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">این نظرسنجی بوسیلهٔ Alchemer در دامنهٔ امن surveys.Grapherexusers.org ‌میزبانی می‌شود.</string>
   <!--transport_selection_list_item-->
   <string name="transport_selection_list_item__transport_icon">آیکون انتقال</string>
   <string name="ConversationListFragment_loading">در حال بارگذاری…</string>

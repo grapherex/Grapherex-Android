@@ -10,7 +10,7 @@
   <string name="AbstractNotificationBuilder_new_message">សារថ្មី</string>
   <!--AlbumThumbnailView-->
   <!--ApplicationMigrationActivity-->
-  <string name="ApplicationMigrationActivity__signal_is_updating">Signal កំពុងធ្វើបច្ចុប្បន្នភាព…</string>
+  <string name="ApplicationMigrationActivity__signal_is_updating">Grapherex កំពុងធ្វើបច្ចុប្បន្នភាព…</string>
   <!--ApplicationPreferencesActivity-->
   <string name="ApplicationPreferencesActivity_currently_s">ពេលនេះ %s</string>
   <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">អ្នកមិនទាន់បានកំណត់ឃ្លាសម្ងាត់ទេ!</string>
@@ -23,17 +23,17 @@
   </plurals> -->
   <!-- Removed by excludeNonTranslatables <string name="ApplicationPreferencesActivity_delete">លុប</string> -->
   <string name="ApplicationPreferencesActivity_disable_passphrase">បិទឃ្លាសម្ងាត់?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">វានឹងដោះសោរ Signal  និងសារជូនដំណឹងជាអចិន្ត្រៃយ៍។</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">វានឹងដោះសោរ Grapherex  និងសារជូនដំណឹងជាអចិន្ត្រៃយ៍។</string>
   <string name="ApplicationPreferencesActivity_disable">បិទចោល</string>
   <string name="ApplicationPreferencesActivity_unregistering">កំពុងលុបការចុះឈ្មោះ</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">កំពុងលុបការចុះឈ្មោះចេញពីសារ​ និងការហៅចេញរបស់Signal</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">បិទសារ​ និងការហៅចេញរបស់Signal?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">បិទសារ និងការហៅចេញរបស់Signal ដោយលុបការចុះឈ្មោះពីម៉ាស៊ីនមេ។ អ្នកនឹងតម្រូវឲ្យចុះឈ្មោះជាមួយលេខទូរសព្ទម្តងទៀត ដើម្បីប្រើប្រាស់ឡើងវិញនៅពេលអនាគត។</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">កំពុងលុបការចុះឈ្មោះចេញពីសារ​ និងការហៅចេញរបស់Grapherex</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">បិទសារ​ និងការហៅចេញរបស់Grapherex?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">បិទសារ និងការហៅចេញរបស់Grapherex ដោយលុបការចុះឈ្មោះពីម៉ាស៊ីនមេ។ អ្នកនឹងតម្រូវឲ្យចុះឈ្មោះជាមួយលេខទូរសព្ទម្តងទៀត ដើម្បីប្រើប្រាស់ឡើងវិញនៅពេលអនាគត។</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">បញ្ហាភ្ជាប់ទៅម៉ាស៊ីនមេ!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">បានបើកប្រើសារ</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">ចុច ដើម្បីប្តូរកម្មវិធីផ្ញើសាររបស់អ្នក</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">បិទការប្រើសារ SMS</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">ចុច ដើម្បីកំណត់Signal ជាកម្មវិធី​ផ្ញើសាររបស់អ្នក</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">ចុច ដើម្បីកំណត់Grapherex ជាកម្មវិធី​ផ្ញើសាររបស់អ្នក</string>
   <string name="ApplicationPreferencesActivity_on">បើក</string>
   <string name="ApplicationPreferencesActivity_On">បើក</string>
   <string name="ApplicationPreferencesActivity_off">បិទ</string>
@@ -63,14 +63,14 @@
   <string name="AttachmentKeyboard_file">ឯកសារ</string>
   <string name="AttachmentKeyboard_contact">ទំនាក់ទំនង</string>
   <string name="AttachmentKeyboard_location">ទីតាំង</string>
-  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Signal ត្រូវការការអនុញ្ញាតដើម្បីបង្ហាញរូបភាពនិងវីដេអូរបស់អ្នក។</string>
+  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Grapherex ត្រូវការការអនុញ្ញាតដើម្បីបង្ហាញរូបភាពនិងវីដេអូរបស់អ្នក។</string>
   <string name="AttachmentKeyboard_give_access">ផ្តល់ការអនុញ្ញាត</string>
   <!--AttachmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">មិនអាចស្វែងរកកម្មវិធីដើម្បីជ្រើសរើសព័ត៌មាន</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal ទាមទារសិទ្ធិប្រើប្រាស់អង្គរក្សាទុកដើម្បីភ្ជាប់រូបថត វីដេអូ ឬសំឡេង ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅការកំណត់របស់ប្រព័ន្ធ ជ្រើសរើស \"អនុញ្ញាត\" និងបើក \"អង្គរក្សាទុក\" ។</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Signal ទាមទារសិទ្ធិប្រើប្រាស់បញ្ជីទំនាក់ទំនងដើម្បីភ្ជាប់ព័ត៌មានបញ្ជីទំនាក់ទំនង ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅការកំណត់របស់ប្រព័ន្ធ ជ្រើសរើស \"អនុញ្ញាត\" និងបើក \"បញ្ជីទំនាក់ទំនង\" ។</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Signalត្រូវការសិទ្ធិប្រើប្រាស់ទីតាំងដើម្បីភ្ជាប់ទីតាំង ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅការកំណត់ជ្រើសរើស \"អនុញ្ញាត\" និងបើក \"ទីតាំង\" ។</string>
-  <!-- Removed by excludeNonTranslatables <string name="AttachmentManager_signal_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Signalត្រូវការសិទ្ធិប្រើប្រាស់កាមេរ៉ាដើម្បីថតរូប ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅការកំណត់ ជ្រើសរើស \"អនុញ្ញាត\" និងបើក \"កាមេរ៉ា\"។</string> -->
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Grapherex ទាមទារសិទ្ធិប្រើប្រាស់អង្គរក្សាទុកដើម្បីភ្ជាប់រូបថត វីដេអូ ឬសំឡេង ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅការកំណត់របស់ប្រព័ន្ធ ជ្រើសរើស \"អនុញ្ញាត\" និងបើក \"អង្គរក្សាទុក\" ។</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Grapherex ទាមទារសិទ្ធិប្រើប្រាស់បញ្ជីទំនាក់ទំនងដើម្បីភ្ជាប់ព័ត៌មានបញ្ជីទំនាក់ទំនង ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅការកំណត់របស់ប្រព័ន្ធ ជ្រើសរើស \"អនុញ្ញាត\" និងបើក \"បញ្ជីទំនាក់ទំនង\" ។</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Grapherexត្រូវការសិទ្ធិប្រើប្រាស់ទីតាំងដើម្បីភ្ជាប់ទីតាំង ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅការកំណត់ជ្រើសរើស \"អនុញ្ញាត\" និងបើក \"ទីតាំង\" ។</string>
+  <!-- Removed by excludeNonTranslatables <string name="AttachmentManager_Grapherex_requires_the_camera_permission_in_order_to_take_photos_but_it_has_been_permanently_denied">Grapherexត្រូវការសិទ្ធិប្រើប្រាស់កាមេរ៉ាដើម្បីថតរូប ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅការកំណត់ ជ្រើសរើស \"អនុញ្ញាត\" និងបើក \"កាមេរ៉ា\"។</string> -->
   <!--AttachmentUploadJob-->
   <string name="AttachmentUploadJob_uploading_media">កំពុងបញ្ជូនមេឌៀ…</string>
   <string name="AttachmentUploadJob_compressing_video_start">កំពុងពង្រួមវីដេអូ…</string>
@@ -119,26 +119,26 @@
   <string name="CameraXFragment_open_gallery_description">បើកវិចិត្រសាល</string>
   <!--CameraContacts-->
   <string name="CameraContacts_recent_contacts">បញ្ជីទំនាក់ទំនងថ្មីៗ</string>
-  <string name="CameraContacts_signal_contacts">បញ្ជីទំនាក់ទំនង Signal</string>
-  <string name="CameraContacts_signal_groups">ក្រុម Signal</string>
+  <string name="CameraContacts_signal_contacts">បញ្ជីទំនាក់ទំនង Grapherex</string>
+  <string name="CameraContacts_signal_groups">ក្រុម Grapherex</string>
   <string name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">អ្នកអាចចែករំលែកការសន្ទនាអតិបរមា %d ។</string>
-  <string name="CameraContacts_select_signal_recipients">ជ្រើសរើសអ្នកទទួល Signal</string>
-  <string name="CameraContacts_no_signal_contacts">គ្មានបញ្ជីទំនាក់ទំនង Signal</string>
-  <string name="CameraContacts_you_can_only_use_the_camera_button">អ្នកអាចប្រើប៊ូតុងកាមេរ៉ា ដើម្បីផ្ញើរូបភាពទៅបញ្ជីទំនាក់ទំនង Signal តែប៉ុណ្ណោះ។</string>
+  <string name="CameraContacts_select_signal_recipients">ជ្រើសរើសអ្នកទទួល Grapherex</string>
+  <string name="CameraContacts_no_signal_contacts">គ្មានបញ្ជីទំនាក់ទំនង Grapherex</string>
+  <string name="CameraContacts_you_can_only_use_the_camera_button">អ្នកអាចប្រើប៊ូតុងកាមេរ៉ា ដើម្បីផ្ញើរូបភាពទៅបញ្ជីទំនាក់ទំនង Grapherex តែប៉ុណ្ណោះ។</string>
   <string name="CameraContacts_cant_find_who_youre_looking_for">មិនអាចស្វែងរកមនុស្សដែលអ្នកកំពុងរក?</string>
-  <string name="CameraContacts_invite_a_contact_to_join_signal">អញ្ជើញអ្នកទំនាក់ទំនងមកចូលរួម Signal</string>
+  <string name="CameraContacts_invite_a_contact_to_join_signal">អញ្ជើញអ្នកទំនាក់ទំនងមកចូលរួម Grapherex</string>
   <string name="CameraContacts__menu_search">ស្វែងរក</string>
   <!--ClearProfileActivity-->
   <string name="ClearProfileActivity_remove">លុបចេញ</string>
   <string name="ClearProfileActivity_remove_profile_photo">លុបរូបថតប្រវត្តិរូប?</string>
   <string name="ClearProfileActivity_remove_group_photo">លុបរូបក្រុម?</string>
   <!--ClientDeprecatedActivity-->
-  <string name="ClientDeprecatedActivity_update_signal">ដំឡើង Signal</string>
+  <string name="ClientDeprecatedActivity_update_signal">ដំឡើង Grapherex</string>
   <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">កំណែកម្មវិធីនេះមិនត្រូវបានគាំទ្រទៀតទេ។ ដើម្បីបន្តការផ្ញើនិងទទួលសារធ្វើបច្ចុប្បន្នភាពទៅកំណែចុងក្រោយ។</string>
   <string name="ClientDeprecatedActivity_update">បច្ចុប្បន្នភាព</string>
   <string name="ClientDeprecatedActivity_dont_update">កុំធ្វើបច្ចុប្បន្នភាព</string>
   <string name="ClientDeprecatedActivity_warning">ព្រមាន</string>
-  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Signal របស់អ្នកបានផុតកំណត់ហើយ។ អ្នកអាចមើលប្រវត្តិសាររបស់អ្នកប៉ុន្តែអ្នកនឹងមិនអាចផ្ញើរឬទទួលសាររហូតដល់អ្នកធ្វើបច្ចុប្បន្នភាព។</string>
+  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Grapherex របស់អ្នកបានផុតកំណត់ហើយ។ អ្នកអាចមើលប្រវត្តិសាររបស់អ្នកប៉ុន្តែអ្នកនឹងមិនអាចផ្ញើរឬទទួលសាររហូតដល់អ្នកធ្វើបច្ចុប្បន្នភាព។</string>
   <!--CommunicationActions-->
   <string name="CommunicationActions_no_browser_found">ទំព័រវែបសាយរកមិនឃើញ.</string>
   <!-- Removed by excludeNonTranslatables <string name="CommunicationActions_no_email_app_found">អ៊ីម៉ែលរកមិនឃើញ។</string> -->
@@ -149,9 +149,9 @@
   <string name="CommunicationActions_cancel">បោះបង់</string>
   <string name="CommunicationActions_call">ហៅចេញ</string>
   <string name="CommunicationActions_insecure_call">ការហៅមិនមានសុវត្ថិភាព</string>
-  <string name="CommunicationActions_carrier_charges_may_apply">ការគិតថ្លៃក្រុមហ៊ុនទូរស័ព្ទអាចត្រូវបានអនុវត្ត។ លេខដែលអ្នកកំពុងហៅមិនត្រូវបានចុះឈ្មោះជាមួយ Signal ទេ។ ការហៅនេះ​ នឹងត្រូវបានធ្វើឡើងតាមរយៈក្រុមហ៊ុនទូរស័ព្ទចល័តរបស់អ្នក មិនមែននៅលើអ៊ីនធឺណិតទេ។</string>
+  <string name="CommunicationActions_carrier_charges_may_apply">ការគិតថ្លៃក្រុមហ៊ុនទូរស័ព្ទអាចត្រូវបានអនុវត្ត។ លេខដែលអ្នកកំពុងហៅមិនត្រូវបានចុះឈ្មោះជាមួយ Grapherex ទេ។ ការហៅនេះ​ នឹងត្រូវបានធ្វើឡើងតាមរយៈក្រុមហ៊ុនទូរស័ព្ទចល័តរបស់អ្នក មិនមែននៅលើអ៊ីនធឺណិតទេ។</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">លេខសុវត្ថិភាពរបស់អ្នក%1$s បានផ្លាស់ប្តូរ។ នេះមានន័យថា មាននរណាម្នាក់ព្យាយាមជ្រាតចូលការទំនាក់ទំនងរបស់អ្នក ឬក៏ %2$s ប្រើដំឡើង Signalឡើងវិញ។</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">លេខសុវត្ថិភាពរបស់អ្នក%1$s បានផ្លាស់ប្តូរ។ នេះមានន័យថា មាននរណាម្នាក់ព្យាយាមជ្រាតចូលការទំនាក់ទំនងរបស់អ្នក ឬក៏ %2$s ប្រើដំឡើង Grapherexឡើងវិញ។</string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">អ្នកគួតែផ្ទៀងផ្ទាត់លេខសុវត្ថិភាពរបស់អ្នកជាមួយលេខទំនាក់ទំនងនេះ។</string>
   <string name="ConfirmIdentityDialog_accept">យល់ព្រម</string>
   <!--ContactsCursorLoader-->
@@ -162,7 +162,7 @@
   <string name="ContactsCursorLoader_username_search">ស្វែងរកឈ្មោះអ្នកប្រើប្រាស់</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">សារ %s</string>
-  <string name="ContactsDatabase_signal_call_s">ការហៅចេញរបស់Signal  %s</string>
+  <string name="ContactsDatabase_signal_call_s">ការហៅចេញរបស់Grapherex  %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">នាមខ្លួន</string>
   <string name="ContactNameEditActivity_family_name">នាមត្រកូល</string>
@@ -184,7 +184,7 @@
   <string name="ConversationItem_click_to_approve_unencrypted">ផ្ញើបរាជ័យ ចុច សម្រាប់ជំនួសគ្មានសុវត្ថិភាព</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">ជំនួសទៅSMSគ្មានសុវត្ថិភាព?</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">ជំនួសទៅMMSគ្មានសុវត្ថិភាព?</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">សារនេះនឹង <b>មិនមែន</b> ត្រូវបានកាណាល់កូដសម្ងាត់ទេ ពីព្រោះអ្នកទទួលឈប់ប្រើ Signal។\n\nផ្ញើសារដែរគ្មានសុវត្ថិភាព?</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">សារនេះនឹង <b>មិនមែន</b> ត្រូវបានកាណាល់កូដសម្ងាត់ទេ ពីព្រោះអ្នកទទួលឈប់ប្រើ Grapherex។\n\nផ្ញើសារដែរគ្មានសុវត្ថិភាព?</string>
   <string name="ConversationItem_unable_to_open_media">មិនអាចស្វែករកកម្មវិធី ដើម្បីបើកព័ត៌មាននេះទេ។</string>
   <string name="ConversationItem_copied_text">បានចម្លង %s</string>
   <string name="ConversationItem_from_s">ពី %s</string>
@@ -212,8 +212,8 @@
   <string name="ConversationActivity_this_device_does_not_appear_to_support_dial_actions">ឧបករណ៍នេះមិនបង្ហាញដើម្បីគាំទ្រសកម្មភាពការហៅ។</string>
   <string name="ConversationActivity_transport_insecure_sms">សារ មិនមានសុវត្ថិភាព</string>
   <string name="ConversationActivity_transport_insecure_mms">MMS មិនមានសុវត្ថិភាព</string>
-  <string name="ConversationActivity_transport_signal"> Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">តោះដូរទៅកាន់ Signal %1$s</string>
+  <string name="ConversationActivity_transport_signal"> Grapherex</string>
+  <string name="ConversationActivity_lets_switch_to_signal">តោះដូរទៅកាន់ Grapherex %1$s</string>
   <string name="ConversationActivity_specify_recipient">សូមជ្រើសរើសលេខទំនាក់ទំនង១</string>
   <!-- Removed by excludeNonTranslatables <string name="ConversationActivity_unblock_this_contact_question">បើកលេខទំនាក់ទំនងនេះ?</string> -->
   <!-- Removed by excludeNonTranslatables <string name="ConversationActivity_unblock_this_group_question">បើកសោរក្រុមនេះ?</string> -->
@@ -224,17 +224,17 @@
   <!-- Removed by excludeNonTranslatables <string name="ConversationActivity_quick_camera_unavailable">កាមេរ៉ាមិនមាន</string> -->
   <string name="ConversationActivity_unable_to_record_audio">មិនអាចថតសំឡេងបាន!</string>
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">មិនមានកម្មវិធីដើម្បីបើកតំណនេះ នៅលើឧបករណ៍របស់អ្នកទេ។</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">ដើម្បីផ្ញើសារជាសំឡេង អនុញ្ញាតឱ្យ Signal ចូលទៅប្រើប្រាស់មីក្រូហ្វូនរបស់អ្នក។</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal សុំសិទ្ធិប្រើប្រាស់ម៉ៃក្រូហ្វូន ដើម្បីផ្ញើសារជាសំឡេង, ប៉ុន្តែ វាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅកាន់ ការកំណត់កម្មវិធី, ជ្រើសរើស  \"ការអនុញ្ញាត\", និងបើក \"ប្រដាប់ស្រូបសំឡេង\"។</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signalត្រូវការសិទ្ធិប្រើប្រាស់ម៉ៃក្រូហ្វូន និងកាមេរ៉ាដើម្បីហៅទៅកាន់ %s, ប៉ុន្តែពួកវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅការកំណត់ជ្រើសរើស \"អនុញ្ញាត\" ហើយបើក \"ម៉ៃក្រូហ្វូន\" និង \"កាមេរ៉ា\"។</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">ដើម្បីថតរូបភាព និងវីដេអូ, សូមអនុញ្ញាត Signal ចូលប្រើប្រាស់កាមេរ៉ា។</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signalត្រូវការសិទ្ធិប្រើប្រាស់កាមេរ៉ាដើម្បីថតរូប ឬវីដេអូ ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅការកំណត់ជ្រើសរើស \"អនុញ្ញាត\" ហើយបើក \"កាមេរ៉ា\"។</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signal​ សុំសិទ្ធិប្រើប្រាស់កាមេរ៉ា ដើម្បីថតរូបភាព ឬវីដេអូ</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">ដើម្បីផ្ញើសារជាសំឡេង អនុញ្ញាតឱ្យ Grapherex ចូលទៅប្រើប្រាស់មីក្រូហ្វូនរបស់អ្នក។</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Grapherex សុំសិទ្ធិប្រើប្រាស់ម៉ៃក្រូហ្វូន ដើម្បីផ្ញើសារជាសំឡេង, ប៉ុន្តែ វាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅកាន់ ការកំណត់កម្មវិធី, ជ្រើសរើស  \"ការអនុញ្ញាត\", និងបើក \"ប្រដាប់ស្រូបសំឡេង\"។</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Grapherexត្រូវការសិទ្ធិប្រើប្រាស់ម៉ៃក្រូហ្វូន និងកាមេរ៉ាដើម្បីហៅទៅកាន់ %s, ប៉ុន្តែពួកវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅការកំណត់ជ្រើសរើស \"អនុញ្ញាត\" ហើយបើក \"ម៉ៃក្រូហ្វូន\" និង \"កាមេរ៉ា\"។</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">ដើម្បីថតរូបភាព និងវីដេអូ, សូមអនុញ្ញាត Grapherex ចូលប្រើប្រាស់កាមេរ៉ា។</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Grapherexត្រូវការសិទ្ធិប្រើប្រាស់កាមេរ៉ាដើម្បីថតរូប ឬវីដេអូ ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅការកំណត់ជ្រើសរើស \"អនុញ្ញាត\" ហើយបើក \"កាមេរ៉ា\"។</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Grapherex​ សុំសិទ្ធិប្រើប្រាស់កាមេរ៉ា ដើម្បីថតរូបភាព ឬវីដេអូ</string>
   <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">បើកការអនុញ្ញាតមីក្រូហ្វូន ដើម្បីចាប់យកវីដេអូជាមួយសំឡេង។</string>
-  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Signal ត្រូវការការអនុញ្ញាតមីក្រូហ្វូន ដើម្បីថតវីដេអូ តែវាត្រូវបានបដិសេធ។ សូមបន្តក្នុងការកំណត់កម្មវិធី ជ្រើសរើស \"ការអនុញ្ញាត\" និងបើក \"មីក្រូហ្វូន\" និង \"កាមេរ៉ា\"។</string>
-  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Signal ត្រូវការការអនុញ្ញាត ដើម្បីថតវីដេអូ។</string>
+  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Grapherex ត្រូវការការអនុញ្ញាតមីក្រូហ្វូន ដើម្បីថតវីដេអូ តែវាត្រូវបានបដិសេធ។ សូមបន្តក្នុងការកំណត់កម្មវិធី ជ្រើសរើស \"ការអនុញ្ញាត\" និងបើក \"មីក្រូហ្វូន\" និង \"កាមេរ៉ា\"។</string>
+  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Grapherex ត្រូវការការអនុញ្ញាត ដើម្បីថតវីដេអូ។</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
-  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Signal មិនអាចផ្ញើសារ SMS/MMS ពីព្រោះវាមិនមែនកម្មវិធីសារ SMS លំនាំដើម។ តើអ្នកចង់ផ្លាស់ប្តូរវា ក្នុងកម្មវិធីកំណត់របស់ Android​ អ្នកទេ?</string>
+  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Grapherex មិនអាចផ្ញើសារ SMS/MMS ពីព្រោះវាមិនមែនកម្មវិធីសារ SMS លំនាំដើម។ តើអ្នកចង់ផ្លាស់ប្តូរវា ក្នុងកម្មវិធីកំណត់របស់ Android​ អ្នកទេ?</string>
   <string name="ConversationActivity_yes">មែន</string>
   <string name="ConversationActivity_no">ទេ</string>
   <string name="ConversationActivity_search_position">%1$d នៃ%2$d</string>
@@ -248,8 +248,8 @@
   <string name="ConversationActivity_you_will_leave_this_group_and_it_will_be_deleted_from_all_of_your_devices">អ្នកនឹងចាកចេញពីក្រុមនេះ និងលុបចេញពីឧបករណ៍របស់អ្នកទាំងអស់។</string>
   <string name="ConversationActivity_delete">លុប</string>
   <string name="ConversationActivity_delete_and_leave">លុប និងចាកចេញ</string>
-  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">ដើម្បីហៅទៅ %1$s, Signal ត្រូវការចូលប្រើប្រាស់ម៉ៃក្រូហ្វូនរបស់អ្នក។</string>
-  <!-- Removed by excludeNonTranslatables <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone_and_camera">ដើម្បីហៅចេញ %1$s, Signal ត្រូវការចូលប្រើប្រាស់ម៉ៃក្រូហ្វូន និងកាមេរ៉ារបស់អ្នក។</string> -->
+  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">ដើម្បីហៅទៅ %1$s, Grapherex ត្រូវការចូលប្រើប្រាស់ម៉ៃក្រូហ្វូនរបស់អ្នក។</string>
+  <!-- Removed by excludeNonTranslatables <string name="ConversationActivity__to_call_s_Grapherex_needs_access_to_your_microphone_and_camera">ដើម្បីហៅចេញ %1$s, Grapherex ត្រូវការចូលប្រើប្រាស់ម៉ៃក្រូហ្វូន និងកាមេរ៉ារបស់អ្នក។</string> -->
   <string name="ConversationActivity__more_options_now_in_group_settings">ឥឡូវមានជម្រើសបន្ថែមក្នុង \"ការកំណត់ក្រុម\"</string>
   <string name="ConversationActivity_join">ចូលរួម</string>
   <string name="ConversationActivity_full">ពេញ</string>
@@ -279,7 +279,7 @@
     <item quantity="other">កំពុងរក្សា %1$d ឯកសារភ្ជាប់ទៅកាន់ថាសផ្ទុក…</item>
   </plurals>
   <string name="ConversationFragment_pending">មិនទាន់សម្រេច…</string>
-  <string name="ConversationFragment_push">ទិន្នន័យ (Signal)</string>
+  <string name="ConversationFragment_push">ទិន្នន័យ (Grapherex)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">កំពុងលុប</string>
@@ -347,7 +347,7 @@
   <string name="BackupsPreferenceFragment__turn_on">បើក</string>
   <string name="BackupsPreferenceFragment__turn_off">បិទ</string>
   <string name="BackupsPreferenceFragment__learn_more">សិក្សាបន្ថែម</string>
-  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Signalត្រូវការសិទ្ធិប្រើប្រាស់អង្គរក្សាទុកខាងក្រៅដើម្បីបង្កើតការស្តារឡើងវិញ ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅកាន់ ការកំណត់ ជ្រើសរើស \"ការអនុញ្ញាត\" និងបើក \"អង្គរក្សាទុក\"។ </string>
+  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Grapherexត្រូវការសិទ្ធិប្រើប្រាស់អង្គរក្សាទុកខាងក្រៅដើម្បីបង្កើតការស្តារឡើងវិញ ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅកាន់ ការកំណត់ ជ្រើសរើស \"ការអនុញ្ញាត\" និងបើក \"អង្គរក្សាទុក\"។ </string>
   <!--CustomDefaultPreference-->
   <string name="CustomDefaultPreference_using_custom">ប្រើផ្សេងៗ៖ %s</string>
   <string name="CustomDefaultPreference_using_default">ប្រើលំនាំដើម៖ %s</string>
@@ -387,7 +387,7 @@
   <!--GroupCallingMegaphone-->
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">បង្កើនប្រសិទ្ធភាពសម្រាប់ការបាត់ Play Services</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">ឧបករណ៍នេះ មិនគាំទ្រ Play Services។ ចុច ដើម្បីបិទការបង្កើនប្រសិទ្ធិភាពប្រព័ន្ធថ្ម ដែលរារាំង Signal ពីទាញយកសារនានា នៅពេលឧបករណ៍ទុកចោល។</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">ឧបករណ៍នេះ មិនគាំទ្រ Play Services។ ចុច ដើម្បីបិទការបង្កើនប្រសិទ្ធិភាពប្រព័ន្ធថ្ម ដែលរារាំង Grapherex ពីទាញយកសារនានា នៅពេលឧបករណ៍ទុកចោល។</string>
   <!--ExpiredBuildReminder-->
   <!--PendingGroupJoinRequestsReminder-->
   <string name="PendingGroupJoinRequestsReminder_view">បង្ហាញ</string>
@@ -397,8 +397,8 @@
   <!--GcmBroadcastReceiver-->
   <!-- Removed by excludeNonTranslatables <string name="GcmBroadcastReceiver_retrieving_a_message">សារកំពុងទៅដល់…</string> -->
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">ការបរាជ័យក្នុងការទំនាក់ទំនង Signal អចិន្រ្តៃយ៍!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal មិនអាចចុះឈ្មោះជាមួយ Google Play Services។ ការផ្ញើសារ​ និងការហៅចេញSignal ត្រូវបានបិទ សូមព្យាយាមចុះឈ្មោះសារជាថ្មីក្នុង ការកំណត់ &gt; កម្រិតខ្ពស់។</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">ការបរាជ័យក្នុងការទំនាក់ទំនង Grapherex អចិន្រ្តៃយ៍!</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Grapherex មិនអាចចុះឈ្មោះជាមួយ Google Play Services។ ការផ្ញើសារ​ និងការហៅចេញGrapherex ត្រូវបានបិទ សូមព្យាយាមចុះឈ្មោះសារជាថ្មីក្នុង ការកំណត់ &gt; កម្រិតខ្ពស់។</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">មានបញ្ហានៅពេលទាញយករូបភាព GIF ពេញខ្នាត</string>
   <!--GiphyFragmentPageAdapter-->
@@ -497,7 +497,7 @@
   <!-- Removed by excludeNonTranslatables <string name="AddGroupDetailsFragment__groups_require_at_least_two_members">ក្រុមទាមទារយ៉ាងតិចមានសមាជិក២នាក់។</string> -->
   <string name="AddGroupDetailsFragment__group_creation_failed">ការបង្កើតក្រុមបរាជ័យ។</string>
   <string name="AddGroupDetailsFragment__try_again_later">ព្យាយាមម្តងទៀតពេលក្រោយ។</string>
-  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">អ្នកបានជ្រើសរើសបញ្ជីទំនាក់ទំនងដែលមិនគាំទ្រក្រុម Signal ដូចនេះក្រុមនេះ នឹងជា MMS។</string>
+  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">អ្នកបានជ្រើសរើសបញ្ជីទំនាក់ទំនងដែលមិនគាំទ្រក្រុម Grapherex ដូចនេះក្រុមនេះ នឹងជា MMS។</string>
   <string name="AddGroupDetailsFragment__remove">លុបចេញ</string>
   <string name="AddGroupDetailsFragment__sms_contact">បញ្ជីទំនាក់ទំនង SMS</string>
   <string name="AddGroupDetailsFragment__remove_s_from_this_group">លុប%1$s ចេញពីក្រុមនេះ?</string>
@@ -529,7 +529,7 @@
     <item quantity="other">បានបន្ថែមសមាជិក %d នាក់។</item>
   </plurals>
   <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">អ្នកមិនមានសិទ្ធិធ្វើដូចនេះទេ</string>
-  <string name="ManageGroupActivity_not_capable">សមាជិកដែលអ្នកដាក់បញ្ចូលមិនគាំទ្រក្រុមថ្មី និងត្រូវធ្វើបច្ចុប្បន្នភាព Signal</string>
+  <string name="ManageGroupActivity_not_capable">សមាជិកដែលអ្នកដាក់បញ្ចូលមិនគាំទ្រក្រុមថ្មី និងត្រូវធ្វើបច្ចុប្បន្នភាព Grapherex</string>
   <string name="ManageGroupActivity_failed_to_update_the_group">បរាជ័យក្នុងការធ្វើបច្ចុប្បន្នភាពក្រុម</string>
   <string name="ManageGroupActivity_youre_not_a_member_of_the_group">អ្នកមិនមែនជាសមាជិកនៃក្រុម</string>
   <string name="ManageGroupActivity_failed_to_update_the_group_please_retry_later">បរាជ័យក្នុងការធ្វើបច្ចុប្បន្នភាពក្រុម សូមព្យាយាមម្តងទៀត</string>
@@ -588,7 +588,7 @@
   <string name="GroupJoinBottomSheetDialogFragment_encountered_a_network_error">បានជួបប្រទះកំហុសបណ្តាញ។</string>
   <string name="GroupJoinBottomSheetDialogFragment_this_group_link_is_not_active">តំណក្រុមនេះមិនសកម្មទេ</string>
   <!--GroupJoinUpdateRequiredBottomSheetDialogFragment-->
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">ដំឡើង Signal</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">ដំឡើង Grapherex</string>
   <!--GroupInviteLinkEnableAndShareBottomSheetDialogFragment-->
   <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_invite_friends">អញ្ជើញមិត្តភក្តិ</string>
   <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_encountered_a_network_error">បានជួបប្រទះកំហុសបណ្តាញ។</string>
@@ -613,14 +613,14 @@
   <string name="InviteActivity_sending">កំពុងផ្ញើ…</string>
   <!-- Removed by excludeNonTranslatables <string name="InviteActivity_heart_content_description">បេះដូង</string> -->
   <string name="InviteActivity_invitations_sent">លិខិតអញ្ជើញបានផ្ញើ!</string>
-  <string name="InviteActivity_invite_to_signal">អញ្ជើញចូលប្រើSignal</string>
+  <string name="InviteActivity_invite_to_signal">អញ្ជើញចូលប្រើGrapherex</string>
   <plurals name="InviteActivity_send_sms_to_friends">
     <item quantity="other">ផ្ញើ SMS ទៅកាន់មិត្តភក្តិ​ %d</item>
   </plurals>
   <plurals name="InviteActivity_send_sms_invites">
     <item quantity="other">ផ្ញើសារ SMS អញ្ជើញ %d ?</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">តោះដូរទៅប្រើSignal ៖ %1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">តោះដូរទៅប្រើGrapherex ៖ %1$s</string>
   <string name="InviteActivity_no_app_to_share_to">វាហាក់ដូចជាមិនមានកម្មវិធីណាមួយដើម្បីចែករំលែក។</string>
   <string name="InviteActivity_friends_dont_let_friends_text_unencrypted">មិត្តភក្តិមិនអោយមិត្តភក្តិជជែកដោយមិនកាណាល់កូដសម្ងាត់។</string>
   <!--Job-->
@@ -632,7 +632,7 @@
   <string name="LongMessageActivity_message_from_s">សារពី %1$s</string>
   <string name="LongMessageActivity_your_message">សាររបស់អ្នក</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal"> Signal</string>
+  <string name="MessageRetrievalService_signal"> Grapherex</string>
   <string name="MessageRetrievalService_background_connection_enabled">បានបើកការតភ្ជាប់ពីក្រោយ</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">មានបញ្ហាអាននៅក្នុងការកំណត់របស់ក្រុមហ៊ុន​ MMS</string>
@@ -677,16 +677,16 @@
   <string name="Megaphones_introducing_reactions">ការណែនាំ ប្រតិកម្ម</string>
   <string name="Megaphones_tap_and_hold_any_message_to_quicky_share_how_you_feel">ចុច និងសង្កត់សារណាមួយដើម្បីចែករំលែករហ័សពីអារម្មណ៍របស់អ្នក។</string>
   <string name="Megaphones_remind_me_later">រំលឹកខ្ញុំពេលក្រោយ</string>
-  <string name="Megaphones_verify_your_signal_pin">ផ្ទៀងផ្ទាត់លេខPIN Signal</string>
+  <string name="Megaphones_verify_your_signal_pin">ផ្ទៀងផ្ទាត់លេខPIN Grapherex</string>
   <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">យើងនឹងសាកសួរអ្នកម្តងម្កាល ដើម្បីផ្ទៀងផ្ទាត់លេខកូដ PIN ថាអ្នកពិតជាចងចាំវា។</string>
   <string name="Megaphones_verify_pin">ផ្ទៀងផ្ទាត់លេខ PIN</string>
   <string name="Megaphones_get_started">ចាប់ផ្តើម</string>
   <string name="Megaphones_new_group">ក្រុមថ្មី</string>
   <string name="Megaphones_invite_friends">អញ្ជើញមិត្តភក្តិ</string>
   <!--NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">ការហៅចេញSignal កំពុងដំណើរការ</string>
-  <string name="NotificationBarManager__establishing_signal_call">ការហៅចេញ តាមSignal</string>
-  <string name="NotificationBarManager__incoming_signal_call">ការហៅចូលតាម Signal </string>
+  <string name="NotificationBarManager_signal_call_in_progress">ការហៅចេញGrapherex កំពុងដំណើរការ</string>
+  <string name="NotificationBarManager__establishing_signal_call">ការហៅចេញ តាមGrapherex</string>
+  <string name="NotificationBarManager__incoming_signal_call">ការហៅចូលតាម Grapherex </string>
   <string name="NotificationBarManager__deny_call">បដិសេធការហៅ</string>
   <string name="NotificationBarManager__answer_call">ទទួលការហៅ</string>
   <string name="NotificationBarManager__end_call">បិទការហៅ</string>
@@ -707,8 +707,8 @@
   <string name="MediaSendActivity_message_to_s">សារទៅកាន់ %s</string>
   <string name="MediaSendActivity_message">សារ</string>
   <string name="MediaSendActivity_select_recipients">ជ្រើសរើសអ្នកទទួល</string>
-  <string name="MediaSendActivity_signal_needs_access_to_your_contacts"> Signal ត្រូវការចូលប្រើប្រាស់បញ្ជីទំនាក់ទំនងរបស់អ្នក ដើម្បីបង្ហាញវា។ </string>
-  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Signal ត្រូវការការអនុញ្ញាតចូលប្រើប្រាស់ បញ្ជីទំនាក់ទំនង ដើម្បីបង្ហាញបញ្ជីទំនាក់ទំនងរបស់អ្នក ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តនៅក្នុង ការកំណត់កម្មវិធី ជ្រើសរើស  \"ការអនុញ្ញាត\" និងបើក  \"បញ្ជីទំនាក់ទំនង\"។</string>
+  <string name="MediaSendActivity_signal_needs_access_to_your_contacts"> Grapherex ត្រូវការចូលប្រើប្រាស់បញ្ជីទំនាក់ទំនងរបស់អ្នក ដើម្បីបង្ហាញវា។ </string>
+  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Grapherex ត្រូវការការអនុញ្ញាតចូលប្រើប្រាស់ បញ្ជីទំនាក់ទំនង ដើម្បីបង្ហាញបញ្ជីទំនាក់ទំនងរបស់អ្នក ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តនៅក្នុង ការកំណត់កម្មវិធី ជ្រើសរើស  \"ការអនុញ្ញាត\" និងបើក  \"បញ្ជីទំនាក់ទំនង\"។</string>
   <plurals name="MediaSendActivity_cant_share_more_than_n_items">
     <item quantity="other">អ្នកមិនអាចចែករំលែកចំនួនលើសពី %d ។</item>
   </plurals>
@@ -719,12 +719,12 @@
   <string name="MediaRepository__camera">កាមេរ៉ា</string>
   <!--MessageRecord-->
   <string name="MessageRecord_unknown">មិនស្គាល់</string>
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">ទទួលបានសារដែលមានកាណាល់កូដសម្ងាត់ តែជាជំនាន់ចាស់របស់Signal ដែលគេលែងប្រើហើយ។ សូមប្រាប់អ្នកផ្ញើ ឲ្យធ្វើបច្ចុប្បន្នភាពទៅជំនាន់ចុងក្រោយបង្អស់ និងផ្ញើសារម្តងទៀត។</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">ទទួលបានសារដែលមានកាណាល់កូដសម្ងាត់ តែជាជំនាន់ចាស់របស់Grapherex ដែលគេលែងប្រើហើយ។ សូមប្រាប់អ្នកផ្ញើ ឲ្យធ្វើបច្ចុប្បន្នភាពទៅជំនាន់ចុងក្រោយបង្អស់ និងផ្ញើសារម្តងទៀត។</string>
   <string name="MessageRecord_left_group">អ្នកបានចាកចេញពីក្រុម។</string>
   <string name="MessageRecord_you_updated_group">អ្នកបានធ្វើបច្ចុប្បន្នភាពក្រុម។</string>
   <string name="MessageRecord_s_updated_group">%s បានធ្វើបច្ចុប្បន្នភាពក្រុម។</string>
   <!-- Removed by excludeNonTranslatables <string name="MessageRecord_called_s">ហៅទៅកាន់ %s</string> -->
-  <string name="MessageRecord_s_joined_signal">%s ប្រើSignal!</string>
+  <string name="MessageRecord_s_joined_signal">%s ប្រើGrapherex!</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">អ្នកបានបិទសារបាត់ទៅវិញ។</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$s បានបិទសារបាត់ទៅវិញ។</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">អ្នកបានកំណត់រយៈពេលសារបាត់ទៅវិញជា %1$s។</string>
@@ -838,9 +838,9 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">កូដQRមិនត្រឹមត្រូវ។</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">សុំទោស អ្នកបានភ្ជាប់ចំនួនឧបករណ៍ច្រើនពេក សូមលុបចោលខ្លះ</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">សុំទោស តំណកូដQR ភ្ជាប់ទៅកាន់ឧបករណ៍ មិនត្រឹមត្រូវ។</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">ភ្ជាប់ឧបករណ៍ Signal ១?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">អ្នកហាក់ដូចជាព្យាយាមភ្ជាប់ឧបករណ៍Signal ដោយប្រើកម្មវិធីស្កែនជនទី3។ ដើម្បីការពារសុវត្ថិភាពរបស់អ្នក សូមស្កែនកូដម្តងទៀត នៅក្នុងកម្មវិធីSignal ។</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Signalត្រូវការសិទ្ធិប្រើប្រាស់កាមេរ៉ាដើម្បីស្កេនកូដ QR ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅកាន់ ការកំណត់ជ្រើសរើស \"ការអនុញ្ញាត\" និងបើក \"កាមេរ៉ា\"។</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">ភ្ជាប់ឧបករណ៍ Grapherex ១?</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">អ្នកហាក់ដូចជាព្យាយាមភ្ជាប់ឧបករណ៍Grapherex ដោយប្រើកម្មវិធីស្កែនជនទី3។ ដើម្បីការពារសុវត្ថិភាពរបស់អ្នក សូមស្កែនកូដម្តងទៀត នៅក្នុងកម្មវិធីGrapherex ។</string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Grapherexត្រូវការសិទ្ធិប្រើប្រាស់កាមេរ៉ាដើម្បីស្កេនកូដ QR ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅកាន់ ការកំណត់ជ្រើសរើស \"ការអនុញ្ញាត\" និងបើក \"កាមេរ៉ា\"។</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">មិនអាចស្កេនកូដ QR ដោយគ្មានការអនុញ្ញាតសិទ្ធិប្រើប្រាស់កាមេរ៉ា</string>
   <!--ExpirationDialog-->
   <string name="ExpirationDialog_disappearing_messages">សារដែលមិនបង្ហាញ</string>
@@ -849,10 +849,10 @@
   <!--OutdatedBuildReminder-->
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">បញ្ចូលឃ្លាសម្ងាត់</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">រូប Signal </string>
+  <string name="PassphrasePromptActivity_watermark_content_description">រូប Grapherex </string>
   <string name="PassphrasePromptActivity_ok_button_content_description">បញ្ជូនឃ្លាសម្ងាត់</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">ឃ្លាសម្ងាត់មិនត្រឹមត្រូវ!</string>
-  <string name="PassphrasePromptActivity_unlock_signal">ដោះសោរSignal</string>
+  <string name="PassphrasePromptActivity_unlock_signal">ដោះសោរGrapherex</string>
   <!--PlacePickerActivity-->
   <string name="PlacePickerActivity_title">ផែនទី</string>
   <!-- Removed by excludeNonTranslatables <string name="PlacePickerActivity_not_a_valid_address">អសយដ្ឋានមិនត្រឹមត្រូវ</string> -->
@@ -873,12 +873,12 @@
   <plurals name="PinRestoreEntryFragment_you_have_d_attempt_remaining">
     <item quantity="other">អ្នកនៅមានការព្យាយាម %1$d ដង។ បើការព្យាយាមអស់ អ្នកអាចបង្កើតលេខកូដ PIN ថ្មី។  អ្នកអាចចុះឈ្មោះ និងប្រើប្រាស់គណនីរបស់អ្នក តែអ្នកនឹងត្រូវបាត់បង់ការកំណត់ដែលបានរក្សាទុក ដូចជាព័ត៌មានប្រវត្តិរូបរបស់អ្នក។ </item>
   </plurals>
-  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">ការចុះឈ្មោះ Signal - ត្រូវការជំនួយជាមួយ PIN សម្រាប់ Android</string>
+  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">ការចុះឈ្មោះ Grapherex - ត្រូវការជំនួយជាមួយ PIN សម្រាប់ Android</string>
   <string name="PinRestoreEntryFragment_enter_alphanumeric_pin">បញ្ចូលលេខ PIN អក្សរក្រមលេខ</string>
   <string name="PinRestoreEntryFragment_enter_numeric_pin">បញ្ចូលលេខកូដ PIN</string>
   <!--PinRestoreLockedFragment-->
   <string name="PinRestoreLockedFragment_create_your_pin">បង្កើតលេខ PIN របស់អ្នក</string>
-  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">អ្នកបានប្រើការទាយលេខ PIN អស់ហើយ តែអ្នកនៅតែអាចចូលប្រើប្រាស់គណនី Signal ដោយបង្កើតលេខកូដ PIN ថ្មី។ សម្រាប់ឯកជនភាព និងសុវត្ថិភាពគណនីរបស់អ្នក នឹងត្រូវស្តារឡើងវិញ ដោយមិនមានការរក្សាទុកព័ត៌មានប្រវត្តិរូប និងការកំណត់ឡើយ។</string>
+  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">អ្នកបានប្រើការទាយលេខ PIN អស់ហើយ តែអ្នកនៅតែអាចចូលប្រើប្រាស់គណនី Grapherex ដោយបង្កើតលេខកូដ PIN ថ្មី។ សម្រាប់ឯកជនភាព និងសុវត្ថិភាពគណនីរបស់អ្នក នឹងត្រូវស្តារឡើងវិញ ដោយមិនមានការរក្សាទុកព័ត៌មានប្រវត្តិរូប និងការកំណត់ឡើយ។</string>
   <string name="PinRestoreLockedFragment_create_new_pin">បង្កើតលេខ PIN ថ្មី</string>
   <!--PinOptOutDialog-->
   <string name="PinOptOutDialog_warning">ព្រមាន</string>
@@ -915,12 +915,12 @@
   <string name="RedPhone_got_it">ទទួលបាន</string>
   <!--WebRtcCallActivity-->
   <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">ចុច​ នៅទីនេះ ដើម្បីបើកវីដេអូរបស់អ្នក</string>
-  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">ដើម្បីហៅទៅ%1$s, Signal ត្រូវការចូលប្រើប្រាស់កាមេរ៉ារបស់អ្នក</string>
-  <string name="WebRtcCallActivity__signal_s">Signal %1$s</string>
+  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">ដើម្បីហៅទៅ%1$s, Grapherex ត្រូវការចូលប្រើប្រាស់កាមេរ៉ារបស់អ្នក</string>
+  <string name="WebRtcCallActivity__signal_s">Grapherex %1$s</string>
   <string name="WebRtcCallActivity__calling">កំពុងហៅ…</string>
   <!--WebRtcCallView-->
-  <string name="WebRtcCallView__signal_voice_call">Signal ហៅជាសំឡេង…</string>
-  <string name="WebRtcCallView__signal_video_call">Signal ហៅជាវីដេអូ…</string>
+  <string name="WebRtcCallView__signal_voice_call">Grapherex ហៅជាសំឡេង…</string>
+  <string name="WebRtcCallView__signal_video_call">Grapherex ហៅជាវីដេអូ…</string>
   <!-- Removed by excludeNonTranslatables <string name="WebRtcCallView__connecting">កំពុងតភ្ជាប់…</string> -->
   <string name="WebRtcCallView__reconnecting">កំពុងតភ្ជាប់ម្តងទៀត…</string>
   <string name="WebRtcCallView__disconnected">បានផ្តាច់ការភ្ចាប់</string>
@@ -941,7 +941,7 @@
   <string name="RegistrationActivity_is_your_phone_number_above_correct">តើលេខរបស់អ្នកខាងលើត្រឹមត្រូវទេ?</string>
   <string name="RegistrationActivity_edit_number">កែប្រែលេខ</string>
   <string name="RegistrationActivity_missing_google_play_services">រកមិនឃើញ Google Play Services</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">ឧបករណ៍នេះមិនមាន Google Play Services។ អ្នកនៅតែអាចប្រើប្រាស់Signalបាន ប៉ុន្តែលទ្ធផលការកំណត់នេះអាចកាត់បន្ថយទំនុកចិត្ត ឬល្បឿន។ \n\n បើអ្នកមិនមែនជាអ្នកប្រើប្រាស់កម្រិតខ្ពស់ទេ មិនប្រើប្រាស់ Android ROM ផ្សេង ឬជឿជាក់ថាអ្នកកំពុងឃើញបញ្ហានេះ សូមទំនាក់ទំនង support@signal.org សម្រាប់ជួយក្នុងការដោះស្រាយបញ្ហា។</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">ឧបករណ៍នេះមិនមាន Google Play Services។ អ្នកនៅតែអាចប្រើប្រាស់Grapherexបាន ប៉ុន្តែលទ្ធផលការកំណត់នេះអាចកាត់បន្ថយទំនុកចិត្ត ឬល្បឿន។ \n\n បើអ្នកមិនមែនជាអ្នកប្រើប្រាស់កម្រិតខ្ពស់ទេ មិនប្រើប្រាស់ Android ROM ផ្សេង ឬជឿជាក់ថាអ្នកកំពុងឃើញបញ្ហានេះ សូមទំនាក់ទំនង support@Grapherex.org សម្រាប់ជួយក្នុងការដោះស្រាយបញ្ហា។</string>
   <string name="RegistrationActivity_i_understand">ខ្ញុំយល់</string>
   <string name="RegistrationActivity_play_services_error">Play Services មានបញ្ហាា</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play Services កំពុងធ្វើបច្ចុប្បន្នភាព ឬមិនអាចប្រើបានជាបណ្តោះអាសន្ន។ សូមព្យាយាមម្តងទៀត។</string>
@@ -949,11 +949,11 @@
   <!-- Removed by excludeNonTranslatables <string name="RegistrationActivity_no_browser">មិនអាចបើកតំណបាន។ រកមិនឃើញកម្មវិធីរុករក។</string> -->
   <!-- Removed by excludeNonTranslatables <string name="RegistrationActivity_more_information">ព័ត៌មានបន្ថែម</string> -->
   <!-- Removed by excludeNonTranslatables <string name="RegistrationActivity_less_information">ខ្វះព័ត៌មាន</string> -->
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signal ត្រូវការចូលប្រើប្រាស់បញ្ជីទំនាក់ទំនង និងព័ត៌មានរបស់អ្នក ដើម្បីភ្ជាប់ទៅកាន់មិត្តភក្តិ ឆ្លើយឆ្លងសារ និងហៅទូរសព្ទដោយសុវត្ថិភាព</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Signal ត្រូវការចូលប្រើប្រាស់បញ្ជីទំនាក់ទំនងរបស់អ្នក ដើម្បីតភ្ជាប់ជាមួយមិត្តភក្តិ ផ្លាស់ប្តូរសារ និងធ្វើការហៅដោយសុវត្ថិភាព</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Grapherex ត្រូវការចូលប្រើប្រាស់បញ្ជីទំនាក់ទំនង និងព័ត៌មានរបស់អ្នក ដើម្បីភ្ជាប់ទៅកាន់មិត្តភក្តិ ឆ្លើយឆ្លងសារ និងហៅទូរសព្ទដោយសុវត្ថិភាព</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Grapherex ត្រូវការចូលប្រើប្រាស់បញ្ជីទំនាក់ទំនងរបស់អ្នក ដើម្បីតភ្ជាប់ជាមួយមិត្តភក្តិ ផ្លាស់ប្តូរសារ និងធ្វើការហៅដោយសុវត្ថិភាព</string>
   <string name="RegistrationActivity_rate_limited_to_service">អ្នកបានសាកល្បងច្រើនដងពេក ដើម្បីចុះឈ្មោះជាមួយលេខទូរស័ព្ទនេះ។ សូមសាកល្បងម្តងទៀតនៅពេលក្រោយ។</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">មិនអាចតភ្ជាប់សេវាបាន។ សូមពិនិត្យការតភ្ជាប់បណ្តាញ ហើយព្យាយាមម្តងទៀត។</string>
-  <!-- Removed by excludeNonTranslatables <string name="RegistrationActivity_to_easily_verify_your_phone_number_signal_can_automatically_detect_your_verification_code">ដើម្បីងាយស្រួលការផ្ទៀងផ្ទាត់លេខទូរស័ព្ទរបស់អ្នក Signalអាចកំណត់លេខកូដផ្ទៀងផ្ទាត់ដោយស្វ័យប្រវត្តិប្រសិនបើអ្នកអនុញ្ញាតឲ្យSignalចូលមើលសារ SMS។</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="RegistrationActivity_to_easily_verify_your_phone_number_Grapherex_can_automatically_detect_your_verification_code">ដើម្បីងាយស្រួលការផ្ទៀងផ្ទាត់លេខទូរស័ព្ទរបស់អ្នក Grapherexអាចកំណត់លេខកូដផ្ទៀងផ្ទាត់ដោយស្វ័យប្រវត្តិប្រសិនបើអ្នកអនុញ្ញាតឲ្យGrapherexចូលមើលសារ SMS។</string> -->
   <plurals name="RegistrationActivity_debug_log_hint">
     <item quantity="other">You are now %d steps away from submitting a debug log.</item>
   </plurals>
@@ -975,7 +975,7 @@
   <!--RegistrationLockV2Dialog-->
   <string name="RegistrationLockV2Dialog_turn_on_registration_lock">បើកការចាក់សោរចុះឈ្មោះ?</string>
   <string name="RegistrationLockV2Dialog_turn_off_registration_lock">បិទការចាក់សោរចុះឈ្មោះ?</string>
-  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">បើអ្នកភ្លេច Signal PIN របស់អ្នក ពេលដែលចុះឈ្មោះជាមួយ Signal​ ម្តងទៀត អ្នកនឹងត្រូវចាក់សោរគណនីរបស់អ្នករយៈពេល ៧ ថ្ងៃ។</string>
+  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">បើអ្នកភ្លេច Grapherex PIN របស់អ្នក ពេលដែលចុះឈ្មោះជាមួយ Grapherex​ ម្តងទៀត អ្នកនឹងត្រូវចាក់សោរគណនីរបស់អ្នករយៈពេល ៧ ថ្ងៃ។</string>
   <string name="RegistrationLockV2Dialog_turn_on">បើក</string>
   <string name="RegistrationLockV2Dialog_turn_off">បិទ</string>
   <!--RevealableMessageView-->
@@ -993,14 +993,14 @@
   <!--ShakeToReport-->
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">បន្ថែមចូល បញ្ជីទំនាក់ទំនង</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">អញ្ជើញចូលប្រើSignal</string>
-  <string name="SharedContactDetailsActivity_signal_message">សារ Signal </string>
-  <string name="SharedContactDetailsActivity_signal_call">ការហៅSignal</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">អញ្ជើញចូលប្រើGrapherex</string>
+  <string name="SharedContactDetailsActivity_signal_message">សារ Grapherex </string>
+  <string name="SharedContactDetailsActivity_signal_call">ការហៅGrapherex</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">បន្ថែមចូល បញ្ជីទំនាក់ទំនង</string>
-  <string name="SharedContactView_invite_to_signal">អញ្ជើញចូលប្រើSignal</string>
-  <string name="SharedContactView_message">សារ Signal </string>
-  <!--SignalPinReminders-->
+  <string name="SharedContactView_invite_to_signal">អញ្ជើញចូលប្រើGrapherex</string>
+  <string name="SharedContactView_message">សារ Grapherex </string>
+  <!--GrapherexPinReminders-->
   <string name="SignalPinReminders_well_remind_you_again_later">យើងនឹងរំលឹកអ្នកម្តងទៀតពេលក្រោយ។</string>
   <string name="SignalPinReminders_well_remind_you_again_tomorrow">យើងនឹងរំលឹកអ្នកម្តងទៀតថ្ងៃស្អែក។</string>
   <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">យើងនឹងរំលឹកអ្នកម្តងទៀតប៉ុន្មានថ្ងៃទៀត។</string>
@@ -1020,14 +1020,14 @@
   <string name="SmsMessageRecord_secure_session_reset">អ្នកកំណត់ការចូលប្រើប្រាស់សុវត្ថិភាពឡើងវិញ។</string>
   <string name="SmsMessageRecord_secure_session_reset_s">%s កំណត់ការចូលប្រើប្រាស់សុវត្ថិភាពឡើងវិញ។</string>
   <string name="SmsMessageRecord_duplicate_message">សារស្ទួន។</string>
-  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">សារនេះ មិនអាចដំណើរការបាន ព្រោះវាត្រូវបានផ្ញើចេញពី Signal ជំនាន់ថ្មីជាង។ អ្នកអាចទាក់ទងដៃគូសន្ទនារបស់អ្នក ដើម្បីផ្ញើសារនេះម្តងទៀតបន្ទាប់ពីអ្នកបានធ្វើបច្ចុប្បន្នភាព។</string>
+  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">សារនេះ មិនអាចដំណើរការបាន ព្រោះវាត្រូវបានផ្ញើចេញពី Grapherex ជំនាន់ថ្មីជាង។ អ្នកអាចទាក់ទងដៃគូសន្ទនារបស់អ្នក ដើម្បីផ្ញើសារនេះម្តងទៀតបន្ទាប់ពីអ្នកបានធ្វើបច្ចុប្បន្នភាព។</string>
   <string name="SmsMessageRecord_error_handling_incoming_message">បញ្ហាទទួលសារផ្ញើចូល។</string>
   <!--StickerManagementActivity-->
   <string name="StickerManagementActivity_stickers">ស្ទីកគ័រ</string>
   <!--StickerManagementAdapter-->
   <string name="StickerManagementAdapter_installed_stickers">ស្ទីកគ័របានដំឡើង</string>
   <string name="StickerManagementAdapter_stickers_you_received">ស្ទីកគ័រដែលអ្នកបានទទួល</string>
-  <string name="StickerManagementAdapter_signal_artist_series">សេ៊រីសិល្បករ Signal</string>
+  <string name="StickerManagementAdapter_signal_artist_series">សេ៊រីសិល្បករ Grapherex</string>
   <string name="StickerManagementAdapter_no_stickers_installed">ពុំមានស្ទីកគ័រដំឡើងទេ</string>
   <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">ស្ទីកគ័រពីសារដែលចូលមកនឹងបង្ហាញទីនេះ</string>
   <string name="StickerManagementAdapter_untitled">គ្មានចំណងជើង</string>
@@ -1051,11 +1051,11 @@
   <string name="SubmitDebugLogActivity_share">ចែករំលែក</string>
   <!--SupportEmailUtil-->
   <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_subject">ចំណងជើង៖</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_signal_android_support_request">ការស្នើជំនួយ Signal Android</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="SupportEmailUtil_Grapherex_android_support_request">ការស្នើជំនួយ Grapherex Android</string> -->
   <string name="SupportEmailUtil_device_info">ព័ត៌មានឧបករណ៍៖</string>
   <string name="SupportEmailUtil_android_version">ជំនាន់ Android៖</string>
-  <string name="SupportEmailUtil_signal_version">ជំនាន់ Signal៖</string>
-  <string name="SupportEmailUtil_signal_package">កញ្ចប់ Signal៖</string>
+  <string name="SupportEmailUtil_signal_version">ជំនាន់ Grapherex៖</string>
+  <string name="SupportEmailUtil_signal_package">កញ្ចប់ Grapherex៖</string>
   <string name="SupportEmailUtil_registration_lock">ការចាក់សោរចុះឈ្មោះ៖</string>
   <string name="SupportEmailUtil_locale">ទីតាំង៖</string>
   <!--ThreadRecord-->
@@ -1072,7 +1072,7 @@
   <string name="ThreadRecord_view_once_media">បង្ហាញ-ម្តង មេឌា</string>
   <string name="ThreadRecord_this_message_was_deleted">សារនេះត្រូវបានលុប។</string>
   <string name="ThreadRecord_you_deleted_this_message">អ្នកបានលុបសារនេះ។</string>
-  <string name="ThreadRecord_s_is_on_signal">%s ប្រើ Signal!​</string>
+  <string name="ThreadRecord_s_is_on_signal">%s ប្រើ Grapherex!​</string>
   <string name="ThreadRecord_disappearing_messages_disabled">សារបាត់ទៅវិញបានបិទ</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">កំណត់រយៈពេលលុបសារ %s</string>
   <string name="ThreadRecord_safety_number_changed">លេខសុវត្ថិភាព បានផ្លាស់ប្តូរ</string>
@@ -1090,8 +1090,8 @@
   <string name="ThreadRecord_file">ឯកសារ</string>
   <string name="ThreadRecord_video">វីដេអូ</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">បច្ចុប្បន្នភាព Signal</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">កំណែថ្មីរបស់ Signal មានហើយ, ចុច ដើម្បីធ្វើបច្ចុប្បន្នភាព។</string>
+  <string name="UpdateApkReadyListener_Signal_update">បច្ចុប្បន្នភាព Grapherex</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">កំណែថ្មីរបស់ Grapherex មានហើយ, ចុច ដើម្បីធ្វើបច្ចុប្បន្នភាព។</string>
   <!--UntrustedSendDialog-->
   <string name="UntrustedSendDialog_send_message">ផ្ញើសារ?</string>
   <string name="UntrustedSendDialog_send">ផ្ញើ</string>
@@ -1110,14 +1110,14 @@
   <string name="UsernameEditFragment_username_is_invalid">ឈ្មោះអ្នកប្រើប្រាស់មិនត្រឹមត្រូវ។</string>
   <string name="UsernameEditFragment_usernames_must_be_between_a_and_b_characters">ឈ្មោះអ្នកប្រើប្រាស់ត្រូវនៅចន្លោះតួអក្សរ%1$d និង%2$d ។</string>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">លេខទំនាក់ទំនងអ្នក កំពុងប្រើប្រាស់នៅលើSignal ជំនាន់ចាស់។ សូមប្រាប់គេឲ្យធ្វើបច្ចុប្បន្នភាពកម្មវិធី មុនពេលផ្ទៀងផ្ទាត់លេខសុវត្ថិភាព។ </string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">លេខទំនាក់ទំនងអ្នក កំពុងប្រើប្រាស់ Signalកំណែថ្មីជាង ជាមួយទម្រង់QRកូដ ដែលមិនត្រូវគ្នា។ សូមធ្វើបច្ចុប្បន្នភាព ដើម្បីប្រៀបធៀប។ </string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">លេខទំនាក់ទំនងអ្នក កំពុងប្រើប្រាស់នៅលើGrapherex ជំនាន់ចាស់។ សូមប្រាប់គេឲ្យធ្វើបច្ចុប្បន្នភាពកម្មវិធី មុនពេលផ្ទៀងផ្ទាត់លេខសុវត្ថិភាព។ </string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">លេខទំនាក់ទំនងអ្នក កំពុងប្រើប្រាស់ Grapherexកំណែថ្មីជាង ជាមួយទម្រង់QRកូដ ដែលមិនត្រូវគ្នា។ សូមធ្វើបច្ចុប្បន្នភាព ដើម្បីប្រៀបធៀប។ </string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">កូដQR ដែលស្កែន គឺមិនត្រូវតាមទម្រង់លេខកូដផ្ទៀងផ្ទាត់សុវត្ថិភាពទេ។ សូមព្យាយាមស្កែនម្តងទៀត។</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">ចែករំលែកលេខសុវត្ថិភាពតាម…</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">លេខសុវត្ថិភាព Signalរបស់យើង៖</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">លេខសុវត្ថិភាព Grapherexរបស់យើង៖</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">អ្នកហាក់ដូចជាមិនមានកម្មវិធីណាមួយដើម្បីចែករំលែក។</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">ពុំមានលេខសុវត្ថិភាព ដើម្បីប្រៀបធៀបក្នុង clipboard</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signalត្រូវការសិទ្ធិប្រើប្រាស់កាមេរ៉ាដើម្បីស្កេនកូដ QR ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅកាន់ ការកំណត់ ជ្រើសរើស \"ការអនុញ្ញាត\" និងបើក \"កាមេរ៉ា\"។</string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Grapherexត្រូវការសិទ្ធិប្រើប្រាស់កាមេរ៉ាដើម្បីស្កេនកូដ QR ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅកាន់ ការកំណត់ ជ្រើសរើស \"ការអនុញ្ញាត\" និងបើក \"កាមេរ៉ា\"។</string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">មិនអាចស្កេនកូដ QR ដោយគ្មានការអនុញ្ញាតសិទ្ធប្រើប្រាស់កាមេរ៉ា</string>
   <!--ViewOnceMessageActivity-->
   <!--AudioView-->
@@ -1135,14 +1135,14 @@
   <string name="ApplicationMigrationService_system_database_import_is_complete">ការនាំចូលប្រព័ន្ធមូលដ្ឋានទិន្នន័យ បានជោគជ័យ។</string>
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">ចុច ដើម្បីបើក។</string>
-  <!-- Removed by excludeNonTranslatables <string name="KeyCachingService_signal_passphrase_cached_with_lock">ប៉ះ ដើម្បីបើក ឬ ប៉ះសោរ ដើម្បីបិទ។</string> -->
-  <string name="KeyCachingService_passphrase_cached"> Signal បានដោះសោ</string>
-  <string name="KeyCachingService_lock">ចាក់សោរSignal</string>
+  <!-- Removed by excludeNonTranslatables <string name="KeyCachingService_Grapherex_passphrase_cached_with_lock">ប៉ះ ដើម្បីបើក ឬ ប៉ះសោរ ដើម្បីបិទ។</string> -->
+  <string name="KeyCachingService_passphrase_cached"> Grapherex បានដោះសោ</string>
+  <string name="KeyCachingService_lock">ចាក់សោរGrapherex</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">អ្នក</string>
   <string name="MediaPreviewActivity_unssuported_media_type">ប្រភេទឯកសារមិនគាំទ្រ</string>
   <string name="MediaPreviewActivity_draft">ព្រាង</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Signalត្រូវការសិទ្ធិប្រើប្រាស់អង្គរក្សាទុកដើម្បីរក្សាឯកសារក្នុងអង្គរក្សាទុកខាងក្រៅ ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅកាន់ ការកំណត់ ជ្រើសរើស \"ការអនុញ្ញាត\" និងបើក \"អង្គរក្សាទុក\"។ </string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Grapherexត្រូវការសិទ្ធិប្រើប្រាស់អង្គរក្សាទុកដើម្បីរក្សាឯកសារក្នុងអង្គរក្សាទុកខាងក្រៅ ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅកាន់ ការកំណត់ ជ្រើសរើស \"ការអនុញ្ញាត\" និងបើក \"អង្គរក្សាទុក\"។ </string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">មិនអាចរក្សាទុកក្នុងអង្គរក្សាទុកខាងក្រៅ ដោយគ្មានការអនុញ្ញាត</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">លុបសារ?</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">សារនេះនឹងលុប ជារៀងរហូត។</string>
@@ -1162,10 +1162,10 @@
   <string name="MessageNotifier_view_once_photo">បង្ហាញ-ម្តង រូបភាព</string>
   <string name="MessageNotifier_view_once_video">បង្ហាញ-ម្តង វីដេអូ</string>
   <string name="MessageNotifier_reply">ឆ្លើយតប</string>
-  <string name="MessageNotifier_signal_message">សារ Signal </string>
+  <string name="MessageNotifier_signal_message">សារ Grapherex </string>
   <string name="MessageNotifier_unsecured_sms">SMS គ្មានសុវត្ថិភាព</string>
   <string name="MessageNotifier_you_may_have_new_messages">អ្នកអាចមានសារថ្មី</string>
-  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">បើក Signal ដើម្បីឆែកមើលការជូនដំណឹងថ្មីៗ។</string>
+  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">បើក Grapherex ដើម្បីឆែកមើលការជូនដំណឹងថ្មីៗ។</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">ទំនាក់ទំនង</string>
   <string name="MessageNotifier_reacted_s_to_s">ប្រតិកម្ម %1$s ទៅ៖ \"%2$s\"។</string>
@@ -1189,7 +1189,7 @@
   <!-- Removed by excludeNonTranslatables <string name="ProfileEditNameFragment_successfully_set_profile_name">កំណត់ឈ្មោះប្រវត្តិរូបដោយជោគជ័យ។</string> -->
   <!-- Removed by excludeNonTranslatables <string name="ProfileEditNameFragment_encountered_a_network_error">បានជួបប្រទះកំហុសបណ្តាញ។</string> -->
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">មិនមានការឆ្លើយតបភ្លាមៗ នៅពេល Signal ត្រូវបានចាក់សោរ!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">មិនមានការឆ្លើយតបភ្លាមៗ នៅពេល Grapherex ត្រូវបានចាក់សោរ!</string>
   <string name="QuickResponseService_problem_sending_message">សារដែលបានបញ្ជូនមានបញ្ហា!</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">បានរក្សាទុកនៅ %s</string>
@@ -1200,7 +1200,7 @@
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">រូបតំណាងផ្លូវកាត់មិនត្រឹមត្រូវ</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal"> Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal"> Grapherex</string>
   <string name="SingleRecipientNotificationBuilder_new_message">សារថ្មី</string>
   <!--ThumbnailView-->
   <string name="ThumbnailView_Play_video_description">ចាក់ វីដេអូ</string>
@@ -1211,17 +1211,17 @@
   </plurals>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">ឧបករណ៍នេះលែងបានចុះឈ្មោះហើយ!</string>
-  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">នេះហាក់ដូចជាដោយសារអ្នកបានចុះឈ្មោះលេខទូរស័ព្ទជាមួយSignalនៅលើឧបករណ៍ផ្សេងទៀត។ ចុច ដើម្បីចុះឈ្មោះម្តងទៀត។</string>
+  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">នេះហាក់ដូចជាដោយសារអ្នកបានចុះឈ្មោះលេខទូរស័ព្ទជាមួយGrapherexនៅលើឧបករណ៍ផ្សេងទៀត។ ចុច ដើម្បីចុះឈ្មោះម្តងទៀត។</string>
   <!--VideoPlayer-->
   <!-- Removed by excludeNonTranslatables <string name="VideoPlayer_error_playing_video">មានបញ្ហាចាក់មើលវីដេអូ</string> -->
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">ដើម្បីទទួលការហៅចូលពី %s សូមឲ្យ Signal ប្រើប្រាស់ម៉ៃក្រូហ្វូនរបស់អ្នក។</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Signalត្រូវការសិទ្ធិប្រើប្រាស់ម៉ៃក្រូហ្វូន និងកាមេរ៉ា ដើម្បីហៅចេញ ឬទទួលការហៅចូល ប៉ុន្តែពួកវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅកាន់ ការកំណត់ ជ្រើសរើស \"ការអនុញ្ញាត\" និងបើក \"ម៉ៃក្រូហ្វូន\" និង \"កាមេរ៉ា\"។</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">ដើម្បីទទួលការហៅចូលពី %s សូមឲ្យ Grapherex ប្រើប្រាស់ម៉ៃក្រូហ្វូនរបស់អ្នក។</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Grapherexត្រូវការសិទ្ធិប្រើប្រាស់ម៉ៃក្រូហ្វូន និងកាមេរ៉ា ដើម្បីហៅចេញ ឬទទួលការហៅចូល ប៉ុន្តែពួកវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅកាន់ ការកំណត់ ជ្រើសរើស \"ការអនុញ្ញាត\" និងបើក \"ម៉ៃក្រូហ្វូន\" និង \"កាមេរ៉ា\"។</string>
   <string name="WebRtcCallActivity__answered_on_a_linked_device">បានឆ្លើយលើឧបករណ៍ដែលបានតភ្ជាប់។</string>
   <string name="WebRtcCallActivity__declined_on_a_linked_device">បានបដិសេធលើឧបករណ៍ដែលបានតភ្ជាប់។</string>
   <string name="WebRtcCallActivity__busy_on_a_linked_device">ជាប់រវល់លើឧបករណ៍ដែលបានតភ្ជាប់។</string>
   <!--WebRtcCallScreen-->
-  <!-- Removed by excludeNonTranslatables <string name="WebRtcCallScreen_new_safety_numbers">លេខសុវត្ថិភាពសម្រាប់ការសន្ទនារបស់អ្នកជាមួយ %1$s បានផ្លាស់ប្តូរ។ អាចមានន័យថា មានអ្នកផ្សេងព្យាយាមជ្រាតចូលការទាក់ទង ឬ %2$s ប្រើដំឡើង Signalឡើងវិញ។</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="WebRtcCallScreen_new_safety_numbers">លេខសុវត្ថិភាពសម្រាប់ការសន្ទនារបស់អ្នកជាមួយ %1$s បានផ្លាស់ប្តូរ។ អាចមានន័យថា មានអ្នកផ្សេងព្យាយាមជ្រាតចូលការទាក់ទង ឬ %2$s ប្រើដំឡើង Grapherexឡើងវិញ។</string> -->
   <!-- Removed by excludeNonTranslatables <string name="WebRtcCallScreen_you_may_wish_to_verify_this_contact">អ្នកប្រហែលចង់ផ្ទៀងផ្ទាត់លេខសុវត្ថិភាពរបស់អ្នក ជាមួយលេខទំនាក់ទំនងនេះ។</string> -->
   <!-- Removed by excludeNonTranslatables <string name="WebRtcCallScreen_new_safety_number_title">លេខសុវត្ថិភាពថ្មី</string> -->
   <!-- Removed by excludeNonTranslatables <string name="WebRtcCallScreen_accept">យល់ព្រម</string> -->
@@ -1268,7 +1268,7 @@
   <string name="change_passphrase_activity__repeat_new_passphrase">ឃ្លាសម្ងាត់ថ្មីម្តងទៀត</string>
   <!--contact_selection_activity-->
   <string name="contact_selection_activity__enter_name_or_number">បញ្ចូលឈ្មោះ និងលេខទូរស័ព្ទ</string>
-  <string name="contact_selection_activity__invite_to_signal">អញ្ជើញចូលប្រើSignal</string>
+  <string name="contact_selection_activity__invite_to_signal">អញ្ជើញចូលប្រើGrapherex</string>
   <string name="contact_selection_activity__new_group">ក្រុមថ្មី</string>
   <!--contact_filter_toolbar-->
   <string name="contact_filter_toolbar__clear_entered_text_description">លុបអក្សរដែលបានបញ្ចូល</string>
@@ -1280,21 +1280,21 @@
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">រូបភាពទំនាក់ទំនង</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Signalត្រូវការសិទ្ធិប្រើប្រាស់បញ្ជី​ទំនាក់ទំនង ដើម្បីបង្ហាញបញ្ជីទំនាក់ទំនងរបស់អ្នក ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។  សូមបន្តទៅ ការកំណត់ ជ្រើសរើស \"អនុញ្ញាត\" និងបើក \"បញ្ជីទំនាក់ទំនង\"។</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Grapherexត្រូវការសិទ្ធិប្រើប្រាស់បញ្ជី​ទំនាក់ទំនង ដើម្បីបង្ហាញបញ្ជីទំនាក់ទំនងរបស់អ្នក ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។  សូមបន្តទៅ ការកំណត់ ជ្រើសរើស \"អនុញ្ញាត\" និងបើក \"បញ្ជីទំនាក់ទំនង\"។</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">មានបញ្ហាក្នុងការទាញយកបញ្ជីទំនាក់ទំនង, សូមពិនិត្យការតភ្ជាប់បណ្តាញរបស់អ្នក</string>
   <string name="ContactSelectionListFragment_username_not_found">រកមិនឃើញឈ្មោះអ្នកប្រើប្រាស់</string>
-  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">\"%1$s\" មិនមែនជាអ្នកប្រើប្រាស់ Signal ទេ។ សូមពិនិត្យឈ្មោះអ្នកប្រើប្រាស់ និងសាកល្បងម្តងទៀត។ </string>
+  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">\"%1$s\" មិនមែនជាអ្នកប្រើប្រាស់ Grapherex ទេ។ សូមពិនិត្យឈ្មោះអ្នកប្រើប្រាស់ និងសាកល្បងម្តងទៀត។ </string>
   <!--blocked_contacts_fragment-->
   <!-- Removed by excludeNonTranslatables <string name="blocked_contacts_fragment__no_blocked_contacts">ពុំមានលេខដែលបានបិទ</string> -->
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them"> Signal ត្រូវការចូលប្រើប្រាស់បញ្ជីទំនាក់ទំនងរបស់អ្នក ដើម្បីបង្ហាញវា។ </string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them"> Grapherex ត្រូវការចូលប្រើប្រាស់បញ្ជីទំនាក់ទំនងរបស់អ្នក ដើម្បីបង្ហាញវា។ </string>
   <string name="contact_selection_list_fragment__show_contacts">បង្ហាញបញ្ជីលេខទំនាក់ទំនង</string>
   <!--contact_selection_list_item-->
   <plurals name="contact_selection_list_item__number_of_members">
     <item quantity="other">%1$d សមាជិក</item>
   </plurals>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">សារ Signal</string>
+  <string name="conversation_activity__type_message_push">សារ Grapherex</string>
   <string name="conversation_activity__type_message_sms_insecure">SMS គ្មានសុវត្ថិភាព</string>
   <string name="conversation_activity__type_message_mms_insecure">MMS គ្មានសុវត្ថិភាព</string>
   <string name="conversation_activity__from_sim_name">មកពី %1$s</string>
@@ -1306,7 +1306,7 @@
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">បិទបើកថតឯកសារភ្ជាប់កាមេរ៉ារហ័ស</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">ថត​ និងផ្ញើឯកសារភ្ជាប់ជាសំឡេង</string>
   <string name="conversation_activity__quick_attachment_drawer_lock_record_description">បិទការថតឯកសារសម្លេង</string>
-  <string name="conversation_activity__enable_signal_for_sms">បើក Signal សម្រាប់ SMS</string>
+  <string name="conversation_activity__enable_signal_for_sms">បើក Grapherex សម្រាប់ SMS</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">អូសដើម្បីបោះបង់</string>
   <string name="conversation_input_panel__cancel">បោះបង់</string>
@@ -1383,9 +1383,9 @@
   <string name="IdentityUtil_unverified_banner_one">លេខសុវត្ថិភាពរបស់អ្នក %s បានផ្លាស់ប្តូរ តែមិនទាន់បានផ្ទៀងផ្ទាត់</string>
   <string name="IdentityUtil_unverified_banner_two">លេខសុវត្ថិភាពរបស់អ្នក %1$s និង %2$s មិនទាន់បានផ្ទៀងផ្ទាត់</string>
   <string name="IdentityUtil_unverified_banner_many">លេខសុវត្ថិភាពរបស់អ្នក %1$s, %2$s, និង %3$s មិនទាន់បានផ្ទៀងផ្ទាត់</string>
-  <string name="IdentityUtil_unverified_dialog_one">លេខសុវត្ថិភាពរបស់អ្នក %1$s បានផ្លាស់ប្តូរ​ តែមិនទាន់ផ្ទៀងផ្ទាត់ទេ។ នេះមានន័យថា គេកំពុងព្យាយាមជ្រាតចូលការទំនាក់ទំនងរបស់អ្នក ឬ %1$sប្រើដំឡើង Signal ម្តងទៀត។</string>
-  <string name="IdentityUtil_unverified_dialog_two">លេខសុវត្ថិភាពរបស់អ្នក %1$s និង​ %2$s បានផ្លាស់ប្តូរ​ តែមិនទាន់ផ្ទៀងផ្ទាត់ទេ។ នេះមានន័យថា គេកំពុងព្យាយាមជ្រាតចូលការទំនាក់ទំនងរបស់អ្នក ឬអ្នកអាចដំឡើង Signal ម្តងទៀត។</string>
-  <string name="IdentityUtil_unverified_dialog_many">លេខសុវត្ថិភាពរបស់អ្នក %1$s, %2$s, និង %3$s មិនទាន់បានផ្ទៀងផ្ទាត់ទេ។ នេះមានន័យថា មានគេកំពុងព្យាយាមជ្រាតចូលការទំនាក់ទំនងរបស់អ្នក ឬ អ្នកអាចបញ្ចូល Signal ម្តងទៀត។</string>
+  <string name="IdentityUtil_unverified_dialog_one">លេខសុវត្ថិភាពរបស់អ្នក %1$s បានផ្លាស់ប្តូរ​ តែមិនទាន់ផ្ទៀងផ្ទាត់ទេ។ នេះមានន័យថា គេកំពុងព្យាយាមជ្រាតចូលការទំនាក់ទំនងរបស់អ្នក ឬ %1$sប្រើដំឡើង Grapherex ម្តងទៀត។</string>
+  <string name="IdentityUtil_unverified_dialog_two">លេខសុវត្ថិភាពរបស់អ្នក %1$s និង​ %2$s បានផ្លាស់ប្តូរ​ តែមិនទាន់ផ្ទៀងផ្ទាត់ទេ។ នេះមានន័យថា គេកំពុងព្យាយាមជ្រាតចូលការទំនាក់ទំនងរបស់អ្នក ឬអ្នកអាចដំឡើង Grapherex ម្តងទៀត។</string>
+  <string name="IdentityUtil_unverified_dialog_many">លេខសុវត្ថិភាពរបស់អ្នក %1$s, %2$s, និង %3$s មិនទាន់បានផ្ទៀងផ្ទាត់ទេ។ នេះមានន័យថា មានគេកំពុងព្យាយាមជ្រាតចូលការទំនាក់ទំនងរបស់អ្នក ឬ អ្នកអាចបញ្ចូល Grapherex ម្តងទៀត។</string>
   <string name="IdentityUtil_untrusted_dialog_one">លេខសុវត្ថិភាពរបស់អ្នក %s ទើបបានផ្លាស់ប្តូរ។</string>
   <string name="IdentityUtil_untrusted_dialog_two">លេខសុវត្ថិភាពរបស់អ្នក %1$s និង %2$s ទើបបានផ្លាស់ប្តូរ។</string>
   <string name="IdentityUtil_untrusted_dialog_many">លេខសុវត្ថិភាពរបស់អ្នក %1$s, %2$s, និង %3$s ទើបបានផ្លាស់ប្តូរ។</string>
@@ -1412,7 +1412,7 @@
   <!-- Removed by excludeNonTranslatables <string name="log_submit_activity__please_review_this_log_from_my_app">សូមពិនិត្យកំណត់ត្រានេះពីកម្មវិធីរបស់ខ្ញុំ៖ %1$s</string> -->
   <!-- Removed by excludeNonTranslatables <string name="log_submit_activity__network_failure">បញ្ហាបណ្តាញ។ សូមសាកល្បងម្តងទៀត។</string> -->
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">តើអ្នកចង់នាំចូលសារជាអក្សរដែលមានស្រាប់ ចូលក្នុងមូលដ្ឋានទិន្នន័យដែលមានកាណាល់កូដសម្ងាត់របស់Signalទេ?</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">តើអ្នកចង់នាំចូលសារជាអក្សរដែលមានស្រាប់ ចូលក្នុងមូលដ្ឋានទិន្នន័យដែលមានកាណាល់កូដសម្ងាត់របស់Grapherexទេ?</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">ប្រព័ន្ទមូលដ្ឋានទិន្នន័យលំនាំដើម នឹងមិនត្រូវបានកែប្រែ ឬផ្លាស់ប្តូរ តាមវិធីណាមួយឡើយ។ </string>
   <string name="database_migration_activity__skip">រំលង</string>
   <string name="database_migration_activity__import">នាំចូល</string>
@@ -1439,7 +1439,7 @@
   <!--prompt_passphrase_activity-->
   <string name="prompt_passphrase_activity__unlock">ដោះសោរ</string>
   <!--prompt_mms_activity-->
-  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages"> Signal ទាមទារការកំណត់MMS ដើម្បីបញ្ជូនព័ត៌មាន និងសារជាក្រុម តាមរយៈប្រតិបត្តិករបណ្តាញរបស់អ្នក។ ឧបករណ៍អ្នកមិនអាចបង្ហាញព័ត៌មានបាន ដោយសារឧបករណ៍អ្នកត្រូវបានជាប់សោ និងមិនអនុញ្ញាតឲ្យកែប្រែបាន។ </string>
+  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages"> Grapherex ទាមទារការកំណត់MMS ដើម្បីបញ្ជូនព័ត៌មាន និងសារជាក្រុម តាមរយៈប្រតិបត្តិករបណ្តាញរបស់អ្នក។ ឧបករណ៍អ្នកមិនអាចបង្ហាញព័ត៌មានបាន ដោយសារឧបករណ៍អ្នកត្រូវបានជាប់សោ និងមិនអនុញ្ញាតឲ្យកែប្រែបាន។ </string>
   <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">ដើម្បីផ្ញើសារព័ត៌មាន និងសារជាក្រុម ចុច \'ព្រម\' និងបញ្ចប់ការកំណត់ស្នើសុំ។ ការកំណត់ MMS ដោយប្រតិបត្តិករ ជាទូទៅត្រូវបានកំណត់ដោយការស្វែងរក \'APN របស់ប្រតិបត្តិករអ្នក\'។ អ្នកនឹងត្រូវធ្វើដូចនេះតែម្តងទេ។</string>
   <!--profile_create_activity-->
   <string name="CreateProfileActivity_first_name_required">ឈ្មោះ (ចាំបាច់)</string>
@@ -1453,10 +1453,10 @@
   <!--recipient_preferences_activity-->
   <string name="recipient_preference_activity__shared_media">ចែករំលែកព័ត៌មាន</string>
   <!--- redphone_call_controls-->
-  <!-- Removed by excludeNonTranslatables <string name="redphone_call_card__signal_call">ការហៅSignal</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="redphone_call_card__Grapherex_call">ការហៅGrapherex</string> -->
   <!--registration_activity-->
   <!-- Removed by excludeNonTranslatables <string name="registration_activity__phone_number">លេខទូរស័ព្ទ</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">Signal បានធ្វើឲ្យការទំនាក់ទំនងងាយស្រួល ដោយប្រើប្រាស់លេខទូរស័ព្ទ និងបញ្ជីទំនាក់ទំនងរបស់អ្នក។ មិត្តភក្តិ និងលេខទំនាក់ទំនង ដែលដឹងពីរបៀបទាក់ទងអ្នកតាមលេខទូរស័ព្ទ គឺអាចទាក់ទងអ្នក យ៉ាងងាយស្រួលតាម Signal.\n\nការចុះឈ្មោះ នឹងបញ្ជូនព័ត៌មានទំនាក់ទំនងមួយចំនួនទៅកាន់ម៉ាស៊ីនមេ។ តែវាមិនរក្សាទុកអ្វីឡើយ។</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="registration_activity__registration_will_transmit_some_contact_information_to_the_server_temporariliy">Grapherex បានធ្វើឲ្យការទំនាក់ទំនងងាយស្រួល ដោយប្រើប្រាស់លេខទូរស័ព្ទ និងបញ្ជីទំនាក់ទំនងរបស់អ្នក។ មិត្តភក្តិ និងលេខទំនាក់ទំនង ដែលដឹងពីរបៀបទាក់ទងអ្នកតាមលេខទូរស័ព្ទ គឺអាចទាក់ទងអ្នក យ៉ាងងាយស្រួលតាម Grapherex.\n\nការចុះឈ្មោះ នឹងបញ្ជូនព័ត៌មានទំនាក់ទំនងមួយចំនួនទៅកាន់ម៉ាស៊ីនមេ។ តែវាមិនរក្សាទុកអ្វីឡើយ។</string> -->
   <!-- Removed by excludeNonTranslatables <string name="registration_activity__verify_your_number">ផ្ទៀងផ្ទាត់លេខរបស់អ្នក</string> -->
   <!-- Removed by excludeNonTranslatables <string name="registration_activity__please_enter_your_mobile_number_to_receive_a_verification_code_carrier_rates_may_apply">សូមបញ្ចូលលេខទូរស័ព្ទរបស់អ្នកដើម្បីទទួលបានលេខកូដផ្ទៀងផ្ទាត់។ ថ្លៃទូរស័ព្ទអាចនឹងត្រូវទូទាត់។</string> -->
   <!--recipients_panel-->
@@ -1468,7 +1468,7 @@
   <!-- Removed by excludeNonTranslatables <string name="unknown_sender_view__add_to_contacts">បន្ថែមទៅក្នុងបញ្ជីទំនាក់ទំនង</string> -->
   <!-- Removed by excludeNonTranslatables <string name="unknown_sender_view__don_t_add_but_make_my_profile_visible">កុំបន្ថែម, ប៉ុន្តែបង្ហាញប្រវត្តិរូបរបស់ខ្ញុំ</string> -->
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[បើអ្នកចង់ផ្ទៀងផ្ទាត់សុវត្ថិភាពកូដនីយកម្មរបស់អ្នកជាមួយ %s ប្រៀបធៀបលេខខាងលើជាមួយលេខនៅលើឧបករណ៍របស់ពួកគេ។ ផ្សេងពីនេះទៀត អ្នកអាចស្កេនកូដលើទូរស័ព្ទរបស់ពួកគេ ឬសុំពួកគេឲ្យស្កេនកូដលើទូរស័ព្ទរបស់អ្នក។ <a href="https://signal.org/redirect/safety-numbers">ស្វែងយល់បន្ថែម</a>]]></string>
+  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[បើអ្នកចង់ផ្ទៀងផ្ទាត់សុវត្ថិភាពកូដនីយកម្មរបស់អ្នកជាមួយ %s ប្រៀបធៀបលេខខាងលើជាមួយលេខនៅលើឧបករណ៍របស់ពួកគេ។ ផ្សេងពីនេះទៀត អ្នកអាចស្កេនកូដលើទូរស័ព្ទរបស់ពួកគេ ឬសុំពួកគេឲ្យស្កេនកូដលើទូរស័ព្ទរបស់អ្នក។ <a href="https://Grapherex.org/redirect/safety-numbers">ស្វែងយល់បន្ថែម</a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">ចុច ដើម្បីស្កែន</string>
   <string name="verify_display_fragment__loading">កំពុងផ្ទុក…</string>
   <string name="verify_display_fragment__verified">បានផ្ទៀងផ្ទាត់</string>
@@ -1522,11 +1522,11 @@
   <string name="HelpFragment__whats_this">នេះគឺជាអ្វី?</string>
   <string name="HelpFragment__how_do_you_feel">តើអ្នកមានអារម្មណ៍យ៉ាងមិច? (ជម្រើស)</string>
   <string name="HelpFragment__support_info">ព័ត៌មានជំនួយ</string>
-  <string name="HelpFragment__signal_android_support_request">ការស្នើជំនួយ Signal Android</string>
+  <string name="HelpFragment__signal_android_support_request">ការស្នើជំនួយ Grapherex Android</string>
   <string name="HelpFragment__debug_log">កំណត់ត្រាបញ្ហា៖</string>
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__na">មិនមាន</string> -->
   <string name="HelpFragment__could_not_upload_logs">មិនអាចបញ្ជូនកំណត់ត្រា</string>
-  <!-- Removed by excludeNonTranslatables <string name="HelpFragment__signal_support">ជំនួយ Signal</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="HelpFragment__Grapherex_support">ជំនួយ Grapherex</string> -->
   <string name="HelpFragment__please_be_as_descriptive_as_possible">សូមពន្យល់តាមដែលអាចធ្វើទៅបានដើម្បីជួយយើងឱ្យយល់ពីបញ្ហា។</string>
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__no_email_app_found">អ៊ីម៉ែលរកមិនឃើញ។</string> -->
   <!--ReactWithAnyEmojiBottomSheetDialogFragment-->
@@ -1574,8 +1574,8 @@
   <string name="preferences__sms_mms">SMS និង MMS</string>
   <string name="preferences__pref_all_sms_title">ទទួល SMS ទាំងអស់</string>
   <string name="preferences__pref_all_mms_title">ទទួល MMS ទាំងអស់</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">ប្រើ Signal សម្រាប់សារជាអក្សរដែលចូលមកទាំងអស់</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">ប្រើ Signalសម្រាប់សារពហុមេឌៀដែលចូលមកទាំងអស់</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">ប្រើ Grapherex សម្រាប់សារជាអក្សរដែលចូលមកទាំងអស់</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">ប្រើ Grapherexសម្រាប់សារពហុមេឌៀដែលចូលមកទាំងអស់</string>
   <string name="preferences__pref_enter_sends_title">ចុច Enter ដើម្បីផ្ញើ</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">ចុចប៊ូតុង បញ្ចូន នឹងផ្ញើសារអក្សរ</string>
   <string name="preferences__choose_identity">ជ្រើសរើសអត្តសញ្ញាណ</string>
@@ -1586,7 +1586,7 @@
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">ចាក់សោរអេក្រង់ និងការជូនដំណឹងជាមួយឃ្លាសម្ងាត់</string>
   <string name="preferences__screen_security">អេក្រង់សុវត្ថិភាព</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">បិទថតរូបអេក្រង់ក្នុងបញ្ជីថ្មី និងក្នុងកម្មវិធី</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">ចាក់សោSignalដោយស្វ័យប្រវត្តិ បន្ទាប់ពីទុកចោលមួយរយៈ</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">ចាក់សោGrapherexដោយស្វ័យប្រវត្តិ បន្ទាប់ពីទុកចោលមួយរយៈ</string>
   <string name="preferences__inactivity_timeout_passphrase">ឃ្លាសម្ងាត់ពេលអសកម្ម</string>
   <string name="preferences__inactivity_timeout_interval">ចន្លោះពេលអសកម្ម</string>
   <string name="preferences__notifications">សារជូនដំណឹង</string>
@@ -1637,8 +1637,8 @@
   <string name="preferences__system_default">លំដើមប្រព័ន្ធ</string>
   <!-- Removed by excludeNonTranslatables <string name="preferences__default">លំនាំដើម</string> -->
   <string name="preferences__language">ភាសា</string>
-  <string name="preferences__signal_messages_and_calls">ការផ្ញើសារ និងការហៅSignal</string>
-  <string name="preferences__free_private_messages_and_calls">ការផ្ញើសារ និងការហៅចេញជាឯកជនភាព​ ដោយមិនគិតថ្លៃ​ ទៅកាន់អ្នកប្រើប្រាស់Signal</string>
+  <string name="preferences__signal_messages_and_calls">ការផ្ញើសារ និងការហៅGrapherex</string>
+  <string name="preferences__free_private_messages_and_calls">ការផ្ញើសារ និងការហៅចេញជាឯកជនភាព​ ដោយមិនគិតថ្លៃ​ ទៅកាន់អ្នកប្រើប្រាស់Grapherex</string>
   <string name="preferences__submit_debug_log">បញ្ជូនកំណត់ហេតុបញ្ហា</string>
   <string name="preferences__support_wifi_calling">ទម្រង់ត្រូវគ្នា \"ការហៅតាមប្រព័ន្ធ WiFi\"</string>
   <string name="preferences__enable_if_your_device_supports_sms_mms_delivery_over_wifi">បើក ប្រសិនបើឧបករណ៍អ្នក បញ្ជូនSMS/MMS តាម WiFi (គ្រាន់តែបើកនៅពេល \'ការហៅតាម WiFi\' ត្រូវបានបើកលើឧបករណ៍អ្នក)</string>
@@ -1661,8 +1661,8 @@
   <string name="preferences_storage__review_storage">បង្ហាញឧបករណ៍ផ្ទុក</string>
   <string name="preferences_storage__none">គ្មាន</string>
   <string name="preferences_advanced__use_system_emoji">ប្រើរូបអារម្មណ៍emoji នៅក្នុងប្រព័ន្ធ</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">បិទមិនប្រើរូបអារម្មណ៍emoji របស់ Signal</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">បញ្ជូនការហៅទាំងអស់តាមរយៈម៉ាស៊ីនមេ Signal ដើម្បីជៀសវាងការបង្ហាញអាសយដ្ឋាន អាយភី របស់អ្នក ទៅកាន់លេខទំនាក់ទំនងរបស់អ្នក។ ការអនុញ្ញាតនេះនឹងកាត់បន្ថយគុណភាពការហៅ។</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">បិទមិនប្រើរូបអារម្មណ៍emoji របស់ Grapherex</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">បញ្ជូនការហៅទាំងអស់តាមរយៈម៉ាស៊ីនមេ Grapherex ដើម្បីជៀសវាងការបង្ហាញអាសយដ្ឋាន អាយភី របស់អ្នក ទៅកាន់លេខទំនាក់ទំនងរបស់អ្នក។ ការអនុញ្ញាតនេះនឹងកាត់បន្ថយគុណភាពការហៅ។</string>
   <string name="preferences_advanced__always_relay_calls">តែងតែបញ្ជូនការហៅចេញ</string>
   <string name="preferences_app_protection__app_access">ចូលប្រើប្រាស់កម្មវិធី</string>
   <string name="preferences_app_protection__communication">ការទំនាក់ទំនង</string>
@@ -1676,9 +1676,9 @@
   <string name="preferences_notifications__calls">ការហៅ</string>
   <string name="preferences_notifications__ringtone">សំឡេងរោទិ៍</string>
   <string name="preferences_chats__show_invitation_prompts">បង្ហាញលិខិតអញ្ជើញរហ័ស</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">បង្ហាញការណែនាំពីការអញ្ជើញ សម្រាប់ទំនាក់ទំនងដែលមិនភ្ជាប់ជាមួយSignal</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">បង្ហាញការណែនាំពីការអញ្ជើញ សម្រាប់ទំនាក់ទំនងដែលមិនភ្ជាប់ជាមួយGrapherex</string>
   <string name="preferences_chats__message_text_size">ទំហំអក្សរសារ</string>
-  <string name="preferences_events__contact_joined_signal">ចូលរួមទំនាក់ទំនងតាមSignal</string>
+  <string name="preferences_events__contact_joined_signal">ចូលរួមទំនាក់ទំនងតាមGrapherex</string>
   <string name="preferences_notifications__priority">អទិភាព</string>
   <string name="preferences_communication__category_sealed_sender">សញ្ញាអ្នកផ្ញើ</string>
   <string name="preferences_communication__sealed_sender_display_indicators">បង្ហាញសូចនាករ</string>
@@ -1697,8 +1697,8 @@
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">ហៅចេញ</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">ការហៅចេញSignal</string>
-  <string name="conversation_callable_secure__menu_video">ការហៅ Signal ជាវីដេអូ</string>
+  <string name="conversation_callable_secure__menu_call">ការហៅចេញGrapherex</string>
+  <string name="conversation_callable_secure__menu_video">ការហៅ Grapherex ជាវីដេអូ</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">សារលម្អិត</string>
   <string name="conversation_context__menu_copy_text">ថតចម្លងអក្សរ</string>
@@ -1772,15 +1772,15 @@
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">ប្រៀបធៀបជាមួយ clipboard</string>
   <!--reminder_header-->
   <string name="reminder_header_sms_import_title">នាំចូលប្រព័ន្ធ SMS</string>
-  <string name="reminder_header_sms_import_text">ចុចដើម្បីចម្លងសារក្នុងទូរសព្ទដៃរបស់អ្នកចូលទៅក្នុងមូលដ្ឋានទិន្នន័យដែលកាណាល់កូដសម្ងាត់របស់Signal។</string>
-  <string name="reminder_header_push_title">បើកការផ្ញើសារ និងការហៅចេញតាមSignal</string>
+  <string name="reminder_header_sms_import_text">ចុចដើម្បីចម្លងសារក្នុងទូរសព្ទដៃរបស់អ្នកចូលទៅក្នុងមូលដ្ឋានទិន្នន័យដែលកាណាល់កូដសម្ងាត់របស់Grapherex។</string>
+  <string name="reminder_header_push_title">បើកការផ្ញើសារ និងការហៅចេញតាមGrapherex</string>
   <string name="reminder_header_push_text">ធ្វើឲ្យបទពិសោធន៍ទំនាក់ទំនងប្រសើរឡើង។</string>
-  <!-- Removed by excludeNonTranslatables <string name="reminder_header_invite_title">អញ្ជើញចូលប្រើSignal</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="reminder_header_invite_title">អញ្ជើញចូលប្រើGrapherex</string> -->
   <!-- Removed by excludeNonTranslatables <string name="reminder_header_invite_text">ធ្វើការសន្ទនាជាមួយ %1$s ដើម្បីឈានទៅកាន់១កម្រិតទៀត។</string> -->
   <!-- Removed by excludeNonTranslatables <string name="reminder_header_share_title">អញ្ជើញមិត្តរបស់អ្នក!</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="reminder_header_share_text">មានមិត្តភក្តិកាន់តែច្រើនប្រើប្រាស់Signal នោះវាកាន់តែប្រសើរឡើង</string> -->
-  <string name="reminder_header_service_outage_text">Signal កំពុងជួបប្រទះបញ្ហាបច្ចេកទេស។ យើងកំពុងធ្វើការស្តារសេវាកម្មយ៉ាងរហ័សតាមដែលអាចធ្វើទៅបាន។</string>
-  <!-- Removed by excludeNonTranslatables <string name="reminder_header_the_latest_signal_features_wont_work">មុខងារជំនាន់ចុងក្រោយ Signal នឹងមិនអាចដំណើរការលើជំនាន់ Android នេះទេ។ សូមដំឡើងជំនាន់ឧបករណ៍នេះ ដើម្បីទទួលបានមុខងារថ្មីៗរបស់ Signal នៅពេលអនាគត។</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="reminder_header_share_text">មានមិត្តភក្តិកាន់តែច្រើនប្រើប្រាស់Grapherex នោះវាកាន់តែប្រសើរឡើង</string> -->
+  <string name="reminder_header_service_outage_text">Grapherex កំពុងជួបប្រទះបញ្ហាបច្ចេកទេស។ យើងកំពុងធ្វើការស្តារសេវាកម្មយ៉ាងរហ័សតាមដែលអាចធ្វើទៅបាន។</string>
+  <!-- Removed by excludeNonTranslatables <string name="reminder_header_the_latest_Grapherex_features_wont_work">មុខងារជំនាន់ចុងក្រោយ Grapherex នឹងមិនអាចដំណើរការលើជំនាន់ Android នេះទេ។ សូមដំឡើងជំនាន់ឧបករណ៍នេះ ដើម្បីទទួលបានមុខងារថ្មីៗរបស់ Grapherex នៅពេលអនាគត។</string> -->
   <string name="reminder_header_progress">%1$d%%</string>
   <!--media_preview-->
   <string name="media_preview__save_title">រក្សាទុក</string>
@@ -1800,22 +1800,22 @@
   <string name="Insights__percent">%</string>
   <string name="Insights__title">ព័ត៌មានលំអិត</string>
   <string name="InsightsDashboardFragment__title">ព័ត៌មានលំអិត</string>
-  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">ប្រូតូកូល Signal បានការពារ %1$d%% នៃសារផ្ញើចេញក្នុងរយៈពេល %2$d ថ្ងៃដោយស្វ័យប្រវត្តិ។ ការសន្ទនារវាងអ្នកប្រើប្រាស់ Signal  តែងតែត្រូវបានអ៊ីនគ្រីបតែងសងខាង។</string>
-  <string name="InsightsDashboardFragment__boost_your_signal">ជំរុញ Signal </string>
+  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">ប្រូតូកូល Grapherex បានការពារ %1$d%% នៃសារផ្ញើចេញក្នុងរយៈពេល %2$d ថ្ងៃដោយស្វ័យប្រវត្តិ។ ការសន្ទនារវាងអ្នកប្រើប្រាស់ Grapherex  តែងតែត្រូវបានអ៊ីនគ្រីបតែងសងខាង។</string>
+  <string name="InsightsDashboardFragment__boost_your_signal">ជំរុញ Grapherex </string>
   <string name="InsightsDashboardFragment__not_enough_data">មិនមានទិន្នន័យគ្រប់គ្រាន់</string>
   <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">ភាគរយព័ត៌មានលំអិតរបស់អ្នកត្រូវបានគណនា ផ្អែកលើសារផ្ញើចេញក្នុងរយៈពេល  %1$d ថ្ងៃ ដែលមិនបានបាត់ទៅវិញ ឬលុបចោល។</string>
   <string name="InsightsDashboardFragment__start_a_conversation">ចាប់ផ្តើមការសន្ទនា</string>
-  <string name="InsightsDashboardFragment__invite_your_contacts">ចាប់ផ្តើមការទំនាក់ទំនងដោយសុវត្ថិភាព និង​បើកមុខងារថ្មី ដែលហួសពីដែនកំណត់ នៃសារ SMS មិនសម្ងាត់ ដោយការអញ្ជើញបញ្ជីទំនាក់ទំនងមកចូលរួម Signal។</string>
+  <string name="InsightsDashboardFragment__invite_your_contacts">ចាប់ផ្តើមការទំនាក់ទំនងដោយសុវត្ថិភាព និង​បើកមុខងារថ្មី ដែលហួសពីដែនកំណត់ នៃសារ SMS មិនសម្ងាត់ ដោយការអញ្ជើញបញ្ជីទំនាក់ទំនងមកចូលរួម Grapherex។</string>
   <string name="InsightsDashboardFragment__this_stat_was_generated_locally">ស្ថិតិទាំងនេះត្រូវបានបង្កើតនិងរក្សាទុកក្នុងឧបករណ៍របស់អ្នក និងអាចមើលឃើញដោយអ្នកតែប៉ុណ្ណោះ។ វាមិនត្រូវបញ្ជូនទៅកន្លែងណាមួយឡើយ។</string>
   <string name="InsightsDashboardFragment__encrypted_messages">សារសម្ងាត់</string>
   <string name="InsightsDashboardFragment__cancel">បោះបង់</string>
   <string name="InsightsDashboardFragment__send">ផ្ញើ</string>
   <string name="InsightsModalFragment__title">ការណែនាំព័ត៌មានលំអិត</string>
-  <string name="InsightsModalFragment__description">ពិនិត្យមើលចំនួនសារផ្ញើចេញដែលត្រូវបានផ្ញើដោយសុវត្ថិភាព បន្ទាប់មកអញ្ជើញលេខទំនាក់ទំនងថ្មី ដើម្បីជំរុញភាគរយ Signal របស់អ្នក។</string>
+  <string name="InsightsModalFragment__description">ពិនិត្យមើលចំនួនសារផ្ញើចេញដែលត្រូវបានផ្ញើដោយសុវត្ថិភាព បន្ទាប់មកអញ្ជើញលេខទំនាក់ទំនងថ្មី ដើម្បីជំរុញភាគរយ Grapherex របស់អ្នក។</string>
   <string name="InsightsModalFragment__view_insights">បង្ហាញព័ត៌មានលំអិត</string>
-  <string name="FirstInviteReminder__title">អញ្ជើញចូលប្រើSignal</string>
+  <string name="FirstInviteReminder__title">អញ្ជើញចូលប្រើGrapherex</string>
   <string name="FirstInviteReminder__description">អ្នកអាចបង្កើនចំនួនសារសម្ងាត់ដែលអ្នកផ្ញើដោយ %1$d%%</string>
-  <string name="SecondInviteReminder__title">ជំរុញ Signal របស់អ្នក</string>
+  <string name="SecondInviteReminder__title">ជំរុញ Grapherex របស់អ្នក</string>
   <string name="SecondInviteReminder__description">អញ្ជើញ%1$s</string>
   <string name="InsightsReminder__view_insights">បង្ហាញព័ត៌មានលំអិត</string>
   <string name="InsightsReminder__invite">អញ្ជើញ</string>
@@ -1853,7 +1853,7 @@
   <string name="KbsSplashFragment__create_your_pin">បង្កើតលេខ PIN របស់អ្នក</string>
   <string name="KbsSplashFragment__learn_more_about_pins">ស្វែងយល់បន្ថែមពី លេខ PINs</string>
   <!--KBS Reminder Dialog-->
-  <string name="KbsReminderDialog__enter_your_signal_pin">បញ្ចូលលេខ Signal PIN របស់អ្នក</string>
+  <string name="KbsReminderDialog__enter_your_signal_pin">បញ្ចូលលេខ Grapherex PIN របស់អ្នក</string>
   <string name="KbsReminderDialog__to_help_you_memorize_your_pin">ដើម្បីជួយអ្នកចងចាំលេខកូដ PIN របស់អ្នក យើងនឹងសាកសួរអ្នកអោយបញ្ចូលវាម្តងម្កាល។ យើងនឹងសួរតិចជាងមុន។ </string>
   <string name="KbsReminderDialog__skip">រំលង</string>
   <string name="KbsReminderDialog__submit">បញ្ជូន</string>
@@ -1895,7 +1895,7 @@
   <string name="CalleeMustAcceptMessageRequestDialogFragment__s_will_get_a_message_request_from_you">%1$s នឹងទទួលសំណើសារពីអ្នក។ អ្នកអាចហៅចេញ នៅពេលសំណើសារត្រូវបានយល់ព្រម។ </string>
   <!--KBS Megaphone-->
   <string name="KbsMegaphone__create_a_pin">បង្កើតលេខកូដ PIN មួយ</string>
-  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">លេខ PIN រក្សាទុកព័ត៌មានដែលផ្ទុកជាមួយ Signal ដែលបានអ៊ិនគ្រីប។</string>
+  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">លេខ PIN រក្សាទុកព័ត៌មានដែលផ្ទុកជាមួយ Grapherex ដែលបានអ៊ិនគ្រីប។</string>
   <string name="KbsMegaphone__create_pin">បង្កើតលេខកូដ PIN</string>
   <!-- Removed by excludeNonTranslatables <string name="KbsMegaphone__introducing_pins">ការណែនាំ លេខPINs</string> -->
   <!-- Removed by excludeNonTranslatables <string name="KbsMegaphone__update_pin">បច្ចុប្បន្នភាពកូដ PIN</string> -->
@@ -1910,12 +1910,12 @@
   <string name="ConversationListFragment_loading">កំពុងផ្ទុក…</string>
   <string name="CallNotificationBuilder_connecting">កំពុងតភ្ជាប់…</string>
   <string name="Permissions_permission_required">ទាមទារការអនុញ្ញាត</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Signalត្រូវការសិទ្ធិប្រើប្រាស់សារ SMS ដើម្បីផ្ញើសារ SMS ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅកាន់ ការកំណត់ ជ្រើសរើស \"ការអនុញ្ញាត\" និងបើក \"សារ SMS\"។</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Grapherexត្រូវការសិទ្ធិប្រើប្រាស់សារ SMS ដើម្បីផ្ញើសារ SMS ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅកាន់ ការកំណត់ ជ្រើសរើស \"ការអនុញ្ញាត\" និងបើក \"សារ SMS\"។</string>
   <string name="Permissions_continue">បន្ត</string>
   <string name="Permissions_not_now">ពេលក្រោយ</string>
-  <!-- Removed by excludeNonTranslatables <string name="ConversationListActivity_signal_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">Signalត្រូវការសិទ្ធិប្រើប្រាស់បញ្ជី​ទំនាក់ទំនងរបស់អ្នក ដើម្បីស្វែងរកលេខទំនាក់ទំនងរបស់អ្នក  ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។  សូមបន្តទៅ ការកំណត់ ជ្រើសរើស \"ការអនុញ្ញាត\" និងបើក \"បញ្ជីទំនាក់ទំនង\"។</string> -->
-  <string name="conversation_activity__enable_signal_messages">បើកប្រើសារ SIGNAL </string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">ផ្លាស់ទីទិន្នន័យ Signal</string>
+  <!-- Removed by excludeNonTranslatables <string name="ConversationListActivity_Grapherex_needs_contacts_permission_in_order_to_search_your_contacts_but_it_has_been_permanently_denied">Grapherexត្រូវការសិទ្ធិប្រើប្រាស់បញ្ជី​ទំនាក់ទំនងរបស់អ្នក ដើម្បីស្វែងរកលេខទំនាក់ទំនងរបស់អ្នក  ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។  សូមបន្តទៅ ការកំណត់ ជ្រើសរើស \"ការអនុញ្ញាត\" និងបើក \"បញ្ជីទំនាក់ទំនង\"។</string> -->
+  <string name="conversation_activity__enable_signal_messages">បើកប្រើសារ Grapherex </string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">ផ្លាស់ទីទិន្នន័យ Grapherex</string>
   <string name="PushDecryptJob_new_locked_message">សារចាក់សោរថ្មី</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">ដោះសោរដើម្បីមើលសាររង់ចាំ</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">បម្រុងទុកឃ្លាសម្ងាត់</string>
@@ -1931,7 +1931,7 @@
   <!-- Removed by excludeNonTranslatables <string name="preferences_chats__test_your_backup_passphrase_and_verify_that_it_matches">សាកល្បងឃ្លាសម្ងាត់បម្រុងទុករបស់អ្នក និងផ្ទៀងផ្ទាត់ថាវាត្រូវគ្នា</string> -->
   <string name="RegistrationActivity_enter_backup_passphrase">បញ្ចូលឃ្លាសម្ងាត់បម្រុងទុក</string>
   <string name="RegistrationActivity_restore">ស្តារឡើងវិញ</string>
-  <string name="RegistrationActivity_backup_failure_downgrade">មិនអាចនាំចូលឯកសារបម្រុងទុក ពី Signal ជំនាន់ថ្មី</string>
+  <string name="RegistrationActivity_backup_failure_downgrade">មិនអាចនាំចូលឯកសារបម្រុងទុក ពី Grapherex ជំនាន់ថ្មី</string>
   <string name="RegistrationActivity_incorrect_backup_passphrase">ឃ្លាសម្ងាត់បម្រុងទុកមិនត្រឹមត្រូវ</string>
   <string name="RegistrationActivity_checking">កំពុងត្រួតពិនិត្យ…</string>
   <string name="RegistrationActivity_d_messages_so_far">%d សារ ឥឡូវនេះ…</string>
@@ -1951,7 +1951,7 @@
   <string name="BackupDialog_verify">ផ្ទៀងផ្ទាត់</string>
   <string name="BackupDialog_you_successfully_entered_your_backup_passphrase">អ្នកបានបញ្ចូលឃ្លាសម្ងាត់បម្រុងទុករបស់អ្នកដោយជោគជ័យ</string>
   <string name="BackupDialog_passphrase_was_not_correct">ឃ្លាសម្ងាត់មិនត្រឹមត្រូវ</string>
-  <!-- Removed by excludeNonTranslatables <string name="ChatsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Signalត្រូវការសិទ្ធិប្រើប្រាស់អង្គរក្សាទុកខាងក្រៅដើម្បីបង្កើតការស្តារឡើងវិញ ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅកាន់ ការកំណត់ ជ្រើសរើស \"ការអនុញ្ញាត\" និងបើក \"អង្គរក្សាទុក\"។ </string> -->
+  <!-- Removed by excludeNonTranslatables <string name="ChatsPreferenceFragment_Grapherex_requires_external_storage_permission_in_order_to_create_backups">Grapherexត្រូវការសិទ្ធិប្រើប្រាស់អង្គរក្សាទុកខាងក្រៅដើម្បីបង្កើតការស្តារឡើងវិញ ប៉ុន្តែវាត្រូវបានបដិសេធរហូត។ សូមបន្តទៅកាន់ ការកំណត់ ជ្រើសរើស \"ការអនុញ្ញាត\" និងបើក \"អង្គរក្សាទុក\"។ </string> -->
   <!-- Removed by excludeNonTranslatables <string name="ChatsPreferenceFragment_last_backup_s">បម្រុងទុកលើលចុងក្រោយ៖ %s</string> -->
   <!-- Removed by excludeNonTranslatables <string name="ChatsPreferenceFragment_in_progress">កំពុងដំណើរការ</string> -->
   <string name="LocalBackupJob_creating_backup">កំពុងបង្កើតការបម្រុងទុក…</string>
@@ -1959,24 +1959,24 @@
   <!-- Removed by excludeNonTranslatables <string name="RegistrationActivity_please_enter_the_verification_code_sent_to_s">សូមបញ្ចូលលេខកូដផ្ទៀងផ្ទាត់ដែលបានផ្ញើទៅកាន់ %s។</string> -->
   <string name="RegistrationActivity_wrong_number">ខុសលេខ</string>
   <string name="RegistrationActivity_call_me_instead_available_in">ហៅមកខ្ញុំជំនួសវិញ  \n (ទំនេរក្នុងរយៈពេល %1$02d:%2$02d)</string>
-  <string name="RegistrationActivity_contact_signal_support">ទាក់ទងជំនួយ Signal</string>
-  <string name="RegistrationActivity_code_support_subject">ការចុះឈ្មោះ Signal - ការផ្ទៀងផ្ទាត់កូដសម្រាប់ Android</string>
+  <string name="RegistrationActivity_contact_signal_support">ទាក់ទងជំនួយ Grapherex</string>
+  <string name="RegistrationActivity_code_support_subject">ការចុះឈ្មោះ Grapherex - ការផ្ទៀងផ្ទាត់កូដសម្រាប់ Android</string>
   <string name="BackupUtil_never">មិនធ្លាប់</string>
   <string name="BackupUtil_unknown">មិនស្គាល់</string>
   <string name="preferences_app_protection__screen_lock">ចាក់សោរអេក្រង់</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">ចាក់សោរការប្រើប្រាស់ Signal ជាមួយសោរអេក្រង់ Android ឬ ក្រយៅដៃ</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">ចាក់សោរការប្រើប្រាស់ Grapherex ជាមួយសោរអេក្រង់ Android ឬ ក្រយៅដៃ</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">អេក្រង់ជាប់សោរ ទុកចោលហួសកំណត់ </string>
-  <string name="preferences_app_protection__signal_pin">លេខកូដ PIN Signal</string>
+  <string name="preferences_app_protection__signal_pin">លេខកូដ PIN Grapherex</string>
   <string name="preferences_app_protection__create_a_pin">បង្កើតលេខកូដ PIN មួយ</string>
   <string name="preferences_app_protection__change_your_pin">ផ្លាស់ប្តូរលេខ PIN របស់អ្នក</string>
   <string name="preferences_app_protection__pin_reminders">ការរំលឹក PIN</string>
-  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">លេខ PIN រក្សាទុកព័ត៌មានដែលផ្ទុកជាមួយ Signalដែលបានអ៊ិនគ្រីប​ដូច្នេះមានតែអ្នកប៉ុណ្ណោះដែលអាចចូលប្រើវាបាន។ ប្រវត្តិរូប ការកំណត់ និងទំនាក់ទំនងរបស់អ្នក នឹងស្តារឡើងវិញនៅពេលដែលអ្នកតំឡើង Signal ឡើងវិញ។</string>
-  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">ដាក់សុវត្ថិភាពបន្ថែម ដោយទាមទារ Signal PIN របស់អ្នក ដើម្បីចុះឈ្មោះលេខទូរស័ព្ទជាមួយ Signal ម្តងទៀត។</string>
+  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">លេខ PIN រក្សាទុកព័ត៌មានដែលផ្ទុកជាមួយ Grapherexដែលបានអ៊ិនគ្រីប​ដូច្នេះមានតែអ្នកប៉ុណ្ណោះដែលអាចចូលប្រើវាបាន។ ប្រវត្តិរូប ការកំណត់ និងទំនាក់ទំនងរបស់អ្នក នឹងស្តារឡើងវិញនៅពេលដែលអ្នកតំឡើង Grapherex ឡើងវិញ។</string>
+  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">ដាក់សុវត្ថិភាពបន្ថែម ដោយទាមទារ Grapherex PIN របស់អ្នក ដើម្បីចុះឈ្មោះលេខទូរស័ព្ទជាមួយ Grapherex ម្តងទៀត។</string>
   <string name="preferences_app_protection__reminders_help_you_remember_your_pin">ការរំលឹកជួយអ្នកឲ្យចងចាំ PIN របស់អ្នក ដោយសារវាមិនអាចស្តារឡើងវិញទេ។ អ្នកនឹងត្រូវបានសួរ ជារើយៗ។</string>
   <string name="preferences_app_protection__turn_off">បិទ</string>
   <string name="preferences_app_protection__confirm_pin">ផ្ទៀងផ្ទាត់លេខ PIN</string>
-  <string name="preferences_app_protection__confirm_your_signal_pin">បញ្ជាក់លេខ Signal PIN របស់អ្នក</string>
-  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">ប្រាកដថាអ្នកចងចាំ ឬរក្សាទុក PIN ដោយសុវត្ថិភាព ដោយសារវាមិនអាចស្តារវិញបានទេ។ បើអ្នកភ្លេច PIN របស់អ្នក អ្នកអាចបាត់បង់ទិន្នន័យនៅពេលគណនី Signal របស់អ្នកសារឡើងវិញ។</string>
+  <string name="preferences_app_protection__confirm_your_signal_pin">បញ្ជាក់លេខ Grapherex PIN របស់អ្នក</string>
+  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">ប្រាកដថាអ្នកចងចាំ ឬរក្សាទុក PIN ដោយសុវត្ថិភាព ដោយសារវាមិនអាចស្តារវិញបានទេ។ បើអ្នកភ្លេច PIN របស់អ្នក អ្នកអាចបាត់បង់ទិន្នន័យនៅពេលគណនី Grapherex របស់អ្នកសារឡើងវិញ។</string>
   <string name="preferences_app_protection__incorrect_pin_try_again">លេខកូដ PIN មិនត្រឹមត្រូវ។ សាកល្បងម្តងទៀត។</string>
   <string name="preferences_app_protection__failed_to_enable_registration_lock">មិនអាចបើកការចាក់សោរចុះឈ្មោះ។</string>
   <string name="preferences_app_protection__failed_to_disable_registration_lock">មិនអាចបិទការចាក់សោរចុះឈ្មោះ។</string>
@@ -1989,7 +1989,7 @@
   <!-- Removed by excludeNonTranslatables <string name="registration_lock_dialog_view__confirm_pin">ផ្ទៀងផ្ទាត់លេខ PIN</string> -->
   <!-- Removed by excludeNonTranslatables <string name="registration_lock_reminder_view__enter_your_registration_lock_pin">បញ្ចូលលេខ PIN សម្រាប់ចាក់សោរការចុះឈ្មោះរបស់អ្នក</string> -->
   <!-- Removed by excludeNonTranslatables <string name="registration_lock_reminder_view__enter_pin">បញ្ចូលលេខ PIN</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="preferences_app_protection__enable_a_registration_lock_pin_that_will_be_required">ការបើក ចាក់សោរចុះឈ្មោះ នឹងត្រូវទាមទារ ពេលមានការចុះឈ្មោះលេខទូរស័ព្ទនេះជាមួយ Signalម្តងទៀត។</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="preferences_app_protection__enable_a_registration_lock_pin_that_will_be_required">ការបើក ចាក់សោរចុះឈ្មោះ នឹងត្រូវទាមទារ ពេលមានការចុះឈ្មោះលេខទូរស័ព្ទនេះជាមួយ Grapherexម្តងទៀត។</string> -->
   <!-- Removed by excludeNonTranslatables <string name="preferences_app_protection__registration_lock_pin">លេខ PIN សម្រាប់ចាក់សោរការចុះឈ្មោះ</string> -->
   <string name="preferences_app_protection__registration_lock">ចាក់សោរការចុះឈ្មោះ</string>
   <string name="RegistrationActivity_you_must_enter_your_registration_lock_PIN">អ្នកត្រូវបញ្ចូលលេខ PIN សម្រាប់ចាក់សោរការចុះឈ្មោះរបស់អ្នក</string>
@@ -2000,13 +2000,13 @@
   <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">អ្នកបានសាកល្បងច្រើនដងពេក។ សូមសាកល្បងម្តងទៀតនៅពេលក្រោយ។</string>
   <string name="RegistrationActivity_error_connecting_to_service">បញ្ហាការតភ្ជាប់សេវា</string>
   <!-- Removed by excludeNonTranslatables <string name="RegistrationActivity_oh_no">អូ ទេ!</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">ការចុះឈ្មោះលេខទូរស័ព្ទនេះ នឹងអាចធ្វើទៅបានដោយគ្មានលេខកូដPIN  សម្រាប់ចាក់សោរការចុះឈ្មោះ បន្ទាប់ពីហួស 7 ថ្ងៃ ចាប់ពីពេលប្រើលេខនេះចុងក្រោយលើ Signal។ អ្នកនៅសល់រយៈពេល %d ថ្ងៃទៀត។</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="RegistrationActivity_registration_of_this_phone_number_will_be_possible_without_your_registration_lock_pin_after_seven_days_have_passed">ការចុះឈ្មោះលេខទូរស័ព្ទនេះ នឹងអាចធ្វើទៅបានដោយគ្មានលេខកូដPIN  សម្រាប់ចាក់សោរការចុះឈ្មោះ បន្ទាប់ពីហួស 7 ថ្ងៃ ចាប់ពីពេលប្រើលេខនេះចុងក្រោយលើ Grapherex។ អ្នកនៅសល់រយៈពេល %d ថ្ងៃទៀត។</string> -->
   <!-- Removed by excludeNonTranslatables <string name="RegistrationActivity_registration_lock_pin">លេខ PIN សម្រាប់ចាក់សោរការចុះឈ្មោះ</string> -->
   <!-- Removed by excludeNonTranslatables <string name="RegistrationActivity_this_phone_number_has_registration_lock_enabled_please_enter_the_registration_lock_pin">លេខទូរស័ព្ទនេះ បានបើកការចាក់សោរចុះឈ្មោះ។ សូមមេត្តាបញ្ចូលលេខPIN សម្រាប់ចាក់សោរការចុះឈ្មោះ។</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">ការចាក់សោរចុះឈ្មោះ ត្រូវបានបើកលើលេខទូរស័ព្ទរបស់អ្នក។ ដើម្បីជួយអ្នកចងចាំលេខPIN សម្រាប់ចាក់សោរការចុះឈ្មោះ  Signalនឹងសួរអ្នកម្តងម្កាល ដើម្បីផ្ទៀងផ្ទាត់វា។</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="RegistrationLockDialog_registration_lock_is_enabled_for_your_phone_number">ការចាក់សោរចុះឈ្មោះ ត្រូវបានបើកលើលេខទូរស័ព្ទរបស់អ្នក។ ដើម្បីជួយអ្នកចងចាំលេខPIN សម្រាប់ចាក់សោរការចុះឈ្មោះ  Grapherexនឹងសួរអ្នកម្តងម្កាល ដើម្បីផ្ទៀងផ្ទាត់វា។</string> -->
   <!-- Removed by excludeNonTranslatables <string name="RegistrationLockDialog_i_forgot_my_pin">ខ្ញុំបានភ្លេចលេខ PIN។</string> -->
   <!-- Removed by excludeNonTranslatables <string name="RegistrationLockDialog_forgotten_pin">ភ្លេចលេខ PIN?</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">ចាក់សោរការចុះឈ្មោះ ជួយការពារលេខទូរស័ព្ទអ្នក ពីការព្យយាមបន្លំការចុះឈ្មោះ។ មុខងារនេះ អាចបិទបានគ្រប់ពេល ក្នុងការកំណត់ឯកជនភាពរបស់ Signal</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="RegistrationLockDialog_registration_lock_helps_protect_your_phone_number_from_unauthorized_registration_attempts">ចាក់សោរការចុះឈ្មោះ ជួយការពារលេខទូរស័ព្ទអ្នក ពីការព្យយាមបន្លំការចុះឈ្មោះ។ មុខងារនេះ អាចបិទបានគ្រប់ពេល ក្នុងការកំណត់ឯកជនភាពរបស់ Grapherex</string> -->
   <!-- Removed by excludeNonTranslatables <string name="RegistrationLockDialog_registration_lock">ការចាក់សោរចុះឈ្មោះ</string> -->
   <!-- Removed by excludeNonTranslatables <string name="RegistrationLockDialog_enable">បើក</string> -->
   <!-- Removed by excludeNonTranslatables <string name="RegistrationLockDialog_the_registration_lock_pin_must_be_at_least_d_digits">ការចាក់សោរការចុះឈ្មោះលេខកូដ PIN ត្រូវមានយ៉ាងហោចណាស់ %d ខ្ទង់។</string> -->
@@ -2017,7 +2017,7 @@
   <!-- Removed by excludeNonTranslatables <string name="RegistrationActivity_pin_incorrect">PIN មិនត្រឹមត្រូវ</string> -->
   <!-- Removed by excludeNonTranslatables <string name="RegistrationActivity_you_have_d_tries_remaining">អ្នកនៅសល់ការសាកល្បង %d ដង</string> -->
   <string name="preferences_chats__backups">បម្រុងទុក</string>
-  <string name="prompt_passphrase_activity__signal_is_locked"> Signal ជាប់សោរ</string>
+  <string name="prompt_passphrase_activity__signal_is_locked"> Grapherex ជាប់សោរ</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">ចុច ដើម្បីដោះសោរ</string>
   <!-- Removed by excludeNonTranslatables <string name="RegistrationLockDialog_reminder">ក្រើនរំលឹក៖</string> -->
   <!-- Removed by excludeNonTranslatables <string name="recipient_preferences__about">អំពី</string> -->

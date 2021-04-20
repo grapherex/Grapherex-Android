@@ -10,22 +10,22 @@
   <string name="AbstractNotificationBuilder_new_message">Ný skilaboð</string>
   <!--AlbumThumbnailView-->
   <!--ApplicationMigrationActivity-->
-  <string name="ApplicationMigrationActivity__signal_is_updating">Signal er að uppfæra sig…</string>
+  <string name="ApplicationMigrationActivity__signal_is_updating">Grapherex er að uppfæra sig…</string>
   <!--ApplicationPreferencesActivity-->
   <string name="ApplicationPreferencesActivity_currently_s">Komið: %s</string>
   <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">Þú hefur ekki valið lykilorð!</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">Ógilda lykilorð?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Þessi aðgerð mun varanlega aflæsa Signal og tilkynningar frá Signal.</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Þessi aðgerð mun varanlega aflæsa Grapherex og tilkynningar frá Grapherex.</string>
   <string name="ApplicationPreferencesActivity_disable">Gera óvirkt</string>
   <string name="ApplicationPreferencesActivity_unregistering">Verið er að afskrá þig</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Verið er að afskrá þig frá Signal skilaboðum og hringingum…</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Viltu afvirkja Signal skilaboð og hringingar?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Þú ert að fara afvirkja Signal skilaboð og hringingar með því að skrá þig af þjóninum. Þú munt þurfa endurskrá símanúmerið þitt til að nota Signal skilaboð og hringingar aftur.</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Verið er að afskrá þig frá Grapherex skilaboðum og hringingum…</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Viltu afvirkja Grapherex skilaboð og hringingar?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Þú ert að fara afvirkja Grapherex skilaboð og hringingar með því að skrá þig af þjóninum. Þú munt þurfa endurskrá símanúmerið þitt til að nota Grapherex skilaboð og hringingar aftur.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Villa við að tengjast netþjóni!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS virkt</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Ýttu hér til að breyta sjálfgefnu smáskilaboðaforriti</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">SMS óvirkt</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Ýttu hér til að gera Signal að sjálfgefna smáskilaboðaforritinu</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Ýttu hér til að gera Grapherex að sjálfgefna smáskilaboðaforritinu</string>
   <string name="ApplicationPreferencesActivity_on">kveikt</string>
   <string name="ApplicationPreferencesActivity_On">Kveikt</string>
   <string name="ApplicationPreferencesActivity_off">slökkt</string>
@@ -58,14 +58,14 @@
   <string name="AttachmentKeyboard_file">Skrá</string>
   <string name="AttachmentKeyboard_contact">Tengiliður</string>
   <string name="AttachmentKeyboard_location">Staðsetning</string>
-  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Signal þarf að fá heimild til að birta myndir þínar og myndskeið.</string>
+  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Grapherex þarf að fá heimild til að birta myndir þínar og myndskeið.</string>
   <string name="AttachmentKeyboard_give_access">Gefa leyfi</string>
   <string name="AttachmentKeyboard_payment">Greiðsla</string>
   <!--AttachmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">Finn ekki smáforrit til að opna efni.</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal þarf heimild til að nota geymslurými til að geta sent myndir, myndskeið og hljóð, en því hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á \"Geymslurými\".</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Signal þarf heimild til að nota tengiliði til að geta sent upplýsingar varðandi tengiliði, en því hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á \"Tengiliðir\".</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Signal þarf heimild til að nota staðsetningar til að geta sent upplýsingar varðandi staðsetningar, en því hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á \"Staðsetning\".</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Grapherex þarf heimild til að nota geymslurými til að geta sent myndir, myndskeið og hljóð, en því hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á \"Geymslurými\".</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Grapherex þarf heimild til að nota tengiliði til að geta sent upplýsingar varðandi tengiliði, en því hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á \"Tengiliðir\".</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Grapherex þarf heimild til að nota staðsetningar til að geta sent upplýsingar varðandi staðsetningar, en því hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á \"Staðsetning\".</string>
   <!--AttachmentUploadJob-->
   <string name="AttachmentUploadJob_uploading_media">Er að senda inn efni…</string>
   <string name="AttachmentUploadJob_compressing_video_start">Þjappa myndskeiði…</string>
@@ -109,26 +109,26 @@
   <string name="CameraXFragment_open_gallery_description">Opna myndasafn</string>
   <!--CameraContacts-->
   <string name="CameraContacts_recent_contacts">Nýlegir tengiliðir</string>
-  <string name="CameraContacts_signal_contacts">Signal-tengiliðir</string>
-  <string name="CameraContacts_signal_groups">Signal-hópar</string>
+  <string name="CameraContacts_signal_contacts">Grapherex-tengiliðir</string>
+  <string name="CameraContacts_signal_groups">Grapherex-hópar</string>
   <string name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">Þú getur deilt með að hámarki haft %d samtölum.</string>
-  <string name="CameraContacts_select_signal_recipients">Veldu viðtakendur með Signal</string>
-  <string name="CameraContacts_no_signal_contacts">Engir Signal-tengiliðir</string>
-  <string name="CameraContacts_you_can_only_use_the_camera_button">Þú getur bara notað myndavélarhnappinn til að senda myndir til Signal-tengiliða.</string>
+  <string name="CameraContacts_select_signal_recipients">Veldu viðtakendur með Grapherex</string>
+  <string name="CameraContacts_no_signal_contacts">Engir Grapherex-tengiliðir</string>
+  <string name="CameraContacts_you_can_only_use_the_camera_button">Þú getur bara notað myndavélarhnappinn til að senda myndir til Grapherex-tengiliða.</string>
   <string name="CameraContacts_cant_find_who_youre_looking_for">Finnurðu ekki það sem þú leitar að?</string>
-  <string name="CameraContacts_invite_a_contact_to_join_signal">Bjóddu tengilið að koma á Signal</string>
+  <string name="CameraContacts_invite_a_contact_to_join_signal">Bjóddu tengilið að koma á Grapherex</string>
   <string name="CameraContacts__menu_search">Leita</string>
   <!--ClearProfileActivity-->
   <string name="ClearProfileActivity_remove">Fjarlægja</string>
   <string name="ClearProfileActivity_remove_profile_photo">Fjarlægja auðkennismynd?</string>
   <string name="ClearProfileActivity_remove_group_photo">Fjarlægja hópmynd?</string>
   <!--ClientDeprecatedActivity-->
-  <string name="ClientDeprecatedActivity_update_signal">Uppfæra Signal</string>
+  <string name="ClientDeprecatedActivity_update_signal">Uppfæra Grapherex</string>
   <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">Þessi útgáfa forritsins er útrunnin. Uppfærðu í nýjustu útgáfuna til að halda áfram samskiptum.</string>
   <string name="ClientDeprecatedActivity_update">Uppfæra</string>
   <string name="ClientDeprecatedActivity_dont_update">Ekki uppfæra</string>
   <string name="ClientDeprecatedActivity_warning">Viðvörun</string>
-  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Útgáfa þín af Signal er útrunnin. Þú getur skoðað skilaboðaferilinn þinn, en þú verður að uppfæra í nýjustu útgáfuna til að halda áfram samskiptum.</string>
+  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Útgáfa þín af Grapherex er útrunnin. Þú getur skoðað skilaboðaferilinn þinn, en þú verður að uppfæra í nýjustu útgáfuna til að halda áfram samskiptum.</string>
   <!--CommunicationActions-->
   <string name="CommunicationActions_no_browser_found">Enginn vafri fannst.</string>
   <string name="CommunicationActions_send_email">Senda tölvupóst</string>
@@ -137,9 +137,9 @@
   <string name="CommunicationActions_cancel">Hætta við</string>
   <string name="CommunicationActions_call">Hringja</string>
   <string name="CommunicationActions_insecure_call">Óöruggt símtal</string>
-  <string name="CommunicationActions_carrier_charges_may_apply">Gjöld vegna farsímaþjónustu gætu fallið til. Númerið sem þú ert að hringja í er ekki skráð hjá Signal. Símtalið mun fara í gegnum símaþjónustufyrirtækið þitt, ekki í gegnum internetið.</string>
+  <string name="CommunicationActions_carrier_charges_may_apply">Gjöld vegna farsímaþjónustu gætu fallið til. Númerið sem þú ert að hringja í er ekki skráð hjá Grapherex. Símtalið mun fara í gegnum símaþjónustufyrirtækið þitt, ekki í gegnum internetið.</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Öryggisnúmer þitt með %1$s hefur breyst. Þetta gæti þýtt að einhver sé að reyna að komast inn í samskiptin þín, eða einfaldlega að %2$s hefur sett Signal upp aftur. Þú gætir viljað sannreyna nýja öryggisnúmerið hér fyrir neðan.</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Öryggisnúmer þitt með %1$s hefur breyst. Þetta gæti þýtt að einhver sé að reyna að komast inn í samskiptin þín, eða einfaldlega að %2$s hefur sett Grapherex upp aftur. Þú gætir viljað sannreyna nýja öryggisnúmerið hér fyrir neðan.</string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">Þú gætir viljað staðfesta öryggisnúmer þitt og þessa tengiliðar.</string>
   <string name="ConfirmIdentityDialog_accept">Samþykkja</string>
   <!--ContactsCursorLoader-->
@@ -150,7 +150,7 @@
   <string name="ContactsCursorLoader_username_search">Leita að notandanafni</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">Skilaboð %s</string>
-  <string name="ContactsDatabase_signal_call_s">Hringja með Signal í %s </string>
+  <string name="ContactsDatabase_signal_call_s">Hringja með Grapherex í %s </string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">Eiginnafn</string>
   <string name="ContactNameEditActivity_family_name">Eftirnafn</string>
@@ -172,7 +172,7 @@
   <string name="ConversationItem_click_to_approve_unencrypted">Sending mistókst, ýttu fyrir óörugga varaleið</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">Nota ódulritað SMS til vara?</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">Nota ódulritað MMS til vara?</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Þessi skilaboð verða <b>ekki</b> dulrituð því viðtakandinn er ekki lengur að nota Signal.\n\nSenda óörugg skilaboð?</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Þessi skilaboð verða <b>ekki</b> dulrituð því viðtakandinn er ekki lengur að nota Grapherex.\n\nSenda óörugg skilaboð?</string>
   <string name="ConversationItem_unable_to_open_media">Finn ekki smáforrit sem getur opnað þetta efni.</string>
   <string name="ConversationItem_copied_text">Afritaði %s</string>
   <string name="ConversationItem_from_s">úr %s</string>
@@ -200,8 +200,8 @@
   <string name="ConversationActivity_this_device_does_not_appear_to_support_dial_actions">Það lítur út eins og þetta tæki styðji ekki hringiaðgerðir.</string>
   <string name="ConversationActivity_transport_insecure_sms">Óöruggt SMS</string>
   <string name="ConversationActivity_transport_insecure_mms">Óöruggt MMS</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">Skiptum yfir í Signal %1$s</string>
+  <string name="ConversationActivity_transport_signal">Grapherex</string>
+  <string name="ConversationActivity_lets_switch_to_signal">Skiptum yfir í Grapherex %1$s</string>
   <string name="ConversationActivity_specify_recipient">Veldu tengilið</string>
   <string name="ConversationActivity_unblock">Opna á</string>
   <string name="ConversationActivity_attachment_exceeds_size_limits">Stærð viðhengis er meiri en leyfilegt er fyrir þá gerð skilaboða sem þú ert að senda.</string>
@@ -210,17 +210,17 @@
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Ekkert forrit sem getur meðhöndlað þennan tengil er tiltækt á tækinu þínu.</string>
   <string name="ConversationActivity_your_request_to_join_has_been_sent_to_the_group_admin">Beiðni þín um þátttöku hefur verið send til stjórnenda hópsins. Þú munt fá að vita þegar þeir hafa brugðist við.</string>
   <string name="ConversationActivity_cancel_request">Hætta við beiðni</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Svo hægt sé að senda hljóðskilaboð þarf Signal að fá aðgang að hljóðnemanum þínum.</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal þarf heimild til að nota hljóðnemann til að geta sent hljóðskilaboð, en því hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á \"Hljóðnemi\".</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signal þarf heimild til að nota hljóðnema og myndavél til að geta hringt í %s, en þessum heimildum hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á bæði \"Hljóðnemi\" og \"Myndavél\".</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Svo hægt sé að taka myndir og myndskeið, þarf Signal að fá aðgang að myndavélinni þinni.</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal þarf heimild til að nota myndavélina til að geta tekið myndir eða myndskeið, en því hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á \"Myndavél\".</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signal þarf heimild til að nota myndavélina til að geta tekið myndir eða myndskeið</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Svo hægt sé að senda hljóðskilaboð þarf Grapherex að fá aðgang að hljóðnemanum þínum.</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Grapherex þarf heimild til að nota hljóðnemann til að geta sent hljóðskilaboð, en því hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á \"Hljóðnemi\".</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Grapherex þarf heimild til að nota hljóðnema og myndavél til að geta hringt í %s, en þessum heimildum hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á bæði \"Hljóðnemi\" og \"Myndavél\".</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Svo hægt sé að taka myndir og myndskeið, þarf Grapherex að fá aðgang að myndavélinni þinni.</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Grapherex þarf heimild til að nota myndavélina til að geta tekið myndir eða myndskeið, en því hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á \"Myndavél\".</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Grapherex þarf heimild til að nota myndavélina til að geta tekið myndir eða myndskeið</string>
   <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">Virkjaðu heimild til að nota hljóðnema til að taka upp myndskeið með hljóði.</string>
-  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Signal þarf heimild til að nota hljóðnema og myndavél til að geta tekið upp myndskeið, en þessum heimildum hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á bæði \"Hljóðnemi\" og \"Myndavél\".</string>
-  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Signal þarf heimild til að nota hljóðnema til að geta tekið upp myndskeið.</string>
+  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Grapherex þarf heimild til að nota hljóðnema og myndavél til að geta tekið upp myndskeið, en þessum heimildum hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á bæði \"Hljóðnemi\" og \"Myndavél\".</string>
+  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Grapherex þarf heimild til að nota hljóðnema til að geta tekið upp myndskeið.</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
-  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Signal getur ekki sent SMS/MMS skilaboð því það er ekki sjálfgefna SMS-forritið þitt. Myndirðu vilja breyta þessu í Android-stillingunum þínum?</string>
+  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Grapherex getur ekki sent SMS/MMS skilaboð því það er ekki sjálfgefna SMS-forritið þitt. Myndirðu vilja breyta þessu í Android-stillingunum þínum?</string>
   <string name="ConversationActivity_yes">Já</string>
   <string name="ConversationActivity_no">Nei</string>
   <string name="ConversationActivity_search_position">%1$d af %2$d</string>
@@ -234,7 +234,7 @@
   <string name="ConversationActivity_you_will_leave_this_group_and_it_will_be_deleted_from_all_of_your_devices">Þú munt yfirgefa þennan hóp og verður honum eytt úr öllum þínum tækjum.</string>
   <string name="ConversationActivity_delete">Eyða</string>
   <string name="ConversationActivity_delete_and_leave">Eyða og yfirgefa</string>
-  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">Svo hægt sé að hringja í %1$s, þarf Signal að fá aðgang að hljóðnemanum þínum.</string>
+  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">Svo hægt sé að hringja í %1$s, þarf Grapherex að fá aðgang að hljóðnemanum þínum.</string>
   <string name="ConversationActivity__more_options_now_in_group_settings">Fleiri valkostir núna í \"Stillingar hóps\"</string>
   <string name="ConversationActivity_join">Taka þátt</string>
   <string name="ConversationActivity_full">Fullt</string>
@@ -268,14 +268,14 @@
     <item quantity="other">Vista %1$d viðhengi í geymslurými…</item>
   </plurals>
   <string name="ConversationFragment_pending">Í bið…</string>
-  <string name="ConversationFragment_push">Gögn (Signal)</string>
+  <string name="ConversationFragment_push">Gögn (Grapherex)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">Eyði</string>
   <string name="ConversationFragment_deleting_messages">Eyði skilaboðum…</string>
   <string name="ConversationFragment_delete_for_me">Eyða hjá mér</string>
   <string name="ConversationFragment_delete_for_everyone">Eyða hjá öllum</string>
-  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Þessum skilaboðum verður eytt hjá öllum í spjallinu ef þeir eru með nýlega útgáfu af Signal. Viðkomandi munu geta séð að þú eyddir skilaboðum.</string>
+  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Þessum skilaboðum verður eytt hjá öllum í spjallinu ef þeir eru með nýlega útgáfu af Grapherex. Viðkomandi munu geta séð að þú eyddir skilaboðum.</string>
   <string name="ConversationFragment_quoted_message_not_found">Upphafleg skilaboð finnast ekki</string>
   <string name="ConversationFragment_quoted_message_no_longer_available">Upphafleg skilaboð ekki fáanleg</string>
   <string name="ConversationFragment_failed_to_open_message">Mistókst að opna skilaboð</string>
@@ -287,12 +287,12 @@
   <string name="ConversationFragment__d_group_members_have_the_same_name">%1$d meðlimir hóps eru með sama nafn.</string>
   <string name="ConversationFragment__tap_to_review">Ýttu til að yfirfara</string>
   <string name="ConversationFragment__review_requests_carefully">Yfirfarðu beiðnir vandlega</string>
-  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Signal fann annan tengilið með sama nafn.</string>
+  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Grapherex fann annan tengilið með sama nafn.</string>
   <string name="ConversationFragment_contact_us">Hafðu samband við okkur</string>
   <string name="ConversationFragment_verify">Sannreyna</string>
   <string name="ConversationFragment_not_now">Ekki núna</string>
   <string name="ConversationFragment_your_safety_number_with_s_changed">Öryggisnúmer þitt með %s hefur breyst</string>
-  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Öryggisnúmer þitt með %s hefur breyst, líklega vegna þess að viðkomandi hefur sett Signal upp aftur eða hefur skipt um tæki. Ýttu á \'Sannreyna\' til að sannreyna nýja öryggisnúmerið. Þetta er valkvætt.</string>
+  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Öryggisnúmer þitt með %s hefur breyst, líklega vegna þess að viðkomandi hefur sett Grapherex upp aftur eða hefur skipt um tæki. Ýttu á \'Sannreyna\' til að sannreyna nýja öryggisnúmerið. Þetta er valkvætt.</string>
   <plurals name="ConversationListFragment_delete_selected_conversations">
     <item quantity="one">Eyða völdu samtali?</item>
     <item quantity="other">Eyða völdum samtölum?</item>
@@ -349,11 +349,11 @@
   <string name="BackupsPreferenceFragment__test_your_backup_passphrase">Prófaðu aðgangskóða öryggisafritsins til að staðfesta að hann sé réttur</string>
   <string name="BackupsPreferenceFragment__turn_on">Kveikja</string>
   <string name="BackupsPreferenceFragment__turn_off">Slökkva</string>
-  <string name="BackupsPreferenceFragment__to_restore_a_backup">Til að endurheimta öryggisafrit, skaltu setja upp nýtt tilvik af Signal. Opnaðu forritið og ýttu á \"Endurheimta öryggisafrit\", síðan skaltu finna skrá með öryggisafriti. %1$s</string>
+  <string name="BackupsPreferenceFragment__to_restore_a_backup">Til að endurheimta öryggisafrit, skaltu setja upp nýtt tilvik af Grapherex. Opnaðu forritið og ýttu á \"Endurheimta öryggisafrit\", síðan skaltu finna skrá með öryggisafriti. %1$s</string>
   <string name="BackupsPreferenceFragment__learn_more">Kanna nánar</string>
   <string name="BackupsPreferenceFragment__in_progress">Í vinnslu…</string>
   <string name="BackupsPreferenceFragment__d_so_far">%1$d eins og er…</string>
-  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Signal þarf heimild til að lesa ytra minni til að geta tekið öryggisafrit, en því hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á \"Geymslurými\".</string>
+  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Grapherex þarf heimild til að lesa ytra minni til að geta tekið öryggisafrit, en því hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á \"Geymslurými\".</string>
   <!--CustomDefaultPreference-->
   <string name="CustomDefaultPreference_using_custom">Nota sérsniðið: %s</string>
   <string name="CustomDefaultPreference_using_default">Nota sjálfgefið: %s</string>
@@ -372,7 +372,7 @@
   <string name="DateUtils_yesterday">Í gær</string>
   <!--DecryptionFailedDialog-->
   <string name="DecryptionFailedDialog_chat_session_refreshed">Spjallseta endurlesin</string>
-  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Signal notar enda-í-enda dulritun og gæti þurft öðru hvoru að endurlesa spjallferilinn þinn. Þetta hefur ekki áhrif á öryggi spjallsins þíns, en þú gætir hafa misst af skilaboðum frá þessum tengilið og þú ættir kannski að biðja viðkomandi um að endursenda skilaboðin.</string>
+  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Grapherex notar enda-í-enda dulritun og gæti þurft öðru hvoru að endurlesa spjallferilinn þinn. Þetta hefur ekki áhrif á öryggi spjallsins þíns, en þú gætir hafa misst af skilaboðum frá þessum tengilið og þú ættir kannski að biðja viðkomandi um að endursenda skilaboðin.</string>
   <!--DeviceListActivity-->
   <string name="DeviceListActivity_unlink_s">Aftengja \'%s\'?</string>
   <string name="DeviceListActivity_by_unlinking_this_device_it_will_no_longer_be_able_to_send_or_receive">Með því að aftengja þetta tæki mun það ekki lengur geta tekið á móti eða sent skilaboðum.</string>
@@ -389,8 +389,8 @@
   <!--DocumentView-->
   <string name="DocumentView_unnamed_file">Nafnlaus skrá</string>
   <!--DonateMegaphone-->
-  <string name="DonateMegaphone_donate_to_signal">Gefa til Signal</string>
-  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Signal er keyrt áfram af fólki eins og þér. Sýndu stuðning þinn í verki!</string>
+  <string name="DonateMegaphone_donate_to_signal">Gefa til Grapherex</string>
+  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Grapherex er keyrt áfram af fólki eins og þér. Sýndu stuðning þinn í verki!</string>
   <string name="DonateMegaphone_donate">Gefa</string>
   <string name="DonateMegaphone_no_thanks">Nei takk</string>
   <!--GroupCallingMegaphone-->
@@ -398,9 +398,9 @@
   <string name="GroupCallingMegaphone__open_a_new_group_to_start">Opnaðu nýjan hóp til að byrja ókeypis dulritað hópsímtal</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">Besta kerfið fyrir Play-þjónustur sem vantar</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Þetta tæki styður ekki Play-þjónustur. Ýttu til að gera óvirkar rafhlöðustillingar sem koma í veg fyrir að Signal geti náð í skilaboð þótt það sé í dvala.</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Þetta tæki styður ekki Play-þjónustur. Ýttu til að gera óvirkar rafhlöðustillingar sem koma í veg fyrir að Grapherex geti náð í skilaboð þótt það sé í dvala.</string>
   <!--ExpiredBuildReminder-->
-  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Þessi útgáfa Signal Desktop er útrunnin. Uppfærðu í nýjustu útgáfuna til að halda áfram samskiptum.</string>
+  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Þessi útgáfa Grapherex Desktop er útrunnin. Uppfærðu í nýjustu útgáfuna til að halda áfram samskiptum.</string>
   <string name="ExpiredBuildReminder_update_now">Uppfæra núna</string>
   <!--PendingGroupJoinRequestsReminder-->
   <plurals name="PendingGroupJoinRequestsReminder_d_pending_member_requests">
@@ -412,8 +412,8 @@
   <string name="ShareActivity_share_with">Deila með</string>
   <string name="ShareActivity_multiple_attachments_are_only_supported">Að hengja við mörg viðhengi í einu er aðeins stutt fyrir myndir og myndskeið</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Viðvarandi bilun í Signal-samskiptum!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal náði ekki að skrá sig inn á Google Play þjónustur. Skilaboð og hringingar úr Signal hafa verið gerð óvirk, prófaðu að endurskrá í Stillingar &gt; Ítarlegt.</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Viðvarandi bilun í Grapherex-samskiptum!</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Grapherex náði ekki að skrá sig inn á Google Play þjónustur. Skilaboð og hringingar úr Grapherex hafa verið gerð óvirk, prófaðu að endurskrá í Stillingar &gt; Ítarlegt.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Villa við að ná í GIF-mynd í fullri upplausn</string>
   <!--GiphyFragmentPageAdapter-->
@@ -572,7 +572,7 @@
   <string name="AddGroupDetailsFragment__this_field_is_required">Þessi reitur er nauðsynlegur.</string>
   <string name="AddGroupDetailsFragment__group_creation_failed">Gerð hóps mistókst.</string>
   <string name="AddGroupDetailsFragment__try_again_later">Reyndu aftur síðar.</string>
-  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">Þú hefur valið tengilið sem styður ekki Signal-hópa, þannig að þessi hópur verður MMS.</string>
+  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">Þú hefur valið tengilið sem styður ekki Grapherex-hópa, þannig að þessi hópur verður MMS.</string>
   <string name="AddGroupDetailsFragment_custom_mms_group_names_and_photos_will_only_be_visible_to_you">Hópanöfn og myndir sérsniðinna MMS-hópa verða einungis sýnileg þér.</string>
   <string name="AddGroupDetailsFragment__remove">Fjarlægja</string>
   <string name="AddGroupDetailsFragment__sms_contact">SMS-tengiliður</string>
@@ -586,15 +586,15 @@
     <item quantity="other">%d meðlimir eru ekki með stuðning við nýju gerðina af hópum, þannig að þessi hópur verður ekki útbúinn.</item>
   </plurals>
   <!--NonGv2MemberDialog-->
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">Búinn verður til hópur af eldri gerðinni þar sem \"%1$s\" er að nota gamla útgáfu af Signal. Þú getur búið til hóp af nýju gerðinni með viðkomandi eftir að hann hefur uppfært Signal, eða að fjarlægja hann áður en hópurinn er útbúinn.</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">Búinn verður til hópur af eldri gerðinni þar sem \"%1$s\" er að nota gamla útgáfu af Grapherex. Þú getur búið til hóp af nýju gerðinni með viðkomandi eftir að hann hefur uppfært Grapherex, eða að fjarlægja hann áður en hópurinn er útbúinn.</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable">
-    <item quantity="one">Búinn verður til hópur af eldri gerðinni þar sem %1$d meðlimur er að nota gamla útgáfu af Signal. Þú getur búið til hóp af nýju gerðinni með viðkomandi eftir að hann hefur uppfært Signal, eða að fjarlægja hann áður en hópurinn er útbúinn.</item>
-    <item quantity="other">Búinn verður til hópur af eldri gerðinni þar sem %1$d meðlimir eru að nota gamla útgáfu af Signal. Þú getur búið til hóp af nýju gerðinni með viðkomandi eftir að þeir hafa uppfært Signal, eða að fjarlægja þessa meðlimi áður en hópurinn er útbúinn.</item>
+    <item quantity="one">Búinn verður til hópur af eldri gerðinni þar sem %1$d meðlimur er að nota gamla útgáfu af Grapherex. Þú getur búið til hóp af nýju gerðinni með viðkomandi eftir að hann hefur uppfært Grapherex, eða að fjarlægja hann áður en hópurinn er útbúinn.</item>
+    <item quantity="other">Búinn verður til hópur af eldri gerðinni þar sem %1$d meðlimir eru að nota gamla útgáfu af Grapherex. Þú getur búið til hóp af nýju gerðinni með viðkomandi eftir að þeir hafa uppfært Grapherex, eða að fjarlægja þessa meðlimi áður en hópurinn er útbúinn.</item>
   </plurals>
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">Ekki er hægt að búa til þennan hóp þar sem \"%1$s\" er að nota gamla útgáfu af Signal. Þú verður að fjarlægja hann áður en hópurinn er útbúinn.</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">Ekki er hægt að búa til þennan hóp þar sem \"%1$s\" er að nota gamla útgáfu af Grapherex. Þú verður að fjarlægja hann áður en hópurinn er útbúinn.</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable_forced_migration">
-    <item quantity="one">Ekki er hægt að búa til þennan hóp þar sem %1$d meðlimur eru að nota gamla útgáfu af Signal. Þú þarft að fjarlægja þennan meðlim áður en hópurinn er útbúinn.</item>
-    <item quantity="other">Ekki er hægt að búa til þennan hóp þar sem %1$d meðlimir eru að nota gamla útgáfu af Signal. Þú þarft að fjarlægja þessa meðlimi áður en hópurinn er útbúinn.</item>
+    <item quantity="one">Ekki er hægt að búa til þennan hóp þar sem %1$d meðlimur eru að nota gamla útgáfu af Grapherex. Þú þarft að fjarlægja þennan meðlim áður en hópurinn er útbúinn.</item>
+    <item quantity="other">Ekki er hægt að búa til þennan hóp þar sem %1$d meðlimir eru að nota gamla útgáfu af Grapherex. Þú þarft að fjarlægja þessa meðlimi áður en hópurinn er útbúinn.</item>
   </plurals>
   <!--ManageGroupActivity-->
   <string name="ManageGroupActivity_member_requests_and_invites">Beiðnir um þátttöku og boð</string>
@@ -624,7 +624,7 @@
   <string name="ManageGroupActivity_only_admins_can_enable_or_disable_the_option_to_approve_new_members">Aðeins stjórnendur geta gert valkostinn til að samþykkja nýja notendur virkan eða óvirkan.</string>
   <string name="ManageGroupActivity_only_admins_can_reset_the_sharable_group_link">Aðeins stjórnendur geta endurstillt deilanlega hóptengilinn.</string>
   <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">Þú ert ekki með heimildir til að gera þetta</string>
-  <string name="ManageGroupActivity_not_capable">Einhver sem þú bættir við er ekki með stuðning við nýju gerðina af hópum og þarf því að uppfæra Signal</string>
+  <string name="ManageGroupActivity_not_capable">Einhver sem þú bættir við er ekki með stuðning við nýju gerðina af hópum og þarf því að uppfæra Grapherex</string>
   <string name="ManageGroupActivity_failed_to_update_the_group">Mistókst að uppfæra hópinn</string>
   <string name="ManageGroupActivity_youre_not_a_member_of_the_group">Þú ert ekki meðlimur í þessum hópi</string>
   <string name="ManageGroupActivity_failed_to_update_the_group_please_retry_later">Mistókst að uppfæra hópinn, prófaðu aftur síðar</string>
@@ -635,7 +635,7 @@
   <string name="ManageGroupActivity_legacy_group_upgrade">Þetta er eldri gerðin af hóp. Til að nýta eiginleika á borð við @mentions og hópstjóra skaltu</string>
   <string name="ManageGroupActivity_legacy_group_too_large">Þennan hóp af eldri gerð er ekki hægt að uppfæra í nýju gerðina af hópum því hann er of stór. Hámarksstærð hópa er %1$d.</string>
   <string name="ManageGroupActivity_upgrade_this_group">uppfæra þennan hóp.</string>
-  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Þetta er óöruggur MMS-hópur. Til að spjalla í friði ættirðu að bjóða tengiliðunum þínum á Signal.</string>
+  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Þetta er óöruggur MMS-hópur. Til að spjalla í friði ættirðu að bjóða tengiliðunum þínum á Grapherex.</string>
   <string name="ManageGroupActivity_invite_now">Bjóða núna</string>
   <!--GroupMentionSettingDialog-->
   <string name="GroupMentionSettingDialog_notify_me_for_mentions">Láta mig vita þegar minnst er á</string>
@@ -727,10 +727,10 @@
     <item quantity="other">Hópur · %1$d meðlimir</item>
   </plurals>
   <!--GroupJoinUpdateRequiredBottomSheetDialogFragment-->
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Uppfærðu Signal til að geta notað hóptengla.</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Þessi útgáfa Signal Desktop styður ekki þennan hóptengil. Uppfærðu í nýjustu útgáfuna til að ganga í þennan hóp með hóptengli.</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Uppfæra Signal</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">Eitt eða fleiri af tengdu tækjunum þínum notar útgáfu af Signal sem styður ekki hóptengla. Uppfærðu í Signal í nýjustu útgáfuna á tækjunum þínum til að ganga í þennan hóp.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Uppfærðu Grapherex til að geta notað hóptengla.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Þessi útgáfa Grapherex Desktop styður ekki þennan hóptengil. Uppfærðu í nýjustu útgáfuna til að ganga í þennan hóp með hóptengli.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Uppfæra Grapherex</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">Eitt eða fleiri af tengdu tækjunum þínum notar útgáfu af Grapherex sem styður ekki hóptengla. Uppfærðu í Grapherex í nýjustu útgáfuna á tækjunum þínum til að ganga í þennan hóp.</string>
   <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">Hóptengill er ekki gildur</string>
   <!--GroupInviteLinkEnableAndShareBottomSheetDialogFragment-->
   <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_invite_friends">Bjóða vinum</string>
@@ -760,7 +760,7 @@
   <string name="InviteActivity_cancel">Hætta við</string>
   <string name="InviteActivity_sending">Sendi…</string>
   <string name="InviteActivity_invitations_sent">Boð send!</string>
-  <string name="InviteActivity_invite_to_signal">Bjóða á Signal</string>
+  <string name="InviteActivity_invite_to_signal">Bjóða á Grapherex</string>
   <plurals name="InviteActivity_send_sms_to_friends">
     <item quantity="one">SENDA SMS TIL %d VINAR</item>
     <item quantity="other">SENDA SMS TIL %d VINA</item>
@@ -769,7 +769,7 @@
     <item quantity="one">Senda %d SMS boð?</item>
     <item quantity="other">Senda %d SMS boð?</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">Skiptum yfir í Signal: %1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">Skiptum yfir í Grapherex: %1$s</string>
   <string name="InviteActivity_no_app_to_share_to">Það lítur út eins og þú sért ekki með nein forrit sem hægt sé að deila til.</string>
   <string name="InviteActivity_friends_dont_let_friends_text_unencrypted">Vinir láta vini sína ekki spjalla án dulritunar.</string>
   <!--LearnMoreTextView-->
@@ -779,7 +779,7 @@
   <string name="LongMessageActivity_message_from_s">Skilaboð frá %1$s</string>
   <string name="LongMessageActivity_your_message">Skilaboðin þín</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">Grapherex</string>
   <string name="MessageRetrievalService_background_connection_enabled">Bakgrunnstenging virkjuð</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">Villa við að lesa MMS-stillingar þráðlausu þjónustuveitunnar</string>
@@ -828,7 +828,7 @@
   <string name="Megaphones_introducing_reactions">Kynning á viðbrögðum</string>
   <string name="Megaphones_tap_and_hold_any_message_to_quicky_share_how_you_feel">Ýttu og haltu niðri til að deila í skyndi hvernig þér líður.</string>
   <string name="Megaphones_remind_me_later">Áminna mig síðar</string>
-  <string name="Megaphones_verify_your_signal_pin">Staðfestu PIN-númer Signal</string>
+  <string name="Megaphones_verify_your_signal_pin">Staðfestu PIN-númer Grapherex</string>
   <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">Til að auðvelda þér að muna PIN-númerið munum við biðja þig öðru hvoru um að staðfesta það.</string>
   <string name="Megaphones_verify_pin">Staðfestu PIN-númer</string>
   <string name="Megaphones_get_started">Til að komast í gang</string>
@@ -836,10 +836,10 @@
   <string name="Megaphones_invite_friends">Bjóða vinum</string>
   <string name="Megaphones_use_sms">Nota SMS</string>
   <!--NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Hringing með Signal í gangi</string>
-  <string name="NotificationBarManager__establishing_signal_call">Er að tengja hringingu með Signal</string>
-  <string name="NotificationBarManager__incoming_signal_call">Innhringing með Signal</string>
-  <string name="NotificationBarManager__stopping_signal_call_service">Stöðva hringiþjónustu Signal</string>
+  <string name="NotificationBarManager_signal_call_in_progress">Hringing með Grapherex í gangi</string>
+  <string name="NotificationBarManager__establishing_signal_call">Er að tengja hringingu með Grapherex</string>
+  <string name="NotificationBarManager__incoming_signal_call">Innhringing með Grapherex</string>
+  <string name="NotificationBarManager__stopping_signal_call_service">Stöðva hringiþjónustu Grapherex</string>
   <string name="NotificationBarManager__deny_call">Hafna símtali</string>
   <string name="NotificationBarManager__answer_call">Svara símtali</string>
   <string name="NotificationBarManager__end_call">Ljúka símtali</string>
@@ -863,8 +863,8 @@
   <string name="MediaSendActivity_message_to_s">Skilaboð til %s</string>
   <string name="MediaSendActivity_message">Skilaboð</string>
   <string name="MediaSendActivity_select_recipients">Veldu viðtakendur</string>
-  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Signal þarf aðgang að tengiliðunum þinum svo hægt sé að birta þá.</string>
-  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Signal þarf heimild til að nota tengiliði til að geta birt upplýsingar varðandi tengiliði, en því hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á \"Tengiliðir\".</string>
+  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Grapherex þarf aðgang að tengiliðunum þinum svo hægt sé að birta þá.</string>
+  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Grapherex þarf heimild til að nota tengiliði til að geta birt upplýsingar varðandi tengiliði, en því hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á \"Tengiliðir\".</string>
   <plurals name="MediaSendActivity_cant_share_more_than_n_items">
     <item quantity="one">Ekki er hægt að deila fleiri en %d atriði.</item>
     <item quantity="other">Ekki er hægt að deila fleiri en %d atriðum.</item>
@@ -876,7 +876,7 @@
   <string name="MediaRepository__camera">Myndavél</string>
   <!--MessageRecord-->
   <string name="MessageRecord_unknown">Óþekkt</string>
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Tók við skilaboðum sem dulrituð voru í eldri útgáfu Signal sem ekki er lengur studd. Biddu sendandann um að uppfæra hjá sér og senda svo skilaboðin aftur.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Tók við skilaboðum sem dulrituð voru í eldri útgáfu Grapherex sem ekki er lengur studd. Biddu sendandann um að uppfæra hjá sér og senda svo skilaboðin aftur.</string>
   <string name="MessageRecord_left_group">Þú hefur yfirgefið hópinn.</string>
   <string name="MessageRecord_you_updated_group">Þú uppfærðir hópinn.</string>
   <string name="MessageRecord_the_group_was_updated">Hópurinn var uppfærður.</string>
@@ -885,7 +885,7 @@
   <string name="MessageRecord_missed_video_call_date">Ósvarað myndsímtal - %1$s</string>
   <string name="MessageRecord_s_updated_group">%s uppfærði hópinn.</string>
   <string name="MessageRecord_s_called_you_date">%1$s hringdi í þig · %2$s</string>
-  <string name="MessageRecord_s_joined_signal">%s er á Signal!</string>
+  <string name="MessageRecord_s_joined_signal">%s er á Grapherex!</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">Þú gerðir sjálfeyðandi skilaboð óvirk</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$s gerði sjálfeyðandi skilaboð óvirk</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">Þú tímastilltir sjálfeyðandi skilaboð á %1$s.</string>
@@ -1099,9 +1099,9 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">Ógildur QR-kóði</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Því miður ertu þegar með of mörg tæki tengd. Prófaðu að fækka þeim.</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Því miður, þetta er ekki gildur QR-kóði slóðar á tæki.</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">Tengja Signal-tæki?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Það lítur út eins og þú sért að reyna að tengja Signal-tæki með skanna frá utanaðkomandi aðila. Til að gæta öryggis þíns ættirðu að skanna kóðann aftur innan úr Signal.</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Signal þarf heimild til að nota myndavélina til að geta skannað QR-kóða, en því hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á \"Myndavél\".</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">Tengja Grapherex-tæki?</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Það lítur út eins og þú sért að reyna að tengja Grapherex-tæki með skanna frá utanaðkomandi aðila. Til að gæta öryggis þíns ættirðu að skanna kóðann aftur innan úr Grapherex.</string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Grapherex þarf heimild til að nota myndavélina til að geta skannað QR-kóða, en því hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á \"Myndavél\".</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Get ekki skannað QR-kóða án heimildar til að nota myndavélina</string>
   <!--ExpirationDialog-->
   <string name="ExpirationDialog_disappearing_messages">Sjálfeyðandi skilaboð</string>
@@ -1109,18 +1109,18 @@
   <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Send og móttekin skilaboð í þessu samtali hverfa %s eftir að þau hafa verið skoðuð.</string>
   <!--OutdatedBuildReminder-->
   <string name="OutdatedBuildReminder_update_now">Uppfæra núna</string>
-  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Þessi útgáfa Signal rennur út í dag. Uppfærðu í nýjustu útgáfuna.</string>
+  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Þessi útgáfa Grapherex rennur út í dag. Uppfærðu í nýjustu útgáfuna.</string>
   <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-    <item quantity="one">Þessi útgáfa Signal rennur út á morgun. Uppfærðu í nýjustu útgáfuna.</item>
-    <item quantity="other">Þessi útgáfa Signal rennur út eftir %d daga. Uppfærðu í nýjustu útgáfuna.</item>
+    <item quantity="one">Þessi útgáfa Grapherex rennur út á morgun. Uppfærðu í nýjustu útgáfuna.</item>
+    <item quantity="other">Þessi útgáfa Grapherex rennur út eftir %d daga. Uppfærðu í nýjustu útgáfuna.</item>
   </plurals>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">Settu inn lykilorð</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Signal-táknmynd</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">Grapherex-táknmynd</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">Senda inn lykilorð</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Ógilt lykilorð!</string>
-  <string name="PassphrasePromptActivity_unlock_signal">Aflæsa Signal</string>
-  <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android - Skjálæsing</string>
+  <string name="PassphrasePromptActivity_unlock_signal">Aflæsa Grapherex</string>
+  <string name="PassphrasePromptActivity_signal_android_lock_screen">Grapherex Android - Skjálæsing</string>
   <!--PlacePickerActivity-->
   <string name="PlacePickerActivity_title">Landakort</string>
   <string name="PlacePickerActivity_drop_pin">Títuprjónn</string>
@@ -1141,16 +1141,16 @@
     <item quantity="one">Þú átt eftir %1$d tilraun. Ef þú færð ekki fleiri tilraunir, geturðu búið til nýtt PIN-númer. Þú getur skráð og notað aðganginn þinn, en þú munt tapa einhverju af vistuðum stillingum á borð við upplýsingar í notandasniðinu þínu.</item>
     <item quantity="other">Þú átt eftir %1$d tilraunir. Ef þær klárast, geturðu búið til nýtt PIN-númer. Þú getur skráð og notað aðganginn þinn, en þú munt tapa einhverju af vistuðum stillingum á borð við upplýsingar í notandasniðinu þínu.</item>
   </plurals>
-  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Skráning á Signal - Þarf hjálp vegna PIN-númers fyrir Android</string>
+  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Skráning á Grapherex - Þarf hjálp vegna PIN-númers fyrir Android</string>
   <string name="PinRestoreEntryFragment_enter_alphanumeric_pin">Settu inn PIN-númer með tölu- og bókstöfum</string>
   <string name="PinRestoreEntryFragment_enter_numeric_pin">Settu inn PIN-númer með tölustöfum</string>
   <!--PinRestoreLockedFragment-->
   <string name="PinRestoreLockedFragment_create_your_pin">Útbúðu PIN-númer fyrir þig</string>
-  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Þú hefur klárað tækifærin til að giska á PIN-númerið, en þú getur samt fengið aðgang að Signal-aðgangnum þínum með því að útbúa nýtt PIN-númer. Til að tryggja gagnaleynd og öryggi verður aðgangurinn endurheimtur án nokkurra vistaðra upplýsinga eða stillinga notandasniðsins.</string>
+  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Þú hefur klárað tækifærin til að giska á PIN-númerið, en þú getur samt fengið aðgang að Grapherex-aðgangnum þínum með því að útbúa nýtt PIN-númer. Til að tryggja gagnaleynd og öryggi verður aðgangurinn endurheimtur án nokkurra vistaðra upplýsinga eða stillinga notandasniðsins.</string>
   <string name="PinRestoreLockedFragment_create_new_pin">Útbúðu nýtt PIN-númer</string>
   <!--PinOptOutDialog-->
   <string name="PinOptOutDialog_warning">Viðvörun</string>
-  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">Ef þú gerir PIN-númerið óvirkt, muntu tapa öllum gögnum þegar þú endurskráir Signal nema þú takir öryggisafrit handvirkt og endurheimtir það síðan. Þú getur ekki kveikt á skráningarlæsingu á meðan PIN-númerið er óvirkt.</string>
+  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">Ef þú gerir PIN-númerið óvirkt, muntu tapa öllum gögnum þegar þú endurskráir Grapherex nema þú takir öryggisafrit handvirkt og endurheimtir það síðan. Þú getur ekki kveikt á skráningarlæsingu á meðan PIN-númerið er óvirkt.</string>
   <string name="PinOptOutDialog_disable_pin">Gera PIN-númer óvirkt</string>
   <!--RatingManager-->
   <string name="RatingManager_rate_this_app">Gefðu forritinu einkunn</string>
@@ -1181,12 +1181,12 @@
   <string name="RedPhone_got_it">Náði því!</string>
   <!--WebRtcCallActivity-->
   <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">Ýta hér til að virkja myndmerkið þitt</string>
-  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Svo hægt sé að hringja í %1$s, þarf Signal að fá aðgang að myndavélinni þinni.</string>
-  <string name="WebRtcCallActivity__signal_s">Signal %1$s</string>
+  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Svo hægt sé að hringja í %1$s, þarf Grapherex að fá aðgang að myndavélinni þinni.</string>
+  <string name="WebRtcCallActivity__signal_s">Grapherex %1$s</string>
   <string name="WebRtcCallActivity__calling">Hringi…</string>
   <!--WebRtcCallView-->
-  <string name="WebRtcCallView__signal_voice_call">Signal-raddsímtal…</string>
-  <string name="WebRtcCallView__signal_video_call">Signal-myndsímtal…</string>
+  <string name="WebRtcCallView__signal_voice_call">Grapherex-raddsímtal…</string>
+  <string name="WebRtcCallView__signal_video_call">Grapherex-myndsímtal…</string>
   <string name="WebRtcCallView__start_call">Hefja símtal</string>
   <string name="WebRtcCallView__join_call">Taka þátt í símtali</string>
   <string name="WebRtcCallView__call_is_full">Símtal er fullt</string>
@@ -1239,13 +1239,13 @@
   <string name="RegistrationActivity_is_your_phone_number_above_correct">Er símanúmerið þitt hér fyrir ofan örugglega rétt?</string>
   <string name="RegistrationActivity_edit_number">Breyta númeri</string>
   <string name="RegistrationActivity_missing_google_play_services">Google Play þjónusturnar vantar</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Þetta tæki er ekki með Google Play þjónustur. Þú getur samt notað Signal, en svona uppsetning getur valdið minnkuðum áreiðanleika og afköstum.\n\nEf þú ert ekki vanur notandi, ert ekki að nota sérsniðna útgáfu Android ROM, eða heldur að þú sért að fá þessi skilaboð fyrir mistök, skaltu endilega hafa samband við support@signal.org til að fá aðstoð við að leysa vandamálið.</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Þetta tæki er ekki með Google Play þjónustur. Þú getur samt notað Grapherex, en svona uppsetning getur valdið minnkuðum áreiðanleika og afköstum.\n\nEf þú ert ekki vanur notandi, ert ekki að nota sérsniðna útgáfu Android ROM, eða heldur að þú sért að fá þessi skilaboð fyrir mistök, skaltu endilega hafa samband við support@Grapherex.org til að fá aðstoð við að leysa vandamálið.</string>
   <string name="RegistrationActivity_i_understand">Ég skil</string>
   <string name="RegistrationActivity_play_services_error">Villa í Play-þjónustum</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play þjónustur eru að uppfærast eða eru tímabundi óaðgengilegar. Prófaðu aftur.</string>
   <string name="RegistrationActivity_terms_and_privacy">Skilmálar og meðferð persónuupplýsinga</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signal þarf aðgang að tengiliðunum þinum og margmiðlunarefni svo hægt sé að tengjast vinum, skiptast á skilaboðum og hringja örugg símtöl.</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Signal þarf aðgang að tengiliðunum þinum svo hægt sé að tengjast vinum, skiptast á skilaboðum og hringja örugg símtöl.</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Grapherex þarf aðgang að tengiliðunum þinum og margmiðlunarefni svo hægt sé að tengjast vinum, skiptast á skilaboðum og hringja örugg símtöl.</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Grapherex þarf aðgang að tengiliðunum þinum svo hægt sé að tengjast vinum, skiptast á skilaboðum og hringja örugg símtöl.</string>
   <string name="RegistrationActivity_rate_limited_to_service">Þú hefur gert of margar tilraunir til að skrá þetta númer. Prófaðu aftur síðar.</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">Mistókst að tengjast þjónustu. Athugaðu netsambandið þitt og prófaðu aftur.</string>
   <plurals name="RegistrationActivity_debug_log_hint">
@@ -1267,7 +1267,7 @@
   <!--RegistrationLockV2Dialog-->
   <string name="RegistrationLockV2Dialog_turn_on_registration_lock">Kveikja á skráningarlæsingu?</string>
   <string name="RegistrationLockV2Dialog_turn_off_registration_lock">Slökkva á skráningarlæsingu?</string>
-  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Ef þú gleymir Signal PIN-númerinu og ert að skrá þig aftur inn á Signal, verðurðu læst/ur út af aðgangnum þínum í 7 daga.</string>
+  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Ef þú gleymir Grapherex PIN-númerinu og ert að skrá þig aftur inn á Grapherex, verðurðu læst/ur út af aðgangnum þínum í 7 daga.</string>
   <string name="RegistrationLockV2Dialog_turn_on">Kveikja</string>
   <string name="RegistrationLockV2Dialog_turn_off">Slökkva</string>
   <!--RevealableMessageView-->
@@ -1283,14 +1283,14 @@
   <!--ShakeToReport-->
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">Bæta við tengiliði</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">Bjóða á Signal</string>
-  <string name="SharedContactDetailsActivity_signal_message">Signal-skilaboð</string>
-  <string name="SharedContactDetailsActivity_signal_call">Signal-símtal</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">Bjóða á Grapherex</string>
+  <string name="SharedContactDetailsActivity_signal_message">Grapherex-skilaboð</string>
+  <string name="SharedContactDetailsActivity_signal_call">Grapherex-símtal</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">Bæta við tengiliði</string>
-  <string name="SharedContactView_invite_to_signal">Bjóða á Signal</string>
-  <string name="SharedContactView_message">Signal-skilaboð</string>
-  <!--SignalPinReminders-->
+  <string name="SharedContactView_invite_to_signal">Bjóða á Grapherex</string>
+  <string name="SharedContactView_message">Grapherex-skilaboð</string>
+  <!--GrapherexPinReminders-->
   <string name="SignalPinReminders_well_remind_you_again_later">Við munum minna þig á aftur síðar.</string>
   <string name="SignalPinReminders_well_remind_you_again_tomorrow">Við munum minna þig á aftur á morgun.</string>
   <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">Við munum minna þig á aftur eftir nokkra daga.</string>
@@ -1312,14 +1312,14 @@
   <string name="SmsMessageRecord_secure_session_reset">Þú endurstilltir öruggu setuna.</string>
   <string name="SmsMessageRecord_secure_session_reset_s">%s endurstillti öruggu setuna.</string>
   <string name="SmsMessageRecord_duplicate_message">Tvítekin skilaboð.</string>
-  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">Ekki var hægt að meðhöndla þessi skilaboð því þau voru send úr eldri útgáfu Signal. Þú getur beðið tengiliðinn þinn um að senda þau aftur þegar þú hefur uppfært hjá þér.</string>
+  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">Ekki var hægt að meðhöndla þessi skilaboð því þau voru send úr eldri útgáfu Grapherex. Þú getur beðið tengiliðinn þinn um að senda þau aftur þegar þú hefur uppfært hjá þér.</string>
   <string name="SmsMessageRecord_error_handling_incoming_message">Villa við að meðhöndla skilaboð sem bárust.</string>
   <!--StickerManagementActivity-->
   <string name="StickerManagementActivity_stickers">Límmerki</string>
   <!--StickerManagementAdapter-->
   <string name="StickerManagementAdapter_installed_stickers">Uppsett límmerki</string>
   <string name="StickerManagementAdapter_stickers_you_received">Límmerki sem þú fékkst</string>
-  <string name="StickerManagementAdapter_signal_artist_series">Úrval frá listafólki Signal</string>
+  <string name="StickerManagementAdapter_signal_artist_series">Úrval frá listafólki Grapherex</string>
   <string name="StickerManagementAdapter_no_stickers_installed">Engin límmerki uppsett</string>
   <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">Límmerki úr skilaboðum sem þú hefur fengið munu birtast hér</string>
   <string name="StickerManagementAdapter_untitled">Ónefnt</string>
@@ -1344,8 +1344,8 @@
   <string name="SupportEmailUtil_filter">Sía:</string>
   <string name="SupportEmailUtil_device_info">Upplýsingar um tæki:</string>
   <string name="SupportEmailUtil_android_version">Útgáfa Android:</string>
-  <string name="SupportEmailUtil_signal_version">Útgáfa Signal:</string>
-  <string name="SupportEmailUtil_signal_package">Signal-pakki:</string>
+  <string name="SupportEmailUtil_signal_version">Útgáfa Grapherex:</string>
+  <string name="SupportEmailUtil_signal_package">Grapherex-pakki:</string>
   <string name="SupportEmailUtil_registration_lock">Skráningarlæsing:</string>
   <string name="SupportEmailUtil_locale">Staðfærsla:</string>
   <!--ThreadRecord-->
@@ -1364,7 +1364,7 @@
   <string name="ThreadRecord_view_once_media">Skoða-einu-sinni margmiðlunarefni</string>
   <string name="ThreadRecord_this_message_was_deleted">Þessum skilaboðum var eytt.</string>
   <string name="ThreadRecord_you_deleted_this_message">Þú eyddir þessum skilaboðum</string>
-  <string name="ThreadRecord_s_is_on_signal">%s er á Signal!</string>
+  <string name="ThreadRecord_s_is_on_signal">%s er á Grapherex!</string>
   <string name="ThreadRecord_disappearing_messages_disabled">Sjálfeyðandi skilaboð eru óvirk</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">Sjálfeyðandi skilaboð eru tímastillt á %s</string>
   <string name="ThreadRecord_safety_number_changed">Öryggisnúmer hefur breyst</string>
@@ -1380,8 +1380,8 @@
   <string name="ThreadRecord_video">Myndskeið</string>
   <string name="ThreadRecord_chat_session_refreshed">Spjallseta endurlesin</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Uppfærsla á Signal</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Það er nýrri útgáfa af Signal tiltæk, ýttu til að uppfæra</string>
+  <string name="UpdateApkReadyListener_Signal_update">Uppfærsla á Grapherex</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Það er nýrri útgáfa af Grapherex tiltæk, ýttu til að uppfæra</string>
   <!--UntrustedSendDialog-->
   <string name="UntrustedSendDialog_send_message">Senda skilaboð?</string>
   <string name="UntrustedSendDialog_send">Senda</string>
@@ -1400,20 +1400,20 @@
   <string name="UsernameEditFragment_usernames_cannot_begin_with_a_number">Notendanöfn mega ekki byrja á tölustaf.</string>
   <string name="UsernameEditFragment_username_is_invalid">Notandanafnið er ógilt.</string>
   <string name="UsernameEditFragment_usernames_must_be_between_a_and_b_characters">Notendanöfn verða að vera á milli %1$d og %2$d stafa löng.</string>
-  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Notendanöfn eru valfrjáls á Signal. Ef þú kýst að útbúa notandanafn munu aðrir notendur Signal geta fundið þig með þessu notandanafni og haft samband við þig án þess að þekkja símanúmerið þitt.</string>
+  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Notendanöfn eru valfrjáls á Grapherex. Ef þú kýst að útbúa notandanafn munu aðrir notendur Grapherex geta fundið þig með þessu notandanafni og haft samband við þig án þess að þekkja símanúmerið þitt.</string>
   <plurals name="UserNotificationMigrationJob_d_contacts_are_on_signal">
-    <item quantity="one">%d tengiliður notar Signal!</item>
-    <item quantity="other">%d tengiliðir nota Signal!</item>
+    <item quantity="one">%d tengiliður notar Grapherex!</item>
+    <item quantity="other">%d tengiliðir nota Grapherex!</item>
   </plurals>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Tengiliður þinn er að nota gamla útgáfu af Signal. Hann þarf að uppfæra hjá sér áður en þú getur sannreynt.</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Tengiliður þinn er að nota nýja útgáfu af Signal með ósamhæfðu sniði QR-kóða. Uppfærðu hjá þér til að bera saman.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Tengiliður þinn er að nota gamla útgáfu af Grapherex. Hann þarf að uppfæra hjá sér áður en þú getur sannreynt.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Tengiliður þinn er að nota nýja útgáfu af Grapherex með ósamhæfðu sniði QR-kóða. Uppfærðu hjá þér til að bera saman.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Skannaði QR-kóðinn er ekki rétt formaður staðfestingarkóði fyrir öryggisnúmer. Prófaðu að skanna aftur.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Deila öryggisnúmeri með…</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">Signal-öryggisnúmerið okkar:</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">Grapherex-öryggisnúmerið okkar:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">Það lítur út eins og þú sért ekki með nein forrit sem hægt sé að deila til.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Ekkert öryggisnúmer til samanburðar fannst á klippispjaldinu</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signal þarf heimild til að nota myndavélina til að geta skannað QR-kóða, en því hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\", og virkjaðu \"Myndavél\".</string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Grapherex þarf heimild til að nota myndavélina til að geta skannað QR-kóða, en því hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\", og virkjaðu \"Myndavél\".</string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">Get ekki skannað QR-kóða án heimildar til að nota myndavélina</string>
   <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">Þú þarft fyrst að skiptast á skilaboðum við %1$s til að sjá öryggisnúmer hans.</string>
   <!--ViewOnceMessageActivity-->
@@ -1432,13 +1432,13 @@
   <string name="ApplicationMigrationService_system_database_import_is_complete">Innflutningi kerfisgagnagrunns er lokið.</string>
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">Snertu til að opna.</string>
-  <string name="KeyCachingService_passphrase_cached">Signal er ólæst</string>
-  <string name="KeyCachingService_lock">Læsa Signal</string>
+  <string name="KeyCachingService_passphrase_cached">Grapherex er ólæst</string>
+  <string name="KeyCachingService_lock">Læsa Grapherex</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">Þú</string>
   <string name="MediaPreviewActivity_unssuported_media_type">Óstudd gerð myndefnis</string>
   <string name="MediaPreviewActivity_draft">Drög</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Signal þarf heimild til að nota geymslurými til að geta skrifað í ytra minni, en því hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á \"Geymslurými\".</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Grapherex þarf heimild til að nota geymslurými til að geta skrifað í ytra minni, en því hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á \"Geymslurými\".</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Get ekki vistað í ytra minni án heimildar til að nota geymslurými</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">Eyða skilaboðum?</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">Þetta mun endanlega eyða þessum skilaboðum.</string>
@@ -1458,10 +1458,10 @@
   <string name="MessageNotifier_view_once_photo">Skoða-einu-sinni ljósmynd</string>
   <string name="MessageNotifier_view_once_video">Skoða-einu-sinni myndskeið</string>
   <string name="MessageNotifier_reply">Svara</string>
-  <string name="MessageNotifier_signal_message">Signal-skilaboð</string>
+  <string name="MessageNotifier_signal_message">Grapherex-skilaboð</string>
   <string name="MessageNotifier_unsecured_sms">Óöruggt SMS</string>
   <string name="MessageNotifier_you_may_have_new_messages">Þú gætir átt ný skilaboð</string>
-  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Opnaðu Signal til að athuga með nýlegar tilkynningar.</string>
+  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Opnaðu Grapherex til að athuga með nýlegar tilkynningar.</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Tengiliður</string>
   <string name="MessageNotifier_reacted_s_to_s">Brást við með %1$s við: \"%2$s\".</string>
@@ -1472,7 +1472,7 @@
   <string name="MessageNotifier_reacted_s_to_your_view_once_media">Brást við með %1$s við skoða-einu-sinni myndefni frá þér.</string>
   <string name="MessageNotifier_reacted_s_to_your_sticker">Brást við með %1$s við límmerkinu þínu.</string>
   <string name="MessageNotifier_this_message_was_deleted">Þessum skilaboðum var eytt.</string>
-  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Slökktirðu á tilkynningum þegar tengiliður byrjar að nota Signal? Þú getur virkjað þær aftur í Signal &gt; Stillingar &gt; Tilkynningar.</string>
+  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Slökktirðu á tilkynningum þegar tengiliður byrjar að nota Grapherex? Þú getur virkjað þær aftur í Grapherex &gt; Stillingar &gt; Tilkynningar.</string>
   <!--Notification Channels-->
   <string name="NotificationChannel_channel_messages">Skilaboð</string>
   <string name="NotificationChannel_calls">Símtöl</string>
@@ -1484,11 +1484,11 @@
   <string name="NotificationChannel_group_chats">Spjall</string>
   <string name="NotificationChannel_missing_display_name">Óþekkt</string>
   <string name="NotificationChannel_voice_notes">Tal-minnispuntar</string>
-  <string name="NotificationChannel_contact_joined_signal">Tengiliður skráði sig á Signal</string>
+  <string name="NotificationChannel_contact_joined_signal">Tengiliður skráði sig á Grapherex</string>
   <string name="NotificationChannels__no_activity_available_to_open_notification_channel_settings">Engin virkni tiltæk til að opna stillingar á tilkynningarásum.</string>
   <!--ProfileEditNameFragment-->
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Flýtsvar ekki tiltækt á meðan Signal er læst!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Flýtsvar ekki tiltækt á meðan Grapherex er læst!</string>
   <string name="QuickResponseService_problem_sending_message">Vandamál við að senda skilaboð!</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">Vistað í %s</string>
@@ -1499,7 +1499,7 @@
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">Ógild flýtileið</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">Grapherex</string>
   <string name="SingleRecipientNotificationBuilder_new_message">Ný skilaboð</string>
   <string name="SingleRecipientNotificationBuilder_message_request">Beiðni um skilaboð</string>
   <!--ThumbnailView-->
@@ -1512,10 +1512,10 @@
   </plurals>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">Tæki er ekki lengur skráð</string>
-  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Tæki ekki lengur skráð. Hægt er að skrá símanúmer þitt í öðru tæki hjá Signal. Ýttu til að endurskrá.</string>
+  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Tæki ekki lengur skráð. Hægt er að skrá símanúmer þitt í öðru tæki hjá Grapherex. Ýttu til að endurskrá.</string>
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Svo hægt sé að svara símtali frá %s, þarf Signal að fá aðgang að hljóðnemanum þínum.</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Signal þarf heimild til að nota hljóðnema og myndavél til að geta hringt eða tekið við símtölum, en þessum heimildum hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á bæði \"Hljóðnemi\" og \"Myndavél\".</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Svo hægt sé að svara símtali frá %s, þarf Grapherex að fá aðgang að hljóðnemanum þínum.</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Grapherex þarf heimild til að nota hljóðnema og myndavél til að geta hringt eða tekið við símtölum, en þessum heimildum hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á bæði \"Hljóðnemi\" og \"Myndavél\".</string>
   <string name="WebRtcCallActivity__answered_on_a_linked_device">Svarað á tengdu tæki.</string>
   <string name="WebRtcCallActivity__declined_on_a_linked_device">Hafnað á tengdu tæki.</string>
   <string name="WebRtcCallActivity__busy_on_a_linked_device">Upptekin/n á tengdu tæki.</string>
@@ -1539,7 +1539,7 @@
   <string name="change_passphrase_activity__repeat_new_passphrase">Endurtaktu nýja lykilorðið</string>
   <!--contact_selection_activity-->
   <string name="contact_selection_activity__enter_name_or_number">Settu inn nafn eða símanúmer</string>
-  <string name="contact_selection_activity__invite_to_signal">Bjóða á Signal</string>
+  <string name="contact_selection_activity__invite_to_signal">Bjóða á Grapherex</string>
   <string name="contact_selection_activity__new_group">Nýr hópur</string>
   <!--contact_filter_toolbar-->
   <string name="contact_filter_toolbar__clear_entered_text_description">Hreinsa skrifaðan texta</string>
@@ -1551,21 +1551,21 @@
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">Mynd tengiliðar</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Signal þarf heimild til að nota tengiliði til að geta birt upplýsingar varðandi tengiliði, en því hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á \"Tengiliðir\".</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Grapherex þarf heimild til að nota tengiliði til að geta birt upplýsingar varðandi tengiliði, en því hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á \"Tengiliðir\".</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Villa við að ná í tengiliði, athugaðu netsambandið þitt</string>
   <string name="ContactSelectionListFragment_username_not_found">Notandanafn fannst ekki</string>
-  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">\"%1$s\" er ekki Signal-notandi. Gakktu úr skugga um að þú hafir sett inn allt notandanafnið.</string>
+  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">\"%1$s\" er ekki Grapherex-notandi. Gakktu úr skugga um að þú hafir sett inn allt notandanafnið.</string>
   <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">Þú þarft ekki að bæta sjálfum þér í hópinn</string>
   <string name="ContactSelectionListFragment_maximum_group_size_reached">Hámarksstærð hóps náð</string>
-  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Signal-hópar geta að hámarki haft %1$d meðlimi.</string>
+  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Grapherex-hópar geta að hámarki haft %1$d meðlimi.</string>
   <string name="ContactSelectionListFragment_recommended_member_limit_reached">Takmörkum á ráðlögðum þátttakendafjölda náð</string>
-  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Signal-hópar virka best með %1$d meðlimum eða færri. Sé fleiri meðlimum bætt við, munu tafir verða á sendingum og móttöku skilaboða.</string>
+  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Grapherex-hópar virka best með %1$d meðlimum eða færri. Sé fleiri meðlimum bætt við, munu tafir verða á sendingum og móttöku skilaboða.</string>
   <plurals name="ContactSelectionListFragment_d_members">
     <item quantity="one">%1$d meðlimur</item>
     <item quantity="other">%1$d meðlimir</item>
   </plurals>
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Signal þarf aðgang að tengiliðunum þinum svo hægt sé að birta þá.</string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Grapherex þarf aðgang að tengiliðunum þinum svo hægt sé að birta þá.</string>
   <string name="contact_selection_list_fragment__show_contacts">Birta tengiliði</string>
   <!--contact_selection_list_item-->
   <plurals name="contact_selection_list_item__number_of_members">
@@ -1573,7 +1573,7 @@
     <item quantity="other">%1$d meðlimir</item>
   </plurals>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">Signal-skilaboð</string>
+  <string name="conversation_activity__type_message_push">Grapherex-skilaboð</string>
   <string name="conversation_activity__type_message_sms_insecure">Óöruggt SMS</string>
   <string name="conversation_activity__type_message_mms_insecure">Óöruggt MMS</string>
   <string name="conversation_activity__from_sim_name">Frá %1$s</string>
@@ -1585,7 +1585,7 @@
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Víxla af/á flýtivali viðhengja úr myndavél</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Taka upp og senda hljóðviðhengi</string>
   <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Læsa upptöku hljóðviðhengis</string>
-  <string name="conversation_activity__enable_signal_for_sms">Virkja Signal með SMS</string>
+  <string name="conversation_activity__enable_signal_for_sms">Virkja Grapherex með SMS</string>
   <string name="conversation_activity__message_could_not_be_sent">Ekki var hægt að senda skilaboð. Athugaðu netsambandið þitt og prófaðu aftur.</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">Renna til að hætta við</string>
@@ -1628,7 +1628,7 @@
   <string name="safety_number_change_dialog__join_call">Taka þátt í símtali</string>
   <string name="safety_number_change_dialog__continue_call">Halda símtali áfram</string>
   <string name="safety_number_change_dialog__leave_call">Hætta í símtali</string>
-  <string name="safety_number_change_dialog__the_following_people_may_have_reinstalled_or_changed_devices">Eftirfarandi einstaklingar hafa sett Signal upp aftur eða skipt um tæki. Sannreyndu öryggisnúmer þín með þeim til að tryggja öryggi.</string>
+  <string name="safety_number_change_dialog__the_following_people_may_have_reinstalled_or_changed_devices">Eftirfarandi einstaklingar hafa sett Grapherex upp aftur eða skipt um tæki. Sannreyndu öryggisnúmer þín með þeim til að tryggja öryggi.</string>
   <string name="safety_number_change_dialog__view">Skoða</string>
   <string name="safety_number_change_dialog__previous_verified">Áður sannreynt</string>
   <!--EnableCallNotificationSettingsDialog__call_notifications_checklist-->
@@ -1686,9 +1686,9 @@
   <string name="IdentityUtil_unverified_banner_one">Öryggisnúmer þitt með %s hefur breyst og er ekki lengur staðfest</string>
   <string name="IdentityUtil_unverified_banner_two">Öryggisnúmer þín með %1$s og %2$s hafa breyst og eru ekki lengur staðfest</string>
   <string name="IdentityUtil_unverified_banner_many">Öryggisnúmer þín með %1$s, %2$s og %3$s hafa breyst og eru ekki lengur staðfest</string>
-  <string name="IdentityUtil_unverified_dialog_one">Öryggisnúmer þitt með %1$s hefur breyst og er ekki lengur sannreynt. Þetta gæti þýtt að einhver sé að reyna að komast inn í samskiptin þín, eða einfaldlega að %1$s hefur sett Signal upp aftur.</string>
-  <string name="IdentityUtil_unverified_dialog_two">Öryggisnúmer þín með %1$s og %2$s hafa breyst og eru ekki lengur sannreynd. Þetta gæti þýtt að einhver sé að reyna að komast inn í samskiptin þín, eða einfaldlega að þeir hafa sett Signal upp aftur.</string>
-  <string name="IdentityUtil_unverified_dialog_many">Öryggisnúmer þín með %1$s, %2$s og %3$s hafa breyst og eru ekki lengur sannreynd. Þetta gæti þýtt að einhver sé að reyna að komast inn í samskiptin þín, eða einfaldlega að þeir hafa sett Signal upp aftur.</string>
+  <string name="IdentityUtil_unverified_dialog_one">Öryggisnúmer þitt með %1$s hefur breyst og er ekki lengur sannreynt. Þetta gæti þýtt að einhver sé að reyna að komast inn í samskiptin þín, eða einfaldlega að %1$s hefur sett Grapherex upp aftur.</string>
+  <string name="IdentityUtil_unverified_dialog_two">Öryggisnúmer þín með %1$s og %2$s hafa breyst og eru ekki lengur sannreynd. Þetta gæti þýtt að einhver sé að reyna að komast inn í samskiptin þín, eða einfaldlega að þeir hafa sett Grapherex upp aftur.</string>
+  <string name="IdentityUtil_unverified_dialog_many">Öryggisnúmer þín með %1$s, %2$s og %3$s hafa breyst og eru ekki lengur sannreynd. Þetta gæti þýtt að einhver sé að reyna að komast inn í samskiptin þín, eða einfaldlega að þeir hafa sett Grapherex upp aftur.</string>
   <string name="IdentityUtil_untrusted_dialog_one">Öryggisnúmer þitt með %s var að breytast.</string>
   <string name="IdentityUtil_untrusted_dialog_two">Öryggisnúmer þín með %1$s og %2$s voru að breytast.</string>
   <string name="IdentityUtil_untrusted_dialog_many">Öryggisnúmer þín með %1$s, %2$s og %3$s voru að breytast.</string>
@@ -1703,7 +1703,7 @@
   <!--log_submit_activity-->
   <string name="log_submit_activity__this_log_will_be_posted_online">Þessi villumeldingaskrá verður birt opinberlega á netinu svoforritarar og fleiri geti skoðað hana. Þú ættir að yfirfara hana og breyta ef þörf þykir áður en hún er send.</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Viltu flytja öll fyrirliggjandi textaskilaboð inn í dulritaðan gagnagrunn Signal?</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Viltu flytja öll fyrirliggjandi textaskilaboð inn í dulritaðan gagnagrunn Grapherex?</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">Sjálfgefnum gagnagrunni kerfisins verður ekki breytt á nokkurn hátt.</string>
   <string name="database_migration_activity__skip">Sleppa</string>
   <string name="database_migration_activity__import">Flytja inn</string>
@@ -1726,7 +1726,7 @@
   <!--prompt_passphrase_activity-->
   <string name="prompt_passphrase_activity__unlock">Aflæsa</string>
   <!--prompt_mms_activity-->
-  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Signal þarfnast stilliga fyrir MMS til að geta afhent myndefni og hópskilaboð í gegnum farsímakerfi þjónustuaðilans þíns. Tækið þitt veitir ekki þessar upplýsingar, sem kemur fyrir þegar um tæki læst við tiltekinn þjónustuaðila og aðrar skilyrtar uppsetningar er að ræða.</string>
+  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Grapherex þarfnast stilliga fyrir MMS til að geta afhent myndefni og hópskilaboð í gegnum farsímakerfi þjónustuaðilans þíns. Tækið þitt veitir ekki þessar upplýsingar, sem kemur fyrir þegar um tæki læst við tiltekinn þjónustuaðila og aðrar skilyrtar uppsetningar er að ræða.</string>
   <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">Til að senda myndefni og hópskilaboð, skaltu ýta á \'Í lagi\' og ljúka við umbeðnar stillingar. MMS-stillingarnar fyrir símaþjónustuna þína er venjulega hægt að finna með því að leita að \'nafn símaþjónustufyrirtækis APN\'. Þú þarft aðeins að gera þetta einu sinni.</string>
   <!--profile_create_activity-->
   <string name="CreateProfileActivity_first_name_required">Kenninafn (nauðsynlegt)</string>
@@ -1762,7 +1762,7 @@
   <!--verify_display_fragment-->
   <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Ef þú vilt sannreyna öryggi enda-í-enda dulritunarinnar þinnar með %s, skaltu bera tölurnar hér fyrir ofan saman við tölurnar á viðkomandi tækjum.
 
-Eins geturðu skannað kóðann á símanum hins aðilans, eða beðið hann um að skanna kóðann þinn. <a href="https://signal.org/redirect/safety-numbers">Kanna nánar.</a>]]></string>
+Eins geturðu skannað kóðann á símanum hins aðilans, eða beðið hann um að skanna kóðann þinn. <a href="https://Grapherex.org/redirect/safety-numbers">Kanna nánar.</a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">Ýttu til að skanna</string>
   <string name="verify_display_fragment__loading">Hleð inn…</string>
   <string name="verify_display_fragment__verified">Staðfest</string>
@@ -1813,7 +1813,7 @@ Eins geturðu skannað kóðann á símanum hins aðilans, eða beðið hann um 
   <string name="HelpFragment__how_do_you_feel">Hvernig líður þér? (valkvætt)</string>
   <string name="HelpFragment__tell_us_why_youre_reaching_out">Segðu okkur hvað er í gangi.</string>
   <string name="HelpFragment__support_info">Upplýsingar um aðstoð</string>
-  <string name="HelpFragment__signal_android_support_request">Beiðni um aðstoð vegna Signal fyrir Android</string>
+  <string name="HelpFragment__signal_android_support_request">Beiðni um aðstoð vegna Grapherex fyrir Android</string>
   <string name="HelpFragment__debug_log">Villumeldingaskrá:</string>
   <string name="HelpFragment__could_not_upload_logs">Gat ekki sent inn atvikaskrár</string>
   <string name="HelpFragment__please_be_as_descriptive_as_possible">Lýstu þessu eins nákvæmlega og þú getur til að auðvelda okkur að skilja vandamálið.</string>
@@ -1872,8 +1872,8 @@ Eins geturðu skannað kóðann á símanum hins aðilans, eða beðið hann um 
   <string name="preferences__sms_mms">SMS og MMS</string>
   <string name="preferences__pref_all_sms_title">Taka við öllum SMS</string>
   <string name="preferences__pref_all_mms_title">Taka við öllum MMS</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Nota Signal fyrir öll textaskilaboð sem berast</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Nota Signal fyrir öll margmiðlunarskilaboð sem berast</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Nota Grapherex fyrir öll textaskilaboð sem berast</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Nota Grapherex fyrir öll margmiðlunarskilaboð sem berast</string>
   <string name="preferences__pref_enter_sends_title">Enter-lykill sendir</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">Þegar ýtt er á Enter-lykilinn eru textaskilaboð send</string>
   <string name="preferences__pref_use_address_book_photos">Nota myndir úr nafnaskrá</string>
@@ -1888,7 +1888,7 @@ Eins geturðu skannað kóðann á símanum hins aðilans, eða beðið hann um 
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Læsa skjá og tilkynningum með lykilorði</string>
   <string name="preferences__screen_security">Öryggi skjás</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">Koma í veg fyrir að skjámyndir séu teknar innan forrits og í lista yfir nýleg atriði</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Læsa Signal sjálfvirkt eftir tiltekinn tíma í aðgerðaleysi</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Læsa Grapherex sjálfvirkt eftir tiltekinn tíma í aðgerðaleysi</string>
   <string name="preferences__inactivity_timeout_passphrase">Lykilorð læsingar við aðgerðaleysi</string>
   <string name="preferences__inactivity_timeout_interval">Tímamörk í aðgerðaleysi</string>
   <string name="preferences__notifications">Tilkynningar</string>
@@ -1919,7 +1919,7 @@ Eins geturðu skannað kóðann á símanum hins aðilans, eða beðið hann um 
   <string name="preferences__slow">Hægt</string>
   <string name="preferences__help">Hjálp</string>
   <string name="preferences__advanced">Ítarlegt</string>
-  <string name="preferences__donate_to_signal">Gefa til Signal</string>
+  <string name="preferences__donate_to_signal">Gefa til Grapherex</string>
   <string name="preferences__privacy">Gagnaleynd</string>
   <string name="preferences__mms_user_agent">MMS-kennistrengur</string>
   <string name="preferences__advanced_mms_access_point_names">Handvirkar MMS-stillingar</string>
@@ -1945,13 +1945,13 @@ Eins geturðu skannað kóðann á símanum hins aðilans, eða beðið hann um 
   <string name="preferences__chat_wallpaper">Bakgrunnsmynd spjalls</string>
   <string name="preferences__disable_pin">Gera PIN-númer óvirkt</string>
   <string name="preferences__enable_pin">Virkja PIN-númer</string>
-  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">Ef þú gerir PIN-númerið óvirkt, muntu tapa öllum gögnum þegar þú endurskráir Signal nema þú takir öryggisafrit handvirkt og endurheimtir það síðan. Þú getur ekki kveikt á skráningarlæsingu á meðan PIN-númerið er óvirkt.</string>
-  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN-númer halda upplýsingum geymdum í Signal dulrituðum þannig að einungis þú hefur aðgang að þeim. Notandasniðið þitt, stillingar og tengiliðir endurheimtast þegar þú setur Signal upp aftur. Þú munt ekki þurfa PIN-númerið þitt til að opna forritið.</string>
+  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">Ef þú gerir PIN-númerið óvirkt, muntu tapa öllum gögnum þegar þú endurskráir Grapherex nema þú takir öryggisafrit handvirkt og endurheimtir það síðan. Þú getur ekki kveikt á skráningarlæsingu á meðan PIN-númerið er óvirkt.</string>
+  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN-númer halda upplýsingum geymdum í Grapherex dulrituðum þannig að einungis þú hefur aðgang að þeim. Notandasniðið þitt, stillingar og tengiliðir endurheimtast þegar þú setur Grapherex upp aftur. Þú munt ekki þurfa PIN-númerið þitt til að opna forritið.</string>
   <string name="preferences__system_default">Sjálfgefið í kerfinu</string>
   <string name="preferences__language">Tungumál</string>
-  <string name="preferences__signal_messages_and_calls">Skilaboð og hringingar með Signal</string>
+  <string name="preferences__signal_messages_and_calls">Skilaboð og hringingar með Grapherex</string>
   <string name="preferences__advanced_pin_settings">Ítarlegar stillingar PIN-númera</string>
-  <string name="preferences__free_private_messages_and_calls">Ókeypis einkaskilaboð og hringingar til annarra notenda Signal</string>
+  <string name="preferences__free_private_messages_and_calls">Ókeypis einkaskilaboð og hringingar til annarra notenda Grapherex</string>
   <string name="preferences__submit_debug_log">Senda inn villumeldingaskrá</string>
   <string name="preferences__delete_account">Eyða aðgangi</string>
   <string name="preferences__support_wifi_calling">\'Wi-Fi hringing\' samhæfnishamur</string>
@@ -1990,8 +1990,8 @@ Eins geturðu skannað kóðann á símanum hins aðilans, eða beðið hann um 
   <string name="preferences_storage__s_messages">%1$s skilaboð</string>
   <string name="preferences_storage__custom">Sérsniðið</string>
   <string name="preferences_advanced__use_system_emoji">Nota emoji-tákn af kerfinu</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Gera innbyggðan stuðning Signal við emoji-tákn óvirkan</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Senda símtöl áfram í gegnum netþjóna Signal til að minnka líkur á að IP-vistfang þitt verði opinbert. Að virkja þennan möguleika mun minnka gæði símtals.</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Gera innbyggðan stuðning Grapherex við emoji-tákn óvirkan</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Senda símtöl áfram í gegnum netþjóna Grapherex til að minnka líkur á að IP-vistfang þitt verði opinbert. Að virkja þennan möguleika mun minnka gæði símtals.</string>
   <string name="preferences_advanced__always_relay_calls">Alltaf endurbeina símtölum</string>
   <string name="preferences_app_protection__who_can">Hver getur…</string>
   <string name="preferences_app_protection__app_access">Aðgangur að forritum</string>
@@ -2011,9 +2011,9 @@ Eins geturðu skannað kóðann á símanum hins aðilans, eða beðið hann um 
   <string name="preferences_notifications__calls">Símtöl</string>
   <string name="preferences_notifications__ringtone">Hringitónn</string>
   <string name="preferences_chats__show_invitation_prompts">Birta boðskvaðningar</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Birta boðskvaðningar frá tengiliðum sem ekki eru með Signal</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Birta boðskvaðningar frá tengiliðum sem ekki eru með Grapherex</string>
   <string name="preferences_chats__message_text_size">Leturstærð skilaboða</string>
-  <string name="preferences_events__contact_joined_signal">Tengiliður skráði sig á Signal</string>
+  <string name="preferences_events__contact_joined_signal">Tengiliður skráði sig á Grapherex</string>
   <string name="preferences_notifications__priority">Forgangur</string>
   <string name="preferences_communication__category_sealed_sender">Innsiglaður sendandi</string>
   <string name="preferences_communication__sealed_sender_display_indicators">Skjámerki</string>
@@ -2027,7 +2027,7 @@ Eins geturðu skannað kóðann á símanum hins aðilans, eða beðið hann um 
   <string name="preferences_off">Slökkt</string>
   <string name="preferences_on">Kveikt</string>
   <string name="preferences_proxy_address">Vistfang milliþjóns</string>
-  <string name="preferences_only_use_a_proxy_if">Ekki nota milliþjón nema þú náir ekki að tengjast við Signal í gegnum farsímanet eða Wi-Fi.</string>
+  <string name="preferences_only_use_a_proxy_if">Ekki nota milliþjón nema þú náir ekki að tengjast við Grapherex í gegnum farsímanet eða Wi-Fi.</string>
   <string name="preferences_share">Deila</string>
   <string name="preferences_save">Vista</string>
   <string name="preferences_connecting_to_proxy">Tengist við milliþjón…</string>
@@ -2046,7 +2046,7 @@ Eins geturðu skannað kóðann á símanum hins aðilans, eða beðið hann um 
   <string name="PaymentsAllActivityFragment__sent">Sent</string>
   <string name="PaymentsAllActivityFragment__received">Móttekið</string>
   <string name="PaymentsHomeFragment__introducing_payments">Við kynnum greiðslur (Beta-prófunarútgáfa)</string>
-  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Notaðu Signal til að senda og taka við MobileCoin, sem er nýr stafrænn gjaldmiðill sem leggur áherslu á gagnaleynd. Virkjaðu þetta til að komast í gang.</string>
+  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Notaðu Grapherex til að senda og taka við MobileCoin, sem er nýr stafrænn gjaldmiðill sem leggur áherslu á gagnaleynd. Virkjaðu þetta til að komast í gang.</string>
   <string name="PaymentsHomeFragment__activate_payments">Virkja greiðslur</string>
   <string name="PaymentsHomeFragment__activating_payments">Virkja greiðslur…</string>
   <string name="PaymentsHomeFragment__restore_payments_account">Endurheimta greiðsluaðgang</string>
@@ -2073,17 +2073,17 @@ Eins geturðu skannað kóðann á símanum hins aðilans, eða beðið hann um 
   <string name="PaymentsHomeFragment__payments_is_not_available_in_your_region">Greiðslur eru ekki í boði á landssvæðinu þínu.</string>
   <string name="PaymentsHomeFragment__could_not_enable_payments">Mistókst að virkja greiðslur. Reyndu aftur síðar.</string>
   <string name="PaymentsHomeFragment__deactivate_payments_question">Gera greiðslur óvirkar?</string>
-  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Þú munt ekki lengur geta tekið við eða sent MobileCoin í Signal ef þú gerir greiðslur óvirkar.</string>
+  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Þú munt ekki lengur geta tekið við eða sent MobileCoin í Grapherex ef þú gerir greiðslur óvirkar.</string>
   <string name="PaymentsHomeFragment__deactivate">Gera óvirkt</string>
   <string name="PaymentsHomeFragment__continue">Halda áfram</string>
   <string name="PaymentsHomeFragment__balance_is_not_currently_available">Upplýsingar um inneign þína eru ekki tiltækar.</string>
   <string name="PaymentsHomeFragment__payments_deactivated">Greiðslur óvirkar.</string>
   <string name="PaymentsHomeFragment__payment_failed">Greiðsla mistókst</string>
   <string name="PaymentsHomeFragment__details">Nánar</string>
-  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">Þú getur notað Signal til að senda og taka við MobileCoin-rafmynt - MOB. Allar greiðslur eru háðar skilmálum fyrir notkun MobileCoin og MobileCoin Wallet veskisins. Þetta er beta-prófunareiginleiki þannig að þú gætir rekist á einhver vandamál og mögulega geta færslur og greiðslur tapast sem ekki væri hægt að endurheimta.</string>
+  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">Þú getur notað Grapherex til að senda og taka við MobileCoin-rafmynt - MOB. Allar greiðslur eru háðar skilmálum fyrir notkun MobileCoin og MobileCoin Wallet veskisins. Þetta er beta-prófunareiginleiki þannig að þú gætir rekist á einhver vandamál og mögulega geta færslur og greiðslur tapast sem ekki væri hægt að endurheimta.</string>
   <string name="PaymentsHomeFragment__activate">Virkja</string>
   <string name="PaymentsHomeFragment__view_mobile_coin_terms">Skoða skilmála MobileCoin</string>
-  <string name="PaymentsHomeFragment__payments_not_available">Greiðslur í Signal eru ekki lengur í boði. Þú getur ennþá millifært fjármuni til greiðslumiðlunar, en þú getur ekki lengur sent eða tekið við greiðslum eða bætt við fjármagni.</string>
+  <string name="PaymentsHomeFragment__payments_not_available">Greiðslur í Grapherex eru ekki lengur í boði. Þú getur ennþá millifært fjármuni til greiðslumiðlunar, en þú getur ekki lengur sent eða tekið við greiðslum eða bætt við fjármagni.</string>
   <!--PaymentsAddMoneyFragment-->
   <string name="PaymentsAddMoneyFragment__add_funds">Bæta við innistæðu</string>
   <string name="PaymentsAddMoneyFragment__your_wallet_address">Vistfang veskisins þíns</string>
@@ -2120,10 +2120,10 @@ Eins geturðu skannað kóðann á símanum hins aðilans, eða beðið hann um 
   <string name="PaymentsTransferFragment__next">Næsta</string>
   <string name="PaymentsTransferFragment__invalid_address">Ógilt vistfang</string>
   <string name="PaymentsTransferFragment__check_the_wallet_address">Athugaðu vistfang veskisins sem þú ert að reyna að millifæra á og prófaðu svo aftur.</string>
-  <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Þú getur ekki millifært á þitt eigið Signal veskisvistfang. Settu inn veskisvistfang greiðsluaðgangs sem þú ert með á studdri greiðslumiðlun.</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Til að skanna QR-kóða þarf Signal að fá aðgang að myndavélinni þinni.</string>
-  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Signal þarf heimild til að nota myndavélina til að geta skannað QR-kóða. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á \"Myndavél\".</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Til að skanna QR-kóða þarf Signal að fá aðgang að myndavélinni þinni.</string>
+  <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Þú getur ekki millifært á þitt eigið Grapherex veskisvistfang. Settu inn veskisvistfang greiðsluaðgangs sem þú ert með á studdri greiðslumiðlun.</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Til að skanna QR-kóða þarf Grapherex að fá aðgang að myndavélinni þinni.</string>
+  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Grapherex þarf heimild til að nota myndavélina til að geta skannað QR-kóða. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á \"Myndavél\".</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Til að skanna QR-kóða þarf Grapherex að fá aðgang að myndavélinni þinni.</string>
   <string name="PaymentsTransferFragment__settings">Stillingar</string>
   <!--PaymentsTransferQrScanFragment-->
   <string name="PaymentsTransferQrScanFragment__scan_address_qr_code">Skanna QR-kóða vistfangs</string>
@@ -2181,8 +2181,8 @@ Eins geturðu skannað kóðann á símanum hins aðilans, eða beðið hann um 
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">Hringja?</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Signal-símtal</string>
-  <string name="conversation_callable_secure__menu_video">Signal-myndsímtal</string>
+  <string name="conversation_callable_secure__menu_call">Grapherex-símtal</string>
+  <string name="conversation_callable_secure__menu_video">Grapherex-myndsímtal</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">Nánar um skilaboð</string>
   <string name="conversation_context__menu_copy_text">Afrita texta</string>
@@ -2254,10 +2254,10 @@ Eins geturðu skannað kóðann á símanum hins aðilans, eða beðið hann um 
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">Bera saman við klippispjald</string>
   <!--reminder_header-->
   <string name="reminder_header_sms_import_title">Flytja inn SMS úr kerfinu</string>
-  <string name="reminder_header_sms_import_text">Ýttu til að afrita SMS-skilaboð símans þíns inn í dulritaðan gagnagrunn Signal.</string>
-  <string name="reminder_header_push_title">Virkja skilaboð og hringingar með Signal</string>
+  <string name="reminder_header_sms_import_text">Ýttu til að afrita SMS-skilaboð símans þíns inn í dulritaðan gagnagrunn Grapherex.</string>
+  <string name="reminder_header_push_title">Virkja skilaboð og hringingar með Grapherex</string>
   <string name="reminder_header_push_text">Uppfærðu samskiptahætti þína.</string>
-  <string name="reminder_header_service_outage_text">Signal á við tæknilega örðugleika að stríða. Við leggjum ökkur öll fram um að endurheimta þjónustur okkar eins fljótt og auðið er.</string>
+  <string name="reminder_header_service_outage_text">Grapherex á við tæknilega örðugleika að stríða. Við leggjum ökkur öll fram um að endurheimta þjónustur okkar eins fljótt og auðið er.</string>
   <string name="reminder_header_progress">%1$d%%</string>
   <!--media_preview-->
   <string name="media_preview__save_title">Vista</string>
@@ -2273,22 +2273,22 @@ Eins geturðu skannað kóðann á símanum hins aðilans, eða beðið hann um 
   <string name="Insights__percent">%</string>
   <string name="Insights__title">Yfirlitstölfræði</string>
   <string name="InsightsDashboardFragment__title">Yfirlitstölfræði</string>
-  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Signal samskiptamátinn verndaði sjálfvirkt %1$d%% af útsendum skilaboðum þínum á síðustu %2$d dögum. Samræður milli Signal-notenda eru alltaf dulritaðar enda-í-enda.</string>
-  <string name="InsightsDashboardFragment__boost_your_signal">Signal-bæting</string>
+  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Grapherex samskiptamátinn verndaði sjálfvirkt %1$d%% af útsendum skilaboðum þínum á síðustu %2$d dögum. Samræður milli Grapherex-notenda eru alltaf dulritaðar enda-í-enda.</string>
+  <string name="InsightsDashboardFragment__boost_your_signal">Grapherex-bæting</string>
   <string name="InsightsDashboardFragment__not_enough_data">Ekki næg gögn</string>
   <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">Prósentuhlutfall þitt í yfirlitstölfræðinni er reiknað út frá sendum skilaboðum síðustu %1$d daga sem ekki hafa horfið eða verið eytt.</string>
   <string name="InsightsDashboardFragment__start_a_conversation">Byrjaðu samtal</string>
-  <string name="InsightsDashboardFragment__invite_your_contacts">Byrjaðu að eiga í öruggum samskiptum og virkjaðu nýja eiginleika sem vega upp takmarkanir ódulritaðra SMS-skilaboða með því að bjóða fleiri tengiliðum að notfæra sér Signal.</string>
+  <string name="InsightsDashboardFragment__invite_your_contacts">Byrjaðu að eiga í öruggum samskiptum og virkjaðu nýja eiginleika sem vega upp takmarkanir ódulritaðra SMS-skilaboða með því að bjóða fleiri tengiliðum að notfæra sér Grapherex.</string>
   <string name="InsightsDashboardFragment__this_stat_was_generated_locally">Þessi tölfræði er reiknuð á tækinu þínu og er það einungis þú sem getur séð hana. Þessu er aldrei dreift neitt annað.</string>
   <string name="InsightsDashboardFragment__encrypted_messages">Dulrituð skilaboð</string>
   <string name="InsightsDashboardFragment__cancel">Hætta við</string>
   <string name="InsightsDashboardFragment__send">Senda</string>
   <string name="InsightsModalFragment__title">Kynning á yfirlitstölfræði</string>
-  <string name="InsightsModalFragment__description">Sjáðu hve mörg af útsendum skilaboðum þínum voru send öruggt, síðan gætirðu boðið fleiri nýjum tengiliðum til að hækka Signal-prósentuna þína.</string>
+  <string name="InsightsModalFragment__description">Sjáðu hve mörg af útsendum skilaboðum þínum voru send öruggt, síðan gætirðu boðið fleiri nýjum tengiliðum til að hækka Grapherex-prósentuna þína.</string>
   <string name="InsightsModalFragment__view_insights">Skoða yfirlitstölfræði</string>
-  <string name="FirstInviteReminder__title">Bjóða á Signal</string>
+  <string name="FirstInviteReminder__title">Bjóða á Grapherex</string>
   <string name="FirstInviteReminder__description">Þú getur aukið fjölda dulritaðra skilaboða sem þú sendir um %1$d%%</string>
-  <string name="SecondInviteReminder__title">Bættu við Signal</string>
+  <string name="SecondInviteReminder__title">Bættu við Grapherex</string>
   <string name="SecondInviteReminder__description">Bjóða %1$s</string>
   <string name="InsightsReminder__view_insights">Skoða yfirlitstölfræði</string>
   <string name="InsightsReminder__invite">Bjóða</string>
@@ -2309,7 +2309,7 @@ Eins geturðu skannað kóðann á símanum hins aðilans, eða beðið hann um 
   <string name="CreateKbsPinFragment__create_a_new_pin">Útbúðu nýtt PIN-númer</string>
   <string name="CreateKbsPinFragment__you_can_choose_a_new_pin_as_long_as_this_device_is_registered">Þú getur breytt PIN-númerinu þínu eins lengi og þetta tæki er skráð.</string>
   <string name="CreateKbsPinFragment__create_your_pin">Útbúðu PIN-númer fyrir þig</string>
-  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">PIN-númer halda upplýsingum geymdum í Signal dulrituðum þannig að einungis þú hefur aðgang að þeim. Notandasniðið þitt, stillingar og tengiliðir endurheimtast þegar þú setur Signal upp aftur. Þú munt ekki þurfa PIN-númerið þitt til að opna forritið.</string>
+  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">PIN-númer halda upplýsingum geymdum í Grapherex dulrituðum þannig að einungis þú hefur aðgang að þeim. Notandasniðið þitt, stillingar og tengiliðir endurheimtast þegar þú setur Grapherex upp aftur. Þú munt ekki þurfa PIN-númerið þitt til að opna forritið.</string>
   <string name="CreateKbsPinFragment__choose_a_stronger_pin">Veldu sterkara PIN-númer</string>
   <!--ConfirmKbsPinFragment-->
   <string name="ConfirmKbsPinFragment__pins_dont_match">PIN-númerin samsvara ekki. Prófaðu aftur.</string>
@@ -2321,7 +2321,7 @@ Eins geturðu skannað kóðann á símanum hins aðilans, eða beðið hann um 
   <string name="ConfirmKbsPinFragment__creating_pin">Útbý PIN-númer…</string>
   <!--KbsSplashFragment-->
   <string name="KbsSplashFragment__introducing_pins">Kynning á PIN-númerum</string>
-  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN-númer halda upplýsingum geymdum í Signal dulrituðum þannig að einungis þú hefur aðgang að þeim. Notandasniðið þitt, stillingar og tengiliðir endurheimtast þegar þú setur Signal upp aftur. Þú munt ekki þurfa PIN-númerið þitt til að opna forritið.</string>
+  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN-númer halda upplýsingum geymdum í Grapherex dulrituðum þannig að einungis þú hefur aðgang að þeim. Notandasniðið þitt, stillingar og tengiliðir endurheimtast þegar þú setur Grapherex upp aftur. Þú munt ekki þurfa PIN-númerið þitt til að opna forritið.</string>
   <string name="KbsSplashFragment__learn_more">Kanna nánar</string>
   <string name="KbsSplashFragment__registration_lock_equals_pin">Skráningarlæsing = PIN-númer</string>
   <string name="KbsSplashFragment__your_registration_lock_is_now_called_a_pin">Skráningarlæsingin þín kallast núna PIN-númer, en það virkar á fleira. Uppfærðu það núna.</string>
@@ -2330,7 +2330,7 @@ Eins geturðu skannað kóðann á símanum hins aðilans, eða beðið hann um 
   <string name="KbsSplashFragment__learn_more_about_pins">Kanna PIN-númer nánar.</string>
   <string name="KbsSplashFragment__disable_pin">Gera PIN-númer óvirkt</string>
   <!--KBS Reminder Dialog-->
-  <string name="KbsReminderDialog__enter_your_signal_pin">Settu inn PIN-númer Signal</string>
+  <string name="KbsReminderDialog__enter_your_signal_pin">Settu inn PIN-númer Grapherex</string>
   <string name="KbsReminderDialog__to_help_you_memorize_your_pin">Til að auðvelda þér að muna PIN-númerið munum við biðja þig öðru hvoru um að staðfesta það. Við spyrjum sjaldnar eftir því sem tímar líða.</string>
   <string name="KbsReminderDialog__skip">Sleppa</string>
   <string name="KbsReminderDialog__submit">Senda</string>
@@ -2353,8 +2353,8 @@ Eftir %1$d daga án virkni, geturðu endurskráð þig án PIN-númersins þíns
   <string name="RegistrationLockFragment__incorrect_pin">Rangt PIN-númer</string>
   <string name="RegistrationLockFragment__forgot_your_pin">Gleymdirðu PIN-númerinu þínu?</string>
   <string name="RegistrationLockFragment__not_many_tries_left">Ekki margar tilraunir eftir!</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Skráning á Signal - Þarf hjálp vegna PIN-númers fyrir Android (útg.1 PIN)</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Skráning á Signal - Þarf hjálp vegna PIN-númers fyrir Android (útg.2 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Skráning á Grapherex - Þarf hjálp vegna PIN-númers fyrir Android (útg.1 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Skráning á Grapherex - Þarf hjálp vegna PIN-númers fyrir Android (útg.2 PIN)</string>
   <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
     <item quantity="one">Til að gæta fyllsta öryggis, þá er engin leið til að endurheimta 
 PIN-númerið þitt. Ef þú manst ekki PIN-númerið, geturðu endursannvottað þig með SMS eftir %1$d dag án virkni. Í því tilfelli verður aðgangurinn þinn verður tæmdur og öllu efni á honum eytt.</item>
@@ -2380,28 +2380,28 @@ PIN-númerið þitt. Ef þú manst ekki PIN-númerið, geturðu endursannvottað
   <string name="CalleeMustAcceptMessageRequestDialogFragment__s_will_get_a_message_request_from_you">%1$s fær beiðni um skilaboð frá þér. Þú getur hringt þegar skilaboðabeiðnin hefur verið samþykkt.</string>
   <!--KBS Megaphone-->
   <string name="KbsMegaphone__create_a_pin">Útbúðu PIN-númer</string>
-  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN-númer halda upplýsingum geymdum í Signal dulrituðum.</string>
+  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN-númer halda upplýsingum geymdum í Grapherex dulrituðum.</string>
   <string name="KbsMegaphone__create_pin">Útbúðu PIN-númer</string>
   <!--Research Megaphone-->
-  <string name="ResearchMegaphone_tell_signal_what_you_think">Segðu Signal hvað þér finnst</string>
-  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">Til að gera Signal að besta samskiptaforritinu á plánetunni, þiggjum við með þökkum að þú gefir okkur umsögn.</string>
+  <string name="ResearchMegaphone_tell_signal_what_you_think">Segðu Grapherex hvað þér finnst</string>
+  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">Til að gera Grapherex að besta samskiptaforritinu á plánetunni, þiggjum við með þökkum að þú gefir okkur umsögn.</string>
   <string name="ResearchMegaphone_learn_more">Kanna nánar</string>
   <string name="ResearchMegaphone_dismiss">Hafna</string>
-  <string name="ResearchMegaphoneDialog_signal_research">Könnun á Signal</string>
-  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>Við trúum á verndun persónulegra gagna.</b></p><p>Signal fylgist ekki með þér eða safnar neinum gögnum. Til að bæta Signal fyrir alla reiðum við okkur á umsagnir notendanna <b>og við myndum gjarnan vilja heyra frá þér.</b></p><p>Við erum með könnun í gangi til að reyna að skilja hvernig þú notar Signal. Könnunin safnar engum persónugreinanlegum gögnum. Ef þú ert til í að deila með okkur ýmsum viðbótarupplýsingum, geturðu líka gefið okkur upplýsingar um hvernig hægt sé að ná í þig.</p><p>Ef þú hefur nokkrar mínútur aflögu og ert til í að gefa okkur umsögn, væri gaman að sjá eitthvað frá þér.</p>]]></string>
+  <string name="ResearchMegaphoneDialog_signal_research">Könnun á Grapherex</string>
+  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>Við trúum á verndun persónulegra gagna.</b></p><p>Grapherex fylgist ekki með þér eða safnar neinum gögnum. Til að bæta Grapherex fyrir alla reiðum við okkur á umsagnir notendanna <b>og við myndum gjarnan vilja heyra frá þér.</b></p><p>Við erum með könnun í gangi til að reyna að skilja hvernig þú notar Grapherex. Könnunin safnar engum persónugreinanlegum gögnum. Ef þú ert til í að deila með okkur ýmsum viðbótarupplýsingum, geturðu líka gefið okkur upplýsingar um hvernig hægt sé að ná í þig.</p><p>Ef þú hefur nokkrar mínútur aflögu og ert til í að gefa okkur umsögn, væri gaman að sjá eitthvað frá þér.</p>]]></string>
   <string name="ResearchMegaphoneDialog_take_the_survey">Taka þátt í könnun</string>
   <string name="ResearchMegaphoneDialog_no_thanks">Nei takk</string>
-  <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">Könnunin er hýst hjá Alchemer á örugga léninu surveys.signalusers.org</string>
+  <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">Könnunin er hýst hjá Alchemer á örugga léninu surveys.Grapherexusers.org</string>
   <!--transport_selection_list_item-->
   <string name="transport_selection_list_item__transport_icon">Tákn fyrir flutning</string>
   <string name="ConversationListFragment_loading">Hleð inn…</string>
   <string name="CallNotificationBuilder_connecting">Tengist…</string>
   <string name="Permissions_permission_required">Heimildar er krafist</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Signal þarf heimild til að nota SMS til að geta sent SMS-smáskilaboð, en því hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á \"SMS\".</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Grapherex þarf heimild til að nota SMS til að geta sent SMS-smáskilaboð, en því hefur verið varanlega neitað. Farðu í kjörstillingar forritsins, veldu \"Heimildir\" og ýttu á \"SMS\".</string>
   <string name="Permissions_continue">Áfram</string>
   <string name="Permissions_not_now">Ekki núna</string>
-  <string name="conversation_activity__enable_signal_messages">VIRKJA SIGNAL-SKILABOÐ</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Yfirfærsla á gagnagrunni Signal</string>
+  <string name="conversation_activity__enable_signal_messages">VIRKJA Grapherex-SKILABOÐ</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">Yfirfærsla á gagnagrunni Grapherex</string>
   <string name="PushDecryptJob_new_locked_message">Ný læst skilaboð</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Aflæsa til að skoða skilaboð í bið</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">Lykilorð öryggisafritunar</string>
@@ -2419,7 +2419,7 @@ PIN-númerið þitt. Ef þú manst ekki PIN-númerið, geturðu endursannvottað
   <string name="preferences_chats__transfer_account_to_a_new_android_device">Yfirfæra aðgang á nýtt Android-tæki</string>
   <string name="RegistrationActivity_enter_backup_passphrase">Settu inn lykilorð öryggisafritsins</string>
   <string name="RegistrationActivity_restore">Endurvekja</string>
-  <string name="RegistrationActivity_backup_failure_downgrade">Ekki er hægt að flytja inn öryggisafrit úr nýrri útgáfum Signal</string>
+  <string name="RegistrationActivity_backup_failure_downgrade">Ekki er hægt að flytja inn öryggisafrit úr nýrri útgáfum Grapherex</string>
   <string name="RegistrationActivity_incorrect_backup_passphrase">Rangt lykilorð öryggisafrits</string>
   <string name="RegistrationActivity_checking">Athuga…</string>
   <string name="RegistrationActivity_d_messages_so_far">%d skilaboð eins og er…</string>
@@ -2450,8 +2450,8 @@ PIN-númerið þitt. Ef þú manst ekki PIN-númerið, geturðu endursannvottað
   <string name="ProgressPreference_d_messages_so_far">%d skilaboð eins og er</string>
   <string name="RegistrationActivity_wrong_number">Rangt númer</string>
   <string name="RegistrationActivity_call_me_instead_available_in">Hringja frekar í mig \n (Tiltæk/ur eftir %1$02d:%2$02d)</string>
-  <string name="RegistrationActivity_contact_signal_support">Hafa samband við Signal-aðstoð</string>
-  <string name="RegistrationActivity_code_support_subject">Skráning á Signal - Sannvottunarkóði fyrir Android</string>
+  <string name="RegistrationActivity_contact_signal_support">Hafa samband við Grapherex-aðstoð</string>
+  <string name="RegistrationActivity_code_support_subject">Skráning á Grapherex - Sannvottunarkóði fyrir Android</string>
   <string name="BackupUtil_never">Aldrei</string>
   <string name="BackupUtil_unknown">Óþekkt</string>
   <string name="preferences_app_protection__see_my_phone_number">Sjá símanúmerið mitt</string>
@@ -2460,21 +2460,21 @@ PIN-númerið þitt. Ef þú manst ekki PIN-númerið, geturðu endursannvottað
   <string name="PhoneNumberPrivacy_my_contacts">Tengiliðirnir mínir</string>
   <string name="PhoneNumberPrivacy_nobody">Enginn</string>
   <string name="PhoneNumberPrivacy_everyone_see_description">Símanúmerið þitt verður sýnilegt öllum einstaklingum og hópum sem þú sendir skilaboð.</string>
-  <string name="PhoneNumberPrivacy_everyone_find_description">Hver sá sem er með símanúmerið þitt í tengiliðaskránni sinni munu sjá þig sem tengilið í Signal. Aðrir munu geta fundið þig í gegnum leit.</string>
+  <string name="PhoneNumberPrivacy_everyone_find_description">Hver sá sem er með símanúmerið þitt í tengiliðaskránni sinni munu sjá þig sem tengilið í Grapherex. Aðrir munu geta fundið þig í gegnum leit.</string>
   <string name="preferences_app_protection__screen_lock">Skjálæsing</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Læstu aðgangi að Signal með skjálæsingu eða fingrafaraskönnun Android-kerfisins</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Læstu aðgangi að Grapherex með skjálæsingu eða fingrafaraskönnun Android-kerfisins</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">Tímamörk aðgerðaleysis fyrir skjálæsingu</string>
-  <string name="preferences_app_protection__signal_pin">PIN-númer Signal</string>
+  <string name="preferences_app_protection__signal_pin">PIN-númer Grapherex</string>
   <string name="preferences_app_protection__create_a_pin">Útbúðu PIN-númer</string>
   <string name="preferences_app_protection__change_your_pin">Breyttu PIN-númerinu þínu</string>
   <string name="preferences_app_protection__pin_reminders">Áminningar um PIN-númer</string>
-  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PIN-númer halda upplýsingum geymdum í Signal dulrituðum þannig að einungis þú hefur aðgang að þeim. Notandasniðið þitt, stillingar og tengiliðir endurheimtast þegar þú setur Signal upp aftur.</string>
-  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Bættu öryggið með því að krefjast PIN-númers til að geta skráð þetta símanúmer aftur hjá Signal.</string>
+  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PIN-númer halda upplýsingum geymdum í Grapherex dulrituðum þannig að einungis þú hefur aðgang að þeim. Notandasniðið þitt, stillingar og tengiliðir endurheimtast þegar þú setur Grapherex upp aftur.</string>
+  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Bættu öryggið með því að krefjast PIN-númers til að geta skráð þetta símanúmer aftur hjá Grapherex.</string>
   <string name="preferences_app_protection__reminders_help_you_remember_your_pin">Áminningar hjálpa þér að muna PIN-númerið þitt en það er ekki hægt að endurheimta. Með tímanum ertu spurð/ur sjaldnar.</string>
   <string name="preferences_app_protection__turn_off">Slökkva</string>
   <string name="preferences_app_protection__confirm_pin">Staðfestu PIN-númer</string>
-  <string name="preferences_app_protection__confirm_your_signal_pin">Staðfestu PIN-númer þitt á Signal</string>
-  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Gakktu úr skugga um að þú munir PIN-númerið þitt eða geymir á öruggum stað, en það er ekki hægt að endurheimta. Ef þú gleymir PIN-númerinu er mögulegt að þú tapir gögnum þegar þú skráir þig aftur á Signal-aðganginn þinn.</string>
+  <string name="preferences_app_protection__confirm_your_signal_pin">Staðfestu PIN-númer þitt á Grapherex</string>
+  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Gakktu úr skugga um að þú munir PIN-númerið þitt eða geymir á öruggum stað, en það er ekki hægt að endurheimta. Ef þú gleymir PIN-númerinu er mögulegt að þú tapir gögnum þegar þú skráir þig aftur á Grapherex-aðganginn þinn.</string>
   <string name="preferences_app_protection__incorrect_pin_try_again">Rangt PIN-númer. Prófaðu aftur.</string>
   <string name="preferences_app_protection__failed_to_enable_registration_lock">Mistókst að virkja skráningarlæsingu.</string>
   <string name="preferences_app_protection__failed_to_disable_registration_lock">Mistókst að gera skráningarlæsingu óvirka.</string>
@@ -2487,19 +2487,19 @@ PIN-númerið þitt. Ef þú manst ekki PIN-númerið, geturðu endursannvottað
   <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">Þú hefur gert of margar tilraunir. Prófaðu aftur síðar.</string>
   <string name="RegistrationActivity_error_connecting_to_service">Villa við að tengjast þjónustu</string>
   <string name="preferences_chats__backups">Öryggisafrit</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Signal er læst</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">Grapherex er læst</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">ÝTTU TIL AÐ AFLÆSA</string>
   <string name="Recipient_unknown">Óþekkt</string>
   <!--TransferOrRestoreFragment-->
   <string name="TransferOrRestoreFragment__transfer_or_restore_account">Yfirfæra eða endurheimta aðgang</string>
-  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Ef þú hefur áður skráð Signal-aðgang, geturðu yfirfært eða endurheimt notandaaðganginn þinn og skilaboð.</string>
+  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Ef þú hefur áður skráð Grapherex-aðgang, geturðu yfirfært eða endurheimt notandaaðganginn þinn og skilaboð.</string>
   <string name="TransferOrRestoreFragment__transfer_from_android_device">Yfirfæra af Android-tæki</string>
   <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">Yfirfærðu notandaaðgang og skilaboðaferil af gamla Android-tækinu þínu. Þú verður að hafa aðgang að gamla tækinu þínu.</string>
   <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">Þú þarft að hafa aðgang að gamla tækinu þínu.</string>
   <string name="TransferOrRestoreFragment__restore_from_backup">Endurheimta úr öryggisafriti</string>
   <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">Endurheimtu skilaboðin þín og myndefni úr öryggisafriti á tækinu. Ef þú endurheimtir ekki núna verður það ekki hægt síðar.</string>
   <!--NewDeviceTransferInstructionsFragment-->
-  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Opnaðu Signal á gamla Android-símanum þínum</string>
+  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Opnaðu Grapherex á gamla Android-símanum þínum</string>
   <string name="NewDeviceTransferInstructions__continue">Halda áfram</string>
   <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
   <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">Ýttu á auðkennismyndina þína efst til vinstri til að opna stillingar</string>
@@ -2511,18 +2511,18 @@ PIN-númerið þitt. Ef þú manst ekki PIN-númerið, geturðu endursannvottað
   <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">Undirbý að tengjast við gamla Android-tækið…</string>
   <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">Tekur smá tíma, ætti að klárast bráðum</string>
   <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">Bíð eftir að gamla Android-tækið tengist…</string>
-  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Signal þarf að fá heimild til að nota staðsetningar til að finna og tengjast við gamla Android-tækið þitt.</string>
-  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Signal þarf að fá staðsetningarþjónustur virkjaðar til að finna og tengjast við gamla Android-tækið þitt.</string>
-  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Signal þarf á Wi-Fi að halda til að finna og tengjast við gamla Android-tækið þitt. Kveikt þarf að vera á Wi-Fi en það þarf ekki að vera tengt við Wi-Fi netkerfi.</string>
-  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Því miður, það lítur út eins og þetta tæki styðji ekki Beint Wi-Fi (Wi-Fi Direct). Signal notar Beint Wi-Fi til að finna og tengjast við gamla Android-tækið þitt. Þú getur samt endurheimt öryggisafrit til að fá aftur aðganginn þinn af gamla Android-tækinu þínu.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Grapherex þarf að fá heimild til að nota staðsetningar til að finna og tengjast við gamla Android-tækið þitt.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Grapherex þarf að fá staðsetningarþjónustur virkjaðar til að finna og tengjast við gamla Android-tækið þitt.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Grapherex þarf á Wi-Fi að halda til að finna og tengjast við gamla Android-tækið þitt. Kveikt þarf að vera á Wi-Fi en það þarf ekki að vera tengt við Wi-Fi netkerfi.</string>
+  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Því miður, það lítur út eins og þetta tæki styðji ekki Beint Wi-Fi (Wi-Fi Direct). Grapherex notar Beint Wi-Fi til að finna og tengjast við gamla Android-tækið þitt. Þú getur samt endurheimt öryggisafrit til að fá aftur aðganginn þinn af gamla Android-tækinu þínu.</string>
   <string name="NewDeviceTransferSetup__restore_a_backup">Endurheimta öryggisafrit</string>
   <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Óvænt villa kom upp þegar reynt var að tengjast við gamla Android-tækið þitt.</string>
   <!--OldDeviceTransferSetupFragment-->
   <string name="OldDeviceTransferSetup__searching_for_new_android_device">Leita að nýju Android-tæki…</string>
-  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Signal þarf að fá heimild til að nota staðsetningar til að finna og tengjast við nýja Android-tækið þitt.</string>
-  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Signal þarf að fá staðsetningarþjónustur virkjaðar til að finna og tengjast við nýja Android-tækið þitt.</string>
-  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Signal þarf á Wi-Fi að halda til að finna og tengjast við nýja Android-tækið þitt. Kveikt þarf að vera á Wi-Fi en það þarf ekki að vera tengt við Wi-Fi netkerfi.</string>
-  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Því miður, það lítur út eins og þetta tæki styðji ekki Beint Wi-Fi (Wi-Fi Direct). Signal notar Beint Wi-Fi til að finna og tengjast við nýja Android-tækið þitt. Þú getur samt útbúið öryggisafrit til að fá aftur aðganginn þinn yfir á nýja Android-tækið þitt.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Grapherex þarf að fá heimild til að nota staðsetningar til að finna og tengjast við nýja Android-tækið þitt.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Grapherex þarf að fá staðsetningarþjónustur virkjaðar til að finna og tengjast við nýja Android-tækið þitt.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Grapherex þarf á Wi-Fi að halda til að finna og tengjast við nýja Android-tækið þitt. Kveikt þarf að vera á Wi-Fi en það þarf ekki að vera tengt við Wi-Fi netkerfi.</string>
+  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Því miður, það lítur út eins og þetta tæki styðji ekki Beint Wi-Fi (Wi-Fi Direct). Grapherex notar Beint Wi-Fi til að finna og tengjast við nýja Android-tækið þitt. Þú getur samt útbúið öryggisafrit til að fá aftur aðganginn þinn yfir á nýja Android-tækið þitt.</string>
   <string name="OldDeviceTransferSetup__create_a_backup">Útbúa öryggisafrit</string>
   <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Óvænt villa kom upp þegar reynt var að tengjast við nýja Android-tækið þitt.</string>
   <!--DeviceTransferSetupFragment-->
@@ -2557,10 +2557,10 @@ PIN-númerið þitt. Ef þú manst ekki PIN-númerið, geturðu endursannvottað
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device_to_start_the_transfer">Ýttu á að halda áfram á hinu tækinu til að hefja yfirfærsluna.</string>
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device">Ýttu á að halda áfram á hinu tækinu…</string>
   <!--NewDeviceTransferFragment-->
-  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Ekki er hægt að yfirfæra úr nýrri útgáfum Signal</string>
+  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Ekki er hægt að yfirfæra úr nýrri útgáfum Grapherex</string>
   <!--DeviceTransferFragment-->
   <string name="DeviceTransfer__transferring_data">Flyt gögn</string>
-  <string name="DeviceTransfer__keep_both_devices_near_each_other">Haltu tækjunum nálægt hvoru öðru. Ekki slökkva á tækjunum og haltu Signal opnu. Yfirfærslur eru tryggðar með enda-í-enda dulritun.</string>
+  <string name="DeviceTransfer__keep_both_devices_near_each_other">Haltu tækjunum nálægt hvoru öðru. Ekki slökkva á tækjunum og haltu Grapherex opnu. Yfirfærslur eru tryggðar með enda-í-enda dulritun.</string>
   <string name="DeviceTransfer__d_messages_so_far">%1$d skilaboð eins og er…</string>
   <string name="DeviceTransfer__cancel">Hætta við</string>
   <string name="DeviceTransfer__try_again">Reyndu aftur</string>
@@ -2571,9 +2571,9 @@ PIN-númerið þitt. Ef þú manst ekki PIN-númerið, geturðu endursannvottað
   <string name="DeviceTransfer__unable_to_transfer">Tekst ekki að yfirfæra</string>
   <!--OldDeviceTransferInstructionsFragment-->
   <string name="OldDeviceTransferInstructions__transfer_account">Flytja aðgang</string>
-  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">Þú getur yfirfært Signal-aðganginn þinn þegar þú setur Signal upp á nýju Android-tæki. Áður en þú heldur áfram:</string>
+  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">Þú getur yfirfært Grapherex-aðganginn þinn þegar þú setur Grapherex upp á nýju Android-tæki. Áður en þú heldur áfram:</string>
   <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Náðu í Signal á nýja Android-tækinu þínu</string>
+  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Náðu í Grapherex á nýja Android-tækinu þínu</string>
   <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
   <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">Ýttu á \"Yfirfæra eða endurheimta aðgang\"</string>
   <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -2582,7 +2582,7 @@ PIN-númerið þitt. Ef þú manst ekki PIN-númerið, geturðu endursannvottað
   <!--OldDeviceTransferComplete-->
   <string name="OldDeviceTransferComplete__transfer_complete">Yfirfærslu lokið</string>
   <string name="OldDeviceTransferComplete__go_to_your_new_device">Farðu á nýja tækið þitt</string>
-  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Signal-gögnin þín hafa verið færð yfir á nýja tækið þitt. Til að ljúka yfirfærsluferlinu verðurðu að halda áfram skráningu á nýja tækinu þínu.</string>
+  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Grapherex-gögnin þín hafa verið færð yfir á nýja tækið þitt. Til að ljúka yfirfærsluferlinu verðurðu að halda áfram skráningu á nýja tækinu þínu.</string>
   <string name="OldDeviceTransferComplete__close">Loka</string>
   <!--NewDeviceTransferComplete-->
   <string name="NewDeviceTransferComplete__transfer_successful">Yfirfærsla tókst</string>
@@ -2599,7 +2599,7 @@ PIN-númerið þitt. Ef þú manst ekki PIN-númerið, geturðu endursannvottað
   <string name="DeviceToDeviceTransferService_status_service_connected">Yfirfæri aðgang…</string>
   <!--OldDeviceTransferLockedDialog-->
   <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">Kláraðu skráningu á nýja tækinu þínu</string>
-  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Signal-gögnin þín hafa verið færð yfir á nýja tækið þitt, en til að ljúka yfirfærsluferlinu verðurðu að klára skráningu á nýja tækinu þínu. Signal verður óvirkt á þessu tæki.</string>
+  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Grapherex-gögnin þín hafa verið færð yfir á nýja tækið þitt, en til að ljúka yfirfærsluferlinu verðurðu að klára skráningu á nýja tækinu þínu. Grapherex verður óvirkt á þessu tæki.</string>
   <string name="OldDeviceTransferLockedDialog__done">Búin/n</string>
   <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">Hætta við og virkja þetta tæki</string>
   <!--AdvancedPreferenceFragment-->
@@ -2634,12 +2634,12 @@ PIN-númerið þitt. Ef þú manst ekki PIN-númerið, geturðu endursannvottað
   <string name="GroupsLearnMore_what_are_legacy_groups">Hvað er þessi eldri gerð hópa?</string>
   <string name="GroupsLearnMore_paragraph_1">Eldri gerð hópa er ekki samhæfð við nýju hópana vegna eiginleika á borð við hópstjóra og meira lýsandi uppfærslur hópa.</string>
   <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">Get ég uppfært eldri gerð hóps?</string>
-  <string name="GroupsLearnMore_paragraph_2">Ekki er enn hægt að uppfæra eldri gerð hópa beint upp í nýju gerðina, en þú getur búið til nýjan hóp með sömu meðlimum ef meðlimirnir eru að nota nýjustu útgáfu Signal.</string>
-  <string name="GroupsLearnMore_paragraph_3">Signal mun í framtíðinni bjóða upp á leit til að uppfæra beint eldri gerð hópa.</string>
+  <string name="GroupsLearnMore_paragraph_2">Ekki er enn hægt að uppfæra eldri gerð hópa beint upp í nýju gerðina, en þú getur búið til nýjan hóp með sömu meðlimum ef meðlimirnir eru að nota nýjustu útgáfu Grapherex.</string>
+  <string name="GroupsLearnMore_paragraph_3">Grapherex mun í framtíðinni bjóða upp á leit til að uppfæra beint eldri gerð hópa.</string>
   <!--GroupLinkBottomSheetDialogFragment-->
   <string name="GroupLinkBottomSheet_share_hint_requiring_approval">Hver sá sem er með þennan tengil getur skoðað nafn hópsins, myndir og beiðnir um þátttöku. Deildu honum einungis með fólki sem þú treystir.</string>
   <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">Hver sá sem er með þennan tengil getur skoðað nafn hópsins, meðlimi hans og gengið í hópinn. Deildu honum einungis með fólki sem þú treystir.</string>
-  <string name="GroupLinkBottomSheet_share_via_signal">Deila í gegnum Signal</string>
+  <string name="GroupLinkBottomSheet_share_via_signal">Deila í gegnum Grapherex</string>
   <string name="GroupLinkBottomSheet_copy">Afrita</string>
   <string name="GroupLinkBottomSheet_qr_code">QR-kóði</string>
   <string name="GroupLinkBottomSheet_share">Deila</string>
@@ -2704,7 +2704,7 @@ PIN-númerið þitt. Ef þú manst ekki PIN-númerið, geturðu endursannvottað
   <string name="DeleteAccountFragment__no_number">Ekkert símanúmer tilgreint</string>
   <string name="DeleteAccountFragment__the_phone_number">Símanúmerið sem þú settir inn samsvarar ekki því sem er á aðgangnum þínum.</string>
   <string name="DeleteAccountFragment__are_you_sure">Ertu viss um að vilja eyða aðgangi þínum?</string>
-  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Þetta mun eyða Signal-aðgangnum þínum og frumstilla forritið. Forritið mun lokast eftir að ferlinu er lokið.</string>
+  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Þetta mun eyða Grapherex-aðgangnum þínum og frumstilla forritið. Forritið mun lokast eftir að ferlinu er lokið.</string>
   <string name="DeleteAccountFragment__failed_to_delete_account">Mistókst að eyða notandaaðgangi. Ertu viss um að netsambandið þitt virki?</string>
   <string name="DeleteAccountFragment__failed_to_delete_local_data">Mistókst að eyða staðværum gögnum. Þú getur eytt þeim handvirkt í forritastillingum kerfisins.</string>
   <string name="DeleteAccountFragment__launch_app_settings">Ræsa stillingar forritsins</string>
@@ -2716,7 +2716,7 @@ PIN-númerið þitt. Ef þú manst ekki PIN-númerið, geturðu endursannvottað
   <string name="ShareActivity__share">Deila</string>
   <string name="ShareActivity__send">Senda</string>
   <string name="ShareActivity__s_comma">%1$s,</string>
-  <string name="ShareActivity__sharing_to_multiple_chats_is">Að deila í mörg samtöl í einu er aðeins stutt fyrir Signal-skilaboð</string>
+  <string name="ShareActivity__sharing_to_multiple_chats_is">Að deila í mörg samtöl í einu er aðeins stutt fyrir Grapherex-skilaboð</string>
   <!--MultiShareDialogs-->
   <string name="MultiShareDialogs__failed_to_send_to_some_users">Mistókst að senda til sumra notenda</string>
   <string name="MultiShareDialogs__you_can_only_share_with_up_to">Aðeins hægt að deila allt að %1$d spjöllum</string>
@@ -2758,7 +2758,7 @@ PIN-númerið þitt. Ef þú manst ekki PIN-númerið, geturðu endursannvottað
   <string name="payment_info_card_about_mobilecoin">Um MobileCoin</string>
   <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">MobileCoin er nýr stafrænn gjaldmiðill sem leggur áherslu á gagnaleynd.</string>
   <string name="payment_info_card_adding_funds">Bæti við innistæðu</string>
-  <string name="payment_info_card_you_can_add_funds_for_use_in">Þú getur bætt við fjármagni til að nota í Signal með því að senda MobileCoin-mynt á vistfang veskisins þíns.</string>
+  <string name="payment_info_card_you_can_add_funds_for_use_in">Þú getur bætt við fjármagni til að nota í Grapherex með því að senda MobileCoin-mynt á vistfang veskisins þíns.</string>
   <string name="payment_info_card_cashing_out">Taka út innistæðu</string>
   <string name="payment_info_card_you_can_cash_out_mobilecoin">Þú getur hvenær sem er tekið út MobileCoin myntina þína í greiðslumiðlun sem styður MobileCoin - MOB. Framkvæmdu einfaldlega millifærslu á greiðsluaðganginn þinn á þeirri greiðslumiðlun.</string>
   <string name="payment_info_card_hide_this_card">Fela þetta greiðslukort?</string>
@@ -2772,18 +2772,18 @@ PIN-númerið þitt. Ef þú manst ekki PIN-númerið, geturðu endursannvottað
   <!--DeactivateWalletFragment-->
   <string name="DeactivateWalletFragment__deactivate_wallet">Gera veski óvirkt</string>
   <string name="DeactivateWalletFragment__your_balance">Innistæðan þín</string>
-  <string name="DeactivateWalletFragment__its_recommended_that_you">Mælt er með að þú millifærir sjóði þína yfir í annað veskisvistfang áður en þú gerir greiðslur óvirkar. Ef þú kýst að millifæra sjóðina ekki núna, munu þeir haldast í veskinu sem tengt er Signal ef þú virkjar greiðslur aftur.</string>
+  <string name="DeactivateWalletFragment__its_recommended_that_you">Mælt er með að þú millifærir sjóði þína yfir í annað veskisvistfang áður en þú gerir greiðslur óvirkar. Ef þú kýst að millifæra sjóðina ekki núna, munu þeir haldast í veskinu sem tengt er Grapherex ef þú virkjar greiðslur aftur.</string>
   <string name="DeactivateWalletFragment__transfer_remaining_balance">Millifæra eftirstöðvar innistæðu</string>
   <string name="DeactivateWalletFragment__deactivate_without_transferring">Gera óvirkt án þess að millifæra</string>
   <string name="DeactivateWalletFragment__deactivate">Gera óvirkt</string>
   <string name="DeactivateWalletFragment__deactivate_without_transferring_question">Gera óvirkt án þess að millifæra?</string>
-  <string name="DeactivateWalletFragment__your_balance_will_remain">Inneign þín mun haldast í veskinu sem tengt er Signal ef þú virkjar greiðslur aftur.</string>
+  <string name="DeactivateWalletFragment__your_balance_will_remain">Inneign þín mun haldast í veskinu sem tengt er Grapherex ef þú virkjar greiðslur aftur.</string>
   <string name="DeactivateWalletFragment__error_deactivating_wallet">Villa við að gera veski óvirkt.</string>
   <!--PaymentsRecoveryStartFragment-->
   <string name="PaymentsRecoveryStartFragment__recovery_phrase">Endurheimtufrasi</string>
   <string name="PaymentsRecoveryStartFragment__view_recovery_phrase">Skoða endurheimtufrasa</string>
   <string name="PaymentsRecoveryStartFragment__enter_recovery_phrase">Settu inn endurheimtufrasa</string>
-  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">Innistæðan þín mun endurheimtast sjálfkrafa eftir að þú setur Signal upp aftur, þegar þú staðfestir PIN-númerið þitt í Signal. Þú getur einnig endurheimt innistæðu þína með því að nota endurheimtufrasa, sem er %1$d-orða setning sem einungis þú átt að vita. Skrifaðu hana niður og geymdu á öruggum stað.</string>
+  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">Innistæðan þín mun endurheimtast sjálfkrafa eftir að þú setur Grapherex upp aftur, þegar þú staðfestir PIN-númerið þitt í Grapherex. Þú getur einnig endurheimt innistæðu þína með því að nota endurheimtufrasa, sem er %1$d-orða setning sem einungis þú átt að vita. Skrifaðu hana niður og geymdu á öruggum stað.</string>
   <string name="PaymentsRecoveryStartFragment__your_recovery_phrase_is_a">Endurheimtufrasinn þinn er %1$d-orða setning sem einungis þú átt að vita. Notaðu hana til að endurheimta greiðsluaðganginn þinn.</string>
   <string name="PaymentsRecoveryStartFragment__start">Byrja</string>
   <string name="PaymentsRecoveryStartFragment__enter_manually">Setja inn handvirkt</string>

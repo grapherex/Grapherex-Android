@@ -10,22 +10,22 @@
   <string name="AbstractNotificationBuilder_new_message">Neges newydd</string>
   <!--AlbumThumbnailView-->
   <!--ApplicationMigrationActivity-->
-  <string name="ApplicationMigrationActivity__signal_is_updating">Mae Signal yn diweddaru…</string>
+  <string name="ApplicationMigrationActivity__signal_is_updating">Mae Grapherex yn diweddaru…</string>
   <!--ApplicationPreferencesActivity-->
   <string name="ApplicationPreferencesActivity_currently_s">Yn gyfredol: %s</string>
   <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">Nid ydych wedi gosod cyfrinymadrodd eto!</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">Analluogi\'r cyfrinymadrodd?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Bydd hyn yn datgloi Signal a hysbysiadau negeseuon yn barhaol.</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Bydd hyn yn datgloi Grapherex a hysbysiadau negeseuon yn barhaol.</string>
   <string name="ApplicationPreferencesActivity_disable">Analluogi</string>
   <string name="ApplicationPreferencesActivity_unregistering">Datgofrestru</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Dadgofrestru o negeseuon a galwadau Signal…</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Analluogi negeseuon a galwadau Signal?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Analluogi negeseuon a galwadau Signal drwy ddadgofrestru o\'r gweinydd. Bydd angen i chi ailgofrestru eich rhif ffón i\'w defnyddio eto\'n y dyfodol.</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Dadgofrestru o negeseuon a galwadau Grapherex…</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Analluogi negeseuon a galwadau Grapherex?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Analluogi negeseuon a galwadau Grapherex drwy ddadgofrestru o\'r gweinydd. Bydd angen i chi ailgofrestru eich rhif ffón i\'w defnyddio eto\'n y dyfodol.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Gwall cysylltu â\'r gweinydd!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">Galluogwyd SMS</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Cyffyrddwch i newid eich rhaglen SMS ragosodedig</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">Analluogwyd SMS</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Cyffyrddwch i wneud Signal eich ap SMS rhagosodiedig</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Cyffyrddwch i wneud Grapherex eich ap SMS rhagosodiedig</string>
   <string name="ApplicationPreferencesActivity_on">ymlaen</string>
   <string name="ApplicationPreferencesActivity_On">Ymlaen</string>
   <string name="ApplicationPreferencesActivity_off">diffodd</string>
@@ -60,14 +60,14 @@
   <string name="AttachmentKeyboard_file">Ffeil</string>
   <string name="AttachmentKeyboard_contact">Cysylltiad</string>
   <string name="AttachmentKeyboard_location">Lleoliad</string>
-  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Mae Signal angen caniatâd i ddangos eich lluniau a\'ch fideos diweddar.</string>
+  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Mae Grapherex angen caniatâd i ddangos eich lluniau a\'ch fideos diweddar.</string>
   <string name="AttachmentKeyboard_give_access">Caniatáu Mynediad</string>
   <string name="AttachmentKeyboard_payment">Taliad</string>
   <!--AttachmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">Methu canfod rhaglen i ddewis cyfryngau.</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Mae ar Signal angen caniatâd Storio er mwyn atodi lluniau, fideos neu sain, ond mae wedi\'i wrthod yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis "Caniatâd", a galluogi "Storio".</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Mae ar Signal angen caniatâd Cysylltiadau er mwyn atodi gwybodaeth gyswllt, ond fe\'i rwystrwyd yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis "Caniatâd", a galluogi "Cysylltiadau".</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Mae ar Signal angen caniatâd Lleoliad er mwyn atodi gwybodaeth lleoliad, ond fe\'i rwystrwyd yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis "Caniatâd", a galluogi "Lleoliadau".</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Mae ar Grapherex angen caniatâd Storio er mwyn atodi lluniau, fideos neu sain, ond mae wedi\'i wrthod yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis "Caniatâd", a galluogi "Storio".</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Mae ar Grapherex angen caniatâd Cysylltiadau er mwyn atodi gwybodaeth gyswllt, ond fe\'i rwystrwyd yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis "Caniatâd", a galluogi "Cysylltiadau".</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Mae ar Grapherex angen caniatâd Lleoliad er mwyn atodi gwybodaeth lleoliad, ond fe\'i rwystrwyd yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis "Caniatâd", a galluogi "Lleoliadau".</string>
   <!--AttachmentUploadJob-->
   <string name="AttachmentUploadJob_uploading_media">Llwytho cyfrwng…</string>
   <string name="AttachmentUploadJob_compressing_video_start">Cywasgu fideo…</string>
@@ -111,26 +111,26 @@
   <string name="CameraXFragment_open_gallery_description">Agor yr oriel</string>
   <!--CameraContacts-->
   <string name="CameraContacts_recent_contacts">Cysylltiadau diweddar</string>
-  <string name="CameraContacts_signal_contacts">Cysylltiadau Signal</string>
-  <string name="CameraContacts_signal_groups">Grwpiau Signal</string>
+  <string name="CameraContacts_signal_contacts">Cysylltiadau Grapherex</string>
+  <string name="CameraContacts_signal_groups">Grwpiau Grapherex</string>
   <string name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">Gallwch rannu gydag uchafswm o %d sgyrsiau.</string>
-  <string name="CameraContacts_select_signal_recipients">Dewis derbynwyr Signal</string>
-  <string name="CameraContacts_no_signal_contacts">Dim cysylltiadau Signal</string>
-  <string name="CameraContacts_you_can_only_use_the_camera_button">Gallwch ddefnyddio botwm y camera dim ond i anfon lluniau i gysylltiadau Signal. </string>
+  <string name="CameraContacts_select_signal_recipients">Dewis derbynwyr Grapherex</string>
+  <string name="CameraContacts_no_signal_contacts">Dim cysylltiadau Grapherex</string>
+  <string name="CameraContacts_you_can_only_use_the_camera_button">Gallwch ddefnyddio botwm y camera dim ond i anfon lluniau i gysylltiadau Grapherex. </string>
   <string name="CameraContacts_cant_find_who_youre_looking_for">Methu canfod y person rydych yn chwilio amdani/o?</string>
-  <string name="CameraContacts_invite_a_contact_to_join_signal">Gwahodd cysylltiad i ymuno â Signal</string>
+  <string name="CameraContacts_invite_a_contact_to_join_signal">Gwahodd cysylltiad i ymuno â Grapherex</string>
   <string name="CameraContacts__menu_search">Chwilio</string>
   <!--ClearProfileActivity-->
   <string name="ClearProfileActivity_remove">Tynnu</string>
   <string name="ClearProfileActivity_remove_profile_photo">Tynnu\'r llun proffil?</string>
   <string name="ClearProfileActivity_remove_group_photo">Tynnu llun y grŵp?</string>
   <!--ClientDeprecatedActivity-->
-  <string name="ClientDeprecatedActivity_update_signal">Diweddaru Signal</string>
+  <string name="ClientDeprecatedActivity_update_signal">Diweddaru Grapherex</string>
   <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">Nid yw\'r fersiwn hon o\'r ap yn cael ei chefnogi mwyach. I barhau i anfon a derbyn negeseuon, diweddarwch nhw i\'r fersiwn ddiweddaraf.</string>
   <string name="ClientDeprecatedActivity_update">Diweddaru</string>
   <string name="ClientDeprecatedActivity_dont_update">Peidio â Diweddaru</string>
   <string name="ClientDeprecatedActivity_warning">Rhybudd</string>
-  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Mae eich fersiwn o Signal wedi dod i ben. Gallwch weld hanes eich neges ond ni fyddwch yn gallu anfon na derbyn negeseuon nes i chi ddiweddaru.</string>
+  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Mae eich fersiwn o Grapherex wedi dod i ben. Gallwch weld hanes eich neges ond ni fyddwch yn gallu anfon na derbyn negeseuon nes i chi ddiweddaru.</string>
   <!--CommunicationActions-->
   <string name="CommunicationActions_no_browser_found">Heb ganfod porwr gwe.</string>
   <string name="CommunicationActions_send_email">Anfon e-bost</string>
@@ -139,9 +139,9 @@
   <string name="CommunicationActions_cancel">Diddymu</string>
   <string name="CommunicationActions_call">Galw</string>
   <string name="CommunicationActions_insecure_call">Galwad anniogel</string>
-  <string name="CommunicationActions_carrier_charges_may_apply">Gall taliadau darparwr fod yn berthnasol. Nid yw\'r rhif rydych chi\'n ei alw wedi\'i gofrestru gyda Signal. Bydd yr alwad hon yn cael ei hanfon trwy eich darparwr symudol, nid dros y rhyngrwyd.</string>
+  <string name="CommunicationActions_carrier_charges_may_apply">Gall taliadau darparwr fod yn berthnasol. Nid yw\'r rhif rydych chi\'n ei alw wedi\'i gofrestru gyda Grapherex. Bydd yr alwad hon yn cael ei hanfon trwy eich darparwr symudol, nid dros y rhyngrwyd.</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Mae\'ch rhif diogelwch gyda %1$s wedi newid. Gall hyn olygu bod rhywun yn ceisio ymyrryd a\'ch cyfathrebu, neu bod %2$s wedi ail-osod Signal.</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Mae\'ch rhif diogelwch gyda %1$s wedi newid. Gall hyn olygu bod rhywun yn ceisio ymyrryd a\'ch cyfathrebu, neu bod %2$s wedi ail-osod Grapherex.</string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">Efallai yr hoffech wirio\'ch rhif diogelwch gyda\'r cyswllt hwn.</string>
   <string name="ConfirmIdentityDialog_accept">Derbyn</string>
   <!--ContactsCursorLoader-->
@@ -152,7 +152,7 @@
   <string name="ContactsCursorLoader_username_search">Chwiliad enw defnyddiwr</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">Neges %s</string>
-  <string name="ContactsDatabase_signal_call_s">Galwad Signal %s</string>
+  <string name="ContactsDatabase_signal_call_s">Galwad Grapherex %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">Enw</string>
   <string name="ContactNameEditActivity_family_name">Enw teuluol</string>
@@ -174,7 +174,7 @@
   <string name="ConversationItem_click_to_approve_unencrypted">Methodd yr anfon, tapiwch am gam nôl anniogel</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">Nôl i SMS heb ei amgryptio?</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">Nôl i MMS heb ei amgryptio?</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message"><b>Ni</b> fydd y neges yn cael ei amgryptio am nad yw\'r derbynnydd yn ddefnyddiwr Signal bellach. 
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message"><b>Ni</b> fydd y neges yn cael ei amgryptio am nad yw\'r derbynnydd yn ddefnyddiwr Grapherex bellach. 
  
 Send neges heb ei ddiogelu?</string>
   <string name="ConversationItem_unable_to_open_media">Methu canfod app sy\'n gallu agor y cyfryngau hwn.</string>
@@ -204,8 +204,8 @@ Send neges heb ei ddiogelu?</string>
   <string name="ConversationActivity_this_device_does_not_appear_to_support_dial_actions">Nid yw\'n ymddangos bod y ddyfais hon yn cefnogi gweithrediadau deialu.</string>
   <string name="ConversationActivity_transport_insecure_sms">SMS aniogel</string>
   <string name="ConversationActivity_transport_insecure_mms">MMS anniogel</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">Gadewch i ni newid i Signal %1$s</string>
+  <string name="ConversationActivity_transport_signal">Grapherex</string>
+  <string name="ConversationActivity_lets_switch_to_signal">Gadewch i ni newid i Grapherex %1$s</string>
   <string name="ConversationActivity_specify_recipient">Dewiswch gyswllt</string>
   <string name="ConversationActivity_unblock">Dadrwystro</string>
   <string name="ConversationActivity_attachment_exceeds_size_limits">Mae atodiad yn fwy na therfynau maint y math o neges rydych chi\'n ei hanfon.</string>
@@ -214,17 +214,17 @@ Send neges heb ei ddiogelu?</string>
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Nid oes ap ar gael i drin y ddolen hon ar eich dyfais.</string>
   <string name="ConversationActivity_your_request_to_join_has_been_sent_to_the_group_admin">Mae eich cais i ymuno wedi\'i anfon at weinyddiaeth y grŵp. Fe gewch hysbysiad pan fyddan nhw\'n gweithredu.</string>
   <string name="ConversationActivity_cancel_request">Diddymu\'r Cais</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">I anfon negeseuon sain, caniatewch i Signal gael mynediad i\'ch meicroffon.</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Mae ar Signal angen caniatâd Meicroffon i anfon negeseuon sain, ond mae wed\'i atal yn barhaol. Ewch i osodiadau\'r ap, dewis "Caniatâd", a galluogi "Microffon".</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Mae ar Signal angen caniatâd Meicroffon a Chamera i alw %s, ond mae wedi\'i atal yn barhaol. Ewch i osodiadau\'r ap, dewis "Caniatâd", a galluogi "Microffon" a "Chamera".</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">I gipio lluniau a fideo, caniatewch i Signal gael mynediad i\'r camera.</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Mae ar Signal angen caniatâd Camera er mwyn atodi tynnu lluniau neu fideos, ond fe\'i rwystrwyd yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis "Caniatâd", a galluogi "Camera".</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Angen Signal angen caniatâd camera i dynnu lluniau neu fideo</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">I anfon negeseuon sain, caniatewch i Grapherex gael mynediad i\'ch meicroffon.</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Mae ar Grapherex angen caniatâd Meicroffon i anfon negeseuon sain, ond mae wed\'i atal yn barhaol. Ewch i osodiadau\'r ap, dewis "Caniatâd", a galluogi "Microffon".</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Mae ar Grapherex angen caniatâd Meicroffon a Chamera i alw %s, ond mae wedi\'i atal yn barhaol. Ewch i osodiadau\'r ap, dewis "Caniatâd", a galluogi "Microffon" a "Chamera".</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">I gipio lluniau a fideo, caniatewch i Grapherex gael mynediad i\'r camera.</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Mae ar Grapherex angen caniatâd Camera er mwyn atodi tynnu lluniau neu fideos, ond fe\'i rwystrwyd yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis "Caniatâd", a galluogi "Camera".</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Angen Grapherex angen caniatâd camera i dynnu lluniau neu fideo</string>
   <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">Galluogi caniatâd meicroffon i gipio fideo gyda sain.</string>
-  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Mae Signal ange caniatâd meicroffon i recordio fideos, and mae wedi ei atal. Ewch i osodiadau\'r ap, dewis \"Caniatâd\" a galluogi \"Meicroffon\" a \"Camera\".</string>
-  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Mae Signal ange caniatad meicroffon i recordio fideos.</string>
+  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Mae Grapherex ange caniatâd meicroffon i recordio fideos, and mae wedi ei atal. Ewch i osodiadau\'r ap, dewis \"Caniatâd\" a galluogi \"Meicroffon\" a \"Camera\".</string>
+  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Mae Grapherex ange caniatad meicroffon i recordio fideos.</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
-  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Nid yw Signal yn gallu anfon negeseuon SMS/MMS gan nad yw eich ap ragosodedig SMS.Hoffech chi newid hyn yn eich gosodiadau Android?</string>
+  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Nid yw Grapherex yn gallu anfon negeseuon SMS/MMS gan nad yw eich ap ragosodedig SMS.Hoffech chi newid hyn yn eich gosodiadau Android?</string>
   <string name="ConversationActivity_yes">Iawn</string>
   <string name="ConversationActivity_no">Na</string>
   <string name="ConversationActivity_search_position">%1$d o %2$d</string>
@@ -238,7 +238,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="ConversationActivity_you_will_leave_this_group_and_it_will_be_deleted_from_all_of_your_devices">Byddwch yn gadael y grŵp hwn, a bydd yn cael ei ddileu o\'ch holl ddyfeisiau.</string>
   <string name="ConversationActivity_delete">Dileu</string>
   <string name="ConversationActivity_delete_and_leave">Dileu a gadael</string>
-  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">I alw %1$s mae angen i Signal gael mynediad i\'ch meicroffon.</string>
+  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">I alw %1$s mae angen i Grapherex gael mynediad i\'ch meicroffon.</string>
   <string name="ConversationActivity__more_options_now_in_group_settings">Rhagor o ddewisiadau yn \"Gosodiadau Grŵp\"</string>
   <string name="ConversationActivity_join">Ymuno</string>
   <string name="ConversationActivity_full">Llawn</string>
@@ -284,14 +284,14 @@ Send neges heb ei ddiogelu?</string>
     <item quantity="other">Cadw %1$d atodiad i\'r storfa</item>
   </plurals>
   <string name="ConversationFragment_pending">Yn aros…</string>
-  <string name="ConversationFragment_push">Data (Signal)</string>
+  <string name="ConversationFragment_push">Data (Grapherex)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">Wrthi\'n dileu</string>
   <string name="ConversationFragment_deleting_messages">Dileu negeseuon…</string>
   <string name="ConversationFragment_delete_for_me">Dileu i mi</string>
   <string name="ConversationFragment_delete_for_everyone">Dileu i bawb</string>
-  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Bydd y neges hon yn cael ei dileu i bawb sydd yn y sgwrs os ydynt yn defnyddio fersiwn diweddar o Signal. Byddant yn gallu gweld eich bod wedi dileu neges.</string>
+  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Bydd y neges hon yn cael ei dileu i bawb sydd yn y sgwrs os ydynt yn defnyddio fersiwn diweddar o Grapherex. Byddant yn gallu gweld eich bod wedi dileu neges.</string>
   <string name="ConversationFragment_quoted_message_not_found">Heb ganfod y neges wreiddiol</string>
   <string name="ConversationFragment_quoted_message_no_longer_available">Nid yw\'r neges wreiddiol bellach ar gael</string>
   <string name="ConversationFragment_failed_to_open_message">Methu agor neges</string>
@@ -303,12 +303,12 @@ Send neges heb ei ddiogelu?</string>
   <string name="ConversationFragment__d_group_members_have_the_same_name">Mae gan aelodau\'r grŵp %1$d yr un enw.</string>
   <string name="ConversationFragment__tap_to_review">Tapio i adolygu</string>
   <string name="ConversationFragment__review_requests_carefully">Adolygu ceisiadau yn ofalus</string>
-  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Daeth Signal o hyd i gyswllt arall gyda\'r un enw.</string>
+  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Daeth Grapherex o hyd i gyswllt arall gyda\'r un enw.</string>
   <string name="ConversationFragment_contact_us">Cysylltu â ni</string>
   <string name="ConversationFragment_verify">Dilysu</string>
   <string name="ConversationFragment_not_now">Nid nawr</string>
   <string name="ConversationFragment_your_safety_number_with_s_changed">Newidiodd eich rhif diogelwch gyda %s</string>
-  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Newidiodd eich rhif diogelwch gyda %s, yn debygol oherwydd eu bod wedi ailosod Signal neu newid dyfeisiau. Tapiwch Dilysu i gadarnhau\'r rhif diogelwch newydd. Mae hyn yn ddewisol.</string>
+  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Newidiodd eich rhif diogelwch gyda %s, yn debygol oherwydd eu bod wedi ailosod Grapherex neu newid dyfeisiau. Tapiwch Dilysu i gadarnhau\'r rhif diogelwch newydd. Mae hyn yn ddewisol.</string>
   <plurals name="ConversationListFragment_delete_selected_conversations">
     <item quantity="one">Dileu\'r sgwrs hon?</item>
     <item quantity="two">Dileu\'r sgyrsiau hyn?</item>
@@ -373,11 +373,11 @@ Send neges heb ei ddiogelu?</string>
   <string name="BackupsPreferenceFragment__test_your_backup_passphrase">Profwch eich cyfrinymadrodd wrth gefn a dilysu ei fod yn cydweddu</string>
   <string name="BackupsPreferenceFragment__turn_on">Troi ymlaen</string>
   <string name="BackupsPreferenceFragment__turn_off">Diffodd</string>
-  <string name="BackupsPreferenceFragment__to_restore_a_backup">I adfer copi wrth gefn, gosodwch gopi newydd o Signal. Agorwch yr app a thapio \"Adfer copi wrth gefn\", yna canfod y ffeil wrth gefn. %1$s</string>
+  <string name="BackupsPreferenceFragment__to_restore_a_backup">I adfer copi wrth gefn, gosodwch gopi newydd o Grapherex. Agorwch yr app a thapio \"Adfer copi wrth gefn\", yna canfod y ffeil wrth gefn. %1$s</string>
   <string name="BackupsPreferenceFragment__learn_more">Dysgu rhagor</string>
   <string name="BackupsPreferenceFragment__in_progress">Cynnydd…</string>
   <string name="BackupsPreferenceFragment__d_so_far">%1$d hyd yn hyn…</string>
-  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Mae ar Signal angen caniatâd storio allanol er mwyn creu copïau wrth gefn, ond fe\'i rwystrwyd yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis "Caniatâd", a galluogi "Storio".</string>
+  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Mae ar Grapherex angen caniatâd storio allanol er mwyn creu copïau wrth gefn, ond fe\'i rwystrwyd yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis "Caniatâd", a galluogi "Storio".</string>
   <!--CustomDefaultPreference-->
   <string name="CustomDefaultPreference_using_custom">Defnyddio\'r cyfaddas: %s</string>
   <string name="CustomDefaultPreference_using_default">Defnyddio rhagosodedig: %s</string>
@@ -396,7 +396,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="DateUtils_yesterday">Ddoe</string>
   <!--DecryptionFailedDialog-->
   <string name="DecryptionFailedDialog_chat_session_refreshed">Adnewyddwyd Sesiwn Sgwrsio</string>
-  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Mae Signal yn defnyddio amgryptio o\'r dechrau i\'r diwedd ac weithiau efallai y bydd angen iddo adnewyddu eich sesiwn sgwrsio. Nid yw hyn yn effeithio ar ddiogelwch eich sgwrs, ond efallai eich bod wedi methu neges o\'r cyswllt hwn, a gallwch ofyn iddyn nhw ei hail-gyflwyno.</string>
+  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Mae Grapherex yn defnyddio amgryptio o\'r dechrau i\'r diwedd ac weithiau efallai y bydd angen iddo adnewyddu eich sesiwn sgwrsio. Nid yw hyn yn effeithio ar ddiogelwch eich sgwrs, ond efallai eich bod wedi methu neges o\'r cyswllt hwn, a gallwch ofyn iddyn nhw ei hail-gyflwyno.</string>
   <!--DeviceListActivity-->
   <string name="DeviceListActivity_unlink_s">Datgysylltu \'%s\'?</string>
   <string name="DeviceListActivity_by_unlinking_this_device_it_will_no_longer_be_able_to_send_or_receive">Drwy ddatgysylltu\'r ddyfais hon, ni fydd yn gallu anfon neu dderbyn negeseuon.</string>
@@ -413,8 +413,8 @@ Send neges heb ei ddiogelu?</string>
   <!--DocumentView-->
   <string name="DocumentView_unnamed_file">Ffeil dienw</string>
   <!--DonateMegaphone-->
-  <string name="DonateMegaphone_donate_to_signal">Cyfrannu at Signal</string>
-  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Mae grym Signal mewn pobl fel chi. Dangoswch eich cefnogaeth heddiw!</string>
+  <string name="DonateMegaphone_donate_to_signal">Cyfrannu at Grapherex</string>
+  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Mae grym Grapherex mewn pobl fel chi. Dangoswch eich cefnogaeth heddiw!</string>
   <string name="DonateMegaphone_donate">Cyfraniad</string>
   <string name="DonateMegaphone_no_thanks">Dim Diolch</string>
   <!--GroupCallingMegaphone-->
@@ -422,9 +422,9 @@ Send neges heb ei ddiogelu?</string>
   <string name="GroupCallingMegaphone__open_a_new_group_to_start">Agorwch Grŵp Newydd i gychwyn galwad grŵp amgrypiedig am ddim</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">Optimeiddio ar gyfer Play Services coll</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Nid yw\'r ddyfais hon yn cefnogi Play Services Tapiwch i analluogi gwelliannau batri system sy\'n atal Signal rhag adfer negeseuon tra\'n anweithredol.</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Nid yw\'r ddyfais hon yn cefnogi Play Services Tapiwch i analluogi gwelliannau batri system sy\'n atal Grapherex rhag adfer negeseuon tra\'n anweithredol.</string>
   <!--ExpiredBuildReminder-->
-  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Mae\'r fersiwn hon o Signal wedi dod i ben. Diweddarwch nawr i anfon a derbyn negeseuon.</string>
+  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Mae\'r fersiwn hon o Grapherex wedi dod i ben. Diweddarwch nawr i anfon a derbyn negeseuon.</string>
   <string name="ExpiredBuildReminder_update_now">Diweddaru nawr</string>
   <!--PendingGroupJoinRequestsReminder-->
   <plurals name="PendingGroupJoinRequestsReminder_d_pending_member_requests">
@@ -438,8 +438,8 @@ Send neges heb ei ddiogelu?</string>
   <string name="ShareActivity_share_with">Rhannu â</string>
   <string name="ShareActivity_multiple_attachments_are_only_supported">Dim ond ar gyfer delweddau a fideos y mae atodiadau lluosog yn cael eu cynnal</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Methiant cyfathrebu Signal parhaol!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Nid oedd Signal yn gallu cofrestru gyda Google Play Services. Mae negeseuon a galwadau Signal wedi\'u hanalluogi, ceisiwch ailgofrestru yn Gosodiadau &gt; Uwch.</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Methiant cyfathrebu Grapherex parhaol!</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Nid oedd Grapherex yn gallu cofrestru gyda Google Play Services. Mae negeseuon a galwadau Grapherex wedi\'u hanalluogi, ceisiwch ailgofrestru yn Gosodiadau &gt; Uwch.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Gwall wrth estyn GIF cydraniad llawn</string>
   <!--GiphyFragmentPageAdapter-->
@@ -630,7 +630,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="AddGroupDetailsFragment__this_field_is_required">Mae angen y maes yma.</string>
   <string name="AddGroupDetailsFragment__group_creation_failed">Methodd creu grŵp.</string>
   <string name="AddGroupDetailsFragment__try_again_later">Ceisiwch eto</string>
-  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">Rydych wedi dewis cyswllt nad yw\'n cynnal grwpiau Signal, felly bydd y grŵp hwn yn MMS.</string>
+  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">Rydych wedi dewis cyswllt nad yw\'n cynnal grwpiau Grapherex, felly bydd y grŵp hwn yn MMS.</string>
   <string name="AddGroupDetailsFragment_custom_mms_group_names_and_photos_will_only_be_visible_to_you">Dim ond i chi y bydd enwau a lluniau grŵp MMS cyfaddas yn weladwy.</string>
   <string name="AddGroupDetailsFragment__remove">Tynnu</string>
   <string name="AddGroupDetailsFragment__sms_contact">Cyswllt SMS</string>
@@ -648,19 +648,19 @@ Send neges heb ei ddiogelu?</string>
     <item quantity="other">Nid yw aelod %d yn cefnogi Grwpiau Newydd, felly nid oes modd creu\'r grŵp hwn.</item>
   </plurals>
   <!--NonGv2MemberDialog-->
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">Bydd Hen Grŵp yn cael ei greu oherwydd bod “%1$s” yn defnyddio hen fersiwn o Signal. Gallwch greu Grŵp Arddull Newydd gyda nhw ar ôl iddyn nhw ddiweddaru Signal, neu eu tynnu cyn creu\'r grŵp.</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">Bydd Hen Grŵp yn cael ei greu oherwydd bod “%1$s” yn defnyddio hen fersiwn o Grapherex. Gallwch greu Grŵp Arddull Newydd gyda nhw ar ôl iddyn nhw ddiweddaru Grapherex, neu eu tynnu cyn creu\'r grŵp.</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable">
-    <item quantity="one">Bydd Hen Grŵp yn cael ei greu oherwydd bod aelod %1$s yn defnyddio hen fersiwn o Signal. Gallwch greu Grŵp Arddull Newydd gyda nhw ar ôl iddyn nhw ddiweddaru Signal, neu eu tynnu cyn creu\'r grŵp.</item>
-    <item quantity="two">Bydd Hen Grŵp yn cael ei greu oherwydd bod aelod %1$s yn defnyddio hen fersiwn o Signal. Gallwch greu Grŵp Arddull Newydd gyda nhw ar ôl iddyn nhw ddiweddaru Signal, neu eu tynnu cyn creu\'r grŵp.</item>
-    <item quantity="many">Bydd Hen Grŵp yn cael ei greu oherwydd bod aelod %1$s yn defnyddio hen fersiwn o Signal. Gallwch greu Grŵp Arddull Newydd gyda nhw ar ôl iddyn nhw ddiweddaru Signal, neu eu tynnu cyn creu\'r grŵp.</item>
-    <item quantity="other">Bydd Hen Grŵp yn cael ei greu oherwydd bod aelod %1$s yn defnyddio hen fersiwn o Signal. Gallwch greu Grŵp Arddull Newydd gyda nhw ar ôl iddyn nhw ddiweddaru Signal, neu eu tynnu cyn creu\'r grŵp.</item>
+    <item quantity="one">Bydd Hen Grŵp yn cael ei greu oherwydd bod aelod %1$s yn defnyddio hen fersiwn o Grapherex. Gallwch greu Grŵp Arddull Newydd gyda nhw ar ôl iddyn nhw ddiweddaru Grapherex, neu eu tynnu cyn creu\'r grŵp.</item>
+    <item quantity="two">Bydd Hen Grŵp yn cael ei greu oherwydd bod aelod %1$s yn defnyddio hen fersiwn o Grapherex. Gallwch greu Grŵp Arddull Newydd gyda nhw ar ôl iddyn nhw ddiweddaru Grapherex, neu eu tynnu cyn creu\'r grŵp.</item>
+    <item quantity="many">Bydd Hen Grŵp yn cael ei greu oherwydd bod aelod %1$s yn defnyddio hen fersiwn o Grapherex. Gallwch greu Grŵp Arddull Newydd gyda nhw ar ôl iddyn nhw ddiweddaru Grapherex, neu eu tynnu cyn creu\'r grŵp.</item>
+    <item quantity="other">Bydd Hen Grŵp yn cael ei greu oherwydd bod aelod %1$s yn defnyddio hen fersiwn o Grapherex. Gallwch greu Grŵp Arddull Newydd gyda nhw ar ôl iddyn nhw ddiweddaru Grapherex, neu eu tynnu cyn creu\'r grŵp.</item>
   </plurals>
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">Nid oes modd creu’r grŵp hwn oherwydd bod “%1$s” yn defnyddio hen fersiwn o Signal. Rhaid i chi eu tynnu cyn creu\'r grŵp.</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">Nid oes modd creu’r grŵp hwn oherwydd bod “%1$s” yn defnyddio hen fersiwn o Grapherex. Rhaid i chi eu tynnu cyn creu\'r grŵp.</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable_forced_migration">
-    <item quantity="one">Nid oes modd creu’r grŵp hwn oherwydd bod “%1$s” yn defnyddio hen fersiwn o Signal. Rhaid i chi eu tynnu cyn creu\'r grŵp.</item>
-    <item quantity="two">Nid oes modd creu’r grŵp hwn oherwydd bod “%1$s” yn defnyddio hen fersiwn o Signal. Rhaid i chi eu tynnu cyn creu\'r grŵp.</item>
-    <item quantity="many">Nid oes modd creu’r grŵp hwn oherwydd bod “%1$s” yn defnyddio hen fersiwn o Signal. Rhaid i chi eu tynnu cyn creu\'r grŵp.</item>
-    <item quantity="other">Nid oes modd creu’r grŵp hwn oherwydd bod “%1$s” yn defnyddio hen fersiwn o Signal. Rhaid i chi eu tynnu cyn creu\'r grŵp.</item>
+    <item quantity="one">Nid oes modd creu’r grŵp hwn oherwydd bod “%1$s” yn defnyddio hen fersiwn o Grapherex. Rhaid i chi eu tynnu cyn creu\'r grŵp.</item>
+    <item quantity="two">Nid oes modd creu’r grŵp hwn oherwydd bod “%1$s” yn defnyddio hen fersiwn o Grapherex. Rhaid i chi eu tynnu cyn creu\'r grŵp.</item>
+    <item quantity="many">Nid oes modd creu’r grŵp hwn oherwydd bod “%1$s” yn defnyddio hen fersiwn o Grapherex. Rhaid i chi eu tynnu cyn creu\'r grŵp.</item>
+    <item quantity="other">Nid oes modd creu’r grŵp hwn oherwydd bod “%1$s” yn defnyddio hen fersiwn o Grapherex. Rhaid i chi eu tynnu cyn creu\'r grŵp.</item>
   </plurals>
   <!--ManageGroupActivity-->
   <string name="ManageGroupActivity_member_requests_and_invites">Ceisiadau aelodau a gwahoddiadau</string>
@@ -692,7 +692,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="ManageGroupActivity_only_admins_can_enable_or_disable_the_option_to_approve_new_members">Dim ond gweinyddwyr sy\'n gallu galluogi neu analluogi\'r dewis i gymeradwyo aelodau newydd.</string>
   <string name="ManageGroupActivity_only_admins_can_reset_the_sharable_group_link">Dim ond gweinyddwyr sy\'n gallu ailosod y ddolen grŵp rhanadwy.</string>
   <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">Nid oes gennych yr hawl i wneud hyn</string>
-  <string name="ManageGroupActivity_not_capable">Nid yw rhywun a ychwanegwyd gennych yn cefnogi grwpiau newydd ac mae angen iddo ddiweddaru Signal</string>
+  <string name="ManageGroupActivity_not_capable">Nid yw rhywun a ychwanegwyd gennych yn cefnogi grwpiau newydd ac mae angen iddo ddiweddaru Grapherex</string>
   <string name="ManageGroupActivity_failed_to_update_the_group">Wedi methu diweddaru\'r grŵp</string>
   <string name="ManageGroupActivity_youre_not_a_member_of_the_group">Nid ydych yn aelod o\'r grŵp</string>
   <string name="ManageGroupActivity_failed_to_update_the_group_please_retry_later">Wedi methu diweddaru\'r grŵp, aildrydarwch yn nes ymlaen</string>
@@ -703,7 +703,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="ManageGroupActivity_legacy_group_upgrade">Hen Grŵp yw hwn. I gael mynediad at nodweddion newydd fel @mentions a gweinyddwyr,</string>
   <string name="ManageGroupActivity_legacy_group_too_large">Nid oes modd uwchraddio\'r Hen Grŵp hwn i Grŵp Newydd oherwydd ei fod yn rhy fawr. Uchafswm maint y grŵp yw %1$d.</string>
   <string name="ManageGroupActivity_upgrade_this_group">uwchraddio\'r grŵp hwn.</string>
-  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Mae hwn yn Grŵp MMS aniogel. I sgwrsio\'n breifat, gwahoddwch eich cysylltiadau i Signal.</string>
+  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Mae hwn yn Grŵp MMS aniogel. I sgwrsio\'n breifat, gwahoddwch eich cysylltiadau i Grapherex.</string>
   <string name="ManageGroupActivity_invite_now">Gwahodd nawr</string>
   <!--GroupMentionSettingDialog-->
   <string name="GroupMentionSettingDialog_notify_me_for_mentions">Rhowch wybod i mi am Grybwylliadau</string>
@@ -803,10 +803,10 @@ Send neges heb ei ddiogelu?</string>
     <item quantity="other">Grŵp · %1$d aelod</item>
   </plurals>
   <!--GroupJoinUpdateRequiredBottomSheetDialogFragment-->
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Diweddarwch Signal i ddefnyddio dolenni grŵp</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Nid yw\'r fersiwn o Signal rydych chi\'n ei defnyddio yn cefnogi\'r dolen grŵp hwn. Diweddarwch i\'r fersiwn ddiweddaraf i ymuno â\'r grŵp hwn trwy ddolen.</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Diweddaru Signal</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">Mae un neu fwy o\'ch dyfeisiau cysylltiedig yn rhedeg fersiwn o Signal nad yw\'n cefnogi cysylltiadau grŵp. Diweddarwch y Signal ar eich dyfais\dyfeisiau cysylltiedig i ymuno â\'r grŵp hwn.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Diweddarwch Grapherex i ddefnyddio dolenni grŵp</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Nid yw\'r fersiwn o Grapherex rydych chi\'n ei defnyddio yn cefnogi\'r dolen grŵp hwn. Diweddarwch i\'r fersiwn ddiweddaraf i ymuno â\'r grŵp hwn trwy ddolen.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Diweddaru Grapherex</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">Mae un neu fwy o\'ch dyfeisiau cysylltiedig yn rhedeg fersiwn o Grapherex nad yw\'n cefnogi cysylltiadau grŵp. Diweddarwch y Grapherex ar eich dyfais\dyfeisiau cysylltiedig i ymuno â\'r grŵp hwn.</string>
   <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">Nid yw\'r cyswllt grŵp yn ddilys</string>
   <!--GroupInviteLinkEnableAndShareBottomSheetDialogFragment-->
   <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_invite_friends">Gwahodd ffrindiau</string>
@@ -836,7 +836,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="InviteActivity_cancel">Diddymu</string>
   <string name="InviteActivity_sending">Yn anfon…</string>
   <string name="InviteActivity_invitations_sent">Gwahoddiadau wedi\'u anfon!</string>
-  <string name="InviteActivity_invite_to_signal">Gwahodd i Signal</string>
+  <string name="InviteActivity_invite_to_signal">Gwahodd i Grapherex</string>
   <plurals name="InviteActivity_send_sms_to_friends">
     <item quantity="one">ANFON SMS AT %d FFRIND</item>
     <item quantity="two">ANFON SMS AT %d FFRIND</item>
@@ -849,7 +849,7 @@ Send neges heb ei ddiogelu?</string>
     <item quantity="many">Anfon gwahoddiad SMS at %d?</item>
     <item quantity="other">Anfon gwahoddiad SMS at %d?</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">Gadewch i ni newid i Signal %1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">Gadewch i ni newid i Grapherex %1$s</string>
   <string name="InviteActivity_no_app_to_share_to">Mae\'n edrych fel nad oes gennych unrhyw apiau i\'w rhannu.</string>
   <string name="InviteActivity_friends_dont_let_friends_text_unencrypted">Dyw ffrindiau ddim yn gadael i ffrindiau sgwrsio heb amgryptiad.</string>
   <!--LearnMoreTextView-->
@@ -859,7 +859,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="LongMessageActivity_message_from_s">Neges gan %1$s</string>
   <string name="LongMessageActivity_your_message">Eich neges</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">Grapherex</string>
   <string name="MessageRetrievalService_background_connection_enabled">Cysylltiad cefndir wedi\'i alluogi</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">Gwall wrth ddarllen gosodiadau darparwr MMS diwifr</string>
@@ -916,7 +916,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="Megaphones_introducing_reactions">Yn Cyflwyno Adweithiau</string>
   <string name="Megaphones_tap_and_hold_any_message_to_quicky_share_how_you_feel">Tapiwch a dal unrhyw neges i rannu\'n sydyn eich teimladau.</string>
   <string name="Megaphones_remind_me_later">Atgoffwch fi\'n hwyrach</string>
-  <string name="Megaphones_verify_your_signal_pin">Dilyswch eich PIN Signal</string>
+  <string name="Megaphones_verify_your_signal_pin">Dilyswch eich PIN Grapherex</string>
   <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">Byddwn yn gofyn i chi o bryd i\'w gilydd i ddilysu eich PIN fel eich bod yn ei gofio.</string>
   <string name="Megaphones_verify_pin">Dilysu\'r PIN</string>
   <string name="Megaphones_get_started">Dechrau arni</string>
@@ -924,10 +924,10 @@ Send neges heb ei ddiogelu?</string>
   <string name="Megaphones_invite_friends">Gwahodd ffrindiau</string>
   <string name="Megaphones_use_sms">Defnyddiwch SMS</string>
   <!--NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Ar ganol galwad Signal</string>
-  <string name="NotificationBarManager__establishing_signal_call">Sicrhau galwad Signal</string>
-  <string name="NotificationBarManager__incoming_signal_call">Galwad Signal wedi cyrraedd</string>
-  <string name="NotificationBarManager__stopping_signal_call_service">Atal gwasanaeth galw Signal</string>
+  <string name="NotificationBarManager_signal_call_in_progress">Ar ganol galwad Grapherex</string>
+  <string name="NotificationBarManager__establishing_signal_call">Sicrhau galwad Grapherex</string>
+  <string name="NotificationBarManager__incoming_signal_call">Galwad Grapherex wedi cyrraedd</string>
+  <string name="NotificationBarManager__stopping_signal_call_service">Atal gwasanaeth galw Grapherex</string>
   <string name="NotificationBarManager__deny_call">Gwrthod galwad</string>
   <string name="NotificationBarManager__answer_call">Ateb galwad</string>
   <string name="NotificationBarManager__end_call">Gorffen galwad</string>
@@ -951,8 +951,8 @@ Send neges heb ei ddiogelu?</string>
   <string name="MediaSendActivity_message_to_s">Neges i %s</string>
   <string name="MediaSendActivity_message">Neges</string>
   <string name="MediaSendActivity_select_recipients">Dewis derbynwyr</string>
-  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Mae ar Signal angen mynediad i\'ch cysylltiadau er mwyn eu harddangos.</string>
-  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Mae Signal angen caniatad Contacts er mwyn dangos eich cysylltiadau, ond mae wedi ei wrthod yn barhaol. Ewch i osodiadau\'r ap, dewis \"Permissions\", a galluogi \"Contacts\".</string>
+  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Mae ar Grapherex angen mynediad i\'ch cysylltiadau er mwyn eu harddangos.</string>
+  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Mae Grapherex angen caniatad Contacts er mwyn dangos eich cysylltiadau, ond mae wedi ei wrthod yn barhaol. Ewch i osodiadau\'r ap, dewis \"Permissions\", a galluogi \"Contacts\".</string>
   <plurals name="MediaSendActivity_cant_share_more_than_n_items">
     <item quantity="one">Nid oes modd rhannu mwy na %d eitem.</item>
     <item quantity="two">Nid oes modd rhannu mwy na %d eitem.</item>
@@ -966,7 +966,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="MediaRepository__camera">Camera</string>
   <!--MessageRecord-->
   <string name="MessageRecord_unknown">Anhysbys</string>
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Wedi derbyn neges wedi\'i hamgryptio gan ddefnyddio hen fersiwn o Signal nad yw bellach yn cael ei gefnogi. Gofynnwch i\'r anfonwr ddiweddaru i\'r fersiwn ddiweddaraf ac ail-anfon y neges.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Wedi derbyn neges wedi\'i hamgryptio gan ddefnyddio hen fersiwn o Grapherex nad yw bellach yn cael ei gefnogi. Gofynnwch i\'r anfonwr ddiweddaru i\'r fersiwn ddiweddaraf ac ail-anfon y neges.</string>
   <string name="MessageRecord_left_group">Rydych wedi gadael y grŵp.</string>
   <string name="MessageRecord_you_updated_group">Rydych chi wedi diweddaru\'r grŵp.</string>
   <string name="MessageRecord_the_group_was_updated">Diweddarwyd y grŵp.</string>
@@ -975,7 +975,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="MessageRecord_missed_video_call_date">Galwad fideo wedi\'i golli · %1$s</string>
   <string name="MessageRecord_s_updated_group">Mae %s wedi diweddaru\'r grŵp.</string>
   <string name="MessageRecord_s_called_you_date">Fe wnaeth %1$s eich galw chi · %2$s</string>
-  <string name="MessageRecord_s_joined_signal">Mae %s ar Signal!</string>
+  <string name="MessageRecord_s_joined_signal">Mae %s ar Grapherex!</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">Rydych chi\'n wedi analluogi negeseuon sy\'n diflannu .</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$s neges diflannu anabl.</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">Rydych wedi gosod yr amserydd neges sy\'n diflannu i%1$s.</string>
@@ -1213,9 +1213,9 @@ Send neges heb ei ddiogelu?</string>
   <string name="DeviceProvisioningActivity_content_progress_key_error">Cod QR annilys.</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Mae gormod o ddyfeisiau eisoes wedi\'u cysylltu; rhaid datgysylltu rhai</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Nid yw hwn yn god QR dilys i gysylltu dyfais.</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">Cysylltu â dyfais Signal?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Mae\'n edrych fel eich bod yn ceisio cysylltu dyfais Signal gan ddefnyddio sganiwr trydydd parti. Er eich diogelwch, sganiwch y cod eto o fewn Signal.</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Mae ar Signal angen caniatâd Camera er mwyn sganio cod QR, ond fe\'i rwystrwyd yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis "Caniatâd", a galluogi "Camera".</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">Cysylltu â dyfais Grapherex?</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Mae\'n edrych fel eich bod yn ceisio cysylltu dyfais Grapherex gan ddefnyddio sganiwr trydydd parti. Er eich diogelwch, sganiwch y cod eto o fewn Grapherex.</string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Mae ar Grapherex angen caniatâd Camera er mwyn sganio cod QR, ond fe\'i rwystrwyd yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis "Caniatâd", a galluogi "Camera".</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Methu sganio cod QR heb ganiatâd y Camera</string>
   <!--ExpirationDialog-->
   <string name="ExpirationDialog_disappearing_messages">Negeseuon diflanedig</string>
@@ -1223,20 +1223,20 @@ Send neges heb ei ddiogelu?</string>
   <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Bydd negeseuon sy\'n cael eu anfon a\'u derbyn yn y sgwrs yn diflannu %s ar ôl iddynt gael eu gweld.</string>
   <!--OutdatedBuildReminder-->
   <string name="OutdatedBuildReminder_update_now">Diweddaru nawr</string>
-  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Bydd y fersiwn hon o Signal yn dod i ben heddiw. Diweddarwch i\'r fersiwn ddiweddaraf.</string>
+  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Bydd y fersiwn hon o Grapherex yn dod i ben heddiw. Diweddarwch i\'r fersiwn ddiweddaraf.</string>
   <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-    <item quantity="one">Bydd y fersiwn hon o Signal yn dod i ben yfory. Diweddarwch i\'r fersiwn ddiweddaraf.</item>
-    <item quantity="two">Bydd y fersiwn hon o Signal yn dod i ben mewn% d diwrnod. Diweddarwch i\'r fersiwn ddiweddaraf.</item>
-    <item quantity="many">Bydd y fersiwn hon o Signal yn dod i ben mewn% d diwrnod. Diweddarwch i\'r fersiwn ddiweddaraf.</item>
-    <item quantity="other">Bydd y fersiwn hon o Signal yn dod i ben mewn% d diwrnod. Diweddarwch i\'r fersiwn ddiweddaraf.</item>
+    <item quantity="one">Bydd y fersiwn hon o Grapherex yn dod i ben yfory. Diweddarwch i\'r fersiwn ddiweddaraf.</item>
+    <item quantity="two">Bydd y fersiwn hon o Grapherex yn dod i ben mewn% d diwrnod. Diweddarwch i\'r fersiwn ddiweddaraf.</item>
+    <item quantity="many">Bydd y fersiwn hon o Grapherex yn dod i ben mewn% d diwrnod. Diweddarwch i\'r fersiwn ddiweddaraf.</item>
+    <item quantity="other">Bydd y fersiwn hon o Grapherex yn dod i ben mewn% d diwrnod. Diweddarwch i\'r fersiwn ddiweddaraf.</item>
   </plurals>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">Rhoi cyfrinymadrodd</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Eicon Signal</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">Eicon Grapherex</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">Cyflwyno cyfrinymadrodd</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Cyfrinymadrodd annilys!</string>
-  <string name="PassphrasePromptActivity_unlock_signal">Datgloi Signal</string>
-  <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android - Sgrin Cloi</string>
+  <string name="PassphrasePromptActivity_unlock_signal">Datgloi Grapherex</string>
+  <string name="PassphrasePromptActivity_signal_android_lock_screen">Grapherex Android - Sgrin Cloi</string>
   <!--PlacePickerActivity-->
   <string name="PlacePickerActivity_title">Map</string>
   <string name="PlacePickerActivity_drop_pin">Gollwng pin</string>
@@ -1250,7 +1250,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="PinRestoreEntryFragment_your_pin_is_a_d_digit_code">Mae eich PIN yn god digid %1$d+ a grëwyd gennych a all fod yn rhifol neu\'n alffaniwmerig.\n\n Os na fyddwch yn gallu cofio\'ch PIN, gallwch greu un newydd. Gallwch gofrestru a defnyddio\'ch cyfrif ond byddwch yn colli rhai gosodiadau sydd wedi\'u cadw fel manylion eich proffil.</string>
   <string name="PinRestoreEntryFragment_if_you_cant_remember_your_pin">Os na allwch gofio\'ch PIN, gallwch greu un newydd. Gallwch gofrestru a defnyddio\'ch cyfrif ond byddwch chi\'n colli rhai gosodiadau sydd wedi\'u cadw fel eich gwybodaeth broffil.</string>
   <string name="PinRestoreEntryFragment_create_new_pin">Creu PIN Newydd</string>
-  <string name="PinRestoreEntryFragment_contact_support">Cysylltu â Chymorth Signal</string>
+  <string name="PinRestoreEntryFragment_contact_support">Cysylltu â Chymorth Grapherex</string>
   <string name="PinRestoreEntryFragment_cancel">Diddymu</string>
   <string name="PinRestoreEntryFragment_skip">Hepgor</string>
   <plurals name="PinRestoreEntryFragment_you_have_d_attempt_remaining">
@@ -1259,16 +1259,16 @@ Send neges heb ei ddiogelu?</string>
     <item quantity="many">Mae gennych %1$d ymgais ar ôl. Os ydych chi\'n rhedeg yn brin o geisiadau, gallwch greu PIN newydd. Gallwch gofrestru a defnyddio\'ch cyfrif ond byddwch chi\'n colli rhai gosodiadau sydd wedi\'u cadw fel manylion eich proffil.</item>
     <item quantity="other">Mae gennych %1$d ymgais ar ôl. Os ydych chi\'n rhedeg yn brin o geisiadau, gallwch greu PIN newydd. Gallwch gofrestru a defnyddio\'ch cyfrif ond byddwch chi\'n colli rhai gosodiadau sydd wedi\'u cadw fel manylion eich proffil.</item>
   </plurals>
-  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Cofrestriad Signalau - Angen Cymorth gyda PIN ar gyfer Android</string>
+  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Cofrestriad Grapherexau - Angen Cymorth gyda PIN ar gyfer Android</string>
   <string name="PinRestoreEntryFragment_enter_alphanumeric_pin">Rhowch PIN alffaniwmerig</string>
   <string name="PinRestoreEntryFragment_enter_numeric_pin">Rhowch PIN rhifol</string>
   <!--PinRestoreLockedFragment-->
   <string name="PinRestoreLockedFragment_create_your_pin">Crëwch eich PIN</string>
-  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Rydych chi wedi rhedeg allan o ddyfaliadau PIN, ond gallwch barhau i gael mynediad i\'ch cyfrif Signal trwy greu PIN newydd. Er eich preifatrwydd a\'ch diogelwch, bydd eich cyfrif yn cael ei adfer heb unrhyw wybodaeth neu osodiadau proffil sydd wedi\'u cadw.</string>
+  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Rydych chi wedi rhedeg allan o ddyfaliadau PIN, ond gallwch barhau i gael mynediad i\'ch cyfrif Grapherex trwy greu PIN newydd. Er eich preifatrwydd a\'ch diogelwch, bydd eich cyfrif yn cael ei adfer heb unrhyw wybodaeth neu osodiadau proffil sydd wedi\'u cadw.</string>
   <string name="PinRestoreLockedFragment_create_new_pin">Creu PIN newydd</string>
   <!--PinOptOutDialog-->
   <string name="PinOptOutDialog_warning">Rhybudd</string>
-  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">Os fyddwch yn analluogi\'r PIN, byddwch yn colli\'r holl ddata pan fyddwch yn ailgofrestru Signal oni bai eich bod yn gwneud copi wrth gefn ac adfer â llaw. Fyddwch chi ddim yn gallu cychwyn Cloi Cofrestru tra bod y PIN wedi ei analluogi.</string>
+  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">Os fyddwch yn analluogi\'r PIN, byddwch yn colli\'r holl ddata pan fyddwch yn ailgofrestru Grapherex oni bai eich bod yn gwneud copi wrth gefn ac adfer â llaw. Fyddwch chi ddim yn gallu cychwyn Cloi Cofrestru tra bod y PIN wedi ei analluogi.</string>
   <string name="PinOptOutDialog_disable_pin">Analluogi\'r PIN?</string>
   <!--RatingManager-->
   <string name="RatingManager_rate_this_app">Graddio\'r ap</string>
@@ -1299,12 +1299,12 @@ Send neges heb ei ddiogelu?</string>
   <string name="RedPhone_got_it">Iawn, rwy\'n deall</string>
   <!--WebRtcCallActivity-->
   <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">Tapiwch yma i droi eich fideo ymlaen</string>
-  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">I alw %1$s, mae angen i Signal gael mynediad i\'ch camera.</string>
-  <string name="WebRtcCallActivity__signal_s">Signal %1$s</string>
+  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">I alw %1$s, mae angen i Grapherex gael mynediad i\'ch camera.</string>
+  <string name="WebRtcCallActivity__signal_s">Grapherex %1$s</string>
   <string name="WebRtcCallActivity__calling">Yn galw…</string>
   <!--WebRtcCallView-->
-  <string name="WebRtcCallView__signal_voice_call">Galwad llais Signal…</string>
-  <string name="WebRtcCallView__signal_video_call">Galwad fideo Signal</string>
+  <string name="WebRtcCallView__signal_voice_call">Galwad llais Grapherex…</string>
+  <string name="WebRtcCallView__signal_video_call">Galwad fideo Grapherex</string>
   <string name="WebRtcCallView__start_call">Cychwyn Galwad</string>
   <string name="WebRtcCallView__join_call">Ymuno â\'r Alwad</string>
   <string name="WebRtcCallView__call_is_full">Mae\'r alwad yn llawn</string>
@@ -1361,13 +1361,13 @@ Send neges heb ei ddiogelu?</string>
   <string name="RegistrationActivity_is_your_phone_number_above_correct">A yw\'ch rhif ffôn uchod yn gywir?</string>
   <string name="RegistrationActivity_edit_number">Golygu\'r rhif</string>
   <string name="RegistrationActivity_missing_google_play_services">Google Play Services Coll</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Nid yw Google Play Services ar y ddyfais hon. Gallwch barhau i ddefnyddio Signal, ond gall y ffurfweddiad hwn arwain at lai o ddibynadwyedd neu berfformiad. \n\nOs nad ydych chi\'n ddefnyddiwr uwch, nac yn rhedeg ROM Android amgen, neu os ydych chi\'n credu eich bod yn gweld hyn trwy gamgymeriad, cysylltwch â support@signal.org er mwyn datrys problemau.</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Nid yw Google Play Services ar y ddyfais hon. Gallwch barhau i ddefnyddio Grapherex, ond gall y ffurfweddiad hwn arwain at lai o ddibynadwyedd neu berfformiad. \n\nOs nad ydych chi\'n ddefnyddiwr uwch, nac yn rhedeg ROM Android amgen, neu os ydych chi\'n credu eich bod yn gweld hyn trwy gamgymeriad, cysylltwch â support@Grapherex.org er mwyn datrys problemau.</string>
   <string name="RegistrationActivity_i_understand">Rwy\'n deall</string>
   <string name="RegistrationActivity_play_services_error">Gwall Play Services</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Mae Google Play Services yn cael eu diweddaru neu nid yw ar gael dros dro. Ceisiwch eto os gwelwch yn dda.</string>
   <string name="RegistrationActivity_terms_and_privacy">Telerau a Pholisi Preifatrwydd</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Mae ar Signal angen mynediad i\'ch cysylltiadau a\'ch cyfryngau er mwyn cysylltu â ffrindiau, cyfnewid negeseuon, a gwneud galwadau diogel</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Mae Signal angen mynediad i\'ch cysylltiadau er mwyn cysylltu â ffrindiau, cyfnewid negeseuon, a gwneud galwadau diogel</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Mae ar Grapherex angen mynediad i\'ch cysylltiadau a\'ch cyfryngau er mwyn cysylltu â ffrindiau, cyfnewid negeseuon, a gwneud galwadau diogel</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Mae Grapherex angen mynediad i\'ch cysylltiadau er mwyn cysylltu â ffrindiau, cyfnewid negeseuon, a gwneud galwadau diogel</string>
   <string name="RegistrationActivity_rate_limited_to_service">Rydych wedi ceisio cofrestri\'r rhif hwn gormod o weithiau. Ceisiwch eto\'n hwyrach.</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">Methu cysylltu â\'r gwasanaeth. Gwiriwch y cysylltiad rhwydwaith a cheisio eto.</string>
   <plurals name="RegistrationActivity_debug_log_hint">
@@ -1384,14 +1384,14 @@ Send neges heb ei ddiogelu?</string>
   <string name="RegistrationActivity_enter_your_phone_number">Rhowch eich rhif ffôn</string>
   <string name="RegistrationActivity_you_will_receive_a_verification_code">Byddwch yn derbyn cod dilysu. Gall cyfraddau darparwr gael eu codi.</string>
   <string name="RegistrationActivity_enter_the_code_we_sent_to_s">Rhowch y cod dilysu a anfonwyd i %s</string>
-  <string name="RegistrationActivity_make_sure_your_phone_has_a_cellular_signal">Gwnewch yn siŵr fod gan eich ffôn signal cellol er mwyn derbyn eich SMS neu alwad</string>
+  <string name="RegistrationActivity_make_sure_your_phone_has_a_cellular_signal">Gwnewch yn siŵr fod gan eich ffôn Grapherex cellol er mwyn derbyn eich SMS neu alwad</string>
   <string name="RegistrationActivity_phone_number_description">Rhif ffôn</string>
   <string name="RegistrationActivity_country_code_description">Cod gwlad</string>
   <string name="RegistrationActivity_call">Galw</string>
   <!--RegistrationLockV2Dialog-->
   <string name="RegistrationLockV2Dialog_turn_on_registration_lock">Trowch y Clo Cofrestru ymlaen?</string>
   <string name="RegistrationLockV2Dialog_turn_off_registration_lock">Diffodd Clo Cofrestru?</string>
-  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Os byddwch chi\'n anghofio\'ch PIN Signal wrth gofrestru gyda Signal eto, byddwch yn cael eich cloi allan o\'ch cyfrif am 7 diwrnod.</string>
+  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Os byddwch chi\'n anghofio\'ch PIN Grapherex wrth gofrestru gyda Grapherex eto, byddwch yn cael eich cloi allan o\'ch cyfrif am 7 diwrnod.</string>
   <string name="RegistrationLockV2Dialog_turn_on">Troi ymlaen</string>
   <string name="RegistrationLockV2Dialog_turn_off">Diffodd</string>
   <!--RevealableMessageView-->
@@ -1407,14 +1407,14 @@ Send neges heb ei ddiogelu?</string>
   <!--ShakeToReport-->
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">Ychwanegu at Cysylltiadau</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">Gwahodd i Signal</string>
-  <string name="SharedContactDetailsActivity_signal_message">Neges Signal</string>
-  <string name="SharedContactDetailsActivity_signal_call">Galwad Signal</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">Gwahodd i Grapherex</string>
+  <string name="SharedContactDetailsActivity_signal_message">Neges Grapherex</string>
+  <string name="SharedContactDetailsActivity_signal_call">Galwad Grapherex</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">Ychwanegu at Cysylltiadau</string>
-  <string name="SharedContactView_invite_to_signal">Gwahodd i Signal</string>
-  <string name="SharedContactView_message">Neges Signal</string>
-  <!--SignalPinReminders-->
+  <string name="SharedContactView_invite_to_signal">Gwahodd i Grapherex</string>
+  <string name="SharedContactView_message">Neges Grapherex</string>
+  <!--GrapherexPinReminders-->
   <string name="SignalPinReminders_well_remind_you_again_later">Byddwn yn eich atgoffa\'n hwyrach.</string>
   <string name="SignalPinReminders_well_remind_you_again_tomorrow">Byddwn yn eich atgoffa yfory.</string>
   <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">Byddwn yn eich atgoffa eto ymhen ychydig ddyddiau.</string>
@@ -1437,14 +1437,14 @@ Send neges heb ei ddiogelu?</string>
   <string name="SmsMessageRecord_secure_session_reset">Rydych yn ailosod y sesiwn ddiogel.</string>
   <string name="SmsMessageRecord_secure_session_reset_s">%s ailosod y sesiwn ddiogel.</string>
   <string name="SmsMessageRecord_duplicate_message">Neges ddyblyg.</string>
-  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">Nid oedd modd prosesu\'r neges gan ei fod wedi ei anfon o fersiwn mwy diweddar o Signal. Gallwch ofyn i\'ch cysylltiad ail anfon y neges ar ôl i chi ddiweddaru.</string>
+  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">Nid oedd modd prosesu\'r neges gan ei fod wedi ei anfon o fersiwn mwy diweddar o Grapherex. Gallwch ofyn i\'ch cysylltiad ail anfon y neges ar ôl i chi ddiweddaru.</string>
   <string name="SmsMessageRecord_error_handling_incoming_message">Gwall wrth drin derbyn neges.</string>
   <!--StickerManagementActivity-->
   <string name="StickerManagementActivity_stickers">Sticeri</string>
   <!--StickerManagementAdapter-->
   <string name="StickerManagementAdapter_installed_stickers">Sticeri wedi\'u Gosod</string>
   <string name="StickerManagementAdapter_stickers_you_received">Sticeri rydych wedi\'u Derbyn</string>
-  <string name="StickerManagementAdapter_signal_artist_series">Cyfres Artistiaid Signal</string>
+  <string name="StickerManagementAdapter_signal_artist_series">Cyfres Artistiaid Grapherex</string>
   <string name="StickerManagementAdapter_no_stickers_installed">Heb osod sticeri</string>
   <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">Bydd sticeri gan negeseuon wedi\'u derbyn yn ymddangos yma</string>
   <string name="StickerManagementAdapter_untitled">Dideitl</string>
@@ -1469,8 +1469,8 @@ Send neges heb ei ddiogelu?</string>
   <string name="SupportEmailUtil_filter">Hidl:</string>
   <string name="SupportEmailUtil_device_info">Manylion y ddyfais:</string>
   <string name="SupportEmailUtil_android_version">Fersiwn Android:</string>
-  <string name="SupportEmailUtil_signal_version">Fersiwn Signal:</string>
-  <string name="SupportEmailUtil_signal_package">Pecyn Signal:</string>
+  <string name="SupportEmailUtil_signal_version">Fersiwn Grapherex:</string>
+  <string name="SupportEmailUtil_signal_package">Pecyn Grapherex:</string>
   <string name="SupportEmailUtil_registration_lock">Clo cofrestru:</string>
   <string name="SupportEmailUtil_locale">Locale:</string>
   <!--ThreadRecord-->
@@ -1489,7 +1489,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="ThreadRecord_view_once_media">Cyfrwng gweld unwaith</string>
   <string name="ThreadRecord_this_message_was_deleted">Cafodd y neges hon ei dileu.</string>
   <string name="ThreadRecord_you_deleted_this_message">Chi wnaeth ddileu\'r neges hon.</string>
-  <string name="ThreadRecord_s_is_on_signal">Mae %s ar Signal!</string>
+  <string name="ThreadRecord_s_is_on_signal">Mae %s ar Grapherex!</string>
   <string name="ThreadRecord_disappearing_messages_disabled">Negeseuon diflanedig wedi\'u hanalluogi</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">Amser neges diflanedig wedi\'i osod i %s</string>
   <string name="ThreadRecord_safety_number_changed">Mae\'r rhif diogelwch wedi newid</string>
@@ -1505,8 +1505,8 @@ Send neges heb ei ddiogelu?</string>
   <string name="ThreadRecord_video">Fideo</string>
   <string name="ThreadRecord_chat_session_refreshed">Adnewyddwyd Sesiwn Sgwrsio</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Diweddariad Signal</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Mae fersiwn newydd o Signal ar gael. Tapiwch i ddiweddaru</string>
+  <string name="UpdateApkReadyListener_Signal_update">Diweddariad Grapherex</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Mae fersiwn newydd o Grapherex ar gael. Tapiwch i ddiweddaru</string>
   <!--UntrustedSendDialog-->
   <string name="UntrustedSendDialog_send_message">Anfon neges?</string>
   <string name="UntrustedSendDialog_send">Anfon</string>
@@ -1525,22 +1525,22 @@ Send neges heb ei ddiogelu?</string>
   <string name="UsernameEditFragment_usernames_cannot_begin_with_a_number">Nid yw enw defnyddiwr yn gallu cychwyn gyda rhif.</string>
   <string name="UsernameEditFragment_username_is_invalid">Mae\'r enw defnyddiwr yn annilys.</string>
   <string name="UsernameEditFragment_usernames_must_be_between_a_and_b_characters">Rhaid i enwau defnyddwyr fod rhwng %1$d a %2$d nod.</string>
-  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Mae enwau defnyddwyr ar Signal yn ddewisol. Os dewiswch greu enw defnyddiwr, bydd defnyddwyr Signal eraill yn gallu dod o hyd i chi yn ôl yr enw defnyddiwr hwn a chysylltu â chi heb wybod eich rhif ffôn.</string>
+  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Mae enwau defnyddwyr ar Grapherex yn ddewisol. Os dewiswch greu enw defnyddiwr, bydd defnyddwyr Grapherex eraill yn gallu dod o hyd i chi yn ôl yr enw defnyddiwr hwn a chysylltu â chi heb wybod eich rhif ffôn.</string>
   <plurals name="UserNotificationMigrationJob_d_contacts_are_on_signal">
-    <item quantity="one">Mae %d cysylltiad ar Signal!</item>
-    <item quantity="two">Mae %d cysylltiad ar Signal!</item>
-    <item quantity="many">Mae %d cysylltiad ar Signal!</item>
-    <item quantity="other">Mae %d cysylltiad ar Signal!</item>
+    <item quantity="one">Mae %d cysylltiad ar Grapherex!</item>
+    <item quantity="two">Mae %d cysylltiad ar Grapherex!</item>
+    <item quantity="many">Mae %d cysylltiad ar Grapherex!</item>
+    <item quantity="other">Mae %d cysylltiad ar Grapherex!</item>
   </plurals>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Mae eich cyswllt yn rhedeg hen fersiwn o Signal. Gofynnwch iddynt ddiweddaru cyn gwirio eich rhif diogelwch.</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Mae eich cyswllt yn rhedeg fersiwn newydd o Signal gyda fformat cod QR anghydnaws. Diweddarwch i gymharu.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Mae eich cyswllt yn rhedeg hen fersiwn o Grapherex. Gofynnwch iddynt ddiweddaru cyn gwirio eich rhif diogelwch.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Mae eich cyswllt yn rhedeg fersiwn newydd o Grapherex gyda fformat cod QR anghydnaws. Diweddarwch i gymharu.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Nid yw\'r cod QR sganedig yn god dilysu rhif diogelwch cywir. Ceisiwch sganio eto.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Rhannu\'r rhif diogelwch drwy…</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">Ein rhif diogelwch Signal:</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">Ein rhif diogelwch Grapherex:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">Mae\'n edrych fel nad oes gennych unrhyw apiau i\'w rhannu.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Dim rhif diogelwch i\'w gymharu yn y clipfwrdd</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Mae ar Signal angen caniatâd Camera er mwyn sganio cod QR, ond fe\'i rwystrwyd yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis "Caniatâd", a galluogi "Camera".</string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Mae ar Grapherex angen caniatâd Camera er mwyn sganio cod QR, ond fe\'i rwystrwyd yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis "Caniatâd", a galluogi "Camera".</string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">Methu sganio cod QR heb ganiatâd y Camera</string>
   <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">Yn gyntaf rhaid i chi gyfnewid negeseuon er mwyn gweld rhif diogelwch %1$s.</string>
   <!--ViewOnceMessageActivity-->
@@ -1559,13 +1559,13 @@ Send neges heb ei ddiogelu?</string>
   <string name="ApplicationMigrationService_system_database_import_is_complete">Mewnforio cronfa ddata system wedi\'i chwblhau.</string>
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">Cyffwrdd i agor.</string>
-  <string name="KeyCachingService_passphrase_cached">Mae Signal wedi\'i ddatgloi</string>
-  <string name="KeyCachingService_lock">Cloi Signal</string>
+  <string name="KeyCachingService_passphrase_cached">Mae Grapherex wedi\'i ddatgloi</string>
+  <string name="KeyCachingService_lock">Cloi Grapherex</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">Chi</string>
   <string name="MediaPreviewActivity_unssuported_media_type">Math o gyfrwng heb ei gynnal</string>
   <string name="MediaPreviewActivity_draft">Drafft</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Mae ar Signal angen caniatâd Storio er mwyn cadw i storfa allanol, ond fe\'i rwystrwyd yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis "Caniatâd", a galluogi "Storfa".</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Mae ar Grapherex angen caniatâd Storio er mwyn cadw i storfa allanol, ond fe\'i rwystrwyd yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis "Caniatâd", a galluogi "Storfa".</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Methu cadw i storfa allanol heb ganiatâd</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">Dileu neges?</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">Bydd hyn yn dileu yn barhaol y neges hon.</string>
@@ -1585,10 +1585,10 @@ Send neges heb ei ddiogelu?</string>
   <string name="MessageNotifier_view_once_photo">Llun gweld unwaith</string>
   <string name="MessageNotifier_view_once_video">Fideo gweld unwaith</string>
   <string name="MessageNotifier_reply">Ymateb</string>
-  <string name="MessageNotifier_signal_message">Neges Signal</string>
+  <string name="MessageNotifier_signal_message">Neges Grapherex</string>
   <string name="MessageNotifier_unsecured_sms">SMS anniogel</string>
   <string name="MessageNotifier_you_may_have_new_messages">Efallai fod gennych negeseuon newydd</string>
-  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Agorwch Signal i weld hysbysiadau diweddar.</string>
+  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Agorwch Grapherex i weld hysbysiadau diweddar.</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Cysylltiad</string>
   <string name="MessageNotifier_reacted_s_to_s">Ymatebodd %1$s i \"%2$s\".</string>
@@ -1599,7 +1599,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="MessageNotifier_reacted_s_to_your_view_once_media">Wedi ymateb %1$s i\'ch cyfryngau gweld-unwaith.</string>
   <string name="MessageNotifier_reacted_s_to_your_sticker">Ymatebodd %1$s i\'ch sticer.</string>
   <string name="MessageNotifier_this_message_was_deleted">Cafodd y neges hon ei dileu.</string>
-  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Diffodd hysbysiadau cysylltiadau Signal? Gallwch eu galluogi eto yn Signal Hysbysiadau &gt; Gosodiadau &gt;.</string>
+  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Diffodd hysbysiadau cysylltiadau Grapherex? Gallwch eu galluogi eto yn Grapherex Hysbysiadau &gt; Gosodiadau &gt;.</string>
   <!--Notification Channels-->
   <string name="NotificationChannel_channel_messages">Negeseuon</string>
   <string name="NotificationChannel_calls">Galwadau</string>
@@ -1611,11 +1611,11 @@ Send neges heb ei ddiogelu?</string>
   <string name="NotificationChannel_group_chats">Sgyrsiau</string>
   <string name="NotificationChannel_missing_display_name">Anhysbys</string>
   <string name="NotificationChannel_voice_notes">Nodiadau Llais</string>
-  <string name="NotificationChannel_contact_joined_signal">Cysylltiad wedi ymuno â Signal</string>
+  <string name="NotificationChannel_contact_joined_signal">Cysylltiad wedi ymuno â Grapherex</string>
   <string name="NotificationChannels__no_activity_available_to_open_notification_channel_settings">Dim gweithgaredd ar gael i agor gosodiadau sianel hysbysu.</string>
   <!--ProfileEditNameFragment-->
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Nid yw ymateb cyflym ar gael pan fydd Signal wedi\'i gloi!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Nid yw ymateb cyflym ar gael pan fydd Grapherex wedi\'i gloi!</string>
   <string name="QuickResponseService_problem_sending_message">Anhawster anfon neges!</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">Wedi\'i gadw i %s</string>
@@ -1626,7 +1626,7 @@ Send neges heb ei ddiogelu?</string>
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">Llwybr byr annilys</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">Grapherex</string>
   <string name="SingleRecipientNotificationBuilder_new_message">Neges newydd</string>
   <!--ThumbnailView-->
   <string name="ThumbnailView_Play_video_description">Chwarae fideo</string>
@@ -1640,10 +1640,10 @@ Send neges heb ei ddiogelu?</string>
   </plurals>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">Nid yw\'r ddyfais wedi\'i chofrestru bellach</string>
-  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Mae hyn yn debygol oherwydd eich bod wedi cofrestru\'ch rhif ffôn gyda Signal ar ddyfais wahanol. Tapiwch i ailgofrestru.</string>
+  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Mae hyn yn debygol oherwydd eich bod wedi cofrestru\'ch rhif ffôn gyda Grapherex ar ddyfais wahanol. Tapiwch i ailgofrestru.</string>
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">I ateb yr alwad o %s, rhowch fynediad i\'ch meicroffon i Signal.</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Mae Signal yn gofyn am ganiatâd Microffon a Chamera er mwyn gwneud neu dderbyn galwadau, ond fe\'i rwystrwyd yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis "Caniatâd", a galluogi "Microffon" a "Camera".</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">I ateb yr alwad o %s, rhowch fynediad i\'ch meicroffon i Grapherex.</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Mae Grapherex yn gofyn am ganiatâd Microffon a Chamera er mwyn gwneud neu dderbyn galwadau, ond fe\'i rwystrwyd yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis "Caniatâd", a galluogi "Microffon" a "Camera".</string>
   <string name="WebRtcCallActivity__answered_on_a_linked_device">Wedi\'i ateb ar ddyfais gysylltiedig.</string>
   <string name="WebRtcCallActivity__declined_on_a_linked_device">Wedi\'i werthod ar ddyfais gysylltiedig.</string>
   <string name="WebRtcCallActivity__busy_on_a_linked_device">Yn brysur ar ddyfais gysylltiedig.</string>
@@ -1667,7 +1667,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="change_passphrase_activity__repeat_new_passphrase">Aildeipio\'r cyfrinair newydd</string>
   <!--contact_selection_activity-->
   <string name="contact_selection_activity__enter_name_or_number">Rhowch enw neu rif</string>
-  <string name="contact_selection_activity__invite_to_signal">Gwahodd i Signal</string>
+  <string name="contact_selection_activity__invite_to_signal">Gwahodd i Grapherex</string>
   <string name="contact_selection_activity__new_group">Grŵp newydd</string>
   <!--contact_filter_toolbar-->
   <string name="contact_filter_toolbar__clear_entered_text_description">Clirio\'r testun</string>
@@ -1679,15 +1679,15 @@ Send neges heb ei ddiogelu?</string>
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">Llun Cyswllt</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Mae ar Signal angen caniatâd Cysylltiadau er mwyn dangos eich cysylltiadau, ond fe\'i rwystrwyd yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis "Caniatâd", a galluogi "Cysylltiadau".</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Mae ar Grapherex angen caniatâd Cysylltiadau er mwyn dangos eich cysylltiadau, ond fe\'i rwystrwyd yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis "Caniatâd", a galluogi "Cysylltiadau".</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Gwall wrth estyn cysylltiadau, gwiriwch eich cysylltiad rhwydwaith</string>
   <string name="ContactSelectionListFragment_username_not_found">Heb ganfod enw defnyddiwr</string>
-  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">Nid yw \"%1$s\" yn ddefnyddiwr Signal. Gwiriwch yn enw defnyddiwr a cheisiwch eto.</string>
+  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">Nid yw \"%1$s\" yn ddefnyddiwr Grapherex. Gwiriwch yn enw defnyddiwr a cheisiwch eto.</string>
   <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">Nid oes angen i chi ychwanegu eich hun i\'r grŵp</string>
   <string name="ContactSelectionListFragment_maximum_group_size_reached">Uchafswm maint y grŵp wedi\'i gyrraedd</string>
-  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Gall grwpiau Signal fod ag uchafswm o %1$d aelod.</string>
+  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Gall grwpiau Grapherex fod ag uchafswm o %1$d aelod.</string>
   <string name="ContactSelectionListFragment_recommended_member_limit_reached">Mae\'r terfyn aelodaeth a argymhellir wedi\'i gyrraedd</string>
-  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Mae grwpiau Signal yn gweithio orau gydag %1$d aelod neu lai. Bydd ychwanegu mwy o aelodau yn achosi oedi wrth anfon a derbyn negeseuon.</string>
+  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Mae grwpiau Grapherex yn gweithio orau gydag %1$d aelod neu lai. Bydd ychwanegu mwy o aelodau yn achosi oedi wrth anfon a derbyn negeseuon.</string>
   <plurals name="ContactSelectionListFragment_d_members">
     <item quantity="one">%1$d aelod</item>
     <item quantity="two">%1$d aelod</item>
@@ -1695,7 +1695,7 @@ Send neges heb ei ddiogelu?</string>
     <item quantity="other">%1$d aelod</item>
   </plurals>
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Mae ar Signal angen mynediad i\'ch cysylltiadau er mwyn eu harddangos.</string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Mae ar Grapherex angen mynediad i\'ch cysylltiadau er mwyn eu harddangos.</string>
   <string name="contact_selection_list_fragment__show_contacts">Dangos Cysylltiadau</string>
   <!--contact_selection_list_item-->
   <plurals name="contact_selection_list_item__number_of_members">
@@ -1705,7 +1705,7 @@ Send neges heb ei ddiogelu?</string>
     <item quantity="other">%1$d aelod</item>
   </plurals>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">Neges Signal</string>
+  <string name="conversation_activity__type_message_push">Neges Grapherex</string>
   <string name="conversation_activity__type_message_sms_insecure">SMS anniogel</string>
   <string name="conversation_activity__type_message_mms_insecure">MMS anniogel</string>
   <string name="conversation_activity__from_sim_name">Oddi wrth %1$s</string>
@@ -1717,7 +1717,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Newid y drôr atodiad cyflym camera</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Recordio ac anfon atodiad sain</string>
   <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Cloi recordio atodiad sain</string>
-  <string name="conversation_activity__enable_signal_for_sms">Galluogi Signal ar gyfer SMS</string>
+  <string name="conversation_activity__enable_signal_for_sms">Galluogi Grapherex ar gyfer SMS</string>
   <string name="conversation_activity__message_could_not_be_sent">Nid oedd modd anfon y neges. Gwiriwch eich cysylltiad a cheisio eto.</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">Llithro i ddiddymu</string>
@@ -1828,9 +1828,9 @@ Send neges heb ei ddiogelu?</string>
   <string name="IdentityUtil_unverified_banner_one">Mae\'ch rhif diogelwch gyda %s wedi newid ac nid yw wedi\'i dilysu bellach</string>
   <string name="IdentityUtil_unverified_banner_two">Nid yw eich rhif diogelwch gyda %1$s a %2$s wedi\'i dilysu bellach</string>
   <string name="IdentityUtil_unverified_banner_many">Nid yw eich rhifau diogelwch gyda %1$s, %2$s, a %3$s bellach yn cael eu gwirio</string>
-  <string name="IdentityUtil_unverified_dialog_one">Mae\'ch rhif diogelwch gyda %1$s wedi newid ac nid yw wedi\'i dilysu bellach. Gall hyn olygu bod rhywun yn ceisio rhyng-gipio eich cyfathrebu, neu bod %1$s wedi ail-osod Signal.</string>
-  <string name="IdentityUtil_unverified_dialog_two">Mae\'ch rhifau diogelwch gyda %1$s a %2$s wedi\'i dilysu bellach. Gall hyn olygu bod rhywun yn ceisio rhyng-gipio eich cyfathrebu, neu bod nhw wedi ail-osod Signal.</string>
-  <string name="IdentityUtil_unverified_dialog_many">Mae\'ch rhifau diogelwch gyda %1$s, %2$s, a %3$s wedi\'i dilysi bellach. Gall hyn olygu bod rhywun yn ceisio rhyng-gipio eich cyfathrebu, neu bod nhw wedi ail-osod Signal.</string>
+  <string name="IdentityUtil_unverified_dialog_one">Mae\'ch rhif diogelwch gyda %1$s wedi newid ac nid yw wedi\'i dilysu bellach. Gall hyn olygu bod rhywun yn ceisio rhyng-gipio eich cyfathrebu, neu bod %1$s wedi ail-osod Grapherex.</string>
+  <string name="IdentityUtil_unverified_dialog_two">Mae\'ch rhifau diogelwch gyda %1$s a %2$s wedi\'i dilysu bellach. Gall hyn olygu bod rhywun yn ceisio rhyng-gipio eich cyfathrebu, neu bod nhw wedi ail-osod Grapherex.</string>
+  <string name="IdentityUtil_unverified_dialog_many">Mae\'ch rhifau diogelwch gyda %1$s, %2$s, a %3$s wedi\'i dilysi bellach. Gall hyn olygu bod rhywun yn ceisio rhyng-gipio eich cyfathrebu, neu bod nhw wedi ail-osod Grapherex.</string>
   <string name="IdentityUtil_untrusted_dialog_one">Mae\'ch rhif diogelwch gyda %1$s wedi newid yn ddiweddar.</string>
   <string name="IdentityUtil_untrusted_dialog_two">Mae\'ch rhif diogelwch gyda %1$s a %2$s wedi\'i newid yn ddiweddar.</string>
   <string name="IdentityUtil_untrusted_dialog_many">Mae\'ch rhif diogelwch gyda %1$s, %2$s a %3$s wedi\'i newid.</string>
@@ -1847,7 +1847,7 @@ Send neges heb ei ddiogelu?</string>
   <!--log_submit_activity-->
   <string name="log_submit_activity__this_log_will_be_posted_online">Caiff y cofnod hwn ei bostio\'n gyhoeddus ar-lein i gyfranwyr ei weld, fe allwch ei archwilio a\'i olygu cyn ei gyflwyno.</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Hoffech chi fewnforio eich negeseuon testun i gronfa ddata amgryptiedig Signal?</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Hoffech chi fewnforio eich negeseuon testun i gronfa ddata amgryptiedig Grapherex?</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">Ni chaiff cronfa ddata\'r system rhagosodedig ei addasu neu ei newid mewn unrhyw ffordd.</string>
   <string name="database_migration_activity__skip">Hepgor</string>
   <string name="database_migration_activity__import">Mewnforio</string>
@@ -1872,7 +1872,7 @@ Send neges heb ei ddiogelu?</string>
   <!--prompt_passphrase_activity-->
   <string name="prompt_passphrase_activity__unlock">Datgloi</string>
   <!--prompt_mms_activity-->
-  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Mae ar Signal angen gosodiadau MMS i ddarparu negeseuon cyfrwng a grŵp trwy\'ch cludwr di-wifr. Nid yw\'ch dyfais yn gwneud y wybodaeth hon ar gael, sydd weithiau\'n wir ar gyfer dyfeisiau wedi\'u cloi a ffurfweddiadau cyfyngol eraill.</string>
+  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Mae ar Grapherex angen gosodiadau MMS i ddarparu negeseuon cyfrwng a grŵp trwy\'ch cludwr di-wifr. Nid yw\'ch dyfais yn gwneud y wybodaeth hon ar gael, sydd weithiau\'n wir ar gyfer dyfeisiau wedi\'u cloi a ffurfweddiadau cyfyngol eraill.</string>
   <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">I anfon negeseuon cyfryngau a grŵp, tapiwch \'Iawn\' a chwblhau\'r gosodiadau gofynnol. Yn gyffredinol, gall lleoliadau MMS eich cludwr gael eu lleoli trwy chwilio am \'eich APN cludwr\'. Dim ond unwaith y bydd angen i chi wneud hyn.</string>
   <!--profile_create_activity-->
   <string name="CreateProfileActivity_first_name_required">Enw cyntaf (angenrheidiol)</string>
@@ -1906,7 +1906,7 @@ Send neges heb ei ddiogelu?</string>
   <!--recipients_panel-->
   <string name="recipients_panel__to"><small>Rhowch enw neu rif</small></string>
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[If you wish to verify the security of your encryption with %s, compare the number above with the number on their device. Alternatively, you can scan the code on their phone, or ask them to scan your code. <a href="https://signal.org/redirect/safety-numbers"> Dysgu mwy. </a>]]></string>
+  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[If you wish to verify the security of your encryption with %s, compare the number above with the number on their device. Alternatively, you can scan the code on their phone, or ask them to scan your code. <a href="https://Grapherex.org/redirect/safety-numbers"> Dysgu mwy. </a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">Tapio i sganio</string>
   <string name="verify_display_fragment__loading">Llwytho…</string>
   <string name="verify_display_fragment__verified">Gwiriwyd</string>
@@ -1957,7 +1957,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="HelpFragment__how_do_you_feel">Sut ydych ch\'n teimlo? (Dewisol)</string>
   <string name="HelpFragment__tell_us_why_youre_reaching_out">Dywedwch wrthym pam rydych yn cysylltu â ni.</string>
   <string name="HelpFragment__support_info">Gwybodaeth Gymorth</string>
-  <string name="HelpFragment__signal_android_support_request">Cais Cymorth Cymorth Android Signal</string>
+  <string name="HelpFragment__signal_android_support_request">Cais Cymorth Cymorth Android Grapherex</string>
   <string name="HelpFragment__debug_log">Cofnod Dadfygio:</string>
   <string name="HelpFragment__could_not_upload_logs">Methu llwytho\'r cofnod</string>
   <string name="HelpFragment__please_be_as_descriptive_as_possible">Byddwch mor ddisgrifiadol â phosibl i\'n helpu i ddeall y mater yma.</string>
@@ -2018,8 +2018,8 @@ Send neges heb ei ddiogelu?</string>
   <string name="preferences__sms_mms">SMS ac MMS</string>
   <string name="preferences__pref_all_sms_title">Derbyn yr holl SMS</string>
   <string name="preferences__pref_all_mms_title">Derbyn yr holl MMS</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Defnyddio Signal ar gyfer yr holl negeseuon testun sy\'n cael eu derbyn</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Defnyddio Signal ar gyfer yr holl negeseuon amlgyfrwng sy\'n cael eu derbyn</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Defnyddio Grapherex ar gyfer yr holl negeseuon testun sy\'n cael eu derbyn</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Defnyddio Grapherex ar gyfer yr holl negeseuon amlgyfrwng sy\'n cael eu derbyn</string>
   <string name="preferences__pref_enter_sends_title">Pwyso Enter i anfon</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">Pwyso Enter i anfon negeseuon testun</string>
   <string name="preferences__pref_use_address_book_photos">Defnyddiwch luniau llyfr cyfeiriadau</string>
@@ -2034,7 +2034,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Cloi\'r sgrin a hysbysiadau gyda chyfrinymadrodd</string>
   <string name="preferences__screen_security">Diogelu\'r sgrin</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">Rhwystro sgrinluniau tu mewn i\'r rhaglen</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Awto gloi Signal ar ôl cyfnod penodol o anweithgarwch</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Awto gloi Grapherex ar ôl cyfnod penodol o anweithgarwch</string>
   <string name="preferences__inactivity_timeout_passphrase">Cyfrinymadrodd terfynu anweithgarwch</string>
   <string name="preferences__inactivity_timeout_interval">Cyfnod terfynu anweithgarwch</string>
   <string name="preferences__notifications">Hysbysiadau</string>
@@ -2065,7 +2065,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="preferences__slow">Araf</string>
   <string name="preferences__help">Cymorth</string>
   <string name="preferences__advanced">Uwch</string>
-  <string name="preferences__donate_to_signal">Cyfrannu at Signal</string>
+  <string name="preferences__donate_to_signal">Cyfrannu at Grapherex</string>
   <string name="preferences__privacy">Preifatrwydd</string>
   <string name="preferences__mms_user_agent">Asiant Defnyddiwr MMS</string>
   <string name="preferences__advanced_mms_access_point_names">Gosodiadau MMS â llaw</string>
@@ -2091,13 +2091,13 @@ Send neges heb ei ddiogelu?</string>
   <string name="preferences__chat_wallpaper">Papur wal sgwrsio</string>
   <string name="preferences__disable_pin">Analluogi\'r PIN</string>
   <string name="preferences__enable_pin">Galluogi\'r PIN</string>
-  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">Os fyddwch yn analluogi\'r PIN, byddwch yn colli\'r holl ddata pan fyddwch yn ailgofrestru Signal oni bai eich bod yn gwneud copi wrth gefn ac adfer â llaw. Fyddwch chi ddim yn gallu cychwyn Cloi Cofrestru tra bod y PIN wedi ei analluogi.</string>
-  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">Mae PINau\'n cadw gwybodaeth wedi\'i storio gyda Signal wedi\'i hamgryptio felly dim ond i chi gael mynediad ati. Bydd eich proffil, gosodiadau, a chysylltiadau yn cael eu hadfer pan fyddwch yn ailosod y rhaglen. Nid oes angen eich PIN arnoch i agor yr ap.</string>
+  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">Os fyddwch yn analluogi\'r PIN, byddwch yn colli\'r holl ddata pan fyddwch yn ailgofrestru Grapherex oni bai eich bod yn gwneud copi wrth gefn ac adfer â llaw. Fyddwch chi ddim yn gallu cychwyn Cloi Cofrestru tra bod y PIN wedi ei analluogi.</string>
+  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">Mae PINau\'n cadw gwybodaeth wedi\'i storio gyda Grapherex wedi\'i hamgryptio felly dim ond i chi gael mynediad ati. Bydd eich proffil, gosodiadau, a chysylltiadau yn cael eu hadfer pan fyddwch yn ailosod y rhaglen. Nid oes angen eich PIN arnoch i agor yr ap.</string>
   <string name="preferences__system_default">Rhagosodiad y system</string>
   <string name="preferences__language">Iaith</string>
-  <string name="preferences__signal_messages_and_calls">Negeseuon a galwadau Signal</string>
+  <string name="preferences__signal_messages_and_calls">Negeseuon a galwadau Grapherex</string>
   <string name="preferences__advanced_pin_settings">Gosodiadau PIN uwch</string>
-  <string name="preferences__free_private_messages_and_calls">Negeseuon preifat am ddim a galwadau i ddefnyddwyr Signal</string>
+  <string name="preferences__free_private_messages_and_calls">Negeseuon preifat am ddim a galwadau i ddefnyddwyr Grapherex</string>
   <string name="preferences__submit_debug_log">Anfon cofnod dadfygio</string>
   <string name="preferences__delete_account">Dileu cyfrif</string>
   <string name="preferences__support_wifi_calling">Modd gydnawsedd \'Galw Diwifr\'</string>
@@ -2136,8 +2136,8 @@ Send neges heb ei ddiogelu?</string>
   <string name="preferences_storage__s_messages">%1$s neges</string>
   <string name="preferences_storage__custom">Cyfaddas</string>
   <string name="preferences_advanced__use_system_emoji">Defnyddio gwenogluniau\'r system</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Analluogi cefnogaeth gwenogluniau Signal</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Ail-alw pob galwad drwy\'r gweinydd Signal i osgoi datgelu eich cyfeiriad IP i\'ch cyswllt. Bydd galluogi yn lleihau ansawdd galwadau.</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Analluogi cefnogaeth gwenogluniau Grapherex</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Ail-alw pob galwad drwy\'r gweinydd Grapherex i osgoi datgelu eich cyfeiriad IP i\'ch cyswllt. Bydd galluogi yn lleihau ansawdd galwadau.</string>
   <string name="preferences_advanced__always_relay_calls">Anfon galwadau ymlaen bob tro</string>
   <string name="preferences_app_protection__who_can">Pwy all…</string>
   <string name="preferences_app_protection__app_access">Mynediad i ap</string>
@@ -2157,9 +2157,9 @@ Send neges heb ei ddiogelu?</string>
   <string name="preferences_notifications__calls">Galwadau</string>
   <string name="preferences_notifications__ringtone">Tôn canu</string>
   <string name="preferences_chats__show_invitation_prompts">Dangos awgrymiadau gwahoddiad</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Dangos awgrymiadau gwahoddiad ar gyfer cysylltiadau heb Signal</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Dangos awgrymiadau gwahoddiad ar gyfer cysylltiadau heb Grapherex</string>
   <string name="preferences_chats__message_text_size">Maint ffont negeseuon</string>
-  <string name="preferences_events__contact_joined_signal">Cysylltiad wedi ymuno â Signal</string>
+  <string name="preferences_events__contact_joined_signal">Cysylltiad wedi ymuno â Grapherex</string>
   <string name="preferences_notifications__priority">Blaenoriaeth</string>
   <string name="preferences_communication__category_sealed_sender">Anfonwr dan Sêl</string>
   <string name="preferences_communication__sealed_sender_display_indicators">Dangos dangosyddion</string>
@@ -2173,7 +2173,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="preferences_off">I ffwrdd</string>
   <string name="preferences_on">Ymlaen</string>
   <string name="preferences_proxy_address">Cyfeiriad dirprwyol</string>
-  <string name="preferences_only_use_a_proxy_if">Defnyddiwch ddirprwy dim ond os nad ydych chi\'n gallu cysylltu â Signal ar gellog neu ddiwifr.</string>
+  <string name="preferences_only_use_a_proxy_if">Defnyddiwch ddirprwy dim ond os nad ydych chi\'n gallu cysylltu â Grapherex ar gellog neu ddiwifr.</string>
   <string name="preferences_share">Rhannu</string>
   <string name="preferences_save">Cadw</string>
   <string name="preferences_connecting_to_proxy">Yn cysylltu â dirprwy …</string>
@@ -2192,7 +2192,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="PaymentsAllActivityFragment__sent">Anfonwyd</string>
   <string name="PaymentsAllActivityFragment__received">Derbyniwyd</string>
   <string name="PaymentsHomeFragment__introducing_payments">Yn cyflwyno taliadau (Beta)</string>
-  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Defnyddiwch Signal i anfon a derbyn MobileCoin, arian cyfred digidol newydd sy\'n canolbwyntio ar breifatrwydd. Gweithredwch i ddechrau.</string>
+  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Defnyddiwch Grapherex i anfon a derbyn MobileCoin, arian cyfred digidol newydd sy\'n canolbwyntio ar breifatrwydd. Gweithredwch i ddechrau.</string>
   <string name="PaymentsHomeFragment__activate_payments">Cychwyn Taliadau</string>
   <string name="PaymentsHomeFragment__activating_payments">Yn cychwyn taliadau…</string>
   <string name="PaymentsHomeFragment__restore_payments_account">Adfer cyfrif taliadau</string>
@@ -2219,17 +2219,17 @@ Send neges heb ei ddiogelu?</string>
   <string name="PaymentsHomeFragment__payments_is_not_available_in_your_region">Nid oes taliadau ar gael yn eich rhanbarth.</string>
   <string name="PaymentsHomeFragment__could_not_enable_payments">Methu galluogi taliadau. Rhowch gynnig arall arni yn nes ymlaen.</string>
   <string name="PaymentsHomeFragment__deactivate_payments_question">Dadweithredu Taliadau?</string>
-  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Ni fydd modd i chi anfon na derbyn MobileCoin in Signal os byddwch yn dadwethredu taliadau.</string>
+  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Ni fydd modd i chi anfon na derbyn MobileCoin in Grapherex os byddwch yn dadwethredu taliadau.</string>
   <string name="PaymentsHomeFragment__deactivate">Dadweithredu</string>
   <string name="PaymentsHomeFragment__continue">Parhau</string>
   <string name="PaymentsHomeFragment__balance_is_not_currently_available">Nid oes balans ar gael ar hyn o bryd.</string>
   <string name="PaymentsHomeFragment__payments_deactivated">Taliadau wedi\'u ddadweithredu.</string>
   <string name="PaymentsHomeFragment__payment_failed">Methodd y taliad</string>
   <string name="PaymentsHomeFragment__details">Manylion</string>
-  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">Gallwch ddefnyddio Signal i anfon a derbyn MobileCoin. Mae\'r holl daliadau yn ddarostyngedig i\'r Telerau Defnyddio ar gyfer MobileCoins a\'r Waled MobileCoin. Mae hon yn nodwedd beta felly efallai profwch anawsterau ac nad oes modd adennill taliadau neu falansau y gallech eu colli. </string>
+  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">Gallwch ddefnyddio Grapherex i anfon a derbyn MobileCoin. Mae\'r holl daliadau yn ddarostyngedig i\'r Telerau Defnyddio ar gyfer MobileCoins a\'r Waled MobileCoin. Mae hon yn nodwedd beta felly efallai profwch anawsterau ac nad oes modd adennill taliadau neu falansau y gallech eu colli. </string>
   <string name="PaymentsHomeFragment__activate">Cychwyn</string>
   <string name="PaymentsHomeFragment__view_mobile_coin_terms">Gweld telerau MobileCoin</string>
-  <string name="PaymentsHomeFragment__payments_not_available">Nid yw taliadau yn Signal ar gael bellach. Gallwch barhau i drosglwyddo arian i gyfnewidfa ond ni allwch anfon a derbyn taliadau mwyach nac ychwanegu arian.</string>
+  <string name="PaymentsHomeFragment__payments_not_available">Nid yw taliadau yn Grapherex ar gael bellach. Gallwch barhau i drosglwyddo arian i gyfnewidfa ond ni allwch anfon a derbyn taliadau mwyach nac ychwanegu arian.</string>
   <!--PaymentsAddMoneyFragment-->
   <string name="PaymentsAddMoneyFragment__add_funds">Ychwanegu arian</string>
   <string name="PaymentsAddMoneyFragment__your_wallet_address">Cyfeiriad Eich Waled</string>
@@ -2266,10 +2266,10 @@ Send neges heb ei ddiogelu?</string>
   <string name="PaymentsTransferFragment__next">Nesaf</string>
   <string name="PaymentsTransferFragment__invalid_address">Cyfeiriad annilys</string>
   <string name="PaymentsTransferFragment__check_the_wallet_address">Gwiriwch y cyfeiriad waled rydych chi\'n ceisio ei drosglwyddo iddo a rhoi cynnig arall arno.</string>
-  <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Nid oes modd i chi drosglwyddo i\'ch cyfeiriad waled Signal eich hun. Rhowch gyfeiriad y waled o\'ch cyfrif mewn cyfnewidfa sy\'n cael ei gefnogi.</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">I sganio cod QR, mae Signal angen mynediad i\'r camera.</string>
-  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Mae Signal angen caniatâd y Camera i gipio\'r cod QR. Ewch i osodiadau, dewiswch \"Caniatâd\", a galluogi \"Camera\".</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">I sganio cod QR, mae Signal angen mynediad i\'r camera.</string>
+  <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Nid oes modd i chi drosglwyddo i\'ch cyfeiriad waled Grapherex eich hun. Rhowch gyfeiriad y waled o\'ch cyfrif mewn cyfnewidfa sy\'n cael ei gefnogi.</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">I sganio cod QR, mae Grapherex angen mynediad i\'r camera.</string>
+  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Mae Grapherex angen caniatâd y Camera i gipio\'r cod QR. Ewch i osodiadau, dewiswch \"Caniatâd\", a galluogi \"Camera\".</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">I sganio cod QR, mae Grapherex angen mynediad i\'r camera.</string>
   <string name="PaymentsTransferFragment__settings">Gosodiadau</string>
   <!--PaymentsTransferQrScanFragment-->
   <string name="PaymentsTransferQrScanFragment__scan_address_qr_code">Sganio Cod QR Cyfeiriad</string>
@@ -2327,8 +2327,8 @@ Send neges heb ei ddiogelu?</string>
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">Galw</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Galwad Signal</string>
-  <string name="conversation_callable_secure__menu_video">Galwad fideo Signal</string>
+  <string name="conversation_callable_secure__menu_call">Galwad Grapherex</string>
+  <string name="conversation_callable_secure__menu_video">Galwad fideo Grapherex</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">Manylion y neges</string>
   <string name="conversation_context__menu_copy_text">Copïo testun</string>
@@ -2400,10 +2400,10 @@ Send neges heb ei ddiogelu?</string>
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">Cymharu â\'r clipfwrdd</string>
   <!--reminder_header-->
   <string name="reminder_header_sms_import_title">Mewnforio SMS y system</string>
-  <string name="reminder_header_sms_import_text">Tapio i gopïo negeseuon SMS eich ffôn i gronfa ddata amgryptio Signal.</string>
-  <string name="reminder_header_push_title">Galluogi negeseuon a galwadau Signal</string>
+  <string name="reminder_header_sms_import_text">Tapio i gopïo negeseuon SMS eich ffôn i gronfa ddata amgryptio Grapherex.</string>
+  <string name="reminder_header_push_title">Galluogi negeseuon a galwadau Grapherex</string>
   <string name="reminder_header_push_text">Diweddarwch eich profiad cyfathrebu.</string>
-  <string name="reminder_header_service_outage_text">Mae Signal yn profi anawsterau technegol. Rydym yn gweithio\'n galed i adfer y gwasanaeth cyn gynted ā phosib.</string>
+  <string name="reminder_header_service_outage_text">Mae Grapherex yn profi anawsterau technegol. Rydym yn gweithio\'n galed i adfer y gwasanaeth cyn gynted ā phosib.</string>
   <string name="reminder_header_progress">%1$d%%</string>
   <!--media_preview-->
   <string name="media_preview__save_title">Cadw</string>
@@ -2419,22 +2419,22 @@ Send neges heb ei ddiogelu?</string>
   <string name="Insights__percent">%</string>
   <string name="Insights__title">Mewnwelediadau</string>
   <string name="InsightsDashboardFragment__title">Mewnwelediadau</string>
-  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Mae Protocol Signal wedi amddiffyn %1$d%% o\'ch negeseuon â anfonwyd yn awtomatig dros y %2$d diwrnod diwethaf. Mae sgyrsiau rhwng defnyddwyr Signal bob amser yn cael eu hamgryptio o\'r dechrau i\'r diwedd.</string>
-  <string name="InsightsDashboardFragment__boost_your_signal">Hwb Signal</string>
+  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Mae Protocol Grapherex wedi amddiffyn %1$d%% o\'ch negeseuon â anfonwyd yn awtomatig dros y %2$d diwrnod diwethaf. Mae sgyrsiau rhwng defnyddwyr Grapherex bob amser yn cael eu hamgryptio o\'r dechrau i\'r diwedd.</string>
+  <string name="InsightsDashboardFragment__boost_your_signal">Hwb Grapherex</string>
   <string name="InsightsDashboardFragment__not_enough_data">Dim digon o ddata</string>
   <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">Mae eich canran Mewnwelediadau yn cael ei gyfrifo ar sail negeseuon sy\'n mynd allan yn ystod y %1$d diwrnod diwethaf nad ydyn\'t wedi diflannu na\'u dileu.</string>
   <string name="InsightsDashboardFragment__start_a_conversation">Cychwyn sgwrs</string>
-  <string name="InsightsDashboardFragment__invite_your_contacts">Cychwynnwch gyfathrebu\'n ddiogel a galluogi nodweddion newydd sy\'n mynd tu hwnt i gyfyngiadau negeseuon SMS heb eu hamgryptio drwy wahodd eich cysylltiadau i ymuno â Signal.</string>
+  <string name="InsightsDashboardFragment__invite_your_contacts">Cychwynnwch gyfathrebu\'n ddiogel a galluogi nodweddion newydd sy\'n mynd tu hwnt i gyfyngiadau negeseuon SMS heb eu hamgryptio drwy wahodd eich cysylltiadau i ymuno â Grapherex.</string>
   <string name="InsightsDashboardFragment__this_stat_was_generated_locally">Cynhyrchwyd yr ystadegau hyn yn lleol ar eich dyfais a dim ond chi all eu gweld. Nid ydynt byth yn cael eu trosglwyddo i unrhyw le.</string>
   <string name="InsightsDashboardFragment__encrypted_messages">Negeseuon wedi\'u hamgryptio</string>
   <string name="InsightsDashboardFragment__cancel">Diddymu</string>
   <string name="InsightsDashboardFragment__send">Anfon</string>
   <string name="InsightsModalFragment__title">Yn cyflwyno Mewnweledigaethau</string>
-  <string name="InsightsModalFragment__description">Canfod faint o\'ch negeseuon allan gafodd eu anfon yn ddiogel, yna gwahodd cysylltiadau newydd i gynyddu eich canran Signal.</string>
+  <string name="InsightsModalFragment__description">Canfod faint o\'ch negeseuon allan gafodd eu anfon yn ddiogel, yna gwahodd cysylltiadau newydd i gynyddu eich canran Grapherex.</string>
   <string name="InsightsModalFragment__view_insights">Gweld Mewnweledigaethau</string>
-  <string name="FirstInviteReminder__title">Gwahodd i Signal</string>
+  <string name="FirstInviteReminder__title">Gwahodd i Grapherex</string>
   <string name="FirstInviteReminder__description">Gallwch chi gynyddu\'r nifer o negeseuon wedi\'u hamgryptio rydych yn eu hanfon o %1$d%%</string>
-  <string name="SecondInviteReminder__title">Cynyddu eich Signal</string>
+  <string name="SecondInviteReminder__title">Cynyddu eich Grapherex</string>
   <string name="SecondInviteReminder__description">Gwahodd %1$s</string>
   <string name="InsightsReminder__view_insights">Gweld Mewnweledigaethau</string>
   <string name="InsightsReminder__invite">Gwahodd</string>
@@ -2459,7 +2459,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="CreateKbsPinFragment__create_a_new_pin">Crëwch PIN newydd</string>
   <string name="CreateKbsPinFragment__you_can_choose_a_new_pin_as_long_as_this_device_is_registered">Gallwch newid eich PIN cyhyd â bod y ddyfais hon wedi\'i chofrestru.</string>
   <string name="CreateKbsPinFragment__create_your_pin">Crëwch eich PIN</string>
-  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">Mae PINau\'n cadw gwybodaeth wedi\'i storio gyda Signal wedi\'i hamgryptio felly dim ond i chi gael mynediad ati. Bydd eich proffil, gosodiadau, a chysylltiadau yn cael eu hadfer pan fyddwch yn ailosod y rhaglen. Nid oes angen eich PIN arnoch i agor yr ap.</string>
+  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">Mae PINau\'n cadw gwybodaeth wedi\'i storio gyda Grapherex wedi\'i hamgryptio felly dim ond i chi gael mynediad ati. Bydd eich proffil, gosodiadau, a chysylltiadau yn cael eu hadfer pan fyddwch yn ailosod y rhaglen. Nid oes angen eich PIN arnoch i agor yr ap.</string>
   <string name="CreateKbsPinFragment__choose_a_stronger_pin">Dewiswch PIN cryfach</string>
   <!--ConfirmKbsPinFragment-->
   <string name="ConfirmKbsPinFragment__pins_dont_match">Nid yw\'r PIN yn cyfateb. Ceisiwch eto.</string>
@@ -2471,7 +2471,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="ConfirmKbsPinFragment__creating_pin">Yn creu PIN…</string>
   <!--KbsSplashFragment-->
   <string name="KbsSplashFragment__introducing_pins">Yn Cyflwyno PIN</string>
-  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">Mae PINau\'n cadw gwybodaeth wedi\'i storio gyda Signal wedi\'i hamgryptio felly dim ond i chi gael mynediad ati. Bydd eich proffil, gosodiadau, a chysylltiadau yn cael eu hadfer pan fyddwch yn ailosod y rhaglen. Nid oes angen eich PIN arnoch i agor yr ap.</string>
+  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">Mae PINau\'n cadw gwybodaeth wedi\'i storio gyda Grapherex wedi\'i hamgryptio felly dim ond i chi gael mynediad ati. Bydd eich proffil, gosodiadau, a chysylltiadau yn cael eu hadfer pan fyddwch yn ailosod y rhaglen. Nid oes angen eich PIN arnoch i agor yr ap.</string>
   <string name="KbsSplashFragment__learn_more">Dysgu Rhagor</string>
   <string name="KbsSplashFragment__registration_lock_equals_pin">Clo Cofrestru = PIN</string>
   <string name="KbsSplashFragment__your_registration_lock_is_now_called_a_pin">Mae eich Clo Cofrestru nawr yn cael ei alw\'n PIN, ac mae\'n gwneud mwy. Diweddarwch nawr.</string>
@@ -2480,7 +2480,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="KbsSplashFragment__learn_more_about_pins">Dysgu mwy am PINiau</string>
   <string name="KbsSplashFragment__disable_pin">Analluogi\'r PIN?</string>
   <!--KBS Reminder Dialog-->
-  <string name="KbsReminderDialog__enter_your_signal_pin">Rhowch eich PIN Signal</string>
+  <string name="KbsReminderDialog__enter_your_signal_pin">Rhowch eich PIN Grapherex</string>
   <string name="KbsReminderDialog__to_help_you_memorize_your_pin">I helpu i chi gofio\'ch PIN, byddwn yn gofyn i chi ei roi o bryd i\'w gilydd. Byddwn yn gofyn yn llai aml dros amser.</string>
   <string name="KbsReminderDialog__skip">Hepgor</string>
   <string name="KbsReminderDialog__submit">Cyflwyno</string>
@@ -2501,8 +2501,8 @@ Send neges heb ei ddiogelu?</string>
   <string name="RegistrationLockFragment__incorrect_pin">PIN anghywir</string>
   <string name="RegistrationLockFragment__forgot_your_pin">Wedi anghofio eich PIN?</string>
   <string name="RegistrationLockFragment__not_many_tries_left">Dim llawer o geisiadau ar ôl!</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Cofrestru Signal - Angen Cymorth gyda PIN ar gyfer Android (v1 PIN)</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Cofrestru Signal - Angen Cymorth gyda PIN ar gyfer Android (v2 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Cofrestru Grapherex - Angen Cymorth gyda PIN ar gyfer Android (v1 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Cofrestru Grapherex - Angen Cymorth gyda PIN ar gyfer Android (v2 PIN)</string>
   <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
     <item quantity="one">Er lles eich preifatrwydd a\'ch diogelwch, does dim modd i adfer eich PIN. Os fyddwch yn rhedeg allan o geisiadau bydd modd ail ddilysu gyda SMS ar ôl %1$d diwrnod o anweithgaredd. Yn yr achos yma, bydd eich cyfrif yn cael ei dynnu a\'r holl ddata ei ddileu.</item>
     <item quantity="two">Er lles eich preifatrwydd a\'ch diogelwch, does dim modd i adfer eich PIN. Os fyddwch yn rhedeg allan o geisiadau bydd modd ail ddilysu gyda SMS ar ôl %1$d diwrnod o anweithgaredd. Yn yr achos yma, bydd eich cyfrif yn cael ei dynnu a\'r holl ddata ei ddileu.</item>
@@ -2537,28 +2537,28 @@ Send neges heb ei ddiogelu?</string>
   <string name="CalleeMustAcceptMessageRequestDialogFragment__s_will_get_a_message_request_from_you">Bydd %1$s yn cael cais neges gennych. Gallwch ffonio unwaith y bydd eich cais am neges yn cael ei dderbyn.</string>
   <!--KBS Megaphone-->
   <string name="KbsMegaphone__create_a_pin">Crëwch PIN</string>
-  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">Mae PINs yn cadw gwybodaeth sydd wedi\'i storio gyda Signal wedi\'i hamgryptio.</string>
+  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">Mae PINs yn cadw gwybodaeth sydd wedi\'i storio gyda Grapherex wedi\'i hamgryptio.</string>
   <string name="KbsMegaphone__create_pin">Crëwch PIN</string>
   <!--Research Megaphone-->
-  <string name="ResearchMegaphone_tell_signal_what_you_think">Dywedwch wrth Signal beth you eich barn</string>
-  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">I wneud Signal yr ap negeseuon gorau ar y blaned, byddem wrth ein bodd yn clywed eich adborth.</string>
+  <string name="ResearchMegaphone_tell_signal_what_you_think">Dywedwch wrth Grapherex beth you eich barn</string>
+  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">I wneud Grapherex yr ap negeseuon gorau ar y blaned, byddem wrth ein bodd yn clywed eich adborth.</string>
   <string name="ResearchMegaphone_learn_more">Dysgu rhagor</string>
   <string name="ResearchMegaphone_dismiss">Diddymu</string>
-  <string name="ResearchMegaphoneDialog_signal_research">Ymchwil Signal</string>
-  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>Rydym yn credu mewn preifatrwydd.</b></p><p>Nid yw Signal yn eich tracio nac yn casglu\'ch data. Er mwyn gwella Signal i bawb, rydym yn dibynnu ar adborth defnyddwyr, <b>a byddem wrth ein bodd â\'ch adborth chi.</b></p><p> Rydyn ni\'n cynnal arolwg i ddeall sut rydych chi\'n defnyddio Signal. Nid yw ein harolwg yn casglu unrhyw ddata a fydd yn eich adnabod chi. Os oes gennych ddiddordeb mewn rhannu adborth ychwanegol, bydd gennych yr opsiwn i ddarparu gwybodaeth gyswllt.</p><p>Os oes gennych ychydig funudau ac adborth i\'w gynnig, byddem wrth ein bodd yn clywed gennych.</p>]]></string>
+  <string name="ResearchMegaphoneDialog_signal_research">Ymchwil Grapherex</string>
+  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>Rydym yn credu mewn preifatrwydd.</b></p><p>Nid yw Grapherex yn eich tracio nac yn casglu\'ch data. Er mwyn gwella Grapherex i bawb, rydym yn dibynnu ar adborth defnyddwyr, <b>a byddem wrth ein bodd â\'ch adborth chi.</b></p><p> Rydyn ni\'n cynnal arolwg i ddeall sut rydych chi\'n defnyddio Grapherex. Nid yw ein harolwg yn casglu unrhyw ddata a fydd yn eich adnabod chi. Os oes gennych ddiddordeb mewn rhannu adborth ychwanegol, bydd gennych yr opsiwn i ddarparu gwybodaeth gyswllt.</p><p>Os oes gennych ychydig funudau ac adborth i\'w gynnig, byddem wrth ein bodd yn clywed gennych.</p>]]></string>
   <string name="ResearchMegaphoneDialog_take_the_survey">Cymryd yr Arolwg</string>
   <string name="ResearchMegaphoneDialog_no_thanks">Dim diolch</string>
-  <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">Mae Alchemer yn cynnal yr arolwg yn yr arolygon parth diogel.signalusers.org</string>
+  <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">Mae Alchemer yn cynnal yr arolwg yn yr arolygon parth diogel.Grapherexusers.org</string>
   <!--transport_selection_list_item-->
   <string name="transport_selection_list_item__transport_icon">Eicon trafnidiaeth</string>
   <string name="ConversationListFragment_loading">Llwytho…</string>
   <string name="CallNotificationBuilder_connecting">Yn cysylltu</string>
   <string name="Permissions_permission_required">Angen caniatâd</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Mae ar Signal angen caniatâd Camera er mwyn anfon SMS, ond fe\'i rwystrwyd yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis "Caniatâd", a galluogi "SMS".</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Mae ar Grapherex angen caniatâd Camera er mwyn anfon SMS, ond fe\'i rwystrwyd yn barhaol. Ewch i ddewislen gosodiadau\'r ap, dewis "Caniatâd", a galluogi "SMS".</string>
   <string name="Permissions_continue">Parhau</string>
   <string name="Permissions_not_now">Nid nawr</string>
-  <string name="conversation_activity__enable_signal_messages">GALLUOGI NEGESEUON SIGNAL</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Mudo cronfa ddata Signal</string>
+  <string name="conversation_activity__enable_signal_messages">GALLUOGI NEGESEUON Grapherex</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">Mudo cronfa ddata Grapherex</string>
   <string name="PushDecryptJob_new_locked_message">Neges wedi\'i gloi newydd</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Datgloi i weld negeseuon sy\'n aros</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">Cyfrinymadrodd cadw wrth gefn</string>
@@ -2576,7 +2576,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="preferences_chats__transfer_account_to_a_new_android_device">Trosglwyddo cyfrif i ddyfais Android newydd</string>
   <string name="RegistrationActivity_enter_backup_passphrase">Rhoi\'r cyfrinymadrodd wrth gefn</string>
   <string name="RegistrationActivity_restore">Adfer</string>
-  <string name="RegistrationActivity_backup_failure_downgrade">Methu mewnforio o fersiynau mwy diweddar o Signal</string>
+  <string name="RegistrationActivity_backup_failure_downgrade">Methu mewnforio o fersiynau mwy diweddar o Grapherex</string>
   <string name="RegistrationActivity_incorrect_backup_passphrase">Cyfrinymadrodd wrth gefn anghywir</string>
   <string name="RegistrationActivity_checking">Gwirio…</string>
   <string name="RegistrationActivity_d_messages_so_far">%d neges hyd yn hyn</string>
@@ -2607,8 +2607,8 @@ Send neges heb ei ddiogelu?</string>
   <string name="ProgressPreference_d_messages_so_far">%d neges hyd yn hyn</string>
   <string name="RegistrationActivity_wrong_number">Rhif anghywir</string>
   <string name="RegistrationActivity_call_me_instead_available_in">Galw fi yn lle hynny\n (Ar gael ymhen %1$02d:%2$02d)</string>
-  <string name="RegistrationActivity_contact_signal_support">Cysylltu â Chymorth Signal</string>
-  <string name="RegistrationActivity_code_support_subject">Cofrestru Signal - Cod Dilysu Android</string>
+  <string name="RegistrationActivity_contact_signal_support">Cysylltu â Chymorth Grapherex</string>
+  <string name="RegistrationActivity_code_support_subject">Cofrestru Grapherex - Cod Dilysu Android</string>
   <string name="BackupUtil_never">Byth</string>
   <string name="BackupUtil_unknown">Anhysbys</string>
   <string name="preferences_app_protection__see_my_phone_number">Gweld fy rhif ffôn</string>
@@ -2617,21 +2617,21 @@ Send neges heb ei ddiogelu?</string>
   <string name="PhoneNumberPrivacy_my_contacts">Fy nghysylltiadau</string>
   <string name="PhoneNumberPrivacy_nobody">Neb</string>
   <string name="PhoneNumberPrivacy_everyone_see_description">Bydd eich rhif ffôn yn weladwy i\'r holl bobl a grwpiau rydych chi\'n eu negesu.</string>
-  <string name="PhoneNumberPrivacy_everyone_find_description">Bydd unrhyw un sydd â\'ch rhif ffôn yn eu cysylltiadau yn eich gweld fel cyswllt ar Signal. Bydd eraill yn gallu dod o hyd i chi wrth chwilio.</string>
+  <string name="PhoneNumberPrivacy_everyone_find_description">Bydd unrhyw un sydd â\'ch rhif ffôn yn eu cysylltiadau yn eich gweld fel cyswllt ar Grapherex. Bydd eraill yn gallu dod o hyd i chi wrth chwilio.</string>
   <string name="preferences_app_protection__screen_lock">Clo sgrin</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Cloi mynediad i Signal gyda chlo sgrin neu ôl bysedd Android</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Cloi mynediad i Grapherex gyda chlo sgrin neu ôl bysedd Android</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">Amserlen segur clo sgrin</string>
-  <string name="preferences_app_protection__signal_pin">PIN Signal</string>
+  <string name="preferences_app_protection__signal_pin">PIN Grapherex</string>
   <string name="preferences_app_protection__create_a_pin">Crëwch PIN</string>
   <string name="preferences_app_protection__change_your_pin">Newid eich PIN</string>
   <string name="preferences_app_protection__pin_reminders">Atgoffwr PIN</string>
-  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">Mae PINs yn cadw gwybodaeth wedi\'i storio gyda Signal wedi\'i hamgryptio felly dim ond chi sy\'n cael mynediad ati. Bydd eich proffil, gosodiadau, a chysylltiadau yn cael eu hadfer pan fyddwch yn ailosod Signal.</string>
-  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Ychwanegwch ddiogelwch ychwanegol trwy ei gwneud yn ofynnol i\'ch PIN Signal gofrestru\'ch rhif ffôn gyda Signal eto.</string>
+  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">Mae PINs yn cadw gwybodaeth wedi\'i storio gyda Grapherex wedi\'i hamgryptio felly dim ond chi sy\'n cael mynediad ati. Bydd eich proffil, gosodiadau, a chysylltiadau yn cael eu hadfer pan fyddwch yn ailosod Grapherex.</string>
+  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Ychwanegwch ddiogelwch ychwanegol trwy ei gwneud yn ofynnol i\'ch PIN Grapherex gofrestru\'ch rhif ffôn gyda Grapherex eto.</string>
   <string name="preferences_app_protection__reminders_help_you_remember_your_pin">Mae atgoffwyr yn eich helpu i gofio\'ch PIN gan nad oes modd ei adfer. Byddwn yn gofyn i chi\'n llai aml dros amser.</string>
   <string name="preferences_app_protection__turn_off">Diffodd</string>
   <string name="preferences_app_protection__confirm_pin">Cadarnhau PIN</string>
-  <string name="preferences_app_protection__confirm_your_signal_pin">Cadarnhewch eich PIN Signal</string>
-  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Gwnewch yn siŵr eich bod yn cofio neu\'n cadw eich PIN yn ddiogel gan nad oes modd ei adfer. Os fyddwch yn anghofio eich PIN, efallai y byddwch yn colli data wrth ailgofrestru eich cyfrif Signal.</string>
+  <string name="preferences_app_protection__confirm_your_signal_pin">Cadarnhewch eich PIN Grapherex</string>
+  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Gwnewch yn siŵr eich bod yn cofio neu\'n cadw eich PIN yn ddiogel gan nad oes modd ei adfer. Os fyddwch yn anghofio eich PIN, efallai y byddwch yn colli data wrth ailgofrestru eich cyfrif Grapherex.</string>
   <string name="preferences_app_protection__incorrect_pin_try_again">PIN anghywir. Ceisiwch eto.</string>
   <string name="preferences_app_protection__failed_to_enable_registration_lock">Wedi methu galluogi clo cofrestru.</string>
   <string name="preferences_app_protection__failed_to_disable_registration_lock">Wedi methu analluogi clo cofrestru.</string>
@@ -2644,19 +2644,19 @@ Send neges heb ei ddiogelu?</string>
   <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">Rydych wedi ceisio gormod o weithiau. Ceisiwch eto\'n hwyrach.</string>
   <string name="RegistrationActivity_error_connecting_to_service">Gwall wrth gysylltu â gwasanaeth</string>
   <string name="preferences_chats__backups">Copïau wrth gefn</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Mae Signal wedi\'i gloi</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">Mae Grapherex wedi\'i gloi</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">TAPIO I DDATGLOI</string>
   <string name="Recipient_unknown">Anhysbys</string>
   <!--TransferOrRestoreFragment-->
   <string name="TransferOrRestoreFragment__transfer_or_restore_account">Trosglwyddo neu adfer cyfrif</string>
-  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Os ydych wedi cofrestru cyfrif Signal o\'r blaen, gallwch drosglwyddo neu adfer eich cyfrif a\'ch negeseuon</string>
+  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Os ydych wedi cofrestru cyfrif Grapherex o\'r blaen, gallwch drosglwyddo neu adfer eich cyfrif a\'ch negeseuon</string>
   <string name="TransferOrRestoreFragment__transfer_from_android_device">Trosglwyddo o ddyfais Android</string>
   <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">Trosglwyddwch eich cyfrif a\'ch negeseuon o\'ch hen ddyfais Android. Rhaid bod gennych fynediad i\'ch hen ddyfais.</string>
   <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">Rhaid bod gennych fynediad i\'ch hen ddyfais.</string>
   <string name="TransferOrRestoreFragment__restore_from_backup">Adfer o\'r copi wrth gefn</string>
   <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">Adferwch eich negeseuon o gronfa wrth gefn lleol. Os na fyddwch yn adfer nawr, fydd dim modd adfer yn nes ymlaen.</string>
   <!--NewDeviceTransferInstructionsFragment-->
-  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Arwydd Signal ar eich hen ffôn Android</string>
+  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Arwydd Grapherex ar eich hen ffôn Android</string>
   <string name="NewDeviceTransferInstructions__continue">Parhau</string>
   <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
   <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">Tapiwch eich llun proffil yn y chwith uchaf i agor y Gosodiadau</string>
@@ -2668,18 +2668,18 @@ Send neges heb ei ddiogelu?</string>
   <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">Yn paratoi i gysylltu â hen ddyfais Android…</string>
   <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">Dylai cymryd eiliad, bydd yn barod cyn bo hir</string>
   <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">Yn aros i hen ddyfais Android i gysylltu…</string>
-  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Mae angen caniatâd lleoliad ar Signal i ddarganfod a chysylltu â\'ch hen ddyfais Android.</string>
-  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Mae angen gwasanaethau lleoliad ar Signal sydd wedi\'u galluogi i ddarganfod a chysylltu â\'ch hen ddyfais Android.</string>
-  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Mae angen diwifr ar Signal i ddarganfod a chysylltu â\'ch hen ddyfais Android. Mae angen i\'r diwifr fod ymlaen ond nid oes rhaid ei gysylltu â rhwydwaith diwifr.</string>
-  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Ymddiheuriadau, mae\'n ymddangos nad yw\'r ddyfais hon yn cefnogi Wi-Fi Direct. Mae Signal yn defnyddio Wi-Fi Direct i ddarganfod a chysylltu â\'ch hen ddyfais Android. Gallwch barhau i adfer copi wrth gefn i adfer eich cyfrif o\'ch hen ddyfais Android.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Mae angen caniatâd lleoliad ar Grapherex i ddarganfod a chysylltu â\'ch hen ddyfais Android.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Mae angen gwasanaethau lleoliad ar Grapherex sydd wedi\'u galluogi i ddarganfod a chysylltu â\'ch hen ddyfais Android.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Mae angen diwifr ar Grapherex i ddarganfod a chysylltu â\'ch hen ddyfais Android. Mae angen i\'r diwifr fod ymlaen ond nid oes rhaid ei gysylltu â rhwydwaith diwifr.</string>
+  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Ymddiheuriadau, mae\'n ymddangos nad yw\'r ddyfais hon yn cefnogi Wi-Fi Direct. Mae Grapherex yn defnyddio Wi-Fi Direct i ddarganfod a chysylltu â\'ch hen ddyfais Android. Gallwch barhau i adfer copi wrth gefn i adfer eich cyfrif o\'ch hen ddyfais Android.</string>
   <string name="NewDeviceTransferSetup__restore_a_backup">Adfer y copi wrth gefn</string>
   <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Digwyddodd gwall annisgwyl wrth geisio cysylltu â\'ch hen ddyfais Android.</string>
   <!--OldDeviceTransferSetupFragment-->
   <string name="OldDeviceTransferSetup__searching_for_new_android_device">Yn chwilio am ddyfais Android newydd…</string>
-  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Mae angen caniatâd lleoliad ar Signal i ddarganfod a chysylltu â\'ch dyfais Android newydd.</string>
-  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Mae angen gwasanaethau lleoliad ar Signal sydd wedi\'u galluogi i ddarganfod a chysylltu â\'ch dyfais Android newydd.</string>
-  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Mae angen diwifr ar Signal i ddarganfod a chysylltu â\'ch dyfais Android newydd. Mae angen i ddiwifr fod ymlaen ond nid oes rhaid ei gysylltu â rhwydwaith diwifr.</string>
-  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Ymddiheuriadau, mae\'n ymddangos nad yw\'r ddyfais hon yn cefnogi Wi-Fi Direct. Mae Signal yn defnyddio Wi-Fi Direct i ddarganfod a chysylltu â\'ch dyfais Android newydd. Gallwch barhau i greu copi wrth gefn i adfer eich cyfrif ar eich dyfais Android newydd.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Mae angen caniatâd lleoliad ar Grapherex i ddarganfod a chysylltu â\'ch dyfais Android newydd.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Mae angen gwasanaethau lleoliad ar Grapherex sydd wedi\'u galluogi i ddarganfod a chysylltu â\'ch dyfais Android newydd.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Mae angen diwifr ar Grapherex i ddarganfod a chysylltu â\'ch dyfais Android newydd. Mae angen i ddiwifr fod ymlaen ond nid oes rhaid ei gysylltu â rhwydwaith diwifr.</string>
+  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Ymddiheuriadau, mae\'n ymddangos nad yw\'r ddyfais hon yn cefnogi Wi-Fi Direct. Mae Grapherex yn defnyddio Wi-Fi Direct i ddarganfod a chysylltu â\'ch dyfais Android newydd. Gallwch barhau i greu copi wrth gefn i adfer eich cyfrif ar eich dyfais Android newydd.</string>
   <string name="OldDeviceTransferSetup__create_a_backup">Creu copi wrth gefn</string>
   <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Digwyddodd gwall annisgwyl wrth geisio cysylltu â\'ch dyfais Android newydd.</string>
   <!--DeviceTransferSetupFragment-->
@@ -2714,10 +2714,10 @@ Send neges heb ei ddiogelu?</string>
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device_to_start_the_transfer">Tapiwch Parhau ar eich dyfais arall i ddechrau\'r trosglwyddiad.</string>
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device">Tapiwch Parhau ar eich dyfais arall..,</string>
   <!--NewDeviceTransferFragment-->
-  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Nid oes modd trosglwyddo o fersiynau mwy newydd o Signal</string>
+  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Nid oes modd trosglwyddo o fersiynau mwy newydd o Grapherex</string>
   <!--DeviceTransferFragment-->
   <string name="DeviceTransfer__transferring_data">Yn trosglwyddo data</string>
-  <string name="DeviceTransfer__keep_both_devices_near_each_other">Cadwch y ddwy ddyfais yn agos at ei gilydd. Peidiwch â diffodd y dyfeisiau a chadwch Signal ar agor. Mae trosglwyddiadau wedi\'u hamgryptio o\'r dechrau i\'r diwedd.</string>
+  <string name="DeviceTransfer__keep_both_devices_near_each_other">Cadwch y ddwy ddyfais yn agos at ei gilydd. Peidiwch â diffodd y dyfeisiau a chadwch Grapherex ar agor. Mae trosglwyddiadau wedi\'u hamgryptio o\'r dechrau i\'r diwedd.</string>
   <string name="DeviceTransfer__d_messages_so_far">%1$d neges hyd yma…</string>
   <string name="DeviceTransfer__cancel">Canslo</string>
   <string name="DeviceTransfer__try_again">Ceisio eto</string>
@@ -2728,9 +2728,9 @@ Send neges heb ei ddiogelu?</string>
   <string name="DeviceTransfer__unable_to_transfer">Methu trosglwyddo</string>
   <!--OldDeviceTransferInstructionsFragment-->
   <string name="OldDeviceTransferInstructions__transfer_account">Trosglwyddo Cyfrif</string>
-  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">Gallwch drosglwyddo\'ch cyfrif Signal wrth osod Signal ar ddyfais Android newydd. Cyn parhau:</string>
+  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">Gallwch drosglwyddo\'ch cyfrif Grapherex wrth osod Grapherex ar ddyfais Android newydd. Cyn parhau:</string>
   <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Llwythwch Signal ar i\'ch dyfais Android newydd</string>
+  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Llwythwch Grapherex ar i\'ch dyfais Android newydd</string>
   <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
   <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">Tapiwch ar \"Trosglwyddo neu adfer cyfrif\"</string>
   <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -2739,7 +2739,7 @@ Send neges heb ei ddiogelu?</string>
   <!--OldDeviceTransferComplete-->
   <string name="OldDeviceTransferComplete__transfer_complete">Y trosglwyddo wedi\'i gwblhau</string>
   <string name="OldDeviceTransferComplete__go_to_your_new_device">Ewch i\'ch dyfais newydd</string>
-  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Mae eich data Signal wedi\'i drosglwyddo i\'ch dyfais newydd. I gwblhau\'r broses drosglwyddo, rhaid i chi barhau i gofrestru ar eich dyfais newydd.</string>
+  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Mae eich data Grapherex wedi\'i drosglwyddo i\'ch dyfais newydd. I gwblhau\'r broses drosglwyddo, rhaid i chi barhau i gofrestru ar eich dyfais newydd.</string>
   <string name="OldDeviceTransferComplete__close">Cau</string>
   <!--NewDeviceTransferComplete-->
   <string name="NewDeviceTransferComplete__transfer_successful">Y trosglwyddo yn llwyddiannus</string>
@@ -2756,7 +2756,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="DeviceToDeviceTransferService_status_service_connected">Yn trosglwyddo cyfrif…</string>
   <!--OldDeviceTransferLockedDialog-->
   <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">Cwblhewch y cofrestriad ar eich dyfais newydd</string>
-  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Mae eich cyfrif Signal wedi\'i drosglwyddo i\'ch dyfais newydd, ond mae\'n rhaid i chi gwblhau cofrestriad arno i barhau. Ni fydd y Signal yn weithredol ar y ddyfais hon.</string>
+  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Mae eich cyfrif Grapherex wedi\'i drosglwyddo i\'ch dyfais newydd, ond mae\'n rhaid i chi gwblhau cofrestriad arno i barhau. Ni fydd y Grapherex yn weithredol ar y ddyfais hon.</string>
   <string name="OldDeviceTransferLockedDialog__done">Wedi Gorffen</string>
   <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">Diddymu a gweithredu\'r ddyfais hon</string>
   <!--AdvancedPreferenceFragment-->
@@ -2791,12 +2791,12 @@ Send neges heb ei ddiogelu?</string>
   <string name="GroupsLearnMore_what_are_legacy_groups">Beth yw Hen Grwpiau?</string>
   <string name="GroupsLearnMore_paragraph_1">Mae Hen Grwpiau yn grwpiau sydd ddim yn gydnaws â nodweddion Grŵp Newydd fel gweinyddwyr a diweddariadau grwpiau mwy disgrifiadol.</string>
   <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">Gai “uwchraddio” Hen Grŵp?</string>
-  <string name="GroupsLearnMore_paragraph_2">Nid oes modd uwchraddio Hen Grwpiau i Grwpiau Newydd eto, ond gallwch greu Grŵp Newydd gyda\'r un aelodau os ydyn nhw ar y fersiwn ddiweddaraf o Signal.</string>
-  <string name="GroupsLearnMore_paragraph_3">Bydd Signal yn cynnig ffordd i uwchraddio Hen Etifeddiaeth yn y dyfodol.</string>
+  <string name="GroupsLearnMore_paragraph_2">Nid oes modd uwchraddio Hen Grwpiau i Grwpiau Newydd eto, ond gallwch greu Grŵp Newydd gyda\'r un aelodau os ydyn nhw ar y fersiwn ddiweddaraf o Grapherex.</string>
+  <string name="GroupsLearnMore_paragraph_3">Bydd Grapherex yn cynnig ffordd i uwchraddio Hen Etifeddiaeth yn y dyfodol.</string>
   <!--GroupLinkBottomSheetDialogFragment-->
   <string name="GroupLinkBottomSheet_share_hint_requiring_approval">Gall unrhyw un sydd â\'r ddolen hon weld enw a llun o\'r grŵp a gofyn i ymuno. Rhannwch hi gyda phobl rydych yn ymddiried ynddyn nhw.</string>
   <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">Gall unrhyw un sydd â\'r ddolen hon weld enw a llun o\'r grŵp a gofyn i ymuno. Rhannwch hi gyda phobl rydych yn ymddiried ynddyn nhw.</string>
-  <string name="GroupLinkBottomSheet_share_via_signal">Rhannu trwy Signal</string>
+  <string name="GroupLinkBottomSheet_share_via_signal">Rhannu trwy Grapherex</string>
   <string name="GroupLinkBottomSheet_copy">Copïo</string>
   <string name="GroupLinkBottomSheet_qr_code">Cod QR</string>
   <string name="GroupLinkBottomSheet_share">Rhannu</string>
@@ -2865,7 +2865,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="DeleteAccountFragment__no_number">Dim rhif wedi\'i nodi</string>
   <string name="DeleteAccountFragment__the_phone_number">Nid yw\'r rhif ffôn a nodoch yn cyfateb i\'ch rhif cyfrif.</string>
   <string name="DeleteAccountFragment__are_you_sure">Ydych chi\'n siŵr eich bod chi am ddileu\'ch cyfrif?</string>
-  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Bydd hyn yn dileu eich cyfrif Signal ac yn ailosod y rhaglen. Bydd yr ap yn cau ar ôl i\'r broses gael ei chwblhau.</string>
+  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Bydd hyn yn dileu eich cyfrif Grapherex ac yn ailosod y rhaglen. Bydd yr ap yn cau ar ôl i\'r broses gael ei chwblhau.</string>
   <string name="DeleteAccountFragment__failed_to_delete_account">Wedi methu dileu cyfrif. Oes gennych chi gysylltiad rhwydwaith?</string>
   <string name="DeleteAccountFragment__failed_to_delete_local_data">Wedi methu dileu data lleol. Gallwch ei glirio â llaw yn y gosodiadau rhaglenni system.</string>
   <string name="DeleteAccountFragment__launch_app_settings">Agor Gosodiadau\'r Ap</string>
@@ -2877,7 +2877,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="ShareActivity__share">Rhannu</string>
   <string name="ShareActivity__send">Anfon</string>
   <string name="ShareActivity__s_comma">%1$s,</string>
-  <string name="ShareActivity__sharing_to_multiple_chats_is">Mae rhannu i sgyrsiau lluosog yn cael ei gynnal ar gyfer negeseuon Signal, yn unig.</string>
+  <string name="ShareActivity__sharing_to_multiple_chats_is">Mae rhannu i sgyrsiau lluosog yn cael ei gynnal ar gyfer negeseuon Grapherex, yn unig.</string>
   <!--MultiShareDialogs-->
   <string name="MultiShareDialogs__failed_to_send_to_some_users">Wedi methu anfon at rai defnyddwyr</string>
   <string name="MultiShareDialogs__you_can_only_share_with_up_to">Dim ond gyda hyd at %1$d o sgyrsiau y gallwch chi eu rhannu</string>
@@ -2919,7 +2919,7 @@ Send neges heb ei ddiogelu?</string>
   <string name="payment_info_card_about_mobilecoin">Ynghylch MobileCoin</string>
   <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">Mae MobileCoin yn arian digidol newydd sy\'n canolbwyntio ar breifatrwydd.</string>
   <string name="payment_info_card_adding_funds">Ychwanegu arian</string>
-  <string name="payment_info_card_you_can_add_funds_for_use_in">Gallwch ychwanegu arian i\'w ddefnyddio yn Signal trwy anfon MobileCoin i\'ch cyfeiriad waled.</string>
+  <string name="payment_info_card_you_can_add_funds_for_use_in">Gallwch ychwanegu arian i\'w ddefnyddio yn Grapherex trwy anfon MobileCoin i\'ch cyfeiriad waled.</string>
   <string name="payment_info_card_cashing_out">Tynnu arian allan</string>
   <string name="payment_info_card_you_can_cash_out_mobilecoin">Gallwch dynnu allan o MobileCoin ar unrhyw bryd ar gyfnewidfa sy\'n cefnogi MobileCoin. Dim ond trosglwyddo i\'ch cyfrif yn y gyfnewidfa honno.</string>
   <string name="payment_info_card_hide_this_card">Cuddio\'r cerdyn hwn?</string>
@@ -2933,18 +2933,18 @@ Send neges heb ei ddiogelu?</string>
   <!--DeactivateWalletFragment-->
   <string name="DeactivateWalletFragment__deactivate_wallet">Dadweithredu\'r Waled</string>
   <string name="DeactivateWalletFragment__your_balance">Eich balans</string>
-  <string name="DeactivateWalletFragment__its_recommended_that_you">Rydym yn argymell eich bod yn trosglwyddo\'ch arian i gyfeiriad waled arall cyn dadweithredu taliadau. Os dewiswch beidio â throsglwyddo\'ch arian nawr, byddant yn aros yn eich waled sy\'n gysylltiedig â Signal os byddwch yn ail weithredu taliadau.</string>
+  <string name="DeactivateWalletFragment__its_recommended_that_you">Rydym yn argymell eich bod yn trosglwyddo\'ch arian i gyfeiriad waled arall cyn dadweithredu taliadau. Os dewiswch beidio â throsglwyddo\'ch arian nawr, byddant yn aros yn eich waled sy\'n gysylltiedig â Grapherex os byddwch yn ail weithredu taliadau.</string>
   <string name="DeactivateWalletFragment__transfer_remaining_balance">Trosglwyddo\'r balans sy\'n weddill</string>
   <string name="DeactivateWalletFragment__deactivate_without_transferring">Dadweithredu heb drosglwyddo</string>
   <string name="DeactivateWalletFragment__deactivate">Dadweithredu</string>
   <string name="DeactivateWalletFragment__deactivate_without_transferring_question">Dadweithredu heb drosglwyddo?</string>
-  <string name="DeactivateWalletFragment__your_balance_will_remain">Bydd eich balans yn aros yn eich waled sy\'n gysylltiedig â Signal os byddwch chi\'n dewis ail weithredu eich taliadau.</string>
+  <string name="DeactivateWalletFragment__your_balance_will_remain">Bydd eich balans yn aros yn eich waled sy\'n gysylltiedig â Grapherex os byddwch chi\'n dewis ail weithredu eich taliadau.</string>
   <string name="DeactivateWalletFragment__error_deactivating_wallet">Gwall wrth ddadweithredu\'r waled.</string>
   <!--PaymentsRecoveryStartFragment-->
   <string name="PaymentsRecoveryStartFragment__recovery_phrase">Ymadrodd adfer</string>
   <string name="PaymentsRecoveryStartFragment__view_recovery_phrase">Gweld ymadrodd adfer</string>
   <string name="PaymentsRecoveryStartFragment__enter_recovery_phrase">Rhowch ymadrodd adfer</string>
-  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">Bydd eich balans yn adfer yn awtomatig pan fyddwch yn ailosod Signal os byddwch yn cadarnhau eich PIN Signal. Gallwch hefyd adfer eich balans gan ddefnyddio ymadrodd adfer, sy\'n ymadrodd %1$d-word sy\'n unigryw i chi. Ysgrifennwch ef i lawr a\'i storio mewn man diogel.</string>
+  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">Bydd eich balans yn adfer yn awtomatig pan fyddwch yn ailosod Grapherex os byddwch yn cadarnhau eich PIN Grapherex. Gallwch hefyd adfer eich balans gan ddefnyddio ymadrodd adfer, sy\'n ymadrodd %1$d-word sy\'n unigryw i chi. Ysgrifennwch ef i lawr a\'i storio mewn man diogel.</string>
   <string name="PaymentsRecoveryStartFragment__your_recovery_phrase_is_a">Mae eich ymadrodd adfer yn ymadrodd %1$d-word sy\'n unigryw i chi. Defnyddiwch yr ymadrodd hwn i adfer eich balans.</string>
   <string name="PaymentsRecoveryStartFragment__start">Cychwyn</string>
   <string name="PaymentsRecoveryStartFragment__enter_manually">Mewnosod â llaw</string>

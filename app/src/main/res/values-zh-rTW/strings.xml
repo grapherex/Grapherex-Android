@@ -2399,7 +2399,7 @@
   <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">您進行了太多次嘗試。 請稍後再試。</string>
   <string name="RegistrationActivity_error_connecting_to_service">連線到服務錯誤</string>
   <string name="preferences_chats__backups">備份</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Signal 已被鎖定</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">Grapherex 已被鎖定</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">輕觸以解鎖</string>
   <string name="Recipient_unknown">未知</string>
   <!--TransferOrRestoreFragment-->

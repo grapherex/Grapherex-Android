@@ -10,22 +10,22 @@
   <string name="AbstractNotificationBuilder_new_message">Ny melding</string>
   <!--AlbumThumbnailView-->
   <!--ApplicationMigrationActivity-->
-  <string name="ApplicationMigrationActivity__signal_is_updating">Signal oppdaterer seg …</string>
+  <string name="ApplicationMigrationActivity__signal_is_updating">Grapherex oppdaterer seg …</string>
   <!--ApplicationPreferencesActivity-->
   <string name="ApplicationPreferencesActivity_currently_s">Gjeldande: %s</string>
   <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">Du har ikkje valt ein passordfrase endå.</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">Vil du slå av bruk av passordfrase?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Dette låser opp Signal og meldingsvarsel.</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Dette låser opp Grapherex og meldingsvarsel.</string>
   <string name="ApplicationPreferencesActivity_disable">Slå av</string>
   <string name="ApplicationPreferencesActivity_unregistering">Avregistrerer</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Avregistrerer frå Signal-meldingar og samtalar …</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Vil du slå av Signal-meldingar og -samtalar?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Slå av Signal-meldingar og -samtalar ved å avregistrera deg frå tenaren. Du må registrera telefonnummeret ditt for å kunna finna igjen desse seinare.</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Avregistrerer frå Grapherex-meldingar og samtalar …</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Vil du slå av Grapherex-meldingar og -samtalar?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Slå av Grapherex-meldingar og -samtalar ved å avregistrera deg frå tenaren. Du må registrera telefonnummeret ditt for å kunna finna igjen desse seinare.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Det oppstod ein feil under tilkopling til tenar.</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS slått på</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Trykk for å byta standard SMS-program</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">SMS slått av</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Trykk for å bruka Signal som standard SMS-program</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Trykk for å bruka Grapherex som standard SMS-program</string>
   <string name="ApplicationPreferencesActivity_on">på</string>
   <string name="ApplicationPreferencesActivity_On">På</string>
   <string name="ApplicationPreferencesActivity_off">av</string>
@@ -58,14 +58,14 @@
   <string name="AttachmentKeyboard_file">Fil</string>
   <string name="AttachmentKeyboard_contact">Kontakt</string>
   <string name="AttachmentKeyboard_location">Plassering</string>
-  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Signal treng tilgang for å visa bilde eller film.</string>
+  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Grapherex treng tilgang for å visa bilde eller film.</string>
   <string name="AttachmentKeyboard_give_access">Gi tilgang</string>
   <string name="AttachmentKeyboard_payment">Betaling</string>
   <!--AttachmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">Fann ingen program for valt medium.</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Signal treng tilgang til lagring for å legga ved bilde, film eller lydklipp, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Lagring».</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Signal treng tilgang til kontaktar for å legga til kontaktinformasjon som vedlegg, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Kontaktar».</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Signal treng tilgang til posisjon for å legga til posisjon som vedlegg, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Posisjon».</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Grapherex treng tilgang til lagring for å legga ved bilde, film eller lydklipp, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Lagring».</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Grapherex treng tilgang til kontaktar for å legga til kontaktinformasjon som vedlegg, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Kontaktar».</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Grapherex treng tilgang til posisjon for å legga til posisjon som vedlegg, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Posisjon».</string>
   <!--AttachmentUploadJob-->
   <string name="AttachmentUploadJob_uploading_media">Lastar opp media …</string>
   <string name="AttachmentUploadJob_compressing_video_start">Komprimerer video …</string>
@@ -109,26 +109,26 @@
   <string name="CameraXFragment_open_gallery_description">Opna galleri</string>
   <!--CameraContacts-->
   <string name="CameraContacts_recent_contacts">Nylege kontaktar</string>
-  <string name="CameraContacts_signal_contacts">Signal-kontaktar</string>
-  <string name="CameraContacts_signal_groups">Signal-grupper</string>
+  <string name="CameraContacts_signal_contacts">Grapherex-kontaktar</string>
+  <string name="CameraContacts_signal_groups">Grapherex-grupper</string>
   <string name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">Du kan dela med maksimalt %d samtalar</string>
-  <string name="CameraContacts_select_signal_recipients">Vel Signal-mottakarar</string>
-  <string name="CameraContacts_no_signal_contacts">Ingen Signal-kontaktar</string>
-  <string name="CameraContacts_you_can_only_use_the_camera_button">Du kan berre bruka kameraknappen til å senda bilde til Signal-kontaktar.</string>
+  <string name="CameraContacts_select_signal_recipients">Vel Grapherex-mottakarar</string>
+  <string name="CameraContacts_no_signal_contacts">Ingen Grapherex-kontaktar</string>
+  <string name="CameraContacts_you_can_only_use_the_camera_button">Du kan berre bruka kameraknappen til å senda bilde til Grapherex-kontaktar.</string>
   <string name="CameraContacts_cant_find_who_youre_looking_for">Finn du ikkje den du leitar etter?</string>
-  <string name="CameraContacts_invite_a_contact_to_join_signal">Inviter ein kontakt til Signal</string>
+  <string name="CameraContacts_invite_a_contact_to_join_signal">Inviter ein kontakt til Grapherex</string>
   <string name="CameraContacts__menu_search">Søk</string>
   <!--ClearProfileActivity-->
   <string name="ClearProfileActivity_remove">Fjern</string>
   <string name="ClearProfileActivity_remove_profile_photo">Fjern profilbildet?</string>
   <string name="ClearProfileActivity_remove_group_photo">Fjern gruppebildet?</string>
   <!--ClientDeprecatedActivity-->
-  <string name="ClientDeprecatedActivity_update_signal">Oppdater Signal</string>
-  <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">Denne utgåva av Signal er ikkje lenger støtta. Oppdater til den seinaste utgåva for å senda og motta meldingar.</string>
+  <string name="ClientDeprecatedActivity_update_signal">Oppdater Grapherex</string>
+  <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">Denne utgåva av Grapherex er ikkje lenger støtta. Oppdater til den seinaste utgåva for å senda og motta meldingar.</string>
   <string name="ClientDeprecatedActivity_update">Oppdater</string>
   <string name="ClientDeprecatedActivity_dont_update">Ikkje oppdater</string>
   <string name="ClientDeprecatedActivity_warning">Åtvaring</string>
-  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Denne utgåva av Signal er utdatert. Du kan sjå meldingshistorikken, men du kan ikkje senda eller motta meldingar før du oppdaterer.</string>
+  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Denne utgåva av Grapherex er utdatert. Du kan sjå meldingshistorikken, men du kan ikkje senda eller motta meldingar før du oppdaterer.</string>
   <!--CommunicationActions-->
   <string name="CommunicationActions_no_browser_found">Fann ingen nettlesar.</string>
   <string name="CommunicationActions_send_email">Send e-post</string>
@@ -137,9 +137,9 @@
   <string name="CommunicationActions_cancel">Avbryt</string>
   <string name="CommunicationActions_call">Ring</string>
   <string name="CommunicationActions_insecure_call">Usikker samtale</string>
-  <string name="CommunicationActions_carrier_charges_may_apply">Kan involvera telekostnader. Nummeret du ringer er ikkje registrert med Signal. Denne samtalen går gjennom teleselskapet ditt, ikkje over internett.</string>
+  <string name="CommunicationActions_carrier_charges_may_apply">Kan involvera telekostnader. Nummeret du ringer er ikkje registrert med Grapherex. Denne samtalen går gjennom teleselskapet ditt, ikkje over internett.</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Tryggleiksnummeret ditt med %1$s har endra seg. Dette kan tyda på at nokon prøver å overvaka kommunikasjonen, eller at %2$s berre har installert Signal på nytt.</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Tryggleiksnummeret ditt med %1$s har endra seg. Dette kan tyda på at nokon prøver å overvaka kommunikasjonen, eller at %2$s berre har installert Grapherex på nytt.</string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">Du ynskjer kanskje å stadfesta tryggleiksnummeret ditt med denne kontakten.</string>
   <string name="ConfirmIdentityDialog_accept">Godta</string>
   <!--ContactsCursorLoader-->
@@ -150,7 +150,7 @@
   <string name="ContactsCursorLoader_username_search">Søk etter brukarnamn</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">Melding %s</string>
-  <string name="ContactsDatabase_signal_call_s">Signal-anrop %s</string>
+  <string name="ContactsDatabase_signal_call_s">Grapherex-anrop %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">Fornamn</string>
   <string name="ContactNameEditActivity_family_name">Etternamn</string>
@@ -172,7 +172,7 @@
   <string name="ConversationItem_click_to_approve_unencrypted">Feil ved sending, trykk for å senda med utrygg alternativ metode</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">Vil du bruka ukryptert SMS som reserveløysing?</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">Vil du bruka ukryptert MMS som reserveløysing?</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Denne meldinga vert <b>ikkje</b> kryptert, fordi mottakaren ikkje bruker Signal lenger.\n\nVil du senda ho ukryptert?</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Denne meldinga vert <b>ikkje</b> kryptert, fordi mottakaren ikkje bruker Grapherex lenger.\n\nVil du senda ho ukryptert?</string>
   <string name="ConversationItem_unable_to_open_media">Fann inga program som kan opna dette innhaldet.</string>
   <string name="ConversationItem_copied_text">Kopierte %s</string>
   <string name="ConversationItem_from_s">frå %s</string>
@@ -200,8 +200,8 @@
   <string name="ConversationActivity_this_device_does_not_appear_to_support_dial_actions">Denne eininga ser ikkje ut til å støtta oppringing.</string>
   <string name="ConversationActivity_transport_insecure_sms">Usikker SMS</string>
   <string name="ConversationActivity_transport_insecure_mms">Usikker MMS</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">La oss byte til Signal %1$s</string>
+  <string name="ConversationActivity_transport_signal">Grapherex</string>
+  <string name="ConversationActivity_lets_switch_to_signal">La oss byte til Grapherex %1$s</string>
   <string name="ConversationActivity_specify_recipient">Vel ein kontakt</string>
   <string name="ConversationActivity_unblock">Fjern blokkering</string>
   <string name="ConversationActivity_attachment_exceeds_size_limits">Vedlegg overskrid maksimal storleiksgrense for gjeldande meldingstype.</string>
@@ -210,17 +210,17 @@
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Du har inga program på denne eininga som kan handtera denne lenka.</string>
   <string name="ConversationActivity_your_request_to_join_has_been_sent_to_the_group_admin">Førespurnaden din om å bli med er sendt til gruppeadministratoren. Du får eit varsel når dei gjer noko med det.</string>
   <string name="ConversationActivity_cancel_request">Avslå førespurnad</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">La Signal få tilgang til mikrofonen for å senda lydmeldingar.</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Signal treng tilgang til mikrofonen for å senda lydklipp, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Mikrofon».</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Signal treng tilgang til mikrofonen og kameraet for å ringa %s, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Mikrofon» og «Kamera»</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Gi Signal tilgang til kameraet for å ta bilde eller videoopptak.</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Signal treng tilgang til kameraet for å ta bilde eller videoar, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Kamera».</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Signal treng tilgang til kameraet for å ta bilde eller videoopptak</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">La Grapherex få tilgang til mikrofonen for å senda lydmeldingar.</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Grapherex treng tilgang til mikrofonen for å senda lydklipp, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Mikrofon».</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Grapherex treng tilgang til mikrofonen og kameraet for å ringa %s, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Mikrofon» og «Kamera»</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Gi Grapherex tilgang til kameraet for å ta bilde eller videoopptak.</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Grapherex treng tilgang til kameraet for å ta bilde eller videoar, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Kamera».</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Grapherex treng tilgang til kameraet for å ta bilde eller videoopptak</string>
   <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">Tillat bruk av mikrofonen for å ta opp film med lyd.</string>
-  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Signal treng tilgang til mikrofonen for å ta opp filmklipp, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Mikrofon» og «Kamera».</string>
-  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Signal treng tilgang til mikrofonen for å ta opp film.</string>
+  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Grapherex treng tilgang til mikrofonen for å ta opp filmklipp, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Mikrofon» og «Kamera».</string>
+  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Grapherex treng tilgang til mikrofonen for å ta opp film.</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s%2$s</string>
-  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Signal kan ikkje senda SMS/MMS-meldingar utan å vera standard SMS-app. Vil du endra dette no i Android-innstillingane dine?</string>
+  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Grapherex kan ikkje senda SMS/MMS-meldingar utan å vera standard SMS-app. Vil du endra dette no i Android-innstillingane dine?</string>
   <string name="ConversationActivity_yes">Ja</string>
   <string name="ConversationActivity_no">Nei</string>
   <string name="ConversationActivity_search_position">%1$d av %2$d</string>
@@ -234,7 +234,7 @@
   <string name="ConversationActivity_you_will_leave_this_group_and_it_will_be_deleted_from_all_of_your_devices">Du vil forlata denne gruppa og den blir sletta frå alle einingane dine.</string>
   <string name="ConversationActivity_delete">Slett</string>
   <string name="ConversationActivity_delete_and_leave">Slett og fjern</string>
-  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">Signal treng tilgang til mikrofonen din for å ringa %1$s</string>
+  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">Grapherex treng tilgang til mikrofonen din for å ringa %1$s</string>
   <string name="ConversationActivity__more_options_now_in_group_settings">Fleire val no i «Gruppeinnstillingar»</string>
   <string name="ConversationActivity_join">Bli med</string>
   <string name="ConversationActivity_full">Fullt</string>
@@ -268,14 +268,14 @@
     <item quantity="other">Lagrar %1$d vedlegg …</item>
   </plurals>
   <string name="ConversationFragment_pending">Ventar …</string>
-  <string name="ConversationFragment_push">Data (Signal)</string>
+  <string name="ConversationFragment_push">Data (Grapherex)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">Sletter</string>
   <string name="ConversationFragment_deleting_messages">Slettar meldingar …</string>
   <string name="ConversationFragment_delete_for_me">Slett for meg</string>
   <string name="ConversationFragment_delete_for_everyone">Slett for alle</string>
-  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Denne meldinga vil slettast for alle i samtalen viss dei har ei ny utgåve av Signal. Dei vil sjå at du har sletta ei melding.</string>
+  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Denne meldinga vil slettast for alle i samtalen viss dei har ei ny utgåve av Grapherex. Dei vil sjå at du har sletta ei melding.</string>
   <string name="ConversationFragment_quoted_message_not_found">Fann ikkje den opphavlege meldinga</string>
   <string name="ConversationFragment_quoted_message_no_longer_available">Den opphavlege meldinga er ikkje lenger tilgjengeleg</string>
   <string name="ConversationFragment_failed_to_open_message">Klarte ikkje opna meldinga</string>
@@ -288,12 +288,12 @@ Viss kontoen din har lenka einingar, så vil nye notat bli synkroniserte.</strin
   <string name="ConversationFragment__d_group_members_have_the_same_name">%1$d gruppemedlemmar har det same namnet.</string>
   <string name="ConversationFragment__tap_to_review">Trykk for å sjå gjennom</string>
   <string name="ConversationFragment__review_requests_carefully">Sjå nøye gjennom førespurnader</string>
-  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Signal fann ein annan kontakt med det same namnet.</string>
+  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Grapherex fann ein annan kontakt med det same namnet.</string>
   <string name="ConversationFragment_contact_us">Ta kontakt</string>
   <string name="ConversationFragment_verify">Stadfest</string>
   <string name="ConversationFragment_not_now">Ikkje no</string>
   <string name="ConversationFragment_your_safety_number_with_s_changed">Tryggleiksnummeret ditt med %s har endra seg.</string>
-  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Tryggleiksnummeret ditt med %s har endra seg; dei har kanskje installert Signal på nytt eller fått ny mobil. Trykk «Stadfest» om du vil godkjenna det nye tryggleiksnummeret. Dette er valfritt.</string>
+  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Tryggleiksnummeret ditt med %s har endra seg; dei har kanskje installert Grapherex på nytt eller fått ny mobil. Trykk «Stadfest» om du vil godkjenna det nye tryggleiksnummeret. Dette er valfritt.</string>
   <plurals name="ConversationListFragment_delete_selected_conversations">
     <item quantity="one">Vil du sletta vald samtale?</item>
     <item quantity="other">Vil du sletta valde samtalar?</item>
@@ -350,11 +350,11 @@ Viss kontoen din har lenka einingar, så vil nye notat bli synkroniserte.</strin
   <string name="BackupsPreferenceFragment__test_your_backup_passphrase">Test passordfrasen for reserverkopiane dine og stadfest at han er rett</string>
   <string name="BackupsPreferenceFragment__turn_on">Skru på</string>
   <string name="BackupsPreferenceFragment__turn_off">Skru av</string>
-  <string name="BackupsPreferenceFragment__to_restore_a_backup">For å gjenoppretta ein reservekopi må du installera Signal på nytt eller på ei ny eining. Opna appen og trykk «Gjenopprett reservekopi» og finn kopi-fila. %1$s</string>
+  <string name="BackupsPreferenceFragment__to_restore_a_backup">For å gjenoppretta ein reservekopi må du installera Grapherex på nytt eller på ei ny eining. Opna appen og trykk «Gjenopprett reservekopi» og finn kopi-fila. %1$s</string>
   <string name="BackupsPreferenceFragment__learn_more">Lær meir</string>
   <string name="BackupsPreferenceFragment__in_progress">I gang …</string>
   <string name="BackupsPreferenceFragment__d_so_far">%1$d så langt …</string>
-  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Signal treng tilgang til ekstern lagring for å laga reservekopiar, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Lagring».</string>
+  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Grapherex treng tilgang til ekstern lagring for å laga reservekopiar, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Lagring».</string>
   <!--CustomDefaultPreference-->
   <string name="CustomDefaultPreference_using_custom">Bruker sjølvvald: %s</string>
   <string name="CustomDefaultPreference_using_default">Bruker standard: %s</string>
@@ -373,7 +373,7 @@ Viss kontoen din har lenka einingar, så vil nye notat bli synkroniserte.</strin
   <string name="DateUtils_yesterday">I går</string>
   <!--DecryptionFailedDialog-->
   <string name="DecryptionFailedDialog_chat_session_refreshed">Samtaleøkta er oppfriska</string>
-  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Signal bruker ende-til-ende-kryptering og må av og til oppfriska samtaleøkta. Dette påverkar ikkje tryggleiken til samtalen, men du kan ha gått glipp av ei melding frå denne kontakten, og må kanskje spørja dei om å senda ho på nytt.</string>
+  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Grapherex bruker ende-til-ende-kryptering og må av og til oppfriska samtaleøkta. Dette påverkar ikkje tryggleiken til samtalen, men du kan ha gått glipp av ei melding frå denne kontakten, og må kanskje spørja dei om å senda ho på nytt.</string>
   <!--DeviceListActivity-->
   <string name="DeviceListActivity_unlink_s">Vil du kopla frå «%s»?</string>
   <string name="DeviceListActivity_by_unlinking_this_device_it_will_no_longer_be_able_to_send_or_receive">Viss du koplar denne eininga frå tenesta, kan ho ikkje lenger senda eller motta meldingar.</string>
@@ -390,8 +390,8 @@ Viss kontoen din har lenka einingar, så vil nye notat bli synkroniserte.</strin
   <!--DocumentView-->
   <string name="DocumentView_unnamed_file">Fil utan namn</string>
   <!--DonateMegaphone-->
-  <string name="DonateMegaphone_donate_to_signal">Doner til Signal</string>
-  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Signal er drive av folk som deg. Vis di støtte i dag!</string>
+  <string name="DonateMegaphone_donate_to_signal">Doner til Grapherex</string>
+  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Grapherex er drive av folk som deg. Vis di støtte i dag!</string>
   <string name="DonateMegaphone_donate">Doner</string>
   <string name="DonateMegaphone_no_thanks">Nei takk</string>
   <!--GroupCallingMegaphone-->
@@ -399,9 +399,9 @@ Viss kontoen din har lenka einingar, så vil nye notat bli synkroniserte.</strin
   <string name="GroupCallingMegaphone__open_a_new_group_to_start">Opna ei Ny gruppe for å starta ein kryptert gruppesamtale</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">Optimaliser for manglande Play-tenester</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Denne eininga støttar ikkje Play-tenester. Trykk for å skru av batterioptimaliseringane i systemet som hindrar Signal frå å henta meldingar når programmet ikkje er aktivt. </string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Denne eininga støttar ikkje Play-tenester. Trykk for å skru av batterioptimaliseringane i systemet som hindrar Grapherex frå å henta meldingar når programmet ikkje er aktivt. </string>
   <!--ExpiredBuildReminder-->
-  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Denne utgåva av Signal er utdatert. Oppdater no for å senda og motta meldingar.</string>
+  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Denne utgåva av Grapherex er utdatert. Oppdater no for å senda og motta meldingar.</string>
   <string name="ExpiredBuildReminder_update_now">Oppdater no</string>
   <!--PendingGroupJoinRequestsReminder-->
   <plurals name="PendingGroupJoinRequestsReminder_d_pending_member_requests">
@@ -413,8 +413,8 @@ Viss kontoen din har lenka einingar, så vil nye notat bli synkroniserte.</strin
   <string name="ShareActivity_share_with">Del med</string>
   <string name="ShareActivity_multiple_attachments_are_only_supported">Fleire vedlegg er berre støtta for bilde og film</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Varig Signal-kommunikasjonsfeil.</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal klarte ikkje å registrera seg som Google Play-teneste. Signal-meldingar og samtalar er difor slått av. Prøv å registrera programmet på nytt under Innstillingar &gt; Avansert.</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Varig Grapherex-kommunikasjonsfeil.</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Grapherex klarte ikkje å registrera seg som Google Play-teneste. Grapherex-meldingar og samtalar er difor slått av. Prøv å registrera programmet på nytt under Innstillingar &gt; Avansert.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Klarte ikkje henta GIF i full storleik</string>
   <!--GiphyFragmentPageAdapter-->
@@ -577,7 +577,7 @@ Dei er invitert inn, og ser inga gruppemeldingar før dei godtek.</string>
   <string name="AddGroupDetailsFragment__this_field_is_required">Dette feltet er påkravd.</string>
   <string name="AddGroupDetailsFragment__group_creation_failed">Klarte ikkje laga gruppa.</string>
   <string name="AddGroupDetailsFragment__try_again_later">Prøv igjen seinare.</string>
-  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">Du har valt ein kontakt som ikkje støttar Signal-grupper, så dette blir ei MMS-gruppe.</string>
+  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">Du har valt ein kontakt som ikkje støttar Grapherex-grupper, så dette blir ei MMS-gruppe.</string>
   <string name="AddGroupDetailsFragment_custom_mms_group_names_and_photos_will_only_be_visible_to_you">Eigendefinerte namn og bilde på MMS-grupper er berre synlege for deg.</string>
   <string name="AddGroupDetailsFragment__remove">Fjern</string>
   <string name="AddGroupDetailsFragment__sms_contact">SMS-kontakt</string>
@@ -591,15 +591,15 @@ Dei er invitert inn, og ser inga gruppemeldingar før dei godtek.</string>
     <item quantity="other">%d medlemmar støttar ikkje Nye grupper, så denne gruppa kan ikkje opprettast.</item>
   </plurals>
   <!--NonGv2MemberDialog-->
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">Ei Eldre gruppe vart oppretta sidan «%1$s» bruker ei eldre utgåve av Signal. Du kan laga ei Ny gruppe med dei etter at dei har oppdatert Signal, eller fjerna dei før du opprettar gruppa.</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">Ei Eldre gruppe vart oppretta sidan «%1$s» bruker ei eldre utgåve av Grapherex. Du kan laga ei Ny gruppe med dei etter at dei har oppdatert Grapherex, eller fjerna dei før du opprettar gruppa.</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable">
-    <item quantity="one">Ei Eldre gruppe blir oppretta sidan %1$d medlem bruker ei eldre utgåve av Signal. Du kan laga ei Ny gruppe med dei etter at dei har oppdatert Signal, eller fjerna dei før du opprettar gruppa.</item>
-    <item quantity="other">Ei Eldre gruppe blir oppretta sidan %1$d medlemmar bruker ei eldre utgåve av Signal. Du kan laga ei Ny gruppe med dei etter at dei har oppdatert Signal, eller fjerna dei før du opprettar gruppa.</item>
+    <item quantity="one">Ei Eldre gruppe blir oppretta sidan %1$d medlem bruker ei eldre utgåve av Grapherex. Du kan laga ei Ny gruppe med dei etter at dei har oppdatert Grapherex, eller fjerna dei før du opprettar gruppa.</item>
+    <item quantity="other">Ei Eldre gruppe blir oppretta sidan %1$d medlemmar bruker ei eldre utgåve av Grapherex. Du kan laga ei Ny gruppe med dei etter at dei har oppdatert Grapherex, eller fjerna dei før du opprettar gruppa.</item>
   </plurals>
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">Denne gruppa kan ikkje opprettast sidan «%1$s» bruker ei eldre utgåve av Signal. Du må fjerna dei før du opprettar gruppa.</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">Denne gruppa kan ikkje opprettast sidan «%1$s» bruker ei eldre utgåve av Grapherex. Du må fjerna dei før du opprettar gruppa.</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable_forced_migration">
-    <item quantity="one">Denne gruppa kan ikkje opprettast sidan %1$d medlem bruker ei eldre utgåve av Signal. Du må fjerna dei før du opprettar gruppa.</item>
-    <item quantity="other">Denne gruppa kan ikkje opprettast sidan %1$d medlemmar bruker ei eldre utgåve av Signal. Du må fjerna dei før du opprettar gruppa.</item>
+    <item quantity="one">Denne gruppa kan ikkje opprettast sidan %1$d medlem bruker ei eldre utgåve av Grapherex. Du må fjerna dei før du opprettar gruppa.</item>
+    <item quantity="other">Denne gruppa kan ikkje opprettast sidan %1$d medlemmar bruker ei eldre utgåve av Grapherex. Du må fjerna dei før du opprettar gruppa.</item>
   </plurals>
   <!--ManageGroupActivity-->
   <string name="ManageGroupActivity_member_requests_and_invites">Medlemsførespurnader og invitasjonar</string>
@@ -629,7 +629,7 @@ Dei er invitert inn, og ser inga gruppemeldingar før dei godtek.</string>
   <string name="ManageGroupActivity_only_admins_can_enable_or_disable_the_option_to_approve_new_members">Berre administratorar kan skru av eller på innstillinga om å godkjenna nye medlemmar.</string>
   <string name="ManageGroupActivity_only_admins_can_reset_the_sharable_group_link">Berre administratorar kan nullstilla den delbare gruppelenka.</string>
   <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">Du har ikkje rettar til å gjera dette</string>
-  <string name="ManageGroupActivity_not_capable">Nokon du la til må oppdatera Signal for å få støtte for nye grupper</string>
+  <string name="ManageGroupActivity_not_capable">Nokon du la til må oppdatera Grapherex for å få støtte for nye grupper</string>
   <string name="ManageGroupActivity_failed_to_update_the_group">Klarte ikkje oppdatera gruppa</string>
   <string name="ManageGroupActivity_youre_not_a_member_of_the_group">Du er ikkje medlem av gruppa</string>
   <string name="ManageGroupActivity_failed_to_update_the_group_please_retry_later">Klarte ikkje oppdatera gruppa, prøv igjen seinare</string>
@@ -640,7 +640,7 @@ Dei er invitert inn, og ser inga gruppemeldingar før dei godtek.</string>
   <string name="ManageGroupActivity_legacy_group_upgrade">Dette er ei Eldre gruppe. For å få nye funksjonar som @nemningar og administratorar,</string>
   <string name="ManageGroupActivity_legacy_group_too_large">Denne Eldre gruppa kan ikkje oppgraderast til ei Ny gruppe sidan ho er for stor. Maksimal gruppestorleik er %1$d.</string>
   <string name="ManageGroupActivity_upgrade_this_group">oppgrader denne gruppa.</string>
-  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Dette er ei usikker MMS-gruppe. Inviter kontaktane dine til Signal for å prata privat.</string>
+  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Dette er ei usikker MMS-gruppe. Inviter kontaktane dine til Grapherex for å prata privat.</string>
   <string name="ManageGroupActivity_invite_now">Inviter no</string>
   <!--GroupMentionSettingDialog-->
   <string name="GroupMentionSettingDialog_notify_me_for_mentions">Varsla meg ved Omtalar</string>
@@ -732,10 +732,10 @@ Dei er invitert inn, og ser inga gruppemeldingar før dei godtek.</string>
     <item quantity="other">Group · %1$d medlemmar</item>
   </plurals>
   <!--GroupJoinUpdateRequiredBottomSheetDialogFragment-->
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Oppdater Signal for å bruka gruppelenker</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Utgåva av Signal som du bruker støtter ikkje denne gruppelenka. Oppgrader til seinaste utgåve for å bli med i gruppa via lenka.</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Oppdater Signal</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">Ei eller fleire av dei lenka einingane dine køyrer ei utgåve av Signal som ikkje støtter gruppelenker. Oppdater Signal på dei lenka einingane dine for å bli med i gruppa.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Oppdater Grapherex for å bruka gruppelenker</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Utgåva av Grapherex som du bruker støtter ikkje denne gruppelenka. Oppgrader til seinaste utgåve for å bli med i gruppa via lenka.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Oppdater Grapherex</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">Ei eller fleire av dei lenka einingane dine køyrer ei utgåve av Grapherex som ikkje støtter gruppelenker. Oppdater Grapherex på dei lenka einingane dine for å bli med i gruppa.</string>
   <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">Gruppelenka er ugyldig</string>
   <!--GroupInviteLinkEnableAndShareBottomSheetDialogFragment-->
   <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_invite_friends">Inviter vennar</string>
@@ -765,7 +765,7 @@ Dei er invitert inn, og ser inga gruppemeldingar før dei godtek.</string>
   <string name="InviteActivity_cancel">Avbryt</string>
   <string name="InviteActivity_sending">Sendar …</string>
   <string name="InviteActivity_invitations_sent">Invitasjonar sendt.</string>
-  <string name="InviteActivity_invite_to_signal">Inviter til Signal</string>
+  <string name="InviteActivity_invite_to_signal">Inviter til Grapherex</string>
   <plurals name="InviteActivity_send_sms_to_friends">
     <item quantity="one">SEND SMS TIL %d VENN</item>
     <item quantity="other">SEND SMS TIL %d VENNAR</item>
@@ -774,7 +774,7 @@ Dei er invitert inn, og ser inga gruppemeldingar før dei godtek.</string>
     <item quantity="one">Send %d SMS-invitasjon?</item>
     <item quantity="other">Send %d SMS-invitasjonar?</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">La oss byta til Signal. %1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">La oss byta til Grapherex. %1$s</string>
   <string name="InviteActivity_no_app_to_share_to">Det ser ut som at du ikkje har nokon program å dela denne informasjonen med.</string>
   <string name="InviteActivity_friends_dont_let_friends_text_unencrypted">Vennar burde ikkje prata ukryptert over nettet.</string>
   <!--LearnMoreTextView-->
@@ -784,7 +784,7 @@ Dei er invitert inn, og ser inga gruppemeldingar før dei godtek.</string>
   <string name="LongMessageActivity_message_from_s">Melding frå %1$s</string>
   <string name="LongMessageActivity_your_message">Di melding</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">Grapherex</string>
   <string name="MessageRetrievalService_background_connection_enabled">Bakgrunnstilkopling på</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">Klarte ikkje lesa MMS-oppsettet til teleselskapet</string>
@@ -833,7 +833,7 @@ Dei er invitert inn, og ser inga gruppemeldingar før dei godtek.</string>
   <string name="Megaphones_introducing_reactions">Her kjem Reaksjonar</string>
   <string name="Megaphones_tap_and_hold_any_message_to_quicky_share_how_you_feel">Trykk og hold på ei melding for å raskt visa korleis du kjenner deg.</string>
   <string name="Megaphones_remind_me_later">Minn meg på det seinare</string>
-  <string name="Megaphones_verify_your_signal_pin">Godkjenn Signal-PIN-koden din</string>
+  <string name="Megaphones_verify_your_signal_pin">Godkjenn Grapherex-PIN-koden din</string>
   <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">Me vil innimellom be deg om å stadfesta PIN-koden din slik at du hugsar han.</string>
   <string name="Megaphones_verify_pin">Stadfest PIN-kode</string>
   <string name="Megaphones_get_started">Kom i gang</string>
@@ -841,10 +841,10 @@ Dei er invitert inn, og ser inga gruppemeldingar før dei godtek.</string>
   <string name="Megaphones_invite_friends">Inviter vennar</string>
   <string name="Megaphones_use_sms">Bruk SMS</string>
   <!--NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Signal-samtale i gang</string>
-  <string name="NotificationBarManager__establishing_signal_call">Set opp Signal-anrop</string>
-  <string name="NotificationBarManager__incoming_signal_call">Inngåande Signal-anrop</string>
-  <string name="NotificationBarManager__stopping_signal_call_service">Stoppar Signal-samtaleteneste</string>
+  <string name="NotificationBarManager_signal_call_in_progress">Grapherex-samtale i gang</string>
+  <string name="NotificationBarManager__establishing_signal_call">Set opp Grapherex-anrop</string>
+  <string name="NotificationBarManager__incoming_signal_call">Inngåande Grapherex-anrop</string>
+  <string name="NotificationBarManager__stopping_signal_call_service">Stoppar Grapherex-samtaleteneste</string>
   <string name="NotificationBarManager__deny_call">Avslå anrop</string>
   <string name="NotificationBarManager__answer_call">Svar på anrop</string>
   <string name="NotificationBarManager__end_call">Avslutt samtale</string>
@@ -868,8 +868,8 @@ Dei er invitert inn, og ser inga gruppemeldingar før dei godtek.</string>
   <string name="MediaSendActivity_message_to_s">Melding til %s</string>
   <string name="MediaSendActivity_message">Melding</string>
   <string name="MediaSendActivity_select_recipients">Vel mottakarar</string>
-  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Signal treng tilgang til kontaktane dine for å visa dei.</string>
-  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Signal treng tilgang til kontaktar for å visa kontaktar, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Kontaktar».</string>
+  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Grapherex treng tilgang til kontaktane dine for å visa dei.</string>
+  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Grapherex treng tilgang til kontaktar for å visa kontaktar, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Kontaktar».</string>
   <plurals name="MediaSendActivity_cant_share_more_than_n_items">
     <item quantity="one">Du kan ikkje dela meir enn %d element.</item>
     <item quantity="other">Du kan ikkje dela meir enn %d element.</item>
@@ -881,7 +881,7 @@ Dei er invitert inn, og ser inga gruppemeldingar før dei godtek.</string>
   <string name="MediaRepository__camera">Kamera</string>
   <!--MessageRecord-->
   <string name="MessageRecord_unknown">Ukjend</string>
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Mottok ei melding som er kryptert med ein gammal versjon av Signal som ikkje lenger vert støtta. Be avsendaren om å oppdatera til nyaste versjon og senda meldinga på nytt.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Mottok ei melding som er kryptert med ein gammal versjon av Grapherex som ikkje lenger vert støtta. Be avsendaren om å oppdatera til nyaste versjon og senda meldinga på nytt.</string>
   <string name="MessageRecord_left_group">Du har forlate gruppa.</string>
   <string name="MessageRecord_you_updated_group">Du oppdaterte gruppa.</string>
   <string name="MessageRecord_the_group_was_updated">Gruppa vart oppdatert.</string>
@@ -890,7 +890,7 @@ Dei er invitert inn, og ser inga gruppemeldingar før dei godtek.</string>
   <string name="MessageRecord_missed_video_call_date">Tapt videoanrop · %1$s</string>
   <string name="MessageRecord_s_updated_group">%s oppdaterte gruppa.</string>
   <string name="MessageRecord_s_called_you_date">%1$s ringte deg · %2$s</string>
-  <string name="MessageRecord_s_joined_signal">%s er på Signal!</string>
+  <string name="MessageRecord_s_joined_signal">%s er på Grapherex!</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">Du skrudde av forsvinnande meldingar.</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$sskrudde av forsvinnande meldingar.</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">Du stilte inn utløpstida for forsvinnande meldingar til %1$s</string>
@@ -1103,9 +1103,9 @@ Dei er invitert inn, og ser inga gruppemeldingar før dei godtek.</string>
   <string name="DeviceProvisioningActivity_content_progress_key_error">Ugyldig QR-kode.</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Orsak, du har for mange einingar lenka allereie, prøv å fjerna nokre</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Dette er ikkje ein gyldig QR-kode for einingstilkopling.</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">Vil du kopla til ei Signal-eining?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Det ser ut som at du prøver å kopla ei eining til Signal ved hjelp av ein tredjepartsskannar. For din eigen tryggleik må du skanna koden på nytt via Signal.</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Signal treng tilgang til kameraet for å skanna QR-kodar, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Kamera».</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">Vil du kopla til ei Grapherex-eining?</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Det ser ut som at du prøver å kopla ei eining til Grapherex ved hjelp av ein tredjepartsskannar. For din eigen tryggleik må du skanna koden på nytt via Grapherex.</string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Grapherex treng tilgang til kameraet for å skanna QR-kodar, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Kamera».</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Kan ikkje skanna QR-kodar utan tilgang til kameraet</string>
   <!--ExpirationDialog-->
   <string name="ExpirationDialog_disappearing_messages">Utløpstid for meldingar</string>
@@ -1113,18 +1113,18 @@ Dei er invitert inn, og ser inga gruppemeldingar før dei godtek.</string>
   <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Meldingar du sender og mottek i denne samtalen forsvinn %s etter at dei er lesne.</string>
   <!--OutdatedBuildReminder-->
   <string name="OutdatedBuildReminder_update_now">Oppdater no</string>
-  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Denne utgåva av Signal går ut på dato i dag. Oppdater til den nyaste utgåva.</string>
+  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Denne utgåva av Grapherex går ut på dato i dag. Oppdater til den nyaste utgåva.</string>
   <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-    <item quantity="one">Denne utgåva av Signal går ut på dato i morgon. Oppdater til den nyaste utgåva.</item>
-    <item quantity="other">Denne utgåva av Signal har siste forbruksdato om %d dagar. Oppdater til den nyaste utgåva.</item>
+    <item quantity="one">Denne utgåva av Grapherex går ut på dato i morgon. Oppdater til den nyaste utgåva.</item>
+    <item quantity="other">Denne utgåva av Grapherex har siste forbruksdato om %d dagar. Oppdater til den nyaste utgåva.</item>
   </plurals>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">Skriv inn passordfrase</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Signal-ikon</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">Grapherex-ikon</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">Send inn passordfrase</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Ugyldig passordfrase.</string>
-  <string name="PassphrasePromptActivity_unlock_signal">Lås opp Signal</string>
-  <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android – låseskjerm</string>
+  <string name="PassphrasePromptActivity_unlock_signal">Lås opp Grapherex</string>
+  <string name="PassphrasePromptActivity_signal_android_lock_screen">Grapherex Android – låseskjerm</string>
   <!--PlacePickerActivity-->
   <string name="PlacePickerActivity_title">Kart</string>
   <string name="PlacePickerActivity_drop_pin">Slepp nåla</string>
@@ -1147,16 +1147,16 @@ Viss du ikkje klarer å hugsa PIN-en, kan du oppretta ein ny ein. Du kan registr
     <item quantity="one">Du har %1$d forsøk igjen. Viss du bruker opp forsøka, kan du laga ein ny PIN. Du kan registrera og bruka kontoen din, men du mistar visse lagra innstillingar, som profilinformasjonen. </item>
     <item quantity="other">Du har %1$d forsøk igjen. Viss du bruker opp forsøka, kan du laga ein ny PIN. Du kan registrera og bruka kontoen din, men du mistar visse lagra innstillingar, som profilinformasjonen. </item>
   </plurals>
-  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Signal-registrering – treng hjelp med PIN for Android</string>
+  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Grapherex-registrering – treng hjelp med PIN for Android</string>
   <string name="PinRestoreEntryFragment_enter_alphanumeric_pin">Skriv inn alfanumerisk PIN</string>
   <string name="PinRestoreEntryFragment_enter_numeric_pin">Skriv inn numerisk PIN</string>
   <!--PinRestoreLockedFragment-->
   <string name="PinRestoreLockedFragment_create_your_pin">Lag din PIN</string>
-  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Du har brukt opp PIN-forsøka, men du kan få tilgang til Signal-kontoen din ved å laga ein ny PIN. For din tryggleik og sikkerheit vil kontoen din bli gjenoppretta utan lagra profilinformasjon eller innstillingar.</string>
+  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Du har brukt opp PIN-forsøka, men du kan få tilgang til Grapherex-kontoen din ved å laga ein ny PIN. For din tryggleik og sikkerheit vil kontoen din bli gjenoppretta utan lagra profilinformasjon eller innstillingar.</string>
   <string name="PinRestoreLockedFragment_create_new_pin">Lag ny PIN</string>
   <!--PinOptOutDialog-->
   <string name="PinOptOutDialog_warning">Åtvaring</string>
-  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">Viss du skrur av PIN, mistar du all data når du omregistrerer Signal (med mindre du manuelt tar reservekopi og gjenopprettar). Du kan heller ikkje skru på registreringslås utan PIN.</string>
+  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">Viss du skrur av PIN, mistar du all data når du omregistrerer Grapherex (med mindre du manuelt tar reservekopi og gjenopprettar). Du kan heller ikkje skru på registreringslås utan PIN.</string>
   <string name="PinOptOutDialog_disable_pin">Skru av PIN</string>
   <!--RatingManager-->
   <string name="RatingManager_rate_this_app">Vurder dette programmet</string>
@@ -1187,12 +1187,12 @@ Viss du ikkje klarer å hugsa PIN-en, kan du oppretta ein ny ein. Du kan registr
   <string name="RedPhone_got_it">Ålreit</string>
   <!--WebRtcCallActivity-->
   <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">Trykk her for å skru på videoen din</string>
-  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Signal treng tilgang til kameraet ditt for å ringa %1$s</string>
-  <string name="WebRtcCallActivity__signal_s">Signal %1$s</string>
+  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Grapherex treng tilgang til kameraet ditt for å ringa %1$s</string>
+  <string name="WebRtcCallActivity__signal_s">Grapherex %1$s</string>
   <string name="WebRtcCallActivity__calling">Ringer …</string>
   <!--WebRtcCallView-->
-  <string name="WebRtcCallView__signal_voice_call">Signal-samtale …</string>
-  <string name="WebRtcCallView__signal_video_call">Signal-videosamtale …</string>
+  <string name="WebRtcCallView__signal_voice_call">Grapherex-samtale …</string>
+  <string name="WebRtcCallView__signal_video_call">Grapherex-videosamtale …</string>
   <string name="WebRtcCallView__start_call">Start samtale</string>
   <string name="WebRtcCallView__join_call">Bli med på samtalen</string>
   <string name="WebRtcCallView__call_is_full">Samtalen er fylt opp</string>
@@ -1242,15 +1242,15 @@ skreiv inn (%s) er ugyldig.</string>
   <string name="RegistrationActivity_is_your_phone_number_above_correct">Er telefonnummeret ditt over rett?</string>
   <string name="RegistrationActivity_edit_number">Rediger nummer</string>
   <string name="RegistrationActivity_missing_google_play_services">Manglar Google Play-tenester</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Denne eininga manglar Google Play-tenester. Du kan likevel bruka Signal, men dette oppsettet kan føra til mindre stabilitet eller dårlegare yting.
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Denne eininga manglar Google Play-tenester. Du kan likevel bruka Grapherex, men dette oppsettet kan føra til mindre stabilitet eller dårlegare yting.
 
-Viss du ikkje er ein avansert brukar, ikkje køyrer ein sjølvinstallert Android-ROM, eller meiner at det er ein feil at du ser denne meldinga, så ber me deg ta kontakt med support@signal.org for å få hjelp med å løysa problemet.</string>
+Viss du ikkje er ein avansert brukar, ikkje køyrer ein sjølvinstallert Android-ROM, eller meiner at det er ein feil at du ser denne meldinga, så ber me deg ta kontakt med support@Grapherex.org for å få hjelp med å løysa problemet.</string>
   <string name="RegistrationActivity_i_understand">Eg forstår</string>
   <string name="RegistrationActivity_play_services_error">Feil med Play-tenester</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play-tenester oppdaterer seg eller er mellombels utilgjengeleg. Prøv igjen seinare.</string>
   <string name="RegistrationActivity_terms_and_privacy">Vilkår &amp; personvernreglar</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signal treng tilgang til kontaktane dine og media for å ta kontakt med vennar, utveksla meldingar og oppretta trygge samtalar</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Signal treng tilgang til kontaktane dine for å ta kontakt med vennar, utveksla meldingar og oppretta trygge samtalar</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Grapherex treng tilgang til kontaktane dine og media for å ta kontakt med vennar, utveksla meldingar og oppretta trygge samtalar</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Grapherex treng tilgang til kontaktane dine for å ta kontakt med vennar, utveksla meldingar og oppretta trygge samtalar</string>
   <string name="RegistrationActivity_rate_limited_to_service">Du har prøvd for mange gongar å registrera dette nummeret. Prøv igjen seinare.</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">Kan ikkje kopla til tenesta. Sjekk nettverkstilkoplinga og prøv igjen.</string>
   <plurals name="RegistrationActivity_debug_log_hint">
@@ -1266,14 +1266,14 @@ Ver deg sjølv i kvar einaste melding.</string>
   <string name="RegistrationActivity_enter_your_phone_number">Skriv inn telefonnummeret ditt</string>
   <string name="RegistrationActivity_you_will_receive_a_verification_code">Du vil få ei stadfestingskode. Operatøren din kan ta betalt for meldinga.</string>
   <string name="RegistrationActivity_enter_the_code_we_sent_to_s">Skriv inn koden me sende til %s</string>
-  <string name="RegistrationActivity_make_sure_your_phone_has_a_cellular_signal">Pass på at telefonen din har mobilsignal for å motta SMS eller ringa</string>
+  <string name="RegistrationActivity_make_sure_your_phone_has_a_cellular_signal">Pass på at telefonen din har mobilGrapherex for å motta SMS eller ringa</string>
   <string name="RegistrationActivity_phone_number_description">Telefonnummer</string>
   <string name="RegistrationActivity_country_code_description">Landkode</string>
   <string name="RegistrationActivity_call">Ring</string>
   <!--RegistrationLockV2Dialog-->
   <string name="RegistrationLockV2Dialog_turn_on_registration_lock">Skru på registreringslås?</string>
   <string name="RegistrationLockV2Dialog_turn_off_registration_lock">Skru av registreringslås?</string>
-  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Viss du gløymer Signal PIN-en din når du registrerer med Signal igjen, blir du låst ute av kontoen din i 7 dagar.</string>
+  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Viss du gløymer Grapherex PIN-en din når du registrerer med Grapherex igjen, blir du låst ute av kontoen din i 7 dagar.</string>
   <string name="RegistrationLockV2Dialog_turn_on">Skru på</string>
   <string name="RegistrationLockV2Dialog_turn_off">Skru av</string>
   <!--RevealableMessageView-->
@@ -1289,14 +1289,14 @@ Ver deg sjølv i kvar einaste melding.</string>
   <!--ShakeToReport-->
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">Legg til som kontakt</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">Inviter til Signal</string>
-  <string name="SharedContactDetailsActivity_signal_message">Signal-melding</string>
-  <string name="SharedContactDetailsActivity_signal_call">Signal-anrop</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">Inviter til Grapherex</string>
+  <string name="SharedContactDetailsActivity_signal_message">Grapherex-melding</string>
+  <string name="SharedContactDetailsActivity_signal_call">Grapherex-anrop</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">Legg til i kontaktar</string>
-  <string name="SharedContactView_invite_to_signal">Inviter til Signal</string>
-  <string name="SharedContactView_message">Signal-melding</string>
-  <!--SignalPinReminders-->
+  <string name="SharedContactView_invite_to_signal">Inviter til Grapherex</string>
+  <string name="SharedContactView_message">Grapherex-melding</string>
+  <!--GrapherexPinReminders-->
   <string name="SignalPinReminders_well_remind_you_again_later">Me minner deg på dette igjen seinare.</string>
   <string name="SignalPinReminders_well_remind_you_again_tomorrow">Me minner deg på dette igjen i morgon.</string>
   <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">Me minner deg på dette igjen om nokre dagar.</string>
@@ -1317,14 +1317,14 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <string name="SmsMessageRecord_secure_session_reset">Du tilbakestilte sikker økt.</string>
   <string name="SmsMessageRecord_secure_session_reset_s">%s tilbakestilte sikker økt.</string>
   <string name="SmsMessageRecord_duplicate_message">Dupliser melding.</string>
-  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">Kunne ikkje behandla meldinga sidan ho vart sendt frå ei nyare utgåve av Signal. Du kan be kontakten din om å senda denne meldinga på nytt etter at du har oppgradert.</string>
+  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">Kunne ikkje behandla meldinga sidan ho vart sendt frå ei nyare utgåve av Grapherex. Du kan be kontakten din om å senda denne meldinga på nytt etter at du har oppgradert.</string>
   <string name="SmsMessageRecord_error_handling_incoming_message">Klarte ikkje handtera innkommande melding.</string>
   <!--StickerManagementActivity-->
   <string name="StickerManagementActivity_stickers">Klistremerke</string>
   <!--StickerManagementAdapter-->
   <string name="StickerManagementAdapter_installed_stickers">Installerte klistremerke</string>
   <string name="StickerManagementAdapter_stickers_you_received">Klistremerke du har motteke</string>
-  <string name="StickerManagementAdapter_signal_artist_series">Signal artist-serier</string>
+  <string name="StickerManagementAdapter_signal_artist_series">Grapherex artist-serier</string>
   <string name="StickerManagementAdapter_no_stickers_installed">Ingen klistremerke installert enno</string>
   <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">Klistremerke frå innkommande meldingar vil dukka opp her</string>
   <string name="StickerManagementAdapter_untitled">Utan namn</string>
@@ -1349,8 +1349,8 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <string name="SupportEmailUtil_filter">Filter:</string>
   <string name="SupportEmailUtil_device_info">Einingsinfo:</string>
   <string name="SupportEmailUtil_android_version">Android-utgåve:</string>
-  <string name="SupportEmailUtil_signal_version">Signal-utgåve:</string>
-  <string name="SupportEmailUtil_signal_package">Signal-pakke:</string>
+  <string name="SupportEmailUtil_signal_version">Grapherex-utgåve:</string>
+  <string name="SupportEmailUtil_signal_package">Grapherex-pakke:</string>
   <string name="SupportEmailUtil_registration_lock">Registreringslås:</string>
   <string name="SupportEmailUtil_locale">Lokalitet:</string>
   <!--ThreadRecord-->
@@ -1369,7 +1369,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <string name="ThreadRecord_view_once_media">Éivisningsmedia</string>
   <string name="ThreadRecord_this_message_was_deleted">Meldinga er sletta</string>
   <string name="ThreadRecord_you_deleted_this_message">Du sletta denne meldinga.</string>
-  <string name="ThreadRecord_s_is_on_signal">%s er på Signal!</string>
+  <string name="ThreadRecord_s_is_on_signal">%s er på Grapherex!</string>
   <string name="ThreadRecord_disappearing_messages_disabled">Forsvinnande meldingar skrudd av</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">Utløpstid for melding endra til %s</string>
   <string name="ThreadRecord_safety_number_changed">Endra tryggleiksnummer</string>
@@ -1385,8 +1385,8 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <string name="ThreadRecord_video">Video</string>
   <string name="ThreadRecord_chat_session_refreshed">Samtaleøkta er oppfriska</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Signal-oppdatering</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Det finst ei ny utgåve av Signal; trykk for å oppdatera</string>
+  <string name="UpdateApkReadyListener_Signal_update">Grapherex-oppdatering</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Det finst ei ny utgåve av Grapherex; trykk for å oppdatera</string>
   <!--UntrustedSendDialog-->
   <string name="UntrustedSendDialog_send_message">Send melding?</string>
   <string name="UntrustedSendDialog_send">Send</string>
@@ -1405,20 +1405,20 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <string name="UsernameEditFragment_usernames_cannot_begin_with_a_number">Brukarnamn kan ikkje begynna med siffer.</string>
   <string name="UsernameEditFragment_username_is_invalid">Brukarnamnet er ugyldig.</string>
   <string name="UsernameEditFragment_usernames_must_be_between_a_and_b_characters">Brukarnamn må vera mellom %1$d og %2$d teikn lange.</string>
-  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Brukarnamn er valfrie på Signal. Viss du vil laga eit brukarnamn, så kan andre Signal-brukarar finna deg med dette og kontakta deg utan å kjenna til telefonnummeret ditt.</string>
+  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Brukarnamn er valfrie på Grapherex. Viss du vil laga eit brukarnamn, så kan andre Grapherex-brukarar finna deg med dette og kontakta deg utan å kjenna til telefonnummeret ditt.</string>
   <plurals name="UserNotificationMigrationJob_d_contacts_are_on_signal">
-    <item quantity="one">%d kontakt er på Signal!</item>
-    <item quantity="other">%d kontaktar er på Signal!</item>
+    <item quantity="one">%d kontakt er på Grapherex!</item>
+    <item quantity="other">%d kontaktar er på Grapherex!</item>
   </plurals>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Kontakten din køyrer ein gammal versjon av Signal. Ver venleg og be dei om å oppdatera før du stadfestar tryggleiksnummeret ditt.</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Kontakten din køyrer ein nyare versjon av Signal med eit inkompatibelt QR-kodeformat. Ver venleg og oppdater for å samanlikna.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Kontakten din køyrer ein gammal versjon av Grapherex. Ver venleg og be dei om å oppdatera før du stadfestar tryggleiksnummeret ditt.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Kontakten din køyrer ein nyare versjon av Grapherex med eit inkompatibelt QR-kodeformat. Ver venleg og oppdater for å samanlikna.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Den skanna QR-koden er ikkje ein riktig formatert stadfestingskode. Ver venleg og prøv å skanna på nytt.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Del tryggleiksnummeret via …</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">Vårt Signal-tryggleiksnummer:</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">Vårt Grapherex-tryggleiksnummer:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">Det ser ut som at du ikkje har noko program å dela denne informasjonen med.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Inga tryggleiksnummer å samanlikna vart funne i utklippstavla</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Signal treng tilgang til kameraet for å skanna QR-kodar, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Kamera».</string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Grapherex treng tilgang til kameraet for å skanna QR-kodar, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Kamera».</string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">Kan ikkje skanna QR-kodar utan kameratilgang</string>
   <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">Du må først utveksla meldingar for å sjå tryggleiksnummeret til %1$s</string>
   <!--ViewOnceMessageActivity-->
@@ -1437,13 +1437,13 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <string name="ApplicationMigrationService_system_database_import_is_complete">Ferdig å importera systemdatabasen.</string>
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">Trykk for å opna.</string>
-  <string name="KeyCachingService_passphrase_cached">Signal er låst opp</string>
-  <string name="KeyCachingService_lock">Lås Signal</string>
+  <string name="KeyCachingService_passphrase_cached">Grapherex er låst opp</string>
+  <string name="KeyCachingService_lock">Lås Grapherex</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">Deg</string>
   <string name="MediaPreviewActivity_unssuported_media_type">Ustøtta medietype</string>
   <string name="MediaPreviewActivity_draft">Kladd</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Signal treng tilgang til lagring for å lagra til eksterne minnekort, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Lagring».</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Grapherex treng tilgang til lagring for å lagra til eksterne minnekort, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Lagring».</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Kan ikkje lagra til eksterne minnekort utan tilgang</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">Slett melding?</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">Dette vil sletta denne meldinga for godt.</string>
@@ -1463,10 +1463,10 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <string name="MessageNotifier_view_once_photo">Éivisningsbilete</string>
   <string name="MessageNotifier_view_once_video">Éivisningsvideo</string>
   <string name="MessageNotifier_reply">Svar</string>
-  <string name="MessageNotifier_signal_message">Signal-melding</string>
+  <string name="MessageNotifier_signal_message">Grapherex-melding</string>
   <string name="MessageNotifier_unsecured_sms">Usikra SMS</string>
   <string name="MessageNotifier_you_may_have_new_messages">Du har kanskje nye meldingar</string>
-  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Opna Signal for å sjekka nye varsel</string>
+  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Opna Grapherex for å sjekka nye varsel</string>
   <string name="MessageNotifier_contact_message">%1$s%2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Kontakt</string>
   <string name="MessageNotifier_reacted_s_to_s">reagerte med %1$s til: «%2$s».</string>
@@ -1477,7 +1477,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <string name="MessageNotifier_reacted_s_to_your_view_once_media">Reagerte med %1$s til éivisningsmediet ditt.</string>
   <string name="MessageNotifier_reacted_s_to_your_sticker">reagerte med %1$s til klistremerket ditt.</string>
   <string name="MessageNotifier_this_message_was_deleted">Meldinga er sletta</string>
-  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Skru av varsel når ein kontakt blir med i Signal? Du kan skru på igjen varselet i Signal &gt; Innstillingar &gt; Varsel.</string>
+  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Skru av varsel når ein kontakt blir med i Grapherex? Du kan skru på igjen varselet i Grapherex &gt; Innstillingar &gt; Varsel.</string>
   <!--Notification Channels-->
   <string name="NotificationChannel_channel_messages">Meldingar</string>
   <string name="NotificationChannel_calls">Samtalar</string>
@@ -1489,11 +1489,11 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <string name="NotificationChannel_group_chats">Samtalar</string>
   <string name="NotificationChannel_missing_display_name">Ukjend</string>
   <string name="NotificationChannel_voice_notes">Talenotat</string>
-  <string name="NotificationChannel_contact_joined_signal">Ein kontakt tok i bruk Signal!</string>
+  <string name="NotificationChannel_contact_joined_signal">Ein kontakt tok i bruk Grapherex!</string>
   <string name="NotificationChannels__no_activity_available_to_open_notification_channel_settings">Ingen aktivitet tilgjengeleg for å opna innstillingane for varselkanalen.</string>
   <!--ProfileEditNameFragment-->
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Hurtigsvar er utilgjengeleg når Signal er låst.</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Hurtigsvar er utilgjengeleg når Grapherex er låst.</string>
   <string name="QuickResponseService_problem_sending_message">Det oppstod eit problem under sending av melding.</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">Lagra til %s</string>
@@ -1504,7 +1504,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">Ugyldig snarveg</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">Grapherex</string>
   <string name="SingleRecipientNotificationBuilder_new_message">Ny melding</string>
   <string name="SingleRecipientNotificationBuilder_message_request">Meldingsspørsmål</string>
   <!--ThumbnailView-->
@@ -1517,10 +1517,10 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   </plurals>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">Eininga er ikkje lenger registrert</string>
-  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Dette er sannsynlegvis fordi du registrerte telefonnummeret ditt med Signal på ei anna eining. Trykk for å omregistrera.</string>
+  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Dette er sannsynlegvis fordi du registrerte telefonnummeret ditt med Grapherex på ei anna eining. Trykk for å omregistrera.</string>
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Gi Signal tilgang til mikrofonen for å ta imot oppringinga frå %s.</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Signal treng tilgang til mikrofon og kamera for å ringa eller ta imot samtalar, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Mikrofon» og «Kamera».</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Gi Grapherex tilgang til mikrofonen for å ta imot oppringinga frå %s.</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Grapherex treng tilgang til mikrofon og kamera for å ringa eller ta imot samtalar, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Mikrofon» og «Kamera».</string>
   <string name="WebRtcCallActivity__answered_on_a_linked_device">Svarte på ei tilkopla eining.</string>
   <string name="WebRtcCallActivity__declined_on_a_linked_device">Avslo frå ei tilkopla eining.</string>
   <string name="WebRtcCallActivity__busy_on_a_linked_device">Oppteken på ei tilkopla eining.</string>
@@ -1544,7 +1544,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <string name="change_passphrase_activity__repeat_new_passphrase">Gjenta ny passordfrase</string>
   <!--contact_selection_activity-->
   <string name="contact_selection_activity__enter_name_or_number">Skriv inn namn eller nummer</string>
-  <string name="contact_selection_activity__invite_to_signal">Inviter til Signal</string>
+  <string name="contact_selection_activity__invite_to_signal">Inviter til Grapherex</string>
   <string name="contact_selection_activity__new_group">Ny gruppe</string>
   <!--contact_filter_toolbar-->
   <string name="contact_filter_toolbar__clear_entered_text_description">Tøm tekstfeltet</string>
@@ -1556,21 +1556,21 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">Kontaktfoto</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Signal treng tilgang til kontaktar for å visa kontaktlista, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Kontaktar».</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Grapherex treng tilgang til kontaktar for å visa kontaktlista, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Kontaktar».</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Klarte ikkje henta kontaktane, sjekk nettverkstilkoplinga di</string>
   <string name="ContactSelectionListFragment_username_not_found">Fann ikkje brukarnamnet</string>
-  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">«%1$s» er ikkje ein brukar på Signal. Sjekk brukarnamnet og prøv igjen.</string>
+  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">«%1$s» er ikkje ein brukar på Grapherex. Sjekk brukarnamnet og prøv igjen.</string>
   <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">Du treng ikkje legga deg sjølv til i gruppa.</string>
   <string name="ContactSelectionListFragment_maximum_group_size_reached">Maks gruppestorleik nådd</string>
-  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Signal-grupper kan maksimalt ha %1$d medlemmar.</string>
+  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Grapherex-grupper kan maksimalt ha %1$d medlemmar.</string>
   <string name="ContactSelectionListFragment_recommended_member_limit_reached">Øvste tilrådde gruppestorleik nådd</string>
-  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Signal-grupper fungerer best med %1$d eller færre medlemmar. Ved fleire medlemmar kan mottak eller sending av meldingar bli forseinka.</string>
+  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Grapherex-grupper fungerer best med %1$d eller færre medlemmar. Ved fleire medlemmar kan mottak eller sending av meldingar bli forseinka.</string>
   <plurals name="ContactSelectionListFragment_d_members">
     <item quantity="one">%1$d medlem</item>
     <item quantity="other">%1$d medlemmar</item>
   </plurals>
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Signal treng tilgang til kontaktane dine for å visa dei.</string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Grapherex treng tilgang til kontaktane dine for å visa dei.</string>
   <string name="contact_selection_list_fragment__show_contacts">Vis kontaktar</string>
   <!--contact_selection_list_item-->
   <plurals name="contact_selection_list_item__number_of_members">
@@ -1578,7 +1578,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
     <item quantity="other">%1$d medlemmar</item>
   </plurals>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">Signal-melding</string>
+  <string name="conversation_activity__type_message_push">Grapherex-melding</string>
   <string name="conversation_activity__type_message_sms_insecure">Usikra SMS</string>
   <string name="conversation_activity__type_message_mms_insecure">Usikra MMS</string>
   <string name="conversation_activity__from_sim_name">Frå %1$s</string>
@@ -1590,7 +1590,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Vis/skjul vedleggspanel for snøggkamera</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Ta opp og senda lydvedlegg</string>
   <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Lås opptak av lydmelding</string>
-  <string name="conversation_activity__enable_signal_for_sms">Aktiver Signal for SMS</string>
+  <string name="conversation_activity__enable_signal_for_sms">Aktiver Grapherex for SMS</string>
   <string name="conversation_activity__message_could_not_be_sent">Klarte ikkje senda meldinga. Sjekk tilkoplinga di og prøv igjen.</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">Sveip for å avbryta</string>
@@ -1691,9 +1691,9 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <string name="IdentityUtil_unverified_banner_one">Tryggleiksnummmeret ditt med %s er endra og ikkje lenge stadfesta</string>
   <string name="IdentityUtil_unverified_banner_two">Tryggleiksnummera dine med %1$s og %2$s er ikkje lenger stadfesta</string>
   <string name="IdentityUtil_unverified_banner_many">Tryggleiksnummera dine med %1$s, %2$s og %3$s er ikkje lenger stadfesta</string>
-  <string name="IdentityUtil_unverified_dialog_one">Tryggleiksnummmeret ditt med %1$s er endra og ikkje lenge stadfesta. Dette kan anten bety at nokon prøver å overvaka kommunikasjonen din, eller berre at %1$s har installert Signal på nytt.</string>
-  <string name="IdentityUtil_unverified_dialog_two">Tryggleiksnummera dine med %1$s og %2$s er endra og ikkje lenge stadfesta. Dette kan anten bety at nokon prøver å overvaka kommunikasjonen din, eller berre at dei har installert Signal på nytt.</string>
-  <string name="IdentityUtil_unverified_dialog_many">Tryggleiksnummera dine med %1$s, %2$s og %3$s er endra og ikkje lenge stadfesta. Dette kan anten bety at nokon prøver å overvaka kommunikasjonen din, eller berre at dei har installert Signal på nytt.</string>
+  <string name="IdentityUtil_unverified_dialog_one">Tryggleiksnummmeret ditt med %1$s er endra og ikkje lenge stadfesta. Dette kan anten bety at nokon prøver å overvaka kommunikasjonen din, eller berre at %1$s har installert Grapherex på nytt.</string>
+  <string name="IdentityUtil_unverified_dialog_two">Tryggleiksnummera dine med %1$s og %2$s er endra og ikkje lenge stadfesta. Dette kan anten bety at nokon prøver å overvaka kommunikasjonen din, eller berre at dei har installert Grapherex på nytt.</string>
+  <string name="IdentityUtil_unverified_dialog_many">Tryggleiksnummera dine med %1$s, %2$s og %3$s er endra og ikkje lenge stadfesta. Dette kan anten bety at nokon prøver å overvaka kommunikasjonen din, eller berre at dei har installert Grapherex på nytt.</string>
   <string name="IdentityUtil_untrusted_dialog_one">Tryggleiksnummeret ditt med %s endra seg nett.</string>
   <string name="IdentityUtil_untrusted_dialog_two">Tryggleiksnummera dine med %1$s og %2$s endra seg nett.</string>
   <string name="IdentityUtil_untrusted_dialog_many">Tryggleiksnummera dine med %1$s, %2$s og %3$s endra seg nett.</string>
@@ -1708,7 +1708,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <!--log_submit_activity-->
   <string name="log_submit_activity__this_log_will_be_posted_online">Denne loggen vil bli synleg offentleg på nettet slik at bidragsytarar kan sjå han; du kan sjå over og redigera han før du sender han inn.</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Vil du importera tekstmeldingar som ligg på eininga til Signal sin krypterte database?</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Vil du importera tekstmeldingar som ligg på eininga til Grapherex sin krypterte database?</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">Standard systemdatabase vert ikkje endra på nokon måte.</string>
   <string name="database_migration_activity__skip">Hopp over</string>
   <string name="database_migration_activity__import">Importar</string>
@@ -1731,7 +1731,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <!--prompt_passphrase_activity-->
   <string name="prompt_passphrase_activity__unlock">Lås opp</string>
   <!--prompt_mms_activity-->
-  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Signal krev MMS-oppsett for å levera media og gruppemeldingar via mobilnett. Eininga di gjer ikkje ikkje denne informasjonen tilgjengeleg. Dette er vanleg på einingar med restriktive oppsett.</string>
+  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Grapherex krev MMS-oppsett for å levera media og gruppemeldingar via mobilnett. Eininga di gjer ikkje ikkje denne informasjonen tilgjengeleg. Dette er vanleg på einingar med restriktive oppsett.</string>
   <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">Trykk «OK» og følg rettleiinga viss du vil senda medie- og gruppemeldingar. Du finn vanlegvis MMS-oppsettet for operatøren din ved å søkja på nettet etter «operatøren din APN». Du treng berre å gjera dette éin gong.</string>
   <!--profile_create_activity-->
   <string name="CreateProfileActivity_first_name_required">Fornamn (krevst)</string>
@@ -1765,7 +1765,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <!--recipients_panel-->
   <string name="recipients_panel__to"><small>Skriv inn namn eller nummer</small></string>
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Viss du vil stadfesta tryggleiken på krypteringa di med %s, så kan du samanlikna talet vist over med talet på deira eining. Alternativt kan du skanna koden på telefonen deira, eller be dei om å skanna din kode. <a href="https://signal.org/redirect/safety-numbers">Lær meir.</a>]]></string>
+  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Viss du vil stadfesta tryggleiken på krypteringa di med %s, så kan du samanlikna talet vist over med talet på deira eining. Alternativt kan du skanna koden på telefonen deira, eller be dei om å skanna din kode. <a href="https://Grapherex.org/redirect/safety-numbers">Lær meir.</a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">Trykk for å skanna</string>
   <string name="verify_display_fragment__loading">Lastar …</string>
   <string name="verify_display_fragment__verified">Stadfesta</string>
@@ -1816,7 +1816,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <string name="HelpFragment__how_do_you_feel">Korleis kjenner du deg? (Valfritt)</string>
   <string name="HelpFragment__tell_us_why_youre_reaching_out">Fortel oss kvifor du tek kontakt.</string>
   <string name="HelpFragment__support_info">Supportinfo</string>
-  <string name="HelpFragment__signal_android_support_request">Signal for Android, supportspørsmål</string>
+  <string name="HelpFragment__signal_android_support_request">Grapherex for Android, supportspørsmål</string>
   <string name="HelpFragment__debug_log">Feilsøkingslogg:</string>
   <string name="HelpFragment__could_not_upload_logs">Klarte ikkje lasta opp loggar</string>
   <string name="HelpFragment__please_be_as_descriptive_as_possible">Beskriv problemet så utfyllande som mogleg slik at me kan forstå kva som skjer.</string>
@@ -1875,8 +1875,8 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <string name="preferences__sms_mms">SMS og MMS</string>
   <string name="preferences__pref_all_sms_title">Ta imot alle SMS</string>
   <string name="preferences__pref_all_mms_title">Ta imot alle MMS</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Bruk Signal for alle inngåande tekstmeldingar </string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Bruk Signal for alle inngåande multimediemeldingar </string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Bruk Grapherex for alle inngåande tekstmeldingar </string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Bruk Grapherex for alle inngåande multimediemeldingar </string>
   <string name="preferences__pref_enter_sends_title">Send med linjeskift</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">Bruk linjeskift for å senda tekstmeldingar</string>
   <string name="preferences__pref_use_address_book_photos">Bruk bilde frå adresseboka</string>
@@ -1891,7 +1891,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Skjermlås og varslingar med passordfrase</string>
   <string name="preferences__screen_security">Skjermtryggleik</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">Ikkje tillat å ta skjermbilde frå sist brukte-lista eller frå programmet</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Lås Signal automatisk etter vald tid utan aktivitet</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Lås Grapherex automatisk etter vald tid utan aktivitet</string>
   <string name="preferences__inactivity_timeout_passphrase">passordfrase ved tidsavbrot</string>
   <string name="preferences__inactivity_timeout_interval">Tidsavbrot ved inaktivitet</string>
   <string name="preferences__notifications">Varsel</string>
@@ -1922,7 +1922,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <string name="preferences__slow">Langsam</string>
   <string name="preferences__help">Hjelp</string>
   <string name="preferences__advanced">Avansert</string>
-  <string name="preferences__donate_to_signal">Doner til Signal</string>
+  <string name="preferences__donate_to_signal">Doner til Grapherex</string>
   <string name="preferences__privacy">Personvern</string>
   <string name="preferences__mms_user_agent">MMS-brukaragent</string>
   <string name="preferences__advanced_mms_access_point_names">Manuelt MMS-oppsett</string>
@@ -1948,13 +1948,13 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <string name="preferences__chat_wallpaper">Samtalebakgrunnsbilde</string>
   <string name="preferences__disable_pin">Skru av PIN</string>
   <string name="preferences__enable_pin">Skru på PIN</string>
-  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">Viss du skrur av PIN, mistar du all data når du omregistrerer Signal (med mindre du manuelt tar reservekopi og gjenopprettar). Du kan heller ikkje skru på registreringslås utan PIN.</string>
-  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">Ein PIN held informasjonen som Signal lagrar kryptert, slik at berre du kan få tilgang til han. Profilen, innstillingane og kontaktane dine blir gjenoppretta når du installerer Signal på nytt. Du treng ikkje PIN-en din for å opna appen.</string>
+  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">Viss du skrur av PIN, mistar du all data når du omregistrerer Grapherex (med mindre du manuelt tar reservekopi og gjenopprettar). Du kan heller ikkje skru på registreringslås utan PIN.</string>
+  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">Ein PIN held informasjonen som Grapherex lagrar kryptert, slik at berre du kan få tilgang til han. Profilen, innstillingane og kontaktane dine blir gjenoppretta når du installerer Grapherex på nytt. Du treng ikkje PIN-en din for å opna appen.</string>
   <string name="preferences__system_default">Systemstandard</string>
   <string name="preferences__language">Språk</string>
-  <string name="preferences__signal_messages_and_calls">Signal-meldingar og -samtalar</string>
+  <string name="preferences__signal_messages_and_calls">Grapherex-meldingar og -samtalar</string>
   <string name="preferences__advanced_pin_settings">Avanserte PIN-innstillingar</string>
-  <string name="preferences__free_private_messages_and_calls">Gratis privatmeldingar og -samtalar til Signal-brukarar</string>
+  <string name="preferences__free_private_messages_and_calls">Gratis privatmeldingar og -samtalar til Grapherex-brukarar</string>
   <string name="preferences__submit_debug_log">Send feilsøkingslogg</string>
   <string name="preferences__delete_account">Slett konto</string>
   <string name="preferences__support_wifi_calling">«Wifi-samtale»-tilbakefallsmodus</string>
@@ -1993,8 +1993,8 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <string name="preferences_storage__s_messages">%1$s meldingar</string>
   <string name="preferences_storage__custom">Sjølvvald</string>
   <string name="preferences_advanced__use_system_emoji">Bruk emoji på systemet</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Slå av innebygd emoji-støtte i Signal</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Vidaresend alle samtalar gjennom Signal-tenaren for å unngå å visa IP-adressa di til kontakten din. Dette vil gi dårlegare samtalekvalitet.</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Slå av innebygd emoji-støtte i Grapherex</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Vidaresend alle samtalar gjennom Grapherex-tenaren for å unngå å visa IP-adressa di til kontakten din. Dette vil gi dårlegare samtalekvalitet.</string>
   <string name="preferences_advanced__always_relay_calls">Alltid vidaresend samtalar</string>
   <string name="preferences_app_protection__who_can">Kven kan  …</string>
   <string name="preferences_app_protection__app_access">App-tilgang</string>
@@ -2014,9 +2014,9 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <string name="preferences_notifications__calls">Samtalar</string>
   <string name="preferences_notifications__ringtone">Ringetone</string>
   <string name="preferences_chats__show_invitation_prompts">Oppfordring om invitering</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Vis oppfordring om å invitera kontaktar som ikkje har Signal</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Vis oppfordring om å invitera kontaktar som ikkje har Grapherex</string>
   <string name="preferences_chats__message_text_size">Skriftstorleik i meldingar</string>
-  <string name="preferences_events__contact_joined_signal">Ein kontakt tok i bruk Signal!</string>
+  <string name="preferences_events__contact_joined_signal">Ein kontakt tok i bruk Grapherex!</string>
   <string name="preferences_notifications__priority">Prioritet</string>
   <string name="preferences_communication__category_sealed_sender">Forsegla sendar</string>
   <string name="preferences_communication__sealed_sender_display_indicators">Visingsindikatorar</string>
@@ -2030,7 +2030,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <string name="preferences_off">Av</string>
   <string name="preferences_on">På</string>
   <string name="preferences_proxy_address">Proxy-adresse</string>
-  <string name="preferences_only_use_a_proxy_if">Berre bruk ein proxy dersom du ikkje kan kopla til Signal med mobildata eller trådlausnett.</string>
+  <string name="preferences_only_use_a_proxy_if">Berre bruk ein proxy dersom du ikkje kan kopla til Grapherex med mobildata eller trådlausnett.</string>
   <string name="preferences_share">Del</string>
   <string name="preferences_save">Lagra</string>
   <string name="preferences_connecting_to_proxy">Koplar til proxy …</string>
@@ -2049,7 +2049,7 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <string name="PaymentsAllActivityFragment__sent">Sendt</string>
   <string name="PaymentsAllActivityFragment__received">Motteken</string>
   <string name="PaymentsHomeFragment__introducing_payments">Her kjem betalingar (Beta)</string>
-  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Bruk Signal til å senda og motta MobileCoin, ei ny digital mynteining med fokus på personvern. Skru på for å komma i gang.</string>
+  <string name="PaymentsHomeFragment__use_signal_to_send_and_receive">Bruk Grapherex til å senda og motta MobileCoin, ei ny digital mynteining med fokus på personvern. Skru på for å komma i gang.</string>
   <string name="PaymentsHomeFragment__activate_payments">Skru på betalingar</string>
   <string name="PaymentsHomeFragment__activating_payments">Skrur på betalingar …</string>
   <string name="PaymentsHomeFragment__restore_payments_account">Gjenopprett betalingskonto</string>
@@ -2076,17 +2076,17 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <string name="PaymentsHomeFragment__payments_is_not_available_in_your_region">Betalingar er ikkje tilgjengeleg i din region.</string>
   <string name="PaymentsHomeFragment__could_not_enable_payments">Klarte ikkje skru på betalingar. Prøv igjen seinare.</string>
   <string name="PaymentsHomeFragment__deactivate_payments_question">Skru av betalingar?</string>
-  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Du vil ikkje lenger kunna senda eller motta MobileCoin i Signal viss du skrur av betalingar.</string>
+  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Du vil ikkje lenger kunna senda eller motta MobileCoin i Grapherex viss du skrur av betalingar.</string>
   <string name="PaymentsHomeFragment__deactivate">Skru av</string>
   <string name="PaymentsHomeFragment__continue">Hald fram</string>
   <string name="PaymentsHomeFragment__balance_is_not_currently_available">Saldo utilgjengeleg.</string>
   <string name="PaymentsHomeFragment__payments_deactivated">Betalingar skrudd av.</string>
   <string name="PaymentsHomeFragment__payment_failed">Feil ved betaling</string>
   <string name="PaymentsHomeFragment__details">Detaljar</string>
-  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">Du kan bruka Signal til å senda og motta MobileCoin. Alle betalingar skjer under bruksvilkåra til MobileCoins og MobileCoin-lommeboka. Dette er ein betafunksjon, så det kan oppstå feil, og betalingar eller saldoar som blir borte kan ikkje gjenopprettast.</string>
+  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">Du kan bruka Grapherex til å senda og motta MobileCoin. Alle betalingar skjer under bruksvilkåra til MobileCoins og MobileCoin-lommeboka. Dette er ein betafunksjon, så det kan oppstå feil, og betalingar eller saldoar som blir borte kan ikkje gjenopprettast.</string>
   <string name="PaymentsHomeFragment__activate">Skru på</string>
   <string name="PaymentsHomeFragment__view_mobile_coin_terms">Les vilkår for MobileCoin</string>
-  <string name="PaymentsHomeFragment__payments_not_available">Betalingar er ikkje lenger tilgjengeleg i Signal. Du kan framleis overføra midlar til ein vekslebørs, men du kan ikkje lenger senda eller motta betalingar eller legga til midlar.</string>
+  <string name="PaymentsHomeFragment__payments_not_available">Betalingar er ikkje lenger tilgjengeleg i Grapherex. Du kan framleis overføra midlar til ein vekslebørs, men du kan ikkje lenger senda eller motta betalingar eller legga til midlar.</string>
   <!--PaymentsAddMoneyFragment-->
   <string name="PaymentsAddMoneyFragment__add_funds">Legg til midlar</string>
   <string name="PaymentsAddMoneyFragment__your_wallet_address">Lommebokadressa di</string>
@@ -2123,10 +2123,10 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <string name="PaymentsTransferFragment__next">Neste</string>
   <string name="PaymentsTransferFragment__invalid_address">Ugyldig adresse</string>
   <string name="PaymentsTransferFragment__check_the_wallet_address">Kontroller lommebokadressa du prøver å overføra til og prøv igjen.</string>
-  <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Du kan ikkje overføra til di eiga lommebokadresse på Signal. Skriv inn adressa som høyrer til lommboka til kontoen din på ein støtta vekslebørs.</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">For å skanna ein QR-kode må Signal ha tilgang til kameraet ditt.</string>
-  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Signal treng tilgang til kameraet for å henta ein QR-kode. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Kamera».</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">For å skanna ein QR-kode må Signal ha tilgang til kameraet ditt.</string>
+  <string name="PaymentsTransferFragment__you_cant_transfer_to_your_own_signal_wallet_address">Du kan ikkje overføra til di eiga lommebokadresse på Grapherex. Skriv inn adressa som høyrer til lommboka til kontoen din på ein støtta vekslebørs.</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">For å skanna ein QR-kode må Grapherex ha tilgang til kameraet ditt.</string>
+  <string name="PaymentsTransferFragment__signal_needs_the_camera_permission_to_capture_qr_code_go_to_settings">Grapherex treng tilgang til kameraet for å henta ein QR-kode. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «Kamera».</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">For å skanna ein QR-kode må Grapherex ha tilgang til kameraet ditt.</string>
   <string name="PaymentsTransferFragment__settings">Innstillingar</string>
   <!--PaymentsTransferQrScanFragment-->
   <string name="PaymentsTransferQrScanFragment__scan_address_qr_code">Skann QR-kode for adresse</string>
@@ -2184,8 +2184,8 @@ Mottok nøkkelutvekslingsmelding for ugyldig protokollversjon.</string>
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">Ring</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Signal-samtale</string>
-  <string name="conversation_callable_secure__menu_video">Signal-videosamtale</string>
+  <string name="conversation_callable_secure__menu_call">Grapherex-samtale</string>
+  <string name="conversation_callable_secure__menu_video">Grapherex-videosamtale</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">Meldingsdetaljar</string>
   <string name="conversation_context__menu_copy_text">Kopier tekst</string>
@@ -2258,10 +2258,10 @@ Kom i gang ved å senda ei melding til ein venn.</string>
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">Samanlikn med utklippstavla</string>
   <!--reminder_header-->
   <string name="reminder_header_sms_import_title">Importer system-SMS</string>
-  <string name="reminder_header_sms_import_text">Trykk for å kopiera telefonen sin SMS-meldingar til Signal sin krypterte database.</string>
-  <string name="reminder_header_push_title">Slå på Signal-meldingar og -samtalar</string>
+  <string name="reminder_header_sms_import_text">Trykk for å kopiera telefonen sin SMS-meldingar til Grapherex sin krypterte database.</string>
+  <string name="reminder_header_push_title">Slå på Grapherex-meldingar og -samtalar</string>
   <string name="reminder_header_push_text">Oppgrader kommunikasjonsopplevinga.</string>
-  <string name="reminder_header_service_outage_text">Signal har for tida tekniske problem. Me jobbar hardt med å få tilbake tenesta så fort som mogleg.</string>
+  <string name="reminder_header_service_outage_text">Grapherex har for tida tekniske problem. Me jobbar hardt med å få tilbake tenesta så fort som mogleg.</string>
   <string name="reminder_header_progress">%1$d%%</string>
   <!--media_preview-->
   <string name="media_preview__save_title">Lagra</string>
@@ -2277,22 +2277,22 @@ Kom i gang ved å senda ei melding til ein venn.</string>
   <string name="Insights__percent">%</string>
   <string name="Insights__title">Oversikt</string>
   <string name="InsightsDashboardFragment__title">Oversikt</string>
-  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Signal-protokollen beskytta automatisk %1$d%% av dei utgåande meldingane dine dei siste %2$d dagane. Samtalar mellom Signal-brukarar er alltid kryptert ende-til-ende.</string>
-  <string name="InsightsDashboardFragment__boost_your_signal">Signal-auke</string>
+  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Grapherex-protokollen beskytta automatisk %1$d%% av dei utgåande meldingane dine dei siste %2$d dagane. Samtalar mellom Grapherex-brukarar er alltid kryptert ende-til-ende.</string>
+  <string name="InsightsDashboardFragment__boost_your_signal">Grapherex-auke</string>
   <string name="InsightsDashboardFragment__not_enough_data">Ikkje nok data</string>
   <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">Prosentane i oversikta er rekna ut frå utgåande meldingar dei siste %1$d dagane som ikkje har forsvunne eller blitt sletta.</string>
   <string name="InsightsDashboardFragment__start_a_conversation">Start ein samtale</string>
-  <string name="InsightsDashboardFragment__invite_your_contacts">Start å kommunisera trygt og skru på nye funksjonar som går forbi begrensningane til ukrypterte SMS-meldingar, ved å invitera fleire kontaktar til Signal.</string>
+  <string name="InsightsDashboardFragment__invite_your_contacts">Start å kommunisera trygt og skru på nye funksjonar som går forbi begrensningane til ukrypterte SMS-meldingar, ved å invitera fleire kontaktar til Grapherex.</string>
   <string name="InsightsDashboardFragment__this_stat_was_generated_locally">Denne statistikken blei generert på di eining, det er berre du som kan sjå han. Den blir aldri sendt nokon stad.</string>
   <string name="InsightsDashboardFragment__encrypted_messages">Krypterte meldingar</string>
   <string name="InsightsDashboardFragment__cancel">Avbryt</string>
   <string name="InsightsDashboardFragment__send">Send</string>
   <string name="InsightsModalFragment__title">Her kjem Oversikt</string>
-  <string name="InsightsModalFragment__description">Finn ut kor mange av dine utgåande meldingar som blei sendt trygt, og inviter enkelt nye kontaktar for å auka Signal-prosenten din.</string>
+  <string name="InsightsModalFragment__description">Finn ut kor mange av dine utgåande meldingar som blei sendt trygt, og inviter enkelt nye kontaktar for å auka Grapherex-prosenten din.</string>
   <string name="InsightsModalFragment__view_insights">Vis Oversikt</string>
-  <string name="FirstInviteReminder__title">Inviter til Signal</string>
+  <string name="FirstInviteReminder__title">Inviter til Grapherex</string>
   <string name="FirstInviteReminder__description">Du kan auka kor mange krypterte meldingar du sender med %1$d%%</string>
-  <string name="SecondInviteReminder__title">Auk ditt Signal</string>
+  <string name="SecondInviteReminder__title">Auk ditt Grapherex</string>
   <string name="SecondInviteReminder__description">Inviter %1$s</string>
   <string name="InsightsReminder__view_insights">Vis Oversikt</string>
   <string name="InsightsReminder__invite">Inviter</string>
@@ -2313,7 +2313,7 @@ Kom i gang ved å senda ei melding til ein venn.</string>
   <string name="CreateKbsPinFragment__create_a_new_pin">Lag ny PIN</string>
   <string name="CreateKbsPinFragment__you_can_choose_a_new_pin_as_long_as_this_device_is_registered">Du kan endra PIN-en så lenge denne eininga er registrert.</string>
   <string name="CreateKbsPinFragment__create_your_pin">Lag din PIN</string>
-  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">Ein PIN held informasjonen som Signal lagrar kryptert, slik at berre du kan få tilgang til han. Profilen, innstillingane og kontaktane dine blir gjenoppretta når du installerer Signal på nytt. Du treng ikkje PIN-en din for å opna appen.</string>
+  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">Ein PIN held informasjonen som Grapherex lagrar kryptert, slik at berre du kan få tilgang til han. Profilen, innstillingane og kontaktane dine blir gjenoppretta når du installerer Grapherex på nytt. Du treng ikkje PIN-en din for å opna appen.</string>
   <string name="CreateKbsPinFragment__choose_a_stronger_pin">Vel ein sterkare PIN</string>
   <!--ConfirmKbsPinFragment-->
   <string name="ConfirmKbsPinFragment__pins_dont_match">PIN-kodane er ulike. Prøv igjen.</string>
@@ -2325,7 +2325,7 @@ Kom i gang ved å senda ei melding til ein venn.</string>
   <string name="ConfirmKbsPinFragment__creating_pin">Opprettar PIN …</string>
   <!--KbsSplashFragment-->
   <string name="KbsSplashFragment__introducing_pins">Her kjem PIN-kodar</string>
-  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">Ein PIN held informasjonen som Signal lagrar kryptert, slik at berre du kan få tilgang til han. Profilen, innstillingane og kontaktane dine blir gjenoppretta når du installerer Signal på nytt. Du treng ikkje PIN-en din for å opna appen.</string>
+  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">Ein PIN held informasjonen som Grapherex lagrar kryptert, slik at berre du kan få tilgang til han. Profilen, innstillingane og kontaktane dine blir gjenoppretta når du installerer Grapherex på nytt. Du treng ikkje PIN-en din for å opna appen.</string>
   <string name="KbsSplashFragment__learn_more">Lær meir</string>
   <string name="KbsSplashFragment__registration_lock_equals_pin">Registreringslås = PIN</string>
   <string name="KbsSplashFragment__your_registration_lock_is_now_called_a_pin">Registreringslåsen er no kalla PIN-kode, og gjer meir enn før. Oppdater no.</string>
@@ -2334,7 +2334,7 @@ Kom i gang ved å senda ei melding til ein venn.</string>
   <string name="KbsSplashFragment__learn_more_about_pins">Lær meir om PIN-ar</string>
   <string name="KbsSplashFragment__disable_pin">Skru av PIN</string>
   <!--KBS Reminder Dialog-->
-  <string name="KbsReminderDialog__enter_your_signal_pin">Skriv inn Signal-PIN-koden din</string>
+  <string name="KbsReminderDialog__enter_your_signal_pin">Skriv inn Grapherex-PIN-koden din</string>
   <string name="KbsReminderDialog__to_help_you_memorize_your_pin">For å hjelpa deg å hugsa PIN-koden din, spør me innimellom om du kan skriva han inn. Me spør sjeldnare over tid.</string>
   <string name="KbsReminderDialog__skip">Hopp over</string>
   <string name="KbsReminderDialog__submit">Send</string>
@@ -2355,8 +2355,8 @@ Kom i gang ved å senda ei melding til ein venn.</string>
   <string name="RegistrationLockFragment__incorrect_pin">Feil PIN</string>
   <string name="RegistrationLockFragment__forgot_your_pin">Gløymt PIN-koden?</string>
   <string name="RegistrationLockFragment__not_many_tries_left">Ikkje mange forsøk igjen!</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Signal-registrering – treng hjelp med PIN for Android (v1 PIN)</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Signal-registrering – treng hjelp med PIN for Android (v2 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Grapherex-registrering – treng hjelp med PIN for Android (v1 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Grapherex-registrering – treng hjelp med PIN for Android (v2 PIN)</string>
   <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
     <item quantity="one">For ditt personvern og din tryggleik er det ingen måte å gjenoppretta PIN-koden. Om du ikkje kan hugsa PIN-koden, kan du stadfesta på nytt med SMS etter %1$d dag med inaktivitet. Om du gjer dette, vil kontoen din bli tømt og alt innhaldet sletta.</item>
     <item quantity="other">For ditt personvern og din tryggleik er det ingen måte å gjenoppretta PIN-koden. Om du ikkje kan hugsa PIN-koden, kan du stadfesta på nytt med SMS etter %1$d dagar med inaktivitet. Om du gjer dette, vil kontoen din bli tømt og alt innhaldet sletta.</item>
@@ -2381,28 +2381,28 @@ Kom i gang ved å senda ei melding til ein venn.</string>
   <string name="CalleeMustAcceptMessageRequestDialogFragment__s_will_get_a_message_request_from_you">%1$s får ei meldingsførespurnad frå deg. Du kan ringa når førespurnaden er godteken.</string>
   <!--KBS Megaphone-->
   <string name="KbsMegaphone__create_a_pin">Opprett PIN</string>
-  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN-ar held informasjonen som signal Signal lagrar kryptert.</string>
+  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN-ar held informasjonen som Grapherex Grapherex lagrar kryptert.</string>
   <string name="KbsMegaphone__create_pin">Opprett PIN</string>
   <!--Research Megaphone-->
-  <string name="ResearchMegaphone_tell_signal_what_you_think">Fortel Signal kva du synst</string>
-  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">For at me skal gjera Signal til den beste meldingsappen på planeten vil me gjerne høyra kva du synst.</string>
+  <string name="ResearchMegaphone_tell_signal_what_you_think">Fortel Grapherex kva du synst</string>
+  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">For at me skal gjera Grapherex til den beste meldingsappen på planeten vil me gjerne høyra kva du synst.</string>
   <string name="ResearchMegaphone_learn_more">Lær meir</string>
   <string name="ResearchMegaphone_dismiss">Avslå</string>
-  <string name="ResearchMegaphoneDialog_signal_research">Signal-undersøking</string>
-  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>Me trur på personvern.</b></p><p>Signal sporer deg ikkje og hentar ikkje data om deg. For å gjera Signal betre for alle, er me avhengig av at brukarar vel å fortelja kva dei synst, <b>og me vil gjerne høyra kva nettopp du synst.</b></p><p>Me har ei spørreundersøking på gang for å forstå korleis du bruker Signal. Undersøkinga hentar ikkje data som vil identifisera deg. Viss du vil gi tilleggsinformasjon, så har du moglegheita til å oppgi kontaktinfo.</p><p>Om du har eit par minutt til overs og litt tilbakemelding å gi, så vil me gjerne høyra frå deg.</p>]]></string>
+  <string name="ResearchMegaphoneDialog_signal_research">Grapherex-undersøking</string>
+  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>Me trur på personvern.</b></p><p>Grapherex sporer deg ikkje og hentar ikkje data om deg. For å gjera Grapherex betre for alle, er me avhengig av at brukarar vel å fortelja kva dei synst, <b>og me vil gjerne høyra kva nettopp du synst.</b></p><p>Me har ei spørreundersøking på gang for å forstå korleis du bruker Grapherex. Undersøkinga hentar ikkje data som vil identifisera deg. Viss du vil gi tilleggsinformasjon, så har du moglegheita til å oppgi kontaktinfo.</p><p>Om du har eit par minutt til overs og litt tilbakemelding å gi, så vil me gjerne høyra frå deg.</p>]]></string>
   <string name="ResearchMegaphoneDialog_take_the_survey">Ta undersøkinga</string>
   <string name="ResearchMegaphoneDialog_no_thanks">Nei takk</string>
-  <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">Denne undersøkinga er administrert av Alchemer på det trygge domenet surveys.signalusers.org</string>
+  <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">Denne undersøkinga er administrert av Alchemer på det trygge domenet surveys.Grapherexusers.org</string>
   <!--transport_selection_list_item-->
   <string name="transport_selection_list_item__transport_icon">Transport-ikon</string>
   <string name="ConversationListFragment_loading">Lastar …</string>
   <string name="CallNotificationBuilder_connecting">Koplar til …</string>
   <string name="Permissions_permission_required">Tilgang krevst</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Signal treng tilgang til SMS for å senda SMS, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «SMS».</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Grapherex treng tilgang til SMS for å senda SMS, men tilgangen er permanent avslått. Opna app-innstillingsmenyen og vel «Tilgang» – eventuelt «Tillatelser» – og skru på «SMS».</string>
   <string name="Permissions_continue">Hald fram</string>
   <string name="Permissions_not_now">Ikkje no</string>
-  <string name="conversation_activity__enable_signal_messages">SKRU PÅ SIGNAL-MELDINGAR</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Migrerer Signal-databasen</string>
+  <string name="conversation_activity__enable_signal_messages">SKRU PÅ Grapherex-MELDINGAR</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">Migrerer Grapherex-databasen</string>
   <string name="PushDecryptJob_new_locked_message">Ny låst melding</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Lås opp for å sjå ulesne meldingar</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">Passordfrase til reservekopi</string>
@@ -2420,7 +2420,7 @@ Kom i gang ved å senda ei melding til ein venn.</string>
   <string name="preferences_chats__transfer_account_to_a_new_android_device">Overfør konto til ny Android-eining</string>
   <string name="RegistrationActivity_enter_backup_passphrase">Skriv passordfrasen til reservekopien</string>
   <string name="RegistrationActivity_restore">Rett opp igjen</string>
-  <string name="RegistrationActivity_backup_failure_downgrade">Kan ikkje importera reservekopiar frå nyare utgåver av Signal</string>
+  <string name="RegistrationActivity_backup_failure_downgrade">Kan ikkje importera reservekopiar frå nyare utgåver av Grapherex</string>
   <string name="RegistrationActivity_incorrect_backup_passphrase">Feil passordfrase til reservekopi</string>
   <string name="RegistrationActivity_checking">Sjekkar …</string>
   <string name="RegistrationActivity_d_messages_so_far">%dmeldingar så langt …</string>
@@ -2452,8 +2452,8 @@ Kom i gang ved å senda ei melding til ein venn.</string>
   <string name="RegistrationActivity_wrong_number">Feil nummer</string>
   <string name="RegistrationActivity_call_me_instead_available_in">Ring meg i staden \n
  (Tilgjengeleg i %1$02d:%2$02d)</string>
-  <string name="RegistrationActivity_contact_signal_support">Ta kontakt med Signal brukarstøtte</string>
-  <string name="RegistrationActivity_code_support_subject">Signal-registrering – stadfestingskode for Android</string>
+  <string name="RegistrationActivity_contact_signal_support">Ta kontakt med Grapherex brukarstøtte</string>
+  <string name="RegistrationActivity_code_support_subject">Grapherex-registrering – stadfestingskode for Android</string>
   <string name="BackupUtil_never">Aldri</string>
   <string name="BackupUtil_unknown">Ukjend</string>
   <string name="preferences_app_protection__see_my_phone_number">Sjå mitt telefonnummer</string>
@@ -2462,21 +2462,21 @@ Kom i gang ved å senda ei melding til ein venn.</string>
   <string name="PhoneNumberPrivacy_my_contacts">Kontaktane mine</string>
   <string name="PhoneNumberPrivacy_nobody">Ingen</string>
   <string name="PhoneNumberPrivacy_everyone_see_description">Telefonnummeret ditt blir synleg for alle personar og grupper som du melder med.</string>
-  <string name="PhoneNumberPrivacy_everyone_find_description">Alle som har telefonnummeret ditt i kontaktlista si kan få deg opp som ein Signal-kontakt. Andre kan finna deg i søk.</string>
+  <string name="PhoneNumberPrivacy_everyone_find_description">Alle som har telefonnummeret ditt i kontaktlista si kan få deg opp som ein Grapherex-kontakt. Andre kan finna deg i søk.</string>
   <string name="preferences_app_protection__screen_lock">Skjermlås</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Lås tilgangen til Signal med Androids skjermlås eller fingeravtrykk</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Lås tilgangen til Grapherex med Androids skjermlås eller fingeravtrykk</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">Tidsgrense for inaktivitet før skjermlås</string>
-  <string name="preferences_app_protection__signal_pin">Signal-PIN</string>
+  <string name="preferences_app_protection__signal_pin">Grapherex-PIN</string>
   <string name="preferences_app_protection__create_a_pin">Opprett PIN</string>
   <string name="preferences_app_protection__change_your_pin">Endra PIN?</string>
   <string name="preferences_app_protection__pin_reminders">PIN-påminningar</string>
-  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PIN-en held informasjonen som signal Signal lagrar kryptert, slik at berre du kan få tilgang til han. Profilen, innstillingane og kontaktane dine blir gjenoppretta når du installerer Signal på nytt.</string>
-  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Få ekstra tryggleik ved å krevja din Signal-PIN for å registrera telefonnummeret ditt med Signal igjen.</string>
+  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PIN-en held informasjonen som Grapherex Grapherex lagrar kryptert, slik at berre du kan få tilgang til han. Profilen, innstillingane og kontaktane dine blir gjenoppretta når du installerer Grapherex på nytt.</string>
+  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Få ekstra tryggleik ved å krevja din Grapherex-PIN for å registrera telefonnummeret ditt med Grapherex igjen.</string>
   <string name="preferences_app_protection__reminders_help_you_remember_your_pin">Påminningar hjelper deg med å hugsa PIN-en din, sidan han ikkje kan gjenopprettast. Du får færre påminningar over tid.</string>
   <string name="preferences_app_protection__turn_off">Skru av</string>
   <string name="preferences_app_protection__confirm_pin">Stadfest PIN-koden</string>
-  <string name="preferences_app_protection__confirm_your_signal_pin">Stadfest Signal-PIN-en din</string>
-  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Pass på at du lærer PIN-en din utanat, eller lagrar han trygt, sidan han ikkje kan gjenopprettast. Viss du gløymer PIN-en, kan du mista data viss du må gjenoppretta Signal-kontoen din.</string>
+  <string name="preferences_app_protection__confirm_your_signal_pin">Stadfest Grapherex-PIN-en din</string>
+  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Pass på at du lærer PIN-en din utanat, eller lagrar han trygt, sidan han ikkje kan gjenopprettast. Viss du gløymer PIN-en, kan du mista data viss du må gjenoppretta Grapherex-kontoen din.</string>
   <string name="preferences_app_protection__incorrect_pin_try_again">Feil PIN. Prøv igjen.</string>
   <string name="preferences_app_protection__failed_to_enable_registration_lock">Klarte ikkje skru på registreringslås.</string>
   <string name="preferences_app_protection__failed_to_disable_registration_lock">Klarte ikkje skru av registreringslås.</string>
@@ -2489,19 +2489,19 @@ Kom i gang ved å senda ei melding til ein venn.</string>
   <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">Du har gjort for mange forsøk. Prøv igjen seinare.</string>
   <string name="RegistrationActivity_error_connecting_to_service">Klarte ikkje kopla til tenesta</string>
   <string name="preferences_chats__backups">Reservekopiar</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Signal er låst</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">Grapherex er låst</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">TRYKK FOR Å LÅSA OPP</string>
   <string name="Recipient_unknown">Ukjend</string>
   <!--TransferOrRestoreFragment-->
   <string name="TransferOrRestoreFragment__transfer_or_restore_account">Overfør eller gjenopprett konto</string>
-  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Viss du tidlegare har registrert ein Signal-konto kan du overføra eller gjenoppretta kontoen og meldingane</string>
+  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Viss du tidlegare har registrert ein Grapherex-konto kan du overføra eller gjenoppretta kontoen og meldingane</string>
   <string name="TransferOrRestoreFragment__transfer_from_android_device">Overfør frå Android-eining</string>
   <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">Overfør kontoen din og meldingane dine frå den gamle Android-eininga di. Du må ha tilgang til den gamle eininga.</string>
   <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">Du må ha tilgang til den gamle eininga.</string>
   <string name="TransferOrRestoreFragment__restore_from_backup">Gjenopprett frå reservekopi</string>
   <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">Gjenopprett meldingane dine frå ein lokal reservekopi. Viss du ikkje gjenopprettar no, vil du ikkje kunna gjenoppretta seinare.</string>
   <!--NewDeviceTransferInstructionsFragment-->
-  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Opna Signal på den gamle Android-telefonen</string>
+  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Opna Grapherex på den gamle Android-telefonen</string>
   <string name="NewDeviceTransferInstructions__continue">Hald fram</string>
   <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
   <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">Trykk på profilbildet øverst til venstre for å opna Innstillingar</string>
@@ -2513,18 +2513,18 @@ Kom i gang ved å senda ei melding til ein venn.</string>
   <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">Gjer klar tilkopling til gammal Android-eining …</string>
   <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">Det tar ei stund, bør vera klart snart</string>
   <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">Ventar på at den gamle Android-eininga skal kopla til …</string>
-  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Signal treng tilgang til posisjon for å oppdaga og kopla til den gamle Android-eininga di.</string>
-  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Signal treng posisjonstenester skrudd på for å oppdaga og kopla til den gamle Android-eininga di.</string>
-  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Signal treng trådlausnett på for å oppdaga og kopla til den gamle Android-eininga di. Trådlaus må vera på, men treng ikkje vera kopla til eit spesifikt nettverk.</string>
-  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Beklagar, det ser ut som eininga di ikkje støttar Wi-Fi Direct. Signal bruker Wi-Fi Direct for å oppdaga og kopla til den gamle Android-eininga di. Du kan likevel gjenoppretta frå ein reservekopi for å overføra data frå den gamle Android-eininga di.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Grapherex treng tilgang til posisjon for å oppdaga og kopla til den gamle Android-eininga di.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Grapherex treng posisjonstenester skrudd på for å oppdaga og kopla til den gamle Android-eininga di.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Grapherex treng trådlausnett på for å oppdaga og kopla til den gamle Android-eininga di. Trådlaus må vera på, men treng ikkje vera kopla til eit spesifikt nettverk.</string>
+  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Beklagar, det ser ut som eininga di ikkje støttar Wi-Fi Direct. Grapherex bruker Wi-Fi Direct for å oppdaga og kopla til den gamle Android-eininga di. Du kan likevel gjenoppretta frå ein reservekopi for å overføra data frå den gamle Android-eininga di.</string>
   <string name="NewDeviceTransferSetup__restore_a_backup">Gjenopprett ein reservekopi</string>
   <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Fekk ein uventa feil ved tilkopling til den gamle Android-eininga di.</string>
   <!--OldDeviceTransferSetupFragment-->
   <string name="OldDeviceTransferSetup__searching_for_new_android_device">Leitar etter ny Android-eining …</string>
-  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Signal treng tilgang til posisjon for å oppdaga og kopla til den nye Android-eininga di.</string>
-  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Signal treng posisjonstenester skrudd på for å oppdaga og kopla til den nye Android-eininga di.</string>
-  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Signal treng trådlausnett på for å oppdaga og kopla til den nye Android-eininga di. Trådlaus må vera på, men treng ikkje vera kopla til eit spesifikt nettverk.</string>
-  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Beklagar, det ser ut som eininga di ikkje støttar Wi-Fi Direct. Signal bruker Wi-Fi Direct for å oppdaga og kopla til den nye Android-eininga di. Du kan likevel gjenoppretta frå ein reservekopi for å overføra data frå den nye Android-eininga di.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Grapherex treng tilgang til posisjon for å oppdaga og kopla til den nye Android-eininga di.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Grapherex treng posisjonstenester skrudd på for å oppdaga og kopla til den nye Android-eininga di.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Grapherex treng trådlausnett på for å oppdaga og kopla til den nye Android-eininga di. Trådlaus må vera på, men treng ikkje vera kopla til eit spesifikt nettverk.</string>
+  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Beklagar, det ser ut som eininga di ikkje støttar Wi-Fi Direct. Grapherex bruker Wi-Fi Direct for å oppdaga og kopla til den nye Android-eininga di. Du kan likevel gjenoppretta frå ein reservekopi for å overføra data frå den nye Android-eininga di.</string>
   <string name="OldDeviceTransferSetup__create_a_backup">Lag reservekopi</string>
   <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Fekk ein uventa feil ved tilkopling til den nye Android-eininga di.</string>
   <!--DeviceTransferSetupFragment-->
@@ -2559,10 +2559,10 @@ Kom i gang ved å senda ei melding til ein venn.</string>
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device_to_start_the_transfer">Trykk Hald fram på den andre eininga di for å starta overføringa.</string>
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device">Trykk Hald fram på den andre eininga di …</string>
   <!--NewDeviceTransferFragment-->
-  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Kan ikkje overføra frå nyare utgåver av Signal</string>
+  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Kan ikkje overføra frå nyare utgåver av Grapherex</string>
   <!--DeviceTransferFragment-->
   <string name="DeviceTransfer__transferring_data">Overfører data</string>
-  <string name="DeviceTransfer__keep_both_devices_near_each_other">Hald einingane nær kvarandre. Ikkje skru av einingane, men la Signal stå open. Overføringa er ende-til-ende-kryptert.</string>
+  <string name="DeviceTransfer__keep_both_devices_near_each_other">Hald einingane nær kvarandre. Ikkje skru av einingane, men la Grapherex stå open. Overføringa er ende-til-ende-kryptert.</string>
   <string name="DeviceTransfer__d_messages_so_far">%1$d meldingar så langt …</string>
   <string name="DeviceTransfer__cancel">Avbryt</string>
   <string name="DeviceTransfer__try_again">Prøv igjen</string>
@@ -2573,9 +2573,9 @@ Kom i gang ved å senda ei melding til ein venn.</string>
   <string name="DeviceTransfer__unable_to_transfer">Klarte ikkje overføra</string>
   <!--OldDeviceTransferInstructionsFragment-->
   <string name="OldDeviceTransferInstructions__transfer_account">Overfør konto</string>
-  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">Du kan overføra Signal-kontoen din når du set opp Signal på ei ny Android-eining. Før du går vidare:</string>
+  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">Du kan overføra Grapherex-kontoen din når du set opp Grapherex på ei ny Android-eining. Før du går vidare:</string>
   <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Last ned Signal på den nye Android-eininga di</string>
+  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Last ned Grapherex på den nye Android-eininga di</string>
   <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
   <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">Trykk på «Overfør eller gjenopprett konto»</string>
   <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -2584,7 +2584,7 @@ Kom i gang ved å senda ei melding til ein venn.</string>
   <!--OldDeviceTransferComplete-->
   <string name="OldDeviceTransferComplete__transfer_complete">Overføringa er ferdig</string>
   <string name="OldDeviceTransferComplete__go_to_your_new_device">Finn den nye eininga di</string>
-  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Signal-dataen din blir overført til den nye eininga. For å fullføra overføringsprosessen må du registrera deg på den nye eininga di.</string>
+  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Grapherex-dataen din blir overført til den nye eininga. For å fullføra overføringsprosessen må du registrera deg på den nye eininga di.</string>
   <string name="OldDeviceTransferComplete__close">Lukk</string>
   <!--NewDeviceTransferComplete-->
   <string name="NewDeviceTransferComplete__transfer_successful">Overføring fullført</string>
@@ -2601,7 +2601,7 @@ Kom i gang ved å senda ei melding til ein venn.</string>
   <string name="DeviceToDeviceTransferService_status_service_connected">Overfører konto …</string>
   <!--OldDeviceTransferLockedDialog-->
   <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">Fullfør registrering på den nye eininga di</string>
-  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Signal-kontoen din er overført til den nye eininga, men du registrera deg på den nye eininga di for å fortsetja. Signal blir deaktivert på denne eininga.</string>
+  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Grapherex-kontoen din er overført til den nye eininga, men du registrera deg på den nye eininga di for å fortsetja. Grapherex blir deaktivert på denne eininga.</string>
   <string name="OldDeviceTransferLockedDialog__done">Ferdig</string>
   <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">Avbryt og aktiver denne eininga</string>
   <!--AdvancedPreferenceFragment-->
@@ -2636,12 +2636,12 @@ Kom i gang ved å senda ei melding til ein venn.</string>
   <string name="GroupsLearnMore_what_are_legacy_groups">Kva er Eldre grupper?</string>
   <string name="GroupsLearnMore_paragraph_1">Eldre grupper er grupper som ikkje er kompatible med funksjonane til Nye grupper, slik som administratorar og meir beskrivande gruppeoppdateringar.</string>
   <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">Kan eg oppgradera ei Eldre gruppe?</string>
-  <string name="GroupsLearnMore_paragraph_2">Eldre grupper kan ikkje enno oppgraderast til Nye grupper, men du kan laga ei Ny gruppe med same medlemmar viss dei alle har den seinaste Signal-utgåva.</string>
-  <string name="GroupsLearnMore_paragraph_3">Signal vil etter kvart få støtte for å oppgradera Eldre grupper.</string>
+  <string name="GroupsLearnMore_paragraph_2">Eldre grupper kan ikkje enno oppgraderast til Nye grupper, men du kan laga ei Ny gruppe med same medlemmar viss dei alle har den seinaste Grapherex-utgåva.</string>
+  <string name="GroupsLearnMore_paragraph_3">Grapherex vil etter kvart få støtte for å oppgradera Eldre grupper.</string>
   <!--GroupLinkBottomSheetDialogFragment-->
   <string name="GroupLinkBottomSheet_share_hint_requiring_approval">Alle som har denne lenka kan sjå gruppenamnet og -bildet, og be om å bli med. Del lenka med dei du stoler på.</string>
   <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">Alle som har denne lenka kan sjå gruppenamnet og -bildet, og bli med i gruppa. Del lenka med dei du stoler på.</string>
-  <string name="GroupLinkBottomSheet_share_via_signal">Del med Signal</string>
+  <string name="GroupLinkBottomSheet_share_via_signal">Del med Grapherex</string>
   <string name="GroupLinkBottomSheet_copy">Kopier</string>
   <string name="GroupLinkBottomSheet_qr_code">QR-kode</string>
   <string name="GroupLinkBottomSheet_share">Del</string>
@@ -2706,7 +2706,7 @@ Kom i gang ved å senda ei melding til ein venn.</string>
   <string name="DeleteAccountFragment__no_number">Ingen nummer oppgitt</string>
   <string name="DeleteAccountFragment__the_phone_number">Telefonnummeret du skreiv inn er ulikt det som høyrer til kontoen din.</string>
   <string name="DeleteAccountFragment__are_you_sure">Er du heilt sikker på at du vil sletta kontoen din?</string>
-  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Dette vil sletta Signal-kontoen og nullstilla applikasjonen. Appen vil lukka seg etter at prosessen er fullført.</string>
+  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Dette vil sletta Grapherex-kontoen og nullstilla applikasjonen. Appen vil lukka seg etter at prosessen er fullført.</string>
   <string name="DeleteAccountFragment__failed_to_delete_account">Klarte ikkje å sletta kontoen. Har du ei nettverkstilkopling?</string>
   <string name="DeleteAccountFragment__failed_to_delete_local_data">Klarte ikkje å sletta lokal data. Du kan manuelt fjerna det i systemapplikasjonsinnstillingane.</string>
   <string name="DeleteAccountFragment__launch_app_settings">Opna App-innstillingar</string>
@@ -2718,7 +2718,7 @@ Kom i gang ved å senda ei melding til ein venn.</string>
   <string name="ShareActivity__share">Del</string>
   <string name="ShareActivity__send">Send</string>
   <string name="ShareActivity__s_comma">%1$s,</string>
-  <string name="ShareActivity__sharing_to_multiple_chats_is">Sending til fleire samtalar er berre støtta for Signal-meldingar</string>
+  <string name="ShareActivity__sharing_to_multiple_chats_is">Sending til fleire samtalar er berre støtta for Grapherex-meldingar</string>
   <!--MultiShareDialogs-->
   <string name="MultiShareDialogs__failed_to_send_to_some_users">Klarte ikkje senda til visse brukarar</string>
   <string name="MultiShareDialogs__you_can_only_share_with_up_to">Du kan berre dela med opp mot %1$d samtalar</string>
@@ -2760,7 +2760,7 @@ Kom i gang ved å senda ei melding til ein venn.</string>
   <string name="payment_info_card_about_mobilecoin">Om MobileCoin</string>
   <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">MobileCoin er ein ny digital valuta med fokus på personvern</string>
   <string name="payment_info_card_adding_funds">Legga til midlar</string>
-  <string name="payment_info_card_you_can_add_funds_for_use_in">Du kan legga til midlar til bruk i Signal ved å senda MobileCoin til lommebokadressa di.</string>
+  <string name="payment_info_card_you_can_add_funds_for_use_in">Du kan legga til midlar til bruk i Grapherex ved å senda MobileCoin til lommebokadressa di.</string>
   <string name="payment_info_card_cashing_out">Ta ut pengar</string>
   <string name="payment_info_card_you_can_cash_out_mobilecoin">Du kan veksla ut MobileCoin når som helst på ein vekslebørs som støttar MobileCoin. Berre overfør til kontoen din på den børsen.</string>
   <string name="payment_info_card_hide_this_card">Gøym dette kortet?</string>
@@ -2774,18 +2774,18 @@ Kom i gang ved å senda ei melding til ein venn.</string>
   <!--DeactivateWalletFragment-->
   <string name="DeactivateWalletFragment__deactivate_wallet">Skru av lommebok</string>
   <string name="DeactivateWalletFragment__your_balance">Din saldo</string>
-  <string name="DeactivateWalletFragment__its_recommended_that_you">Me tilrår at du overfører midlane dine til ei anna lommebokadresse før du skrur av betalingar. Viss du vel å ikkje overføra midlane no, blir dei verande i lommeboka som er kopla til Signal viss du skrur på igjen betalingar.</string>
+  <string name="DeactivateWalletFragment__its_recommended_that_you">Me tilrår at du overfører midlane dine til ei anna lommebokadresse før du skrur av betalingar. Viss du vel å ikkje overføra midlane no, blir dei verande i lommeboka som er kopla til Grapherex viss du skrur på igjen betalingar.</string>
   <string name="DeactivateWalletFragment__transfer_remaining_balance">Overfør resten av saldoen</string>
   <string name="DeactivateWalletFragment__deactivate_without_transferring">Skru av utan å overføra</string>
   <string name="DeactivateWalletFragment__deactivate">Skru av</string>
   <string name="DeactivateWalletFragment__deactivate_without_transferring_question">Skru av utan å overføra?</string>
-  <string name="DeactivateWalletFragment__your_balance_will_remain">Saldoen din blir verande i lommeboka som er kopla til Signal i tilfelle du vel å skru på igjen betalingar.</string>
+  <string name="DeactivateWalletFragment__your_balance_will_remain">Saldoen din blir verande i lommeboka som er kopla til Grapherex i tilfelle du vel å skru på igjen betalingar.</string>
   <string name="DeactivateWalletFragment__error_deactivating_wallet">Klarte ikkje skru av lommeboka.</string>
   <!--PaymentsRecoveryStartFragment-->
   <string name="PaymentsRecoveryStartFragment__recovery_phrase">Gjenopprettingsfrase</string>
   <string name="PaymentsRecoveryStartFragment__view_recovery_phrase">Vis gjenopprettingsfrase</string>
   <string name="PaymentsRecoveryStartFragment__enter_recovery_phrase">Skriv inn gjenopprettingsfrase</string>
-  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">Saldoen din vil automatisk bli gjenoppretta når du installerer Signal på nytt viss du stadfestar Signal PIN-en din. Du kan også gjenoppretta saldoen din med ein gjenopprettingsfrase, som er ein %1$d ord lang frase som er din og berre din. Skriv han ned og ta vare på han på ein trygg stad.</string>
+  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">Saldoen din vil automatisk bli gjenoppretta når du installerer Grapherex på nytt viss du stadfestar Grapherex PIN-en din. Du kan også gjenoppretta saldoen din med ein gjenopprettingsfrase, som er ein %1$d ord lang frase som er din og berre din. Skriv han ned og ta vare på han på ein trygg stad.</string>
   <string name="PaymentsRecoveryStartFragment__your_recovery_phrase_is_a">Gjenopprettingsfrasen din er ein %1$d ord lang frase som er din og berre din. Bruk denne frasen til å gjenoppretta saldoen din.</string>
   <string name="PaymentsRecoveryStartFragment__start">Start</string>
   <string name="PaymentsRecoveryStartFragment__enter_manually">Skriv inn for hand</string>

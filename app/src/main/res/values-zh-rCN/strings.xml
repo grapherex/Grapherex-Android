@@ -2307,7 +2307,7 @@
   <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">您的尝试次数过多，请稍候再试。</string>
   <string name="RegistrationActivity_error_connecting_to_service">连接服务出错</string>
   <string name="preferences_chats__backups">备份</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Signal 已锁定</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">Grapherex 已锁定</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">点击解锁</string>
   <string name="Recipient_unknown">未知</string>
   <!--TransferOrRestoreFragment-->

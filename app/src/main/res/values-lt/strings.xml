@@ -10,22 +10,22 @@
   <string name="AbstractNotificationBuilder_new_message">Nauja žinutė</string>
   <!--AlbumThumbnailView-->
   <!--ApplicationMigrationActivity-->
-  <string name="ApplicationMigrationActivity__signal_is_updating">Signal yra atnaujinama…</string>
+  <string name="ApplicationMigrationActivity__signal_is_updating">Grapherex yra atnaujinama…</string>
   <!--ApplicationPreferencesActivity-->
   <string name="ApplicationPreferencesActivity_currently_s">Šiuo metu: %s</string>
   <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">Jūs dar nesate nustatę slaptafrazės!</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">Išjungti slaptafrazę?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Tai visiems laikams atrakins Signal ir žinučių pranešimus.</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">Tai visiems laikams atrakins Grapherex ir žinučių pranešimus.</string>
   <string name="ApplicationPreferencesActivity_disable">Išjungti</string>
   <string name="ApplicationPreferencesActivity_unregistering">Išregistruojama</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Išregistruojama iš Signal žinučių ir skambučių…</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Išjungti Signal žinutes ir skambučius?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Išjunkite Signal žinutes ir skambučius išsiregistruodami iš serverio. Norėdami vėl jais naudotis, jūs turėsite iš naujo užregistruoti savo telefono numerį.</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Išregistruojama iš Grapherex žinučių ir skambučių…</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Išjungti Grapherex žinutes ir skambučius?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">Išjunkite Grapherex žinutes ir skambučius išsiregistruodami iš serverio. Norėdami vėl jais naudotis, jūs turėsite iš naujo užregistruoti savo telefono numerį.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Klaida prisijungiant prie serverio!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">SMS įjungta</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Prilieskite, kad pakeistumėte numatytąją SMS programėlę</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">SMS išjungta</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Padaryti Signal numatytąja SMS programėle</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Padaryti Grapherex numatytąja SMS programėle</string>
   <string name="ApplicationPreferencesActivity_on">įjungta</string>
   <string name="ApplicationPreferencesActivity_On">Įjungta</string>
   <string name="ApplicationPreferencesActivity_off">išjungta</string>
@@ -57,14 +57,14 @@
   <string name="AttachmentKeyboard_file">Failas</string>
   <string name="AttachmentKeyboard_contact">Adresatas</string>
   <string name="AttachmentKeyboard_location">Vieta</string>
-  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Signal reikia leidimo rodyti jūsų nuotraukas ir vaizdo įrašus.</string>
+  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Grapherex reikia leidimo rodyti jūsų nuotraukas ir vaizdo įrašus.</string>
   <string name="AttachmentKeyboard_give_access">Suteikti prieigą</string>
   <string name="AttachmentKeyboard_payment">Mokėjimas</string>
   <!--AttachmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">Nerasta programėlė medijos pasirinkimui.</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Norint pridėti nuotraukas, vaizdo įrašus ar garsą, Signal reikia saugyklos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Saugyklą“.</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Norint pridėti kontaktinę informaciją, Signal reikia adresatų leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Adresatus“.</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Norint pridėti vietą, Signal reikia vietos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Vietą“.</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Norint pridėti nuotraukas, vaizdo įrašus ar garsą, Grapherex reikia saugyklos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Saugyklą“.</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Norint pridėti kontaktinę informaciją, Grapherex reikia adresatų leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Adresatus“.</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Norint pridėti vietą, Grapherex reikia vietos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Vietą“.</string>
   <!--AttachmentUploadJob-->
   <string name="AttachmentUploadJob_uploading_media">Nusiunčiama medija…</string>
   <string name="AttachmentUploadJob_compressing_video_start">Glaudinamas vaizdo įrašas…</string>
@@ -108,26 +108,26 @@
   <string name="CameraXFragment_open_gallery_description">Atverti galeriją</string>
   <!--CameraContacts-->
   <string name="CameraContacts_recent_contacts">Paskiausi adresatai</string>
-  <string name="CameraContacts_signal_contacts">Signal adresatai</string>
-  <string name="CameraContacts_signal_groups">Signal grupės</string>
+  <string name="CameraContacts_signal_contacts">Grapherex adresatai</string>
+  <string name="CameraContacts_signal_groups">Grapherex grupės</string>
   <string name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">Galite bendrinti daugiausiai su %d pokalbių.</string>
-  <string name="CameraContacts_select_signal_recipients">Pasirinkti Signal gavėjus</string>
-  <string name="CameraContacts_no_signal_contacts">Nėra Signal adresatų</string>
-  <string name="CameraContacts_you_can_only_use_the_camera_button">Galite naudoti kameros mygtuką tik tam, kad siųstumėte nuotraukas Signal adresatams.</string>
+  <string name="CameraContacts_select_signal_recipients">Pasirinkti Grapherex gavėjus</string>
+  <string name="CameraContacts_no_signal_contacts">Nėra Grapherex adresatų</string>
+  <string name="CameraContacts_you_can_only_use_the_camera_button">Galite naudoti kameros mygtuką tik tam, kad siųstumėte nuotraukas Grapherex adresatams.</string>
   <string name="CameraContacts_cant_find_who_youre_looking_for">Nerandate ieškomo žmogaus?</string>
-  <string name="CameraContacts_invite_a_contact_to_join_signal">Pakvieskite adresatą prisijungti prie Signal</string>
+  <string name="CameraContacts_invite_a_contact_to_join_signal">Pakvieskite adresatą prisijungti prie Grapherex</string>
   <string name="CameraContacts__menu_search">Ieškoti</string>
   <!--ClearProfileActivity-->
   <string name="ClearProfileActivity_remove">Šalinti</string>
   <string name="ClearProfileActivity_remove_profile_photo">Šalinti profilio nuotrauką?</string>
   <string name="ClearProfileActivity_remove_group_photo">Šalinti grupės nuotrauką?</string>
   <!--ClientDeprecatedActivity-->
-  <string name="ClientDeprecatedActivity_update_signal">Atnaujinti Signal</string>
+  <string name="ClientDeprecatedActivity_update_signal">Atnaujinti Grapherex</string>
   <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">Ši programėlės versija daugiau nebepalaikoma. Norėdami ir toliau siųsti bei gauti žinutes, atnaujinkite programėlę iki naujausios versijos.</string>
   <string name="ClientDeprecatedActivity_update">Atnaujinti</string>
   <string name="ClientDeprecatedActivity_dont_update">Neatnaujinti</string>
   <string name="ClientDeprecatedActivity_warning">Įspėjimas</string>
-  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Jūsų Signal versija nebegalioja. Galite žiūrėti žinučių istoriją, tačiau nebegalėsite siųsti ar gauti žinučių tol, kol neatnaujinsite programėlės.</string>
+  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Jūsų Grapherex versija nebegalioja. Galite žiūrėti žinučių istoriją, tačiau nebegalėsite siųsti ar gauti žinučių tol, kol neatnaujinsite programėlės.</string>
   <!--CommunicationActions-->
   <string name="CommunicationActions_no_browser_found">Nerasta jokios saityno naršyklės.</string>
   <string name="CommunicationActions_send_email">Siųsti el. laišką</string>
@@ -136,9 +136,9 @@
   <string name="CommunicationActions_cancel">Atsisakyti</string>
   <string name="CommunicationActions_call">Skambinti</string>
   <string name="CommunicationActions_insecure_call">Nesaugus skambutis</string>
-  <string name="CommunicationActions_carrier_charges_may_apply">Gali būti taikomi mobiliojo ryšio tinklo operatoriaus mokesčiai. Numeris, kuriuo skambinate, nėra registruotas Signal. Šis skambutis bus inicijuotas per jūsų mobiliojo ryšio tinklo operatorių, o ne per internetą.</string>
+  <string name="CommunicationActions_carrier_charges_may_apply">Gali būti taikomi mobiliojo ryšio tinklo operatoriaus mokesčiai. Numeris, kuriuo skambinate, nėra registruotas Grapherex. Šis skambutis bus inicijuotas per jūsų mobiliojo ryšio tinklo operatorių, o ne per internetą.</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Jūsų saugumo numeris su %1$s pasikeitė. Tai gali reikšti, kad kažkas bando perimti jūsų susirašinėjimą arba, kad %2$s, tiesiog, iš naujo įdiegė Signal.</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Jūsų saugumo numeris su %1$s pasikeitė. Tai gali reikšti, kad kažkas bando perimti jūsų susirašinėjimą arba, kad %2$s, tiesiog, iš naujo įdiegė Grapherex.</string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">Jūs, tikriausiai, norėtumėte patvirtinti savo saugumo numerį su šiuo adresatu.</string>
   <string name="ConfirmIdentityDialog_accept">Priimti</string>
   <!--ContactsCursorLoader-->
@@ -149,7 +149,7 @@
   <string name="ContactsCursorLoader_username_search">Ieškoti naudotojo vardo</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">Žinutė %s</string>
-  <string name="ContactsDatabase_signal_call_s">Signal skambutis %s</string>
+  <string name="ContactsDatabase_signal_call_s">Grapherex skambutis %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">Vardas</string>
   <string name="ContactNameEditActivity_family_name">Pavardė</string>
@@ -171,7 +171,7 @@
   <string name="ConversationItem_click_to_approve_unencrypted">Siuntimas nepavyko, bakstelėkite, norėdami sugrįžti nesaugaus surogato</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">Sugrįžti prie nešifruotų SMS naudojimo?</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">Sugrįžti prie nešifruotų MMS naudojimo?</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Ši žinutė <b>nebus</b> užšifruota, nes gavėjas daugiau nebėra Signal naudotojas.\n\nSiųsti neapsaugotą žinutę?</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Ši žinutė <b>nebus</b> užšifruota, nes gavėjas daugiau nebėra Grapherex naudotojas.\n\nSiųsti neapsaugotą žinutę?</string>
   <string name="ConversationItem_unable_to_open_media">Nepavyksta rasti programėlės, galinčios atverti šią mediją.</string>
   <string name="ConversationItem_copied_text">%s nukopijuota</string>
   <string name="ConversationItem_from_s">nuo %s</string>
@@ -199,8 +199,8 @@
   <string name="ConversationActivity_this_device_does_not_appear_to_support_dial_actions">Atrodo, kad šis įrenginys nepalaiko numerio rinkimo veiksmų.</string>
   <string name="ConversationActivity_transport_insecure_sms">Nesaugi SMS</string>
   <string name="ConversationActivity_transport_insecure_mms">Nesaugi MMS</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">Persijunkime į Signal %1$s</string>
+  <string name="ConversationActivity_transport_signal">Grapherex</string>
+  <string name="ConversationActivity_lets_switch_to_signal">Persijunkime į Grapherex %1$s</string>
   <string name="ConversationActivity_specify_recipient">Pasirinkite adresatą</string>
   <string name="ConversationActivity_unblock">Atblokuoti</string>
   <string name="ConversationActivity_attachment_exceeds_size_limits">Priedas viršija jūsų siunčiamos žinutės tipui leidžiamą dydį.</string>
@@ -209,17 +209,17 @@
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Nėra prieinamos programėlės, kuri galėtų apdoroti šią nuorodą jūsų įrenginyje.</string>
   <string name="ConversationActivity_your_request_to_join_has_been_sent_to_the_group_admin">Jūsų prašymas prisijungti prie grupės buvo išsiųstas grupės administratoriui. Jums bus pranešta, kai jis atliks tam tikrus veiksmus.</string>
   <string name="ConversationActivity_cancel_request">Panaikinti prašymą</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Norėdami siųsti garso žinutes, leiskite Signal prieigą prie mikrofono.</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Norint siųsti garso žinutes, Signal reikia mikrofono leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Mikrofoną“.</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Norint skambinti %s, programai Signal reikia mikrofono ir kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Mikrofoną“ ir „Kamerą“.</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Norėdami fotografuoti ir filmuoti vaizdo įrašus, leiskite Signal prieigą prie kameros.</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Norint fotografuoti, Signal reikia kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Kamerą“.</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Norint fotografuoti ar filmuoti, Signal reikalinga prieiga prie kameros</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Norėdami siųsti garso žinutes, leiskite Grapherex prieigą prie mikrofono.</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Norint siųsti garso žinutes, Grapherex reikia mikrofono leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Mikrofoną“.</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Norint skambinti %s, programai Grapherex reikia mikrofono ir kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Mikrofoną“ ir „Kamerą“.</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Norėdami fotografuoti ir filmuoti vaizdo įrašus, leiskite Grapherex prieigą prie kameros.</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Norint fotografuoti, Grapherex reikia kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Kamerą“.</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Norint fotografuoti ar filmuoti, Grapherex reikalinga prieiga prie kameros</string>
   <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">Norėdami įrašinėti vaizdo įrašus su garsu, įjunkite prieigą prie mikrofono.</string>
-  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Norint įrašinėti vaizdo įrašus, Signal reikia mikrofono leidimo, tačiau jis buvo uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Mikrofoną“ ir „Kamerą“.</string>
-  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Norint įrašinėti vaizdo įrašus, Signal reikalingas mikrofono leidimas.</string>
+  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Norint įrašinėti vaizdo įrašus, Grapherex reikia mikrofono leidimo, tačiau jis buvo uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Mikrofoną“ ir „Kamerą“.</string>
+  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Norint įrašinėti vaizdo įrašus, Grapherex reikalingas mikrofono leidimas.</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
-  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Signal negali siųsti SMS/MMS žinučių, nes ji nėra jūsų numatytoji SMS programėlė. Ar norėtumėte tai pakeisti savo Android nustatymuose?</string>
+  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Grapherex negali siųsti SMS/MMS žinučių, nes ji nėra jūsų numatytoji SMS programėlė. Ar norėtumėte tai pakeisti savo Android nustatymuose?</string>
   <string name="ConversationActivity_yes">Taip</string>
   <string name="ConversationActivity_no">Ne</string>
   <string name="ConversationActivity_search_position">%1$d iš %2$d</string>
@@ -233,7 +233,7 @@
   <string name="ConversationActivity_you_will_leave_this_group_and_it_will_be_deleted_from_all_of_your_devices">Jūs išeisite iš šios grupės ir ji bus ištrinta iš visų jūsų įrenginių.</string>
   <string name="ConversationActivity_delete">Ištrinti</string>
   <string name="ConversationActivity_delete_and_leave">Ištrinti ir išeiti</string>
-  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">Norint skambinti %1$s, Signal reikia prieigos prie jūsų mikrofono</string>
+  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">Norint skambinti %1$s, Grapherex reikia prieigos prie jūsų mikrofono</string>
   <string name="ConversationActivity__more_options_now_in_group_settings">Dabar, daugiau parinkčių „Grupės nustatymuose“</string>
   <string name="ConversationActivity_join">Prisijungti</string>
   <string name="ConversationActivity_full">Pilnas</string>
@@ -279,14 +279,14 @@
     <item quantity="other">Įrašomas į atmintį %1$d priedas…</item>
   </plurals>
   <string name="ConversationFragment_pending">Laukiama…</string>
-  <string name="ConversationFragment_push">Duomenys (Signal)</string>
+  <string name="ConversationFragment_push">Duomenys (Grapherex)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">Ištrinama</string>
   <string name="ConversationFragment_deleting_messages">Ištrinamos žinutės…</string>
   <string name="ConversationFragment_delete_for_me">Ištrinti man</string>
   <string name="ConversationFragment_delete_for_everyone">Ištrinti visiems</string>
-  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Ši žinutė šiame pokalbyje bus ištrinta visiems žmonėms tuo atveju, jeigu jie naudoja paskiausią Signal versiją. Jie galės matyti, kad ištrynėte žinutę.</string>
+  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Ši žinutė šiame pokalbyje bus ištrinta visiems žmonėms tuo atveju, jeigu jie naudoja paskiausią Grapherex versiją. Jie galės matyti, kad ištrynėte žinutę.</string>
   <string name="ConversationFragment_quoted_message_not_found">Pradinė žinutė nerasta</string>
   <string name="ConversationFragment_quoted_message_no_longer_available">Pradinė žinutė daugiau nebeprieinama</string>
   <string name="ConversationFragment_failed_to_open_message">Nepavyko atverti žinutės</string>
@@ -298,12 +298,12 @@
   <string name="ConversationFragment__d_group_members_have_the_same_name">%1$d grupės nariai(-ių) turi tokį patį vardą.</string>
   <string name="ConversationFragment__tap_to_review">Bakstelėkite, norėdami peržiūrėti</string>
   <string name="ConversationFragment__review_requests_carefully">Atidžiai peržiūrėkite prašymus</string>
-  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Signal rado kitą adresatą tokiu pačiu vardu.</string>
+  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Grapherex rado kitą adresatą tokiu pačiu vardu.</string>
   <string name="ConversationFragment_contact_us">Susisiekite su mumis</string>
   <string name="ConversationFragment_verify">Patvirtinti</string>
   <string name="ConversationFragment_not_now">Ne dabar</string>
   <string name="ConversationFragment_your_safety_number_with_s_changed">Jūsų saugumo numeris su %s pasikeitė</string>
-  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Jūsų saugumo numeris su %s pasikeitė, greičiausiai, dėl to, kad adresatas iš naujo įdiegė Signal arba pasikeitė įrenginį. Norėdami patvirtinti naują saugumo numerį, bakstelėkite „Patvirtinti“. Tai nėra privaloma.</string>
+  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Jūsų saugumo numeris su %s pasikeitė, greičiausiai, dėl to, kad adresatas iš naujo įdiegė Grapherex arba pasikeitė įrenginį. Norėdami patvirtinti naują saugumo numerį, bakstelėkite „Patvirtinti“. Tai nėra privaloma.</string>
   <plurals name="ConversationListFragment_delete_selected_conversations">
     <item quantity="one">Ištrinti pasirinktą pokalbį?</item>
     <item quantity="few">Ištrinti pasirinktus pokalbius?</item>
@@ -368,11 +368,11 @@
   <string name="BackupsPreferenceFragment__test_your_backup_passphrase">Išbandyti savo atsarginės kopijos slaptafrazę ir patikrinti ar ji sutampa</string>
   <string name="BackupsPreferenceFragment__turn_on">Įjungti</string>
   <string name="BackupsPreferenceFragment__turn_off">Išjungti</string>
-  <string name="BackupsPreferenceFragment__to_restore_a_backup">Norėdami atkurti atsarginę kopiją, įsidiekite naują Signal kopiją. Atverkite programėlę ir bakstelėkite ant „Atkurti atsarginę kopiją“, o tuomet nustatykite atsarginės kopijos failo vietą. %1$s</string>
+  <string name="BackupsPreferenceFragment__to_restore_a_backup">Norėdami atkurti atsarginę kopiją, įsidiekite naują Grapherex kopiją. Atverkite programėlę ir bakstelėkite ant „Atkurti atsarginę kopiją“, o tuomet nustatykite atsarginės kopijos failo vietą. %1$s</string>
   <string name="BackupsPreferenceFragment__learn_more">Sužinoti daugiau</string>
   <string name="BackupsPreferenceFragment__in_progress">Vykdoma…</string>
   <string name="BackupsPreferenceFragment__d_so_far">Jau %1$d…</string>
-  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Norint daryti atsargines kopijas, Signal reikia išorinės saugyklos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Saugyklą“.</string>
+  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Norint daryti atsargines kopijas, Grapherex reikia išorinės saugyklos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Saugyklą“.</string>
   <!--CustomDefaultPreference-->
   <string name="CustomDefaultPreference_using_custom">Naudojamas tinkintas: %s</string>
   <string name="CustomDefaultPreference_using_default">Naudojamas numatytasis: %s</string>
@@ -391,7 +391,7 @@
   <string name="DateUtils_yesterday">Vakar</string>
   <!--DecryptionFailedDialog-->
   <string name="DecryptionFailedDialog_chat_session_refreshed">Pokalbio seansas atnaujintas</string>
-  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Signal programėlė naudoja ištisinį šifravimą ir jai kartais gali tekti atnaujinti jūsų pokalbio seansą. Tai neįtakoja jūsų pokalbio saugumo, bet gali būti, kad praleidote ir negavote žinutės nuo šio adresato, todėl galite jo paprašyti, kad išsiųstų žinutę dar kartą.</string>
+  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Grapherex programėlė naudoja ištisinį šifravimą ir jai kartais gali tekti atnaujinti jūsų pokalbio seansą. Tai neįtakoja jūsų pokalbio saugumo, bet gali būti, kad praleidote ir negavote žinutės nuo šio adresato, todėl galite jo paprašyti, kad išsiųstų žinutę dar kartą.</string>
   <!--DeviceListActivity-->
   <string name="DeviceListActivity_unlink_s">Atsieti „%s“?</string>
   <string name="DeviceListActivity_by_unlinking_this_device_it_will_no_longer_be_able_to_send_or_receive">Atsiejus šį įrenginį, jis daugiau nebegalės siųsti ar gauti žinučių.</string>
@@ -408,8 +408,8 @@
   <!--DocumentView-->
   <string name="DocumentView_unnamed_file">Bevardis failas</string>
   <!--DonateMegaphone-->
-  <string name="DonateMegaphone_donate_to_signal">Paaukokite Signal programėlei</string>
-  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Signal veikia dėka tokių žmonių kaip jūs. Išreikškite savo palaikymą šiandien!</string>
+  <string name="DonateMegaphone_donate_to_signal">Paaukokite Grapherex programėlei</string>
+  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Grapherex veikia dėka tokių žmonių kaip jūs. Išreikškite savo palaikymą šiandien!</string>
   <string name="DonateMegaphone_donate">Paaukokite</string>
   <string name="DonateMegaphone_no_thanks">Ne, ačiū</string>
   <!--GroupCallingMegaphone-->
@@ -417,9 +417,9 @@
   <string name="GroupCallingMegaphone__open_a_new_group_to_start">Atverkite naująją grupę norėdami pradėti nemokamą šifruotą grupės skambutį</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">Optimizuoti trūkstamoms „Play“ paslaugoms</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Šis įrenginys nepalaiko „Play“ paslaugų. Bakstelėkite, norėdami išjungti sistemos baterijos optimizavimus, kurie neleidžia Signal gauti žinučių tol, kol įrenginys yra neaktyvus.</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Šis įrenginys nepalaiko „Play“ paslaugų. Bakstelėkite, norėdami išjungti sistemos baterijos optimizavimus, kurie neleidžia Grapherex gauti žinučių tol, kol įrenginys yra neaktyvus.</string>
   <!--ExpiredBuildReminder-->
-  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Ši Signal versija nebegalioja. Norėdami siųsti ir gauti žinutes, atnaujinkite programėlę dabar.</string>
+  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Ši Grapherex versija nebegalioja. Norėdami siųsti ir gauti žinutes, atnaujinkite programėlę dabar.</string>
   <string name="ExpiredBuildReminder_update_now">Atnaujinti dabar</string>
   <!--PendingGroupJoinRequestsReminder-->
   <plurals name="PendingGroupJoinRequestsReminder_d_pending_member_requests">
@@ -433,8 +433,8 @@
   <string name="ShareActivity_share_with">Bendrinti su</string>
   <string name="ShareActivity_multiple_attachments_are_only_supported">Keli priedai yra palaikomi tik paveikslams ir vaizdo įrašams</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Ilgalaikė Signal susisiekimo triktis!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal nepavyko prisiregistruoti prie „Google Play“ paslaugų. Signal žinutės ir skambučiai buvo išjungti, prašome pabandyti iš naujo registruotis skyrelyje Nustatymai (angl. Settings) &gt; Išplėstiniai (angl. Advanced).</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Ilgalaikė Grapherex susisiekimo triktis!</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Grapherex nepavyko prisiregistruoti prie „Google Play“ paslaugų. Grapherex žinutės ir skambučiai buvo išjungti, prašome pabandyti iš naujo registruotis skyrelyje Nustatymai (angl. Settings) &gt; Išplėstiniai (angl. Advanced).</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Klaida, gaunant pilnos raiškos GIF</string>
   <!--GiphyFragmentPageAdapter-->
@@ -625,7 +625,7 @@
   <string name="AddGroupDetailsFragment__this_field_is_required">Šis laukas yra būtinas.</string>
   <string name="AddGroupDetailsFragment__group_creation_failed">Grupės sukūrimas nepavyko.</string>
   <string name="AddGroupDetailsFragment__try_again_later">Vėliau bandykite dar kartą.</string>
-  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">Jūs pasirinkote adresatą, kuris nepalaiko Signal grupių, taigi, ši grupė bus MMS.</string>
+  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">Jūs pasirinkote adresatą, kuris nepalaiko Grapherex grupių, taigi, ši grupė bus MMS.</string>
   <string name="AddGroupDetailsFragment_custom_mms_group_names_and_photos_will_only_be_visible_to_you">Tinkinti MMS grupės vardai ir nuotraukos bus matomi tik jums.</string>
   <string name="AddGroupDetailsFragment__remove">Šalinti</string>
   <string name="AddGroupDetailsFragment__sms_contact">SMS adresatas</string>
@@ -643,19 +643,19 @@
     <item quantity="other">%d narys nepalaiko naujųjų grupių, todėl ši grupė negali būti sukurta.</item>
   </plurals>
   <!--NonGv2MemberDialog-->
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">Kadangi „%1$s“ naudoja seną Signal versiją, tai bus sukurta pasenusi grupė. Šiam žmogui atnaujinus Signal, galėsite sukurti naujojo stiliaus grupę arba, prieš sukurdami grupę, pašalinkite šį žmogų.</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">Kadangi „%1$s“ naudoja seną Grapherex versiją, tai bus sukurta pasenusi grupė. Šiam žmogui atnaujinus Grapherex, galėsite sukurti naujojo stiliaus grupę arba, prieš sukurdami grupę, pašalinkite šį žmogų.</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable">
-    <item quantity="one">Kadangi %1$d narys naudoja seną Signal versiją, tai bus sukurta pasenusi grupė. Šiam žmogui atnaujinus Signal, galėsite sukurti naujojo stiliaus grupę arba, prieš sukurdami grupę, pašalinkite šį žmogų.</item>
-    <item quantity="few">Kadangi %1$d nariai naudoja seną Signal versiją, tai bus sukurta pasenusi grupė. Šiems žmonėms atnaujinus Signal, galėsite sukurti naujojo stiliaus grupę arba, prieš sukurdami grupę, pašalinkite šiuos žmones.</item>
-    <item quantity="many">Kadangi %1$d narių naudoja seną Signal versiją, tai bus sukurta pasenusi grupė. Šiems žmonėms atnaujinus Signal, galėsite sukurti naujojo stiliaus grupę arba, prieš sukurdami grupę, pašalinkite šiuos žmones.</item>
-    <item quantity="other">Kadangi %1$d narys naudoja seną Signal versiją, tai bus sukurta pasenusi grupė. Šiems žmonėms atnaujinus Signal, galėsite sukurti naujojo stiliaus grupę arba, prieš sukurdami grupę, pašalinkite šiuos žmones.</item>
+    <item quantity="one">Kadangi %1$d narys naudoja seną Grapherex versiją, tai bus sukurta pasenusi grupė. Šiam žmogui atnaujinus Grapherex, galėsite sukurti naujojo stiliaus grupę arba, prieš sukurdami grupę, pašalinkite šį žmogų.</item>
+    <item quantity="few">Kadangi %1$d nariai naudoja seną Grapherex versiją, tai bus sukurta pasenusi grupė. Šiems žmonėms atnaujinus Grapherex, galėsite sukurti naujojo stiliaus grupę arba, prieš sukurdami grupę, pašalinkite šiuos žmones.</item>
+    <item quantity="many">Kadangi %1$d narių naudoja seną Grapherex versiją, tai bus sukurta pasenusi grupė. Šiems žmonėms atnaujinus Grapherex, galėsite sukurti naujojo stiliaus grupę arba, prieš sukurdami grupę, pašalinkite šiuos žmones.</item>
+    <item quantity="other">Kadangi %1$d narys naudoja seną Grapherex versiją, tai bus sukurta pasenusi grupė. Šiems žmonėms atnaujinus Grapherex, galėsite sukurti naujojo stiliaus grupę arba, prieš sukurdami grupę, pašalinkite šiuos žmones.</item>
   </plurals>
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">Ši grupė negali būti sukurta, nes „%1$s“ naudoja seną Signal versiją. Prieš sukurdami grupę, privalote pašalinti šį naudotoją.</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">Ši grupė negali būti sukurta, nes „%1$s“ naudoja seną Grapherex versiją. Prieš sukurdami grupę, privalote pašalinti šį naudotoją.</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable_forced_migration">
-    <item quantity="one">Ši grupė negali būti sukurta, nes %1$d narys naudoja seną Signal versiją. Prieš sukurdami grupę, privalote pašalinti šį naudotoją.</item>
-    <item quantity="few">Ši grupė negali būti sukurta, nes %1$d nariai naudoja seną Signal versiją. Prieš sukurdami grupę, privalote pašalinti šiuos naudotojus.</item>
-    <item quantity="many">Ši grupė negali būti sukurta, nes %1$d narių naudoja seną Signal versiją. Prieš sukurdami grupę, privalote pašalinti šiuos naudotojus.</item>
-    <item quantity="other">Ši grupė negali būti sukurta, nes %1$d narys naudoja seną Signal versiją. Prieš sukurdami grupę, privalote pašalinti šiuos naudotojus.</item>
+    <item quantity="one">Ši grupė negali būti sukurta, nes %1$d narys naudoja seną Grapherex versiją. Prieš sukurdami grupę, privalote pašalinti šį naudotoją.</item>
+    <item quantity="few">Ši grupė negali būti sukurta, nes %1$d nariai naudoja seną Grapherex versiją. Prieš sukurdami grupę, privalote pašalinti šiuos naudotojus.</item>
+    <item quantity="many">Ši grupė negali būti sukurta, nes %1$d narių naudoja seną Grapherex versiją. Prieš sukurdami grupę, privalote pašalinti šiuos naudotojus.</item>
+    <item quantity="other">Ši grupė negali būti sukurta, nes %1$d narys naudoja seną Grapherex versiją. Prieš sukurdami grupę, privalote pašalinti šiuos naudotojus.</item>
   </plurals>
   <!--ManageGroupActivity-->
   <string name="ManageGroupActivity_member_requests_and_invites">Narių prašymai ir pakvietimai</string>
@@ -687,7 +687,7 @@
   <string name="ManageGroupActivity_only_admins_can_enable_or_disable_the_option_to_approve_new_members">Tik administratoriai gali įjungti ar išjungti naujų narių patvirtinimo parinktį.</string>
   <string name="ManageGroupActivity_only_admins_can_reset_the_sharable_group_link">Tik administratoriai gali atstatyti bendrinamą grupės nuorodą.</string>
   <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">Jūs neturite teisių to daryti</string>
-  <string name="ManageGroupActivity_not_capable">Kažkas iš jūsų pridėtų asmenų nepalaiko naujų grupių ir turi atsinaujinti Signal</string>
+  <string name="ManageGroupActivity_not_capable">Kažkas iš jūsų pridėtų asmenų nepalaiko naujų grupių ir turi atsinaujinti Grapherex</string>
   <string name="ManageGroupActivity_failed_to_update_the_group">Nepavyko atnaujinti grupės</string>
   <string name="ManageGroupActivity_youre_not_a_member_of_the_group">Jūs nesate šios grupės narys</string>
   <string name="ManageGroupActivity_failed_to_update_the_group_please_retry_later">Nepavyko atnaujinti grupės, vėliau bandykite dar kartą</string>
@@ -698,7 +698,7 @@
   <string name="ManageGroupActivity_legacy_group_upgrade">Tai yra pasenusi grupė. Norėdami naudoti tokias ypatybes kaip @paminėjimai ir administratoriai,</string>
   <string name="ManageGroupActivity_legacy_group_too_large">Ši pasenusi grupė negali būti naujinta į naująją grupę, nes yra per didelė. Didžiausias grupės dydis yra %1$d.</string>
   <string name="ManageGroupActivity_upgrade_this_group">naujinkite šią grupę.</string>
-  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Tai yra nesaugi MMS grupė. Norėdami kalbėtis privačiai, pakvieskite savo adresatus į Signal.</string>
+  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Tai yra nesaugi MMS grupė. Norėdami kalbėtis privačiai, pakvieskite savo adresatus į Grapherex.</string>
   <string name="ManageGroupActivity_invite_now">Pakviesti dabar</string>
   <!--GroupMentionSettingDialog-->
   <string name="GroupMentionSettingDialog_notify_me_for_mentions">Pranešti apie paminėjimus</string>
@@ -798,10 +798,10 @@
     <item quantity="other">Grupė · %1$d narys</item>
   </plurals>
   <!--GroupJoinUpdateRequiredBottomSheetDialogFragment-->
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Atnaujinkite Signal norėdami naudoti grupių nuorodas</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Jūsų naudojama Signal versija nepalaiko šios grupės nuorodos. Norėdami prisijungti prie šios grupės per nuorodą, atnaujinkite Signal iki naujausios versijos.</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Atnaujinti Signal</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">Vienas ar daugiau iš jūsų susietų įrenginių naudoja Signal versiją, kuri nepalaiko grupės nuorodų. Norėdami prisijungti prie šios grupės, atnaujinkite Signal savo susietame įrenginyje(-iuose).</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Atnaujinkite Grapherex norėdami naudoti grupių nuorodas</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Jūsų naudojama Grapherex versija nepalaiko šios grupės nuorodos. Norėdami prisijungti prie šios grupės per nuorodą, atnaujinkite Grapherex iki naujausios versijos.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Atnaujinti Grapherex</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">Vienas ar daugiau iš jūsų susietų įrenginių naudoja Grapherex versiją, kuri nepalaiko grupės nuorodų. Norėdami prisijungti prie šios grupės, atnaujinkite Grapherex savo susietame įrenginyje(-iuose).</string>
   <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">Grupės nuoroda negalioja</string>
   <!--GroupInviteLinkEnableAndShareBottomSheetDialogFragment-->
   <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_invite_friends">Pakviesti draugus</string>
@@ -831,7 +831,7 @@
   <string name="InviteActivity_cancel">Atsisakyti</string>
   <string name="InviteActivity_sending">Siunčiama…</string>
   <string name="InviteActivity_invitations_sent">Pakvietimai išsiųsti!</string>
-  <string name="InviteActivity_invite_to_signal">Pakviesti į Signal</string>
+  <string name="InviteActivity_invite_to_signal">Pakviesti į Grapherex</string>
   <plurals name="InviteActivity_send_sms_to_friends">
     <item quantity="one">SIŲSTI SMS %d DRAUGUI</item>
     <item quantity="few">SIŲSTI SMS %d DRAUGAMS</item>
@@ -844,7 +844,7 @@
     <item quantity="many">Siųsti %d SMS pakvietimų?</item>
     <item quantity="other">Siųsti %d SMS pakvietimų?</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">Persijunkime į Signal: %1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">Persijunkime į Grapherex: %1$s</string>
   <string name="InviteActivity_no_app_to_share_to">Atrodo, kad neturite programėlių su kuriomis bendrinti.</string>
   <string name="InviteActivity_friends_dont_let_friends_text_unencrypted">Draugai neleidžia draugams kalbėtis nešifruotai.</string>
   <!--LearnMoreTextView-->
@@ -854,7 +854,7 @@
   <string name="LongMessageActivity_message_from_s">Žinutė nuo %1$s</string>
   <string name="LongMessageActivity_your_message">Jūsų žinutė</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">Grapherex</string>
   <string name="MessageRetrievalService_background_connection_enabled">Foninis ryšys įjungtas</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">Klaida, skaitant belaidžio tiekėjo MMS nustatymus</string>
@@ -911,7 +911,7 @@
   <string name="Megaphones_introducing_reactions">Pristatome reakcijas</string>
   <string name="Megaphones_tap_and_hold_any_message_to_quicky_share_how_you_feel">Bakstelėkite ir palaikykite ant bet kurios žinutės, norėdami greitai pasidalinti tuo, ką jaučiate.</string>
   <string name="Megaphones_remind_me_later">Priminti vėliau</string>
-  <string name="Megaphones_verify_your_signal_pin">Patvirtinkite savo Signal PIN kodą</string>
+  <string name="Megaphones_verify_your_signal_pin">Patvirtinkite savo Grapherex PIN kodą</string>
   <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">Retkarčiais, tam kad prisimintumėte savo PIN kodą, prašysime jūsų jį patvirtinti.</string>
   <string name="Megaphones_verify_pin">Patvirtinti PIN kodą</string>
   <string name="Megaphones_get_started">Darbo pradžia</string>
@@ -919,9 +919,9 @@
   <string name="Megaphones_invite_friends">Pakviesti draugus</string>
   <string name="Megaphones_use_sms">Naudokite SMS</string>
   <!--NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Signal skambutis yra eigoje</string>
-  <string name="NotificationBarManager__establishing_signal_call">Užmezgiamas Signal skambutis</string>
-  <string name="NotificationBarManager__incoming_signal_call">Gaunamasis Signal skambutis</string>
+  <string name="NotificationBarManager_signal_call_in_progress">Grapherex skambutis yra eigoje</string>
+  <string name="NotificationBarManager__establishing_signal_call">Užmezgiamas Grapherex skambutis</string>
+  <string name="NotificationBarManager__incoming_signal_call">Gaunamasis Grapherex skambutis</string>
   <string name="NotificationBarManager__deny_call">Atmesti skambutį</string>
   <string name="NotificationBarManager__answer_call">Atsiliepti į skambutį</string>
   <string name="NotificationBarManager__end_call">Baigti skambutį</string>
@@ -945,8 +945,8 @@
   <string name="MediaSendActivity_message_to_s">Žinutė skirta %s</string>
   <string name="MediaSendActivity_message">Žinutė</string>
   <string name="MediaSendActivity_select_recipients">Pasirinkti gavėjus</string>
-  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Norint rodyti jūsų adresatus, Signal reikia prieigos prie jų.</string>
-  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Norint rodyti jūsų adresatus, Signal reikia adresatų leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Adresatus“.</string>
+  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Norint rodyti jūsų adresatus, Grapherex reikia prieigos prie jų.</string>
+  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Norint rodyti jūsų adresatus, Grapherex reikia adresatų leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Adresatus“.</string>
   <plurals name="MediaSendActivity_cant_share_more_than_n_items">
     <item quantity="one">Jūs negalite bendrinti daugiau nei %d elementą.</item>
     <item quantity="few">Jūs negalite bendrinti daugiau nei %d elementų.</item>
@@ -960,7 +960,7 @@
   <string name="MediaRepository__camera">Kamera</string>
   <!--MessageRecord-->
   <string name="MessageRecord_unknown">Nežinoma</string>
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Gauta žinutė buvo užšifruota, naudojant seną Signal versiją, kuri daugiau nebepalaikoma. Paprašykite siuntėjo atnaujinti savo programėlę į naujausią versiją ir iš naujo išsiųsti žinutę.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Gauta žinutė buvo užšifruota, naudojant seną Grapherex versiją, kuri daugiau nebepalaikoma. Paprašykite siuntėjo atnaujinti savo programėlę į naujausią versiją ir iš naujo išsiųsti žinutę.</string>
   <string name="MessageRecord_left_group">Jūs išėjote iš grupės.</string>
   <string name="MessageRecord_you_updated_group">Jūs atnaujinote grupę.</string>
   <string name="MessageRecord_the_group_was_updated">Grupė buvo atnaujinta.</string>
@@ -969,7 +969,7 @@
   <string name="MessageRecord_missed_video_call_date">Praleistas vaizdo skambutis · %1$s</string>
   <string name="MessageRecord_s_updated_group">%s atnaujino grupę.</string>
   <string name="MessageRecord_s_called_you_date">Jums skambino %1$s · %2$s</string>
-  <string name="MessageRecord_s_joined_signal">%s atėjo į Signal!</string>
+  <string name="MessageRecord_s_joined_signal">%s atėjo į Grapherex!</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">Jūs išjungėte išnykstančias žinutes.</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$s išjungė išnykstančias žinutes.</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">Jūs nustatėte išnykstančių žinučių laikmatį į %1$s.</string>
@@ -1207,9 +1207,9 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">Neteisingas QR kodas.</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Atleiskite, jūs jau turite per daug susietų įrenginių, pabandykite kai kuriuos pašalinti</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Atleiskite, tai nėra teisingas įrenginio nuorodos QR kodas.</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">Susieti Signal įrenginį?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Atrodo, kad bandote susieti Signal įrenginį, naudodami trečiųjų šalių skenerį. Jūsų saugumui, dar kartą nuskenuokite kodą, naudodami Signal.</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Norint skenuoti QR kodą, Signal reikia kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Kamerą“.</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">Susieti Grapherex įrenginį?</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Atrodo, kad bandote susieti Grapherex įrenginį, naudodami trečiųjų šalių skenerį. Jūsų saugumui, dar kartą nuskenuokite kodą, naudodami Grapherex.</string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Norint skenuoti QR kodą, Grapherex reikia kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Kamerą“.</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Nepavyksta nuskenuoti QR kodo be kameros leidimo</string>
   <!--ExpirationDialog-->
   <string name="ExpirationDialog_disappearing_messages">Išnykstančios žinutės</string>
@@ -1217,20 +1217,20 @@
   <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Šiame pokalbyje išsiųstos ir gautos žinutės išnyks %s po to, kai jos buvo pamatytos.</string>
   <!--OutdatedBuildReminder-->
   <string name="OutdatedBuildReminder_update_now">Atnaujinti dabar</string>
-  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Šiandien nustos galioti ši Signal versija. Atnaujinkite Signal iki naujausios versijos.</string>
+  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Šiandien nustos galioti ši Grapherex versija. Atnaujinkite Grapherex iki naujausios versijos.</string>
   <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-    <item quantity="one">Rytoj nustos galioti ši Signal versija. Atnaujinkite Signal iki naujausios versijos.</item>
-    <item quantity="few">Po %d dienų nustos galioti ši Signal versija. Atnaujinkite Signal iki naujausios versijos.</item>
-    <item quantity="many">Po %d dienų nustos galioti ši Signal versija. Atnaujinkite Signal iki naujausios versijos.</item>
-    <item quantity="other">Po %d dienos nustos galioti ši Signal versija. Atnaujinkite Signal iki naujausios versijos.</item>
+    <item quantity="one">Rytoj nustos galioti ši Grapherex versija. Atnaujinkite Grapherex iki naujausios versijos.</item>
+    <item quantity="few">Po %d dienų nustos galioti ši Grapherex versija. Atnaujinkite Grapherex iki naujausios versijos.</item>
+    <item quantity="many">Po %d dienų nustos galioti ši Grapherex versija. Atnaujinkite Grapherex iki naujausios versijos.</item>
+    <item quantity="other">Po %d dienos nustos galioti ši Grapherex versija. Atnaujinkite Grapherex iki naujausios versijos.</item>
   </plurals>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">Įveskite slaptafrazę</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Signal piktograma</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">Grapherex piktograma</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">Pateikti slaptafrazę</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Neteisinga slaptafrazė!</string>
-  <string name="PassphrasePromptActivity_unlock_signal">Atrakinti Signal</string>
-  <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android - Ekrano užraktas</string>
+  <string name="PassphrasePromptActivity_unlock_signal">Atrakinti Grapherex</string>
+  <string name="PassphrasePromptActivity_signal_android_lock_screen">Grapherex Android - Ekrano užraktas</string>
   <!--PlacePickerActivity-->
   <string name="PlacePickerActivity_title">Žemėlapis</string>
   <string name="PlacePickerActivity_drop_pin">Įsmeigti smeigtuką</string>
@@ -1253,16 +1253,16 @@
     <item quantity="many">Jums liko %1$d bandymų. Jei išnaudosite visus bandymus, galėsite susikurti naują PIN kodą. Galėsite registruotis ir naudotis savo paskyra, bet prarasite kai kuriuos įrašytus nustatymus, kaip pavyzdžiui, profilio informaciją.</item>
     <item quantity="other">Jums liko %1$d bandymas. Jei išnaudosite visus bandymus, galėsite susikurti naują PIN kodą. Galėsite registruotis ir naudotis savo paskyra, bet prarasite kai kuriuos įrašytus nustatymus, kaip pavyzdžiui, profilio informaciją.</item>
   </plurals>
-  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Signal Registracija - Reikia pagalbos su PIN kodu Android įrenginyje</string>
+  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Grapherex Registracija - Reikia pagalbos su PIN kodu Android įrenginyje</string>
   <string name="PinRestoreEntryFragment_enter_alphanumeric_pin">Įvesti tekstinį PIN kodą</string>
   <string name="PinRestoreEntryFragment_enter_numeric_pin">Įvesti skaitinį PIN kodą</string>
   <!--PinRestoreLockedFragment-->
   <string name="PinRestoreLockedFragment_create_your_pin">Susikurti PIN kodą</string>
-  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Jums nebeliko PIN kodo spėjimų, bet vis dar galite gauti prieigą prie savo Signal paskyros, susikurdami naują PIN kodą. Siekiant apsaugoti jūsų privatumą, saugumo sumetimais jūsų paskyra bus atkurta be įrašytos profilio informacijos ir įrašytų nustatymų.</string>
+  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Jums nebeliko PIN kodo spėjimų, bet vis dar galite gauti prieigą prie savo Grapherex paskyros, susikurdami naują PIN kodą. Siekiant apsaugoti jūsų privatumą, saugumo sumetimais jūsų paskyra bus atkurta be įrašytos profilio informacijos ir įrašytų nustatymų.</string>
   <string name="PinRestoreLockedFragment_create_new_pin">Sukurti naują PIN kodą</string>
   <!--PinOptOutDialog-->
   <string name="PinOptOutDialog_warning">Įspėjimas</string>
-  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">Jei išjungsite PIN kodą, tuomet registruodamiesi iš naujo Signal programėlėje, prarasite visus duomenis, nebent rankiniu būdu pasidarysite atsarginę kopiją ir ją atkursite. Tol, kol PIN kodas yra išjungtas, negalėsite įjungti Registracijos užrakto.</string>
+  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">Jei išjungsite PIN kodą, tuomet registruodamiesi iš naujo Grapherex programėlėje, prarasite visus duomenis, nebent rankiniu būdu pasidarysite atsarginę kopiją ir ją atkursite. Tol, kol PIN kodas yra išjungtas, negalėsite įjungti Registracijos užrakto.</string>
   <string name="PinOptOutDialog_disable_pin">Išjungti PIN kodą</string>
   <!--RatingManager-->
   <string name="RatingManager_rate_this_app">Įvertinkite šią programėlę</string>
@@ -1293,12 +1293,12 @@
   <string name="RedPhone_got_it">Supratau</string>
   <!--WebRtcCallActivity-->
   <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">Bakstelėkite čia, norėdami įjungti savo vaizdą</string>
-  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Norint skambinti %1$s, Signal reikia prieigos prie jūsų kameros</string>
-  <string name="WebRtcCallActivity__signal_s">Signal %1$s</string>
+  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Norint skambinti %1$s, Grapherex reikia prieigos prie jūsų kameros</string>
+  <string name="WebRtcCallActivity__signal_s">Grapherex %1$s</string>
   <string name="WebRtcCallActivity__calling">Skambinama…</string>
   <!--WebRtcCallView-->
-  <string name="WebRtcCallView__signal_voice_call">Signal balso skambutis…</string>
-  <string name="WebRtcCallView__signal_video_call">Signal vaizdo skambutis…</string>
+  <string name="WebRtcCallView__signal_voice_call">Grapherex balso skambutis…</string>
+  <string name="WebRtcCallView__signal_video_call">Grapherex vaizdo skambutis…</string>
   <string name="WebRtcCallView__start_call">Pradėti skambutį</string>
   <string name="WebRtcCallView__join_call">Prisijungti prie skambučio</string>
   <string name="WebRtcCallView__call_is_full">Skambutis yra pilnas</string>
@@ -1355,13 +1355,13 @@
   <string name="RegistrationActivity_is_your_phone_number_above_correct">Ar jūsų telefono numeris aukščiau yra teisingas?</string>
   <string name="RegistrationActivity_edit_number">Taisyti numerį</string>
   <string name="RegistrationActivity_missing_google_play_services">Trūksta „Google Play“ paslaugų</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Šiame įrenginyje nėra „Google Play“ paslaugų. Jūs vis tiek galite naudoti Signal, tačiau tokia konfigūracija gali sąlygoti mažesnį patikimumą ir našumą.\n\nJeigu jūs nesate pažengęs naudotojas, nenaudojate atsarginių dalių Android ROM ar manote, jog matote tai per klaidą, tuomet pagalbai ir nesklandumų šalinimui susisiekite su support@signal.org.</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Šiame įrenginyje nėra „Google Play“ paslaugų. Jūs vis tiek galite naudoti Grapherex, tačiau tokia konfigūracija gali sąlygoti mažesnį patikimumą ir našumą.\n\nJeigu jūs nesate pažengęs naudotojas, nenaudojate atsarginių dalių Android ROM ar manote, jog matote tai per klaidą, tuomet pagalbai ir nesklandumų šalinimui susisiekite su support@Grapherex.org.</string>
   <string name="RegistrationActivity_i_understand">Aš suprantu</string>
   <string name="RegistrationActivity_play_services_error">„Play“ paslaugų klaida</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">„Google Play“ paslaugos yra atnaujinamos arba laikinai neprieinamos. Prašome bandyti dar kartą.</string>
   <string name="RegistrationActivity_terms_and_privacy">Sąlygos ir Privatumo politika</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Norinti susisiekti su draugais, keistis žinutėmis ir saugiai skambinti, Signal reikia prieigos prie jūsų adresatų ir medijos</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Norinti susisiekti su draugais, keistis žinutėmis ir saugiai skambinti, Signal reikia prieigos prie jūsų adresatų</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Norinti susisiekti su draugais, keistis žinutėmis ir saugiai skambinti, Grapherex reikia prieigos prie jūsų adresatų ir medijos</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Norinti susisiekti su draugais, keistis žinutėmis ir saugiai skambinti, Grapherex reikia prieigos prie jūsų adresatų</string>
   <string name="RegistrationActivity_rate_limited_to_service">Atlikote per daug bandymų užregistruoti šį numerį. Vėliau bandykite dar kartą.</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">Nepavyksta prisijungti prie paslaugos. Patikrinkite tinklo ryšį ir bandykite dar kartą.</string>
   <plurals name="RegistrationActivity_debug_log_hint">
@@ -1378,14 +1378,14 @@
   <string name="RegistrationActivity_enter_your_phone_number">Įveskite savo telefono numerį</string>
   <string name="RegistrationActivity_you_will_receive_a_verification_code">Gausite patvirtinimo kodą. Gali būti taikomi mobiliojo ryšio tinklo operatoriaus mokesčiai.</string>
   <string name="RegistrationActivity_enter_the_code_we_sent_to_s">Įveskite kodą, kurį išsiuntėme į %s</string>
-  <string name="RegistrationActivity_make_sure_your_phone_has_a_cellular_signal">Įsitikinkite, kad jūsų telefone yra mobiliojo ryšio signalas, kad gautumėte SMS ar sulauktumėte skambučio</string>
+  <string name="RegistrationActivity_make_sure_your_phone_has_a_cellular_signal">Įsitikinkite, kad jūsų telefone yra mobiliojo ryšio Grapherexas, kad gautumėte SMS ar sulauktumėte skambučio</string>
   <string name="RegistrationActivity_phone_number_description">Telefono numeris</string>
   <string name="RegistrationActivity_country_code_description">Šalies kodas</string>
   <string name="RegistrationActivity_call">Skambinti</string>
   <!--RegistrationLockV2Dialog-->
   <string name="RegistrationLockV2Dialog_turn_on_registration_lock">Įjungti registracijos užraktą?</string>
   <string name="RegistrationLockV2Dialog_turn_off_registration_lock">Išjungti registracijos užraktą?</string>
-  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Jeigu registruodamiesi su Signal, vėl užmiršite savo Signal PIN kodą, tuomet 7 dienoms būsite užblokuoti nuo savo paskyros.</string>
+  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Jeigu registruodamiesi su Grapherex, vėl užmiršite savo Grapherex PIN kodą, tuomet 7 dienoms būsite užblokuoti nuo savo paskyros.</string>
   <string name="RegistrationLockV2Dialog_turn_on">Įjungti</string>
   <string name="RegistrationLockV2Dialog_turn_off">Išjungti</string>
   <!--RevealableMessageView-->
@@ -1401,14 +1401,14 @@
   <!--ShakeToReport-->
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">Pridėti į adresatus</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">Pakviesti į Signal</string>
-  <string name="SharedContactDetailsActivity_signal_message">Signal žinutė</string>
-  <string name="SharedContactDetailsActivity_signal_call">Signal skambutis</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">Pakviesti į Grapherex</string>
+  <string name="SharedContactDetailsActivity_signal_message">Grapherex žinutė</string>
+  <string name="SharedContactDetailsActivity_signal_call">Grapherex skambutis</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">Pridėti į adresatus</string>
-  <string name="SharedContactView_invite_to_signal">Pakviesti į Signal</string>
-  <string name="SharedContactView_message">Signal žinutė</string>
-  <!--SignalPinReminders-->
+  <string name="SharedContactView_invite_to_signal">Pakviesti į Grapherex</string>
+  <string name="SharedContactView_message">Grapherex žinutė</string>
+  <!--GrapherexPinReminders-->
   <string name="SignalPinReminders_well_remind_you_again_later">Vėliau priminsime jums dar kartą.</string>
   <string name="SignalPinReminders_well_remind_you_again_tomorrow">Rytoj priminsime jums dar kartą.</string>
   <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">Po kelių dienų priminsime jums dar kartą.</string>
@@ -1431,14 +1431,14 @@
   <string name="SmsMessageRecord_secure_session_reset">Jūs atstatėte saugųjį seansą.</string>
   <string name="SmsMessageRecord_secure_session_reset_s">%s atstatė saugųjį seansą.</string>
   <string name="SmsMessageRecord_duplicate_message">Dviguba žinutė.</string>
-  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">Šios žinutės nepavyko apdoroti, nes ji buvo išsiųsta, naudojant naujesnę Signal versiją. Kai atsinaujinsite programėlę, galite paprašyti adresato, kad išsiųstų jums šią žinutę dar kartą.</string>
+  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">Šios žinutės nepavyko apdoroti, nes ji buvo išsiųsta, naudojant naujesnę Grapherex versiją. Kai atsinaujinsite programėlę, galite paprašyti adresato, kad išsiųstų jums šią žinutę dar kartą.</string>
   <string name="SmsMessageRecord_error_handling_incoming_message">Klaida, apdorojant gaunamą žinutę.</string>
   <!--StickerManagementActivity-->
   <string name="StickerManagementActivity_stickers">Lipdukai</string>
   <!--StickerManagementAdapter-->
   <string name="StickerManagementAdapter_installed_stickers">Įdiegti lipdukai</string>
   <string name="StickerManagementAdapter_stickers_you_received">Jūsų gauti lipdukai</string>
-  <string name="StickerManagementAdapter_signal_artist_series">Signal menininkų serija</string>
+  <string name="StickerManagementAdapter_signal_artist_series">Grapherex menininkų serija</string>
   <string name="StickerManagementAdapter_no_stickers_installed">Nėra jokių įdiegtų lipdukų</string>
   <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">Čia bus rodomi lipdukai iš gaunamų žinučių</string>
   <string name="StickerManagementAdapter_untitled">Be pavadinimo</string>
@@ -1463,8 +1463,8 @@
   <string name="SupportEmailUtil_filter">Filtras:</string>
   <string name="SupportEmailUtil_device_info">Įrenginio informacija:</string>
   <string name="SupportEmailUtil_android_version">Android versija:</string>
-  <string name="SupportEmailUtil_signal_version">Signal versija:</string>
-  <string name="SupportEmailUtil_signal_package">Signal paketas:</string>
+  <string name="SupportEmailUtil_signal_version">Grapherex versija:</string>
+  <string name="SupportEmailUtil_signal_package">Grapherex paketas:</string>
   <string name="SupportEmailUtil_registration_lock">Registracijos užraktas:</string>
   <string name="SupportEmailUtil_locale">Lokalė:</string>
   <!--ThreadRecord-->
@@ -1483,7 +1483,7 @@
   <string name="ThreadRecord_view_once_media">Vienkartinės peržiūros medija</string>
   <string name="ThreadRecord_this_message_was_deleted">Ši žinutė buvo ištrinta.</string>
   <string name="ThreadRecord_you_deleted_this_message">Jūs ištrynėte šią žinutę.</string>
-  <string name="ThreadRecord_s_is_on_signal">%s atėjo į Signal!</string>
+  <string name="ThreadRecord_s_is_on_signal">%s atėjo į Grapherex!</string>
   <string name="ThreadRecord_disappearing_messages_disabled">Išnykstančios žinutės išjungtos</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">Išnykstančių žinučių laikas nustatytas į %s</string>
   <string name="ThreadRecord_safety_number_changed">Saugumo numeris pasikeitė</string>
@@ -1499,8 +1499,8 @@
   <string name="ThreadRecord_video">Vaizdo įrašai</string>
   <string name="ThreadRecord_chat_session_refreshed">Pokalbio seansas atnaujintas</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Signal atnaujinimas</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Yra prieinama nauja Signal versija, bakstelėkite, norėdami atnaujinti</string>
+  <string name="UpdateApkReadyListener_Signal_update">Grapherex atnaujinimas</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Yra prieinama nauja Grapherex versija, bakstelėkite, norėdami atnaujinti</string>
   <!--UntrustedSendDialog-->
   <string name="UntrustedSendDialog_send_message">Siųsti žinutę?</string>
   <string name="UntrustedSendDialog_send">Siųsti</string>
@@ -1519,22 +1519,22 @@
   <string name="UsernameEditFragment_usernames_cannot_begin_with_a_number">Naudotojo vardai negali prasidėti skaitmenimi.</string>
   <string name="UsernameEditFragment_username_is_invalid">Naudotojo vardas yra neteisingas.</string>
   <string name="UsernameEditFragment_usernames_must_be_between_a_and_b_characters">Naudotojo varduose privalo būti nuo %1$d iki %2$d simbolių.</string>
-  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Naudotojo vardai Signal programėlėje yra nebūtini. Jei pasirinksite susikurti naudotojo vardą, kiti Signal naudotojai galės jus rasti pagal tą naudotojo vardą ir susisiekti su jumis, nežinant jūsų telefono numerio.</string>
+  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Naudotojo vardai Grapherex programėlėje yra nebūtini. Jei pasirinksite susikurti naudotojo vardą, kiti Grapherex naudotojai galės jus rasti pagal tą naudotojo vardą ir susisiekti su jumis, nežinant jūsų telefono numerio.</string>
   <plurals name="UserNotificationMigrationJob_d_contacts_are_on_signal">
-    <item quantity="one">%d adresatas naudoja Signal!</item>
-    <item quantity="few">%d adresatai naudoja Signal!</item>
-    <item quantity="many">%d adresatų naudoja Signal!</item>
-    <item quantity="other">%d adresatas naudoja Signal!</item>
+    <item quantity="one">%d adresatas naudoja Grapherex!</item>
+    <item quantity="few">%d adresatai naudoja Grapherex!</item>
+    <item quantity="many">%d adresatų naudoja Grapherex!</item>
+    <item quantity="other">%d adresatas naudoja Grapherex!</item>
   </plurals>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Jūsų adresatas naudoja seną Signal versiją. Prieš patvirtindami savo saugumo numerį, paprašykite, kad jis atnaujintų programėlę.</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Jūsų adresatas naudoja naujesnę Signal versiją su nesuderinamu QR kodo formatu. Norėdami palyginti, atsinaujinkite programėlę.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Jūsų adresatas naudoja seną Grapherex versiją. Prieš patvirtindami savo saugumo numerį, paprašykite, kad jis atnaujintų programėlę.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Jūsų adresatas naudoja naujesnę Grapherex versiją su nesuderinamu QR kodo formatu. Norėdami palyginti, atsinaujinkite programėlę.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Nuskenuotas QR kodas nėra teisingai formatuotas saugumo numerio patvirtinimo kodas. Prašome bandyti skenuoti dar kartą.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Dalintis saugumo numeriu per…</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">Mūsų Signal saugumo numeris:</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">Mūsų Grapherex saugumo numeris:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">Atrodo, kad neturite programėlių su kuriomis dalintis.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Iškarpinėje palyginimui nebuvo rasta jokio saugumo numerio</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Norint skenuoti QR kodą, Signal reikia kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Kamerą“.</string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Norint skenuoti QR kodą, Grapherex reikia kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Kamerą“.</string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">Nepavyksta nuskenuoti QR kodo be kameros leidimo</string>
   <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">Norėdami matyti naudotojo %1$s saugumo numerį, iš pradžių, turite apsikeisti su juo žinutėmis.</string>
   <!--ViewOnceMessageActivity-->
@@ -1553,13 +1553,13 @@
   <string name="ApplicationMigrationService_system_database_import_is_complete">Sistemos duomenų bazės importavimas užbaigtas.</string>
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">Prilieskite, kad atvertumėte.</string>
-  <string name="KeyCachingService_passphrase_cached">Signal yra atrakinta</string>
-  <string name="KeyCachingService_lock">Užrakinti Signal</string>
+  <string name="KeyCachingService_passphrase_cached">Grapherex yra atrakinta</string>
+  <string name="KeyCachingService_lock">Užrakinti Grapherex</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">Jūs</string>
   <string name="MediaPreviewActivity_unssuported_media_type">Nepalaikomas medijos tipas</string>
   <string name="MediaPreviewActivity_draft">Juodraštis</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Norint įrašyti į išorinę saugyklą, Signal reikia saugyklos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Saugyklą“.</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Norint įrašyti į išorinę saugyklą, Grapherex reikia saugyklos leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Saugyklą“.</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Nepavyksta įrašyti į išorinę saugyklą be leidimų</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">Ištrinti žinutę?</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">Tai visiems laikams ištrins šią žinutę.</string>
@@ -1579,10 +1579,10 @@
   <string name="MessageNotifier_view_once_photo">Vienkartinės peržiūros nuotrauka</string>
   <string name="MessageNotifier_view_once_video">Vienkartinės peržiūros vaizdo įrašas</string>
   <string name="MessageNotifier_reply">Atsakyti</string>
-  <string name="MessageNotifier_signal_message">Signal žinutė</string>
+  <string name="MessageNotifier_signal_message">Grapherex žinutė</string>
   <string name="MessageNotifier_unsecured_sms">Neapsaugota SMS</string>
   <string name="MessageNotifier_you_may_have_new_messages">Gali būti, kad gavote naujų žinučių</string>
-  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Atverkite Signal, norėdami patikrinti paskiausius pranešimus.</string>
+  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Atverkite Grapherex, norėdami patikrinti paskiausius pranešimus.</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Adresatas</string>
   <string name="MessageNotifier_reacted_s_to_s">Sureagavo %1$s į: „%2$s“.</string>
@@ -1593,7 +1593,7 @@
   <string name="MessageNotifier_reacted_s_to_your_view_once_media">Sureagavo į jūsų vienkartinės peržiūros mediją: %1$s</string>
   <string name="MessageNotifier_reacted_s_to_your_sticker">Sureagavo į jūsų lipduką: %1$s.</string>
   <string name="MessageNotifier_this_message_was_deleted">Ši žinutė buvo ištrinta.</string>
-  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Išjungti pranešimus apie tai, kad adresatai prisijungė prie Signal? Galėsite ir vėl įjungti šiuos pranešimus, perėję į Signal &gt; Nustatymai &gt; Pranešimai.</string>
+  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Išjungti pranešimus apie tai, kad adresatai prisijungė prie Grapherex? Galėsite ir vėl įjungti šiuos pranešimus, perėję į Grapherex &gt; Nustatymai &gt; Pranešimai.</string>
   <!--Notification Channels-->
   <string name="NotificationChannel_channel_messages">Žinutės</string>
   <string name="NotificationChannel_calls">Skambučiai</string>
@@ -1605,10 +1605,10 @@
   <string name="NotificationChannel_group_chats">Pokalbiai</string>
   <string name="NotificationChannel_missing_display_name">Nežinoma</string>
   <string name="NotificationChannel_voice_notes">Balso pastabos</string>
-  <string name="NotificationChannel_contact_joined_signal">Adresatas prisijungė prie Signal</string>
+  <string name="NotificationChannel_contact_joined_signal">Adresatas prisijungė prie Grapherex</string>
   <!--ProfileEditNameFragment-->
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Spartusis atsakymas neprieinamas, kai Signal yra užrakinta!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Spartusis atsakymas neprieinamas, kai Grapherex yra užrakinta!</string>
   <string name="QuickResponseService_problem_sending_message">Problemos siunčiant žinutę!</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">Įrašyta į %s</string>
@@ -1619,7 +1619,7 @@
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">Neteisingas šaukinys</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">Grapherex</string>
   <string name="SingleRecipientNotificationBuilder_new_message">Nauja žinutė</string>
   <!--ThumbnailView-->
   <string name="ThumbnailView_Play_video_description">Atkurti vaizdo įrašą</string>
@@ -1633,10 +1633,10 @@
   </plurals>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">Įrenginys daugiau nebėra registruotas</string>
-  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Tai yra tikėtina, nes registravote savo telefono numerį su Signal kitame įrenginyje. Bakstelėkite, norėdami registruoti iš naujo.</string>
+  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Tai yra tikėtina, nes registravote savo telefono numerį su Grapherex kitame įrenginyje. Bakstelėkite, norėdami registruoti iš naujo.</string>
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Norėdami atsiliepti į skambutį nuo %s, suteikite Signal prieigą prie mikrofono.</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Norint skambinti ar gauti skambučius, Signal reikia mikrofono ir kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Mikrofoną“ ir „Kamerą“.</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Norėdami atsiliepti į skambutį nuo %s, suteikite Grapherex prieigą prie mikrofono.</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Norint skambinti ar gauti skambučius, Grapherex reikia mikrofono ir kameros leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „Mikrofoną“ ir „Kamerą“.</string>
   <string name="WebRtcCallActivity__answered_on_a_linked_device">Atsiliepta susietame įrenginyje.</string>
   <string name="WebRtcCallActivity__declined_on_a_linked_device">Atmesta susietame įrenginyje.</string>
   <string name="WebRtcCallActivity__busy_on_a_linked_device">Užimta susietame įrenginyje.</string>
@@ -1660,7 +1660,7 @@
   <string name="change_passphrase_activity__repeat_new_passphrase">Pakartokite naują slaptafrazę</string>
   <!--contact_selection_activity-->
   <string name="contact_selection_activity__enter_name_or_number">Įveskite vardą ar numerį</string>
-  <string name="contact_selection_activity__invite_to_signal">Pakviesti į Signal</string>
+  <string name="contact_selection_activity__invite_to_signal">Pakviesti į Grapherex</string>
   <string name="contact_selection_activity__new_group">Nauja grupė</string>
   <!--contact_filter_toolbar-->
   <string name="contact_filter_toolbar__clear_entered_text_description">Išvalyti įvestą tekstą</string>
@@ -1672,15 +1672,15 @@
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">Adresato nuotrauka</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Norint rodyti jūsų adresatus, Signal reikia adresatų leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Adresatus“.</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Norint rodyti jūsų adresatus, Grapherex reikia adresatų leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymų meniu, pasirinkite „Leidimai“ ir įjunkite „Adresatus“.</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Klaida gaunant adresatus, patikrinkite tinklo ryšį</string>
   <string name="ContactSelectionListFragment_username_not_found">Naudotojo vardas nerastas</string>
-  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">„%1$s“ nėra Signal naudotojas. Patikrinkite naudotojo vardą ir bandykite dar kartą.</string>
+  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">„%1$s“ nėra Grapherex naudotojas. Patikrinkite naudotojo vardą ir bandykite dar kartą.</string>
   <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">Jums nereikia pridėti save į grupę</string>
   <string name="ContactSelectionListFragment_maximum_group_size_reached">Pasiektas didžiausias grupės dydis</string>
-  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Signal grupėse gali būti daugiausiai %1$d narių.</string>
+  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Grapherex grupėse gali būti daugiausiai %1$d narių.</string>
   <string name="ContactSelectionListFragment_recommended_member_limit_reached">Pasiekta rekomenduojamo narių skaičiaus riba</string>
-  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Signal grupės geriausiai veikia, kai jose yra %1$d ar mažiau narių. Pridėjus daugiau narių, žinučių išsiuntimas ir gavimas bus uždelsiamas.</string>
+  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Grapherex grupės geriausiai veikia, kai jose yra %1$d ar mažiau narių. Pridėjus daugiau narių, žinučių išsiuntimas ir gavimas bus uždelsiamas.</string>
   <plurals name="ContactSelectionListFragment_d_members">
     <item quantity="one">%1$d narys</item>
     <item quantity="few">%1$d nariai</item>
@@ -1688,7 +1688,7 @@
     <item quantity="other">%1$d narys</item>
   </plurals>
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Norint rodyti jūsų adresatus, Signal reikia prieigos prie jų.</string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Norint rodyti jūsų adresatus, Grapherex reikia prieigos prie jų.</string>
   <string name="contact_selection_list_fragment__show_contacts">Rodyti adresatus</string>
   <!--contact_selection_list_item-->
   <plurals name="contact_selection_list_item__number_of_members">
@@ -1698,7 +1698,7 @@
     <item quantity="other">%1$d narys</item>
   </plurals>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">Signal žinutė</string>
+  <string name="conversation_activity__type_message_push">Grapherex žinutė</string>
   <string name="conversation_activity__type_message_sms_insecure">Neapsaugota SMS</string>
   <string name="conversation_activity__type_message_mms_insecure">Neapsaugota MMS</string>
   <string name="conversation_activity__from_sim_name">Nuo %1$s</string>
@@ -1710,7 +1710,7 @@
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">Perjungti sparčiosios kameros priedų stalčių</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">Įrašyti ir siųsti garso įrašo priedą</string>
   <string name="conversation_activity__quick_attachment_drawer_lock_record_description">Užrakinti garso įrašo priedo įrašymą</string>
-  <string name="conversation_activity__enable_signal_for_sms">Naudoti Signal SMS žinutėms</string>
+  <string name="conversation_activity__enable_signal_for_sms">Naudoti Grapherex SMS žinutėms</string>
   <string name="conversation_activity__message_could_not_be_sent">Nepavyko išsiųsti žinutės. Patikrinkite savo ryšį ir bandykite dar kartą.</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">Perbraukite, norėdami atsisakyti</string>
@@ -1813,9 +1813,9 @@
   <string name="IdentityUtil_unverified_banner_one">Jūsų saugumo numeris su %s pasikeitė ir yra daugiau nebepatvirtintas</string>
   <string name="IdentityUtil_unverified_banner_two">Jūsų saugumo numeriai su %1$s ir %2$s yra daugiau nebepatvirtinti</string>
   <string name="IdentityUtil_unverified_banner_many">Jūsų saugumo numeriai su %1$s, %2$s ir %3$s yra daugiau nebepatvirtinti</string>
-  <string name="IdentityUtil_unverified_dialog_one">Jūsų saugumo numeris su %1$s pasikeitė ir yra daugiau nebepatvirtintas. Tai gali reikšti, kad kažkas bando perimti jūsų susirašinėjimą arba, tiesiog, kad %1$s iš naujo įdiegė Signal.</string>
-  <string name="IdentityUtil_unverified_dialog_two">Jūsų saugumo numeriai su %1$s ir %2$s daugiau nebėra patvirtinti. Tai gali reikšti, kad kažkas bando perimti jūsų susirašinėjimą arba, tiesiog, kad šie adresatai iš naujo įdiegė Signal.</string>
-  <string name="IdentityUtil_unverified_dialog_many">Jūsų saugumo numeriai su %1$s, %2$s ir %3$s daugiau nebėra patvirtinti. Tai gali reikšti, kad kažkas bando perimti jūsų susirašinėjimą arba, tiesiog, kad šie adresatai iš naujo įdiegė Signal.</string>
+  <string name="IdentityUtil_unverified_dialog_one">Jūsų saugumo numeris su %1$s pasikeitė ir yra daugiau nebepatvirtintas. Tai gali reikšti, kad kažkas bando perimti jūsų susirašinėjimą arba, tiesiog, kad %1$s iš naujo įdiegė Grapherex.</string>
+  <string name="IdentityUtil_unverified_dialog_two">Jūsų saugumo numeriai su %1$s ir %2$s daugiau nebėra patvirtinti. Tai gali reikšti, kad kažkas bando perimti jūsų susirašinėjimą arba, tiesiog, kad šie adresatai iš naujo įdiegė Grapherex.</string>
+  <string name="IdentityUtil_unverified_dialog_many">Jūsų saugumo numeriai su %1$s, %2$s ir %3$s daugiau nebėra patvirtinti. Tai gali reikšti, kad kažkas bando perimti jūsų susirašinėjimą arba, tiesiog, kad šie adresatai iš naujo įdiegė Grapherex.</string>
   <string name="IdentityUtil_untrusted_dialog_one">Jūsų saugumo numeris su %s ką tik pasikeitė.</string>
   <string name="IdentityUtil_untrusted_dialog_two">Jūsų saugumo numeriai su %1$s ir %2$s ką tik pasikeitė.</string>
   <string name="IdentityUtil_untrusted_dialog_many">Jūsų saugumo numeriai su %1$s, %2$s ir %3$s ką tik pasikeitė.</string>
@@ -1832,7 +1832,7 @@
   <!--log_submit_activity-->
   <string name="log_submit_activity__this_log_will_be_posted_online">Šis žurnalas bus viešai paskelbtas internete talkininkams peržiūrėti, prieš jį pateikdami, galite jį išnagrinėti ir redaguoti .</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Ar norėtumėte importuoti savo esamas tekstines žinutes į užšifruotą Signal duomenų bazę?</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Ar norėtumėte importuoti savo esamas tekstines žinutes į užšifruotą Grapherex duomenų bazę?</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">Numatytoji sistemos duomenų bazė jokiu būdu nebus pakeista ar modifikuota.</string>
   <string name="database_migration_activity__skip">Praleisti</string>
   <string name="database_migration_activity__import">Importuoti</string>
@@ -1857,7 +1857,7 @@
   <!--prompt_passphrase_activity-->
   <string name="prompt_passphrase_activity__unlock">Atrakinti</string>
   <!--prompt_mms_activity-->
-  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Tam, kad pristatytų mediją ir grupės žinutes per jūsų belaidį tiekėją, Signal reikalauja MMS nustatymų. Jūsų įrenginys nepadaro šios informacijos prieinamos, kas, dažniausiai, pasitvirtina užrakintiems įrenginiams ir ribotoms konfigūracijoms.</string>
+  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Tam, kad pristatytų mediją ir grupės žinutes per jūsų belaidį tiekėją, Grapherex reikalauja MMS nustatymų. Jūsų įrenginys nepadaro šios informacijos prieinamos, kas, dažniausiai, pasitvirtina užrakintiems įrenginiams ir ribotoms konfigūracijoms.</string>
   <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">Norėdami siųsti mediją ir grupės žinutes, bakstelėkite „Gerai“ ir užbaikite užklaustus nustatymus. Įprastai, jūsų tiekėjo MMS nustatymus galima rasti, ieškant „jūsų tiekėjas APN“. Jums reikės tai atlikti tik vieną kartą.</string>
   <!--profile_create_activity-->
   <string name="CreateProfileActivity_first_name_required">Vardas (būtinas)</string>
@@ -1891,7 +1891,7 @@
   <!--recipients_panel-->
   <string name="recipients_panel__to"><small>Įveskite vardą ar numerį</small></string>
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Jeigu norite patvirtinti savo šifravimo su %s saugumą, palyginkite aukščiau esantį numerį su numeriu šio adresato įrenginyje. Arba kitu atveju, galite nuskenuoti kodą jo telefone arba paprašyti adresato, kad nuskenuotų jūsų kodą. <a href="https://signal.org/redirect/safety-numbers">Sužinokite daugiau.</a>]]></string>
+  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Jeigu norite patvirtinti savo šifravimo su %s saugumą, palyginkite aukščiau esantį numerį su numeriu šio adresato įrenginyje. Arba kitu atveju, galite nuskenuoti kodą jo telefone arba paprašyti adresato, kad nuskenuotų jūsų kodą. <a href="https://Grapherex.org/redirect/safety-numbers">Sužinokite daugiau.</a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">Bakstelėkite, norėdami nuskenuoti</string>
   <string name="verify_display_fragment__loading">Įkeliama…</string>
   <string name="verify_display_fragment__verified">Patvirtinta(-s)</string>
@@ -1942,7 +1942,7 @@
   <string name="HelpFragment__how_do_you_feel">Kaip jaučiatės? (Nebūtina)</string>
   <string name="HelpFragment__tell_us_why_youre_reaching_out">Papasakokite, kodėl su mumis susisiekėte.</string>
   <string name="HelpFragment__support_info">Palaikymo informacija</string>
-  <string name="HelpFragment__signal_android_support_request">Signal Android palaikymo užklausa</string>
+  <string name="HelpFragment__signal_android_support_request">Grapherex Android palaikymo užklausa</string>
   <string name="HelpFragment__debug_log">Derinimo žurnalas:</string>
   <string name="HelpFragment__could_not_upload_logs">Nepavyko atnaujinti žurnalų</string>
   <string name="HelpFragment__please_be_as_descriptive_as_possible">Kaip įmanoma išsamiau aprašykite problemą, kad lengviau ją suprastume.</string>
@@ -2003,8 +2003,8 @@
   <string name="preferences__sms_mms">SMS ir MMS</string>
   <string name="preferences__pref_all_sms_title">Gauti visas SMS</string>
   <string name="preferences__pref_all_mms_title">Gauti visas MMS</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Naudoti Signal visoms gaunamosioms tekstinėms žinutėms</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Naudoti Signal visoms gaunamosioms multimedijos žinutėms</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Naudoti Grapherex visoms gaunamosioms tekstinėms žinutėms</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Naudoti Grapherex visoms gaunamosioms multimedijos žinutėms</string>
   <string name="preferences__pref_enter_sends_title">„Enter“ (Įvedimo) klavišas išsiunčia</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">„Enter“ (Įvedimo) klavišo paspaudimas išsiųs tekstines žinutes</string>
   <string name="preferences__pref_use_address_book_photos">Naudoti adresų knygos nuotraukas</string>
@@ -2019,7 +2019,7 @@
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Užrakinti ekraną ir pranešimus, naudojant slaptafrazę</string>
   <string name="preferences__screen_security">Ekrano saugumas</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">Blokuoti ekrano kopijas paskiausiųjų sąraše ir programėlės viduje</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Automatiškai užrakinti Signal po nurodyto neveiklumo laiko intervalo</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Automatiškai užrakinti Grapherex po nurodyto neveiklumo laiko intervalo</string>
   <string name="preferences__inactivity_timeout_passphrase">Slaptafrazė po neveiklumui skirto laiko</string>
   <string name="preferences__inactivity_timeout_interval">Neveiklumui skirtas laiko intervalas</string>
   <string name="preferences__notifications">Pranešimai</string>
@@ -2050,7 +2050,7 @@
   <string name="preferences__slow">Lėtas</string>
   <string name="preferences__help">Pagalba</string>
   <string name="preferences__advanced">Išplėstiniai</string>
-  <string name="preferences__donate_to_signal">Paaukokite Signal programėlei</string>
+  <string name="preferences__donate_to_signal">Paaukokite Grapherex programėlei</string>
   <string name="preferences__privacy">Privatumas</string>
   <string name="preferences__mms_user_agent">MMS naudotojo agentas</string>
   <string name="preferences__advanced_mms_access_point_names">Rankiniai MMS nustatymai</string>
@@ -2076,13 +2076,13 @@
   <string name="preferences__chat_wallpaper">Pokalbio fonas</string>
   <string name="preferences__disable_pin">Išjungti PIN kodą</string>
   <string name="preferences__enable_pin">Įjungti PIN kodą</string>
-  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">Jei išjungsite PIN kodą, tuomet registruodamiesi iš naujo Signal programėlėje, prarasite visus duomenis, nebent rankiniu būdu pasidarysite atsarginę kopiją ir ją atkursite. Tol, kol PIN kodas yra išjungtas, negalėsite įjungti Registracijos užrakto.</string>
-  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN kodai šifruotu pavidalu saugo informaciją, kuri yra laikoma Signal programėlėje, taigi, tik jūs galite gauti prieigą prie jos. Jums įdiegus Signal iš naujo, jūsų profilis, nustatymai ir adresatai bus atkurti. Norint atverti programėlę jums nereikės įvesti PIN kodo.</string>
+  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">Jei išjungsite PIN kodą, tuomet registruodamiesi iš naujo Grapherex programėlėje, prarasite visus duomenis, nebent rankiniu būdu pasidarysite atsarginę kopiją ir ją atkursite. Tol, kol PIN kodas yra išjungtas, negalėsite įjungti Registracijos užrakto.</string>
+  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN kodai šifruotu pavidalu saugo informaciją, kuri yra laikoma Grapherex programėlėje, taigi, tik jūs galite gauti prieigą prie jos. Jums įdiegus Grapherex iš naujo, jūsų profilis, nustatymai ir adresatai bus atkurti. Norint atverti programėlę jums nereikės įvesti PIN kodo.</string>
   <string name="preferences__system_default">Sistemos numatytoji</string>
   <string name="preferences__language">Kalba</string>
-  <string name="preferences__signal_messages_and_calls">Signal žinutės ir skambučiai</string>
+  <string name="preferences__signal_messages_and_calls">Grapherex žinutės ir skambučiai</string>
   <string name="preferences__advanced_pin_settings">Išplėstiniai PIN kodo nustatymai</string>
-  <string name="preferences__free_private_messages_and_calls">Nemokamos privačios žinutės ir skambučiai Signal naudotojams</string>
+  <string name="preferences__free_private_messages_and_calls">Nemokamos privačios žinutės ir skambučiai Grapherex naudotojams</string>
   <string name="preferences__submit_debug_log">Pateikti derinimo žurnalą</string>
   <string name="preferences__delete_account">Ištrinti paskyrą</string>
   <string name="preferences__support_wifi_calling">„Wi-Fi skambučių“ suderinamumo veiksena</string>
@@ -2121,8 +2121,8 @@
   <string name="preferences_storage__s_messages">%1$s žinučių</string>
   <string name="preferences_storage__custom">Tinkintai</string>
   <string name="preferences_advanced__use_system_emoji">Naudoti sistemos jaustukus</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Išjungti Signal įtaisytą jaustukų palaikymą</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Retransliuoti visus skambučius per Signal serverį, kad būtų išvengta jūsų IP adreso atskleidimo jūsų adresatui. Įjungus, pablogės skambučių kokybė.</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Išjungti Grapherex įtaisytą jaustukų palaikymą</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Retransliuoti visus skambučius per Grapherex serverį, kad būtų išvengta jūsų IP adreso atskleidimo jūsų adresatui. Įjungus, pablogės skambučių kokybė.</string>
   <string name="preferences_advanced__always_relay_calls">Visada retransliuoti skambučius</string>
   <string name="preferences_app_protection__who_can">Kas gali…</string>
   <string name="preferences_app_protection__app_access">Programėlės prieiga</string>
@@ -2142,9 +2142,9 @@
   <string name="preferences_notifications__calls">Skambučiai</string>
   <string name="preferences_notifications__ringtone">Skambučio melodija</string>
   <string name="preferences_chats__show_invitation_prompts">Rodyti pakvietimų užklausas</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Rodyti pakvietimų užklausas adresatams, kurie neturi Signal</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Rodyti pakvietimų užklausas adresatams, kurie neturi Grapherex</string>
   <string name="preferences_chats__message_text_size">Žinučių šrifto dydis</string>
-  <string name="preferences_events__contact_joined_signal">Adresatas prisijungė prie Signal</string>
+  <string name="preferences_events__contact_joined_signal">Adresatas prisijungė prie Grapherex</string>
   <string name="preferences_notifications__priority">Pirmenybė</string>
   <string name="preferences_communication__category_sealed_sender">Užantspauduotas siuntėjas</string>
   <string name="preferences_communication__sealed_sender_display_indicators">Rodyti indikatorius</string>
@@ -2158,7 +2158,7 @@
   <string name="preferences_off">Išjungta</string>
   <string name="preferences_on">Įjungta</string>
   <string name="preferences_proxy_address">Įgaliotojo serverio adresas</string>
-  <string name="preferences_only_use_a_proxy_if">Naudoti įgaliotąjį serverį tik tuo atveju, jei nepavyksta prisijungti prie Signal naudojant mobilųjį ar belaidį (Wi-Fi) ryšį.</string>
+  <string name="preferences_only_use_a_proxy_if">Naudoti įgaliotąjį serverį tik tuo atveju, jei nepavyksta prisijungti prie Grapherex naudojant mobilųjį ar belaidį (Wi-Fi) ryšį.</string>
   <string name="preferences_share">Bendrinti</string>
   <string name="preferences_save">Įrašyti</string>
   <string name="preferences_connecting_to_proxy">Jungiamasi prie įgaliotojo serverio…</string>
@@ -2201,17 +2201,17 @@
   <string name="PaymentsHomeFragment__payments_is_not_available_in_your_region">Mokėjimai yra neprieinami jūsų regione.</string>
   <string name="PaymentsHomeFragment__could_not_enable_payments">Nepavyko įjungti mokėjimų. Vėliau bandykite dar kartą.</string>
   <string name="PaymentsHomeFragment__deactivate_payments_question">Pasyvinti mokėjimus?</string>
-  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Pasyvinę mokėjimus, negalėsite Signal programėlėje siųsti ar gauti „MobileCoin“ valiutą.</string>
+  <string name="PaymentsHomeFragment__you_will_not_be_able_to_send">Pasyvinę mokėjimus, negalėsite Grapherex programėlėje siųsti ar gauti „MobileCoin“ valiutą.</string>
   <string name="PaymentsHomeFragment__deactivate">Pasyvinti</string>
   <string name="PaymentsHomeFragment__continue">Tęsti</string>
   <string name="PaymentsHomeFragment__balance_is_not_currently_available">Šiuo metu likutis neprieinamas.</string>
   <string name="PaymentsHomeFragment__payments_deactivated">Mokėjimai yra pasyvinti.</string>
   <string name="PaymentsHomeFragment__payment_failed">Mokėjimas patyrė nesėkmę</string>
   <string name="PaymentsHomeFragment__details">Išsamesnė informacija</string>
-  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">Galite naudoti Signal, kad siųstumėte ir gautumėte „MobileCoin“ valiutą. Visiems mokėjimams taikomos sąlygos, aprėpiančios naudojimąsi „MobileCoins“ valiuta ir „MobileCoin“ pinigine. Tai yra beta ypatybė, todėl galite susidurti su kai kuriomis problemomis, o jūsų prarastų mokėjimų ir likučių negalima bus atkurti. </string>
+  <string name="PaymentsHomeFragment__you_can_use_signal_to_send">Galite naudoti Grapherex, kad siųstumėte ir gautumėte „MobileCoin“ valiutą. Visiems mokėjimams taikomos sąlygos, aprėpiančios naudojimąsi „MobileCoins“ valiuta ir „MobileCoin“ pinigine. Tai yra beta ypatybė, todėl galite susidurti su kai kuriomis problemomis, o jūsų prarastų mokėjimų ir likučių negalima bus atkurti. </string>
   <string name="PaymentsHomeFragment__activate">Aktyvuoti</string>
   <string name="PaymentsHomeFragment__view_mobile_coin_terms">Rodyti „MobileCoin“ sąlygas</string>
-  <string name="PaymentsHomeFragment__payments_not_available">Mokėjimai Signal programėlėje daugiau nebeprieinami. Jūs vis dar galite pervesti lėšas į valiutos keitimo punktą, bet nebegalite siųsti ir gauti mokėjimų ar pridėti lėšų.</string>
+  <string name="PaymentsHomeFragment__payments_not_available">Mokėjimai Grapherex programėlėje daugiau nebeprieinami. Jūs vis dar galite pervesti lėšas į valiutos keitimo punktą, bet nebegalite siųsti ir gauti mokėjimų ar pridėti lėšų.</string>
   <!--PaymentsAddMoneyFragment-->
   <string name="PaymentsAddMoneyFragment__add_funds">Pridėti lėšų</string>
   <string name="PaymentsAddMoneyFragment__your_wallet_address">Jūsų piniginės adresas</string>
@@ -2242,8 +2242,8 @@
   <string name="PaymentsTransferFragment__you_can_transfer">Galite pervesti „MobileCoin“ valiutą, užbaigdami pervedimą į valiutos keitimo punkto pateiktą piniginės adresą. Piniginės adresas yra skaitmenų ir raidžių eilutė, kuri, įprastai, būna po QR kodu.</string>
   <string name="PaymentsTransferFragment__next">Kitas</string>
   <string name="PaymentsTransferFragment__invalid_address">Neteisingas adresas</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Norint nuskenuoti QR kodą, Signal reikia prieigos prie kameros.</string>
-  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Norint nuskenuoti QR kodą, Signal reikia prieigos prie kameros.</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs">Norint nuskenuoti QR kodą, Grapherex reikia prieigos prie kameros.</string>
+  <string name="PaymentsTransferFragment__to_scan_a_qr_code_signal_needs_access_to_the_camera">Norint nuskenuoti QR kodą, Grapherex reikia prieigos prie kameros.</string>
   <string name="PaymentsTransferFragment__settings">Nustatymai</string>
   <!--PaymentsTransferQrScanFragment-->
   <string name="PaymentsTransferQrScanFragment__scan_address_qr_code">Skenuoti adreso QR kodą</string>
@@ -2299,8 +2299,8 @@
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">Skambinti</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Signal skambutis</string>
-  <string name="conversation_callable_secure__menu_video">Signal vaizdo skambutis</string>
+  <string name="conversation_callable_secure__menu_call">Grapherex skambutis</string>
+  <string name="conversation_callable_secure__menu_video">Grapherex vaizdo skambutis</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">Žinutės informacija</string>
   <string name="conversation_context__menu_copy_text">Kopijuoti tekstą</string>
@@ -2372,10 +2372,10 @@
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">Palyginti su iškarpine</string>
   <!--reminder_header-->
   <string name="reminder_header_sms_import_title">Importuoti sistemos SMS</string>
-  <string name="reminder_header_sms_import_text">Bakstelėkite, kad nukopijuotumėte savo telefono SMS į Signal šifruotą duomenų bazę.</string>
-  <string name="reminder_header_push_title">Įjungti Signal skambučius ir žinutes</string>
+  <string name="reminder_header_sms_import_text">Bakstelėkite, kad nukopijuotumėte savo telefono SMS į Grapherex šifruotą duomenų bazę.</string>
+  <string name="reminder_header_push_title">Įjungti Grapherex skambučius ir žinutes</string>
   <string name="reminder_header_push_text">Atnaujinkite savo bendravimo patyrimą.</string>
-  <string name="reminder_header_service_outage_text">Signal patiria techninius nesklandumus. Mes sunkiai dirbame, kad kaip įmanoma greičiau atkurtume paslaugą.</string>
+  <string name="reminder_header_service_outage_text">Grapherex patiria techninius nesklandumus. Mes sunkiai dirbame, kad kaip įmanoma greičiau atkurtume paslaugą.</string>
   <string name="reminder_header_progress">%1$d%%</string>
   <!--media_preview-->
   <string name="media_preview__save_title">Įrašyti</string>
@@ -2391,20 +2391,20 @@
   <string name="Insights__percent">%</string>
   <string name="Insights__title">Įžvalgos</string>
   <string name="InsightsDashboardFragment__title">Įžvalgos</string>
-  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Per pastarąsias %2$d d. Signal protokolas automatiškai apsaugojo %1$d%% jūsų išsiunčiamų žinučių. Pokalbiai tarp Signal naudotojų yra visada šifruoti ištisiniu būdu.</string>
+  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">Per pastarąsias %2$d d. Grapherex protokolas automatiškai apsaugojo %1$d%% jūsų išsiunčiamų žinučių. Pokalbiai tarp Grapherex naudotojų yra visada šifruoti ištisiniu būdu.</string>
   <string name="InsightsDashboardFragment__boost_your_signal">Apsaugokite daugiau pokalbių</string>
   <string name="InsightsDashboardFragment__not_enough_data">Trūksta duomenų</string>
   <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">Jūsų įžvalgų procentinė dalis yra apskaičiuojama remiantis per pastarąsias %1$d d. išsiunčiamų žinučių, kurios neišnyko ir nebuvo ištrintos, skaičiumi.</string>
   <string name="InsightsDashboardFragment__start_a_conversation">Pradėti pokalbį</string>
-  <string name="InsightsDashboardFragment__invite_your_contacts">Nuo šiol, pakvietę daugiau adresatų naudotis Signal, bendraukite saugiai ir įjunkite naujas ypatybes, kurios viršija nešifruotų SMS žinučių apribojimus.</string>
+  <string name="InsightsDashboardFragment__invite_your_contacts">Nuo šiol, pakvietę daugiau adresatų naudotis Grapherex, bendraukite saugiai ir įjunkite naujas ypatybes, kurios viršija nešifruotų SMS žinučių apribojimus.</string>
   <string name="InsightsDashboardFragment__this_stat_was_generated_locally">Ši statistika buvo sugeneruota jūsų įrenginyje ir ją galite matyti tik jūs. Ji niekada nėra niekur persiunčiama.</string>
   <string name="InsightsDashboardFragment__encrypted_messages">Šifruotos žinutės</string>
   <string name="InsightsDashboardFragment__cancel">Atsisakyti</string>
   <string name="InsightsDashboardFragment__send">Siųsti</string>
   <string name="InsightsModalFragment__title">Pristatome įžvalgas</string>
-  <string name="InsightsModalFragment__description">Sužinokite kiek iš jūsų išsiunčiamų žinučių buvo išsiųsta saugiai, o tuomet greitai pakvieskite naujus adresatus, kad padidintumėte savo Signal procentinę dalį.</string>
+  <string name="InsightsModalFragment__description">Sužinokite kiek iš jūsų išsiunčiamų žinučių buvo išsiųsta saugiai, o tuomet greitai pakvieskite naujus adresatus, kad padidintumėte savo Grapherex procentinę dalį.</string>
   <string name="InsightsModalFragment__view_insights">Rodyti įžvalgas</string>
-  <string name="FirstInviteReminder__title">Pakviesti į Signal</string>
+  <string name="FirstInviteReminder__title">Pakviesti į Grapherex</string>
   <string name="FirstInviteReminder__description">Jūs galėtumėte %1$d%% padidinti siunčiamų šifruotų žinučių skaičių</string>
   <string name="SecondInviteReminder__title">Apsaugokite daugiau pokalbių</string>
   <string name="SecondInviteReminder__description">Pakviesti %1$s</string>
@@ -2431,7 +2431,7 @@
   <string name="CreateKbsPinFragment__create_a_new_pin">Sukurti naują PIN kodą</string>
   <string name="CreateKbsPinFragment__you_can_choose_a_new_pin_as_long_as_this_device_is_registered">Kol šis įrenginys yra registruotas, galite keisti savo PIN kodą.</string>
   <string name="CreateKbsPinFragment__create_your_pin">Susikurti PIN kodą</string>
-  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">PIN kodai šifruotu pavidalu saugo informaciją, kuri yra laikoma Signal programėlėje, taigi, tik jūs galite gauti prieigą prie jos. Jums įdiegus Signal iš naujo, jūsų profilis, nustatymai ir adresatai bus atkurti. Norint atverti programėlę jums nereikės įvesti PIN kodo.</string>
+  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">PIN kodai šifruotu pavidalu saugo informaciją, kuri yra laikoma Grapherex programėlėje, taigi, tik jūs galite gauti prieigą prie jos. Jums įdiegus Grapherex iš naujo, jūsų profilis, nustatymai ir adresatai bus atkurti. Norint atverti programėlę jums nereikės įvesti PIN kodo.</string>
   <string name="CreateKbsPinFragment__choose_a_stronger_pin">Pasirinkite stipresnį PIN kodą</string>
   <!--ConfirmKbsPinFragment-->
   <string name="ConfirmKbsPinFragment__pins_dont_match">PIN kodai nesutampa. Bandykite dar kartą.</string>
@@ -2443,7 +2443,7 @@
   <string name="ConfirmKbsPinFragment__creating_pin">Kuriamas PIN kodas…</string>
   <!--KbsSplashFragment-->
   <string name="KbsSplashFragment__introducing_pins">Pristatome PIN kodus</string>
-  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN kodai šifruotu pavidalu saugo informaciją, kuri yra laikoma Signal programėlėje, taigi, tik jūs galite gauti prieigą prie jos. Jums įdiegus Signal iš naujo, jūsų profilis, nustatymai ir adresatai bus atkurti. Norint atverti programėlę jums nereikės įvesti PIN kodo.</string>
+  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN kodai šifruotu pavidalu saugo informaciją, kuri yra laikoma Grapherex programėlėje, taigi, tik jūs galite gauti prieigą prie jos. Jums įdiegus Grapherex iš naujo, jūsų profilis, nustatymai ir adresatai bus atkurti. Norint atverti programėlę jums nereikės įvesti PIN kodo.</string>
   <string name="KbsSplashFragment__learn_more">Sužinoti daugiau</string>
   <string name="KbsSplashFragment__registration_lock_equals_pin">Registracijos užraktas = PIN kodas</string>
   <string name="KbsSplashFragment__your_registration_lock_is_now_called_a_pin">Dabar, registracijos užraktas yra vadinamas PIN kodu ir jis atlieka daugiau. Atnaujinkite jį dabar.</string>
@@ -2452,7 +2452,7 @@
   <string name="KbsSplashFragment__learn_more_about_pins">Sužinokite daugiau apie PIN kodus</string>
   <string name="KbsSplashFragment__disable_pin">Išjungti PIN kodą</string>
   <!--KBS Reminder Dialog-->
-  <string name="KbsReminderDialog__enter_your_signal_pin">Įveskite savo Signal PIN kodą</string>
+  <string name="KbsReminderDialog__enter_your_signal_pin">Įveskite savo Grapherex PIN kodą</string>
   <string name="KbsReminderDialog__to_help_you_memorize_your_pin">Tam, kad įsimintumėte savo PIN kodą, mes periodiškai prašysime jį įvesti. Bėgant laikui, mes tai darysime rečiau.</string>
   <string name="KbsReminderDialog__skip">Praleisti</string>
   <string name="KbsReminderDialog__submit">Pateikti</string>
@@ -2473,8 +2473,8 @@
   <string name="RegistrationLockFragment__incorrect_pin">Neteisingas PIN</string>
   <string name="RegistrationLockFragment__forgot_your_pin">Užmiršote savo PIN kodą?</string>
   <string name="RegistrationLockFragment__not_many_tries_left">Liko tik keli bandymai!</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Signal registracija - Reikia pagalbos su PIN kodu Android įrenginyje (v1 PIN)</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Signal registracija - Reikia pagalbos su PIN kodu Android įrenginyje (v2 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Grapherex registracija - Reikia pagalbos su PIN kodu Android įrenginyje (v1 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Grapherex registracija - Reikia pagalbos su PIN kodu Android įrenginyje (v2 PIN)</string>
   <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
     <item quantity="one">Dėl jūsų privatumo ir saugumo, nėra jokio būdo atkurti savo PIN kodą. Jei negalėsite prisiminti savo PIN kodą, po %1$d dienos neveiklumo galėsite jį iš naujo patvirtinti naudodami SMS žinutę. Tokiu atveju jūsų paskyra bus išvalyta, o visas turinys ištrintas.</item>
     <item quantity="few">Dėl jūsų privatumo ir saugumo, nėra jokio būdo atkurti savo PIN kodą. Jei negalėsite prisiminti savo PIN kodą, po %1$d dienų neveiklumo galėsite jį iš naujo patvirtinti naudodami SMS žinutę. Tokiu atveju jūsų paskyra bus išvalyta, o visas turinys ištrintas.</item>
@@ -2509,28 +2509,28 @@
   <string name="CalleeMustAcceptMessageRequestDialogFragment__s_will_get_a_message_request_from_you">%1$s gaus iš jūsų žinutės užklausą. Galėsite skambinti, kai jūsų žinutės užklausa bus priimta.</string>
   <!--KBS Megaphone-->
   <string name="KbsMegaphone__create_a_pin">Susikurkite PIN kodą</string>
-  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN kodai šifruotu pavidalu saugo informaciją, kuri yra laikoma Signal.</string>
+  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN kodai šifruotu pavidalu saugo informaciją, kuri yra laikoma Grapherex.</string>
   <string name="KbsMegaphone__create_pin">Susikurti PIN kodą</string>
   <!--Research Megaphone-->
-  <string name="ResearchMegaphone_tell_signal_what_you_think">Pasakykite Signal ką galvojate</string>
-  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">Norėdami padaryti Signal geriausia susirašinėjimo programėle pasaulyje, norėtume išgirsti jūsų atsiliepimus.</string>
+  <string name="ResearchMegaphone_tell_signal_what_you_think">Pasakykite Grapherex ką galvojate</string>
+  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">Norėdami padaryti Grapherex geriausia susirašinėjimo programėle pasaulyje, norėtume išgirsti jūsų atsiliepimus.</string>
   <string name="ResearchMegaphone_learn_more">Sužinoti daugiau</string>
   <string name="ResearchMegaphone_dismiss">Atmesti</string>
-  <string name="ResearchMegaphoneDialog_signal_research">Signal tyrimas</string>
-  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>Mes tikime privatumu.</b></p><p>Signal neseka jūsų ir nerenka jokių jūsų duomenų. Norėdami visiems patobulinti Signal, remiamės naudotojų atsiliepimais, <b>ir norėtume išgirsti jūsų atsiliepimą.</b></p><p>Mes vykdome apklausą, kad suprastume kaip naudojatės Signal. Apklausoje mes nerenkame jokių duomenų, galinčių jus identifikuoti. Jei pageidaujate pateikti papildomą atsiliepimą, turėsite galimybę pateikti kontaktinę informaciją.</p><p>Jei turite kelias minutes ir norėtumėte pateikti atsiliepimą, mes su malonumu jus išklausysime.</p>]]></string>
+  <string name="ResearchMegaphoneDialog_signal_research">Grapherex tyrimas</string>
+  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>Mes tikime privatumu.</b></p><p>Grapherex neseka jūsų ir nerenka jokių jūsų duomenų. Norėdami visiems patobulinti Grapherex, remiamės naudotojų atsiliepimais, <b>ir norėtume išgirsti jūsų atsiliepimą.</b></p><p>Mes vykdome apklausą, kad suprastume kaip naudojatės Grapherex. Apklausoje mes nerenkame jokių duomenų, galinčių jus identifikuoti. Jei pageidaujate pateikti papildomą atsiliepimą, turėsite galimybę pateikti kontaktinę informaciją.</p><p>Jei turite kelias minutes ir norėtumėte pateikti atsiliepimą, mes su malonumu jus išklausysime.</p>]]></string>
   <string name="ResearchMegaphoneDialog_take_the_survey">Dalyvauti apklausoje</string>
   <string name="ResearchMegaphoneDialog_no_thanks">Ne, ačiū</string>
-  <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">Apklausą talpina Alchemer, saugioje srityje surveys.signalusers.org</string>
+  <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">Apklausą talpina Alchemer, saugioje srityje surveys.Grapherexusers.org</string>
   <!--transport_selection_list_item-->
   <string name="transport_selection_list_item__transport_icon">Perdavimo piktograma</string>
   <string name="ConversationListFragment_loading">Įkeliama…</string>
   <string name="CallNotificationBuilder_connecting">Jungiamasi…</string>
   <string name="Permissions_permission_required">Reikalingas leidimas</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Norint siųsti SMS žinutes, Signal reikia SMS leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „SMS“.</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Norint siųsti SMS žinutes, Grapherex reikia SMS leidimo, tačiau jis buvo visam laikui uždraustas. Pereikite į programėlės nustatymus, pasirinkite „Leidimai“ ir įjunkite „SMS“.</string>
   <string name="Permissions_continue">Tęsti</string>
   <string name="Permissions_not_now">Ne dabar</string>
-  <string name="conversation_activity__enable_signal_messages">ĮJUNGTI SIGNAL ŽINUTES</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Perkeliama Signal duomenų bazė</string>
+  <string name="conversation_activity__enable_signal_messages">ĮJUNGTI Grapherex ŽINUTES</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">Perkeliama Grapherex duomenų bazė</string>
   <string name="PushDecryptJob_new_locked_message">Nauja užrakinta žinutė</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Atrakinkite, norėdami matyti laukiančias žinutes</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">Atsarginės kopijos slaptafrazė</string>
@@ -2548,7 +2548,7 @@
   <string name="preferences_chats__transfer_account_to_a_new_android_device">Perkelti paskyrą į naująjį „Android“ įrenginį</string>
   <string name="RegistrationActivity_enter_backup_passphrase">Įveskite atsarginės kopijos slaptafrazę</string>
   <string name="RegistrationActivity_restore">Atkurti</string>
-  <string name="RegistrationActivity_backup_failure_downgrade">Nepavyksta importuoti atsarginių kopijų iš naujesnių Signal versijų</string>
+  <string name="RegistrationActivity_backup_failure_downgrade">Nepavyksta importuoti atsarginių kopijų iš naujesnių Grapherex versijų</string>
   <string name="RegistrationActivity_incorrect_backup_passphrase">Neteisinga atsarginės kopijos slaptafrazė</string>
   <string name="RegistrationActivity_checking">Tikrinama…</string>
   <string name="RegistrationActivity_d_messages_so_far">Jau %d žinučių…</string>
@@ -2579,8 +2579,8 @@
   <string name="ProgressPreference_d_messages_so_far">Jau %d žinučių</string>
   <string name="RegistrationActivity_wrong_number">Neteisingas numeris</string>
   <string name="RegistrationActivity_call_me_instead_available_in">Vietoj to, man paskambinkite \n (Prieinama po %1$02d:%2$02d)</string>
-  <string name="RegistrationActivity_contact_signal_support">Susisiekti su Signal palaikymu</string>
-  <string name="RegistrationActivity_code_support_subject">Signal registracija - Patvirtinimo kodas, skirtas Android</string>
+  <string name="RegistrationActivity_contact_signal_support">Susisiekti su Grapherex palaikymu</string>
+  <string name="RegistrationActivity_code_support_subject">Grapherex registracija - Patvirtinimo kodas, skirtas Android</string>
   <string name="BackupUtil_never">Niekada</string>
   <string name="BackupUtil_unknown">Nežinoma</string>
   <string name="preferences_app_protection__see_my_phone_number">Matyti mano telefono numerį</string>
@@ -2589,21 +2589,21 @@
   <string name="PhoneNumberPrivacy_my_contacts">Mano adresatai</string>
   <string name="PhoneNumberPrivacy_nobody">Niekas</string>
   <string name="PhoneNumberPrivacy_everyone_see_description">Jūsų telefono numeris bus matomas visiems žmonėms, kuriems rašysite žinutes ir grupėms, kuriose rašysite žinutes.</string>
-  <string name="PhoneNumberPrivacy_everyone_find_description">Bet kuris žmogus, turintis jūsų telefono numerį savo adresatuose, matys jus kaip Signal adresatą. Kiti žmonės galės rasti jus paieškoje.</string>
+  <string name="PhoneNumberPrivacy_everyone_find_description">Bet kuris žmogus, turintis jūsų telefono numerį savo adresatuose, matys jus kaip Grapherex adresatą. Kiti žmonės galės rasti jus paieškoje.</string>
   <string name="preferences_app_protection__screen_lock">Ekrano užraktas</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Užrakinti prieigą prie Signal, naudojant Android ekrano užraktą ar piršto atspaudą</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Užrakinti prieigą prie Grapherex, naudojant Android ekrano užraktą ar piršto atspaudą</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">Ekrano užrakto neveiklumui skirtas laikas</string>
-  <string name="preferences_app_protection__signal_pin">Signal PIN kodas</string>
+  <string name="preferences_app_protection__signal_pin">Grapherex PIN kodas</string>
   <string name="preferences_app_protection__create_a_pin">Sukurti PIN kodą</string>
   <string name="preferences_app_protection__change_your_pin">Keisti PIN kodą</string>
   <string name="preferences_app_protection__pin_reminders">PIN kodo priminimai</string>
-  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PIN kodai šifruotu pavidalu saugo informaciją, kuri yra laikoma Signal, taigi, tik jūs galite gauti prieigą prie jos. Jums įdiegus Signal iš naujo, jūsų profilis, nustatymai ir adresatai bus atkurti.</string>
-  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Pridėti papildomą saugumą ir, norint vėl registruoti jūsų telefono numerį su Signal, reikalauti jūsų Signal PIN kodo.</string>
+  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">PIN kodai šifruotu pavidalu saugo informaciją, kuri yra laikoma Grapherex, taigi, tik jūs galite gauti prieigą prie jos. Jums įdiegus Grapherex iš naujo, jūsų profilis, nustatymai ir adresatai bus atkurti.</string>
+  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Pridėti papildomą saugumą ir, norint vėl registruoti jūsų telefono numerį su Grapherex, reikalauti jūsų Grapherex PIN kodo.</string>
   <string name="preferences_app_protection__reminders_help_you_remember_your_pin">Priminimai padeda jums įsiminti PIN kodą, nes jo neįmanoma atkurti. Bėgant laikui, jūsų bus klausiama vis rečiau.</string>
   <string name="preferences_app_protection__turn_off">Išjungti</string>
   <string name="preferences_app_protection__confirm_pin">Patvirtinkite PIN</string>
-  <string name="preferences_app_protection__confirm_your_signal_pin">Patvirtinkite savo Signal PIN kodą</string>
-  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Įsiminkite arba laikykite savo PIN kodą saugioje vietoje, nes jo neįmanoma atkurti. Jei užmiršite savo PIN kodą, galite prarasti duomenis, kai iš naujo registruosite savo Signal paskyrą.</string>
+  <string name="preferences_app_protection__confirm_your_signal_pin">Patvirtinkite savo Grapherex PIN kodą</string>
+  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Įsiminkite arba laikykite savo PIN kodą saugioje vietoje, nes jo neįmanoma atkurti. Jei užmiršite savo PIN kodą, galite prarasti duomenis, kai iš naujo registruosite savo Grapherex paskyrą.</string>
   <string name="preferences_app_protection__incorrect_pin_try_again">Neteisingas PIN kodas. Bandykite dar kartą.</string>
   <string name="preferences_app_protection__failed_to_enable_registration_lock">Nepavyko įjungti registracijos užrakto.</string>
   <string name="preferences_app_protection__failed_to_disable_registration_lock">Nepavyko išjungti registracijos užrakto.</string>
@@ -2616,19 +2616,19 @@
   <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">Atlikote per daug bandymų. Vėliau bandykite dar kartą.</string>
   <string name="RegistrationActivity_error_connecting_to_service">Klaida, jungiantis prie paslaugos</string>
   <string name="preferences_chats__backups">Atsarginės kopijos</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Signal yra užrakinta</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">Grapherex yra užrakinta</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">BAKSTELĖKITE, NORĖDAMI ATRAKINTI</string>
   <string name="Recipient_unknown">Nežinoma</string>
   <!--TransferOrRestoreFragment-->
   <string name="TransferOrRestoreFragment__transfer_or_restore_account">Perkelti ar atkurti paskyrą</string>
-  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Jeigu Signal paskyrą jau esate užregistravę anksčiau, galite perkelti ar atkurti savo paskyrą ir žinutes</string>
+  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Jeigu Grapherex paskyrą jau esate užregistravę anksčiau, galite perkelti ar atkurti savo paskyrą ir žinutes</string>
   <string name="TransferOrRestoreFragment__transfer_from_android_device">Perkelti iš „Android“ įrenginio</string>
   <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">Perkelkite savo paskyrą ir žinutes iš senojo „Android“ įrenginio. Jums reikės prieigos prie senojo telefono.</string>
   <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">Jums reikia prieigos prie savo senojo įrenginio.</string>
   <string name="TransferOrRestoreFragment__restore_from_backup">Atkurti iš atsarginės kopijos</string>
   <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">Atkurkite savo žinutes iš vietinės atsarginės kopijos. Jeigu neatkursite dabar, vėliau to padaryti nebegalėsite.</string>
   <!--NewDeviceTransferInstructionsFragment-->
-  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Savo senajame „Android“ telefone atverkite Signal</string>
+  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Savo senajame „Android“ telefone atverkite Grapherex</string>
   <string name="NewDeviceTransferInstructions__continue">Tęsti</string>
   <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
   <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">Viršutiniame kairiajame kampe bakstelėkite ant savo profilio nuotraukos, kad būtų atverti Nustatymai</string>
@@ -2640,18 +2640,18 @@
   <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">Ruošiamasi prisijungti prie senojo „Android“ įrenginio…</string>
   <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">Dar minutėlę, netrukus turėtų būti paruošta</string>
   <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">Laukiama, kol prisijungs senasis „Android“ įrenginys…</string>
-  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Signal yra reikalingas įrenginio vietos leidimas tam, kad galėtų atrasti ir prisijungti prie jūsų senojo „Android“ įrenginio.</string>
-  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Signal reikia įjungtų vietos paslaugų, kad galėtų atrasti ir prisijungti prie jūsų senojo „Android“ įrenginio. </string>
-  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Signal reikia įjungto belaidžio (Wi-Fi) ryšio, kad atrastų ir prisijungtų prie jūsų senojo „Android“ įrenginio. Belaidis (Wi-Fi) ryšys turi būti įjungtas, tačiau įrenginys neprivalo būti prisijungęs prie belaidžio (Wi-Fi) tinklo.</string>
-  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Atleiskite, atrodo, kad šis įrenginys nepalaiko „Wi-Fi Direct“. Signal naudoja „Wi-Fi Direct“, kad atrastų ir prisijungtų prie jūsų senojo „Android“ įrenginio. Norėdami atkurti savo paskyrą iš senojo „Android“ įrenginio, vis dar galite atkurti atsarginę kopiją.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Grapherex yra reikalingas įrenginio vietos leidimas tam, kad galėtų atrasti ir prisijungti prie jūsų senojo „Android“ įrenginio.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Grapherex reikia įjungtų vietos paslaugų, kad galėtų atrasti ir prisijungti prie jūsų senojo „Android“ įrenginio. </string>
+  <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Grapherex reikia įjungto belaidžio (Wi-Fi) ryšio, kad atrastų ir prisijungtų prie jūsų senojo „Android“ įrenginio. Belaidis (Wi-Fi) ryšys turi būti įjungtas, tačiau įrenginys neprivalo būti prisijungęs prie belaidžio (Wi-Fi) tinklo.</string>
+  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Atleiskite, atrodo, kad šis įrenginys nepalaiko „Wi-Fi Direct“. Grapherex naudoja „Wi-Fi Direct“, kad atrastų ir prisijungtų prie jūsų senojo „Android“ įrenginio. Norėdami atkurti savo paskyrą iš senojo „Android“ įrenginio, vis dar galite atkurti atsarginę kopiją.</string>
   <string name="NewDeviceTransferSetup__restore_a_backup">Atkurti atsarginę kopiją</string>
   <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Atsirado netikėta klaida, bandant prisijungti prie jūsų senojo „Android“ įrenginio.</string>
   <!--OldDeviceTransferSetupFragment-->
   <string name="OldDeviceTransferSetup__searching_for_new_android_device">Ieškoma naujojo „Android“ įrenginio…</string>
-  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Signal yra reikalingas įrenginio vietos leidimas tam, kad galėtų atrasti ir prisijungti prie jūsų naujojo „Android“ įrenginio.</string>
-  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Signal reikia įjungtų vietos paslaugų, kad galėtų atrasti ir prisijungti prie jūsų naujojo „Android“ įrenginio. </string>
-  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Signal reikia įjungto belaidžio (Wi-Fi) ryšio, kad atrastų ir prisijungtų prie jūsų naujojo „Android“ įrenginio. Belaidis (Wi-Fi) ryšys turi būti įjungtas, tačiau įrenginys neprivalo būti prisijungęs prie belaidžio (Wi-Fi) tinklo.</string>
-  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Atleiskite, atrodo, kad šis įrenginys nepalaiko „Wi-Fi Direct“. Signal naudoja „Wi-Fi Direct“, kad atrastų ir prisijungtų prie jūsų naujojo „Android“ įrenginio. Norėdami atkurti savo paskyrą naujajame „Android“ įrenginyje, vis dar galite padaryti atsarginę kopiją.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Grapherex yra reikalingas įrenginio vietos leidimas tam, kad galėtų atrasti ir prisijungti prie jūsų naujojo „Android“ įrenginio.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Grapherex reikia įjungtų vietos paslaugų, kad galėtų atrasti ir prisijungti prie jūsų naujojo „Android“ įrenginio. </string>
+  <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Grapherex reikia įjungto belaidžio (Wi-Fi) ryšio, kad atrastų ir prisijungtų prie jūsų naujojo „Android“ įrenginio. Belaidis (Wi-Fi) ryšys turi būti įjungtas, tačiau įrenginys neprivalo būti prisijungęs prie belaidžio (Wi-Fi) tinklo.</string>
+  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Atleiskite, atrodo, kad šis įrenginys nepalaiko „Wi-Fi Direct“. Grapherex naudoja „Wi-Fi Direct“, kad atrastų ir prisijungtų prie jūsų naujojo „Android“ įrenginio. Norėdami atkurti savo paskyrą naujajame „Android“ įrenginyje, vis dar galite padaryti atsarginę kopiją.</string>
   <string name="OldDeviceTransferSetup__create_a_backup">Daryti atsarginę kopiją</string>
   <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Atsirado netikėta klaida, bandant prisijungti prie jūsų naujojo „Android“ įrenginio.</string>
   <!--DeviceTransferSetupFragment-->
@@ -2686,10 +2686,10 @@
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device_to_start_the_transfer">Norėdami pradėti perkėlimą, kitame įrenginyje bakstelėkite „Tęsti“.</string>
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device">Kitame įrenginyje bakstelėkite „Tęsti“…</string>
   <!--NewDeviceTransferFragment-->
-  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Negalima perkelti iš naujesnių Signal versijų</string>
+  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Negalima perkelti iš naujesnių Grapherex versijų</string>
   <!--DeviceTransferFragment-->
   <string name="DeviceTransfer__transferring_data">Duomenų perkėlimas</string>
-  <string name="DeviceTransfer__keep_both_devices_near_each_other">Laikykite įrenginius vieną šalia kito. Neišjunkite įrenginių ir palikite Signal atvertą. Perkėlimai yra šifruoti ištisiniu būdu.</string>
+  <string name="DeviceTransfer__keep_both_devices_near_each_other">Laikykite įrenginius vieną šalia kito. Neišjunkite įrenginių ir palikite Grapherex atvertą. Perkėlimai yra šifruoti ištisiniu būdu.</string>
   <string name="DeviceTransfer__d_messages_so_far">Jau %1$d žinučių…</string>
   <string name="DeviceTransfer__cancel">Atsisakyti</string>
   <string name="DeviceTransfer__try_again">Bandykite dar kartą</string>
@@ -2700,9 +2700,9 @@
   <string name="DeviceTransfer__unable_to_transfer">Nepavyko perkelti</string>
   <!--OldDeviceTransferInstructionsFragment-->
   <string name="OldDeviceTransferInstructions__transfer_account">Perkelti paskyrą</string>
-  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">Galite perkelti savo Signal paskyrą, kai naujajame „Android“ įrenginyje nusistatote Signal. Prieš tęsdami:</string>
+  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">Galite perkelti savo Grapherex paskyrą, kai naujajame „Android“ įrenginyje nusistatote Grapherex. Prieš tęsdami:</string>
   <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Savo naujajame „Android“ įrenginyje atsisiųskite Signal</string>
+  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">Savo naujajame „Android“ įrenginyje atsisiųskite Grapherex</string>
   <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
   <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">Bakstelėkite ant „Perkelti ar atkurti paskyrą“</string>
   <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -2711,7 +2711,7 @@
   <!--OldDeviceTransferComplete-->
   <string name="OldDeviceTransferComplete__transfer_complete">Perkėlimas užbaigtas</string>
   <string name="OldDeviceTransferComplete__go_to_your_new_device">Pereikite prie savo naujojo įrenginio</string>
-  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Jūsų Signal duomenys perkelti į naująjį įrenginį. Norėdami užbaigti perkėlimo procesą, privalote tęsti registraciją naujajame įrenginyje.</string>
+  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Jūsų Grapherex duomenys perkelti į naująjį įrenginį. Norėdami užbaigti perkėlimo procesą, privalote tęsti registraciją naujajame įrenginyje.</string>
   <string name="OldDeviceTransferComplete__close">Užverti</string>
   <!--NewDeviceTransferComplete-->
   <string name="NewDeviceTransferComplete__transfer_successful">Perkėlimas sėkmingas</string>
@@ -2728,7 +2728,7 @@
   <string name="DeviceToDeviceTransferService_status_service_connected">Perkeliama paskyra…</string>
   <!--OldDeviceTransferLockedDialog-->
   <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">Užbaikite registraciją savo naujajame įrenginyje</string>
-  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Jūsų Signal paskyra perkelta į naująjį įrenginį, bet norėdami tęsti, privalote jame užbaigti registraciją. Signal šiame įrenginyje bus neveikli.</string>
+  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Jūsų Grapherex paskyra perkelta į naująjį įrenginį, bet norėdami tęsti, privalote jame užbaigti registraciją. Grapherex šiame įrenginyje bus neveikli.</string>
   <string name="OldDeviceTransferLockedDialog__done">Atlikta</string>
   <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">Atsisakyti ir aktyvuoti šį įrenginį</string>
   <!--AdvancedPreferenceFragment-->
@@ -2762,12 +2762,12 @@
   <string name="GroupsLearnMore_what_are_legacy_groups">Kas yra pasenusios grupės?</string>
   <string name="GroupsLearnMore_paragraph_1">Pasenusios grupės – tai grupės, kurios yra nesuderinamos su naujųjų grupių ypatybėmis, tokiomis kaip administratoriai ir išsamesni grupių atnaujinimai.</string>
   <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">Ar galiu naujinti pasenusią grupę?</string>
-  <string name="GroupsLearnMore_paragraph_2">Pasenusios grupės negali būti naujintos į naująsias grupes, bet galite sukurti naująją grupę su tais pačiais nariais, jeigu jie naudoja naujausią Signal versiją.</string>
-  <string name="GroupsLearnMore_paragraph_3">Ateityje Signal pateiks būdą kaip naujinti pasenusias grupes į naująsias.</string>
+  <string name="GroupsLearnMore_paragraph_2">Pasenusios grupės negali būti naujintos į naująsias grupes, bet galite sukurti naująją grupę su tais pačiais nariais, jeigu jie naudoja naujausią Grapherex versiją.</string>
+  <string name="GroupsLearnMore_paragraph_3">Ateityje Grapherex pateiks būdą kaip naujinti pasenusias grupes į naująsias.</string>
   <!--GroupLinkBottomSheetDialogFragment-->
   <string name="GroupLinkBottomSheet_share_hint_requiring_approval">Kiekvienas, turintis šią nuorodą, gali peržiūrėti grupės pavadinimą ir nuotrauką bei gali prašyti prisijungti prie grupės. Bendrinkite nuorodą su žmonėmis, kuriais pasitikite.</string>
   <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">Kiekvienas, turintis šią nuorodą, gali peržiūrėti grupės pavadinimą ir nuotrauką bei gali prisijungti prie grupės. Bendrinkite nuorodą su žmonėmis, kuriais pasitikite.</string>
-  <string name="GroupLinkBottomSheet_share_via_signal">Bendrinti per Signal</string>
+  <string name="GroupLinkBottomSheet_share_via_signal">Bendrinti per Grapherex</string>
   <string name="GroupLinkBottomSheet_copy">Kopijuoti</string>
   <string name="GroupLinkBottomSheet_qr_code">QR kodas</string>
   <string name="GroupLinkBottomSheet_share">Bendrinti</string>
@@ -2835,7 +2835,7 @@
   <string name="DeleteAccountFragment__no_number">Nenurodytas joks numeris</string>
   <string name="DeleteAccountFragment__the_phone_number">Jūsų įvestas telefono numeris nesutampa su jūsų paskyros telefono numeriu.</string>
   <string name="DeleteAccountFragment__are_you_sure">Ar tikrai norite ištrinti savo paskyrą?</string>
-  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Tai ištrins jūsų Signal paskyrą ir atstatys programėlę. Užbaigus šį procesą, programėlė bus užverta.</string>
+  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Tai ištrins jūsų Grapherex paskyrą ir atstatys programėlę. Užbaigus šį procesą, programėlė bus užverta.</string>
   <string name="DeleteAccountFragment__failed_to_delete_account">Nepavyko ištrinti paskyros. Ar esate prisijungę prie tinklo?</string>
   <string name="DeleteAccountFragment__failed_to_delete_local_data">Nepavyko ištrinti vietinių duomenų. Galite rankiniu būdu juos ištrinti sisteminiuose programėlės nustatymuose.</string>
   <string name="DeleteAccountFragment__launch_app_settings">Paleisti programėlės nustatymus</string>
@@ -2847,7 +2847,7 @@
   <string name="ShareActivity__share">Bendrinti</string>
   <string name="ShareActivity__send">Siųsti</string>
   <string name="ShareActivity__s_comma">%1$s,</string>
-  <string name="ShareActivity__sharing_to_multiple_chats_is">Bendrinimas su keliais pokalbiais yra palaikomas tik Signal žinutėms</string>
+  <string name="ShareActivity__sharing_to_multiple_chats_is">Bendrinimas su keliais pokalbiais yra palaikomas tik Grapherex žinutėms</string>
   <!--MultiShareDialogs-->
   <string name="MultiShareDialogs__failed_to_send_to_some_users">Nepavyko išsiųsti kai kuriems naudotojams</string>
   <string name="MultiShareDialogs__you_can_only_share_with_up_to">Galite bendrinti daugiausiai su %1$d pokalbių</string>
@@ -2889,7 +2889,7 @@
   <string name="payment_info_card_about_mobilecoin">Apie „MobileCoin“</string>
   <string name="payment_info_card_mobilecoin_is_a_new_privacy_focused_digital_currency">„MobileCoin“ yra nauja į privatumą sutelkta skaitmeninė valiuta.</string>
   <string name="payment_info_card_adding_funds">Lėšų pridėjimas</string>
-  <string name="payment_info_card_you_can_add_funds_for_use_in">Galite pridėti lėšas, skirtas naudoti Signal programėlėje, išsiųsdami „MobileCoin“ valiutą į savo piniginės adresą.</string>
+  <string name="payment_info_card_you_can_add_funds_for_use_in">Galite pridėti lėšas, skirtas naudoti Grapherex programėlėje, išsiųsdami „MobileCoin“ valiutą į savo piniginės adresą.</string>
   <string name="payment_info_card_cashing_out">Pinigų išgryninimas</string>
   <string name="payment_info_card_you_can_cash_out_mobilecoin">„MobileCoin“ valiutą bet kuriuo metu galite išgryninti valiutos keitimo punktuose, kurie palaiko „MobileCoin“. Tiesiog, atlikite pervedimą į savo sąskaitą tame valiutos keitimo punkte.</string>
   <string name="payment_info_card_hide_this_card">Slėpti šią kortelę?</string>
@@ -2899,17 +2899,17 @@
   <!--DeactivateWalletFragment-->
   <string name="DeactivateWalletFragment__deactivate_wallet">Pasyvinti piniginę</string>
   <string name="DeactivateWalletFragment__your_balance">Jūsų likutis</string>
-  <string name="DeactivateWalletFragment__its_recommended_that_you">Rekomenduojama, kad prieš pasyvindami mokėjimus, pervestumėte savo lėšas į kitos piniginės adresą. Jei dabar pasirinksite nepervesti lėšų, jos išliks jūsų piniginėje susietos su Signal tam atvejui, jei pasirinksite iš naujo aktyvuoti mokėjimus.</string>
+  <string name="DeactivateWalletFragment__its_recommended_that_you">Rekomenduojama, kad prieš pasyvindami mokėjimus, pervestumėte savo lėšas į kitos piniginės adresą. Jei dabar pasirinksite nepervesti lėšų, jos išliks jūsų piniginėje susietos su Grapherex tam atvejui, jei pasirinksite iš naujo aktyvuoti mokėjimus.</string>
   <string name="DeactivateWalletFragment__transfer_remaining_balance">Pervesti likusį likutį</string>
   <string name="DeactivateWalletFragment__deactivate_without_transferring">Pasyvinti be pervedimo</string>
   <string name="DeactivateWalletFragment__deactivate">Pasyvinti</string>
   <string name="DeactivateWalletFragment__deactivate_without_transferring_question">Pasyvinti be pervedimo?</string>
-  <string name="DeactivateWalletFragment__your_balance_will_remain">Jūsų likutis išliks jūsų piniginėje susietas su Signal tam atvejui, jei pasirinksite iš naujo aktyvuoti mokėjimus.</string>
+  <string name="DeactivateWalletFragment__your_balance_will_remain">Jūsų likutis išliks jūsų piniginėje susietas su Grapherex tam atvejui, jei pasirinksite iš naujo aktyvuoti mokėjimus.</string>
   <string name="DeactivateWalletFragment__error_deactivating_wallet">Klaida pasyvinant piniginę.</string>
   <!--PaymentsRecoveryStartFragment-->
   <string name="PaymentsRecoveryStartFragment__recovery_phrase">Atkūrimo frazė</string>
   <string name="PaymentsRecoveryStartFragment__view_recovery_phrase">Rodyti atkūrimo frazę</string>
-  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">Kai įdiegsite Signal iš naujo, jūsų likutis bus automatiškai atkurtas tuo atveju, jei patvirtinsite savo Signal PIN kodą. Taip pat galite atkurti savo likutį naudodami atkūrimo frazę – savo unikalią %1$d žodžių frazę. Užsirašykite ją ir saugokite saugioje vietoje.</string>
+  <string name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">Kai įdiegsite Grapherex iš naujo, jūsų likutis bus automatiškai atkurtas tuo atveju, jei patvirtinsite savo Grapherex PIN kodą. Taip pat galite atkurti savo likutį naudodami atkūrimo frazę – savo unikalią %1$d žodžių frazę. Užsirašykite ją ir saugokite saugioje vietoje.</string>
   <string name="PaymentsRecoveryStartFragment__your_recovery_phrase_is_a">Atkūrimo frazė yra jūsų unikali %1$d žodžių frazė. Naudokite šią frazę, norėdami atkurti savo likutį.</string>
   <string name="PaymentsRecoveryStartFragment__start">Pradėti</string>
   <string name="PaymentsRecoveryStartFragment__enter_manually">Įvesti rankiniu būdu</string>

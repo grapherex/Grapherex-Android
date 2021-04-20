@@ -10,22 +10,22 @@
   <string name="AbstractNotificationBuilder_new_message">ಹೊಸ ಸಂದೇಶ</string>
   <!--AlbumThumbnailView-->
   <!--ApplicationMigrationActivity-->
-  <string name="ApplicationMigrationActivity__signal_is_updating">Signal ನವೀಕರಿಸುತ್ತಿದೆ…</string>
+  <string name="ApplicationMigrationActivity__signal_is_updating">Grapherex ನವೀಕರಿಸುತ್ತಿದೆ…</string>
   <!--ApplicationPreferencesActivity-->
   <string name="ApplicationPreferencesActivity_currently_s">ಪ್ರಸ್ತುತ: %s</string>
   <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">ನೀವು ಇನ್ನೂ ಪಾಸ್‌ಫ್ರೇಸ್ ಹೊಂದಿಸಿಲ್ಲ!</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">ಪಾಸ್‌ಫ್ರೇಸ್‌ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">ಇದು Signal ಮತ್ತು ಸಂದೇಶ ಅಧಿಸೂಚನೆಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ಅನ್ಲಾಕ್ ಮಾಡುತ್ತದೆ.</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">ಇದು Grapherex ಮತ್ತು ಸಂದೇಶ ಅಧಿಸೂಚನೆಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ಅನ್ಲಾಕ್ ಮಾಡುತ್ತದೆ.</string>
   <string name="ApplicationPreferencesActivity_disable">ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ</string>
   <string name="ApplicationPreferencesActivity_unregistering">ನೋಂದಣಿಯನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗುತ್ತಿದೆ…</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Signal ಸಂದೇಶಗಳು ಹಾಗೂ ಕರೆಗಳ ನೋಂದಣಿಯನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗುತ್ತಿದೆ..</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Signal ಸಂದೇಶಗಳು ಹಾಗೂ ಕರೆಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುವುದೇ?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">ಸರ್ವರ್‌ ನಿಂದ ನೋಂದಣಿ ರದ್ದುಗೊಳಿಸುವ ಮೂಲಕ Signal ಸಂದೇಶಗಳನ್ನು ಮತ್ತು ಕರೆಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ. ಭವಿಷ್ಯದಲ್ಲಿ ನೀವು ಮತ್ತೆ ಬಳಸಲು ನಿಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ಮರು ನೋಂದಾಯಿಸಬೇಕಾಗುತ್ತದೆ.</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Grapherex ಸಂದೇಶಗಳು ಹಾಗೂ ಕರೆಗಳ ನೋಂದಣಿಯನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗುತ್ತಿದೆ..</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Grapherex ಸಂದೇಶಗಳು ಹಾಗೂ ಕರೆಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುವುದೇ?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">ಸರ್ವರ್‌ ನಿಂದ ನೋಂದಣಿ ರದ್ದುಗೊಳಿಸುವ ಮೂಲಕ Grapherex ಸಂದೇಶಗಳನ್ನು ಮತ್ತು ಕರೆಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ. ಭವಿಷ್ಯದಲ್ಲಿ ನೀವು ಮತ್ತೆ ಬಳಸಲು ನಿಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ಮರು ನೋಂದಾಯಿಸಬೇಕಾಗುತ್ತದೆ.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">ಸರ್ವರ್‌ ಗೆ ಸಂಪರ್ಕಿಸುವಾಗ ದೋಷ!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">ಎಸ್‌ಎಂಎಸ್‌ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">ನಿಮ್ಮ ಡೀಫಾಲ್ಟ್‌ ಎಸ್‌ಎಂಎಸ್ ಅಪ್ಲಿಕೇಶನ್‌ ಅನ್ನು ಬದಲಾಯಿಸಲು ಸ್ಪರ್ಶಿಸಿ</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">ಎಸ್‌ಎಂಎಸ್‌ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Signal ಅನ್ನು ನಿಮ್ಮ ಡೀಫಾಲ್ಟ್‌ ಎಸ್‌ಎಂಸ್‌ ಆ್ಯಪ್‌ ಮಾಡಲು ಸ್ಪರ್ಶಿಸಿ</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Grapherex ಅನ್ನು ನಿಮ್ಮ ಡೀಫಾಲ್ಟ್‌ ಎಸ್‌ಎಂಸ್‌ ಆ್ಯಪ್‌ ಮಾಡಲು ಸ್ಪರ್ಶಿಸಿ</string>
   <string name="ApplicationPreferencesActivity_on">ಆನ್ </string>
   <string name="ApplicationPreferencesActivity_On">ಆನ್</string>
   <string name="ApplicationPreferencesActivity_off">ಆಫ಼್</string>
@@ -55,13 +55,13 @@
   <string name="AttachmentKeyboard_file">ಫೈಲ್</string>
   <string name="AttachmentKeyboard_contact">ಸಂಪರ್ಕ</string>
   <string name="AttachmentKeyboard_location">ಸ್ಥಳ</string>
-  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">ನಿಮ್ಮ ಫೋಟೋಗಳು ಮತ್ತು ವೀಡಿಯೊಗಳನ್ನು ತೋರಿಸಲು Signal ಗೆ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ.</string>
+  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">ನಿಮ್ಮ ಫೋಟೋಗಳು ಮತ್ತು ವೀಡಿಯೊಗಳನ್ನು ತೋರಿಸಲು Grapherex ಗೆ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ.</string>
   <string name="AttachmentKeyboard_give_access">ಪ್ರವೇಶ ಒದಗಿಸಿ</string>
   <!--AttachmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">ಈ ಮೀಡಿಯಾ ತೆರೆಯಲು ಸಾಮರ್ಥ್ಯವಿರುವ ಅಪ್ಲಿಕೇಶನ್ ಹುಡುಕಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ.</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">ಫೋಟೊಗಳು, ವೀಡಿಯೋಗಳು ಅಥವಾ ಆಡಿಯೋಗಳನ್ನು ಲಗತ್ತಿಸಲು Signal ಗೆ ಸ್ಟೋರೇಜ್ ಅನುಮತಿಯ ಅಗತ್ಯವಿರುತ್ತದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್ಸ್ ಮೆನುಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು \"ಸ್ಟೋರೇಜ್\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">ಸಂಪರ್ಕ ಮಾಹಿತಿಯನ್ನು ಲಗತ್ತಿಸಲು Signal ಸಂಪರ್ಕಗಳ ಅನುಮತಿ ಅಗತ್ಯವಿರುತ್ತದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಅಪ್ಲಿಕೇಶನ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಮೆನುಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು \"ಸಂಪರ್ಕಗಳು\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">ಸ್ಥಳ ಮಾಹಿತಿಯನ್ನು ಲಗತ್ತಿಸಲು Signal ಗೆ ಸ್ಥಳ ಅನುಮತಿಯ ಅಗತ್ಯವಿರುತ್ತದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಮೆನುಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು \"ಸ್ಥಳ\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">ಫೋಟೊಗಳು, ವೀಡಿಯೋಗಳು ಅಥವಾ ಆಡಿಯೋಗಳನ್ನು ಲಗತ್ತಿಸಲು Grapherex ಗೆ ಸ್ಟೋರೇಜ್ ಅನುಮತಿಯ ಅಗತ್ಯವಿರುತ್ತದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್ಸ್ ಮೆನುಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು \"ಸ್ಟೋರೇಜ್\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">ಸಂಪರ್ಕ ಮಾಹಿತಿಯನ್ನು ಲಗತ್ತಿಸಲು Grapherex ಸಂಪರ್ಕಗಳ ಅನುಮತಿ ಅಗತ್ಯವಿರುತ್ತದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಅಪ್ಲಿಕೇಶನ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಮೆನುಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು \"ಸಂಪರ್ಕಗಳು\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">ಸ್ಥಳ ಮಾಹಿತಿಯನ್ನು ಲಗತ್ತಿಸಲು Grapherex ಗೆ ಸ್ಥಳ ಅನುಮತಿಯ ಅಗತ್ಯವಿರುತ್ತದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಮೆನುಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು \"ಸ್ಥಳ\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
   <!--AttachmentUploadJob-->
   <string name="AttachmentUploadJob_uploading_media">ಮೀಡಿಯಾವನ್ನು ಅಪ್ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
   <string name="AttachmentUploadJob_compressing_video_start">ವಿಡಿಯೋವನ್ನು ಸಂಕುಚಿತಗೊಳಿಸಲಾಗುತ್ತಿದೆ…</string>
@@ -103,26 +103,26 @@
   <string name="CameraXFragment_open_gallery_description">ಗ್ಯಾಲರಿ ತೆರೆಯಿರಿ</string>
   <!--CameraContacts-->
   <string name="CameraContacts_recent_contacts">ಇತ್ತೀಚಿನ ಸಂಪರ್ಕಗಳು</string>
-  <string name="CameraContacts_signal_contacts">Signal ಸಂಪರ್ಕಗಳು</string>
-  <string name="CameraContacts_signal_groups">Signal ಗುಂಪುಗಳು</string>
+  <string name="CameraContacts_signal_contacts">Grapherex ಸಂಪರ್ಕಗಳು</string>
+  <string name="CameraContacts_signal_groups">Grapherex ಗುಂಪುಗಳು</string>
   <string name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">ನೀವು ಗರಿಷ್ಠ  %d ಸಂಭಾಷಣೆಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಬಹುದು.</string>
-  <string name="CameraContacts_select_signal_recipients">Signal ಸ್ವೀಕೃತಿದಾರರನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
-  <string name="CameraContacts_no_signal_contacts">Signal ಸಂಪರ್ಕಗಳಿಲ್ಲ</string>
-  <string name="CameraContacts_you_can_only_use_the_camera_button">Signal ಸಂಪರ್ಕಗಳಿಗೆ ಫೋಟೋಗಳನ್ನು ಕಳುಹಿಸಲು ನೀವು ಕ್ಯಾಮೆರಾ ಬಟನ್ ಅನ್ನು ಮಾತ್ರ ಬಳಸಬಹುದು.</string>
+  <string name="CameraContacts_select_signal_recipients">Grapherex ಸ್ವೀಕೃತಿದಾರರನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
+  <string name="CameraContacts_no_signal_contacts">Grapherex ಸಂಪರ್ಕಗಳಿಲ್ಲ</string>
+  <string name="CameraContacts_you_can_only_use_the_camera_button">Grapherex ಸಂಪರ್ಕಗಳಿಗೆ ಫೋಟೋಗಳನ್ನು ಕಳುಹಿಸಲು ನೀವು ಕ್ಯಾಮೆರಾ ಬಟನ್ ಅನ್ನು ಮಾತ್ರ ಬಳಸಬಹುದು.</string>
   <string name="CameraContacts_cant_find_who_youre_looking_for">ನೀವು ಹುಡುಕುತ್ತಿರುವುದನ್ನು ಕಂಡುಹಿಡಿಯಲಾಗುತ್ತಿಲ್ಲವೇ?</string>
-  <string name="CameraContacts_invite_a_contact_to_join_signal">Signal ಗೆ ಸೇರಲು ಸಂಪರ್ಕವನ್ನು ಆಹ್ವಾನಿಸಿ</string>
+  <string name="CameraContacts_invite_a_contact_to_join_signal">Grapherex ಗೆ ಸೇರಲು ಸಂಪರ್ಕವನ್ನು ಆಹ್ವಾನಿಸಿ</string>
   <string name="CameraContacts__menu_search">ಹುಡುಕಿ</string>
   <!--ClearProfileActivity-->
   <string name="ClearProfileActivity_remove">ತೆಗೆದುಹಾಕಿ</string>
   <string name="ClearProfileActivity_remove_profile_photo">ಪ್ರೊಫೈಲ್ ಚಿತ್ರ ಅಳಿಸುವುದೇ?</string>
   <string name="ClearProfileActivity_remove_group_photo">ಗುಂಪಿನ ಫೋಟೊ ತೆಗೆಯಬಹುದೆ?</string>
   <!--ClientDeprecatedActivity-->
-  <string name="ClientDeprecatedActivity_update_signal">Signal ಅನ್ನು ನವೀಕರಿಸಿ</string>
+  <string name="ClientDeprecatedActivity_update_signal">Grapherex ಅನ್ನು ನವೀಕರಿಸಿ</string>
   <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">ಅಪ್ಲಿಕೇಶನ್‌ನ ಈ ಆವೃತ್ತಿಯನ್ನು ಇನ್ನು ಮುಂದೆ ಬೆಂಬಲಿಸುವುದಿಲ್ಲ. ಸಂದೇಶಗಳನ್ನು ಕಳುಹಿಸುವುದು ಮತ್ತು ಸ್ವೀಕರಿಸುವುದನ್ನು ಮುಂದುವರಿಸಲು, ನೂತನ ಆವೃತ್ತಿಗೆ ನವೀಕರಿಸಿ.</string>
   <string name="ClientDeprecatedActivity_update">ನವೀಕರಿಸಿ</string>
   <string name="ClientDeprecatedActivity_dont_update">ಇದನ್ನು ನವೀಕರಿಸಬೇಡಿ</string>
   <string name="ClientDeprecatedActivity_warning">ಎಚ್ಚರಿಕೆ</string>
-  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">ನಿಮ್ಮ Signal ಆವೃತ್ತಿಯ ವಾಯಿದೆ ಮುಗಿದಿದೆ. ನೀವು ನಿಮ್ಮ ಹಳೆಯ ಸಂದೇಶಗಳನ್ನು ನೋಡಬಹುದು ಆದರೆ ಹೊಸ ಸಂದೇಶಗಳನ್ನು ಕಳುಹಿಸಲು ಅಥವಾ ಪಡೆಯಲು ದಯವಿಟ್ಟು ನವೀಕರಿಸಿ.</string>
+  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">ನಿಮ್ಮ Grapherex ಆವೃತ್ತಿಯ ವಾಯಿದೆ ಮುಗಿದಿದೆ. ನೀವು ನಿಮ್ಮ ಹಳೆಯ ಸಂದೇಶಗಳನ್ನು ನೋಡಬಹುದು ಆದರೆ ಹೊಸ ಸಂದೇಶಗಳನ್ನು ಕಳುಹಿಸಲು ಅಥವಾ ಪಡೆಯಲು ದಯವಿಟ್ಟು ನವೀಕರಿಸಿ.</string>
   <!--CommunicationActions-->
   <string name="CommunicationActions_no_browser_found">ಯಾವುದೇ ವೆಬ್ ಬ್ರೌಸರ್ ಕಂಡುಬಂದಿಲ್ಲ.</string>
   <string name="CommunicationActions_send_email">ಈಮೇಲ್‌ ಕಳಿಸಿ</string>
@@ -131,9 +131,9 @@
   <string name="CommunicationActions_cancel">ರದ್ದುಮಾಡು</string>
   <string name="CommunicationActions_call">ಕರೆ ಮಾಡಿ</string>
   <string name="CommunicationActions_insecure_call">ಅಸುರಕ್ಷಿತ ಕರೆ</string>
-  <string name="CommunicationActions_carrier_charges_may_apply">ವಾಹಕ ಶುಲ್ಕಗಳು ಅನ್ವಯವಾಗಬಹುದು. ನೀವು ಕರೆ ಮಾಡುತ್ತಿರುವ ಸಂಖ್ಯೆಯನ್ನು Signal‌ನಲ್ಲಿ ನೋಂದಾಯಿಸಲಾಗಿಲ್ಲ. ಈ ಕರೆಯನ್ನು ನಿಮ್ಮ ಮೊಬೈಲ್ ವಾಹಕದ ಮೂಲಕ ಇರಿಸಲಾಗುತ್ತದೆ, ಇಂಟರ್ನೆಟ್ ಮೂಲಕ ಅಲ್ಲ.</string>
+  <string name="CommunicationActions_carrier_charges_may_apply">ವಾಹಕ ಶುಲ್ಕಗಳು ಅನ್ವಯವಾಗಬಹುದು. ನೀವು ಕರೆ ಮಾಡುತ್ತಿರುವ ಸಂಖ್ಯೆಯನ್ನು Grapherex‌ನಲ್ಲಿ ನೋಂದಾಯಿಸಲಾಗಿಲ್ಲ. ಈ ಕರೆಯನ್ನು ನಿಮ್ಮ ಮೊಬೈಲ್ ವಾಹಕದ ಮೂಲಕ ಇರಿಸಲಾಗುತ್ತದೆ, ಇಂಟರ್ನೆಟ್ ಮೂಲಕ ಅಲ್ಲ.</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">%1$s ನೊಂದಿಗೆ ನಿಮ್ಮ ಸುರಕ್ಷತಾ ಸಂಖ್ಯೆ ಬದಲಾಗಿದೆ. ಇದರರ್ಥ ಯಾರೋ ನಿಮ್ಮ ಸಂವಹನವನ್ನು ತಡೆಯಲು ಪ್ರಯತ್ನಿಸುತ್ತಿದ್ದಾರೆ ಅಥವಾ %2$s ಅನ್ನು ಸರಳವಾಗಿ ಪುನಃ Signal ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿದ್ದಾರೆ.</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">%1$s ನೊಂದಿಗೆ ನಿಮ್ಮ ಸುರಕ್ಷತಾ ಸಂಖ್ಯೆ ಬದಲಾಗಿದೆ. ಇದರರ್ಥ ಯಾರೋ ನಿಮ್ಮ ಸಂವಹನವನ್ನು ತಡೆಯಲು ಪ್ರಯತ್ನಿಸುತ್ತಿದ್ದಾರೆ ಅಥವಾ %2$s ಅನ್ನು ಸರಳವಾಗಿ ಪುನಃ Grapherex ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿದ್ದಾರೆ.</string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">ನೀವು ನಿಮ್ಮ ಸುರಕ್ಷತಾ ಸಂಖ್ಯೆಯನ್ನು ಈ ಸಂಪರ್ಕದೊಂದಿಗೆ ಪರಿಶೀಲಿಸಲು ಬಯಸಬಹುದು.</string>
   <string name="ConfirmIdentityDialog_accept">ಒಪ್ಪಿಕೊಳ್ಳಿ</string>
   <!--ContactsCursorLoader-->
@@ -144,7 +144,7 @@
   <string name="ContactsCursorLoader_username_search">ಬಳಕೆದಾರಹೆಸರು ಹುಡುಕಾಟ</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">ಸಂದೇಶ %s</string>
-  <string name="ContactsDatabase_signal_call_s">Signal ಕರೆ %s</string>
+  <string name="ContactsDatabase_signal_call_s">Grapherex ಕರೆ %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">ನೀಡಿರುವ ಹೆಸರು</string>
   <string name="ContactNameEditActivity_family_name">ಕುಟುಂಬದ ಹೆಸರು</string>
@@ -166,7 +166,7 @@
   <string name="ConversationItem_click_to_approve_unencrypted">ಕಳುಹಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ, ಅಸುರಕ್ಷಿತವಾಗಿ ತಗ್ಗಿಸುವುದಕ್ಕೆ ಟ್ಯಾಪ್ ಮಾಡಿ</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">ಅನ್‌ಎನ್‌ಕ್ರಿಪ್ಟೆಡ್ ಎಸ್‌‌ಎಂಎಸ್‌ ತಗ್ಗಿಸುವುದೇ?</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">ಅನ್‌ಎನ್‌ಕ್ರಿಪ್ಟೆಡ್ ಎಂಎಂಎಸ್‌ ತಗ್ಗಿಸುವುದೇ?</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">ಸ್ವೀಕರಿಸುವವರು ಇನ್ನು ಮುಂದೆ Signal <b>ಬಳಕೆದಾರರಲ್ಲದ</b> ಕಾರಣ ಈ ಸಂದೇಶವನ್ನು ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಲಾಗುವುದಿಲ್ಲ.\n\nಅಸುರಕ್ಷಿತ ಸಂದೇಶವನ್ನು ಕಳುಹಿಸುವುದೇ?</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">ಸ್ವೀಕರಿಸುವವರು ಇನ್ನು ಮುಂದೆ Grapherex <b>ಬಳಕೆದಾರರಲ್ಲದ</b> ಕಾರಣ ಈ ಸಂದೇಶವನ್ನು ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಲಾಗುವುದಿಲ್ಲ.\n\nಅಸುರಕ್ಷಿತ ಸಂದೇಶವನ್ನು ಕಳುಹಿಸುವುದೇ?</string>
   <string name="ConversationItem_unable_to_open_media">ಈ ಮೀಡಿಯಾ ತೆರೆಯಲು ಸಾಮರ್ಥ್ಯವಿರುವ ಅಪ್ಲಿಕೇಶನ್ ಹುಡುಕಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ.</string>
   <string name="ConversationItem_copied_text">%s ನಕಲಿಸಲಾಗಿದೆ</string>
   <string name="ConversationItem_from_s">ಇಂದ %s</string>
@@ -194,8 +194,8 @@
   <string name="ConversationActivity_this_device_does_not_appear_to_support_dial_actions">ಈ ಸಾಧನವು ಡಯಲ್ ಕ್ರಮಗಳನ್ನು ಬೆಂಬಲಿಸುವಂತೆ ಕಂಡುಬರುತ್ತಿಲ್ಲ.</string>
   <string name="ConversationActivity_transport_insecure_sms">ಅಸುರಕ್ಷಿತ ಎಸ್ಎಂಎಸ್ </string>
   <string name="ConversationActivity_transport_insecure_mms">ಅಸುರಕ್ಷಿತ ಎಂಎಂಎಸ್ </string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">Signal %1$s ಗೆ ಬದಲಾಯಿಸೋಣ</string>
+  <string name="ConversationActivity_transport_signal">Grapherex</string>
+  <string name="ConversationActivity_lets_switch_to_signal">Grapherex %1$s ಗೆ ಬದಲಾಯಿಸೋಣ</string>
   <string name="ConversationActivity_specify_recipient">ದಯವಿಟ್ಟು ಒಂದು ಸಂಪರ್ಕವನ್ನು ಆರಿಸಿಕೊಳ್ಳಿ</string>
   <string name="ConversationActivity_unblock">ನಿರ್ಬಂಧ ತೆಗೆಯಿರಿ</string>
   <string name="ConversationActivity_attachment_exceeds_size_limits">ನೀವು ಕಳುಹಿಸುತ್ತಿರುವ ಲಗತ್ತು ಸಂದೇಶದ ವಿಧವು ಗಾತ್ರದ ಮಿತಿಗಳನ್ನು ಮೀರಿದೆ.</string>
@@ -204,17 +204,17 @@
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">ಈ ಲಿಂಕ್ ನಿರ್ವಹಿಸಲು ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿ ಆ್ಯಪ್ ಲಭ್ಯವಿಲ್ಲ.</string>
   <string name="ConversationActivity_your_request_to_join_has_been_sent_to_the_group_admin">ಗುಂಪು ಸೇರಲು ನಿಮ್ಮ ವಿನಂತಿಯನ್ನು ನಿರ್ವಾಹಕರಿಗೆ ಕಳುಹಿಸಲಾಗಿದೆ. ಅವರು ಕ್ರಮ ಕೈಗೊಂಡಾಗ ನಿಮಗೆ ಸೂಚಿಸಲಾಗುತ್ತದೆ.</string>
   <string name="ConversationActivity_cancel_request">ಕೋರಿಕೆಯನ್ನು ರದ್ದುಮಾಡಿ</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">ಆಡಿಯೋ ಸಂದೇಶಗಳನ್ನು ಕಳುಹಿಸಲು, Signal ಗೆ ನಿಮ್ಮ ಮೈಕ್ರೋಫೋನ್ ಉಪಯೋಗಿಸಲು ಅನುಮತಿ ನೀಡಿ.</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">ಆಡಿಯೊ ಸಂದೇಶ ಕಳುಹಿಸುವ ಸಲುವಾಗಿ Signal ಗೆ ಮೈಕ್ರೊಫೋನ್ ಅನುಮತಿ ಅಗತ್ಯವಿದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು  ಅಪ್ಲಿಕೇಶನ್ ಸಂಯೋಜನೆಗೆ ಮುಂದುವರಿಸಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ, ಮತ್ತು \"ಮೈಕ್ರೊಫೋನ್\" ಸಕ್ರಿಯಗೊಳಿಸಿ. </string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s"> %s ಗೆ ಕರೆ ಮಾಡಲು Signal ಗೆ ಮೈಕ್ರೊಫೋನ್ ಹಾಗೂ ಕ್ಯಾಮರಾ ಅನುಮತಿಗಳು ಅಗತ್ಯವಿರುತ್ತವೆ, ಆದರೆ ಅವುಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್‌ ಗಳಿಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ, ಮತ್ತು  \"ಮೈಕ್ರೊಫೋನ್\" ಮತ್ತು \"ಕ್ಯಾಮೆರಾ\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">ಫೋಟೋಗಳನ್ನು  ಮತ್ತು ವಿಡಿಯೋ ಸೆರೆಹಿಡಿಯಲು, Signal  ಗೆ ಕ್ಯಾಮೆರಾ ಪ್ರವೇಶ ಅನುಮತಿಸಿ.</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">ಫೋಟೊಗಳು ಅಥವಾ ವೀಡಿಯೋಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಲು Signal ಗೆ ಕ್ಯಾಮೆರಾ ಅನುಮತಿಯ ಅಗತ್ಯವಿರುತ್ತದೆ, ಆದರೆ ಇದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು \"ಕ್ಯಾಮೆರಾ\" ಸಕ್ರಿಯಗೊಳಿಸಿ. </string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">ಫೋಟೋಗಳು ಅಥವಾ ವೀಡಿಯೊ ತೆಗೆದುಕೊಳ್ಳಲು Signal ಗೆ ಕ್ಯಾಮೆರಾ ಅನುಮತಿ ಅಗತ್ಯವಿದೆ</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">ಆಡಿಯೋ ಸಂದೇಶಗಳನ್ನು ಕಳುಹಿಸಲು, Grapherex ಗೆ ನಿಮ್ಮ ಮೈಕ್ರೋಫೋನ್ ಉಪಯೋಗಿಸಲು ಅನುಮತಿ ನೀಡಿ.</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">ಆಡಿಯೊ ಸಂದೇಶ ಕಳುಹಿಸುವ ಸಲುವಾಗಿ Grapherex ಗೆ ಮೈಕ್ರೊಫೋನ್ ಅನುಮತಿ ಅಗತ್ಯವಿದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು  ಅಪ್ಲಿಕೇಶನ್ ಸಂಯೋಜನೆಗೆ ಮುಂದುವರಿಸಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ, ಮತ್ತು \"ಮೈಕ್ರೊಫೋನ್\" ಸಕ್ರಿಯಗೊಳಿಸಿ. </string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s"> %s ಗೆ ಕರೆ ಮಾಡಲು Grapherex ಗೆ ಮೈಕ್ರೊಫೋನ್ ಹಾಗೂ ಕ್ಯಾಮರಾ ಅನುಮತಿಗಳು ಅಗತ್ಯವಿರುತ್ತವೆ, ಆದರೆ ಅವುಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್‌ ಗಳಿಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ, ಮತ್ತು  \"ಮೈಕ್ರೊಫೋನ್\" ಮತ್ತು \"ಕ್ಯಾಮೆರಾ\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">ಫೋಟೋಗಳನ್ನು  ಮತ್ತು ವಿಡಿಯೋ ಸೆರೆಹಿಡಿಯಲು, Grapherex  ಗೆ ಕ್ಯಾಮೆರಾ ಪ್ರವೇಶ ಅನುಮತಿಸಿ.</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">ಫೋಟೊಗಳು ಅಥವಾ ವೀಡಿಯೋಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಲು Grapherex ಗೆ ಕ್ಯಾಮೆರಾ ಅನುಮತಿಯ ಅಗತ್ಯವಿರುತ್ತದೆ, ಆದರೆ ಇದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು \"ಕ್ಯಾಮೆರಾ\" ಸಕ್ರಿಯಗೊಳಿಸಿ. </string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">ಫೋಟೋಗಳು ಅಥವಾ ವೀಡಿಯೊ ತೆಗೆದುಕೊಳ್ಳಲು Grapherex ಗೆ ಕ್ಯಾಮೆರಾ ಅನುಮತಿ ಅಗತ್ಯವಿದೆ</string>
   <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">ವೀಡಿಯೊಗಳನ್ನು  ಧ್ವನಿಯೊಂದಿಗೆ ಸೆರೆಹಿಡಿಯಲು ಮೈಕ್ರೊಫೋನ್ ಅನುಮತಿ ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
-  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">ವೀಡಿಯೋಗಳನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಲು Signal ಗೆ ಮೈಕ್ರೋಫೋನ್ ಅನುಮತಿಗಳು ಅಗತ್ಯವಿರುತ್ತವೆ, ಆದರೆ ಅವುಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್‌ ಗಳಿಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ, ಮತ್ತು \"ಮೈಕ್ರೊಫೋನ್\" ಮತ್ತು \"ಕ್ಯಾಮೆರಾ\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
-  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">ವೀಡಿಯೊಗಳನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಲು Signal ಗೆ ಮೈಕ್ರೋಫೋನ್ ಅನುಮತಿಗಳು ಅಗತ್ಯವಿರುತ್ತವೆ.</string>
+  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">ವೀಡಿಯೋಗಳನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಲು Grapherex ಗೆ ಮೈಕ್ರೋಫೋನ್ ಅನುಮತಿಗಳು ಅಗತ್ಯವಿರುತ್ತವೆ, ಆದರೆ ಅವುಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್‌ ಗಳಿಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ, ಮತ್ತು \"ಮೈಕ್ರೊಫೋನ್\" ಮತ್ತು \"ಕ್ಯಾಮೆರಾ\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">ವೀಡಿಯೊಗಳನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡಲು Grapherex ಗೆ ಮೈಕ್ರೋಫೋನ್ ಅನುಮತಿಗಳು ಅಗತ್ಯವಿರುತ್ತವೆ.</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
-  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Signal ಎಸ್‌ಎಂಎಸ್/ಎಂಎಂಎಸ್ ಸಂದೇಶಗಳನ್ನು ಕಳುಹಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ, ಏಕೆಂದರೆ ಅದು ನಿಮ್ಮ ಡೀಫಾಲ್ಟ್ ಎಸ್‌ಎಂಎಸ್ ಆ್ಯಪ್ ಅಲ್ಲ. ನಿಮ್ಮ ಆಂಡ್ರಾಯ್ಡ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಇದನ್ನು ಬದಲಾಯಿಸಲು ನೀವು ಬಯಸುವಿರಾ?</string>
+  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Grapherex ಎಸ್‌ಎಂಎಸ್/ಎಂಎಂಎಸ್ ಸಂದೇಶಗಳನ್ನು ಕಳುಹಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ, ಏಕೆಂದರೆ ಅದು ನಿಮ್ಮ ಡೀಫಾಲ್ಟ್ ಎಸ್‌ಎಂಎಸ್ ಆ್ಯಪ್ ಅಲ್ಲ. ನಿಮ್ಮ ಆಂಡ್ರಾಯ್ಡ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಇದನ್ನು ಬದಲಾಯಿಸಲು ನೀವು ಬಯಸುವಿರಾ?</string>
   <string name="ConversationActivity_yes">ಹೌದು</string>
   <string name="ConversationActivity_no">ಇಲ್ಲ</string>
   <string name="ConversationActivity_search_position">%2$d ನಲ್ಲಿ %1$d</string>
@@ -228,7 +228,7 @@
   <string name="ConversationActivity_you_will_leave_this_group_and_it_will_be_deleted_from_all_of_your_devices">ನೀವು ಈ ಗುಂಪನ್ನು ತೊರೆಯುತ್ತೀರಿ ಮತ್ತು ಇದನ್ನು ನಿಮ್ಮ ಎಲ್ಲ ಸಾಧನಗಳಿಂದಲೂ ಅಳಿಸಲಾಗುವುದು.</string>
   <string name="ConversationActivity_delete">ಅಳಿಸು</string>
   <string name="ConversationActivity_delete_and_leave">ಅಳಿಸಿ ಮತ್ತು ಈ ಗುಂಪನ್ನು ತೊರೆಯಿರಿ</string>
-  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone"> %1$s ಗೆ ಕರೆ ಮಾಡಲು, Signal ಗೆ  ನಿಮ್ಮ ಮೈಕ್ರೊಫೋನ್  ಪ್ರವೇಶ ಅಗತ್ಯವಿದೆ.</string>
+  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone"> %1$s ಗೆ ಕರೆ ಮಾಡಲು, Grapherex ಗೆ  ನಿಮ್ಮ ಮೈಕ್ರೊಫೋನ್  ಪ್ರವೇಶ ಅಗತ್ಯವಿದೆ.</string>
   <string name="ConversationActivity__more_options_now_in_group_settings">ಹೆಚ್ಚಿನ ಆಯ್ಕೆಗಳು ಈಗ \"ಗುಂಪಿನ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ\" ಇವೆ</string>
   <string name="ConversationActivity_join">ಸೇರು</string>
   <string name="ConversationActivity_full">ಸಂಪೂರ್ಣ</string>
@@ -261,14 +261,14 @@
     <item quantity="other">ಸ್ಟೊರೇಜ್ %1$d ಲಗತ್ತನ್ನು ಉಳಿಸಲಾಗುತ್ತಿದೆ…</item>
   </plurals>
   <string name="ConversationFragment_pending">ಬಾಕಿ ಇದೆ…</string>
-  <string name="ConversationFragment_push">ದತ್ತಾಂಶ (Signal)</string>
+  <string name="ConversationFragment_push">ದತ್ತಾಂಶ (Grapherex)</string>
   <string name="ConversationFragment_mms">ಎಂಎಂಎಸ್</string>
   <string name="ConversationFragment_sms">ಎಸ್‌ಎಂಎಸ್‌</string>
   <string name="ConversationFragment_deleting">ಅಳಿಸಲಾಗುತ್ತಿದೆ</string>
   <string name="ConversationFragment_deleting_messages">ಸಂದೇಶಗಳನ್ನು ಅಳಿಸಲಾಗುತ್ತಿದೆ…</string>
   <string name="ConversationFragment_delete_for_me">ನನಗೆ ಮಾತ್ರ ಅಳಿಸು</string>
   <string name="ConversationFragment_delete_for_everyone">ಎಲ್ಲರಿಗೂ ಅಳಿಸು</string>
-  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Signal ನ ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಯಲ್ಲಿದ್ದರೆ ಸಂಭಾಷಣೆಯಲ್ಲಿರುವ ಪ್ರತಿಯೊಬ್ಬರಿಗೂ ಈ ಸಂದೇಶವನ್ನು ಅಳಿಸಲಾಗುತ್ತದೆ. ನೀವು ಸಂದೇಶವನ್ನು ಅಳಿಸಿದ್ದೀರಿ ಎಂದು ಅವರು ನೋಡಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ.</string>
+  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Grapherex ನ ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಯಲ್ಲಿದ್ದರೆ ಸಂಭಾಷಣೆಯಲ್ಲಿರುವ ಪ್ರತಿಯೊಬ್ಬರಿಗೂ ಈ ಸಂದೇಶವನ್ನು ಅಳಿಸಲಾಗುತ್ತದೆ. ನೀವು ಸಂದೇಶವನ್ನು ಅಳಿಸಿದ್ದೀರಿ ಎಂದು ಅವರು ನೋಡಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ.</string>
   <string name="ConversationFragment_quoted_message_not_found">ಮೂಲ ಸಂದೇಶ ಕಂಡುಬಂದಿಲ್ಲ</string>
   <string name="ConversationFragment_quoted_message_no_longer_available">ಮೂಲ ಸಂದೇಶ ಇನ್ನು ಮುಂದೆ ಲಭ್ಯವಿಲ್ಲ</string>
   <string name="ConversationFragment_failed_to_open_message">ಸಂದೇಶವನ್ನು ತೆರೆಯಲು ವಿಫಲವಾಗಿದೆ</string>
@@ -280,7 +280,7 @@
   <string name="ConversationFragment__d_group_members_have_the_same_name">%1$d ಗುಂಪು ಸದಸ್ಯರು ಒಂದೇ ಹೆಸರನ್ನು ಹೊಂದಿದ್ದಾರೆ.</string>
   <string name="ConversationFragment__tap_to_review">ಪರೀಕ್ಷಿಸಲು ಇಲ್ಲಿ ಒತ್ತಿ</string>
   <string name="ConversationFragment__review_requests_carefully">ಕೋರಿಕೆಯನ್ನು ಪರಿಶೀಲಿಸಿ</string>
-  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Signal ಒಂದೇ ಹೆಸರಿನ ಇನ್ನೊಂದು ಸಂಪರ್ಕವನ್ನು ಕಂಡುಹಿಡಿಯಿತು</string>
+  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Grapherex ಒಂದೇ ಹೆಸರಿನ ಇನ್ನೊಂದು ಸಂಪರ್ಕವನ್ನು ಕಂಡುಹಿಡಿಯಿತು</string>
   <string name="ConversationFragment_contact_us">ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ</string>
   <string name="ConversationFragment_verify">ದೃಢೀಕರಿಸಿ</string>
   <string name="ConversationFragment_not_now">ಈಗಲ್ಲ</string>
@@ -343,11 +343,11 @@
   <string name="BackupsPreferenceFragment__test_your_backup_passphrase">ನಿಮ್ಮ ಬ್ಯಾಕಪ್ ಪಾಸ್‌ಫ್ರೇಸ್ ಅನ್ನು ಪರೀಕ್ಷಿಸಿ ಮತ್ತು ಇದು ಹೊಂದುತ್ತದೆಯೇ ಎಂದು ದೃಢೀಕರಿಸಿ</string>
   <string name="BackupsPreferenceFragment__turn_on">ಆನ್‌ ಮಾಡಿ</string>
   <string name="BackupsPreferenceFragment__turn_off">ಆಫ್ ಮಾಡಿ</string>
-  <string name="BackupsPreferenceFragment__to_restore_a_backup">ಬ್ಯಾಕಪ್ ಅನ್ನು ಮರುಸ್ಥಾಪಿಸಲು, Signal‌ನ ಹೊಸ ನಕಲನ್ನು ಸ್ಥಾಪಿಸಿ. ಅಪ್ಲಿಕೇಶನ್ ತೆರೆಯಿರಿ ಮತ್ತು \"ಬ್ಯಾಕಪ್ ಮರುಸ್ಥಾಪಿಸು\" ಟ್ಯಾಪ್ ಮಾಡಿ, ನಂತರ ಬ್ಯಾಕಪ್ ಫೈಲ್ ಅನ್ನು ಹುಡುಕಿ. %1$s</string>
+  <string name="BackupsPreferenceFragment__to_restore_a_backup">ಬ್ಯಾಕಪ್ ಅನ್ನು ಮರುಸ್ಥಾಪಿಸಲು, Grapherex‌ನ ಹೊಸ ನಕಲನ್ನು ಸ್ಥಾಪಿಸಿ. ಅಪ್ಲಿಕೇಶನ್ ತೆರೆಯಿರಿ ಮತ್ತು \"ಬ್ಯಾಕಪ್ ಮರುಸ್ಥಾಪಿಸು\" ಟ್ಯಾಪ್ ಮಾಡಿ, ನಂತರ ಬ್ಯಾಕಪ್ ಫೈಲ್ ಅನ್ನು ಹುಡುಕಿ. %1$s</string>
   <string name="BackupsPreferenceFragment__learn_more">ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ</string>
   <string name="BackupsPreferenceFragment__in_progress">ಪ್ರಗತಿಯಲ್ಲಿದೆ…</string>
   <string name="BackupsPreferenceFragment__d_so_far">ಇಲ್ಲಿಯವರೆಗು %1$d…</string>
-  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups"> ಬ್ಯಾಕಪ್ ಗಳನ್ನು ರಚಿಸಲು Signal ಗೆ ಬಾಹ್ಯ ಸ್ಟೋರೇಜ್ ಅನುಮತಿ ಅಗತ್ಯವಿರುತ್ತದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್ಸ್ ಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು \"ಸ್ಟೋರೇಜ್\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups"> ಬ್ಯಾಕಪ್ ಗಳನ್ನು ರಚಿಸಲು Grapherex ಗೆ ಬಾಹ್ಯ ಸ್ಟೋರೇಜ್ ಅನುಮತಿ ಅಗತ್ಯವಿರುತ್ತದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್ಸ್ ಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು \"ಸ್ಟೋರೇಜ್\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
   <!--CustomDefaultPreference-->
   <string name="CustomDefaultPreference_using_custom">ಕಸ್ಟಂ ಬಳಸಲಾಗುತ್ತಿದೆ: %s</string>
   <string name="CustomDefaultPreference_using_default">ಪೂರ್ವನಿಯೋಜಿತ ಬಳಕೆ: %s</string>
@@ -381,17 +381,17 @@
   <!--DocumentView-->
   <string name="DocumentView_unnamed_file">ಹೆಸರಿಸದ ಫೈಲ್</string>
   <!--DonateMegaphone-->
-  <string name="DonateMegaphone_donate_to_signal">Signalಗೆ ದಾನ ಮಾಡಿ</string>
-  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Signal ನಿಮ್ಮಂತಹ ಜನರಿಂದ ನಡೆಯುತ್ತದೆ . ಇಂದು ನಿಮ್ಮ ಬೆಂಬಲವನ್ನು ತೋರಿಸಿ!</string>
+  <string name="DonateMegaphone_donate_to_signal">Grapherexಗೆ ದಾನ ಮಾಡಿ</string>
+  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Grapherex ನಿಮ್ಮಂತಹ ಜನರಿಂದ ನಡೆಯುತ್ತದೆ . ಇಂದು ನಿಮ್ಮ ಬೆಂಬಲವನ್ನು ತೋರಿಸಿ!</string>
   <string name="DonateMegaphone_donate">ದಾನ</string>
   <string name="DonateMegaphone_no_thanks">ಇಲ್ಲ, ಧನ್ಯವಾದಗಳು</string>
   <!--GroupCallingMegaphone-->
   <string name="GroupCallingMegaphone__introducing_group_calls">ಗುಂಪು  ಕರೆಗಳನ್ನು  ಪರಿಚಯಿಸಲಾಗುತ್ತಿದೆ  </string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">ಕಾಣೆಯಾದ ಪ್ಲೇ ಸೇವೆಗಳನ್ನು ಅತ್ಯುತ್ತಮವಾಗಿಸಿ</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">ಈ ಸಾಧನವು ಪ್ಲೇ ಸರ್ವೀಸಸ್ ಅನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ. ನಿಷ್ಕ್ರಿಯವಾಗಿದ್ದಾಗ Signal ಸಂದೇಶಗಳನ್ನು ಹಿಂದಕ್ಕೆ ಪಡೆಯದಂತೆ ತಡೆಯಲು ಸಿಸ್ಟಂ ಬ್ಯಾಟರಿ ಆಪ್ಟಿಮೈಸೇಶನ್‌ಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ ಅನ್ನು ಒತ್ತಿ.</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">ಈ ಸಾಧನವು ಪ್ಲೇ ಸರ್ವೀಸಸ್ ಅನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ. ನಿಷ್ಕ್ರಿಯವಾಗಿದ್ದಾಗ Grapherex ಸಂದೇಶಗಳನ್ನು ಹಿಂದಕ್ಕೆ ಪಡೆಯದಂತೆ ತಡೆಯಲು ಸಿಸ್ಟಂ ಬ್ಯಾಟರಿ ಆಪ್ಟಿಮೈಸೇಶನ್‌ಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ ಅನ್ನು ಒತ್ತಿ.</string>
   <!--ExpiredBuildReminder-->
-  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">ನಿಮ್ಮ Signal ಆವೃತ್ತಿಯ ವಾಯಿದೆ ಮುಗಿದಿದೆ. ಸಂದೇಶಗಳನ್ನು ಕಳುಹಿಸಲು ಮತ್ತೆ ಪಡೆಯಲು ನವೀಕರಿಸಿ.</string>
+  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">ನಿಮ್ಮ Grapherex ಆವೃತ್ತಿಯ ವಾಯಿದೆ ಮುಗಿದಿದೆ. ಸಂದೇಶಗಳನ್ನು ಕಳುಹಿಸಲು ಮತ್ತೆ ಪಡೆಯಲು ನವೀಕರಿಸಿ.</string>
   <string name="ExpiredBuildReminder_update_now">ಈಗ ನವೀಕರಿಸಿ</string>
   <!--PendingGroupJoinRequestsReminder-->
   <plurals name="PendingGroupJoinRequestsReminder_d_pending_member_requests">
@@ -403,8 +403,8 @@
   <string name="ShareActivity_share_with">ಜೊತೆ ಹಂಚಿಕೊಳ್ಳಿ </string>
   <string name="ShareActivity_multiple_attachments_are_only_supported">ಬಹು ಲಗತ್ತುಗಳನ್ನು ಕೇವಲ ಚಿತ್ರಗಳು ಮತ್ತು ವೀಡಿಯೋಗಳಿಗೆ ಬೆಂಬಲಿಸಲಾಗಿರುತ್ತದೆ</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Signalಗೆ ಶಾಶ್ವತವಾದ ಸಂಪರ್ಕ ವೈಫಲ್ಯ!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal ಅನ್ನು Google ಪ್ಲೇ ಸರ್ವೀಸಸ್ ನಲ್ಲಿ ನೋಂದಾಯಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ. Signal ಸಂದೇಶಗಳು ಹಾಗೂ ಕರೆಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ,  ದಯವಿಟ್ಟು ಸೆಟ್ಟಿಂಗ್‌ಗಳು &gt; ಅಡ್ವಾನ್ಸ್ಡ್ ನಲ್ಲಿ ಪುನಃ ನೋಂದಾಯಿಸಲು ಯತ್ನಿಸಿ.</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Grapherexಗೆ ಶಾಶ್ವತವಾದ ಸಂಪರ್ಕ ವೈಫಲ್ಯ!</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Grapherex ಅನ್ನು Google ಪ್ಲೇ ಸರ್ವೀಸಸ್ ನಲ್ಲಿ ನೋಂದಾಯಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ. Grapherex ಸಂದೇಶಗಳು ಹಾಗೂ ಕರೆಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ,  ದಯವಿಟ್ಟು ಸೆಟ್ಟಿಂಗ್‌ಗಳು &gt; ಅಡ್ವಾನ್ಸ್ಡ್ ನಲ್ಲಿ ಪುನಃ ನೋಂದಾಯಿಸಲು ಯತ್ನಿಸಿ.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">ಪೂರ್ಣ ರೆಸಲ್ಯೂಶನ್ GIF ಅನ್ನು ಹಿಂಪಡೆಯುವಾಗ ದೋಷ</string>
   <!--GiphyFragmentPageAdapter-->
@@ -620,7 +620,7 @@
   <string name="GroupJoinBottomSheetDialogFragment_encountered_a_network_error">ನೆಟ್‌ವರ್ಕ್ ದೋಷವನ್ನು ಎದುರಿಸಿದೆ.</string>
   <string name="GroupJoinBottomSheetDialogFragment_this_group_link_is_not_active">ಗುಂಪಿನ ಲಿಂಕ್ ಸಕ್ರಿಯವಾಗಿಲ್ಲ</string>
   <!--GroupJoinUpdateRequiredBottomSheetDialogFragment-->
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Signal ಅನ್ನು ನವೀಕರಿಸಿ</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Grapherex ಅನ್ನು ನವೀಕರಿಸಿ</string>
   <!--GroupInviteLinkEnableAndShareBottomSheetDialogFragment-->
   <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_invite_friends">ಸ್ನೇಹಿತರನ್ನು ಆಹ್ವಾನಿಸಿ</string>
   <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_encountered_a_network_error">ನೆಟ್‌ವರ್ಕ್ ದೋಷವನ್ನು ಎದುರಿಸಿದೆ.</string>
@@ -637,7 +637,7 @@
   <string name="InviteActivity_cancel">ರದ್ದುಗೊಳಿಸಿ</string>
   <string name="InviteActivity_sending">ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ…</string>
   <string name="InviteActivity_invitations_sent">ಆಮಂತ್ರಣಗಳನ್ನು ಕಳುಹಿಸಲಾಗಿದೆ!</string>
-  <string name="InviteActivity_invite_to_signal">Signalಗೆ ಆಮಂತ್ರಿಸಿ</string>
+  <string name="InviteActivity_invite_to_signal">Grapherexಗೆ ಆಮಂತ್ರಿಸಿ</string>
   <plurals name="InviteActivity_send_sms_to_friends">
     <item quantity="one">ಕಳುಹಿಸು ಎಸ್‌ಎಂಎಸ್ ಗೆ %d ಸ್ನೇಹಿತ</item>
     <item quantity="other">ಎಸ್‌ಎಂಎಸ್  %d ಸ್ನೇಹಿತರಿಗೆ ಕಳುಹಿಸಿರಿ</item>
@@ -646,7 +646,7 @@
     <item quantity="one">ಕಳುಹಿಸು %d ಎಸ್‌ಎಂಎಸ್ ಆಹ್ವಾನ?</item>
     <item quantity="other">ಎಸ್‌ಎಂಎಸ್‌ ಆಹ್ವಾನಗಳನ್ನು %dಗೆ ಕಳುಹಿಸುವುದೇ?</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">Signal ಗೆ ಬದಲಾಯಿಸೋಣ: %1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">Grapherex ಗೆ ಬದಲಾಯಿಸೋಣ: %1$s</string>
   <string name="InviteActivity_no_app_to_share_to">ಹಂಚಿಕೊಳ್ಳಲು ತಾವು ಯಾವುದೇ ಅಪ್ಲಿಕೇಶನ್ ಗಳನ್ನು ಹೊಂದಿಲ್ಲ ಎಂದು ಕಂಡುಬರುತ್ತಿದೆ.</string>
   <string name="InviteActivity_friends_dont_let_friends_text_unencrypted">ಸ್ನೇಹಿತರು ಸ್ನೇಹಿತರನ್ನು ಎನ್‌ಕ್ರಿಪ್ಟ್‌ ಮಾಡದೇ ಚಾಟ್ ಮಾಡಲು ಬಿಡುವುದಿಲ್ಲ.</string>
   <!--LearnMoreTextView-->
@@ -656,7 +656,7 @@
   <string name="LongMessageActivity_message_from_s">%1$sನಿಂದ ಸಂದೇಶ</string>
   <string name="LongMessageActivity_your_message">ನಿಮ್ಮ ಸಂದೇಶ</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">Grapherex</string>
   <string name="MessageRetrievalService_background_connection_enabled">ಹಿನ್ನಲೆಯ ಸಂಪರ್ಕವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">ವೈರ್‌ಲೆಸ್ ಒದಗಿಸುವವರ ಎಂಎಂಎಸ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಓದುವಲ್ಲಿ ದೋಷ </string>
@@ -705,16 +705,16 @@
   <string name="Megaphones_introducing_reactions">ಪ್ರತಿಕ್ರಿಯೆಗಳನ್ನು ಪರಿಚಯಿಸುತ್ತಿದೆ</string>
   <string name="Megaphones_tap_and_hold_any_message_to_quicky_share_how_you_feel">ನಿಮಗೆ ಹೇಗೆನಿಸುತ್ತದೆ ಎನ್ನುವುದನ್ನು ಹಂಚಿಕೊಳ್ಳಲು ಯಾವುದೇ ಸಂದೇಶವನ್ನು ಒತ್ತಿ ಮತ್ತು ಹಿಡಿಯಿರಿ.</string>
   <string name="Megaphones_remind_me_later">ನನಗೆ ನಂತರ ನೆನಪಿಸು</string>
-  <string name="Megaphones_verify_your_signal_pin">ನಿಮ್ಮ Signal ಪಿನ್ ಅನ್ನು ದೃಢೀಕರಿಸಿ</string>
+  <string name="Megaphones_verify_your_signal_pin">ನಿಮ್ಮ Grapherex ಪಿನ್ ಅನ್ನು ದೃಢೀಕರಿಸಿ</string>
   <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">ನೀವು ಇದನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳುವುದಕ್ಕಾಗಿ ನಿಮಗೆ ನಿಮ್ಮ ಪಿನ್ ಅನ್ನು ದೃಢೀಕರಿಸಿಕೊಳ್ಳಲು ಇದು ಆಗಾಗ್ಗೆ ಕೇಳುತ್ತದೆ.</string>
   <string name="Megaphones_verify_pin">ಪಿನ್ ದೃಢೀಕರಿಸಿ</string>
   <string name="Megaphones_get_started">ಪ್ರಾರಂಭಿಸಿ</string>
   <string name="Megaphones_new_group">ಹೊಸ ಗುಂಪು</string>
   <string name="Megaphones_invite_friends">ಸ್ನೇಹಿತರನ್ನು ಆಹ್ವಾನಿಸಿ</string>
   <!--NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Signal ಕರೆ ಪ್ರಗತಿಯಲ್ಲಿದೆ</string>
-  <string name="NotificationBarManager__establishing_signal_call">Signal ಕರೆ ಸ್ಥಾಪಿಸಲಾಗುತ್ತಿದೆ</string>
-  <string name="NotificationBarManager__incoming_signal_call">ಒಳಬರುವ Signal ಕರೆ</string>
+  <string name="NotificationBarManager_signal_call_in_progress">Grapherex ಕರೆ ಪ್ರಗತಿಯಲ್ಲಿದೆ</string>
+  <string name="NotificationBarManager__establishing_signal_call">Grapherex ಕರೆ ಸ್ಥಾಪಿಸಲಾಗುತ್ತಿದೆ</string>
+  <string name="NotificationBarManager__incoming_signal_call">ಒಳಬರುವ Grapherex ಕರೆ</string>
   <string name="NotificationBarManager__deny_call">ಕರೆ ನಿರಾಕರಿಸಿ</string>
   <string name="NotificationBarManager__answer_call">ಕರೆಗೆ ಉತ್ತರಿಸಿ</string>
   <string name="NotificationBarManager__end_call">ಕರೆ ಅಂತ್ಯಗೊಳಿಸಿ</string>
@@ -733,8 +733,8 @@
   <string name="MediaSendActivity_message_to_s">%sಗೆ ಸಂದೇಶ</string>
   <string name="MediaSendActivity_message">ಸಂದೇಶ</string>
   <string name="MediaSendActivity_select_recipients">ಸ್ವೀಕರಿಸುವವರನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
-  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Signal ನಿಮ್ಮ ಸಂಪರ್ಕಗಳನ್ನು ಪ್ರದರ್ಶಿಸಲು ಪ್ರವೇಶ ಅಗತ್ಯವಿದೆ. </string>
-  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">ನಿಮ್ಮ ಸಂಪರ್ಕಗಳನ್ನು ತೋರಿಸಲು Signal ಗೆ ಸಂಪರ್ಕಗಳ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಅಪ್ಲಿಕೇಶನ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು \"ಸಂಪರ್ಕಗಳು\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Grapherex ನಿಮ್ಮ ಸಂಪರ್ಕಗಳನ್ನು ಪ್ರದರ್ಶಿಸಲು ಪ್ರವೇಶ ಅಗತ್ಯವಿದೆ. </string>
+  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">ನಿಮ್ಮ ಸಂಪರ್ಕಗಳನ್ನು ತೋರಿಸಲು Grapherex ಗೆ ಸಂಪರ್ಕಗಳ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಅಪ್ಲಿಕೇಶನ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು \"ಸಂಪರ್ಕಗಳು\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
   <plurals name="MediaSendActivity_cant_share_more_than_n_items">
     <item quantity="one">ನೀವು ಮಾಡಬಹುದು\'ಗಿಂತ ಹೆಚ್ಚಿನದನ್ನು ಹಂಚಿಕೊಳ್ಳುವುದಿಲ್ಲ %d ಐಟಂ.</item>
     <item quantity="other">ನೀವು %dಗಿಂತ ಹೆಚ್ಚು ಐಟಂಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳುವುದು ಸಾಧ್ಯವಿಲ್ಲ. </item>
@@ -746,11 +746,11 @@
   <string name="MediaRepository__camera">ಕ್ಯಾಮರಾ</string>
   <!--MessageRecord-->
   <string name="MessageRecord_unknown">ತಿಳಿದಿಲ್ಲ</string>
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">ಈಗ ಬೆಂಬಲವಿಲ್ಲದ Signal ನ ಹಳೆಯ ಆವೃತ್ತಿಯನ್ನು ಬಳಸಿಕೊಂಡು ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಸಂದೇಶವನ್ನು ಸ್ವೀಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಗೆ ನವೀಕರಿಸಲು ಮತ್ತು ಸಂದೇಶವನ್ನು ಮತ್ತೆ ಕಳುಹಿಸಲು ಕಳುಹಿಸುವವರಿಗೆ ಹೇಳಿ.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">ಈಗ ಬೆಂಬಲವಿಲ್ಲದ Grapherex ನ ಹಳೆಯ ಆವೃತ್ತಿಯನ್ನು ಬಳಸಿಕೊಂಡು ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಸಂದೇಶವನ್ನು ಸ್ವೀಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಗೆ ನವೀಕರಿಸಲು ಮತ್ತು ಸಂದೇಶವನ್ನು ಮತ್ತೆ ಕಳುಹಿಸಲು ಕಳುಹಿಸುವವರಿಗೆ ಹೇಳಿ.</string>
   <string name="MessageRecord_left_group">ನೀವು ಗುಂಪನ್ನು ಬಿಟ್ಟಿದ್ದೀರಿ.</string>
   <string name="MessageRecord_you_updated_group">ನೀವು ಗುಂಪನ್ನು ನವೀಕರಿಸಿದ್ದೀರಿ.</string>
   <string name="MessageRecord_s_updated_group">%s ಗುಂಪನ್ನು ನವೀಕರಿಸಲಾಗಿದೆ.</string>
-  <string name="MessageRecord_s_joined_signal">%sರವರು Signal ಸೇರಿದ್ದಾರೆ!</string>
+  <string name="MessageRecord_s_joined_signal">%sರವರು Grapherex ಸೇರಿದ್ದಾರೆ!</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">ನೀವು ಕಣ್ಮರೆಯಾಗುವ ಸಂದೇಶಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದ್ದೀರಿ</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$s ಅವರು ಕಣ್ಮರೆಯಾಗುವ ಸಂದೇಶಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದ್ದಾರೆ</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">ನೀವು ಕಾಣದಂತಾಗುವ ಸಂದೇಶದ ಟೈಮರ್ ಅನ್ನು %1$s ಗೆ ನಿಗದಿಪಡಿಸಿದ್ದೀರಿ.</string>
@@ -820,9 +820,9 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">ಮಾನ್ಯವಲ್ಲದ QR ಕೋಡ್.</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">ಕ್ಷಮಿಸಿ, ನೀವು ಈಗಾಗಲೇ ಬಹಳ ಹೆಚ್ಚು ಸಾಧನಗಳನ್ನು ಲಿಂಕ್ ಮಾಡಿದ್ದೀರಿ, ಕೆಲವನ್ನು ತೆಗೆದುಹಾಕಲು ಪ್ರಯತ್ನಿಸಿ</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">ಕ್ಷಮಿಸಿ, ಇದು ಮಾನ್ಯವಾಗಿರುವ ಸಾಧನ ಲಿಂಕ್ ಮಾಡುವ QR ಕೋಡ್ ಅಲ್ಲ.</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">ಒಂದು Signal ಸಾಧನ ಲಿಂಕ್ ಮಾಡುವುದೇ?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">ನೀವು 3ನೆ ಪಾರ್ಟಿ ಸ್ಕ್ಯಾನರ್ ಬಳಸಿ Signal ಸಾಧನ ಲಿಂಕ್ ಮಾಡಲು ಯತ್ನಿಸುತ್ತಿರುವಂತೆ ಕಂಡುಬರುತ್ತಿದೆ. ನಿಮ್ಮ ರಕ್ಷಣೆಗಾಗಿ, Signal ಒಳಗೆ ದಯವಿಟ್ಟು ಕೋಡ್ ಅನ್ನು ಮತ್ತೊಮ್ಮೆ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ.</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">QR ಕೋಡ್‌‌ ಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಲು Signal ಗೆ ಕ್ಯಾಮೆರಾ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ, ಆದರೆ ಇದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು \"ಕ್ಯಾಮೆರಾ\" ಸಕ್ರಿಯಗೊಳಿಸಿ. </string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">ಒಂದು Grapherex ಸಾಧನ ಲಿಂಕ್ ಮಾಡುವುದೇ?</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">ನೀವು 3ನೆ ಪಾರ್ಟಿ ಸ್ಕ್ಯಾನರ್ ಬಳಸಿ Grapherex ಸಾಧನ ಲಿಂಕ್ ಮಾಡಲು ಯತ್ನಿಸುತ್ತಿರುವಂತೆ ಕಂಡುಬರುತ್ತಿದೆ. ನಿಮ್ಮ ರಕ್ಷಣೆಗಾಗಿ, Grapherex ಒಳಗೆ ದಯವಿಟ್ಟು ಕೋಡ್ ಅನ್ನು ಮತ್ತೊಮ್ಮೆ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ.</string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">QR ಕೋಡ್‌‌ ಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಲು Grapherex ಗೆ ಕ್ಯಾಮೆರಾ ಅನುಮತಿಯ ಅಗತ್ಯವಿದೆ, ಆದರೆ ಇದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು \"ಕ್ಯಾಮೆರಾ\" ಸಕ್ರಿಯಗೊಳಿಸಿ. </string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">ಕ್ಯಾಮೆರಾ ಅನುಮತಿ ಇಲ್ಲದೆ QR ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ    </string>
   <!--ExpirationDialog-->
   <string name="ExpirationDialog_disappearing_messages">ಕಣ್ಮರೆಯಾಗುವ ಸಂದೇಶಗಳು</string>
@@ -832,10 +832,10 @@
   <string name="OutdatedBuildReminder_update_now">ಈಗ ನವೀಕರಿಸಿ</string>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">ಪಾಸ್‌ಫ್ರೇಸ್‌ ನಮೂದಿಸಿ</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Signal ಐಕನ್</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">Grapherex ಐಕನ್</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">ಪಾಸ್‌ಫ್ರೇಸ್‌ ಸಲ್ಲಿಸಿ</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">ಪಾಸ್‌ಫ್ರೇಸ್‌ ಮಾನ್ಯವಾದದ್ದಲ್ಲ!</string>
-  <string name="PassphrasePromptActivity_unlock_signal">Signal ಅನ್ಲಾಕ್ ಮಾಡಿ</string>
+  <string name="PassphrasePromptActivity_unlock_signal">Grapherex ಅನ್ಲಾಕ್ ಮಾಡಿ</string>
   <!--PlacePickerActivity-->
   <string name="PlacePickerActivity_title">ನಕ್ಷೆ</string>
   <string name="PlacePickerActivity_drop_pin">ಡ್ರಾಪ್ ಪಿನ್</string>
@@ -850,7 +850,7 @@
   <string name="PinRestoreEntryFragment_contact_support">ಸಂಪರ್ಕ ಬೆಂಬಲ</string>
   <string name="PinRestoreEntryFragment_cancel">ರದ್ದುಗೊಳಿಸಿ</string>
   <string name="PinRestoreEntryFragment_skip">ಬಿಟ್ಟು ಮುಂದುವರಿಯಿರಿ</string>
-  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Signal ನೋಂದಣಿ - Android ಗಾಗಿ ಪಿನ್‌ ಕುರಿತ ಸಹಾಯ ಬೇಕಿದೆ</string>
+  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Grapherex ನೋಂದಣಿ - Android ಗಾಗಿ ಪಿನ್‌ ಕುರಿತ ಸಹಾಯ ಬೇಕಿದೆ</string>
   <string name="PinRestoreEntryFragment_enter_alphanumeric_pin">ಆಲ್ಫಾನ್ಯೂಮರಿಕ್ ಪಿನ್ ನಮೂದಿಸಿ</string>
   <string name="PinRestoreEntryFragment_enter_numeric_pin"> ಸಂಖ್ಯಾ ಪಿನ್ ನಮೂದಿಸಿ</string>
   <!--PinRestoreLockedFragment-->
@@ -906,13 +906,13 @@
   <string name="RegistrationActivity_is_your_phone_number_above_correct">ಈ ಮೇಲಿನ ನಿಮ್ಮ ಫೋನ್‌ ನಂಬರ್‌ ಸರಿಯಾಗಿದೆಯೇ?</string>
   <string name="RegistrationActivity_edit_number">ನಂಬರ್ ಎಡಿಟ್ ಮಾಡಿ</string>
   <string name="RegistrationActivity_missing_google_play_services">Google ಪ್ಲೇ ಸರ್ವೀಸಸ್‌‌ಗಳು ಕಾಣೆಯಾಗಿದೆ</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">ಈ ಸಾಧನದಲ್ಲಿ Google ಪ್ಲೇ ಸರ್ವೀಸಸ್ ಕಾಣುತ್ತಿಲ್ಲ. ನೀವು ಇನ್ನೂ Signal ಅನ್ನು ಬಳಸಬಹುದು, ಆದರೆ ಈ ಕಾನ್ಫಿಗರೇಶನ್ ವಿಶ್ವಾಸಾರ್ಹತೆ ಅಥವಾ ಕಾರ್ಯಕ್ಷಮತೆಯನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ.\n\nನೀವು ಸುಧಾರಿತ ಬಳಕೆದಾರರು ಅಲ್ಲದೇ ಇದ್ದಲ್ಲಿ, ನೀವು ಆಫ್ಟರ್ ಮಾರ್ಕೆಟ್ ಆಂಡ್ರಾಯ್ಡ್ ರಾಮ್ ಅನ್ನು ರನ್ ಮಾಡುತ್ತಿರುವುದಿಲ್ಲ ಅಥವಾ ನೀವಿದನ್ನು ದೋಷಗಳಲ್ಲಿ ಕಾಣುತ್ತಿದ್ದಲ್ಲಿ support@signal.org ಗೆ ಟ್ರಬಲ್‌ಶೂಟಿಂಗ್‌ಗಾಗಿ ದಯವಿಟ್ಟು ಸಂಪರ್ಕಿಸಿ, </string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">ಈ ಸಾಧನದಲ್ಲಿ Google ಪ್ಲೇ ಸರ್ವೀಸಸ್ ಕಾಣುತ್ತಿಲ್ಲ. ನೀವು ಇನ್ನೂ Grapherex ಅನ್ನು ಬಳಸಬಹುದು, ಆದರೆ ಈ ಕಾನ್ಫಿಗರೇಶನ್ ವಿಶ್ವಾಸಾರ್ಹತೆ ಅಥವಾ ಕಾರ್ಯಕ್ಷಮತೆಯನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ.\n\nನೀವು ಸುಧಾರಿತ ಬಳಕೆದಾರರು ಅಲ್ಲದೇ ಇದ್ದಲ್ಲಿ, ನೀವು ಆಫ್ಟರ್ ಮಾರ್ಕೆಟ್ ಆಂಡ್ರಾಯ್ಡ್ ರಾಮ್ ಅನ್ನು ರನ್ ಮಾಡುತ್ತಿರುವುದಿಲ್ಲ ಅಥವಾ ನೀವಿದನ್ನು ದೋಷಗಳಲ್ಲಿ ಕಾಣುತ್ತಿದ್ದಲ್ಲಿ support@Grapherex.org ಗೆ ಟ್ರಬಲ್‌ಶೂಟಿಂಗ್‌ಗಾಗಿ ದಯವಿಟ್ಟು ಸಂಪರ್ಕಿಸಿ, </string>
   <string name="RegistrationActivity_i_understand">ನನಗೆ ಅರ್ಥವಾಯಿತು</string>
   <string name="RegistrationActivity_play_services_error">ಪ್ಲೇ ಸರ್ವೀಸಸ್ ದೋಷ</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google ಪ್ಲೇ ಸರ್ವೀಸಸ್ ಅಪ್‌ಡೇಟ್ ಆಗುತ್ತಿದೆ ಅಥವಾ ತಾತ್ಕಾಲಿಕವಾಗಿ ಲಭ್ಯವಿಲ್ಲ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
   <string name="RegistrationActivity_terms_and_privacy">ನಿಯಮಗಳು &amp; ಖಾಸಗಿತನ ನೀತಿ</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends"> Signal ಗೆ ನಿಮ್ಮ ಸ್ನೇಹಿತರೊಂದಿಗೆ ಸಂಪರ್ಕ ಸಾಧಿಸಲು, ಸಂದೇಶಗಳನ್ನು ವಿನಿಮಯ ಮಾಡಿಕೊಳ್ಳಲು, ಮತ್ತು ಸುರಕ್ಷಿತ ಕರೆಗಳನ್ನು ಮಾಡಲು ನಿಮ್ಮ ಸಂಪರ್ಕಗಳು ಮತ್ತು ಮೀಡಿಯಾವನ್ನು ಆಕ್ಸೆಸ್ ಮಾಡುವುದು ಅಗತ್ಯವಿರುತ್ತದೆ.</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">ಸ್ನೇಹಿತರೊಂದಿಗೆ ಸಂಪರ್ಕ ಸಾಧಿಸಲು, ಮೆಸೇಜ್‌ಗಳನ್ನು ವಿನಿಮಯ ಮಾಡಿಕೊಳ್ಳಲು ಮತ್ತು ಸುರಕ್ಷಿತ ಕರೆಗಳನ್ನು ಮಾಡಲು ನಿಮ್ಮ ಸಂಪರ್ಕಗಳಿಗೆ Signal ಪ್ರವೇಶಾವಕಾಶ ಪಡೆಯಬೇ</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends"> Grapherex ಗೆ ನಿಮ್ಮ ಸ್ನೇಹಿತರೊಂದಿಗೆ ಸಂಪರ್ಕ ಸಾಧಿಸಲು, ಸಂದೇಶಗಳನ್ನು ವಿನಿಮಯ ಮಾಡಿಕೊಳ್ಳಲು, ಮತ್ತು ಸುರಕ್ಷಿತ ಕರೆಗಳನ್ನು ಮಾಡಲು ನಿಮ್ಮ ಸಂಪರ್ಕಗಳು ಮತ್ತು ಮೀಡಿಯಾವನ್ನು ಆಕ್ಸೆಸ್ ಮಾಡುವುದು ಅಗತ್ಯವಿರುತ್ತದೆ.</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">ಸ್ನೇಹಿತರೊಂದಿಗೆ ಸಂಪರ್ಕ ಸಾಧಿಸಲು, ಮೆಸೇಜ್‌ಗಳನ್ನು ವಿನಿಮಯ ಮಾಡಿಕೊಳ್ಳಲು ಮತ್ತು ಸುರಕ್ಷಿತ ಕರೆಗಳನ್ನು ಮಾಡಲು ನಿಮ್ಮ ಸಂಪರ್ಕಗಳಿಗೆ Grapherex ಪ್ರವೇಶಾವಕಾಶ ಪಡೆಯಬೇ</string>
   <string name="RegistrationActivity_rate_limited_to_service">ಈ ಸಂಖ್ಯೆಯನ್ನು ರಿಜಿಸ್ಟರ್ ಮಾಡಲು ನೀವು ತುಂಬಾ ಪ್ರಯತ್ನಗಳನ್ನು ಮಾಡಿದ್ದೀರಿ. ದಯವಿಟ್ಟು ಪುನಃ </string>
   <string name="RegistrationActivity_unable_to_connect_to_service">ಸೇವೆಗೆ ಸಂಪರ್ಕಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ದಯವಿಟ್ಟು ನೆಟ್‌ವರ್ಕ್ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
   <plurals name="RegistrationActivity_debug_log_hint">
@@ -933,7 +933,7 @@
   <!--RegistrationLockV2Dialog-->
   <string name="RegistrationLockV2Dialog_turn_on_registration_lock">ರಿಜಿಸ್ಟ್ರೇಶನ್‌ ಲಾಕ್ ಆನ್‌ ಮಾಡುವುದೇ?</string>
   <string name="RegistrationLockV2Dialog_turn_off_registration_lock">ರಿಜಿಸ್ಟ್ರೇಶನ್‌ ಲಾಕ್‌ ಆಫ್‌ ಮಾಡುವುದೇ?</string>
-  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Signal ‌ನೊಂದಿಗೆ ಮತ್ತೆ ನೋಂದಾಯಿಸುವಾಗ ನಿಮ್ಮ Signal ಪಿನ್ ಅನ್ನು ನೀವು ಮರೆತರೆ, ನಿಮ್ಮನ್ನು 7 ದಿನಗಳವರೆಗೆ ನಿಮ್ಮ ಖಾತೆಯಿಂದ ಲಾಕ್ ಮಾಡಲಾಗುತ್ತದೆ.</string>
+  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Grapherex ‌ನೊಂದಿಗೆ ಮತ್ತೆ ನೋಂದಾಯಿಸುವಾಗ ನಿಮ್ಮ Grapherex ಪಿನ್ ಅನ್ನು ನೀವು ಮರೆತರೆ, ನಿಮ್ಮನ್ನು 7 ದಿನಗಳವರೆಗೆ ನಿಮ್ಮ ಖಾತೆಯಿಂದ ಲಾಕ್ ಮಾಡಲಾಗುತ್ತದೆ.</string>
   <string name="RegistrationLockV2Dialog_turn_on">ಆನ್‌ ಮಾಡಿ</string>
   <string name="RegistrationLockV2Dialog_turn_off">ಆಫ್ ಮಾಡಿ</string>
   <!--RevealableMessageView-->
@@ -949,14 +949,14 @@
   <!--ShakeToReport-->
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">ಸಂಪರ್ಕಗಳಿಗೆ ಸೇರಿಸಿ</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">Signal ಗೆ ಆಮಂತ್ರಿಸಿ</string>
-  <string name="SharedContactDetailsActivity_signal_message">Signal ಸಂದೇಶ</string>
-  <string name="SharedContactDetailsActivity_signal_call">Signal ಕರೆ</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">Grapherex ಗೆ ಆಮಂತ್ರಿಸಿ</string>
+  <string name="SharedContactDetailsActivity_signal_message">Grapherex ಸಂದೇಶ</string>
+  <string name="SharedContactDetailsActivity_signal_call">Grapherex ಕರೆ</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">ಸಂಪರ್ಕಗಳಿಗೆ ಸೇರಿಸಿ</string>
-  <string name="SharedContactView_invite_to_signal">Signalಗೆ ಆಮಂತ್ರಿಸಿ</string>
-  <string name="SharedContactView_message">Signal ಸಂದೇಶ</string>
-  <!--SignalPinReminders-->
+  <string name="SharedContactView_invite_to_signal">Grapherexಗೆ ಆಮಂತ್ರಿಸಿ</string>
+  <string name="SharedContactView_message">Grapherex ಸಂದೇಶ</string>
+  <!--GrapherexPinReminders-->
   <string name="SignalPinReminders_well_remind_you_again_later">ನಾವು ನಂತರ ಮತ್ತೊಮ್ಮೆ ನಿಮಗೆ ಇದನ್ನು ನೆನಪಿಸುತ್ತೇವೆ.</string>
   <string name="SignalPinReminders_well_remind_you_again_tomorrow">ನಾಳೆ ಮತ್ತೊಮ್ಮೆ ಇದನ್ನು ನಾವು ನಿಮಗೆ ನೆನಪಿಸುತ್ತೇವೆ.</string>
   <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">ನಾವು ಕೆಲವೇ ದಿನಗಳಲ್ಲಿ ಮತ್ತೊಮ್ಮೆ ಇದನ್ನು ನಿಮಗೆ ನೆನಪಿಸುತ್ತೇವೆ.</string>
@@ -976,14 +976,14 @@
   <string name="SmsMessageRecord_secure_session_reset">ನೀವು ಸುರಕ್ಷಿತ ಅವಧಿಯನ್ನು ಮರುಹೊಂದಿಸಿ.</string>
   <string name="SmsMessageRecord_secure_session_reset_s">%s ಸುರಕ್ಷಿತ ಅವಧಿಯನ್ನು ಮರುಹೊಂದಿಸಿದ್ದಾರೆ.</string>
   <string name="SmsMessageRecord_duplicate_message">ಡುಪ್ಲಿಕೇಟ್ ಸಂದೇಶ.</string>
-  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">ಈ ಸಂದೇಶವನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ, ಏಕೆಂದರೆ ಇದನ್ನು Signal ನ ಹೊಸ ಆವೃತ್ತಿಯಿಂದ ಕಳುಹಿಸಲಾಗಿದೆ. ನೀವು ನವೀಕರಿಸಿದ ನಂತರ ಈ ಸಂದೇಶವನ್ನು ಮತ್ತೆ ಕಳುಹಿಸಲು ನಿಮ್ಮ ಸಂಪರ್ಕವನ್ನು ನೀವು ಕೇಳಬಹುದು.</string>
+  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">ಈ ಸಂದೇಶವನ್ನು ಪ್ರಕ್ರಿಯೆಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ, ಏಕೆಂದರೆ ಇದನ್ನು Grapherex ನ ಹೊಸ ಆವೃತ್ತಿಯಿಂದ ಕಳುಹಿಸಲಾಗಿದೆ. ನೀವು ನವೀಕರಿಸಿದ ನಂತರ ಈ ಸಂದೇಶವನ್ನು ಮತ್ತೆ ಕಳುಹಿಸಲು ನಿಮ್ಮ ಸಂಪರ್ಕವನ್ನು ನೀವು ಕೇಳಬಹುದು.</string>
   <string name="SmsMessageRecord_error_handling_incoming_message">ಒಳಬರುವ ಸಂದೇಶ ನಿರ್ವಹಣಾ ದೋಷ.</string>
   <!--StickerManagementActivity-->
   <string name="StickerManagementActivity_stickers">ಸ್ಟಿಕ್ಕರ್‌ಗಳು</string>
   <!--StickerManagementAdapter-->
   <string name="StickerManagementAdapter_installed_stickers">ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿರುವ ಸ್ಟಿಕ್ಕರ್‌ಗಳು</string>
   <string name="StickerManagementAdapter_stickers_you_received">ನೀವು ಸ್ವೀಕರಿಸಿದ ಸ್ಟಿಕ್ಕರ್‌ಗಳು</string>
-  <string name="StickerManagementAdapter_signal_artist_series">Signal ಕಲಾವಿದ ಸರಣಿ</string>
+  <string name="StickerManagementAdapter_signal_artist_series">Grapherex ಕಲಾವಿದ ಸರಣಿ</string>
   <string name="StickerManagementAdapter_no_stickers_installed">ಯಾವುದೇ ಸ್ಟಿಕ್ಕರ್‌ಗಳನ್ನು ಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ</string>
   <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here"> ಒಳಬರುವ ಸಂದೇಶಗಳಿಂದ ಸ್ಟಿಕ್ಕರ್‌ಗಳು ಇಲ್ಲಿ ಕಾಣಿಸುತ್ತದೆ</string>
   <string name="StickerManagementAdapter_untitled">ಶೀರ್ಷಿಕ ರಹಿತ</string>
@@ -1020,7 +1020,7 @@
   <string name="ThreadRecord_view_once_media">ವ್ಯೂ-ಒನ್ಸ್ ಮೀಡಿಯಾ</string>
   <string name="ThreadRecord_this_message_was_deleted">ಈ ಸಂದೇಶವನ್ನು ಅಳಿಸಲಾಗಿದೆ.</string>
   <string name="ThreadRecord_you_deleted_this_message">ನೀವು ಈ ಸಂದೇಶವನ್ನು ಅಳಿಸಿದಿರಿ</string>
-  <string name="ThreadRecord_s_is_on_signal">%sರವರು Signal ಸೇರಿದ್ದಾರೆ!</string>
+  <string name="ThreadRecord_s_is_on_signal">%sರವರು Grapherex ಸೇರಿದ್ದಾರೆ!</string>
   <string name="ThreadRecord_disappearing_messages_disabled">ಕಣ್ಮರೆಯಾಗುವ ಸಂದೇಶಗಳು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">ಕಣ್ಮರೆಯಾಗುತ್ತಿರುವ ಸಂದೇಶ ಸಮಯ %s ಕ್ಕೆ ಹೊಂದಿಸಲಾಗಿದೆ</string>
   <string name="ThreadRecord_safety_number_changed">ಸುರಕ್ಷತಾ ಸಂಖ್ಯೆ ಬದಲಾಯಿಸಲಾಗಿದೆ</string>
@@ -1035,8 +1035,8 @@
   <string name="ThreadRecord_file">ಫೈಲ್</string>
   <string name="ThreadRecord_video">ವೀಡಿಯೊ</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Signal ನವೀಕರಿಸಿ</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">ಹೊಸ ಆವೃತ್ತಿ Signal ಲಭ್ಯವಿದೆ, ನವೀಕರಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
+  <string name="UpdateApkReadyListener_Signal_update">Grapherex ನವೀಕರಿಸಿ</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">ಹೊಸ ಆವೃತ್ತಿ Grapherex ಲಭ್ಯವಿದೆ, ನವೀಕರಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
   <!--UntrustedSendDialog-->
   <string name="UntrustedSendDialog_send_message">ಸಂದೇಶ ಕಳುಹಿಸುವುದೇ?</string>
   <string name="UntrustedSendDialog_send">ಕಳುಹಿಸು</string>
@@ -1055,14 +1055,14 @@
   <string name="UsernameEditFragment_username_is_invalid">ಬಳಕೆದಾರ ಹೆಸರು ಅಮಾನ್ಯವಾಗಿದೆ.</string>
   <string name="UsernameEditFragment_usernames_must_be_between_a_and_b_characters">ಬಳಕೆದಾರ ಹೆಸರುಗಳ  %1$d ಮತ್ತು %2$d ಅಕ್ಷರಗಳ ನಡುವೆ ಇರಬೇಕು.</string>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">ನಿಮ್ಮ ಸಂಪರ್ಕವು ಹಳೆಯ Signal ಆವೃತ್ತಿಯನ್ನು ಚಲಾಯಿಸುತ್ತಿದ್ದಾರೆ. ನಿಮ್ಮ ಸುರಕ್ಷತಾ ಸಂಖ್ಯೆ  ಪರಿಶೀಲಿಸುವ ಮೊದಲು ದಯವಿಟ್ಟು ಅವರನ್ನು ನವೀಕರಿಸಲು ಕೇಳಿ.</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">ನಿಮ್ಮ ಸಂಪರ್ಕವು QR ಕೋಡ್ ಫಾರ್ಮ್ಯಾಟ್‌ಗೆ ಹೊಂದಿಕೊಳ್ಳದ Signal ನ ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಯನ್ನು ರನ್ ಮಾಡುತ್ತಿದೆ. ಹೋಲಿಕೆ ಮಾಡಲು ದಯವಿಟ್ಟು ನವೀಕರಿಸಿ.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">ನಿಮ್ಮ ಸಂಪರ್ಕವು ಹಳೆಯ Grapherex ಆವೃತ್ತಿಯನ್ನು ಚಲಾಯಿಸುತ್ತಿದ್ದಾರೆ. ನಿಮ್ಮ ಸುರಕ್ಷತಾ ಸಂಖ್ಯೆ  ಪರಿಶೀಲಿಸುವ ಮೊದಲು ದಯವಿಟ್ಟು ಅವರನ್ನು ನವೀಕರಿಸಲು ಕೇಳಿ.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">ನಿಮ್ಮ ಸಂಪರ್ಕವು QR ಕೋಡ್ ಫಾರ್ಮ್ಯಾಟ್‌ಗೆ ಹೊಂದಿಕೊಳ್ಳದ Grapherex ನ ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಯನ್ನು ರನ್ ಮಾಡುತ್ತಿದೆ. ಹೋಲಿಕೆ ಮಾಡಲು ದಯವಿಟ್ಟು ನವೀಕರಿಸಿ.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">ಸ್ಕ್ಯಾನ್ ಮಾಡಿದ ಕ್ಯೂಆರ್ ಕೋಡ್ ಸರಿಯಾಗಿ ಫಾರ್ಮ್ಯಾಟ್ ಆಗಿಲ್ಲದ ಸುರಕ್ಷತಾ ಸಂಖ್ಯೆ ದೃಢೀಕರಣ ಕೋಡ್ ಆಗಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಸ್ಕ್ಯಾನ್ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿ.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">ಇದರ ಮೂಲಕ ಸುರಕ್ಷತಾ ಸಂಖ್ಯೆ ಹಂಚಿಕೊಳ್ಳಿ…</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">ನಮ್ಮ Signal ಸುರಕ್ಷತಾ ಸಂಖ್ಯೆ: </string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">ನಮ್ಮ Grapherex ಸುರಕ್ಷತಾ ಸಂಖ್ಯೆ: </string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">ಹಂಚಿಕೊಳ್ಳಲು ತಾವು ಯಾವುದೇ ಅಪ್ಲಿಕೇಶನ್‌‌‌ಗಳನ್ನು ಹೊಂದಿಲ್ಲದಿರುವಂತೆ ಕಂಡುಬರುತ್ತಿದೆ.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">ಹೋಲಿಸುವುದಕ್ಕಾಗಿ ಯಾವುದೇ ಸುರಕ್ಷತಾ ಸಂಖ್ಯೆ ಕ್ಲಿಪ್‌ಬೋರ್ಡಿನಲ್ಲಿ ಕಂಡುಬಂದಿಲ್ಲ</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">ಒಂದು QR ಕೋಡ್‌‌ ಸ್ಕ್ಯಾನ್ ಮಾಡಲು  Signal ಗೆ ಕ್ಯಾಮೆರಾ ಅನುಮತಿ ಅಗತ್ಯವಿದೆ, ಆದರೆ ಇದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು \"ಕ್ಯಾಮೆರಾ\" ಸಕ್ರಿಯಗೊಳಿಸಿ. </string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">ಒಂದು QR ಕೋಡ್‌‌ ಸ್ಕ್ಯಾನ್ ಮಾಡಲು  Grapherex ಗೆ ಕ್ಯಾಮೆರಾ ಅನುಮತಿ ಅಗತ್ಯವಿದೆ, ಆದರೆ ಇದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು \"ಕ್ಯಾಮೆರಾ\" ಸಕ್ರಿಯಗೊಳಿಸಿ. </string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">ಕ್ಯಾಮೆರಾ ಅನುಮತಿ ಇಲ್ಲದೆ QR ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ</string>
   <!--ViewOnceMessageActivity-->
   <!--AudioView-->
@@ -1080,13 +1080,13 @@
   <string name="ApplicationMigrationService_system_database_import_is_complete">ಸಿಸ್ಟಂ ಡೇಟಾಬೇಸ್ ಇಂಪೋರ್ಟ್ ಪೂರ್ಣಗೊಂಡಿದೆ.</string>
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">ತೆರೆಯಲು ಸ್ಪರ್ಶಿಸಿ.</string>
-  <string name="KeyCachingService_passphrase_cached">Signal ಅನ್ಲಾಕ್ ಆಗಿದೆ</string>
-  <string name="KeyCachingService_lock">Signal ಲಾಕ್ ಮಾಡಿ</string>
+  <string name="KeyCachingService_passphrase_cached">Grapherex ಅನ್ಲಾಕ್ ಆಗಿದೆ</string>
+  <string name="KeyCachingService_lock">Grapherex ಲಾಕ್ ಮಾಡಿ</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">ನೀವು</string>
   <string name="MediaPreviewActivity_unssuported_media_type">ಬೆಂಬಲವಿಲ್ಲದ ಮೀಡಿಯಾ ವಿಧ</string>
   <string name="MediaPreviewActivity_draft">ಡ್ರಾಫ್ಟ್</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">ಬಾಹ್ಯ ಸ್ಟೋರೇಜ್ ಗೆ ಉಳಿಸುವುದಕ್ಕೆ Signal ಗೆ ಸ್ಟೊರೇಜ್ ಅನುಮತಿ ಅಗತ್ಯವಿದೆ , ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್‌ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ, ಮತ್ತು  \"ಸ್ಟೊರೇಜ್\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">ಬಾಹ್ಯ ಸ್ಟೋರೇಜ್ ಗೆ ಉಳಿಸುವುದಕ್ಕೆ Grapherex ಗೆ ಸ್ಟೊರೇಜ್ ಅನುಮತಿ ಅಗತ್ಯವಿದೆ , ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್‌ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ, ಮತ್ತು  \"ಸ್ಟೊರೇಜ್\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">ಅನುಮತಿಗಳಿಲ್ಲದೆ ಬಾಹ್ಯ ಸ್ಟೊರೇಜ್‌ಗೆ ಉಳಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">ಸಂದೇಶವನ್ನು ಅಳಿಸುವುದೇ?</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">ಇದು ಶಾಶ್ವತವಾಗಿ ಈ ಸಂದೇಶವನ್ನು ಅಳಿಸುವುದು.</string>
@@ -1103,10 +1103,10 @@
   <string name="MessageNotifier_view_once_photo">ವ್ಯೂ-ಒನ್ಸ್ ಫೋಟೋ</string>
   <string name="MessageNotifier_view_once_video">ವ್ಯೂ-ಒನ್ಸ್ ವೀಡಿಯೊ</string>
   <string name="MessageNotifier_reply">ಉತ್ತರಿಸಿ</string>
-  <string name="MessageNotifier_signal_message">Signal ಸಂದೇಶ</string>
+  <string name="MessageNotifier_signal_message">Grapherex ಸಂದೇಶ</string>
   <string name="MessageNotifier_unsecured_sms">ಅಸುರಕ್ಷಿತ ಎಸ್‌ಎಂಎಸ್</string>
   <string name="MessageNotifier_you_may_have_new_messages">ನೀವು ಹೊಸ ಸಂದೇಶಗಳನ್ನು ಹೊಂದಿರಬಹುದು</string>
-  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">ಇತ್ತೀಚಿನ  ಅಧಿಸೂಚನೆಗಳನ್ನು ಪರಿಶೀಲಿಸಲು Signal ತೆರೆಯಿರಿ.</string>
+  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">ಇತ್ತೀಚಿನ  ಅಧಿಸೂಚನೆಗಳನ್ನು ಪರಿಶೀಲಿಸಲು Grapherex ತೆರೆಯಿರಿ.</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">ಸಂಪರ್ಕ</string>
   <string name="MessageNotifier_reacted_s_to_s">%1$s ಗೆ ಪ್ರತಿಕ್ರಿಯಿಸಿದ್ದಾರೆ: \"%2$s\".</string>
@@ -1128,7 +1128,7 @@
   <string name="NotificationChannel_missing_display_name">ತಿಳಿದಿಲ್ಲ</string>
   <!--ProfileEditNameFragment-->
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">ಯಾವಾಗ  Signal ಲಾಕ್ ಮಾಡಲಾಗಿದೆಯೋ ಆವಾಗ ತ್ವರಿತ ಪ್ರತಿಕ್ರಿಯೆ ಲಭ್ಯವಿಲ್ಲ!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">ಯಾವಾಗ  Grapherex ಲಾಕ್ ಮಾಡಲಾಗಿದೆಯೋ ಆವಾಗ ತ್ವರಿತ ಪ್ರತಿಕ್ರಿಯೆ ಲಭ್ಯವಿಲ್ಲ!</string>
   <string name="QuickResponseService_problem_sending_message">ಸಂದೇಶ ಕಳುಹಿಸುವಲ್ಲಿ ಸಮಸ್ಯೆ!</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">%sಗೆ ಉಳಿಸಲಾಗಿದೆ</string>
@@ -1139,7 +1139,7 @@
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">ಅಮಾನ್ಯವಾದ ಶಾರ್ಟ್‌ಕಟ್</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">Grapherex</string>
   <string name="SingleRecipientNotificationBuilder_new_message">ಹೊಸ ಸಂದೇಶ</string>
   <!--ThumbnailView-->
   <string name="ThumbnailView_Play_video_description">ವೀಡಿಯೊ ಪ್ಲೇ ಮಾಡಿ</string>
@@ -1151,10 +1151,10 @@
   </plurals>
   <!--UnauthorizedReminder-->
   <string name="UnauthorizedReminder_device_no_longer_registered">ಸಾಧನ ಇನ್ನು ನೋಂದಣಿ ಹೊಂದಿರುವುದಿಲ್ಲ</string>
-  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">ನಿಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನೀವು Signal ನೊಂದಿಗೆ ಬೇರೆ ಸಾಧನದಲ್ಲಿ ನೋಂದಾಯಿಸಿದ್ದರಿಂದ ಇದು ಉಂಟಾಗಿರಬಹುದು. ಪುನಃ ನೋಂದಾಯಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
+  <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">ನಿಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನೀವು Grapherex ನೊಂದಿಗೆ ಬೇರೆ ಸಾಧನದಲ್ಲಿ ನೋಂದಾಯಿಸಿದ್ದರಿಂದ ಇದು ಉಂಟಾಗಿರಬಹುದು. ಪುನಃ ನೋಂದಾಯಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone"> %s ನಿಂದ ಕರೆಗೆ ಉತ್ತರಿಸಲು, ನಿಮ್ಮ ಮೈಕ್ರೊಫೋನ್‌ಗೆ Signal ಗೆ ಪ್ರವೇಶವನ್ನು ನೀಡಿ.</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">ಕರೆಗಳನ್ನು ಮಾಡಲು ಅಥವಾ ಪಡೆಯಲು Signal ಗೆ ಮೈಕ್ರೊಫೋನ್ ಹಾಗೂ ಕ್ಯಾಮೆರಾ ಅನುಮತಿಗಳು ಅಗತ್ಯವಿರುತ್ತವೆ, ಆದರೆ ಅವುಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್‌ ಗಳಿಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ, ಮತ್ತು  \"ಮೈಕ್ರೊಫೋನ್\" ಮತ್ತು \"ಕ್ಯಾಮೆರಾ\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone"> %s ನಿಂದ ಕರೆಗೆ ಉತ್ತರಿಸಲು, ನಿಮ್ಮ ಮೈಕ್ರೊಫೋನ್‌ಗೆ Grapherex ಗೆ ಪ್ರವೇಶವನ್ನು ನೀಡಿ.</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">ಕರೆಗಳನ್ನು ಮಾಡಲು ಅಥವಾ ಪಡೆಯಲು Grapherex ಗೆ ಮೈಕ್ರೊಫೋನ್ ಹಾಗೂ ಕ್ಯಾಮೆರಾ ಅನುಮತಿಗಳು ಅಗತ್ಯವಿರುತ್ತವೆ, ಆದರೆ ಅವುಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್‌ ಗಳಿಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆ ಮಾಡಿ, ಮತ್ತು  \"ಮೈಕ್ರೊಫೋನ್\" ಮತ್ತು \"ಕ್ಯಾಮೆರಾ\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
   <!--WebRtcCallScreen-->
   <!--WebRtcCallScreen V2-->
   <string name="WebRtcCallScreen__answer">ಉತ್ತರಿಸಿ</string>
@@ -1169,7 +1169,7 @@
   <string name="change_passphrase_activity__repeat_new_passphrase">ಹೊಸ ಪಾಸ್‌‌ಫ್ರೇಸ್ ಪುನರಾವರ್ತಿಸಿ</string>
   <!--contact_selection_activity-->
   <string name="contact_selection_activity__enter_name_or_number">ಹೆಸರು ಅಥವಾ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</string>
-  <string name="contact_selection_activity__invite_to_signal">Signalಗೆ ಆಮಂತ್ರಿಸಿ</string>
+  <string name="contact_selection_activity__invite_to_signal">Grapherexಗೆ ಆಮಂತ್ರಿಸಿ</string>
   <string name="contact_selection_activity__new_group">ಹೊಸ ಗುಂಪು</string>
   <!--contact_filter_toolbar-->
   <string name="contact_filter_toolbar__clear_entered_text_description">ನಮೂದಿಸಿದ ಪಠ್ಯ ತೆರವುಗೊಳಿಸಿ</string>
@@ -1181,16 +1181,16 @@
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">ಸಂಪರ್ಕದ ಛಾಯಾಚಿತ್ರ</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">ನಿಮ್ಮ ಸಂಪರ್ಕಗಳನ್ನು ತೋರಿಸಲು Signal ಗೆ ಸಂಪರ್ಕಗಳ ಅನುಮತಿ ಅಗತ್ಯವಿದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಅಪ್ಲಿಕೇಶನ್ ಸೆಟ್ಟಿಂಗ್‌ ಮೆನುಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು \"ಸಂಪರ್ಕಗಳು\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">ನಿಮ್ಮ ಸಂಪರ್ಕಗಳನ್ನು ತೋರಿಸಲು Grapherex ಗೆ ಸಂಪರ್ಕಗಳ ಅನುಮತಿ ಅಗತ್ಯವಿದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಅಪ್ಲಿಕೇಶನ್ ಸೆಟ್ಟಿಂಗ್‌ ಮೆನುಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು \"ಸಂಪರ್ಕಗಳು\" ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">ಸಂಪರ್ಕಗಳನ್ನು ಹಿಂಪಡೆಯುವಲ್ಲಿ ದೋಷ, ನಿಮ್ಮ ನೆಟ್‌ವರ್ಕ್ ಸಂಪರ್ಕ ಪರಿಶೀಲಿಸಿ</string>
   <string name="ContactSelectionListFragment_username_not_found">ಬಳಕೆದಾರ ಹೆಸರು ಕಂಡುಬಂದಿಲ್ಲ</string>
-  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">\"%1$s\"  Signal ಬಳಕೆದಾರರಲ್ಲ. ದಯವಿಟ್ಟು ಬಳಕೆದಾರ ಹೆಸರನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.</string>
+  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">\"%1$s\"  Grapherex ಬಳಕೆದಾರರಲ್ಲ. ದಯವಿಟ್ಟು ಬಳಕೆದಾರ ಹೆಸರನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.</string>
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Signal ಗೆ  ನಿಮ್ಮ ಸಂಪರ್ಕಗಳನ್ನು ಪ್ರದರ್ಶಿಸಲು ಪ್ರವೇಶ ಅಗತ್ಯವಿದೆ.</string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Grapherex ಗೆ  ನಿಮ್ಮ ಸಂಪರ್ಕಗಳನ್ನು ಪ್ರದರ್ಶಿಸಲು ಪ್ರವೇಶ ಅಗತ್ಯವಿದೆ.</string>
   <string name="contact_selection_list_fragment__show_contacts">ಸಂಪರ್ಕಗಳನ್ನು ತೋರಿಸಿ</string>
   <!--contact_selection_list_item-->
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">Signal ಸಂದೇಶ</string>
+  <string name="conversation_activity__type_message_push">Grapherex ಸಂದೇಶ</string>
   <string name="conversation_activity__type_message_sms_insecure">ಅಸುರಕ್ಷಿತ ಎಸ್‌ಎಂಎಸ್</string>
   <string name="conversation_activity__type_message_mms_insecure">ಅಸುರಕ್ಷಿತ ಎಂಎಂಎಸ್</string>
   <string name="conversation_activity__from_sim_name">ಇಂದ  %1$s</string>
@@ -1202,7 +1202,7 @@
   <string name="conversation_activity__quick_attachment_drawer_toggle_camera_description">ತ್ವರಿತ ಕ್ಯಾಮೆರಾ ಅಟ್ಯಾಚ್‌ಮೆಂಟ್ ಡ್ರಾಯರ್ ಟಾಗಲ್ ಮಾಡಿ</string>
   <string name="conversation_activity__quick_attachment_drawer_record_and_send_audio_description">ಆಡಿಯೋ ಲಗತ್ತು ರೆಕಾರ್ಡ್ ಮಾಡಿ ಮತ್ತು ಕಳುಹಿಸಿ</string>
   <string name="conversation_activity__quick_attachment_drawer_lock_record_description">ಆಡಿಯೋ ಲಗತ್ತು ರೆಕಾರ್ಡಿಂಗ್  ಲಾಕ್ ಮಾಡಿ</string>
-  <string name="conversation_activity__enable_signal_for_sms">ಎಸ್‌ಎಂಎಸ್ ಗಾಗಿ Signal ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+  <string name="conversation_activity__enable_signal_for_sms">ಎಸ್‌ಎಂಎಸ್ ಗಾಗಿ Grapherex ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
   <!--conversation_input_panel-->
   <string name="conversation_input_panel__slide_to_cancel">ರದ್ದುಪಡಿಸಲು ಸ್ಲೈಡ್ ಮಾಡಿ</string>
   <string name="conversation_input_panel__cancel">ರದ್ದುಮಾಡು</string>
@@ -1277,9 +1277,9 @@
   <string name="IdentityUtil_unverified_banner_one">%s ನೊಂದಿಗೆ ನಿಮ್ಮ ಸುರಕ್ಷತಾ ಸಂಖ್ಯೆ ಬದಲಾಗಿದೆ ಮತ್ತು ಇನ್ನು ಮುಂದೆ ದೃಢೀಕರಿಸಲಾಗುವುದಿಲ್ಲ</string>
   <string name="IdentityUtil_unverified_banner_two">%1$sಮತ್ತು  %2$sನೊಂದಿಗೆ ನಿಮ್ಮ ಸುರಕ್ಷತಾ ಸಂಖ್ಯೆಗಳು ಬದಲಾಗಿವೆ ಮತ್ತು ಇನ್ನು ಮುಂದೆ ದೃಢೀಕರಿಸಲಾಗುವುದಿಲ್ಲ</string>
   <string name="IdentityUtil_unverified_banner_many">%1$s%2$sಮತ್ತು  %3$s ನೊಂದಿಗೆ ನಿಮ್ಮ ಸುರಕ್ಷತಾ ಸಂಖ್ಯೆಗಳು ಬದಲಾಗಿವೆ ಮತ್ತು ಇನ್ನು ಮುಂದೆ ದೃಢೀಕರಿಸಲಾಗುವುದಿಲ್ಲ</string>
-  <string name="IdentityUtil_unverified_dialog_one">%1$s ನೊಂದಿಗೆ ನಿಮ್ಮ ಸುರಕ್ಷತಾ ಸಂಖ್ಯೆ ಬದಲಾಗಿದೆ ಮತ್ತು ಇನ್ನು ಮುಂದೆ ದೃಢೀಕರಿಸಲಾಗುವುದಿಲ್ಲ. ಯಾರೋ ನಿಮ್ಮ ಸಂವಹನವನ್ನು ತಡೆಯಲು ಪ್ರಯತ್ನಿಸುತ್ತಿದ್ದಾರೆ ಅಥವಾ %1$s ಅನ್ನು ಸರಳವಾಗಿ Signal ಅನ್ನು ಪುನಃ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಲಾಗಿದೆ ಎಂದು ಇದರರ್ಥ. </string>
-  <string name="IdentityUtil_unverified_dialog_two">%1$sಮತ್ತು %2$s ನೊಂದಿಗೆ ನಿಮ್ಮ ಸುರಕ್ಷತಾ ಸಂಖ್ಯೆಯನ್ನು ಇನ್ನು ಮುಂದೆ ದೃಢೀಕರಿಸಲಾಗುವುದಿಲ್ಲ. ಯಾರೋ ನಿಮ್ಮ ಸಂವಹನವನ್ನು ತಡೆಯಲು ಪ್ರಯತ್ನಿಸುತ್ತಿದ್ದಾರೆ ಅಥವಾ ಸರಳವಾಗಿ Signal ಅನ್ನು ಪುನಃ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಲಾಗಿದೆ ಎಂದು ಇದರರ್ಥ. </string>
-  <string name="IdentityUtil_unverified_dialog_many">%1$s, %2$s, ಮತ್ತು %3$s ನೊಂದಿಗೆ ನಿಮ್ಮ ಸುರಕ್ಷತಾ ಸಂಖ್ಯೆಯನ್ನು ಇನ್ನು ಮುಂದೆ ದೃಢೀಕರಿಸಲಾಗುವುದಿಲ್ಲ. ಯಾರೋ ನಿಮ್ಮ ಸಂವಹನವನ್ನು ತಡೆಯಲು ಪ್ರಯತ್ನಿಸುತ್ತಿದ್ದಾರೆ ಅಥವಾ ಸರಳವಾಗಿ Signal ಅನ್ನು ಪುನಃ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಲಾಗಿದೆ ಎಂದು ಇದರರ್ಥ. </string>
+  <string name="IdentityUtil_unverified_dialog_one">%1$s ನೊಂದಿಗೆ ನಿಮ್ಮ ಸುರಕ್ಷತಾ ಸಂಖ್ಯೆ ಬದಲಾಗಿದೆ ಮತ್ತು ಇನ್ನು ಮುಂದೆ ದೃಢೀಕರಿಸಲಾಗುವುದಿಲ್ಲ. ಯಾರೋ ನಿಮ್ಮ ಸಂವಹನವನ್ನು ತಡೆಯಲು ಪ್ರಯತ್ನಿಸುತ್ತಿದ್ದಾರೆ ಅಥವಾ %1$s ಅನ್ನು ಸರಳವಾಗಿ Grapherex ಅನ್ನು ಪುನಃ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಲಾಗಿದೆ ಎಂದು ಇದರರ್ಥ. </string>
+  <string name="IdentityUtil_unverified_dialog_two">%1$sಮತ್ತು %2$s ನೊಂದಿಗೆ ನಿಮ್ಮ ಸುರಕ್ಷತಾ ಸಂಖ್ಯೆಯನ್ನು ಇನ್ನು ಮುಂದೆ ದೃಢೀಕರಿಸಲಾಗುವುದಿಲ್ಲ. ಯಾರೋ ನಿಮ್ಮ ಸಂವಹನವನ್ನು ತಡೆಯಲು ಪ್ರಯತ್ನಿಸುತ್ತಿದ್ದಾರೆ ಅಥವಾ ಸರಳವಾಗಿ Grapherex ಅನ್ನು ಪುನಃ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಲಾಗಿದೆ ಎಂದು ಇದರರ್ಥ. </string>
+  <string name="IdentityUtil_unverified_dialog_many">%1$s, %2$s, ಮತ್ತು %3$s ನೊಂದಿಗೆ ನಿಮ್ಮ ಸುರಕ್ಷತಾ ಸಂಖ್ಯೆಯನ್ನು ಇನ್ನು ಮುಂದೆ ದೃಢೀಕರಿಸಲಾಗುವುದಿಲ್ಲ. ಯಾರೋ ನಿಮ್ಮ ಸಂವಹನವನ್ನು ತಡೆಯಲು ಪ್ರಯತ್ನಿಸುತ್ತಿದ್ದಾರೆ ಅಥವಾ ಸರಳವಾಗಿ Grapherex ಅನ್ನು ಪುನಃ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಲಾಗಿದೆ ಎಂದು ಇದರರ್ಥ. </string>
   <string name="IdentityUtil_untrusted_dialog_one"> %sಜೊತೆ ನಿಮ್ಮ ಸುರಕ್ಷತಾ ಸಂಖ್ಯೆಯನ್ನು ಈಗ ಬದಲಾಯಿಸಲಾಗಿದೆ.</string>
   <string name="IdentityUtil_untrusted_dialog_two">ನಿಮ್ಮ ಸುರಕ್ಷತಾ ಸಂಖ್ಯೆಗಳು %1$s ಮತ್ತು %2$s ಜೊತೆ ಇದೀಗ ಬದಲಾಗಿದೆ.</string>
   <string name="IdentityUtil_untrusted_dialog_many">ನಿಮ್ಮ ಸುರಕ್ಷತಾ ಸಂಖ್ಯೆಗಳು %1$s, %2$s, ಮತ್ತು %3$s ಜೊತೆ ಇದೀಗ ಬದಲಾಗಿದೆ.</string>
@@ -1294,7 +1294,7 @@
   <!--log_submit_activity-->
   <string name="log_submit_activity__this_log_will_be_posted_online">ಕೊಡುಗೆ ನೀಡುವವವರ ನೋಡುವಂತಾಗಲು ಈ ಲಾಗ್ ಅನ್ನು ಸಾರ್ವಜನಿಕವಾಗಿ ಆನ್‌ಲೈನ್‌ನಲ್ಲಿ ಪೋಸ್ಟ್ ಮಾಡಲಾಗುತ್ತದೆ, ಸಲ್ಲಿಸುವ ಮೊದಲು ನೀವು ಅದನ್ನು ಪರಿಶೀಲಿಸಬಹುದು ಮತ್ತು ಸಂಪಾದಿಸಬಹುದು.</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">ನಿಮ್ಮ ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಪಠ್ಯ ಸಂದೇಶಗಳನ್ನು Signal ನ ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಡೇಟಾಬೇಸ್‌ಗೆ ಇಂಪೋರ್ಟ್ ಮಾಡಲು ನೀವು ಬಯಸುವಿರಾ?</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">ನಿಮ್ಮ ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಪಠ್ಯ ಸಂದೇಶಗಳನ್ನು Grapherex ನ ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಡೇಟಾಬೇಸ್‌ಗೆ ಇಂಪೋರ್ಟ್ ಮಾಡಲು ನೀವು ಬಯಸುವಿರಾ?</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">ಪ್ರಸ್ತುತ ವ್ಯವಸ್ಥೆಯ ದತ್ತಾಂಶವನ್ನು ಯಾವುದೇ ರೀತಿಯಲ್ಲಿ ಮಾರ್ಪಡಿಸಿವುದಿಲ್ಲ.</string>
   <string name="database_migration_activity__skip">ಬಿಟ್ಟು ಮುಂದುವರಿ</string>
   <string name="database_migration_activity__import">ಇಂಪೋರ್ಟ್</string>
@@ -1317,7 +1317,7 @@
   <!--prompt_passphrase_activity-->
   <string name="prompt_passphrase_activity__unlock">ಅನ್‌‌ಲಾಕ್ ಮಾಡಿ</string>
   <!--prompt_mms_activity-->
-  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">ನಿಮ್ಮ ವೈರ್‌ಲೆಸ್ ಕೆರಿಯರ್ ಮೂಲಕ ಮೀಡಿಯಾ ಮತ್ತು ಗುಂಪು ಸಂದೇಶಗಳನ್ನು ತಲುಪಿಸಲು Signal ಗೆ ಎಂಎಂಎಸ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಅಗತ್ಯವಿದೆ. ನಿಮ್ಮ ಸಾಧನವು ಈ ಮಾಹಿತಿಯನ್ನು ಲಭ್ಯವಾಗಿಸುವುದಿಲ್ಲ, ಇದು ಲಾಕ್ ಮಾಡಲಾದ ಸಾಧನಗಳು ಮತ್ತು ಇತರ ನಿರ್ಬಂಧಿತ ಕಾನ್ಫಿಗರೇಶನ್‌ ಗಳಿಗೆ ಸಾಂದರ್ಭಿಕವಾಗಿ ನಿಜವಾಗಿದೆ.</string>
+  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">ನಿಮ್ಮ ವೈರ್‌ಲೆಸ್ ಕೆರಿಯರ್ ಮೂಲಕ ಮೀಡಿಯಾ ಮತ್ತು ಗುಂಪು ಸಂದೇಶಗಳನ್ನು ತಲುಪಿಸಲು Grapherex ಗೆ ಎಂಎಂಎಸ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಅಗತ್ಯವಿದೆ. ನಿಮ್ಮ ಸಾಧನವು ಈ ಮಾಹಿತಿಯನ್ನು ಲಭ್ಯವಾಗಿಸುವುದಿಲ್ಲ, ಇದು ಲಾಕ್ ಮಾಡಲಾದ ಸಾಧನಗಳು ಮತ್ತು ಇತರ ನಿರ್ಬಂಧಿತ ಕಾನ್ಫಿಗರೇಶನ್‌ ಗಳಿಗೆ ಸಾಂದರ್ಭಿಕವಾಗಿ ನಿಜವಾಗಿದೆ.</string>
   <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">ಮೀಡಿಯಾ ಮತ್ತು ಗುಂಪು ಸಂದೇಶಗಳನ್ನು ಕಳುಹಿಸಲು, \'ಓಕೆ\' ಟ್ಯಾಪ್ ಮಾಡಿ ಮತ್ತು ವಿನಂತಿಸಿದ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ. \'ನಿಮ್ಮ ಕೆರಿಯರ್ ಎಪಿಎನ್\' ಗಾಗಿ ಹುಡುಕುವ ಮೂಲಕ ನಿಮ್ಮ ಕೆರಿಯರ್‌ ಗಾಗಿ ಎಂಎಂಎಸ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಸಾಮಾನ್ಯವಾಗಿ ಕಂಡುಹಿಡಿಯಬಹುದು. ನೀವು ಇದನ್ನು ಒಮ್ಮೆ ಮಾತ್ರ ಮಾಡಬೇಕಾಗುತ್ತದೆ.</string>
   <!--profile_create_activity-->
   <string name="CreateProfileActivity_first_name_required">ಮೊದಲ ಹೆಸರು (ಅಗತ್ಯವಿದೆ)</string>
@@ -1338,7 +1338,7 @@
   <!--recipients_panel-->
   <string name="recipients_panel__to"><small>ಹೆಸರು ಅಥವಾ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</small></string>
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[ನಿಮ್ಮ ಎನ್‌ಕ್ರಿಪ್ಷನ್ ಸುರಕ್ಷತೆಯನ್ನು %s ನೊಂದಿಗೆ ದೃಢೀಕರಿಸಲು ನೀವು ಬಯಸಿದರೆ, ಮೇಲಿನ ಸಂಖ್ಯೆಯನ್ನು ಅವರ ಸಾಧನದಲ್ಲಿನ ಸಂಖ್ಯೆಯೊಂದಿಗೆ ಹೋಲಿಸಿ. ಪರ್ಯಾಯವಾಗಿ, ನೀವು ಅವರ ಫೋನ್‌ನಲ್ಲಿ ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಬಹುದು, ಅಥವಾ ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಲು ಅವರನ್ನು ಕೇಳಬಹುದು. <a href="https://signal.org/redirect/safety-numbers">ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ</a>]]></string>
+  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[ನಿಮ್ಮ ಎನ್‌ಕ್ರಿಪ್ಷನ್ ಸುರಕ್ಷತೆಯನ್ನು %s ನೊಂದಿಗೆ ದೃಢೀಕರಿಸಲು ನೀವು ಬಯಸಿದರೆ, ಮೇಲಿನ ಸಂಖ್ಯೆಯನ್ನು ಅವರ ಸಾಧನದಲ್ಲಿನ ಸಂಖ್ಯೆಯೊಂದಿಗೆ ಹೋಲಿಸಿ. ಪರ್ಯಾಯವಾಗಿ, ನೀವು ಅವರ ಫೋನ್‌ನಲ್ಲಿ ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಬಹುದು, ಅಥವಾ ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಲು ಅವರನ್ನು ಕೇಳಬಹುದು. <a href="https://Grapherex.org/redirect/safety-numbers">ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ</a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">ಸ್ಕ್ಯಾನ್ ಮಾಡಲು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
   <string name="verify_display_fragment__loading">ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
   <string name="verify_display_fragment__verified">ದೃಢೀಕರಿಸಲಾಗಿದೆ</string>
@@ -1411,8 +1411,8 @@
   <string name="preferences__sms_mms">ಎಸ್ಎಂಎಸ್ ಮತ್ತು ಎಂಎಂಎಸ್ </string>
   <string name="preferences__pref_all_sms_title">ಎಲ್ಲಾ ಎಸ್ಎಂಎಸ್ ಪಡೆಯಿರಿ</string>
   <string name="preferences__pref_all_mms_title">ಎಲ್ಲಾ ಎಂಎಂಎಸ್ ಪಡೆಯಿರಿ</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">ಎಲ್ಲಾ ಒಳಬರುವ ಪಠ್ಯ ಸಂದೇಶಗಳಿಗಾಗಿ Signal ಬಳಸಿ</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">ಎಲ್ಲಾ ಒಳಬರುವ ಮಲ್ಟಿಮೀಡಿಯಾ ಸಂದೇಶಗಳಿಗಾಗಿ Signal ಬಳಸಿ</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">ಎಲ್ಲಾ ಒಳಬರುವ ಪಠ್ಯ ಸಂದೇಶಗಳಿಗಾಗಿ Grapherex ಬಳಸಿ</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">ಎಲ್ಲಾ ಒಳಬರುವ ಮಲ್ಟಿಮೀಡಿಯಾ ಸಂದೇಶಗಳಿಗಾಗಿ Grapherex ಬಳಸಿ</string>
   <string name="preferences__pref_enter_sends_title">ಎಂಟರ್ ಕೀ ಕಳುಹಿಸುತ್ತದೆ </string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">ಎಂಟರ್ ಕೀಯನ್ನು ಒತ್ತಿದರೆ ಪಠ್ಯ ಸಂದೇಶಗಳನ್ನು ಕಳುಹಿಸುತ್ತದೆ</string>
   <string name="preferences__choose_identity">ಗುರುತನ್ನು ಆಯ್ದುಕೊಳ್ಳಿ</string>
@@ -1423,7 +1423,7 @@
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">ಪಾಸ್‌ಫ್ರೇಸ್ ಜೊತೆಯಲ್ಲಿ ಲಾಕ್ ಸ್ಕ್ರೀನ್ ಮತ್ತು ಅಧಿಸೂಚನೆಗಳು</string>
   <string name="preferences__screen_security">ಸ್ಕ್ರೀನ್ ಸುರಕ್ಷತೆ</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">ಇತ್ತೀಚಿನ ಪಟ್ಟಿಯಲ್ಲಿ ಮತ್ತು ಆ್ಯಪ್ ಒಳಗೆ ಸ್ಕ್ರೀನ್ ಶಾಟ್ ನಿರ್ಬಂಧಿಸಿ</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">ನಿರ್ದಿಷ್ಟ ಸಮಯದ ಚಟುವಟಿಕೆಯಿಲ್ಲದ ವಿರಾಮದ ನಂತರ Signal ಆಟೋ-ಲಾಕ್</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">ನಿರ್ದಿಷ್ಟ ಸಮಯದ ಚಟುವಟಿಕೆಯಿಲ್ಲದ ವಿರಾಮದ ನಂತರ Grapherex ಆಟೋ-ಲಾಕ್</string>
   <string name="preferences__inactivity_timeout_passphrase">ಚಟುವಟಿಕೆಯಿಲ್ಲದ ಟೈಮ್‌ಔಟ್ ಪಾಸ್‌ಫ್ರೇಸ್</string>
   <string name="preferences__inactivity_timeout_interval">ಚಟುವಟಿಕೆಯಿಲ್ಲದ ಟೈಮ್‌ಔಟ್ ವಿರಾಮ</string>
   <string name="preferences__notifications">ಅಧಿಸೂಚನೆಗಳು</string>
@@ -1453,7 +1453,7 @@
   <string name="preferences__slow">ನಿಧಾನ</string>
   <string name="preferences__help">ಸಹಾಯ</string>
   <string name="preferences__advanced">ಸುಧಾರಿತ</string>
-  <string name="preferences__donate_to_signal">Signalಗೆ ದಾನ ಮಾಡಿ</string>
+  <string name="preferences__donate_to_signal">Grapherexಗೆ ದಾನ ಮಾಡಿ</string>
   <string name="preferences__privacy">ಖಾಸಗಿತನ</string>
   <string name="preferences__mms_user_agent">ಎಂಎಂಎಸ್ ಯೂಸರ್ ಏಜೆಂಟ್</string>
   <string name="preferences__advanced_mms_access_point_names">ಮ್ಯಾನುಯಲ್ ಎಂಎಂಎಸ್ ಸಂಯೋಜನೆಗಳು</string>
@@ -1477,9 +1477,9 @@
   <string name="preferences__enable_pin">PIN ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
   <string name="preferences__system_default">ಸಿಸ್ಟಂ ಡೀಫಾಲ್ಟ್</string>
   <string name="preferences__language">ಭಾಷೆ</string>
-  <string name="preferences__signal_messages_and_calls">Signal ಸಂದೇಶಗಳು ಮತ್ತು ಕರೆಗಳು</string>
+  <string name="preferences__signal_messages_and_calls">Grapherex ಸಂದೇಶಗಳು ಮತ್ತು ಕರೆಗಳು</string>
   <string name="preferences__advanced_pin_settings">ಸುಧಾರಿತ PIN ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
-  <string name="preferences__free_private_messages_and_calls">Signal ಬಳಕೆದಾರರಿಗೆ ಉಚಿತ ಖಾಸಗಿ ಸಂದೇಶಗಳು ಮತ್ತು ಕರೆಗಳು</string>
+  <string name="preferences__free_private_messages_and_calls">Grapherex ಬಳಕೆದಾರರಿಗೆ ಉಚಿತ ಖಾಸಗಿ ಸಂದೇಶಗಳು ಮತ್ತು ಕರೆಗಳು</string>
   <string name="preferences__submit_debug_log">ಡೀಬಗ್ ಲಾಗ್ ಸಲ್ಲಿಸಿ</string>
   <string name="preferences__support_wifi_calling">\'ವೈಫೈ ಕಾಲಿಂಗ್\' ಹೊಂದಾಣಿಕೆ ಮೋಡ್</string>
   <string name="preferences__enable_if_your_device_supports_sms_mms_delivery_over_wifi">ನಿಮ್ಮ ಸಾಧನವು ವೈಫೈ ಮೂಲಕ ಎಸ್‌‌ಎಂಎಸ್ / ಎಂಎಂಎಸ್ ಡೆಲಿವರಿಯನ್ನು ಬಳಸುತ್ತಿದ್ದರೆ ಸಕ್ರಿಯಗೊಳಿಸಿ (ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿ \'ವೈಫೈ ಕಾಲಿಂಗ್\' ಸಕ್ರಿಯಗೊಳಿಸಿದಾಗ ಮಾತ್ರ ಸಕ್ರಿಯಗೊಳಿಸಿ)</string>
@@ -1516,8 +1516,8 @@
   <string name="preferences_storage__s_messages">%1$s ಸಂದೇಶಗಳು </string>
   <string name="preferences_storage__custom">ಅಗತ್ಯಾನುಗುಣ</string>
   <string name="preferences_advanced__use_system_emoji">ಸಿಸ್ಟಂ ಎಮೋಜಿ ಬಳಸಿ</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Signal ನ ಬಿಲ್ಟ್-ಇನ್ ಎಮೋಜಿ ಬೆಂಬಲ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">ನಿಮ್ಮ ಐಪಿ ವಿಳಾಸವನ್ನು ನಿಮ್ಮ ಸಂಪರ್ಕಕ್ಕೆ ಬಹಿರಂಗಪಡಿಸುವುದನ್ನು ತಪ್ಪಿಸಲು Signal ಸರ್ವರ್ ಮೂಲಕ ಎಲ್ಲಾ ಕರೆಗಳನ್ನು ರಿಲೇ ಮಾಡಿ. ಸಕ್ರಿಯಗೊಳಿಸುವುದು ಕರೆ ಗುಣಮಟ್ಟವನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Grapherex ನ ಬಿಲ್ಟ್-ಇನ್ ಎಮೋಜಿ ಬೆಂಬಲ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">ನಿಮ್ಮ ಐಪಿ ವಿಳಾಸವನ್ನು ನಿಮ್ಮ ಸಂಪರ್ಕಕ್ಕೆ ಬಹಿರಂಗಪಡಿಸುವುದನ್ನು ತಪ್ಪಿಸಲು Grapherex ಸರ್ವರ್ ಮೂಲಕ ಎಲ್ಲಾ ಕರೆಗಳನ್ನು ರಿಲೇ ಮಾಡಿ. ಸಕ್ರಿಯಗೊಳಿಸುವುದು ಕರೆ ಗುಣಮಟ್ಟವನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ</string>
   <string name="preferences_advanced__always_relay_calls">ಯಾವಾಗಲೂ ಕರೆಗಳನ್ನು ರಿಲೇ ಮಾಡಿ</string>
   <string name="preferences_app_protection__who_can">ಯಾರು ಮಾಡಬಹುದು ..</string>
   <string name="preferences_app_protection__app_access">ಅಪ್ಲಿಕೇಶನ್ ಪ್ರವೇಶ</string>
@@ -1532,9 +1532,9 @@
   <string name="preferences_notifications__calls">ಕರೆಗಳು</string>
   <string name="preferences_notifications__ringtone">ರಿಂಗ್ಟೋನ್</string>
   <string name="preferences_chats__show_invitation_prompts">ಆಮಂತ್ರಣ ಪ್ರಾಂಪ್ಟ್ ಗಳನ್ನು ತೋರಿಸಿ</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Signal ಇಲ್ಲದೇ ಸಂಪರ್ಕಗಳಿಗೆ ಆಮಂತ್ರಣದ ಪ್ರಾಂಪ್ಟ್ ಗಳನ್ನು ಡಿಸ್‌ಪ್ಲೇ ಮಾಡಿ</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Grapherex ಇಲ್ಲದೇ ಸಂಪರ್ಕಗಳಿಗೆ ಆಮಂತ್ರಣದ ಪ್ರಾಂಪ್ಟ್ ಗಳನ್ನು ಡಿಸ್‌ಪ್ಲೇ ಮಾಡಿ</string>
   <string name="preferences_chats__message_text_size">ಸಂದೇಶ ಫಾಂಟ್ ಗಾತ್ರ</string>
-  <string name="preferences_events__contact_joined_signal">ಸಂಪರ್ಕ Signal ಗೆ ಸೇರಿದ್ದಾರೆ</string>
+  <string name="preferences_events__contact_joined_signal">ಸಂಪರ್ಕ Grapherex ಗೆ ಸೇರಿದ್ದಾರೆ</string>
   <string name="preferences_notifications__priority">ಆದ್ಯತೆ</string>
   <string name="preferences_communication__category_sealed_sender">ಸೀಲ್ ಮಾಡಿದ ಕಳುಹಿಸುವವರು</string>
   <string name="preferences_communication__sealed_sender_display_indicators">ಡಿಸ್‌ಪ್ಲೇ ಇಂಡಿಕೇಟರ್‌ಗಳು</string>
@@ -1555,8 +1555,8 @@
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">ಕರೆ</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Signal ಕರೆ</string>
-  <string name="conversation_callable_secure__menu_video">Signal ವೀಡಿಯೊ ಕರೆ</string>
+  <string name="conversation_callable_secure__menu_call">Grapherex ಕರೆ</string>
+  <string name="conversation_callable_secure__menu_video">Grapherex ವೀಡಿಯೊ ಕರೆ</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">ಸಂದೇಶದ ವಿವರಗಳು</string>
   <string name="conversation_context__menu_copy_text">ಪಠ್ಯ ನಕಲಿಸು</string>
@@ -1627,10 +1627,10 @@
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ ಜೊತೆ ಹೋಲಿಸಿ</string>
   <!--reminder_header-->
   <string name="reminder_header_sms_import_title">ಸಿಸ್ಟಂ ಎಸ್‌ಎಂಎಸ್ ಇಂಪೋರ್ಟ್ ಮಾಡಿ</string>
-  <string name="reminder_header_sms_import_text">Signal ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಡೇಟಾಬೇಸ್‌ಗೆ ನಿಮ್ಮ ಫೋನ್ ಎಸ್‌ಎಂಎಸ್ ಸಂದೇಶಗಳನ್ನು ನಕಲಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
-  <string name="reminder_header_push_title">Signal ಸಂದೇಶಗಳನ್ನು ಮತ್ತು ಕರೆಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+  <string name="reminder_header_sms_import_text">Grapherex ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಡೇಟಾಬೇಸ್‌ಗೆ ನಿಮ್ಮ ಫೋನ್ ಎಸ್‌ಎಂಎಸ್ ಸಂದೇಶಗಳನ್ನು ನಕಲಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
+  <string name="reminder_header_push_title">Grapherex ಸಂದೇಶಗಳನ್ನು ಮತ್ತು ಕರೆಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
   <string name="reminder_header_push_text">ನಿಮ್ಮ ಸಂವಹನದ ಅನುಭವವನ್ನು ಉತ್ತಮಗೊಳಿಸಿ.</string>
-  <string name="reminder_header_service_outage_text">Signal ತಾಂತ್ರಿಕ ತೊಂದರೆಗಳನ್ನು ಎದುರಿಸುತ್ತಿದೆ. ಸಾಧ್ಯವಾದಷ್ಟು ಬೇಗ ಸೇವೆಯನ್ನು ಮರುಸ್ಥಾಪಿಸಲು ನಾವು ಶ್ರಮಿಸುತ್ತಿದ್ದೇವೆ.</string>
+  <string name="reminder_header_service_outage_text">Grapherex ತಾಂತ್ರಿಕ ತೊಂದರೆಗಳನ್ನು ಎದುರಿಸುತ್ತಿದೆ. ಸಾಧ್ಯವಾದಷ್ಟು ಬೇಗ ಸೇವೆಯನ್ನು ಮರುಸ್ಥಾಪಿಸಲು ನಾವು ಶ್ರಮಿಸುತ್ತಿದ್ದೇವೆ.</string>
   <string name="reminder_header_progress">%1$d%%</string>
   <!--media_preview-->
   <string name="media_preview__save_title">ಉಳಿಸಿ</string>
@@ -1646,22 +1646,22 @@
   <string name="Insights__percent">%</string>
   <string name="Insights__title">ಒಳನೋಟಗಳು</string>
   <string name="InsightsDashboardFragment__title">ಒಳನೋಟಗಳು</string>
-  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">ಕಳೆದ %2$d ದಿನಗಳಲ್ಲಿ Signal ಪ್ರೊಟೊಕಾಲ್ ನಿಮ್ಮ ಹೊರಹೋಗುವ ಸಂದೇಶಗಳಲ್ಲಿ %1$d%% ಅನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ರಕ್ಷಿಸಿದೆ. Signal ಬಳಕೆದಾರರ ನಡುವಿನ ಸಂಭಾಷಣೆಗಳು ಯಾವಾಗಲೂ ಎಂಡ್-ಟು-ಎಂಡ್ ಎನ್‌ಕ್ರಿಪ್ಟ್ ಆಗುತ್ತವೆ. </string>
-  <string name="InsightsDashboardFragment__boost_your_signal">Signal ವರ್ಧಕ</string>
+  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">ಕಳೆದ %2$d ದಿನಗಳಲ್ಲಿ Grapherex ಪ್ರೊಟೊಕಾಲ್ ನಿಮ್ಮ ಹೊರಹೋಗುವ ಸಂದೇಶಗಳಲ್ಲಿ %1$d%% ಅನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ರಕ್ಷಿಸಿದೆ. Grapherex ಬಳಕೆದಾರರ ನಡುವಿನ ಸಂಭಾಷಣೆಗಳು ಯಾವಾಗಲೂ ಎಂಡ್-ಟು-ಎಂಡ್ ಎನ್‌ಕ್ರಿಪ್ಟ್ ಆಗುತ್ತವೆ. </string>
+  <string name="InsightsDashboardFragment__boost_your_signal">Grapherex ವರ್ಧಕ</string>
   <string name="InsightsDashboardFragment__not_enough_data">ಸಾಕಷ್ಟು ಡೇಟಾ ಇಲ್ಲ</string>
   <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">ನಿಮ್ಮ ಒಳನೋಟಗಳ ಪ್ರತಿಶತ ಪ್ರಮಾಣವನ್ನು ಕಳೆದ %1$d ದಿನಗಳಲ್ಲಿ ಕಾಣದಂತಾಗಿಲ್ಲದ ಅಥವಾ ಅಳಿಸದ ಸಂದೇಶಗಳ ಆಧಾರದ ಮೇಲೆ ಲೆಕ್ಕಹಾಕಲಾಗುತ್ತದೆ.</string>
   <string name="InsightsDashboardFragment__start_a_conversation">ಸಂಭಾಷಣೆಯನ್ನು ಪ್ರಾರಂಭಿಸಿ</string>
-  <string name="InsightsDashboardFragment__invite_your_contacts">ಹೆಚ್ಚಿನ ಸಂಪರ್ಕಗಳನ್ನು Signal ಸೇರಿಕೊಳ್ಳಲು ಆಹ್ವಾನಿಸುವ ಮೂಲಕ ಸುರಕ್ಷಿತವಾಗಿ ಸಂವಹನವನ್ನು ಮಾಡಲು ಆರಂಭಿಸಿ ಮತ್ತು ಎಸ್‌ಎಂಎಸ್ ಸಂದೇಶಗಳಲ್ಲಿ ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿಲ್ಲದಿರುವ ಮಿತಿಗಳನ್ನು ಮೀರುವ ಹೊಸ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ </string>
+  <string name="InsightsDashboardFragment__invite_your_contacts">ಹೆಚ್ಚಿನ ಸಂಪರ್ಕಗಳನ್ನು Grapherex ಸೇರಿಕೊಳ್ಳಲು ಆಹ್ವಾನಿಸುವ ಮೂಲಕ ಸುರಕ್ಷಿತವಾಗಿ ಸಂವಹನವನ್ನು ಮಾಡಲು ಆರಂಭಿಸಿ ಮತ್ತು ಎಸ್‌ಎಂಎಸ್ ಸಂದೇಶಗಳಲ್ಲಿ ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿಲ್ಲದಿರುವ ಮಿತಿಗಳನ್ನು ಮೀರುವ ಹೊಸ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ </string>
   <string name="InsightsDashboardFragment__this_stat_was_generated_locally">ಈ ಅಂಕಿಅಂಶಗಳನ್ನು ಸ್ಥಳೀಯವಾಗಿ ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿ ರಚಿಸಲಾಗಿದೆ ಮತ್ತು ನೀವು ಮಾತ್ರ ನೋಡಬಹುದು. ಅವುಗಳನ್ನು ಎಲ್ಲಿಯೂ ರವಾನಿಸಲಾಗುವುದಿಲ್ಲ.</string>
   <string name="InsightsDashboardFragment__encrypted_messages">ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಲಾಗಿರುವ ಸಂದೇಶಗಳು</string>
   <string name="InsightsDashboardFragment__cancel">ರದ್ದುಮಾಡು</string>
   <string name="InsightsDashboardFragment__send">ಕಳುಹಿಸು</string>
   <string name="InsightsModalFragment__title">ಒಳನೋಟಗಳನ್ನು ಪರಿಚಯಿಸಲಾಗುತ್ತಿದೆ</string>
-  <string name="InsightsModalFragment__description">ನಿಮ್ಮ ಎಷ್ಟು ಹೊರಹೋಗುವ ಸಂದೇಶಗಳನ್ನು ಸುರಕ್ಷಿತವಾಗಿ ಕಳುಹಿಸಲಾಗಿದೆ ಎನ್ನುವುದನ್ನು ಪತ್ತೆ ಮಾಡಿ, ನಂತರ ತ್ವರಿತವಾಗಿ ನಿಮ್ಮ Signal ಪ್ರತಿಶತವನ್ನು ಉತ್ತೇಜಿಸಲು ಹೊಸ ಸಂಪರ್ಕಗಳನ್ನು ಆಹ್ವಾನಿಸಿ.</string>
+  <string name="InsightsModalFragment__description">ನಿಮ್ಮ ಎಷ್ಟು ಹೊರಹೋಗುವ ಸಂದೇಶಗಳನ್ನು ಸುರಕ್ಷಿತವಾಗಿ ಕಳುಹಿಸಲಾಗಿದೆ ಎನ್ನುವುದನ್ನು ಪತ್ತೆ ಮಾಡಿ, ನಂತರ ತ್ವರಿತವಾಗಿ ನಿಮ್ಮ Grapherex ಪ್ರತಿಶತವನ್ನು ಉತ್ತೇಜಿಸಲು ಹೊಸ ಸಂಪರ್ಕಗಳನ್ನು ಆಹ್ವಾನಿಸಿ.</string>
   <string name="InsightsModalFragment__view_insights">ಒಳನೋಟಗಳು ನೋಡಿ</string>
-  <string name="FirstInviteReminder__title">Signal ಗೆ ಆಮಂತ್ರಿಸಿ</string>
+  <string name="FirstInviteReminder__title">Grapherex ಗೆ ಆಮಂತ್ರಿಸಿ</string>
   <string name="FirstInviteReminder__description">%1$d%% ಮೂಲಕ ನೀವು ಕಳುಹಿಸುವ ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿರುವ ಸಂದೇಶಗಳ ಸಂಖ್ಯೆಯನ್ನು ನೀವು ಹೆಚ್ಚಿಸಬಹುದು</string>
-  <string name="SecondInviteReminder__title">ನಿಮ್ಮ Signal ಗೆ ಉತ್ತೇಜನ ನೀಡಿ</string>
+  <string name="SecondInviteReminder__title">ನಿಮ್ಮ Grapherex ಗೆ ಉತ್ತೇಜನ ನೀಡಿ</string>
   <string name="SecondInviteReminder__description">%1$s ಆಹ್ವಾನಿಸಿ</string>
   <string name="InsightsReminder__view_insights">ಒಳನೋಟಗಳು ನೋಡಿ</string>
   <string name="InsightsReminder__invite">ಆಹ್ವಾನ</string>
@@ -1682,7 +1682,7 @@
   <string name="CreateKbsPinFragment__create_a_new_pin">ಹೊಸ ಪಿನ್ ರಚಿಸಿ</string>
   <string name="CreateKbsPinFragment__you_can_choose_a_new_pin_as_long_as_this_device_is_registered">ಈ ಸಾಧನವನ್ನು ನೋಂದಾಯಿಸಿರುವವರೆಗೆ ನಿಮ್ಮ ಪಿನ್ ಅನ್ನು ನೀವು ಬದಲಾಯಿಸಬಹುದು.</string>
   <string name="CreateKbsPinFragment__create_your_pin">ನಿಮ್ಮ ಪಿನ್ ರಚಿಸಿ </string>
-  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">ಪಿನ್‌ಗಳು Signal ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಮಾಹಿತಿಯನ್ನು ಸಂಗ್ರಹಿಸಿಡುತ್ತವೆ ಆದ್ದರಿಂದ ನೀವು ಮಾತ್ರ ಅದನ್ನು ಪ್ರವೇಶಿಸಬಹುದು. ನೀವು ಮರುಸ್ಥಾಪಿಸಿದಾಗ ನಿಮ್ಮ ಪ್ರೊಫೈಲ್, ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಮತ್ತು ಸಂಪರ್ಕಗಳು ಪುನಃಸ್ಥಾಪನೆಯಾಗುತ್ತವೆ. ಅಪ್ಲಿಕೇಶನ್ ತೆರೆಯಲು ನಿಮ್ಮ ಪಿನ್ ಅಗತ್ಯವಿಲ್ಲ.</string>
+  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">ಪಿನ್‌ಗಳು Grapherex ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಮಾಹಿತಿಯನ್ನು ಸಂಗ್ರಹಿಸಿಡುತ್ತವೆ ಆದ್ದರಿಂದ ನೀವು ಮಾತ್ರ ಅದನ್ನು ಪ್ರವೇಶಿಸಬಹುದು. ನೀವು ಮರುಸ್ಥಾಪಿಸಿದಾಗ ನಿಮ್ಮ ಪ್ರೊಫೈಲ್, ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಮತ್ತು ಸಂಪರ್ಕಗಳು ಪುನಃಸ್ಥಾಪನೆಯಾಗುತ್ತವೆ. ಅಪ್ಲಿಕೇಶನ್ ತೆರೆಯಲು ನಿಮ್ಮ ಪಿನ್ ಅಗತ್ಯವಿಲ್ಲ.</string>
   <string name="CreateKbsPinFragment__choose_a_stronger_pin">ಬಲವಾದ ಪಿನ್ ಆಯ್ಕೆಮಾಡಿ</string>
   <!--ConfirmKbsPinFragment-->
   <string name="ConfirmKbsPinFragment__pins_dont_match">ಪಿನ್‌ಗಳು ಹೊಂದಿಕೆಯಾಗುತಿಲ್ಲ. ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
@@ -1694,7 +1694,7 @@
   <string name="ConfirmKbsPinFragment__creating_pin">ಪಿನ್ ರಚಿಸುತ್ತಿದೆ…</string>
   <!--KbsSplashFragment-->
   <string name="KbsSplashFragment__introducing_pins">ಪಿನ್‌ಗಳನ್ನು ಪರಿಚಯಿಸಲಾಗುತ್ತಿದೆ</string>
-  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">ಪಿನ್‌ಗಳು Signal ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಮಾಹಿತಿಯನ್ನು ಸಂಗ್ರಹಿಸಿಡುತ್ತವೆ ಆದ್ದರಿಂದ ನೀವು ಮಾತ್ರ ಅದನ್ನು ಪ್ರವೇಶಿಸಬಹುದು. ನೀವು ಮರುಸ್ಥಾಪಿಸಿದಾಗ ನಿಮ್ಮ ಪ್ರೊಫೈಲ್, ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಮತ್ತು ಸಂಪರ್ಕಗಳು ಪುನಃಸ್ಥಾಪನೆಯಾಗುತ್ತವೆ. ಅಪ್ಲಿಕೇಶನ್ ತೆರೆಯಲು ನಿಮ್ಮ ಪಿನ್ ಅಗತ್ಯವಿಲ್ಲ.</string>
+  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">ಪಿನ್‌ಗಳು Grapherex ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಮಾಹಿತಿಯನ್ನು ಸಂಗ್ರಹಿಸಿಡುತ್ತವೆ ಆದ್ದರಿಂದ ನೀವು ಮಾತ್ರ ಅದನ್ನು ಪ್ರವೇಶಿಸಬಹುದು. ನೀವು ಮರುಸ್ಥಾಪಿಸಿದಾಗ ನಿಮ್ಮ ಪ್ರೊಫೈಲ್, ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಮತ್ತು ಸಂಪರ್ಕಗಳು ಪುನಃಸ್ಥಾಪನೆಯಾಗುತ್ತವೆ. ಅಪ್ಲಿಕೇಶನ್ ತೆರೆಯಲು ನಿಮ್ಮ ಪಿನ್ ಅಗತ್ಯವಿಲ್ಲ.</string>
   <string name="KbsSplashFragment__learn_more">ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ</string>
   <string name="KbsSplashFragment__registration_lock_equals_pin">ನೋಂದಣಿ ಲಾಕ್ = ಪಿನ್</string>
   <string name="KbsSplashFragment__your_registration_lock_is_now_called_a_pin">ನಿಮ್ಮ ನೋಂದಣಿ ಲಾಕ್ ಅನ್ನು ಈಗ ಪಿನ್ ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ, ಮತ್ತು ಅದು ಹೆಚ್ಚಿನದನ್ನು ಮಾಡುತ್ತದೆ. ಇದೀಗ ಅದನ್ನು ನವೀಕರಿಸಿ. </string>
@@ -1703,7 +1703,7 @@
   <string name="KbsSplashFragment__learn_more_about_pins">ಪಿನ್‌ಗಳ ಬಗ್ಗೆ ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ. </string>
   <string name="KbsSplashFragment__disable_pin">ಪಿನ್ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
   <!--KBS Reminder Dialog-->
-  <string name="KbsReminderDialog__enter_your_signal_pin">ನಿಮ್ಮ Signal ಪಿನ್ ಅನ್ನು ನಮೂದಿಸಿ</string>
+  <string name="KbsReminderDialog__enter_your_signal_pin">ನಿಮ್ಮ Grapherex ಪಿನ್ ಅನ್ನು ನಮೂದಿಸಿ</string>
   <string name="KbsReminderDialog__to_help_you_memorize_your_pin">ನಿಮ್ಮ ಪಿನ್ ನೆನಪಿನಲ್ಲಿ ಉಳಿಸಿಕೊಳ್ಳಲು ನಿಮಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ, ಇದನ್ನು ಆಗಾಗ್ಗೆ ನಮೂದಿಸುವಂತೆ ನಾವು ಕೇಳುತ್ತೇವೆ. ನಾವು ಸಮಯ ಸರಿದಂತೆ ಇದನ್ನು ಕಡಿಮೆ ಕೇಳುತ್ತೇವೆ.</string>
   <string name="KbsReminderDialog__skip">ಬಿಟ್ಟು ಮುಂದುವರಿಯಿರಿ</string>
   <string name="KbsReminderDialog__submit">ಸಲ್ಲಿಸಿ</string>
@@ -1748,27 +1748,27 @@
   <string name="CalleeMustAcceptMessageRequestDialogFragment__s_will_get_a_message_request_from_you">%1$s ನಿಮ್ಮಿಂದ ಸಂದೇಶ ವಿನಂತಿಯನ್ನು ಪಡೆಯುತ್ತರೆ. ನಿಮ್ಮ ಸಂದೇಶ ವಿನಂತಿಯನ್ನು ಸ್ವೀಕರಿಸಿದ ನಂತರ ನೀವು ಕರೆ ಮಾಡಬಹುದು.</string>
   <!--KBS Megaphone-->
   <string name="KbsMegaphone__create_a_pin">ಒಂದು ಪಿನ್ ರಚಿಸಿ</string>
-  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">Signal ಎನ್‌ಕ್ರಿಪ್ಟ್‌ ಮಾಡಿರುವ ಸಂಗ್ರಹಿಸಿದ ಮಾಹಿತಿಯನ್ನು ಪಿನ್‌ಗಳು ಇರಿಸಿಕೊಳ್ಳುತ್ತವೆ.</string>
+  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">Grapherex ಎನ್‌ಕ್ರಿಪ್ಟ್‌ ಮಾಡಿರುವ ಸಂಗ್ರಹಿಸಿದ ಮಾಹಿತಿಯನ್ನು ಪಿನ್‌ಗಳು ಇರಿಸಿಕೊಳ್ಳುತ್ತವೆ.</string>
   <string name="KbsMegaphone__create_pin">ಪಿನ್ ರಚಿಸಿ</string>
   <!--Research Megaphone-->
-  <string name="ResearchMegaphone_tell_signal_what_you_think">ನಿಮ್ಮ ಅನಿಸಿಕೆಗಳನ್ನು Signal ಗೆ ತಿಳಿಸಿ</string>
-  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">Signal ಅನ್ನು ಸಂದೇಶಗಳನ್ನು ಕಳಿಸುವ ವಿಶ್ವದ ಅತ್ಯುತ್ತಮ ಅಪ್ಲಿಕೇಶನ್ ಮಾಡಲು, ನಿಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಕೇಳಲು ನಾವು ಇಷ್ಟಪಡುತ್ತೇವೆ.</string>
+  <string name="ResearchMegaphone_tell_signal_what_you_think">ನಿಮ್ಮ ಅನಿಸಿಕೆಗಳನ್ನು Grapherex ಗೆ ತಿಳಿಸಿ</string>
+  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">Grapherex ಅನ್ನು ಸಂದೇಶಗಳನ್ನು ಕಳಿಸುವ ವಿಶ್ವದ ಅತ್ಯುತ್ತಮ ಅಪ್ಲಿಕೇಶನ್ ಮಾಡಲು, ನಿಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಕೇಳಲು ನಾವು ಇಷ್ಟಪಡುತ್ತೇವೆ.</string>
   <string name="ResearchMegaphone_learn_more">ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ</string>
   <string name="ResearchMegaphone_dismiss">ವಜಾಗೊಳಿಸಿ</string>
-  <string name="ResearchMegaphoneDialog_signal_research">Signal ಸಂಶೋಧನೆ</string>
+  <string name="ResearchMegaphoneDialog_signal_research">Grapherex ಸಂಶೋಧನೆ</string>
   <string name="ResearchMegaphoneDialog_take_the_survey">ಸಮೀಕ್ಷೆಯನ್ನು ತೆಗೆದುಕೊಳ್ಳಿ</string>
   <string name="ResearchMegaphoneDialog_no_thanks">ಇಲ್ಲ, ಧನ್ಯವಾದಗಳು</string>
-  <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">ಸಮೀಕ್ಷೆಯನ್ನು ಸುರಕ್ಷಿತ ಡೊಮೇನ್ surveys.signalusers.org ನಲ್ಲಿ ಆಲ್ಕೆಮರ್ ಆಯೋಜಿಸಿದ್ದಾರೆ</string>
+  <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">ಸಮೀಕ್ಷೆಯನ್ನು ಸುರಕ್ಷಿತ ಡೊಮೇನ್ surveys.Grapherexusers.org ನಲ್ಲಿ ಆಲ್ಕೆಮರ್ ಆಯೋಜಿಸಿದ್ದಾರೆ</string>
   <!--transport_selection_list_item-->
   <string name="transport_selection_list_item__transport_icon">ಸಾರಿಗೆ ಐಕನ್</string>
   <string name="ConversationListFragment_loading">ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
   <string name="CallNotificationBuilder_connecting">ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ…</string>
   <string name="Permissions_permission_required">ಅನುಮತಿ ಅಗತ್ಯವಿದೆ</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">ಎಸ್‌ಎಂಎಸ್ ಕಳುಹಿಸಲು Signal ಗೆ ಎಸ್‌ಎಂಎಸ್ ಅನುಮತಿ ಅಗತ್ಯವಿದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು \"ಎಸ್‌ಎಂಎಸ್\" ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">ಎಸ್‌ಎಂಎಸ್ ಕಳುಹಿಸಲು Grapherex ಗೆ ಎಸ್‌ಎಂಎಸ್ ಅನುಮತಿ ಅಗತ್ಯವಿದೆ, ಆದರೆ ಅದನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿರಾಕರಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಮುಂದುವರಿಯಿರಿ, \"ಅನುಮತಿಗಳು\" ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು \"ಎಸ್‌ಎಂಎಸ್\" ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ.</string>
   <string name="Permissions_continue">ಮುಂದುವರಿಸಿ</string>
   <string name="Permissions_not_now">ಈಗಲ್ಲ</string>
-  <string name="conversation_activity__enable_signal_messages"> SIGNAL ಸಂದೇಶಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Signal ಡೇಟಾಬೇಸ್ ಮೈಗ್ರೇಟ್ ಮಾಡಲಾಗುತ್ತಿದೆ</string>
+  <string name="conversation_activity__enable_signal_messages"> Grapherex ಸಂದೇಶಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">Grapherex ಡೇಟಾಬೇಸ್ ಮೈಗ್ರೇಟ್ ಮಾಡಲಾಗುತ್ತಿದೆ</string>
   <string name="PushDecryptJob_new_locked_message">ಲಾಕ್ ಮಾಡಿರುವ ಹೊಸ ಸಂದೇಶ</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">ಬಾಕಿ ಉಳಿದಿರುವ ಸಂದೇಶಗಳನ್ನು ನೋಡಲು ಅನ್ಲಾಕ್ ಮಾಡಿ  </string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">ಬ್ಯಾಕಪ್ ಪಾಸ್‌ಫ್ರೇಸ್</string>
@@ -1782,7 +1782,7 @@
   <string name="preferences_chats__backup_chats_to_external_storage">ಬಾಹ್ಯ ಸ್ಟೊರೇಜ್‌ಗೆ ಚಾಟ್‌ ಗಳನ್ನು ಬ್ಯಾಕಪ್ ಮಾಡಿ</string>
   <string name="RegistrationActivity_enter_backup_passphrase">ಬ್ಯಾಕಪ್ ಪಾಸ್‌ಫ್ರೇಸ್ ನಮೂದಿಸಿ</string>
   <string name="RegistrationActivity_restore">ಪುನಃಸ್ಥಾಪಿಸಿ</string>
-  <string name="RegistrationActivity_backup_failure_downgrade">Signal ನ ಹೊಸ ಆವೃತ್ತಿಗಳಿಂದ ಬ್ಯಾಕಪ್‌ಗಳನ್ನು ಇಂಪೋರ್ಟ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ </string>
+  <string name="RegistrationActivity_backup_failure_downgrade">Grapherex ನ ಹೊಸ ಆವೃತ್ತಿಗಳಿಂದ ಬ್ಯಾಕಪ್‌ಗಳನ್ನು ಇಂಪೋರ್ಟ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ </string>
   <string name="RegistrationActivity_incorrect_backup_passphrase">ತಪ್ಪಾದ ಬ್ಯಾಕಪ್ ಪಾಸ್‌‌ಫ್ರೇಸ್</string>
   <string name="RegistrationActivity_checking">ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ…</string>
   <string name="RegistrationActivity_d_messages_so_far">ಇಲ್ಲಿಯವರೆಗೆ %d ಸಂದೇಶಗಳು…</string>
@@ -1812,8 +1812,8 @@
   <string name="ProgressPreference_d_messages_so_far">ಇಲ್ಲಿಯವರೆಗೆ %d ಸಂದೇಶಗಳು</string>
   <string name="RegistrationActivity_wrong_number">ತಪ್ಪಾದ ಸಂಖ್ಯೆ</string>
   <string name="RegistrationActivity_call_me_instead_available_in">ಬದಲಿಗೆ ನನಗೆ ಕರೆ ಮಾಡಿ \n (%1$02d:%2$02dನಲ್ಲಿ ಲಭ್ಯವಿದೆ)</string>
-  <string name="RegistrationActivity_contact_signal_support">ಸಂಪರ್ಕಿಸಿ Signal ಬೆಂಬಲ</string>
-  <string name="RegistrationActivity_code_support_subject">Signal ನೋಂದಣಿ -  ಆಂಡ್ರಾಯ್ಡ್‌ಗೆ ದೃಢೀಕರಣ ಕೋಡ್ </string>
+  <string name="RegistrationActivity_contact_signal_support">ಸಂಪರ್ಕಿಸಿ Grapherex ಬೆಂಬಲ</string>
+  <string name="RegistrationActivity_code_support_subject">Grapherex ನೋಂದಣಿ -  ಆಂಡ್ರಾಯ್ಡ್‌ಗೆ ದೃಢೀಕರಣ ಕೋಡ್ </string>
   <string name="BackupUtil_never">ಎಂದಿಗೂ ಇಲ್ಲ</string>
   <string name="BackupUtil_unknown">ತಿಳಿಯದಿಲ್ಲ</string>
   <string name="preferences_app_protection__see_my_phone_number">ನನ್ನ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನೋಡಿ</string>
@@ -1822,21 +1822,21 @@
   <string name="PhoneNumberPrivacy_my_contacts">ನನ್ನ ಸಂಪರ್ಕಗಳು</string>
   <string name="PhoneNumberPrivacy_nobody">ಯಾರೂ ಇಲ್ಲ</string>
   <string name="PhoneNumberPrivacy_everyone_see_description">ನೀವು ಸಂದೇಶ ಮಾಡುವ ಎಲ್ಲಾ ಜನರು ಮತ್ತು ಗುಂಪುಗಳಿಗೆ ನಿಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆ ಕಾಣಿಸುತ್ತದೆ.</string>
-  <string name="PhoneNumberPrivacy_everyone_find_description">ಅವರ ಸಂಪರ್ಕಗಳಲ್ಲಿ ನಿಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ಹೊಂದಿರುವ ಯಾರಾದರೂ ನಿಮ್ಮನ್ನು Signal ನಲ್ಲಿ ಸಂಪರ್ಕವನ್ನು ನೋಡುತ್ತಾರೆ. ಇತರರು ನಿಮ್ಮನ್ನು ಹುಡುಕಾಟದಲ್ಲಿ ನೋಡಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ.</string>
+  <string name="PhoneNumberPrivacy_everyone_find_description">ಅವರ ಸಂಪರ್ಕಗಳಲ್ಲಿ ನಿಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ಹೊಂದಿರುವ ಯಾರಾದರೂ ನಿಮ್ಮನ್ನು Grapherex ನಲ್ಲಿ ಸಂಪರ್ಕವನ್ನು ನೋಡುತ್ತಾರೆ. ಇತರರು ನಿಮ್ಮನ್ನು ಹುಡುಕಾಟದಲ್ಲಿ ನೋಡಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ.</string>
   <string name="preferences_app_protection__screen_lock">ಸ್ಕ್ರೀನ್ ಲಾಕ್</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Signal ಪ್ರವೇಶವನ್ನು ಆಂಡ್ರಾಯ್ಡ್ ಸ್ಕ್ರೀನ್ ಲಾಕ್ ಅಥವಾ ಫಿಂಗರ್ಪ್ರಿಂಟ್ ಜೊತೆ ಲಾಕ್ ಮಾಡಿ</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Grapherex ಪ್ರವೇಶವನ್ನು ಆಂಡ್ರಾಯ್ಡ್ ಸ್ಕ್ರೀನ್ ಲಾಕ್ ಅಥವಾ ಫಿಂಗರ್ಪ್ರಿಂಟ್ ಜೊತೆ ಲಾಕ್ ಮಾಡಿ</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">ಸ್ಕ್ರೀನ್ ಲಾಕ್ ನಿಷ್ಕ್ರಿಯತೆಯ ಟೈಮ್‌ ಔಟ್</string>
-  <string name="preferences_app_protection__signal_pin">Signal ಪಿನ್</string>
+  <string name="preferences_app_protection__signal_pin">Grapherex ಪಿನ್</string>
   <string name="preferences_app_protection__create_a_pin">ಒಂದು ಪಿನ್ ರಚಿಸಿ</string>
   <string name="preferences_app_protection__change_your_pin">ನಿಮ್ಮ ಪಿನ್ ಬದಲಾಯಿಸಿ</string>
   <string name="preferences_app_protection__pin_reminders">ಪಿನ್ ಜ್ಞಾಪಕಗಳು</string>
-  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">ಪಿನ್‌ಗಳು Signal ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಮಾಹಿತಿಯನ್ನು ಸಂಗ್ರಹಿಸಿಡುತ್ತವೆ ಆದ್ದರಿಂದ ನೀವು ಮಾತ್ರ ಅದನ್ನು ಪ್ರವೇಶಿಸಬಹುದು. ನೀವು Signal ಅನ್ನು ಪುನಃ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿದಾಗ ನಿಮ್ಮ ಪ್ರೊಫೈಲ್, ಸೆಟ್ಟಿಂಗ್‌‌ಗಳು ಮತ್ತು ಸಂಪರ್ಕಗಳು ಪುನಃಸ್ಥಾಪನೆಯಾಗುತ್ತವೆ.</string>
-  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">ನಿಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ಮತ್ತೆ Signal ನೊಂದಿಗೆ ನೋಂದಾಯಿಸಲು ನಿಮ್ಮ Signal ಪಿನ್ ಅಗತ್ಯವಿರುವ ಮೂಲಕ ಹೆಚ್ಚುವರಿ ಭದ್ರತೆಯನ್ನು ಸೇರಿಸಿ.</string>
+  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">ಪಿನ್‌ಗಳು Grapherex ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಮಾಹಿತಿಯನ್ನು ಸಂಗ್ರಹಿಸಿಡುತ್ತವೆ ಆದ್ದರಿಂದ ನೀವು ಮಾತ್ರ ಅದನ್ನು ಪ್ರವೇಶಿಸಬಹುದು. ನೀವು Grapherex ಅನ್ನು ಪುನಃ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿದಾಗ ನಿಮ್ಮ ಪ್ರೊಫೈಲ್, ಸೆಟ್ಟಿಂಗ್‌‌ಗಳು ಮತ್ತು ಸಂಪರ್ಕಗಳು ಪುನಃಸ್ಥಾಪನೆಯಾಗುತ್ತವೆ.</string>
+  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">ನಿಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ಮತ್ತೆ Grapherex ನೊಂದಿಗೆ ನೋಂದಾಯಿಸಲು ನಿಮ್ಮ Grapherex ಪಿನ್ ಅಗತ್ಯವಿರುವ ಮೂಲಕ ಹೆಚ್ಚುವರಿ ಭದ್ರತೆಯನ್ನು ಸೇರಿಸಿ.</string>
   <string name="preferences_app_protection__reminders_help_you_remember_your_pin">ನಿಮ್ಮ ಪಿನ್ ಅನ್ನು ಮರುಪಡೆಯಲು ಸಾಧ್ಯವಾಗದ ಕಾರಣ ಅದನ್ನು ನೆನಪಿಟ್ಟುಕೊಳ್ಳಲು ಜ್ಞಾಪನೆಗಳು ನಿಮಗೆ ಸಹಾಯ ಮಾಡುತ್ತವೆ. ಕಾಲಾನಂತರದಲ್ಲಿ ನಿಮ್ಮನ್ನು ಕಡಿಮೆ ಬಾರಿ ಕೇಳಲಾಗುತ್ತದೆ.</string>
   <string name="preferences_app_protection__turn_off">ಆಫ್ ಮಾಡಿ</string>
   <string name="preferences_app_protection__confirm_pin">ಪಿನ್ ದೃಢೀಕರಿಸಿ</string>
-  <string name="preferences_app_protection__confirm_your_signal_pin">ನಿಮ್ಮ Signal ಪಿನ್ ಅನ್ನು ದೃಡಪಡಿಸಿ</string>
-  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">ನಿಮ್ಮ ಪಿನ್ ಅನ್ನು ಮರುಪಡೆಯಲು ಸಾಧ್ಯವಾಗದ ಕಾರಣ ನೀವು ಅದನ್ನು ಕಂಠಪಾಠ ಅಥವಾ ಸುರಕ್ಷಿತವಾಗಿ ಸಂಗ್ರಹಿಸಿದ್ದೀರಿ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ. ನಿಮ್ಮ ಪಿನ್ ಅನ್ನು ನೀವು ಮರೆತರೆ, ನಿಮ್ಮ Signal ಖಾತೆಯನ್ನು ಮರು ನೋಂದಾಯಿಸುವಾಗ ನೀವು ಡೇಟಾವನ್ನು ಕಳೆದುಕೊಳ್ಳಬಹುದು.</string>
+  <string name="preferences_app_protection__confirm_your_signal_pin">ನಿಮ್ಮ Grapherex ಪಿನ್ ಅನ್ನು ದೃಡಪಡಿಸಿ</string>
+  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">ನಿಮ್ಮ ಪಿನ್ ಅನ್ನು ಮರುಪಡೆಯಲು ಸಾಧ್ಯವಾಗದ ಕಾರಣ ನೀವು ಅದನ್ನು ಕಂಠಪಾಠ ಅಥವಾ ಸುರಕ್ಷಿತವಾಗಿ ಸಂಗ್ರಹಿಸಿದ್ದೀರಿ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ. ನಿಮ್ಮ ಪಿನ್ ಅನ್ನು ನೀವು ಮರೆತರೆ, ನಿಮ್ಮ Grapherex ಖಾತೆಯನ್ನು ಮರು ನೋಂದಾಯಿಸುವಾಗ ನೀವು ಡೇಟಾವನ್ನು ಕಳೆದುಕೊಳ್ಳಬಹುದು.</string>
   <string name="preferences_app_protection__incorrect_pin_try_again">ತಪ್ಪಾದ ಪಿನ್. ಮತ್ತೆ  ಪ್ರಯತ್ನಿಸಿ.</string>
   <string name="preferences_app_protection__failed_to_enable_registration_lock">ನೋಂದಣಿ ಲಾಕ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ವಿಫಲವಾಗಿದೆ.</string>
   <string name="preferences_app_protection__failed_to_disable_registration_lock">ನೋಂದಣಿ ಲಾಕ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲು ವಿಫಲವಾಗಿದೆ.</string>
@@ -1849,7 +1849,7 @@
   <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">ನೀವು ಹಲವಾರು ಪ್ರಯತ್ನಗಳನ್ನು ಮಾಡಿದ್ದೀರಿ. ಮರಳಿ ಪ್ರಯತ್ನಿಸಿ.</string>
   <string name="RegistrationActivity_error_connecting_to_service">ಸೇವೆಗೆ ಸಂಪರ್ಕಿಸುವಲ್ಲಿ ದೋಷ</string>
   <string name="preferences_chats__backups">ಬ್ಯಾಕಪ್‌ಗಳು</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Signal ಅನ್‌‌ಲಾಕ್ ಆಗಿದೆ</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">Grapherex ಅನ್‌‌ಲಾಕ್ ಆಗಿದೆ</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">ಅನ್‌ಲಾಕ್ ಮಾಡಲು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
   <string name="Recipient_unknown">ತಿಳಿದಿಲ್ಲ</string>
   <!--RecipientBottomSheet-->
@@ -1879,10 +1879,10 @@
   <string name="GroupsLearnMore_what_are_legacy_groups">ಹಳೆಯ ಗುಂಪುಗಳೆಂದರೇನು?</string>
   <string name="GroupsLearnMore_paragraph_1">ಹಳೆಯ ಗುಂಪುಗಳು ಹೊಸ ಗುಂಪಿನ ವೈಶಿಷ್ಟ್ಯಗಳಾದ ನಿರ್ವಾಹಕರು ಮತ್ತು ಹೆಚ್ಚು ವಿವರಣಾತ್ಮಕ ಗುಂಪು ನವೀಕರಣಗಳೊಂದಿಗೆ ಹೊಂದಿಕೆಯಾಗದ ಗುಂಪುಗಳಾಗಿವೆ.</string>
   <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">ನಾನು ಹಳೆಯ ಗುಂಪನ್ನು ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಬಹುದೇ?</string>
-  <string name="GroupsLearnMore_paragraph_2">ಹಳೆಯ ಗುಂಪುಗಳನ್ನು ಇನ್ನೂ ಹೊಸ ಗುಂಪುಗಳಿಗೆ ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಲಾಗುವುದಿಲ್ಲ, ಆದರೆ Signal ನ ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಯಲ್ಲಿದ್ದರೆ ಅದೇ ಸದಸ್ಯರೊಂದಿಗೆ ನೀವು ಹೊಸ ಗುಂಪನ್ನು ರಚಿಸಬಹುದು.</string>
-  <string name="GroupsLearnMore_paragraph_3">Signal ಭವಿಷ್ಯದಲ್ಲಿ ಹಳೆಯ ಗುಂಪುಗಳನ್ನು ನವೀಕರಿಸಲು ಮಾರ್ಗವನ್ನು ನೀಡುತ್ತದೆ.</string>
+  <string name="GroupsLearnMore_paragraph_2">ಹಳೆಯ ಗುಂಪುಗಳನ್ನು ಇನ್ನೂ ಹೊಸ ಗುಂಪುಗಳಿಗೆ ಅಪ್‌ಗ್ರೇಡ್ ಮಾಡಲಾಗುವುದಿಲ್ಲ, ಆದರೆ Grapherex ನ ಇತ್ತೀಚಿನ ಆವೃತ್ತಿಯಲ್ಲಿದ್ದರೆ ಅದೇ ಸದಸ್ಯರೊಂದಿಗೆ ನೀವು ಹೊಸ ಗುಂಪನ್ನು ರಚಿಸಬಹುದು.</string>
+  <string name="GroupsLearnMore_paragraph_3">Grapherex ಭವಿಷ್ಯದಲ್ಲಿ ಹಳೆಯ ಗುಂಪುಗಳನ್ನು ನವೀಕರಿಸಲು ಮಾರ್ಗವನ್ನು ನೀಡುತ್ತದೆ.</string>
   <!--GroupLinkBottomSheetDialogFragment-->
-  <string name="GroupLinkBottomSheet_share_via_signal">Signal ನಿಂದ ಹಂಚಿಕೊಳ್ಳಿ</string>
+  <string name="GroupLinkBottomSheet_share_via_signal">Grapherex ನಿಂದ ಹಂಚಿಕೊಳ್ಳಿ</string>
   <string name="GroupLinkBottomSheet_copy">ನಕಲಿಸು</string>
   <string name="GroupLinkBottomSheet_qr_code">ಕ್ಯೂಆರ್‌ ಕೋಡ್</string>
   <string name="GroupLinkBottomSheet_share">ಹಂಚಿಕೊಳ್ಳಿ </string>

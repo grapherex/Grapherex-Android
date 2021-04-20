@@ -2262,7 +2262,7 @@ Nhận thông tin trao đổi mã khóa về phiên bản giao thức không h�
   <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">Bạn đã thử quá nhiều lần. Vui lòng thử lại sau.</string>
   <string name="RegistrationActivity_error_connecting_to_service">Lỗi kết nối tới dịch vụ</string>
   <string name="preferences_chats__backups">Sao lưu</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Signal đã khoá</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">Grapherex đã khoá</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">NHẤN ĐỂ MỞ KHOÁ</string>
   <string name="Recipient_unknown">Vô danh</string>
   <!--TransferOrRestoreFragment-->

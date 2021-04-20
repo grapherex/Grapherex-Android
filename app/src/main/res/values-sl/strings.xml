@@ -10,22 +10,22 @@
   <string name="AbstractNotificationBuilder_new_message">Novo sporočilo</string>
   <!--AlbumThumbnailView-->
   <!--ApplicationMigrationActivity-->
-  <string name="ApplicationMigrationActivity__signal_is_updating">Aplikacija Signal se posodablja …</string>
+  <string name="ApplicationMigrationActivity__signal_is_updating">Aplikacija Grapherex se posodablja …</string>
   <!--ApplicationPreferencesActivity-->
   <string name="ApplicationPreferencesActivity_currently_s">Trenutno: %s</string>
   <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">Niste še nastavili gesla!</string>
   <string name="ApplicationPreferencesActivity_disable_passphrase">Izključim geslo?</string>
-  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">S tem boste odklenili aplikacijo Signal in obvestila o sporočilih.</string>
+  <string name="ApplicationPreferencesActivity_this_will_permanently_unlock_signal_and_message_notifications">S tem boste odklenili aplikacijo Grapherex in obvestila o sporočilih.</string>
   <string name="ApplicationPreferencesActivity_disable">Onemogoči</string>
   <string name="ApplicationPreferencesActivity_unregistering">Odjava poteka</string>
-  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Odjavljanje aplikacije Signal od sporočil in klicev …</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Res želite izklopiti sporočila in klice Signal?</string>
-  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">S tem boste izklopili sporočila in klice Signal ter se odjavili s strežnika. Za ponovno uporabo se boste morali zopet prijaviti s svojo telefonsko številko.</string>
+  <string name="ApplicationPreferencesActivity_unregistering_from_signal_messages_and_calls">Odjavljanje aplikacije Grapherex od sporočil in klicev …</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls">Res želite izklopiti sporočila in klice Grapherex?</string>
+  <string name="ApplicationPreferencesActivity_disable_signal_messages_and_calls_by_unregistering">S tem boste izklopili sporočila in klice Grapherex ter se odjavili s strežnika. Za ponovno uporabo se boste morali zopet prijaviti s svojo telefonsko številko.</string>
   <string name="ApplicationPreferencesActivity_error_connecting_to_server">Napaka pri povezavi s strežnikom!</string>
   <string name="ApplicationPreferencesActivity_sms_enabled">Sporočila SMS vklopljena</string>
   <string name="ApplicationPreferencesActivity_touch_to_change_your_default_sms_app">Dotaknite se za spremembo privzete aplikacije za sporočila SMS</string>
   <string name="ApplicationPreferencesActivity_sms_disabled">Sporočila SMS izklopljena</string>
-  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Z dotikom nastavite Signal za privzeto aplikacijo SMS</string>
+  <string name="ApplicationPreferencesActivity_touch_to_make_signal_your_default_sms_app">Z dotikom nastavite Grapherex za privzeto aplikacijo SMS</string>
   <string name="ApplicationPreferencesActivity_on">vklopljen</string>
   <string name="ApplicationPreferencesActivity_On">Vklopljena</string>
   <string name="ApplicationPreferencesActivity_off">izklopljen</string>
@@ -57,13 +57,13 @@
   <string name="AttachmentKeyboard_file">Datoteka</string>
   <string name="AttachmentKeyboard_contact">Stik</string>
   <string name="AttachmentKeyboard_location">Lokacija</string>
-  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Aplikacija Signal rabi dovoljenje za prikaz vaših fotografij in videov.</string>
+  <string name="AttachmentKeyboard_Signal_needs_permission_to_show_your_photos_and_videos">Aplikacija Grapherex rabi dovoljenje za prikaz vaših fotografij in videov.</string>
   <string name="AttachmentKeyboard_give_access">Dodeli dostop</string>
   <!--AttachmentManager-->
   <string name="AttachmentManager_cant_open_media_selection">Ne najdem aplikacije za izbor datotek.</string>
-  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Dostop do shrambe je bil trajno onemogočen. Aplikacija Signal potrebuje dovoljenje za dostop do sistemskega pomnilnika za pripenjanje fotografij, videa in zvoka k sporočilom. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenje pod postavko \"Shramba\".</string>
-  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Dostop do stikov je bil trajno onemogočen. Aplikacija Signal potrebuje dovoljenje za dostop do stikov, kadar želite sporočilom pripeti podatke oseb iz svojega imenika. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenje pod postavko \"Stiki\".</string>
-  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Dostop do lokacije je bil trajno onemogočen. Aplikacija Signal potrebuje dovoljenje za dostop do lokacije, kadar želite k sporočilom dodati podatek o svoji trenutni lokaciji. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenje pod postavko \"Lokacija\".</string>
+  <string name="AttachmentManager_signal_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Dostop do shrambe je bil trajno onemogočen. Aplikacija Grapherex potrebuje dovoljenje za dostop do sistemskega pomnilnika za pripenjanje fotografij, videa in zvoka k sporočilom. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenje pod postavko \"Shramba\".</string>
+  <string name="AttachmentManager_signal_requires_contacts_permission_in_order_to_attach_contact_information">Dostop do stikov je bil trajno onemogočen. Aplikacija Grapherex potrebuje dovoljenje za dostop do stikov, kadar želite sporočilom pripeti podatke oseb iz svojega imenika. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenje pod postavko \"Stiki\".</string>
+  <string name="AttachmentManager_signal_requires_location_information_in_order_to_attach_a_location">Dostop do lokacije je bil trajno onemogočen. Aplikacija Grapherex potrebuje dovoljenje za dostop do lokacije, kadar želite k sporočilom dodati podatek o svoji trenutni lokaciji. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenje pod postavko \"Lokacija\".</string>
   <!--AttachmentUploadJob-->
   <string name="AttachmentUploadJob_uploading_media">Prenos multimedijske datoteke …</string>
   <string name="AttachmentUploadJob_compressing_video_start">Kompresija videa …</string>
@@ -107,26 +107,26 @@
   <string name="CameraXFragment_open_gallery_description">Odpri galerijo</string>
   <!--CameraContacts-->
   <string name="CameraContacts_recent_contacts">Nedavni stiki</string>
-  <string name="CameraContacts_signal_contacts">Uporabniki/ce Signal</string>
-  <string name="CameraContacts_signal_groups">Skupine Signal</string>
+  <string name="CameraContacts_signal_contacts">Uporabniki/ce Grapherex</string>
+  <string name="CameraContacts_signal_groups">Skupine Grapherex</string>
   <string name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">Delite lahko z največ %d pogovori.</string>
-  <string name="CameraContacts_select_signal_recipients">Izberite prejemnike Signal</string>
-  <string name="CameraContacts_no_signal_contacts">Ni uporabnikov/ic Signal</string>
-  <string name="CameraContacts_you_can_only_use_the_camera_button">Za pošiljanje fotografij uporabnikom/cam storitve Signal morate uporabiti gumb za kamero.</string>
+  <string name="CameraContacts_select_signal_recipients">Izberite prejemnike Grapherex</string>
+  <string name="CameraContacts_no_signal_contacts">Ni uporabnikov/ic Grapherex</string>
+  <string name="CameraContacts_you_can_only_use_the_camera_button">Za pošiljanje fotografij uporabnikom/cam storitve Grapherex morate uporabiti gumb za kamero.</string>
   <string name="CameraContacts_cant_find_who_youre_looking_for">Ne najdete uporabnika/ce, ki ga/jo iščete?</string>
-  <string name="CameraContacts_invite_a_contact_to_join_signal">Povabite prijatelja/ico k uporabi aplikacije Signal</string>
+  <string name="CameraContacts_invite_a_contact_to_join_signal">Povabite prijatelja/ico k uporabi aplikacije Grapherex</string>
   <string name="CameraContacts__menu_search">Iskanje</string>
   <!--ClearProfileActivity-->
   <string name="ClearProfileActivity_remove">Odstrani</string>
   <string name="ClearProfileActivity_remove_profile_photo">Želite odstraniti predstavitveno fotografijo?</string>
   <string name="ClearProfileActivity_remove_group_photo">Želite odstraniti fotografijo skupine?</string>
   <!--ClientDeprecatedActivity-->
-  <string name="ClientDeprecatedActivity_update_signal">Posodobite aplikacijo Signal</string>
-  <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">Ta različica aplikacije Signal ni več podprta. Za nadaljnje pošiljanje in prejemanje sporočil jo morate nadgraditi.</string>
+  <string name="ClientDeprecatedActivity_update_signal">Posodobite aplikacijo Grapherex</string>
+  <string name="ClientDeprecatedActivity_this_version_of_the_app_is_no_longer_supported">Ta različica aplikacije Grapherex ni več podprta. Za nadaljnje pošiljanje in prejemanje sporočil jo morate nadgraditi.</string>
   <string name="ClientDeprecatedActivity_update">Posodobitev</string>
   <string name="ClientDeprecatedActivity_dont_update">Ne nadgradi</string>
   <string name="ClientDeprecatedActivity_warning">Opozorilo</string>
-  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Različica aplikacije Signal na vaši napravi je potekla. Še vedno lahko pregledujete zgodovino svojih sporočil, ne morete pa jih pošiljati ali prejemati dokler je ne nadgradite.</string>
+  <string name="ClientDeprecatedActivity_your_version_of_signal_has_expired_you_can_view_your_message_history">Različica aplikacije Grapherex na vaši napravi je potekla. Še vedno lahko pregledujete zgodovino svojih sporočil, ne morete pa jih pošiljati ali prejemati dokler je ne nadgradite.</string>
   <!--CommunicationActions-->
   <string name="CommunicationActions_no_browser_found">Spletnega brskalnika ni bilo mogoče najti.</string>
   <string name="CommunicationActions_send_email">Pošlji e-pošto</string>
@@ -135,9 +135,9 @@
   <string name="CommunicationActions_cancel">Prekliči</string>
   <string name="CommunicationActions_call">Kliči</string>
   <string name="CommunicationActions_insecure_call">Nezavarovan klic</string>
-  <string name="CommunicationActions_carrier_charges_may_apply">Pozor, možni dodatni stroški za klic! Številka, ki jo kličete ni prijavljena v storitev Signal. Klic bo opravljen preko vašega ponudnika mobilne telefonije, ne prek interneta.</string>
+  <string name="CommunicationActions_carrier_charges_may_apply">Pozor, možni dodatni stroški za klic! Številka, ki jo kličete ni prijavljena v storitev Grapherex. Klic bo opravljen preko vašega ponudnika mobilne telefonije, ne prek interneta.</string>
   <!--ConfirmIdentityDialog-->
-  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Varnostno število z uporabnikom/co %1$s je bilo spremenjeno. To lahko pomeni, da poskuša nekdo prestrezati vajino komunikacijo ali pa je %2$s zgolj ponovno namestil/a aplikacijo Signal.</string>
+  <string name="ConfirmIdentityDialog_your_safety_number_with_s_has_changed">Varnostno število z uporabnikom/co %1$s je bilo spremenjeno. To lahko pomeni, da poskuša nekdo prestrezati vajino komunikacijo ali pa je %2$s zgolj ponovno namestil/a aplikacijo Grapherex.</string>
   <string name="ConfirmIdentityDialog_you_may_wish_to_verify_your_safety_number_with_this_contact">Morda bi želeli preveriti vajino skupno varnostno število.</string>
   <string name="ConfirmIdentityDialog_accept">Sprejmi</string>
   <!--ContactsCursorLoader-->
@@ -148,7 +148,7 @@
   <string name="ContactsCursorLoader_username_search">Iskanje po uporabniških imenih</string>
   <!--ContactsDatabase-->
   <string name="ContactsDatabase_message_s">Sporočilo %s</string>
-  <string name="ContactsDatabase_signal_call_s">Klic Signal: %s</string>
+  <string name="ContactsDatabase_signal_call_s">Klic Grapherex: %s</string>
   <!--ContactNameEditActivity-->
   <string name="ContactNameEditActivity_given_name">Ime</string>
   <string name="ContactNameEditActivity_family_name">Priimek</string>
@@ -170,7 +170,7 @@
   <string name="ConversationItem_click_to_approve_unencrypted">Pošiljanje ni uspelo, tapnite za nezavarovan SMS</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">Preklopim na nešifriran SMS?</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">Preklopim na nešifriran MMS?</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">To sporočilo <b>ne bo</b> šifrirano, ker prejemnik/ca ni več uporabnik/ca aplikacije Signal.\n\nPošljem nešifrirano?</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">To sporočilo <b>ne bo</b> šifrirano, ker prejemnik/ca ni več uporabnik/ca aplikacije Grapherex.\n\nPošljem nešifrirano?</string>
   <string name="ConversationItem_unable_to_open_media">Ne najdem aplikacije za odpiranje te vrste datotek.</string>
   <string name="ConversationItem_copied_text">Kopirano %s</string>
   <string name="ConversationItem_from_s">od %s</string>
@@ -198,8 +198,8 @@
   <string name="ConversationActivity_this_device_does_not_appear_to_support_dial_actions">Izgleda, da naprava ne podpira klicanja.</string>
   <string name="ConversationActivity_transport_insecure_sms">Nezavarovan SMS</string>
   <string name="ConversationActivity_transport_insecure_mms">Nezavarovan MMS</string>
-  <string name="ConversationActivity_transport_signal">Signal</string>
-  <string name="ConversationActivity_lets_switch_to_signal">Začni uporabljati aplikacijo Signal %1$s</string>
+  <string name="ConversationActivity_transport_signal">Grapherex</string>
+  <string name="ConversationActivity_lets_switch_to_signal">Začni uporabljati aplikacijo Grapherex %1$s</string>
   <string name="ConversationActivity_specify_recipient">Prosimo, izberite uporabnika/co</string>
   <string name="ConversationActivity_unblock">Odblokiraj</string>
   <string name="ConversationActivity_attachment_exceeds_size_limits">Velikost priponke presega omejitev velikosti za ta tip sporočil.</string>
@@ -208,17 +208,17 @@
   <string name="ConversationActivity_there_is_no_app_available_to_handle_this_link_on_your_device">Na svoji napravi nimate nameščene aplikacije, ki bi odpirala to povezavo.</string>
   <string name="ConversationActivity_your_request_to_join_has_been_sent_to_the_group_admin">Vaša prošnja za pridružitev je bila posredovana skrbniku/ci skupine. Ob njegovem/njenem odzivu boste obveščeni.</string>
   <string name="ConversationActivity_cancel_request">Preklic prošnje</string>
-  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Za pošiljanje zvočnih sporočil dovolite aplikaciji Signal dostop do mikrofona naprave.</string>
-  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Dostop do mikrofona je bil trajno onemogočen. Aplikacija Signal potrebuje dovoljenje za dostop do mikrofona naprave za pošiljanje zvokovnih sporočil. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenje pod postavko \"Mikrofon\".</string>
-  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Dostop do mikrofona in kamere je bil trajno onemogočen. Za klic uporabnika/ce %spotrebuje Aplikacija Signal dovoljenje za dostop do mikrofona in kamere naprave. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenji pod postavkama \"Mikrofon\" in \"Kamera\".</string>
-  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Za zajemanje videa in fotografij dovolite aplikaciji Signal dostop do kamere naprave.</string>
-  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Dostop do kamere je bil trajno onemogočen. Aplikacija Signal potrebuje dovoljenje za dostop do kamere za zajemanje videa in fotografij. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenje pod postavko \"Kamera\".</string>
-  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Za zajemanje videa in fotografij potrebuje aplikacija Signal dostop do kamere.</string>
+  <string name="ConversationActivity_to_send_audio_messages_allow_signal_access_to_your_microphone">Za pošiljanje zvočnih sporočil dovolite aplikaciji Grapherex dostop do mikrofona naprave.</string>
+  <string name="ConversationActivity_signal_requires_the_microphone_permission_in_order_to_send_audio_messages">Dostop do mikrofona je bil trajno onemogočen. Aplikacija Grapherex potrebuje dovoljenje za dostop do mikrofona naprave za pošiljanje zvokovnih sporočil. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenje pod postavko \"Mikrofon\".</string>
+  <string name="ConversationActivity_signal_needs_the_microphone_and_camera_permissions_in_order_to_call_s">Dostop do mikrofona in kamere je bil trajno onemogočen. Za klic uporabnika/ce %spotrebuje Aplikacija Grapherex dovoljenje za dostop do mikrofona in kamere naprave. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenji pod postavkama \"Mikrofon\" in \"Kamera\".</string>
+  <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Za zajemanje videa in fotografij dovolite aplikaciji Grapherex dostop do kamere naprave.</string>
+  <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Dostop do kamere je bil trajno onemogočen. Aplikacija Grapherex potrebuje dovoljenje za dostop do kamere za zajemanje videa in fotografij. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenje pod postavko \"Kamera\".</string>
+  <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Za zajemanje videa in fotografij potrebuje aplikacija Grapherex dostop do kamere.</string>
   <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">Omogoči dostop do mikrofona za zajemanje zvoka in videa.</string>
-  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Dostop do mikrofona je bil onemogočen. Za snemanje videa potrebuje aplikacija Signal dovoljenje za dostop do mikrofona. Prosimo, nadaljujte v nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenje pod postavko \"Mikrofon\".</string>
-  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Za snemanje videa potrebuje Signal dostop do mikrofona.</string>
+  <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Dostop do mikrofona je bil onemogočen. Za snemanje videa potrebuje aplikacija Grapherex dovoljenje za dostop do mikrofona. Prosimo, nadaljujte v nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenje pod postavko \"Mikrofon\".</string>
+  <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Za snemanje videa potrebuje Grapherex dostop do mikrofona.</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s %2$s</string>
-  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Signal ne more pošiljati sporočil SMS/MMS, ker ni nastavljen kot privzeta aplikacija SMS. Bi želeli to spremeniti v nastavitvah Android?</string>
+  <string name="ConversationActivity_signal_cannot_sent_sms_mms_messages_because_it_is_not_your_default_sms_app">Grapherex ne more pošiljati sporočil SMS/MMS, ker ni nastavljen kot privzeta aplikacija SMS. Bi želeli to spremeniti v nastavitvah Android?</string>
   <string name="ConversationActivity_yes">Da</string>
   <string name="ConversationActivity_no">Ne</string>
   <string name="ConversationActivity_search_position">%1$d od %2$d</string>
@@ -232,7 +232,7 @@
   <string name="ConversationActivity_you_will_leave_this_group_and_it_will_be_deleted_from_all_of_your_devices">Zapustili boste skupino in ta bo izbrisana na vseh vaših napravah.</string>
   <string name="ConversationActivity_delete">Izbriši</string>
   <string name="ConversationActivity_delete_and_leave">Izbriši in zapusti</string>
-  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">Za klic uporabnika/ce %1$s, potrebuje Signal dostop do mikrofona</string>
+  <string name="ConversationActivity__to_call_s_signal_needs_access_to_your_microphone">Za klic uporabnika/ce %1$s, potrebuje Grapherex dostop do mikrofona</string>
   <string name="ConversationActivity__more_options_now_in_group_settings">Več možnosti odslej v \"Nastavitvah skupine\"</string>
   <string name="ConversationActivity_join">Pridruži se</string>
   <string name="ConversationActivity_full">Polno</string>
@@ -278,14 +278,14 @@
     <item quantity="other">Shranjevanje %1$d prilog v shrambo …</item>
   </plurals>
   <string name="ConversationFragment_pending">V teku …</string>
-  <string name="ConversationFragment_push">Podatkovno (Signal)</string>
+  <string name="ConversationFragment_push">Podatkovno (Grapherex)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">Brišem</string>
   <string name="ConversationFragment_deleting_messages">Izbris sporočil …</string>
   <string name="ConversationFragment_delete_for_me">Izbriši zame</string>
   <string name="ConversationFragment_delete_for_everyone">Izbriši za vse</string>
-  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">To sporočilo bo izbrisano za vse udeležene v pogovoru, če imajo nameščeno zadnjo različico aplikacije Signal. Člani/ce skupine bodo lahko videli/e, da ste izbrisali sporočilo.</string>
+  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">To sporočilo bo izbrisano za vse udeležene v pogovoru, če imajo nameščeno zadnjo različico aplikacije Grapherex. Člani/ce skupine bodo lahko videli/e, da ste izbrisali sporočilo.</string>
   <string name="ConversationFragment_quoted_message_not_found">Izvorno sporočilo ni bilo najdeno</string>
   <string name="ConversationFragment_quoted_message_no_longer_available">Izvorno sporočilo ni več na voljo</string>
   <string name="ConversationFragment_failed_to_open_message">Odpiranje sporočila ni uspelo</string>
@@ -297,12 +297,12 @@
   <string name="ConversationFragment__d_group_members_have_the_same_name">%1$d članov/ic skupine ima enako ime.</string>
   <string name="ConversationFragment__tap_to_review">Tapnite za pregled</string>
   <string name="ConversationFragment__review_requests_carefully">Pazljivo preglejte prošnje</string>
-  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Signal je našel drug stik z enakim imenom.</string>
+  <string name="ConversationFragment__signal_found_another_contact_with_the_same_name">Grapherex je našel drug stik z enakim imenom.</string>
   <string name="ConversationFragment_contact_us">Kontaktirajte nas</string>
   <string name="ConversationFragment_verify">Potrdi</string>
   <string name="ConversationFragment_not_now">Ne zdaj</string>
   <string name="ConversationFragment_your_safety_number_with_s_changed">Vaše varnostno število z uporabnikom/co %s je bilo spremenjeno</string>
-  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Vaše varnostno število z uporabnikom/co %s je bilo spremenjeno, najverjetneje zato, ker si je ponovno namestil/a Signal ali pa je zamenjal/a telefon. Za potrditev varnostnega števila tapnite \'potrdi\'. Potrditev ni obvezna.</string>
+  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Vaše varnostno število z uporabnikom/co %s je bilo spremenjeno, najverjetneje zato, ker si je ponovno namestil/a Grapherex ali pa je zamenjal/a telefon. Za potrditev varnostnega števila tapnite \'potrdi\'. Potrditev ni obvezna.</string>
   <plurals name="ConversationListFragment_delete_selected_conversations">
     <item quantity="one">Izbrišem izbrani pogovor?</item>
     <item quantity="two">Izbrišem izbrana pogovora?</item>
@@ -367,11 +367,11 @@
   <string name="BackupsPreferenceFragment__test_your_backup_passphrase">Preizkusite geslo svoje varnostne kopije, da vidite, če se ujema</string>
   <string name="BackupsPreferenceFragment__turn_on">Vklopi</string>
   <string name="BackupsPreferenceFragment__turn_off">Izklopi</string>
-  <string name="BackupsPreferenceFragment__to_restore_a_backup">Za obnovo iz varnostne kopije morate najprej namestiti novo kopijo aplikacije Signal. Nato odprite aplikacijo in tapnite \"Obnovi iz varnostne kopije\", ter poiščite svojo varnostno kopijo. %1$s</string>
+  <string name="BackupsPreferenceFragment__to_restore_a_backup">Za obnovo iz varnostne kopije morate najprej namestiti novo kopijo aplikacije Grapherex. Nato odprite aplikacijo in tapnite \"Obnovi iz varnostne kopije\", ter poiščite svojo varnostno kopijo. %1$s</string>
   <string name="BackupsPreferenceFragment__learn_more">Izvedite več</string>
   <string name="BackupsPreferenceFragment__in_progress">V teku …</string>
   <string name="BackupsPreferenceFragment__d_so_far">%1$d do zdaj …</string>
-  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Dovoljenja za dostop do zunanjega pomnilnika, ki ga aplikacija Signal potrebuje za varnostno kopiranje, je bilo trajno odvzeto. Prosimo, pojdite v sistemski meni z nastavitvami za aplikacije, izberite \"Dovoljenja\" in označite polje \"Zunanja shramba\".</string>
+  <string name="BackupsPreferenceFragment_signal_requires_external_storage_permission_in_order_to_create_backups">Dovoljenja za dostop do zunanjega pomnilnika, ki ga aplikacija Grapherex potrebuje za varnostno kopiranje, je bilo trajno odvzeto. Prosimo, pojdite v sistemski meni z nastavitvami za aplikacije, izberite \"Dovoljenja\" in označite polje \"Zunanja shramba\".</string>
   <!--CustomDefaultPreference-->
   <string name="CustomDefaultPreference_using_custom">Uporabljam izbirno: %s</string>
   <string name="CustomDefaultPreference_using_default">Prednastavljeno: %s</string>
@@ -390,7 +390,7 @@
   <string name="DateUtils_yesterday">Včeraj</string>
   <!--DecryptionFailedDialog-->
   <string name="DecryptionFailedDialog_chat_session_refreshed">Seja klepeta je bila osvežena</string>
-  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Signal uporablja šifriranje od-pošiljetalja-do-naslovnika, zato je včasih potrebna osvežitev seje klepeta. To ne bo vplivalo na varnost, lahko pa se bo izgubilo kakšno sporočilo s tem stikom in ga/jo boste morali prositi, da ga pošlje znova.</string>
+  <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Grapherex uporablja šifriranje od-pošiljetalja-do-naslovnika, zato je včasih potrebna osvežitev seje klepeta. To ne bo vplivalo na varnost, lahko pa se bo izgubilo kakšno sporočilo s tem stikom in ga/jo boste morali prositi, da ga pošlje znova.</string>
   <!--DeviceListActivity-->
   <string name="DeviceListActivity_unlink_s">Odstranim \'%s\'?</string>
   <string name="DeviceListActivity_by_unlinking_this_device_it_will_no_longer_be_able_to_send_or_receive">Z odstranitvijo naprave ta ne bo več mogla pošiljati ali prejemati sporočil.</string>
@@ -407,18 +407,18 @@
   <!--DocumentView-->
   <string name="DocumentView_unnamed_file">Datoteka brez imena</string>
   <!--DonateMegaphone-->
-  <string name="DonateMegaphone_donate_to_signal">Podprite Signal</string>
-  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Razvoj aplikacije Signal omogočajo ljudje, kot ste vi. Podprite ga tudi vi!</string>
-  <string name="DonateMegaphone_donate">Podpri Signal!</string>
+  <string name="DonateMegaphone_donate_to_signal">Podprite Grapherex</string>
+  <string name="DonateMegaphone_Signal_is_powered_by_people_like_you_show_your_support_today">Razvoj aplikacije Grapherex omogočajo ljudje, kot ste vi. Podprite ga tudi vi!</string>
+  <string name="DonateMegaphone_donate">Podpri Grapherex!</string>
   <string name="DonateMegaphone_no_thanks">Ne hvala</string>
   <!--GroupCallingMegaphone-->
   <string name="GroupCallingMegaphone__introducing_group_calls">Predstavljamo vam skupinske klice</string>
   <string name="GroupCallingMegaphone__open_a_new_group_to_start">Za šifriran skupinski klic odprite Novo skupino</string>
   <!--DozeReminder-->
   <string name="DozeReminder_optimize_for_missing_play_services">Optimiziraj za manjkajočo aplikacijo Play Services</string>
-  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Naprava ne podpira storitev Play Services. Tapnite za izklop optimizacije baterije, ki aplikaciji Signal preprečuje povezavo v času neaktivnosti naprave.</string>
+  <string name="DozeReminder_this_device_does_not_support_play_services_tap_to_disable_system_battery">Naprava ne podpira storitev Play Services. Tapnite za izklop optimizacije baterije, ki aplikaciji Grapherex preprečuje povezavo v času neaktivnosti naprave.</string>
   <!--ExpiredBuildReminder-->
-  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Ta različica aplikacije Signal je potekla. Posodobite jo, da boste lahko spet pošiljali in prejemali sporočila.</string>
+  <string name="ExpiredBuildReminder_this_version_of_signal_has_expired">Ta različica aplikacije Grapherex je potekla. Posodobite jo, da boste lahko spet pošiljali in prejemali sporočila.</string>
   <string name="ExpiredBuildReminder_update_now">Posodobi zdaj</string>
   <!--PendingGroupJoinRequestsReminder-->
   <plurals name="PendingGroupJoinRequestsReminder_d_pending_member_requests">
@@ -432,7 +432,7 @@
   <string name="ShareActivity_share_with">Deli z</string>
   <string name="ShareActivity_multiple_attachments_are_only_supported">Več priponk je možnih le pri slikah in videu</string>
   <!--GcmRefreshJob-->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Trajna okvara pri komunikaciji aplikacije Signal!</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Trajna okvara pri komunikaciji aplikacije Grapherex!</string>
   <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Registracija z Google Play Services ni bila uspešna. Podatkovna komunikacija je izklopljena, prosimo, poskusite s ponovno registracijo v meniju Nastavive &gt; Napredno.</string>
   <!--GiphyActivity-->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Napaka pri pridobivanju GIF-a v polni ločljivosti</string>
@@ -479,10 +479,10 @@
     <item quantity="other">Ti/te člani/ce bodo morali/e potrditi vabilo za ponovno pridružitev skupini in do takrat ne bodo mogli/e prejemati novih sporočil skupine:</item>
   </plurals>
   <plurals name="GroupsV1MigrationLearnMore_these_members_were_removed_from_the_group">
-    <item quantity="one">Ta član/ica je bil/a odstranjen/a iz skupine in bo moral/a, preden se lahko ponovno pridruži, nadgraditi aplikacijo Signal:</item>
-    <item quantity="two">Ta/ti člana/ici sta bila/i odstranjena/i iz skupine in bosta morala/i, preden se lahko ponovno pridružita, nadgraditi aplikacijo Signal:</item>
-    <item quantity="few">Ti/te člani/ce so bili/e odstranjeni/e iz skupine in bodo morali/e, preden se lahko ponovno pridružijo, nadgraditi aplikacijo Signal:</item>
-    <item quantity="other">Ti/te člani/ce so bili/e odstranjeni/e iz skupine in bodo morali/e, preden se lahko ponovno pridružijo, nadgraditi aplikacijo Signal:</item>
+    <item quantity="one">Ta član/ica je bil/a odstranjen/a iz skupine in bo moral/a, preden se lahko ponovno pridruži, nadgraditi aplikacijo Grapherex:</item>
+    <item quantity="two">Ta/ti člana/ici sta bila/i odstranjena/i iz skupine in bosta morala/i, preden se lahko ponovno pridružita, nadgraditi aplikacijo Grapherex:</item>
+    <item quantity="few">Ti/te člani/ce so bili/e odstranjeni/e iz skupine in bodo morali/e, preden se lahko ponovno pridružijo, nadgraditi aplikacijo Grapherex:</item>
+    <item quantity="other">Ti/te člani/ce so bili/e odstranjeni/e iz skupine in bodo morali/e, preden se lahko ponovno pridružijo, nadgraditi aplikacijo Grapherex:</item>
   </plurals>
   <!--GroupsV1MigrationInitiationBottomSheetDialogFragment-->
   <string name="GroupsV1MigrationInitiation_upgrade_to_new_group">Nadgradi v Novo skupino</string>
@@ -624,7 +624,7 @@
   <string name="AddGroupDetailsFragment__this_field_is_required">To polje je obvezno.</string>
   <string name="AddGroupDetailsFragment__group_creation_failed">Kreiranje skupine ni uspelo.</string>
   <string name="AddGroupDetailsFragment__try_again_later">Poskusite znova kasneje.</string>
-  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">Izbrali ste stik, ki ne uporablja skupin Signal, zato bo to skupina MMS</string>
+  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt">Izbrali ste stik, ki ne uporablja skupin Grapherex, zato bo to skupina MMS</string>
   <string name="AddGroupDetailsFragment_custom_mms_group_names_and_photos_will_only_be_visible_to_you">Imena in fotografije MMS skupin po meri bodo vidna le vam.</string>
   <string name="AddGroupDetailsFragment__remove">Odstrani</string>
   <string name="AddGroupDetailsFragment__sms_contact">Stik SMS</string>
@@ -642,19 +642,19 @@
     <item quantity="other">%d članov/ic skupine ne podpira Novih skupin, zato ta skupina ne more biti ustvarjena.</item>
   </plurals>
   <!--NonGv2MemberDialog-->
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">Uporabnik/ca “%1$s” ima nameščeno zastarelo verzijo aplikacije Signal, zato bo ustvarjena Stara skupina. Novo obliko skupine lahko ustvarite šele po njegovi/njeni posodobitvi Signala, ali pa če ga/jo odstranite iz skupine.</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable">Uporabnik/ca “%1$s” ima nameščeno zastarelo verzijo aplikacije Grapherex, zato bo ustvarjena Stara skupina. Novo obliko skupine lahko ustvarite šele po njegovi/njeni posodobitvi Grapherexa, ali pa če ga/jo odstranite iz skupine.</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable">
-    <item quantity="one">%1$d član skupine ima nameščeno zastarelo verzijo aplikacije Signal, zato bo ustvarjena Stara skupina. Novo obliko skupine lahko ustvarite šele po njegovi/njeni posodobitvi Signala, ali pa če ga/jo odstranite iz skupine.</item>
-    <item quantity="two">%1$d člana/ici skupine imata nameščeno zastarelo verzijo aplikacije Signal, zato bo ustvarjena Stara skupina. Novo obliko skupine lahko ustvarite šele po njuni posodobitvi Signala, ali pa če ju odstranite iz skupine.</item>
-    <item quantity="few">%1$d člani/ce skupine imajo nameščeno zastarelo verzijo aplikacije Signal, zato bo ustvarjena Stara skupina. Novo obliko skupine lahko ustvarite šele po njihovi posodobitvi Signala, ali pa če jih odstranite iz skupine.</item>
-    <item quantity="other">%1$d članov/ic skupine ima nameščeno zastarelo verzijo aplikacije Signal, zato bo ustvarjena Stara skupina. Novo obliko skupine lahko ustvarite šele po njihovi posodobitvi Signala, ali pa če jih odstranite iz skupine.</item>
+    <item quantity="one">%1$d član skupine ima nameščeno zastarelo verzijo aplikacije Grapherex, zato bo ustvarjena Stara skupina. Novo obliko skupine lahko ustvarite šele po njegovi/njeni posodobitvi Grapherexa, ali pa če ga/jo odstranite iz skupine.</item>
+    <item quantity="two">%1$d člana/ici skupine imata nameščeno zastarelo verzijo aplikacije Grapherex, zato bo ustvarjena Stara skupina. Novo obliko skupine lahko ustvarite šele po njuni posodobitvi Grapherexa, ali pa če ju odstranite iz skupine.</item>
+    <item quantity="few">%1$d člani/ce skupine imajo nameščeno zastarelo verzijo aplikacije Grapherex, zato bo ustvarjena Stara skupina. Novo obliko skupine lahko ustvarite šele po njihovi posodobitvi Grapherexa, ali pa če jih odstranite iz skupine.</item>
+    <item quantity="other">%1$d članov/ic skupine ima nameščeno zastarelo verzijo aplikacije Grapherex, zato bo ustvarjena Stara skupina. Novo obliko skupine lahko ustvarite šele po njihovi posodobitvi Grapherexa, ali pa če jih odstranite iz skupine.</item>
   </plurals>
-  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">Skupina ne more biti ustvarjena, ker uporablja uporabnik/ca “%1$s” zastarelo različico aplikacije Signal. Če želite ustvariti skupino, ga/jo morate najprej odstarniti.</string>
+  <string name="NonGv2MemberDialog_single_users_are_non_gv2_capable_forced_migration">Skupina ne more biti ustvarjena, ker uporablja uporabnik/ca “%1$s” zastarelo različico aplikacije Grapherex. Če želite ustvariti skupino, ga/jo morate najprej odstarniti.</string>
   <plurals name="NonGv2MemberDialog_d_users_are_non_gv2_capable_forced_migration">
-    <item quantity="one">Skupina ne more biti ustvarjena, ker %1$d član/ica uporablja zastarelo različico aplikacije Signal. Če želite ustvariti skupino, ga/ho morate najprej odstarniti.</item>
-    <item quantity="two">Skupina ne more biti ustvarjena, ker %1$d člana/ici uporabljata zastarelo različico aplikacije Signal. Če želite ustvariti skupino, ju morate najprej odstarniti.</item>
-    <item quantity="few">Skupina ne more biti ustvarjena, ker %1$d člani/ce uporabljajo zastarelo različico aplikacije Signal. Če želite ustvariti skupino, jih morate najprej odstarniti.</item>
-    <item quantity="other">Skupina ne more biti ustvarjena, ker %1$d članov/ic uporablja zastarelo različico aplikacije Signal. Če želite ustvariti skupino, jih morate najprej odstarniti.</item>
+    <item quantity="one">Skupina ne more biti ustvarjena, ker %1$d član/ica uporablja zastarelo različico aplikacije Grapherex. Če želite ustvariti skupino, ga/ho morate najprej odstarniti.</item>
+    <item quantity="two">Skupina ne more biti ustvarjena, ker %1$d člana/ici uporabljata zastarelo različico aplikacije Grapherex. Če želite ustvariti skupino, ju morate najprej odstarniti.</item>
+    <item quantity="few">Skupina ne more biti ustvarjena, ker %1$d člani/ce uporabljajo zastarelo različico aplikacije Grapherex. Če želite ustvariti skupino, jih morate najprej odstarniti.</item>
+    <item quantity="other">Skupina ne more biti ustvarjena, ker %1$d članov/ic uporablja zastarelo različico aplikacije Grapherex. Če želite ustvariti skupino, jih morate najprej odstarniti.</item>
   </plurals>
   <!--ManageGroupActivity-->
   <string name="ManageGroupActivity_member_requests_and_invites">Vabila in prošnje za članstvo</string>
@@ -686,7 +686,7 @@
   <string name="ManageGroupActivity_only_admins_can_enable_or_disable_the_option_to_approve_new_members">Samo skrbniki/ce skupine lahko vklopijo ali izklopijo portrjevanje novih članov.</string>
   <string name="ManageGroupActivity_only_admins_can_reset_the_sharable_group_link">Samo skrbniki/ce skupine lahko ponastavijo povezavo do skupine.</string>
   <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">Nimate pooblastil za to</string>
-  <string name="ManageGroupActivity_not_capable">Nekdo, ki ste ga dodali, uporablja zastarelo različico aplikacije Signal, ki ne podpira novih skupin, in jo mora nadgraditi</string>
+  <string name="ManageGroupActivity_not_capable">Nekdo, ki ste ga dodali, uporablja zastarelo različico aplikacije Grapherex, ki ne podpira novih skupin, in jo mora nadgraditi</string>
   <string name="ManageGroupActivity_failed_to_update_the_group">Posodobitev skupine ni uspela</string>
   <string name="ManageGroupActivity_youre_not_a_member_of_the_group">Niste član/ica skupine</string>
   <string name="ManageGroupActivity_failed_to_update_the_group_please_retry_later">Posodobitev skupine ni uspela, poskusite znova kasneje</string>
@@ -697,7 +697,7 @@
   <string name="ManageGroupActivity_legacy_group_upgrade">To je Stara skupina. Za dostop do naprednih funkcij, kot so @omembe in skrbniki/ce skupin,</string>
   <string name="ManageGroupActivity_legacy_group_too_large">Ta Stara skupina je prevelika, da bi bila lahko nadgrajena v Novo skupino. Največja velikost skupine je %1$d.</string>
   <string name="ManageGroupActivity_upgrade_this_group">nadgradite to skupino.</string>
-  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">To je nezavarovana skupina MMS. Za bolj zasebno komunikacijo povabite svoje stike na Signal.</string>
+  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">To je nezavarovana skupina MMS. Za bolj zasebno komunikacijo povabite svoje stike na Grapherex.</string>
   <string name="ManageGroupActivity_invite_now">Povabi zdaj</string>
   <!--GroupMentionSettingDialog-->
   <string name="GroupMentionSettingDialog_notify_me_for_mentions">Obveščajte me o omembah</string>
@@ -797,10 +797,10 @@
     <item quantity="other">Skupina · %1$d članov</item>
   </plurals>
   <!--GroupJoinUpdateRequiredBottomSheetDialogFragment-->
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Za povezave do skupine nadgradite Signal</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Različica aplikacije Signal, ki jo uporabljate, ne podpira te povezave do skupine. Za priključitev skupini preko povezave jo morate nadgraditi.</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Posodobite aplikacijo Signal</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">Na eni izmed vaših povezanih naprav je Signal, ki ne podpira povezav do skupine. Za pridružitev k skupini nadgradite aplikacijo Signal na svojih povezanih napravah.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Za povezave do skupine nadgradite Grapherex</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Različica aplikacije Grapherex, ki jo uporabljate, ne podpira te povezave do skupine. Za priključitev skupini preko povezave jo morate nadgraditi.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Posodobite aplikacijo Grapherex</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_linked_device_message">Na eni izmed vaših povezanih naprav je Grapherex, ki ne podpira povezav do skupine. Za pridružitev k skupini nadgradite aplikacijo Grapherex na svojih povezanih napravah.</string>
   <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">Povezava do skupine ni veljavna</string>
   <!--GroupInviteLinkEnableAndShareBottomSheetDialogFragment-->
   <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_invite_friends">Vabilo prijateljem/icam</string>
@@ -843,7 +843,7 @@
     <item quantity="few">Pošljem %d vabila SMS?</item>
     <item quantity="other">Pošljem %d vabil SMS?</item>
   </plurals>
-  <string name="InviteActivity_lets_switch_to_signal">Preklopi na Signal: %1$s</string>
+  <string name="InviteActivity_lets_switch_to_signal">Preklopi na Grapherex: %1$s</string>
   <string name="InviteActivity_no_app_to_share_to">Kaže, da nimate nameščene nobene primerne aplikacije.</string>
   <string name="InviteActivity_friends_dont_let_friends_text_unencrypted">Pametni ljudje uporabljajo šifrirano komunikacijo!</string>
   <!--LearnMoreTextView-->
@@ -853,7 +853,7 @@
   <string name="LongMessageActivity_message_from_s">Sporočilo uporabnika/ce %1$s</string>
   <string name="LongMessageActivity_your_message">Vaše sporočilo</string>
   <!--MessageRetrievalService-->
-  <string name="MessageRetrievalService_signal">Signal</string>
+  <string name="MessageRetrievalService_signal">Grapherex</string>
   <string name="MessageRetrievalService_background_connection_enabled">Povezava v ozadju je omogočena</string>
   <!--MmsDownloader-->
   <string name="MmsDownloader_error_reading_mms_settings">Napaka pri branju nastavitev MMS brezžičnega ponudnika</string>
@@ -910,7 +910,7 @@
   <string name="Megaphones_introducing_reactions">Predstavljamo vam Odzive</string>
   <string name="Megaphones_tap_and_hold_any_message_to_quicky_share_how_you_feel">Za hiter odziv tapnite in držite prst na katerem koli sporočilu.</string>
   <string name="Megaphones_remind_me_later">Spomni me kasneje</string>
-  <string name="Megaphones_verify_your_signal_pin">Potrdite svoj Signal PIN</string>
+  <string name="Megaphones_verify_your_signal_pin">Potrdite svoj Grapherex PIN</string>
   <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">Občasno vas bomo opozorili na vnos PINa, da si ga boste lažje zapomnili.</string>
   <string name="Megaphones_verify_pin">Potrdi PIN</string>
   <string name="Megaphones_get_started">Začnimo</string>
@@ -918,10 +918,10 @@
   <string name="Megaphones_invite_friends">Vabilo prijateljem/icam</string>
   <string name="Megaphones_use_sms">Uporabi SMS</string>
   <!--NotificationBarManager-->
-  <string name="NotificationBarManager_signal_call_in_progress">Klic Signal poteka</string>
-  <string name="NotificationBarManager__establishing_signal_call">Vzpostavljam klic Signal</string>
-  <string name="NotificationBarManager__incoming_signal_call">Dohodni klic Signal</string>
-  <string name="NotificationBarManager__stopping_signal_call_service">Ustavljanje klicanja Signal</string>
+  <string name="NotificationBarManager_signal_call_in_progress">Klic Grapherex poteka</string>
+  <string name="NotificationBarManager__establishing_signal_call">Vzpostavljam klic Grapherex</string>
+  <string name="NotificationBarManager__incoming_signal_call">Dohodni klic Grapherex</string>
+  <string name="NotificationBarManager__stopping_signal_call_service">Ustavljanje klicanja Grapherex</string>
   <string name="NotificationBarManager__deny_call">Zavrni klic</string>
   <string name="NotificationBarManager__answer_call">Sprejmi klic</string>
   <string name="NotificationBarManager__end_call">Zaključi klic</string>
@@ -945,8 +945,8 @@
   <string name="MediaSendActivity_message_to_s">Sporočilo za uporabnika/co %s</string>
   <string name="MediaSendActivity_message">Sporočilo</string>
   <string name="MediaSendActivity_select_recipients">Izberite prejemnike</string>
-  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Za prikaz imen iz vašega imenika potrebuje aplikacija Signal dostop do stikov.</string>
-  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Dostop do stikov je bil trajno onemogočen. Aplikacija Signal potrebuje dovoljenje za dostop do stikov za iskanje med osebami iz vašega imenika. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenje pod postavko \"Stiki\".</string>
+  <string name="MediaSendActivity_signal_needs_access_to_your_contacts">Za prikaz imen iz vašega imenika potrebuje aplikacija Grapherex dostop do stikov.</string>
+  <string name="MediaSendActivity_signal_needs_contacts_permission_in_order_to_show_your_contacts_but_it_has_been_permanently_denied">Dostop do stikov je bil trajno onemogočen. Aplikacija Grapherex potrebuje dovoljenje za dostop do stikov za iskanje med osebami iz vašega imenika. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenje pod postavko \"Stiki\".</string>
   <plurals name="MediaSendActivity_cant_share_more_than_n_items">
     <item quantity="one">Ne morete deliti več kot %d priponko.</item>
     <item quantity="two">Ne morete deliti več kot %d priponki.</item>
@@ -960,7 +960,7 @@
   <string name="MediaRepository__camera">Kamera</string>
   <!--MessageRecord-->
   <string name="MessageRecord_unknown">Neznano</string>
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Prejeli ste sporočilo, šifrirano z različico aplikacije Signal, ki ni več podprta. Prosite pošiljatelja, naj posodobi Signal na najnovejšo različico.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Prejeli ste sporočilo, šifrirano z različico aplikacije Grapherex, ki ni več podprta. Prosite pošiljatelja, naj posodobi Grapherex na najnovejšo različico.</string>
   <string name="MessageRecord_left_group">Zapustili ste skupino.</string>
   <string name="MessageRecord_you_updated_group">Posodobili ste skupino.</string>
   <string name="MessageRecord_the_group_was_updated">Skupina je bila posodobljena</string>
@@ -969,7 +969,7 @@
   <string name="MessageRecord_missed_video_call_date">Zamujen video klic · %1$s</string>
   <string name="MessageRecord_s_updated_group">Uporabnik/ca %s je posodobil/a skupino.</string>
   <string name="MessageRecord_s_called_you_date">Uporabnik/ca %1$s vas je klical/a · %2$s</string>
-  <string name="MessageRecord_s_joined_signal">%s uporablja Signal!</string>
+  <string name="MessageRecord_s_joined_signal">%s uporablja Grapherex!</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">Izklopili ste izginjajoča sporočila</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">Uporabnik/ca %1$s je izklopil/a izginjajoča sporočila.</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">Čas poteka sporočil ste nastavili na %1$s.</string>
@@ -1206,9 +1206,9 @@
   <string name="DeviceProvisioningActivity_content_progress_key_error">Neveljavna koda QR.</string>
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Imate preveč registriranih naprav. Za povezavo nove najprej kakšno odstranite.</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Koda QR za povezavo naprav ni veljavna.</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">Povežem z napravo Signal?</string>
-  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Izgleda, da želite za povezavo z napravo Signal uporabiti zunanji optični čitalnik. Prosimo, da storite to znotraj aplikacije Signal, saj je tako najvarneje.</string>
-  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Dostop do kamere je bil trajno onemogočen. Aplikacija Signal potrebuje dovoljenje za dostop do kamere, da bi lahko skenirali kode QR. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenje pod postavko \"Kamera\".</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">Povežem z napravo Grapherex?</string>
+  <string name="DeviceProvisioningActivity_it_looks_like_youre_trying_to_link_a_signal_device_using_a_3rd_party_scanner">Izgleda, da želite za povezavo z napravo Grapherex uporabiti zunanji optični čitalnik. Prosimo, da storite to znotraj aplikacije Grapherex, saj je tako najvarneje.</string>
+  <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Dostop do kamere je bil trajno onemogočen. Aplikacija Grapherex potrebuje dovoljenje za dostop do kamere, da bi lahko skenirali kode QR. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenje pod postavko \"Kamera\".</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Brez dovoljenja za dostop do kamere ne morem skenirati kode QR.</string>
   <!--ExpirationDialog-->
   <string name="ExpirationDialog_disappearing_messages">Izginjajoča sporočila</string>
@@ -1216,20 +1216,20 @@
   <string name="ExpirationDialog_your_messages_will_disappear_s_after_they_have_been_seen">Sporočila, poslana ali prejeta v tem pogovoru, bodo izginila %s po ogledu.</string>
   <!--OutdatedBuildReminder-->
   <string name="OutdatedBuildReminder_update_now">Posodobi zdaj</string>
-  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Ta različica aplikacije Signal poteče danes. Nadgradite je na najnovejšo različico.</string>
+  <string name="OutdatedBuildReminder_your_version_of_signal_will_expire_today">Ta različica aplikacije Grapherex poteče danes. Nadgradite je na najnovejšo različico.</string>
   <plurals name="OutdatedBuildReminder_your_version_of_signal_will_expire_in_n_days">
-    <item quantity="one">Ta različica aplikacije Signal poteče jutri. Nadgradite je na najnovejšo različico.</item>
-    <item quantity="two">Ta različica aplikacije Signal poteče čez %d dni. Nadgradite je na najnovejšo različico.</item>
-    <item quantity="few">Ta različica aplikacije Signal poteče čez %d dni. Nadgradite je na najnovejšo različico.</item>
-    <item quantity="other">Ta različica aplikacije Signal poteče čez %d dni. Nadgradite je na najnovejšo različico.</item>
+    <item quantity="one">Ta različica aplikacije Grapherex poteče jutri. Nadgradite je na najnovejšo različico.</item>
+    <item quantity="two">Ta različica aplikacije Grapherex poteče čez %d dni. Nadgradite je na najnovejšo različico.</item>
+    <item quantity="few">Ta različica aplikacije Grapherex poteče čez %d dni. Nadgradite je na najnovejšo različico.</item>
+    <item quantity="other">Ta različica aplikacije Grapherex poteče čez %d dni. Nadgradite je na najnovejšo različico.</item>
   </plurals>
   <!--PassphrasePromptActivity-->
   <string name="PassphrasePromptActivity_enter_passphrase">Vnesite geslo</string>
-  <string name="PassphrasePromptActivity_watermark_content_description">Ikona Signal</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">Ikona Grapherex</string>
   <string name="PassphrasePromptActivity_ok_button_content_description">Vnesite geslo</string>
   <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Napačno geslo!</string>
-  <string name="PassphrasePromptActivity_unlock_signal">Odkleni Signal</string>
-  <string name="PassphrasePromptActivity_signal_android_lock_screen">Signal Android - Zaklenjen zaslon</string>
+  <string name="PassphrasePromptActivity_unlock_signal">Odkleni Grapherex</string>
+  <string name="PassphrasePromptActivity_signal_android_lock_screen">Grapherex Android - Zaklenjen zaslon</string>
   <!--PlacePickerActivity-->
   <string name="PlacePickerActivity_title">Zemljevid</string>
   <string name="PlacePickerActivity_drop_pin">Izpusti</string>
@@ -1240,8 +1240,8 @@
   <string name="PinRestoreEntryFragment_incorrect_pin">Napačen PIN</string>
   <string name="PinRestoreEntryFragment_skip_pin_entry">Želite preskočiti vnos PINa?</string>
   <string name="PinRestoreEntryFragment_need_help">Potrebujete pomoč?</string>
-  <string name="PinRestoreEntryFragment_your_pin_is_a_d_digit_code">Vaš PIN je koda %1$d+ znakov, ki je lahko sestavljena zgolj iz številk ali iz kombinacije črk in številk.\n\nČe se ne morete spomniti svojega PINa, lahko ustvarite novega. Z njim se lahko ponovno registrirate in uporabljate svoj račun Signal, izgubili pa boste nekatere shranjene nastavitve, kot so npr. podatki iz vašega profila.</string>
-  <string name="PinRestoreEntryFragment_if_you_cant_remember_your_pin">Če se ne morete spomniti svojega PINa, lahko ustvarite novega. Z njim se lahko ponovno registrirate in uporabljate svoj račun Signal, izgubili pa boste nekatere nastavitve, kot so npr. podatki iz vašega profila.</string>
+  <string name="PinRestoreEntryFragment_your_pin_is_a_d_digit_code">Vaš PIN je koda %1$d+ znakov, ki je lahko sestavljena zgolj iz številk ali iz kombinacije črk in številk.\n\nČe se ne morete spomniti svojega PINa, lahko ustvarite novega. Z njim se lahko ponovno registrirate in uporabljate svoj račun Grapherex, izgubili pa boste nekatere shranjene nastavitve, kot so npr. podatki iz vašega profila.</string>
+  <string name="PinRestoreEntryFragment_if_you_cant_remember_your_pin">Če se ne morete spomniti svojega PINa, lahko ustvarite novega. Z njim se lahko ponovno registrirate in uporabljate svoj račun Grapherex, izgubili pa boste nekatere nastavitve, kot so npr. podatki iz vašega profila.</string>
   <string name="PinRestoreEntryFragment_create_new_pin">Ustvari nov PIN</string>
   <string name="PinRestoreEntryFragment_contact_support">Pomoč uporabnikom/cam</string>
   <string name="PinRestoreEntryFragment_cancel">Prekliči</string>
@@ -1252,20 +1252,20 @@
     <item quantity="few">Na voljo imate še %1$d poskuse. Če boste ostali brez, lahko ustvarite novi PIN. Z njim se lahko ponovno registrirate in uporabljate svoj račun, izgubili pa boste nekatere nastavitve shranjene v vašem profilu.</item>
     <item quantity="other">Na voljo imate še %1$d poskusov. Če boste ostali brez, lahko ustvarite novi PIN. Z njim se lahko ponovno registrirate in uporabljate svoj račun, izgubili pa boste nekatere nastavitve, kot so npr. informacije iz vašega profila.</item>
   </plurals>
-  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Registracija storitve Signal - Potrebujem pomoč pri vnosu PINa za Android</string>
+  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Registracija storitve Grapherex - Potrebujem pomoč pri vnosu PINa za Android</string>
   <string name="PinRestoreEntryFragment_enter_alphanumeric_pin">Vnesite alfanumerični PIN</string>
   <string name="PinRestoreEntryFragment_enter_numeric_pin">Vnesite številčni PIN</string>
   <!--PinRestoreLockedFragment-->
   <string name="PinRestoreLockedFragment_create_your_pin">Ustvarite svoj PIN</string>
-  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Ostali ste brez poskusov za vnos PINa. Za dostop do računa SIgnal morate ustvariti nov PIN. Zaradi varnosti in zasebnosti bo vaš račun obnovljen brez podatkov shranjenih v vašem profilu.</string>
+  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Ostali ste brez poskusov za vnos PINa. Za dostop do računa Grapherex morate ustvariti nov PIN. Zaradi varnosti in zasebnosti bo vaš račun obnovljen brez podatkov shranjenih v vašem profilu.</string>
   <string name="PinRestoreLockedFragment_create_new_pin">Ustvari nov PIN</string>
   <!--PinOptOutDialog-->
   <string name="PinOptOutDialog_warning">Opozorilo</string>
-  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">Z izklopom PINa boste ob ponovni prijavi v svoj račun Signal izgubili vse tam shranjene podatke, razen če prej sami ne ustvarite varnostne kopije. Brez PINa tudi ne morete vklopiti zaklepa registracije.</string>
+  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">Z izklopom PINa boste ob ponovni prijavi v svoj račun Grapherex izgubili vse tam shranjene podatke, razen če prej sami ne ustvarite varnostne kopije. Brez PINa tudi ne morete vklopiti zaklepa registracije.</string>
   <string name="PinOptOutDialog_disable_pin">Izklopi PIN</string>
   <!--RatingManager-->
   <string name="RatingManager_rate_this_app">Oceni to aplikacijo</string>
-  <string name="RatingManager_if_you_enjoy_using_this_app_please_take_a_moment">Če se vam zdi aplikacija Signal koristna in uporabna, vas prosimo, da si vzamete nekaj trenutkov in jo ocenite.</string>
+  <string name="RatingManager_if_you_enjoy_using_this_app_please_take_a_moment">Če se vam zdi aplikacija Grapherex koristna in uporabna, vas prosimo, da si vzamete nekaj trenutkov in jo ocenite.</string>
   <string name="RatingManager_rate_now">Oceni zdaj!</string>
   <string name="RatingManager_no_thanks">Ne, hvala!</string>
   <string name="RatingManager_later">Kasneje</string>
@@ -1292,12 +1292,12 @@
   <string name="RedPhone_got_it">Razumem</string>
   <!--WebRtcCallActivity-->
   <string name="WebRtcCallActivity__tap_here_to_turn_on_your_video">Tapnite tukaj za vklop videa</string>
-  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Za klic uporabnika/ce %1$s, potrebuje Signal dostop do kamere</string>
-  <string name="WebRtcCallActivity__signal_s">Signal %1$s</string>
+  <string name="WebRtcCallActivity__to_call_s_signal_needs_access_to_your_camera">Za klic uporabnika/ce %1$s, potrebuje Grapherex dostop do kamere</string>
+  <string name="WebRtcCallActivity__signal_s">Grapherex %1$s</string>
   <string name="WebRtcCallActivity__calling">Klicanje …</string>
   <!--WebRtcCallView-->
-  <string name="WebRtcCallView__signal_voice_call">Zvočni klic Signal …</string>
-  <string name="WebRtcCallView__signal_video_call">Video klic Signal …</string>
+  <string name="WebRtcCallView__signal_voice_call">Zvočni klic Grapherex …</string>
+  <string name="WebRtcCallView__signal_video_call">Video klic Grapherex …</string>
   <string name="WebRtcCallView__start_call">Začni klic</string>
   <string name="WebRtcCallView__join_call">Pridruži se klicu</string>
   <string name="WebRtcCallView__call_is_full">Klic je polno zaseden</string>
@@ -1348,13 +1348,13 @@
   <string name="RegistrationActivity_is_your_phone_number_above_correct">Je gornja telefonska številka prava?</string>
   <string name="RegistrationActivity_edit_number">Uredi številko</string>
   <string name="RegistrationActivity_missing_google_play_services">Manjkajoča aplikacija Google Play Services</string>
-  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Naprava nima nameščene aplikacije Google Play Services. To pomeni, da še vedno lahko uporabljate Signal, vendar bo zanesljivost delovanja aplikacije okrnjena.\n\nče niste napredni/a uporabnik/ca, če ne uporabljate alternativnega ROM-a Android, ali če mislite, da je prišlo do napake, nam to sporočite na support@signal.org, da vam lahko pomagamo pri odpravljanju težav.</string>
+  <string name="RegistrationActivity_this_device_is_missing_google_play_services">Naprava nima nameščene aplikacije Google Play Services. To pomeni, da še vedno lahko uporabljate Grapherex, vendar bo zanesljivost delovanja aplikacije okrnjena.\n\nče niste napredni/a uporabnik/ca, če ne uporabljate alternativnega ROM-a Android, ali če mislite, da je prišlo do napake, nam to sporočite na support@Grapherex.org, da vam lahko pomagamo pri odpravljanju težav.</string>
   <string name="RegistrationActivity_i_understand">Razumem</string>
   <string name="RegistrationActivity_play_services_error">Napaka Play Services</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Aplikacija Google Play Services se posodablja ali pa je začasno nedosegljiva. Poskusite znova.</string>
   <string name="RegistrationActivity_terms_and_privacy">Pogoji &amp; politika zasebnosti</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Aplikacija Signal potrebuje dovoljenje za dostop do vaših stikov in medijskih vsebin za povezavo s prijatelji/cami, izmenjavo sporočil in opravljanje varnih klicev.</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Za povezavo s prijatelji/cami, izmenjavo sporočil in opravljanje varnih klicev potrebuje aplikacija Signal dovoljenje za dostop do vaših stikov.</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Aplikacija Grapherex potrebuje dovoljenje za dostop do vaših stikov in medijskih vsebin za povezavo s prijatelji/cami, izmenjavo sporočil in opravljanje varnih klicev.</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Za povezavo s prijatelji/cami, izmenjavo sporočil in opravljanje varnih klicev potrebuje aplikacija Grapherex dovoljenje za dostop do vaših stikov.</string>
   <string name="RegistrationActivity_rate_limited_to_service">Preveč neuspešnih poskusov registracije te telefonske številke. Prosimo poskusite znova kasneje.</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">Povezava s storitvijo ni mogoča. Preverite omrežje in poskusite znova.</string>
   <plurals name="RegistrationActivity_debug_log_hint">
@@ -1371,14 +1371,14 @@
   <string name="RegistrationActivity_enter_your_phone_number">Vnesite svojo telefonsko številko</string>
   <string name="RegistrationActivity_you_will_receive_a_verification_code">Prejeli boste potrditveno kodo. Sporočilo SMS je lahko plačljivo.</string>
   <string name="RegistrationActivity_enter_the_code_we_sent_to_s">Vpišite kodo poslano na %s</string>
-  <string name="RegistrationActivity_make_sure_your_phone_has_a_cellular_signal">Prepričajte se, če ima vaš telefon dostop do mobilnega signala, da lahko prejmete naš SMS ali klic</string>
+  <string name="RegistrationActivity_make_sure_your_phone_has_a_cellular_signal">Prepričajte se, če ima vaš telefon dostop do mobilnega Grapherexa, da lahko prejmete naš SMS ali klic</string>
   <string name="RegistrationActivity_phone_number_description">Telefonska številka</string>
   <string name="RegistrationActivity_country_code_description">Koda države</string>
   <string name="RegistrationActivity_call">Kliči</string>
   <!--RegistrationLockV2Dialog-->
   <string name="RegistrationLockV2Dialog_turn_on_registration_lock">Želite vklopiti zaklep registracije?</string>
   <string name="RegistrationLockV2Dialog_turn_off_registration_lock">Želite izklopiti zaklep registracije?</string>
-  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Če se ob ponovni registraciji na Signal ne boste spomnili svojega PINa, se bo vaš račun zaklenil za 7 dni.</string>
+  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Če se ob ponovni registraciji na Grapherex ne boste spomnili svojega PINa, se bo vaš račun zaklenil za 7 dni.</string>
   <string name="RegistrationLockV2Dialog_turn_on">Vklopi</string>
   <string name="RegistrationLockV2Dialog_turn_off">Izklopi</string>
   <!--RevealableMessageView-->
@@ -1394,14 +1394,14 @@
   <!--ShakeToReport-->
   <!--SharedContactDetailsActivity-->
   <string name="SharedContactDetailsActivity_add_to_contacts">Dodaj med stike</string>
-  <string name="SharedContactDetailsActivity_invite_to_signal">Povabi na Signal</string>
-  <string name="SharedContactDetailsActivity_signal_message">Sporočilo Signal</string>
-  <string name="SharedContactDetailsActivity_signal_call">Klic Signal</string>
+  <string name="SharedContactDetailsActivity_invite_to_signal">Povabi na Grapherex</string>
+  <string name="SharedContactDetailsActivity_signal_message">Sporočilo Grapherex</string>
+  <string name="SharedContactDetailsActivity_signal_call">Klic Grapherex</string>
   <!--SharedContactView-->
   <string name="SharedContactView_add_to_contacts">Dodaj med stike</string>
   <string name="SharedContactView_invite_to_signal">Povabi k uporabi</string>
-  <string name="SharedContactView_message">Sporočilo Signal</string>
-  <!--SignalPinReminders-->
+  <string name="SharedContactView_message">Sporočilo Grapherex</string>
+  <!--GrapherexPinReminders-->
   <string name="SignalPinReminders_well_remind_you_again_later">Čez nekaj časa vas bomo znova opozorili.</string>
   <string name="SignalPinReminders_well_remind_you_again_tomorrow">Jutri vas bomo znova opozorili.</string>
   <string name="SignalPinReminders_well_remind_you_again_in_a_few_days">Čez nekaj dni vas bomo znova opozorili.</string>
@@ -1422,14 +1422,14 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="SmsMessageRecord_secure_session_reset">Ponastavili ste varno sejo.</string>
   <string name="SmsMessageRecord_secure_session_reset_s">Uporabnik/ca %s je ponastavil/a varno sejo.</string>
   <string name="SmsMessageRecord_duplicate_message">Podvojeno sporočilo.</string>
-  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">Sporočilo ni moglo biti obdelano, ker je bilo poslano iz novejše različice aplikacije Signal. Po posodobitvi aplikacije lahko prosite osebo na drugi strani naj vam ga ponovno pošlje.</string>
+  <string name="SmsMessageRecord_this_message_could_not_be_processed_because_it_was_sent_from_a_newer_version">Sporočilo ni moglo biti obdelano, ker je bilo poslano iz novejše različice aplikacije Grapherex. Po posodobitvi aplikacije lahko prosite osebo na drugi strani naj vam ga ponovno pošlje.</string>
   <string name="SmsMessageRecord_error_handling_incoming_message">Napaka pri obdelavi dohodnega sporočila.</string>
   <!--StickerManagementActivity-->
   <string name="StickerManagementActivity_stickers">Nalepke</string>
   <!--StickerManagementAdapter-->
   <string name="StickerManagementAdapter_installed_stickers">Nameščene nalepke</string>
   <string name="StickerManagementAdapter_stickers_you_received">Prejete nalepke</string>
-  <string name="StickerManagementAdapter_signal_artist_series">Serija Signalovi umetniki</string>
+  <string name="StickerManagementAdapter_signal_artist_series">Serija Grapherexovi umetniki</string>
   <string name="StickerManagementAdapter_no_stickers_installed">Brez nameščenih nalepk</string>
   <string name="StickerManagementAdapter_stickers_from_incoming_messages_will_appear_here">Tu bodo prikazane nalepke iz dohodnih sporočil.</string>
   <string name="StickerManagementAdapter_untitled">Brez naslova</string>
@@ -1454,8 +1454,8 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="SupportEmailUtil_filter">Filter:</string>
   <string name="SupportEmailUtil_device_info">Podatki o napravi:</string>
   <string name="SupportEmailUtil_android_version">Različica Android:</string>
-  <string name="SupportEmailUtil_signal_version">Različica Signal:</string>
-  <string name="SupportEmailUtil_signal_package">Paket Signal:</string>
+  <string name="SupportEmailUtil_signal_version">Različica Grapherex:</string>
+  <string name="SupportEmailUtil_signal_package">Paket Grapherex:</string>
   <string name="SupportEmailUtil_registration_lock">Zaklep registracije:</string>
   <string name="SupportEmailUtil_locale">Jezik:</string>
   <!--ThreadRecord-->
@@ -1474,7 +1474,7 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="ThreadRecord_view_once_media">Medijska datoteka za enkraten ogled</string>
   <string name="ThreadRecord_this_message_was_deleted">Sporočilo je bilo izbrisano</string>
   <string name="ThreadRecord_you_deleted_this_message">Izbrisali ste to sporočilo.</string>
-  <string name="ThreadRecord_s_is_on_signal">%s uporablja Signal!</string>
+  <string name="ThreadRecord_s_is_on_signal">%s uporablja Grapherex!</string>
   <string name="ThreadRecord_disappearing_messages_disabled">Izginjajoča sporočila so izklopljena</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">Čas poteka sporočila je nastavljen na %s</string>
   <string name="ThreadRecord_safety_number_changed">Varnsotno število je bilo spremenjeno</string>
@@ -1490,8 +1490,8 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="ThreadRecord_video">Video</string>
   <string name="ThreadRecord_chat_session_refreshed">Seja klepeta je bila osvežena</string>
   <!--UpdateApkReadyListener-->
-  <string name="UpdateApkReadyListener_Signal_update">Nadgradnja aplikacije Signal</string>
-  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Na voljo je nova različica aplikacije Signal. Tapnite za nadgradnjo.</string>
+  <string name="UpdateApkReadyListener_Signal_update">Nadgradnja aplikacije Grapherex</string>
+  <string name="UpdateApkReadyListener_a_new_version_of_signal_is_available_tap_to_update">Na voljo je nova različica aplikacije Grapherex. Tapnite za nadgradnjo.</string>
   <!--UntrustedSendDialog-->
   <string name="UntrustedSendDialog_send_message">Pošljem sporočilo?</string>
   <string name="UntrustedSendDialog_send">Pošlji</string>
@@ -1510,22 +1510,22 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="UsernameEditFragment_usernames_cannot_begin_with_a_number">Uporabniška imena se ne smejo začeti s števikami.</string>
   <string name="UsernameEditFragment_username_is_invalid">Uporabniško ime je neveljavno.</string>
   <string name="UsernameEditFragment_usernames_must_be_between_a_and_b_characters">Uporabniška imena morajo vsebovati od %1$d in%2$d znakov.</string>
-  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Uporabniška imena v aplikaciji Signal so izbirna. Če si boste ustvarili uporabniško ime, vas bodo lahko drugi/e uporabniki/ce Signala našli/e po njem in stopili/e v stik z vami tudi brez poznavanja vaše telefonske številke.</string>
+  <string name="UsernameEditFragment_usernames_on_signal_are_optional">Uporabniška imena v aplikaciji Grapherex so izbirna. Če si boste ustvarili uporabniško ime, vas bodo lahko drugi/e uporabniki/ce Grapherexa našli/e po njem in stopili/e v stik z vami tudi brez poznavanja vaše telefonske številke.</string>
   <plurals name="UserNotificationMigrationJob_d_contacts_are_on_signal">
-    <item quantity="one">%d stik je na Signalu!</item>
-    <item quantity="two">%d stika sta na Signalu!</item>
-    <item quantity="few">%d stiki so na Signalu!</item>
-    <item quantity="other">%d stikov je na Signalu!</item>
+    <item quantity="one">%d stik je na Grapherexu!</item>
+    <item quantity="two">%d stika sta na Grapherexu!</item>
+    <item quantity="few">%d stiki so na Grapherexu!</item>
+    <item quantity="other">%d stikov je na Grapherexu!</item>
   </plurals>
   <!--VerifyIdentityActivity-->
-  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Vaš partner uporablja zastarelo različico aplikacije Signal. Za pregled in potrditev varnostnega števila jo bo moral nadgraditi.</string>
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Vaš partner uporablja novejšo različico aplikacije Signal z nekompatibilnimi kodami QR. Prosimo, nadgradite svojo aplikacijo.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_an_old_version_of_signal">Vaš partner uporablja zastarelo različico aplikacije Grapherex. Za pregled in potrditev varnostnega števila jo bo moral nadgraditi.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Vaš partner uporablja novejšo različico aplikacije Grapherex z nekompatibilnimi kodami QR. Prosimo, nadgradite svojo aplikacijo.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Skenirana koda QR ne vsebuje pravilno formatirane informacije z varnostnim številom. Poskusite znova.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Deli varnostno število preko …</string>
   <string name="VerifyIdentityActivity_our_signal_safety_number">Skupno varnostno število:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">Kaže, da nimate nameščene nobene primerne aplikacije.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Iz odložišča ni bilo mogoče pridobiti nobenega varnostnega števila za primerjavo</string>
-  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Dostop do kamere je bil trajno onemogočen. Aplikacija Signal potrebuje dovoljenje za dostop do kamere, da bi lahko skenirali kode QR. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenje pod postavko \"Kamera\".</string>
+  <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Dostop do kamere je bil trajno onemogočen. Aplikacija Grapherex potrebuje dovoljenje za dostop do kamere, da bi lahko skenirali kode QR. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenje pod postavko \"Kamera\".</string>
   <string name="VerifyIdentityActivity_unable_to_scan_qr_code_without_camera_permission">Brez dovoljenja za dostop do kamere ne morem skenirati kode QR.</string>
   <string name="VerifyIdentityActivity_you_must_first_exchange_messages_in_order_to_view">Za ogled varnostnih števil člana/ice %1$s morate z njim/jo najprej izmenjati sporočili.</string>
   <!--ViewOnceMessageActivity-->
@@ -1544,13 +1544,13 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="ApplicationMigrationService_system_database_import_is_complete">Uvoz iz sistemske zbirke je končan.</string>
   <!--KeyCachingService-->
   <string name="KeyCachingService_signal_passphrase_cached">Tapnite za vstop.</string>
-  <string name="KeyCachingService_passphrase_cached">Signal je odklenjen</string>
-  <string name="KeyCachingService_lock">Zakleni Signal</string>
+  <string name="KeyCachingService_passphrase_cached">Grapherex je odklenjen</string>
+  <string name="KeyCachingService_lock">Zakleni Grapherex</string>
   <!--MediaPreviewActivity-->
   <string name="MediaPreviewActivity_you">Vi</string>
   <string name="MediaPreviewActivity_unssuported_media_type">Nepodprt medij</string>
   <string name="MediaPreviewActivity_draft">Osnutek</string>
-  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Dostop do shrambe je bil trajno onemogočen. Aplikacija Signal potrebuje dovoljenje za dostop do sistemske shrambe za shranjevanje na zunanji pomnilnik naprave. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenje pod postavko \"Shramba\".</string>
+  <string name="MediaPreviewActivity_signal_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">Dostop do shrambe je bil trajno onemogočen. Aplikacija Grapherex potrebuje dovoljenje za dostop do sistemske shrambe za shranjevanje na zunanji pomnilnik naprave. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenje pod postavko \"Shramba\".</string>
   <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Brez dovoljenja za dostop do shrambe ne morem shranjevati na zunanji pomnilnik naprave.</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_title">Izbrišem sporočilo?</string>
   <string name="MediaPreviewActivity_media_delete_confirmation_message">Sporočilo bo nepovratno izbrisano.</string>
@@ -1570,10 +1570,10 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="MessageNotifier_view_once_photo">Slika za enkraten ogled</string>
   <string name="MessageNotifier_view_once_video">Video za enkraten ogled</string>
   <string name="MessageNotifier_reply">Odgovor</string>
-  <string name="MessageNotifier_signal_message">Sporočilo Signal</string>
+  <string name="MessageNotifier_signal_message">Sporočilo Grapherex</string>
   <string name="MessageNotifier_unsecured_sms">Nezavarovan SMS</string>
-  <string name="MessageNotifier_you_may_have_new_messages">Lahko da imate nova sporočila Signal</string>
-  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Odprite Signal in preverite nova sporočila.</string>
+  <string name="MessageNotifier_you_may_have_new_messages">Lahko da imate nova sporočila Grapherex</string>
+  <string name="MessageNotifier_open_signal_to_check_for_recent_notifications">Odprite Grapherex in preverite nova sporočila.</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Stik</string>
   <string name="MessageNotifier_reacted_s_to_s">%1$s spremenjeno v: \"%2$s\".</string>
@@ -1584,7 +1584,7 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="MessageNotifier_reacted_s_to_your_view_once_media">Reakcija %1$s na vaše medijsko sporočilo za enkraten ogled.</string>
   <string name="MessageNotifier_reacted_s_to_your_sticker">%1$s spremenjeno v vašo nalepko.</string>
   <string name="MessageNotifier_this_message_was_deleted">Sporočilo je bilo izbrisano</string>
-  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Želite izklopiti obvestila o novih članih Signalove skupine? Kasneje jih lahko spet vklopite v Signal &gt; Nastavitve &gt; Obvestila.</string>
+  <string name="TurnOffContactJoinedNotificationsActivity__turn_off_contact_joined_signal">Želite izklopiti obvestila o novih članih Grapherexove skupine? Kasneje jih lahko spet vklopite v Grapherex &gt; Nastavitve &gt; Obvestila.</string>
   <!--Notification Channels-->
   <string name="NotificationChannel_channel_messages">Sporočila</string>
   <string name="NotificationChannel_calls">Klici</string>
@@ -1596,11 +1596,11 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="NotificationChannel_group_chats">Pogovori</string>
   <string name="NotificationChannel_missing_display_name">Neznano</string>
   <string name="NotificationChannel_voice_notes">Glasovna sporočila</string>
-  <string name="NotificationChannel_contact_joined_signal">Oseba iz imenika se je pridružila Signalu</string>
+  <string name="NotificationChannel_contact_joined_signal">Oseba iz imenika se je pridružila Grapherexu</string>
   <string name="NotificationChannels__no_activity_available_to_open_notification_channel_settings">Na voljo ni nobene aktivnosti povezane z obvestili.</string>
   <!--ProfileEditNameFragment-->
   <!--QuickResponseService-->
-  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Hitri odziv ni mogoč, kadar je aplikacija Signal zaklenjena!</string>
+  <string name="QuickResponseService_quick_response_unavailable_when_Signal_is_locked">Hitri odziv ni mogoč, kadar je aplikacija Grapherex zaklenjena!</string>
   <string name="QuickResponseService_problem_sending_message">Težava pri pošiljanju sporočila</string>
   <!--SaveAttachmentTask-->
   <string name="SaveAttachmentTask_saved_to">Shranjeno na %s</string>
@@ -1611,7 +1611,7 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <!--ShortcutLauncherActivity-->
   <string name="ShortcutLauncherActivity_invalid_shortcut">Neveljavna bližnjica</string>
   <!--SingleRecipientNotificationBuilder-->
-  <string name="SingleRecipientNotificationBuilder_signal">Signal</string>
+  <string name="SingleRecipientNotificationBuilder_signal">Grapherex</string>
   <string name="SingleRecipientNotificationBuilder_new_message">Novo sporočilo</string>
   <!--ThumbnailView-->
   <string name="ThumbnailView_Play_video_description">Predvajaj video</string>
@@ -1627,8 +1627,8 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="UnauthorizedReminder_device_no_longer_registered">Naprava ni več registrirana</string>
   <string name="UnauthorizedReminder_this_is_likely_because_you_registered_your_phone_number_with_Signal_on_a_different_device">Najbrž ste registrirali vašo telefonsko številko na drugi napravi. Tapnite za ponovno registracijo.</string>
   <!--WebRtcCallActivity-->
-  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Za prevzem klica uporabnika/ce %somogočite aplikaciji Signal dostop do mikrofona naprave.</string>
-  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Dostop do mikrofona in kamere je bil trajno onemogočen. Aplikacija Signal potrebuje dovoljenje za dostop do mikrofona in kamere za klicanje. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenji pod postavkama \"Mikrofon\" in \"Kamera\".</string>
+  <string name="WebRtcCallActivity_to_answer_the_call_from_s_give_signal_access_to_your_microphone">Za prevzem klica uporabnika/ce %somogočite aplikaciji Grapherex dostop do mikrofona naprave.</string>
+  <string name="WebRtcCallActivity_signal_requires_microphone_and_camera_permissions_in_order_to_make_or_receive_calls">Dostop do mikrofona in kamere je bil trajno onemogočen. Aplikacija Grapherex potrebuje dovoljenje za dostop do mikrofona in kamere za klicanje. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenji pod postavkama \"Mikrofon\" in \"Kamera\".</string>
   <string name="WebRtcCallActivity__answered_on_a_linked_device">Odgovorjeno na povezani napravi.</string>
   <string name="WebRtcCallActivity__declined_on_a_linked_device">Zavrnjeno na povezani napravi.</string>
   <string name="WebRtcCallActivity__busy_on_a_linked_device">Zasedeno na povezani napravi.</string>
@@ -1652,7 +1652,7 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="change_passphrase_activity__repeat_new_passphrase">Ponovno vnesite novo geslo</string>
   <!--contact_selection_activity-->
   <string name="contact_selection_activity__enter_name_or_number">Vnesite ime ali številko …</string>
-  <string name="contact_selection_activity__invite_to_signal">Povabi na Signal</string>
+  <string name="contact_selection_activity__invite_to_signal">Povabi na Grapherex</string>
   <string name="contact_selection_activity__new_group">Nova skupina</string>
   <!--contact_filter_toolbar-->
   <string name="contact_filter_toolbar__clear_entered_text_description">Izbriši vneseni tekst</string>
@@ -1664,15 +1664,15 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <!--single_contact_selection_activity-->
   <string name="SingleContactSelectionActivity_contact_photo">Fotografija stika</string>
   <!--ContactSelectionListFragment-->
-  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Dostop do stikov je bil trajno onemogočen. Aplikacija Signal potrebuje dovoljenje za dostop do stikov, da lahko prikazuje imena stikov iz vašega imenika. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenje pod postavko \"Stiki\".</string>
+  <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Dostop do stikov je bil trajno onemogočen. Aplikacija Grapherex potrebuje dovoljenje za dostop do stikov, da lahko prikazuje imena stikov iz vašega imenika. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenje pod postavko \"Stiki\".</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Napaka pri preverjanju uporabnikov/ic. Preverite svoj dostop do omrežja.</string>
   <string name="ContactSelectionListFragment_username_not_found">Uporabniško ime ni bilo najdeno</string>
-  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">\"%1$s\" ni uporabnik/ca storitve Signal. Preverite uporabniško ime in poskusite znova.</string>
+  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">\"%1$s\" ni uporabnik/ca storitve Grapherex. Preverite uporabniško ime in poskusite znova.</string>
   <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">Sebe ne rabite dodajati v skupino.</string>
   <string name="ContactSelectionListFragment_maximum_group_size_reached">Doseženo je bilo največje dovoljeno število članov skupine</string>
-  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Skupine Signal imajo lahko največ %1$d članov/ic.</string>
+  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Skupine Grapherex imajo lahko največ %1$d članov/ic.</string>
   <string name="ContactSelectionListFragment_recommended_member_limit_reached">Priporočeno število članov/ic je bilo preseženo</string>
-  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Skupine Signal najbolje delujejo z %1$d ali manj člani/cami. Dodajanje novih članov/ic bo povzročalo zamude pri pošiljanju in dostavi sporočil.</string>
+  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Skupine Grapherex najbolje delujejo z %1$d ali manj člani/cami. Dodajanje novih članov/ic bo povzročalo zamude pri pošiljanju in dostavi sporočil.</string>
   <plurals name="ContactSelectionListFragment_d_members">
     <item quantity="one">%1$d član/ica</item>
     <item quantity="two">%1$d člana/ici</item>
@@ -1680,7 +1680,7 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
     <item quantity="other">%1$d članov/ic</item>
   </plurals>
   <!--contact_selection_list_fragment-->
-  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Za prikaz imen iz vašega imenika potrebuje aplikacija Signal dostop do stikov.</string>
+  <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Za prikaz imen iz vašega imenika potrebuje aplikacija Grapherex dostop do stikov.</string>
   <string name="contact_selection_list_fragment__show_contacts">Prikaži stike</string>
   <!--contact_selection_list_item-->
   <plurals name="contact_selection_list_item__number_of_members">
@@ -1690,7 +1690,7 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
     <item quantity="other">%1$d članov/ic</item>
   </plurals>
   <!--conversation_activity-->
-  <string name="conversation_activity__type_message_push">Sporočilo Signal</string>
+  <string name="conversation_activity__type_message_push">Sporočilo Grapherex</string>
   <string name="conversation_activity__type_message_sms_insecure">Nezavarovan SMS</string>
   <string name="conversation_activity__type_message_mms_insecure">Nezavarovan MMS</string>
   <string name="conversation_activity__from_sim_name">Od %1$s</string>
@@ -1745,7 +1745,7 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="safety_number_change_dialog__join_call">Pridruži se klicu</string>
   <string name="safety_number_change_dialog__continue_call">Nadaljuj s klicem</string>
   <string name="safety_number_change_dialog__leave_call">Zapusti klic</string>
-  <string name="safety_number_change_dialog__the_following_people_may_have_reinstalled_or_changed_devices">Našteti uporabniki/ce so najbrž ponovno namestili Signal ali zamenjali napravo. Za potrditev istovetnosti ponovno preverite varnostno število z njimi.</string>
+  <string name="safety_number_change_dialog__the_following_people_may_have_reinstalled_or_changed_devices">Našteti uporabniki/ce so najbrž ponovno namestili Grapherex ali zamenjali napravo. Za potrditev istovetnosti ponovno preverite varnostno število z njimi.</string>
   <string name="safety_number_change_dialog__view">Preglej</string>
   <string name="safety_number_change_dialog__previous_verified">Prej potrjeno</string>
   <!--EnableCallNotificationSettingsDialog__call_notifications_checklist-->
@@ -1813,9 +1813,9 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="IdentityUtil_unverified_banner_one">Varnostno število z uporabnikom/co %s je bilo spremenjeno in ni več potrjeno.</string>
   <string name="IdentityUtil_unverified_banner_two">Varnostni števili z uporabnikoma %1$s in %2$s nista več potrjeni.</string>
   <string name="IdentityUtil_unverified_banner_many">Varnostna števila z uporabniki/cami %1$s, %2$s in %3$s niso več potrjena.</string>
-  <string name="IdentityUtil_unverified_dialog_one">Varnostno število z uporabnikom/co %1$s je bilo spremenjeno in ni več potrjeno. To lahko pomeni, da poskuša nekdo prestrezati vajino komunikacijo ali pa je uporabnik/ca %1$s le ponovno namestili/a aplikacijo Signal.</string>
-  <string name="IdentityUtil_unverified_dialog_two">Varnostni števili z uporabnikoma/cama %1$s in %2$s sta bili spremenjeni. To lahko pomeni, da poskuša nekdo prestrezati vašo komunikacijo ali pa sta uporabnika/ci le ponovno namestila/li aplikacijo Signal.</string>
-  <string name="IdentityUtil_unverified_dialog_many">Varnostna števila z uporabniki/cami %1$s, %2$s in %3$s so bila spremenjena. To lahko pomeni, da poskuša nekdo prestrezati vašo komunikacijo ali pa so ti uporabniki/ce le ponovno namestili aplikacijo Signal.</string>
+  <string name="IdentityUtil_unverified_dialog_one">Varnostno število z uporabnikom/co %1$s je bilo spremenjeno in ni več potrjeno. To lahko pomeni, da poskuša nekdo prestrezati vajino komunikacijo ali pa je uporabnik/ca %1$s le ponovno namestili/a aplikacijo Grapherex.</string>
+  <string name="IdentityUtil_unverified_dialog_two">Varnostni števili z uporabnikoma/cama %1$s in %2$s sta bili spremenjeni. To lahko pomeni, da poskuša nekdo prestrezati vašo komunikacijo ali pa sta uporabnika/ci le ponovno namestila/li aplikacijo Grapherex.</string>
+  <string name="IdentityUtil_unverified_dialog_many">Varnostna števila z uporabniki/cami %1$s, %2$s in %3$s so bila spremenjena. To lahko pomeni, da poskuša nekdo prestrezati vašo komunikacijo ali pa so ti uporabniki/ce le ponovno namestili aplikacijo Grapherex.</string>
   <string name="IdentityUtil_untrusted_dialog_one">Varnostno število z uporabnikom/co %s je bilo spremenjeno.</string>
   <string name="IdentityUtil_untrusted_dialog_two">Varnostni števili z uporabnikoma/cama %1$s in %2$s sta bili spremenjeni.</string>
   <string name="IdentityUtil_untrusted_dialog_many">Varnostna števila z uporabniki/cami %1$s, %2$s in %3$s so bila spremenjena.</string>
@@ -1832,7 +1832,7 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <!--log_submit_activity-->
   <string name="log_submit_activity__this_log_will_be_posted_online">Ta zabeležba bo javno objavljena na spletu in v ogled razvijalcem aplikacije. Pred oddajo jo lahko pregledate in popravite.</string>
   <!--database_migration_activity-->
-  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Želite uvoziti obstoječa sporočila SMS v šifrirano zbirko aplikacije Signal?</string>
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Želite uvoziti obstoječa sporočila SMS v šifrirano zbirko aplikacije Grapherex?</string>
   <string name="database_migration_activity__the_default_system_database_will_not_be_modified">Osnovna SMS podatkovna zbirka bo ostala nespremenjena.</string>
   <string name="database_migration_activity__skip">Preskoči</string>
   <string name="database_migration_activity__import">Uvoz</string>
@@ -1857,7 +1857,7 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <!--prompt_passphrase_activity-->
   <string name="prompt_passphrase_activity__unlock">Odkleni</string>
   <!--prompt_mms_activity-->
-  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Za pošiljanje vešpredsatvnostnih in skupinskih sporočil potrebuje aplikacija Signal nastavitve MMS vašega mobilnega operaterja. Teh podatkov ni mogoče pridobiti iz vaše naprave, kar je značilno za zaklenjene naprave in druge omejene konfiguracije. </string>
+  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Za pošiljanje vešpredsatvnostnih in skupinskih sporočil potrebuje aplikacija Grapherex nastavitve MMS vašega mobilnega operaterja. Teh podatkov ni mogoče pridobiti iz vaše naprave, kar je značilno za zaklenjene naprave in druge omejene konfiguracije. </string>
   <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">Za pošiljanje večpredstavnostnih in skupinskih sporočil tapnite \'OK\' in vnesite potrebne podatke. Nastavitve MMS za vašega operaterja lahko najverjetneje najdete z iskanjem po spletu. Podatke morate vnesti samo enkrat.</string>
   <!--profile_create_activity-->
   <string name="CreateProfileActivity_first_name_required">Ime (zahtevano)</string>
@@ -1891,7 +1891,7 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <!--recipients_panel-->
   <string name="recipients_panel__to"><small>Vnesite ime ali številko</small></string>
   <!--verify_display_fragment-->
-  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Če želite preveriti zasebnost vaše komunikacije z uporabnikom/co %s, primerjajte gornje število s številom na njegovi/njeni napravi. Lahko tudi skenirate kodo na njegovi/njeni napravi ali ga/jo prosite, naj skenira vašo. <a href="https://signal.org/redirect/safety-numbers">Več.</a>]]></string>
+  <string name="verify_display_fragment__if_you_wish_to_verify_the_security_of_your_end_to_end_encryption_with_s"><![CDATA[Če želite preveriti zasebnost vaše komunikacije z uporabnikom/co %s, primerjajte gornje število s številom na njegovi/njeni napravi. Lahko tudi skenirate kodo na njegovi/njeni napravi ali ga/jo prosite, naj skenira vašo. <a href="https://Grapherex.org/redirect/safety-numbers">Več.</a>]]></string>
   <string name="verify_display_fragment__tap_to_scan">Tapnite za skeniranje</string>
   <string name="verify_display_fragment__loading">Nalaganje …</string>
   <string name="verify_display_fragment__verified">Potrjeno</string>
@@ -1942,7 +1942,7 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="HelpFragment__how_do_you_feel">Kako se počutite? (neobvezno)</string>
   <string name="HelpFragment__tell_us_why_youre_reaching_out">Povejte nam, zakaj ste se obrnili na nas.</string>
   <string name="HelpFragment__support_info">Podporne informacije</string>
-  <string name="HelpFragment__signal_android_support_request">Zahteva za podporo Signal Android</string>
+  <string name="HelpFragment__signal_android_support_request">Zahteva za podporo Grapherex Android</string>
   <string name="HelpFragment__debug_log">Sistemska zabeležba:</string>
   <string name="HelpFragment__could_not_upload_logs">Sistemska zabeležba ni bila prenešena</string>
   <string name="HelpFragment__please_be_as_descriptive_as_possible">Pri opisu napake bodite čim bolj natančni, da bomo lažje razumeli za kaj gre.</string>
@@ -1995,8 +1995,8 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="preferences__sms_mms">Sporočila SMS in MMS</string>
   <string name="preferences__pref_all_sms_title">Prejemaj sporočila SMS</string>
   <string name="preferences__pref_all_mms_title">Prejemaj sporočila MMS</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Uporabljaj Signal za vsa dohodna tekstovna sporočila</string>
-  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Uporabljaj Signal za vsa dohodna večpredstavnostna sporočila</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_text_messages">Uporabljaj Grapherex za vsa dohodna tekstovna sporočila</string>
+  <string name="preferences__use_signal_for_viewing_and_storing_all_incoming_multimedia_messages">Uporabljaj Grapherex za vsa dohodna večpredstavnostna sporočila</string>
   <string name="preferences__pref_enter_sends_title">Tipka \'Naprej\' pošlje</string>
   <string name="preferences__pressing_the_enter_key_will_send_text_messages">Pritisk na tipko \'Naprej\' pošlje sporočilo</string>
   <string name="preferences__pref_use_address_book_photos">Uporabi fotografije iz imenika</string>
@@ -2011,7 +2011,7 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Zaklep zaslona in obvestil z geslom</string>
   <string name="preferences__screen_security">Zaščita zaslona</string>
   <string name="preferences__disable_screen_security_to_allow_screen_shots">Prepreči zajem slike zaslona</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Samodejno zakleni Signal po nastavljenem času neaktivnosti</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Samodejno zakleni Grapherex po nastavljenem času neaktivnosti</string>
   <string name="preferences__inactivity_timeout_passphrase">Geslo za zaklep aplikacije</string>
   <string name="preferences__inactivity_timeout_interval">Časovni interval za zaklep aplikacije</string>
   <string name="preferences__notifications">Obvestila</string>
@@ -2042,7 +2042,7 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="preferences__slow">Počasi</string>
   <string name="preferences__help">Pomoč</string>
   <string name="preferences__advanced">Napredno</string>
-  <string name="preferences__donate_to_signal">Podprite Signal</string>
+  <string name="preferences__donate_to_signal">Podprite Grapherex</string>
   <string name="preferences__privacy">Zasebnost</string>
   <string name="preferences__mms_user_agent">Uporabniški posrednik MMS</string>
   <string name="preferences__advanced_mms_access_point_names">Ročne nastavitve MMS</string>
@@ -2068,13 +2068,13 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="preferences__chat_wallpaper">Ozadje pogovora</string>
   <string name="preferences__disable_pin">Izklop PINa</string>
   <string name="preferences__enable_pin">Vklopi PIN</string>
-  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">Z izklopom PINa boste ob ponovni prijavi v svoj račun Signal izgubili vse tam shranjene podatke, razen če prej sami ne ustvarite varnostne kopije. Brez PINa tudi ne morete vklopiti zaklepa registracije.</string>
-  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">S kodo PIN zavarujete podatke shranjene na Signalu s šifriranjem, tako da so dostopni le vam. Vaš profil, nastavitve in stiki bodo ob ponovni namestitvi aplikacije Signal obnovljeni. Vnos PINa ob vsakokratnem zagonu aplikacije ne bo potreben.</string>
+  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">Z izklopom PINa boste ob ponovni prijavi v svoj račun Grapherex izgubili vse tam shranjene podatke, razen če prej sami ne ustvarite varnostne kopije. Brez PINa tudi ne morete vklopiti zaklepa registracije.</string>
+  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">S kodo PIN zavarujete podatke shranjene na Grapherexu s šifriranjem, tako da so dostopni le vam. Vaš profil, nastavitve in stiki bodo ob ponovni namestitvi aplikacije Grapherex obnovljeni. Vnos PINa ob vsakokratnem zagonu aplikacije ne bo potreben.</string>
   <string name="preferences__system_default">Privzeta sistemska</string>
   <string name="preferences__language">Jezik</string>
-  <string name="preferences__signal_messages_and_calls">Sporočila in klici Signal</string>
+  <string name="preferences__signal_messages_and_calls">Sporočila in klici Grapherex</string>
   <string name="preferences__advanced_pin_settings">Napredne nastavite PIN</string>
-  <string name="preferences__free_private_messages_and_calls">Brezplačna zasebna sporočila in klici uporabnikom/cam aplikacije Signal</string>
+  <string name="preferences__free_private_messages_and_calls">Brezplačna zasebna sporočila in klici uporabnikom/cam aplikacije Grapherex</string>
   <string name="preferences__submit_debug_log">Oddaj sistemsko zabeležbo</string>
   <string name="preferences__delete_account">Izbris računa</string>
   <string name="preferences__support_wifi_calling">\'WiFi calling\' združljivostni način</string>
@@ -2113,8 +2113,8 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="preferences_storage__s_messages">%1$s sporočil</string>
   <string name="preferences_storage__custom">Po meri</string>
   <string name="preferences_advanced__use_system_emoji">Sistemski znaki emoji</string>
-  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Izklop privzetih znakov emoji aplikacije Signal</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Vsi klici bodo posredovani preko strežnika Signal. S tem boste klicani strani onemogočili, da bi odkrila vaš naslov IP. Kvaliteta klica bo zaradi tega slabša.</string>
+  <string name="preferences_advanced__disable_signal_built_in_emoji_support">Izklop privzetih znakov emoji aplikacije Grapherex</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Vsi klici bodo posredovani preko strežnika Grapherex. S tem boste klicani strani onemogočili, da bi odkrila vaš naslov IP. Kvaliteta klica bo zaradi tega slabša.</string>
   <string name="preferences_advanced__always_relay_calls">Posredovanje klicev</string>
   <string name="preferences_app_protection__who_can">Uporabniki/ce, ki lahko …</string>
   <string name="preferences_app_protection__app_access">Dostop</string>
@@ -2134,9 +2134,9 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="preferences_notifications__calls">Klici</string>
   <string name="preferences_notifications__ringtone">Zvonjenje</string>
   <string name="preferences_chats__show_invitation_prompts">Prikazuj obvestila o vabilih</string>
-  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Prikazovanje obvestil o vabilih za stike, ki nimajo nameščene aplikacije Signal.</string>
+  <string name="preferences_chats__display_invitation_prompts_for_contacts_without_signal">Prikazovanje obvestil o vabilih za stike, ki nimajo nameščene aplikacije Grapherex.</string>
   <string name="preferences_chats__message_text_size">Velikost črk v sporočilu</string>
-  <string name="preferences_events__contact_joined_signal">Oseba iz imenika se je pridružila Signalu</string>
+  <string name="preferences_events__contact_joined_signal">Oseba iz imenika se je pridružila Grapherexu</string>
   <string name="preferences_notifications__priority">Pomembnost</string>
   <string name="preferences_communication__category_sealed_sender">Zakriti pošiljatelj</string>
   <string name="preferences_communication__sealed_sender_display_indicators">Prikaz indikatorjev</string>
@@ -2150,7 +2150,7 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="preferences_off">Izklopljena</string>
   <string name="preferences_on">Vklopljena</string>
   <string name="preferences_proxy_address">Naslov proksi</string>
-  <string name="preferences_only_use_a_proxy_if">Proksi uporabite samo, če se ne morete povezati na Signal preko mobilnega omrežja ali Wi-Fija.</string>
+  <string name="preferences_only_use_a_proxy_if">Proksi uporabite samo, če se ne morete povezati na Grapherex preko mobilnega omrežja ali Wi-Fija.</string>
   <string name="preferences_share">Deli</string>
   <string name="preferences_save">Shrani</string>
   <string name="preferences_connecting_to_proxy">Povezovanje s proksijem …</string>
@@ -2212,8 +2212,8 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <!--conversation_callable_insecure-->
   <string name="conversation_callable_insecure__menu_call">Kliči</string>
   <!--conversation_callable_secure-->
-  <string name="conversation_callable_secure__menu_call">Klic Signal</string>
-  <string name="conversation_callable_secure__menu_video">Video klic Signal</string>
+  <string name="conversation_callable_secure__menu_call">Klic Grapherex</string>
+  <string name="conversation_callable_secure__menu_video">Video klic Grapherex</string>
   <!--conversation_context-->
   <string name="conversation_context__menu_message_details">Podrobnosti sporočila</string>
   <string name="conversation_context__menu_copy_text">Kopiraj besedilo</string>
@@ -2285,10 +2285,10 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">Primerjaj preko odložišča</string>
   <!--reminder_header-->
   <string name="reminder_header_sms_import_title">Uvoz iz sistemske zbirke sporočil SMS</string>
-  <string name="reminder_header_sms_import_text">Tapnite za kopiranje sporočil SMS iz telefona v kriptirano zbirko aplikacije Signal.</string>
-  <string name="reminder_header_push_title">Vklopite sporočila in klice Signal</string>
+  <string name="reminder_header_sms_import_text">Tapnite za kopiranje sporočil SMS iz telefona v kriptirano zbirko aplikacije Grapherex.</string>
+  <string name="reminder_header_push_title">Vklopite sporočila in klice Grapherex</string>
   <string name="reminder_header_push_text">Izboljšajte kvaliteto svoje komunikacije!</string>
-  <string name="reminder_header_service_outage_text">Prihaja do tehničnih težav v omrežju Signal. Ekipa vzdrževalcev se trudi, da bodo čimprej odpravljene.</string>
+  <string name="reminder_header_service_outage_text">Prihaja do tehničnih težav v omrežju Grapherex. Ekipa vzdrževalcev se trudi, da bodo čimprej odpravljene.</string>
   <string name="reminder_header_progress">%1$d%%</string>
   <!--media_preview-->
   <string name="media_preview__save_title">Shrani</string>
@@ -2304,22 +2304,22 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="Insights__percent">%</string>
   <string name="Insights__title">Pregled</string>
   <string name="InsightsDashboardFragment__title">Pregled</string>
-  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">S protokolom Signal ste avtomatično zaščitili %1$d%% vaših odhodnih sporočil v preteklih %2$d dneh. Pogovori med uporabniki/cami Signala so zmerom zaščiteni \"od-konca-do-konca\".</string>
-  <string name="InsightsDashboardFragment__boost_your_signal">Razširite svoj Signal</string>
+  <string name="InsightsDashboardFragment__signal_protocol_automatically_protected">S protokolom Grapherex ste avtomatično zaščitili %1$d%% vaših odhodnih sporočil v preteklih %2$d dneh. Pogovori med uporabniki/cami Grapherexa so zmerom zaščiteni \"od-konca-do-konca\".</string>
+  <string name="InsightsDashboardFragment__boost_your_signal">Razširite svoj Grapherex</string>
   <string name="InsightsDashboardFragment__not_enough_data">Ni dovolj podatkov</string>
   <string name="InsightsDashboardFragment__your_insights_percentage_is_calculated_based_on">Pregled je narejen na podlagi vaših odhodnih sporočil v zadnjih %1$d dneh, z izjemo izginjajočih in izbrisanih.</string>
   <string name="InsightsDashboardFragment__start_a_conversation">Začni s pogovorom</string>
-  <string name="InsightsDashboardFragment__invite_your_contacts">Začnite komunicirati varno in vklopite zasebnosti prijazne funkcije, ki sežejo prek omejitev nešifriranih sporočil SMS. Povabite več svojih stikov k uporabi aplikacije Signal.</string>
+  <string name="InsightsDashboardFragment__invite_your_contacts">Začnite komunicirati varno in vklopite zasebnosti prijazne funkcije, ki sežejo prek omejitev nešifriranih sporočil SMS. Povabite več svojih stikov k uporabi aplikacije Grapherex.</string>
   <string name="InsightsDashboardFragment__this_stat_was_generated_locally">Ta analiza je bila generirana lokalno na vaši napravi, lahko jo vidite le vi in ne bo posredovana nikamor.</string>
   <string name="InsightsDashboardFragment__encrypted_messages">Šifrirana sporočila</string>
   <string name="InsightsDashboardFragment__cancel">Prekliči</string>
   <string name="InsightsDashboardFragment__send">Pošlji</string>
   <string name="InsightsModalFragment__title">Predstavljamo vam Pregled</string>
-  <string name="InsightsModalFragment__description">Preverite koliko vaših sporočil je bilo poslanih na varen način, nato k varni uporabi povabite še druge uporabnike/ce in izboljšajte svoj Signal.</string>
+  <string name="InsightsModalFragment__description">Preverite koliko vaših sporočil je bilo poslanih na varen način, nato k varni uporabi povabite še druge uporabnike/ce in izboljšajte svoj Grapherex.</string>
   <string name="InsightsModalFragment__view_insights">Odpri Pregled</string>
-  <string name="FirstInviteReminder__title">Povabi na Signal</string>
+  <string name="FirstInviteReminder__title">Povabi na Grapherex</string>
   <string name="FirstInviteReminder__description">Število svojih šifriranih sporočil čahko izboljšate za %1$d%%</string>
-  <string name="SecondInviteReminder__title">Razširite svoj Signal</string>
+  <string name="SecondInviteReminder__title">Razširite svoj Grapherex</string>
   <string name="SecondInviteReminder__description">Povabi uporabnika/co %1$s</string>
   <string name="InsightsReminder__view_insights">Odpri Pregled</string>
   <string name="InsightsReminder__invite">Povabi</string>
@@ -2344,7 +2344,7 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="CreateKbsPinFragment__create_a_new_pin">Ustvari nov PIN</string>
   <string name="CreateKbsPinFragment__you_can_choose_a_new_pin_as_long_as_this_device_is_registered">PIN lahko spreminjate dokler je naprava registrirana.</string>
   <string name="CreateKbsPinFragment__create_your_pin">Ustvarite svoj PIN</string>
-  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">S kodo PIN zavarujete podatke shranjene na Signalu s šifriranjem, tako da so dostopni le vam. Vaš profil, nastavitve in stiki bodo ob ponovni namestitvi aplikacije Signal obnovljeni. Vnos PINa ob vsakokratnem zagonu aplikacije ne bo potreben.</string>
+  <string name="CreateKbsPinFragment__pins_keep_information_stored_with_signal_encrypted">S kodo PIN zavarujete podatke shranjene na Grapherexu s šifriranjem, tako da so dostopni le vam. Vaš profil, nastavitve in stiki bodo ob ponovni namestitvi aplikacije Grapherex obnovljeni. Vnos PINa ob vsakokratnem zagonu aplikacije ne bo potreben.</string>
   <string name="CreateKbsPinFragment__choose_a_stronger_pin">Izberite močnejši PIN</string>
   <!--ConfirmKbsPinFragment-->
   <string name="ConfirmKbsPinFragment__pins_dont_match">PIN se ne ujema. Poskusite znova.</string>
@@ -2356,7 +2356,7 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="ConfirmKbsPinFragment__creating_pin">Ustvarjam PIN …</string>
   <!--KbsSplashFragment-->
   <string name="KbsSplashFragment__introducing_pins">Predstavljamo vam PIN!</string>
-  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">S kodo PIN zavarujete podatke shranjene na Signalu s šifriranjem, tako da so dostopni le vam. Vaš profil, nastavitve in stiki bodo ob ponovni namestitvi aplikacije Signal obnovljeni. Vnos PINa ob vsakokratnem zagonu aplikacije ne bo potreben.</string>
+  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">S kodo PIN zavarujete podatke shranjene na Grapherexu s šifriranjem, tako da so dostopni le vam. Vaš profil, nastavitve in stiki bodo ob ponovni namestitvi aplikacije Grapherex obnovljeni. Vnos PINa ob vsakokratnem zagonu aplikacije ne bo potreben.</string>
   <string name="KbsSplashFragment__learn_more">Več o tem…</string>
   <string name="KbsSplashFragment__registration_lock_equals_pin">PIN = koda za zaklep registracije</string>
   <string name="KbsSplashFragment__your_registration_lock_is_now_called_a_pin">PIN za prijavo v omrežje je izboljšan in odslej ponuja več možnosti. Posodobite ga zdaj!</string>
@@ -2365,7 +2365,7 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="KbsSplashFragment__learn_more_about_pins">Izvedite več o kodi PIN.</string>
   <string name="KbsSplashFragment__disable_pin">Izklop PINa</string>
   <!--KBS Reminder Dialog-->
-  <string name="KbsReminderDialog__enter_your_signal_pin">Vnesite svoj Signal PIN</string>
+  <string name="KbsReminderDialog__enter_your_signal_pin">Vnesite svoj Grapherex PIN</string>
   <string name="KbsReminderDialog__to_help_you_memorize_your_pin">Da si boste lažje zapomnili svoj PIN, vas bomo večkrat vprašali po njem. Sčasoma se bo frekvenca prošenj za vnos zmanjšala.</string>
   <string name="KbsReminderDialog__skip">Preskoči</string>
   <string name="KbsReminderDialog__submit">Oddaj</string>
@@ -2386,8 +2386,8 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="RegistrationLockFragment__incorrect_pin">Napačen PIN</string>
   <string name="RegistrationLockFragment__forgot_your_pin">Ste pozabili svoj PIN?</string>
   <string name="RegistrationLockFragment__not_many_tries_left">Na voljo le še nekaj poskusov!</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Prijava v Signal - Potrebujem pomoč pri vnosu kode PIN za Android (v1 PIN)</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Prijava v Signal - Potrebujem pomoč pri vnosu kode PIN za Android (v2 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v1_pin">Prijava v Grapherex - Potrebujem pomoč pri vnosu kode PIN za Android (v1 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Prijava v Grapherex - Potrebujem pomoč pri vnosu kode PIN za Android (v2 PIN)</string>
   <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
     <item quantity="one">Koda PIN zaradi vaše varnosti in zasebnosti ni obnovljiva. Če ste jo pozabili, se lahko znova prijavite s potrditvenim sporočilom SMS po %1$d dnevu neaktivnosti. V tem primeru bosta vaš račun in vsa vsebina izbrisana.</item>
     <item quantity="two">Koda PIN zaradi vaše varnosti in zasebnosti ni obnovljiva. Če ste jo pozabili, se lahko znova prijavite s potrditvenim sporočilom SMS po %1$d dneh neaktivnosti. V tem primeru bosta vaš račun in vsa vsebina izbrisana.</item>
@@ -2422,28 +2422,28 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="CalleeMustAcceptMessageRequestDialogFragment__s_will_get_a_message_request_from_you">Uporabnik/ca %1$s bo prejel/a vaše vabilo. Ko ga bo potrdil/a, ga/jo lahko pokličete.</string>
   <!--KBS Megaphone-->
   <string name="KbsMegaphone__create_a_pin">Ustvari PIN</string>
-  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN zavaruje informacije shranjene na Signalu z uporabo šifriranja.</string>
+  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN zavaruje informacije shranjene na Grapherexu z uporabo šifriranja.</string>
   <string name="KbsMegaphone__create_pin">Ustvari PIN</string>
   <!--Research Megaphone-->
-  <string name="ResearchMegaphone_tell_signal_what_you_think">Sporočite Signalu svoje mnenje</string>
-  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">Da bi bil Signal najboljša aplikacije za sporočanje v vesolju, pa tudi širše, bi radi slišali vaše mnenje.</string>
+  <string name="ResearchMegaphone_tell_signal_what_you_think">Sporočite Grapherexu svoje mnenje</string>
+  <string name="ResearchMegaphone_to_make_signal_the_best_messaging_app_on_the_planet">Da bi bil Grapherex najboljša aplikacije za sporočanje v vesolju, pa tudi širše, bi radi slišali vaše mnenje.</string>
   <string name="ResearchMegaphone_learn_more">Izvedite več</string>
   <string name="ResearchMegaphone_dismiss">Prekini</string>
-  <string name="ResearchMegaphoneDialog_signal_research">Raziskava Signal</string>
-  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>Verjamemo v zasebno komunikacijo.</b></p><p>Signal vam ne sledi in ne zbira vaših podatkov. Za izboljšave aplikacije se zanašamo na vaše povratne informacije, <b>ki jih zelo cenimo.</b></p><p>Zato delamo raziskavo, da bi ugotovili, kako uporabljate aplikacijo Signal. Raziskava ne zahteva od vas nobenih podatkov, po katerih bi vas lahko prepoznali. Če pa bi radi z nami delili dodatne informacije, nam lahko tudi posredujete svoj kontakt.</p><p>Če imate nekaj minut časa in izdelano mnenje o nas, vam bomo z veseljem prisluhnili.</p>]]></string>
+  <string name="ResearchMegaphoneDialog_signal_research">Raziskava Grapherex</string>
+  <string name="ResearchMegaphoneDialog_we_believe_in_privacy"><![CDATA[<p><b>Verjamemo v zasebno komunikacijo.</b></p><p>Grapherex vam ne sledi in ne zbira vaših podatkov. Za izboljšave aplikacije se zanašamo na vaše povratne informacije, <b>ki jih zelo cenimo.</b></p><p>Zato delamo raziskavo, da bi ugotovili, kako uporabljate aplikacijo Grapherex. Raziskava ne zahteva od vas nobenih podatkov, po katerih bi vas lahko prepoznali. Če pa bi radi z nami delili dodatne informacije, nam lahko tudi posredujete svoj kontakt.</p><p>Če imate nekaj minut časa in izdelano mnenje o nas, vam bomo z veseljem prisluhnili.</p>]]></string>
   <string name="ResearchMegaphoneDialog_take_the_survey">Izpolnite anketo</string>
   <string name="ResearchMegaphoneDialog_no_thanks">Ne, hvala!</string>
-  <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">Anketa gostuje pri Surveygizmo na varni domeni surveys.signalusers.org</string>
+  <string name="ResearchMegaphoneDialog_the_survey_is_hosted_by_alchemer_at_the_secure_domain">Anketa gostuje pri Surveygizmo na varni domeni surveys.Grapherexusers.org</string>
   <!--transport_selection_list_item-->
   <string name="transport_selection_list_item__transport_icon">Ikona transporta</string>
   <string name="ConversationListFragment_loading">Nalaganje …</string>
   <string name="CallNotificationBuilder_connecting">Povezujem…</string>
   <string name="Permissions_permission_required">Zahtevano dovoljenje</string>
-  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Dovoljenje za dostop do sporočil SMS je bilo trajno odvzeto. Aplikacija Signal potrebuje dovoljenje za dostop do sporočil SMS za pošiljanje sporočil SMS. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenje pod postavko \"SMS\".</string>
+  <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Dovoljenje za dostop do sporočil SMS je bilo trajno odvzeto. Aplikacija Grapherex potrebuje dovoljenje za dostop do sporočil SMS za pošiljanje sporočil SMS. Prosimo, pojdite v meni Nastavitve aplikacij, izberite \"Dovoljenja\" in omogočite dovoljenje pod postavko \"SMS\".</string>
   <string name="Permissions_continue">Nadaljuj</string>
   <string name="Permissions_not_now">Ne zdaj</string>
-  <string name="conversation_activity__enable_signal_messages">VKLOPI SPOROČILA SIGNAL</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Prenašam podatkovno bazo Signal</string>
+  <string name="conversation_activity__enable_signal_messages">VKLOPI SPOROČILA Grapherex</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">Prenašam podatkovno bazo Grapherex</string>
   <string name="PushDecryptJob_new_locked_message">Novo zaklenjeno sporočilo</string>
   <string name="PushDecryptJob_unlock_to_view_pending_messages">Za ogled čakajočih sporočil odklenite</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">Geslo varnostne kopije</string>
@@ -2461,7 +2461,7 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="preferences_chats__transfer_account_to_a_new_android_device">Prenos računa na novo androidno napravo</string>
   <string name="RegistrationActivity_enter_backup_passphrase">Vnesite geslo varnostne kopije</string>
   <string name="RegistrationActivity_restore">Obnovi</string>
-  <string name="RegistrationActivity_backup_failure_downgrade">Uvoz varnostnih kopij iz novejših različic aplikacije Signal ni mogoč</string>
+  <string name="RegistrationActivity_backup_failure_downgrade">Uvoz varnostnih kopij iz novejših različic aplikacije Grapherex ni mogoč</string>
   <string name="RegistrationActivity_incorrect_backup_passphrase">Napačno geslo varnostne kopije</string>
   <string name="RegistrationActivity_checking">Preverjanje …</string>
   <string name="RegistrationActivity_d_messages_so_far">%d sporočil zaenkrat …</string>
@@ -2492,8 +2492,8 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="ProgressPreference_d_messages_so_far">%d sporočil zaenkrat</string>
   <string name="RegistrationActivity_wrong_number">Napačna številka</string>
   <string name="RegistrationActivity_call_me_instead_available_in">Raje me pokličite \n (Dostopno čez %1$02d:%2$02d)</string>
-  <string name="RegistrationActivity_contact_signal_support">Kontaktiraj center za podporo Signal</string>
-  <string name="RegistrationActivity_code_support_subject">Registracija za storitev Signal - verifikacijska koda za Android</string>
+  <string name="RegistrationActivity_contact_signal_support">Kontaktiraj center za podporo Grapherex</string>
+  <string name="RegistrationActivity_code_support_subject">Registracija za storitev Grapherex - verifikacijska koda za Android</string>
   <string name="BackupUtil_never">Nikoli</string>
   <string name="BackupUtil_unknown">Neznano</string>
   <string name="preferences_app_protection__see_my_phone_number">vidijo mojo telefonsko številko</string>
@@ -2502,21 +2502,21 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="PhoneNumberPrivacy_my_contacts">Moji stiki</string>
   <string name="PhoneNumberPrivacy_nobody">Nikogar</string>
   <string name="PhoneNumberPrivacy_everyone_see_description">Vaša telefonska številka bo vidna vsem uporabnikom/cam in skupinam, ki jim boste pošiljali sporočila.</string>
-  <string name="PhoneNumberPrivacy_everyone_find_description">Vsak/a uporabnik/ca, ki ima vašo telefonsko številko med svojimi stiki, vas bo lahko kontaktiral/a preko Signala. Drugi/e vas bodo lahko našli/e z iskanjem.</string>
+  <string name="PhoneNumberPrivacy_everyone_find_description">Vsak/a uporabnik/ca, ki ima vašo telefonsko številko med svojimi stiki, vas bo lahko kontaktiral/a preko Grapherexa. Drugi/e vas bodo lahko našli/e z iskanjem.</string>
   <string name="preferences_app_protection__screen_lock">Zaklep zaslona</string>
   <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Uporaba sistemskega zaklepanja in prstnih odtisov za zaklep aplikacije</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">Časovni interval pred zaklepom aplikacije</string>
-  <string name="preferences_app_protection__signal_pin">Signal PIN</string>
+  <string name="preferences_app_protection__signal_pin">Grapherex PIN</string>
   <string name="preferences_app_protection__create_a_pin">Ustvari PIN</string>
   <string name="preferences_app_protection__change_your_pin">Sprememba PINa</string>
   <string name="preferences_app_protection__pin_reminders">Opomniki za PIN</string>
-  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">S PINom zavarujete podatke shranjene na računu Signal s šifriranjem, tako da so dostopni le vam. Vaš profil, nastavitve in stiki bodo obnovljeni ob ponovni namestitvi aplikacije Signal.</string>
-  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Izboljšajte varnost svojega uporabniškega računa Signal z zahtevo po vnosu PINa pri registraciji telefona s strežniki Signal.</string>
+  <string name="preferences_app_protection__pins_keep_information_stored_with_signal_encrypted">S PINom zavarujete podatke shranjene na računu Grapherex s šifriranjem, tako da so dostopni le vam. Vaš profil, nastavitve in stiki bodo obnovljeni ob ponovni namestitvi aplikacije Grapherex.</string>
+  <string name="preferences_app_protection__add_extra_security_by_requiring_your_signal_pin_to_register">Izboljšajte varnost svojega uporabniškega računa Grapherex z zahtevo po vnosu PINa pri registraciji telefona s strežniki Grapherex.</string>
   <string name="preferences_app_protection__reminders_help_you_remember_your_pin">Opomniki vam bodo pomagali, da si lažje zapomnite svoj PIN, saj ni obnovljiv. Sčasoma se bo frekvenca opomnikov zmanjšala.</string>
   <string name="preferences_app_protection__turn_off">Izklopi</string>
   <string name="preferences_app_protection__confirm_pin">Potrdite PIN</string>
-  <string name="preferences_app_protection__confirm_your_signal_pin">Potrdite svoj PIN Signal</string>
-  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Prosimo, dobro si zapomnite ali zapišite svoj PIN, saj ni obnovljiv. Če ga boste pozabili, lahko izgubite svoje podatke ob ponovni registraciji v račun Signal.</string>
+  <string name="preferences_app_protection__confirm_your_signal_pin">Potrdite svoj PIN Grapherex</string>
+  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Prosimo, dobro si zapomnite ali zapišite svoj PIN, saj ni obnovljiv. Če ga boste pozabili, lahko izgubite svoje podatke ob ponovni registraciji v račun Grapherex.</string>
   <string name="preferences_app_protection__incorrect_pin_try_again">Napačen PIN. Poskusite znova.</string>
   <string name="preferences_app_protection__failed_to_enable_registration_lock">Neuspešen vklop zaklepa registracije.</string>
   <string name="preferences_app_protection__failed_to_disable_registration_lock">Neuspešen izklop zaklepa registracije.</string>
@@ -2525,23 +2525,23 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="RegistrationActivity_you_must_enter_your_registration_lock_PIN">Vnesti morate kodo PIN za prijavo v omrežje</string>
   <string name="RegistrationActivity_your_pin_has_at_least_d_digits_or_characters">Vaš PIN vsebuje vsaj %d številk ali znakov</string>
   <string name="RegistrationActivity_too_many_attempts">Preveč poskusov</string>
-  <string name="RegistrationActivity_you_have_made_too_many_incorrect_registration_lock_pin_attempts_please_try_again_in_a_day">Prevečkrat ste vnesli napačen PIN za prijavo v omrežje Signal. Poskusite znova jutri.</string>
+  <string name="RegistrationActivity_you_have_made_too_many_incorrect_registration_lock_pin_attempts_please_try_again_in_a_day">Prevečkrat ste vnesli napačen PIN za prijavo v omrežje Grapherex. Poskusite znova jutri.</string>
   <string name="RegistrationActivity_you_have_made_too_many_attempts_please_try_again_later">Preveč neuspešnih poskusov. Prosimo poskusite znova kasneje.</string>
   <string name="RegistrationActivity_error_connecting_to_service">Napaka pri povezavi do storitve</string>
   <string name="preferences_chats__backups">Varnostne kopije</string>
-  <string name="prompt_passphrase_activity__signal_is_locked">Signal je zaklenjen</string>
+  <string name="prompt_passphrase_activity__signal_is_locked">Grapherex je zaklenjen</string>
   <string name="prompt_passphrase_activity__tap_to_unlock">TAPNITE ZA ODKLEPANJE</string>
   <string name="Recipient_unknown">Neznano</string>
   <!--TransferOrRestoreFragment-->
   <string name="TransferOrRestoreFragment__transfer_or_restore_account">Prenesi ali obnovi račun</string>
-  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Če ste predhodno registrirali svoj račun Signal, ga lahko lahko prenesete na novo napravo ali obnovite svoja sporočila.</string>
+  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Če ste predhodno registrirali svoj račun Grapherex, ga lahko lahko prenesete na novo napravo ali obnovite svoja sporočila.</string>
   <string name="TransferOrRestoreFragment__transfer_from_android_device">Prenos iz druge androidne naprave</string>
   <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">Prenesite svoj račun in sporočila iz stare androidne naprave. Za to potrebujete fizični dostop do nje.</string>
   <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">Potrebujete dostop do vaše stare naprave.</string>
   <string name="TransferOrRestoreFragment__restore_from_backup">Obnovi iz varnostne kopije</string>
   <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">Obnovite svoja sporočila iz lokalne varnostne kopije. Če tega ne storite zdaj, kasneje ne bo več mogoče.</string>
   <!--NewDeviceTransferInstructionsFragment-->
-  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Odprite Signal na vaši stari androidni napravi</string>
+  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Odprite Grapherex na vaši stari androidni napravi</string>
   <string name="NewDeviceTransferInstructions__continue">Nadaljuj</string>
   <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
   <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">Za dostop do Nastavitev tapnite na svojo profilno fotografijo, zgoraj levo</string>
@@ -2553,18 +2553,18 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="NewDeviceTransferSetup__preparing_to_connect_to_old_android_device">Priprava za povezavo s staro androidno napravo …</string>
   <string name="NewDeviceTransferSetup__take_a_moment_should_be_ready_soon">Samo trenutek …</string>
   <string name="NewDeviceTransferSetup__waiting_for_old_device_to_connect">Čakanje na povezavo s staro andoidno napravo …</string>
-  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Za zaznavo in povezavo z vašo staro androidno napravo potrebuje Signal dovoljenje za dostop do lokacije.</string>
+  <string name="NewDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_old_device">Za zaznavo in povezavo z vašo staro androidno napravo potrebuje Grapherex dovoljenje za dostop do lokacije.</string>
   <string name="NewDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_old_device">Za zaznavo in povezavo z vašo staro androidno napravo morajo biti na vaši napravi vklopljene lokacijske storitve.</string>
   <string name="NewDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_old_device">Za zaznavo in povezavo z vašo staro androidno napravo, mora biti vklopljen Wi-Fi, a ni nujno, da je naprava povezana na Wi-Fi omrežje.</string>
-  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Vaša naprava žal ne omogoča funkcije Wi-Fi Direct. Signal uporablja Wi-Fi Direct za zaznavo in povezavo s staro androidno napravo. Še vedno pa lahko obnovite svoj račun Signal z uvozom podatkov iz varnostne kopije s stare naprave.</string>
+  <string name="NewDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Vaša naprava žal ne omogoča funkcije Wi-Fi Direct. Grapherex uporablja Wi-Fi Direct za zaznavo in povezavo s staro androidno napravo. Še vedno pa lahko obnovite svoj račun Grapherex z uvozom podatkov iz varnostne kopije s stare naprave.</string>
   <string name="NewDeviceTransferSetup__restore_a_backup">Obnovi iz varnostne kopije</string>
   <string name="NewDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Pri poskusu povezave z vašo staro androidno napravo je prišlo do nepričakovane napake.</string>
   <!--OldDeviceTransferSetupFragment-->
   <string name="OldDeviceTransferSetup__searching_for_new_android_device">Iskanje vaše nove androidne naprave …</string>
-  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Za zaznavo in povezavo z vašo novo androidno napravo potrebuje Signal dovoljenje za dostop do lokacije.</string>
+  <string name="OldDeviceTransferSetup__signal_needs_the_location_permission_to_discover_and_connect_with_your_new_device">Za zaznavo in povezavo z vašo novo androidno napravo potrebuje Grapherex dovoljenje za dostop do lokacije.</string>
   <string name="OldDeviceTransferSetup__signal_needs_location_services_enabled_to_discover_and_connect_with_your_new_device">Za zaznavo in povezavo z vašo novo androidno napravo morate imeti vklopljene lokacijske storitve.</string>
   <string name="OldDeviceTransferSetup__signal_needs_wifi_on_to_discover_and_connect_with_your_new_device">Za zaznavo in povezavo z vašo novo androidno napravo morate imeti vklopjen Wi-Fi, a ni nujno, da je naprava povezana na Wi-Fi omrežje.</string>
-  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Vaša naprava žal ne omogoča funkcije Wi-Fi Direct. Signal uporablja Wi-Fi Direct za zaznavo in povezavo z vašo novo androidno napravo. Še vedno pa lahko ustvarite lokalno varnostno kopijo in jo prenesete na novo napravo.</string>
+  <string name="OldDeviceTransferSetup__sorry_it_appears_your_device_does_not_support_wifi_direct">Vaša naprava žal ne omogoča funkcije Wi-Fi Direct. Grapherex uporablja Wi-Fi Direct za zaznavo in povezavo z vašo novo androidno napravo. Še vedno pa lahko ustvarite lokalno varnostno kopijo in jo prenesete na novo napravo.</string>
   <string name="OldDeviceTransferSetup__create_a_backup">Ustvari varnostno kopijo</string>
   <string name="OldDeviceTransferSetup__an_unexpected_error_occurred_while_attempting_to_connect_to_your_old_device">Pri poskusu povezave z vašo novo androidno napravo je prišlo do nepričakovane napake.</string>
   <!--DeviceTransferSetupFragment-->
@@ -2592,17 +2592,17 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="DeviceTransferSetup__on_the_wifi_direct_screen_remove_all_remembered_groups_and_unlink_any_invited_or_connected_devices">V nastavitvah za WI-Fi Direct odstranite vse shranjene skupine in povabljene ali povezane naprave.</string>
   <string name="DeviceTransferSetup__wifi_direct_screen">Nastavitve Wi-Fi Direct</string>
   <string name="DeviceTransferSetup__try_turning_wifi_off_and_on_on_both_devices">Poskusite izklopiti in ponovno vklopiti Wi-Fi na obeh napravah.</string>
-  <string name="DeviceTransferSetup__make_sure_both_devices_are_in_transfer_mode">Na obeh napravah v Signalu vklopite prenos računa.</string>
-  <string name="DeviceTransferSetup__go_to_support_page">Podporna stran za Signal</string>
+  <string name="DeviceTransferSetup__make_sure_both_devices_are_in_transfer_mode">Na obeh napravah v Grapherexu vklopite prenos računa.</string>
+  <string name="DeviceTransferSetup__go_to_support_page">Podporna stran za Grapherex</string>
   <string name="DeviceTransferSetup__try_again">Poskusi znova</string>
   <string name="DeviceTransferSetup__waiting_for_other_device">Čakanje na drugo napravo</string>
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device_to_start_the_transfer">Za začetek prenosa tapnite \"Naprej\" na drugi napravi.</string>
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device">Tapnite \"Naprej\" na drugi napravi …</string>
   <!--NewDeviceTransferFragment-->
-  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Prenos iz novejše različice Signala ni mogoč</string>
+  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Prenos iz novejše različice Grapherexa ni mogoč</string>
   <!--DeviceTransferFragment-->
   <string name="DeviceTransfer__transferring_data">Poteka prenos podatkov</string>
-  <string name="DeviceTransfer__keep_both_devices_near_each_other">Napravi naj bosta v neposredni bližini. Ne izklapljajte naprav in pustite Signal odprt. Prenos je med obema napravama je šifriran od-konca-do-konca.</string>
+  <string name="DeviceTransfer__keep_both_devices_near_each_other">Napravi naj bosta v neposredni bližini. Ne izklapljajte naprav in pustite Grapherex odprt. Prenos je med obema napravama je šifriran od-konca-do-konca.</string>
   <string name="DeviceTransfer__d_messages_so_far">Prenešenih %1$d sporočil …</string>
   <string name="DeviceTransfer__cancel">Prekliči</string>
   <string name="DeviceTransfer__try_again">Poskusi znova</string>
@@ -2613,9 +2613,9 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="DeviceTransfer__unable_to_transfer">Prenos ni bil mogoč</string>
   <!--OldDeviceTransferInstructionsFragment-->
   <string name="OldDeviceTransferInstructions__transfer_account">Prenesi račun</string>
-  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">Svoj račun Signal lahko prenesete ob nastavljanju aplikacije na novi androidni napravi. Pred začetkom:</string>
+  <string name="OldDeviceTransferInstructions__you_can_transfer_your_signal_account_when_setting_up_signal_on_a_new_android_device">Svoj račun Grapherex lahko prenesete ob nastavljanju aplikacije na novi androidni napravi. Pred začetkom:</string>
   <string name="OldDeviceTransferInstructions__first_bullet">1.</string>
-  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">namestite Signal na novi androidni napravi</string>
+  <string name="OldDeviceTransferInstructions__download_signal_on_your_new_android_device">namestite Grapherex na novi androidni napravi</string>
   <string name="OldDeviceTransferInstructions__second_bullet">2.</string>
   <string name="OldDeviceTransferInstructions__tap_on_transfer_or_restore_account">tapnite na \"Prenos ali obnovitev računa\"</string>
   <string name="OldDeviceTransferInstructions__third_bullet">3.</string>
@@ -2641,7 +2641,7 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="DeviceToDeviceTransferService_status_service_connected">Prenos računa poteka …</string>
   <!--OldDeviceTransferLockedDialog-->
   <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">Dokončajte registracijo na vaši novi napravi</string>
-  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Vaš račun Signal  je bil uspešno prenešen na novo napravo, vendar morate na njej dokončati proces registracije. Na tej napravi Signal ne bo aktiven.</string>
+  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Vaš račun Grapherex  je bil uspešno prenešen na novo napravo, vendar morate na njej dokončati proces registracije. Na tej napravi Grapherex ne bo aktiven.</string>
   <string name="OldDeviceTransferLockedDialog__done">OK</string>
   <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">Prekini in aktiviraj to napravo</string>
   <!--AdvancedPreferenceFragment-->
@@ -2672,12 +2672,12 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="GroupsLearnMore_what_are_legacy_groups">Kaj so stare skupine?</string>
   <string name="GroupsLearnMore_paragraph_1">Stare skupine so skupine, ki niso združljive z naprednimi funkcijami Novih skupin, kot so skrbniki/ce in bolj natančno upravljanje.</string>
   <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">Ali lahko nadgradim Staro skupino v Novo?</string>
-  <string name="GroupsLearnMore_paragraph_2">Stare skupine zaenkrat ne morejo biti pretvorjene v Nove, lahko pa ustvarite Novo skupino z identičnim članstvom, če vaši sogovorniki uporabljajo najnovejšo različico aplikacije Signal.</string>
-  <string name="GroupsLearnMore_paragraph_3">V prihodnosti bo ponujena tudi možnost nadgradnje Starih v Nove skupine Signal.</string>
+  <string name="GroupsLearnMore_paragraph_2">Stare skupine zaenkrat ne morejo biti pretvorjene v Nove, lahko pa ustvarite Novo skupino z identičnim članstvom, če vaši sogovorniki uporabljajo najnovejšo različico aplikacije Grapherex.</string>
+  <string name="GroupsLearnMore_paragraph_3">V prihodnosti bo ponujena tudi možnost nadgradnje Starih v Nove skupine Grapherex.</string>
   <!--GroupLinkBottomSheetDialogFragment-->
   <string name="GroupLinkBottomSheet_share_hint_requiring_approval">Kdorkoli s to povezavo lahko vidi ime in profilno sliko skupine ter zaprosi za pridružitev.  Delite povezavo z ljudmi, ki jim zaupate.</string>
   <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">Kdorkoli s to povezavo lahko vidi ime in profilno sliko skupine ter se ji pridruži.  Delite povezavo z ljudmi, ki jim zaupate.</string>
-  <string name="GroupLinkBottomSheet_share_via_signal">Deli preko Signala</string>
+  <string name="GroupLinkBottomSheet_share_via_signal">Deli preko Grapherexa</string>
   <string name="GroupLinkBottomSheet_copy">Kopiraj</string>
   <string name="GroupLinkBottomSheet_qr_code">Koda QR</string>
   <string name="GroupLinkBottomSheet_share">Deli</string>
@@ -2738,14 +2738,14 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <!--DeleteAccountFragment-->
   <string name="DeleteAccountFragment__deleting_your_account_will">Z izbrisom vašega računa boste:</string>
   <string name="DeleteAccountFragment__enter_your_phone_number">Vnesite svojo telefonsko številko</string>
-  <string name="DeleteAccountFragment__delete_account">Izbriši račun Signal</string>
+  <string name="DeleteAccountFragment__delete_account">Izbriši račun Grapherex</string>
   <string name="DeleteAccountFragment__delete_your_account_info_and_profile_photo">izbrisali podatke in profilno fotografijo računa</string>
   <string name="DeleteAccountFragment__delete_all_your_messages">izbrisali vsa svoja sporočila</string>
   <string name="DeleteAccountFragment__no_country_code">Ni vnesene kode države</string>
   <string name="DeleteAccountFragment__no_number">Ni vnesene telefonske številke</string>
   <string name="DeleteAccountFragment__the_phone_number">Vnesena številka se ne ujema s telefonsko številko vašega računa.</string>
   <string name="DeleteAccountFragment__are_you_sure">Ste prepričani, da želite izbrisati svoj račun?</string>
-  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">S tem boste izbrisali svoj račun Signal in ponastavili aplikacijo. Ko bo proces končan se bo aplikacija zaprla.</string>
+  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">S tem boste izbrisali svoj račun Grapherex in ponastavili aplikacijo. Ko bo proces končan se bo aplikacija zaprla.</string>
   <string name="DeleteAccountFragment__failed_to_delete_account">Brisanje računa ni uspelo. Ste povezani v omrežje?</string>
   <string name="DeleteAccountFragment__failed_to_delete_local_data">Lokalnih podatkov ni bilo mogoče izbrisati. To lahko storite ročno v sistemskih nastavitvah aplikacije.</string>
   <string name="DeleteAccountFragment__launch_app_settings">Zaženi nastavitve aplikacije</string>
@@ -2757,7 +2757,7 @@ Prejeto sporočilo za izmenjavo ključev za napačno različico protokola.</stri
   <string name="ShareActivity__share">Deli</string>
   <string name="ShareActivity__send">Pošlji</string>
   <string name="ShareActivity__s_comma">%1$s,</string>
-  <string name="ShareActivity__sharing_to_multiple_chats_is">Deljenje med večimi pogovori je možno samo za sporočila Signal</string>
+  <string name="ShareActivity__sharing_to_multiple_chats_is">Deljenje med večimi pogovori je možno samo za sporočila Grapherex</string>
   <!--MultiShareDialogs-->
   <string name="MultiShareDialogs__failed_to_send_to_some_users">Pošiljanje nekaterim uporabnikom/cam ni uspelo</string>
   <string name="MultiShareDialogs__you_can_only_share_with_up_to">Pošljete lahko največ %1$d pogovorom</string>
