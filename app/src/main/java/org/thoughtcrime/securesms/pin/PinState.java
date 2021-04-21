@@ -106,32 +106,32 @@ public final class PinState {
   {
     Log.i(TAG, "onRegistration()");
 
-    TextSecurePreferences.setV1RegistrationLockPin(context, pin);
-
-    if (kbsData == null && pin != null) {
-      Log.i(TAG, "Registration Lock V1");
-      SignalStore.kbsValues().clearRegistrationLockAndPin();
-      TextSecurePreferences.setV1RegistrationLockEnabled(context, true);
-      TextSecurePreferences.setRegistrationLockLastReminderTime(context, System.currentTimeMillis());
-      TextSecurePreferences.setRegistrationLockNextReminderInterval(context, RegistrationLockReminders.INITIAL_INTERVAL);
-    } else if (kbsData != null && pin != null) {
-      Log.i(TAG, "Registration Lock V2");
-      TextSecurePreferences.setV1RegistrationLockEnabled(context, false);
-      SignalStore.kbsValues().setV2RegistrationLockEnabled(true);
-      SignalStore.kbsValues().setKbsMasterKey(kbsData, pin);
-      SignalStore.pinValues().resetPinReminders();
-      resetPinRetryCount(context, pin);
-      ClearFallbackKbsEnclaveJob.clearAll();
-    } else if (hasPinToRestore) {
-      Log.i(TAG, "Has a PIN to restore.");
-      SignalStore.kbsValues().clearRegistrationLockAndPin();
-      TextSecurePreferences.setV1RegistrationLockEnabled(context, false);
-      SignalStore.storageServiceValues().setNeedsAccountRestore(true);
-    } else {
-      Log.i(TAG, "No registration lock or PIN at all.");
-      SignalStore.kbsValues().clearRegistrationLockAndPin();
-      TextSecurePreferences.setV1RegistrationLockEnabled(context, false);
-    }
+//    TextSecurePreferences.setV1RegistrationLockPin(context, pin);
+//
+//    if (kbsData == null && pin != null) {
+//      Log.i(TAG, "Registration Lock V1");
+//      SignalStore.kbsValues().clearRegistrationLockAndPin();
+//      TextSecurePreferences.setV1RegistrationLockEnabled(context, true);
+//      TextSecurePreferences.setRegistrationLockLastReminderTime(context, System.currentTimeMillis());
+//      TextSecurePreferences.setRegistrationLockNextReminderInterval(context, RegistrationLockReminders.INITIAL_INTERVAL);
+//    } else if (kbsData != null && pin != null) {
+//      Log.i(TAG, "Registration Lock V2");
+//      TextSecurePreferences.setV1RegistrationLockEnabled(context, false);
+//      SignalStore.kbsValues().setV2RegistrationLockEnabled(true);
+//      SignalStore.kbsValues().setKbsMasterKey(kbsData, pin);
+//      SignalStore.pinValues().resetPinReminders();
+//      resetPinRetryCount(context, pin);
+//      ClearFallbackKbsEnclaveJob.clearAll();
+//    } else if (hasPinToRestore) {
+//      Log.i(TAG, "Has a PIN to restore.");
+//      SignalStore.kbsValues().clearRegistrationLockAndPin();
+//      TextSecurePreferences.setV1RegistrationLockEnabled(context, false);
+//      SignalStore.storageServiceValues().setNeedsAccountRestore(true);
+//    } else {
+//      Log.i(TAG, "No registration lock or PIN at all.");
+//      SignalStore.kbsValues().clearRegistrationLockAndPin();
+//      TextSecurePreferences.setV1RegistrationLockEnabled(context, false);
+//    }
 
     updateState(buildInferredStateFromOtherFields());
   }

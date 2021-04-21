@@ -16,135 +16,160 @@ import java.util.UUID;
 
 public class SignalServiceProfile {
 
-  public enum RequestType {
-    PROFILE,
-    PROFILE_AND_CREDENTIAL
-  }
+    public enum RequestType {
+        PROFILE,
+        PROFILE_AND_CREDENTIAL
+    }
 
-  private static final String TAG = SignalServiceProfile.class.getSimpleName();
+    private static final String TAG = SignalServiceProfile.class.getSimpleName();
 
-  @JsonProperty
-  private String identityKey;
+    @JsonProperty
+    private String identityKey;
 
-  @JsonProperty
-  private String name;
+    @JsonProperty
+    private String name;
 
-  @JsonProperty
-  private String about;
+    @JsonProperty
+    private String about;
 
-  @JsonProperty
-  private String aboutEmoji;
+    @JsonProperty
+    private String aboutEmoji;
 
   @JsonProperty
   private byte[] paymentAddress;
 
-  @JsonProperty
-  private String avatar;
+    @JsonProperty
+    private Avatar avatar;
 
-  @JsonProperty
-  private String unidentifiedAccess;
+    @JsonProperty
+    private String unidentifiedAccess;
 
-  @JsonProperty
-  private boolean unrestrictedUnidentifiedAccess;
+    @JsonProperty
+    private boolean unrestrictedUnidentifiedAccess;
 
-  @JsonProperty
-  private Capabilities capabilities;
+    @JsonProperty
+    private Capabilities capabilities;
 
-  @JsonProperty
-  @JsonSerialize(using = JsonUtil.UuidSerializer.class)
-  @JsonDeserialize(using = JsonUtil.UuidDeserializer.class)
-  private UUID uuid;
+    @JsonProperty
+    @JsonSerialize(using = JsonUtil.UuidSerializer.class)
+    @JsonDeserialize(using = JsonUtil.UuidDeserializer.class)
+    private UUID uuid;
 
-  @JsonProperty
-  private byte[] credential;
+    @JsonProperty
+    private byte[] credential;
 
-  @JsonIgnore
-  private RequestType requestType;
+    @JsonIgnore
+    private RequestType requestType;
 
-  public SignalServiceProfile() {}
+    public SignalServiceProfile() {
+    }
 
-  public String getIdentityKey() {
-    return identityKey;
-  }
+    public String getIdentityKey() {
+        return identityKey;
+    }
 
-  public String getName() {
-    return name;
-  }
+    public String getName() {
+        return name;
+    }
 
-  public String getAbout() {
-    return about;
-  }
+    public String getAbout() {
+        return about;
+    }
 
-  public String getAboutEmoji() {
-    return aboutEmoji;
-  }
+    public String getAboutEmoji() {
+        return aboutEmoji;
+    }
 
   public byte[] getPaymentAddress() {
     return paymentAddress;
   }
 
-  public String getAvatar() {
-    return avatar;
-  }
-
-  public String getUnidentifiedAccess() {
-    return unidentifiedAccess;
-  }
-
-  public boolean isUnrestrictedUnidentifiedAccess() {
-    return unrestrictedUnidentifiedAccess;
-  }
-
-  public Capabilities getCapabilities() {
-    return capabilities;
-  }
-
-  public UUID getUuid() {
-    return uuid;
-  }
-
-  public RequestType getRequestType() {
-    return requestType;
-  }
-
-  public void setRequestType(RequestType requestType) {
-    this.requestType = requestType;
-  }
-
-  public static class Capabilities {
-    @JsonProperty
-    private boolean gv2;
-
-    @JsonProperty
-    private boolean storage;
-
-    @JsonProperty("gv1-migration")
-    private boolean gv1Migration;
-
-    @JsonCreator
-    public Capabilities() {}
-
-    public boolean isGv2() {
-      return gv2;
+    public String getAvatar() {
+        return avatar != null && avatar.getBucket() != null ? avatar.getBucket() : "";
     }
 
-    public boolean isStorage() {
-      return storage;
+    public String getUnidentifiedAccess() {
+        return unidentifiedAccess;
     }
 
-    public boolean isGv1Migration() {
-      return gv1Migration;
+    public boolean isUnrestrictedUnidentifiedAccess() {
+        return unrestrictedUnidentifiedAccess;
     }
-  }
 
-  public ProfileKeyCredentialResponse getProfileKeyCredentialResponse() {
-    if (credential == null) return null;
-
-    try {
-      return new ProfileKeyCredentialResponse(credential);
-    } catch (InvalidInputException e) {
-      Log.w(TAG, e);
-      return null;
+    public Capabilities getCapabilities() {
+        return capabilities;
     }
-  }
+
+    public UUID getUuid() {
+        return uuid;
+    }
+
+    public RequestType getRequestType() {
+        return requestType;
+    }
+
+    public void setRequestType(RequestType requestType) {
+        this.requestType = requestType;
+    }
+
+    public static class Capabilities {
+        @JsonProperty
+        private boolean gv2;
+
+        @JsonProperty
+        private boolean storage;
+
+        @JsonProperty("gv1-migration")
+        private boolean gv1Migration;
+
+        @JsonCreator
+        public Capabilities() {
+        }
+
+        public boolean isGv2() {
+            return gv2;
+        }
+
+        public boolean isStorage() {
+            return storage;
+        }
+
+        public boolean isGv1Migration() {
+            return gv1Migration;
+        }
+    }
+
+    public static class Avatar {
+        @JsonProperty
+        private String bucket;
+
+        @JsonProperty
+        private String credential;
+
+        @JsonProperty
+        private String attachmentId;
+
+        public String getBucket() {
+            return bucket;
+        }
+
+        public String getCredential() {
+            return credential;
+        }
+
+        public String getAttachmentId() {
+            return attachmentId;
+        }
+    }
+
+    public ProfileKeyCredentialResponse getProfileKeyCredentialResponse() {
+        if (credential == null) return null;
+
+        try {
+            return new ProfileKeyCredentialResponse(credential);
+        } catch (InvalidInputException e) {
+            Log.w(TAG, e);
+            return null;
+        }
+    }
 }

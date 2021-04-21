@@ -148,8 +148,8 @@ public abstract class PassphraseRequiredActivity extends BaseActivity implements
       case STATE_PROMPT_PASSPHRASE:   return getPromptPassphraseIntent();
       case STATE_UI_BLOCKING_UPGRADE: return getUiBlockingUpgradeIntent();
       case STATE_WELCOME_PUSH_SCREEN: return getPushRegistrationIntent();
-      case STATE_ENTER_SIGNAL_PIN:    return getEnterSignalPinIntent();
-      case STATE_CREATE_SIGNAL_PIN:   return getCreateSignalPinIntent();
+//      case STATE_ENTER_SIGNAL_PIN:    return getEnterSignalPinIntent();
+//      case STATE_CREATE_SIGNAL_PIN:   return getCreateSignalPinIntent();
       case STATE_CREATE_PROFILE_NAME: return getCreateProfileNameIntent();
       case STATE_TRANSFER_ONGOING:    return getOldDeviceTransferIntent();
       case STATE_TRANSFER_LOCKED:     return getOldDeviceTransferLockedIntent();

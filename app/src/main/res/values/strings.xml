@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Signal</string>
+    <string name="app_name" translatable="false">Grapherex</string>
 
     <string name="install_url" translatable="false">https://Grapherex.org/install</string>
     <string name="donate_url" translatable="false">https://Grapherex.org/donate</string>

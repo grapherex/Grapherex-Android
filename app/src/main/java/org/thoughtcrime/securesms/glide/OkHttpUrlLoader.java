@@ -16,6 +16,7 @@ import org.thoughtcrime.securesms.push.SignalServiceNetworkAccess;
 import java.io.InputStream;
 
 import okhttp3.OkHttpClient;
+import okhttp3.logging.HttpLoggingInterceptor;
 
 /**
  * A simple model loader for fetching media over http/https using OkHttp.
@@ -46,9 +47,12 @@ public class OkHttpUrlLoader implements ModelLoader<GlideUrl, InputStream> {
       if (internalClient == null) {
         synchronized (Factory.class) {
           if (internalClient == null) {
+            HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
+            logging.setLevel(HttpLoggingInterceptor.Level.BODY);
             internalClient = new OkHttpClient.Builder()
                                              .proxySelector(new ContentProxySelector())
                                              .addInterceptor(new StandardUserAgentInterceptor())
+                                             .addInterceptor(logging)
                                              .dns(SignalServiceNetworkAccess.DNS)
                                              .build();
           }

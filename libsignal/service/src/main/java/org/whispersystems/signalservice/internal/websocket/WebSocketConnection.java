@@ -347,6 +347,7 @@ public class WebSocketConnection extends WebSocketListener {
     }
   }
 
+  //TODO fix sending a couple times
   private class KeepAliveSender extends Thread {
 
     private AtomicBoolean stop = new AtomicBoolean(false);

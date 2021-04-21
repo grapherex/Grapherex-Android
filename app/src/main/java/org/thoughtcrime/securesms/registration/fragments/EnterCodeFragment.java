@@ -142,8 +142,7 @@ public final class EnterCodeFragment extends BaseRegistrationFragment
             keyboard.displayLocked().addListener(new AssertedSuccessListener<Boolean>() {
               @Override
               public void onSuccess(Boolean r) {
-                Navigation.findNavController(requireView())
-                          .navigate(EnterCodeFragmentDirections.actionRequireKbsLockPin(timeRemaining, true));
+                handleSuccessfulRegistration();
               }
             });
           }
@@ -155,8 +154,7 @@ public final class EnterCodeFragment extends BaseRegistrationFragment
             keyboard.displayLocked().addListener(new AssertedSuccessListener<Boolean>() {
               @Override
               public void onSuccess(Boolean r) {
-                Navigation.findNavController(requireView())
-                          .navigate(EnterCodeFragmentDirections.actionRequireKbsLockPin(timeRemaining, false));
+                handleSuccessfulRegistration();
               }
             });
           }
@@ -190,7 +188,7 @@ public final class EnterCodeFragment extends BaseRegistrationFragment
             if (timeRemaining != null) {
               model.setLockedTimeRemaining(timeRemaining);
             }
-            Navigation.findNavController(requireView()).navigate(RegistrationLockFragmentDirections.actionAccountLocked());
+           // Navigation.findNavController(requireView()).navigate(RegistrationLockFragmentDirections.actionAccountLocked());
           }
 
           @Override

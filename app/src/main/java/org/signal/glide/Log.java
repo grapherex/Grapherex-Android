@@ -3,6 +3,8 @@ package org.signal.glide;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import org.thoughtcrime.securesms.R;
+
 public final class Log {
 
   private Log() {}

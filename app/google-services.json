@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "59023565119",
+    "project_id": "androiddev-310512",
+    "storage_bucket": "androiddev-310512.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59023565119:android:e9c2c226c1e22be216f38a",
+        "android_client_info": {
+          "package_name": "org.thoughtcrime.securesms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59023565119-tqv9bo5li1u3uniqiqphi1j5462hm1n5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmOgojWunFN5au3Ytp8mtm3X9ELN7DtGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59023565119-tqv9bo5li1u3uniqiqphi1j5462hm1n5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

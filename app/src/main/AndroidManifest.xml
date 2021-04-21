@@ -552,9 +552,9 @@
               android:theme="@style/Theme.Signal.DayNight.NoActionBar"
               android:configChanges="touchscreen|keyboard|keyboardHidden|orientation|screenLayout|screenSize" />
 
-    <activity android:name=".pin.PinRestoreActivity"
-              android:theme="@style/Theme.Signal.DayNight.NoActionBar"
-              android:configChanges="touchscreen|keyboard|keyboardHidden|orientation|screenLayout|screenSize" />
+<!--    <activity android:name=".pin.PinRestoreActivity"-->
+<!--              android:theme="@style/Theme.Signal.DayNight.NoActionBar"-->
+<!--              android:configChanges="touchscreen|keyboard|keyboardHidden|orientation|screenLayout|screenSize" />-->
 
     <activity android:name=".groups.ui.creategroup.CreateGroupActivity"
               android:theme="@style/Theme.Signal.DayNight.NoActionBar" />

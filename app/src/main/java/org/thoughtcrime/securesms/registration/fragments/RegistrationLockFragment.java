@@ -68,10 +68,10 @@ public final class RegistrationLockFragment extends BaseRegistrationFragment {
     keyboardToggle = view.findViewById(R.id.kbs_lock_keyboard_toggle);
     forgotPin      = view.findViewById(R.id.kbs_lock_forgot_pin);
 
-    RegistrationLockFragmentArgs args = RegistrationLockFragmentArgs.fromBundle(requireArguments());
-
-    timeRemaining        = args.getTimeRemaining();
-    isV1RegistrationLock = args.getIsV1RegistrationLock();
+//    RegistrationLockFragmentArgs args = RegistrationLockFragmentArgs.fromBundle(requireArguments());
+//
+//    timeRemaining        = args.getTimeRemaining();
+//    isV1RegistrationLock = args.getIsV1RegistrationLock();
 
     if (isV1RegistrationLock) {
       keyboardToggle.setVisibility(View.GONE);
@@ -278,7 +278,7 @@ public final class RegistrationLockFragment extends BaseRegistrationFragment {
   }
 
   private void onAccountLocked() {
-    Navigation.findNavController(requireView()).navigate(RegistrationLockFragmentDirections.actionAccountLocked());
+   // Navigation.findNavController(requireView()).navigate(RegistrationLockFragmentDirections.actionAccountLocked());
   }
 
   private void updateKeyboard(@NonNull PinKeyboardType keyboard) {
@@ -323,7 +323,7 @@ public final class RegistrationLockFragment extends BaseRegistrationFragment {
         Log.i(TAG, "Storage Service account restore failed to complete in the allotted time. (" + elapsedTime + " ms elapsed)");
       }
       cancelSpinning(pinButton);
-      Navigation.findNavController(requireView()).navigate(RegistrationLockFragmentDirections.actionSuccessfulRegistration());
+    //  Navigation.findNavController(requireView()).navigate(RegistrationLockFragmentDirections.actionSuccessfulRegistration());
     });
   }
 
