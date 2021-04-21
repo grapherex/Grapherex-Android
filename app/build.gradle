@@ -86,6 +86,7 @@ android {
         javaMaxHeapSize "4g"
     }
 
+
     signingConfigs {
         if (keystores.debug != null) {
             debug {
