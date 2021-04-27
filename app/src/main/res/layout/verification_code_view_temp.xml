@@ -2,9 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-
+    android:layout_gravity="center"
     android:layoutDirection="ltr">
 
     <TextView
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:textColor="@color/core_black"
-        android:textSize="24sp"
+        android:textSize="28sp"
         app:layout_constraintBottom_toTopOf="@+id/container_zero"
         app:layout_constraintEnd_toEndOf="@+id/container_zero"
         app:layout_constraintStart_toStartOf="@+id/container_zero"
@@ -21,15 +21,14 @@
 
     <View
         android:id="@+id/container_zero"
-        android:layout_width="0dp"
+        android:layout_width="40dp"
         android:layout_height="1dp"
         android:layout_gravity="bottom"
+        android:layout_marginTop="50dp"
         android:background="@color/core_black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/container_one"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintHorizontal_weight="1"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/code_one"
@@ -37,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:textColor="@color/core_black"
-        android:textSize="24sp"
+        android:textSize="28sp"
         app:layout_constraintBottom_toTopOf="@+id/container_one"
         app:layout_constraintEnd_toEndOf="@+id/container_one"
         app:layout_constraintStart_toStartOf="@+id/container_one"
@@ -45,16 +44,16 @@
 
     <View
         android:id="@+id/container_one"
-        android:layout_width="0dp"
+        android:layout_width="40dp"
         android:layout_height="1dp"
         android:layout_gravity="bottom"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="50dp"
         android:background="@color/core_black"
-        android:layout_marginStart="16dp"
-        app:layout_constraintEnd_toStartOf="@+id/container_two"
+        app:layout_constraintDimensionRatio="w,1:1"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintHorizontal_weight="1"
         app:layout_constraintStart_toEndOf="@+id/container_zero"
-        app:layout_constraintTop_toBottomOf="@+id/code_zero" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/code_two"
@@ -62,25 +61,34 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:textColor="@color/core_black"
-        android:textSize="24sp"
+        android:textSize="28sp"
         app:layout_constraintBottom_toTopOf="@+id/container_two"
         app:layout_constraintEnd_toEndOf="@+id/container_two"
         app:layout_constraintStart_toStartOf="@+id/container_two"
         tools:text="2" />
 
-
     <View
         android:id="@+id/container_two"
-        android:layout_width="0dp"
+        android:layout_width="40dp"
         android:layout_height="1dp"
         android:layout_gravity="bottom"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="50dp"
         android:background="@color/core_black"
-        app:layout_constraintEnd_toStartOf="@+id/container_three"
+        app:layout_constraintDimensionRatio="w,1:1"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintHorizontal_weight="1"
-        android:layout_marginStart="16dp"
         app:layout_constraintStart_toEndOf="@+id/container_one"
-        app:layout_constraintTop_toBottomOf="@+id/code_one" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Space
+        android:id="@+id/sSeparator"
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintDimensionRatio="w,1:1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/container_two"
+        app:layout_constraintTop_toTopOf="parent"/>
+
 
     <TextView
         android:id="@+id/code_three"
@@ -88,7 +96,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:textColor="@color/core_black"
-        android:textSize="24sp"
+        android:textSize="28sp"
         app:layout_constraintBottom_toTopOf="@+id/container_three"
         app:layout_constraintEnd_toEndOf="@+id/container_three"
         app:layout_constraintStart_toStartOf="@+id/container_three"
@@ -96,16 +104,16 @@
 
     <View
         android:id="@+id/container_three"
-        android:layout_width="0dp"
+        android:layout_width="40dp"
         android:layout_height="1dp"
         android:layout_gravity="bottom"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="50dp"
         android:background="@color/core_black"
-        app:layout_constraintEnd_toStartOf="@+id/container_four"
+        app:layout_constraintDimensionRatio="w,1:1"
         app:layout_constraintHorizontal_bias="0.5"
-        android:layout_marginStart="32dp"
-        app:layout_constraintHorizontal_weight="1"
-        app:layout_constraintStart_toEndOf="@+id/container_two"
-        app:layout_constraintTop_toBottomOf="@+id/code_two" />
+        app:layout_constraintStart_toEndOf="@+id/sSeparator"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/code_four"
@@ -113,7 +121,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:textColor="@color/core_black"
-        android:textSize="24sp"
+        android:textSize="28sp"
         app:layout_constraintBottom_toTopOf="@+id/container_four"
         app:layout_constraintEnd_toEndOf="@+id/container_four"
         app:layout_constraintStart_toStartOf="@+id/container_four"
@@ -121,16 +129,16 @@
 
     <View
         android:id="@+id/container_four"
-        android:layout_width="0dp"
+        android:layout_width="40dp"
         android:layout_height="1dp"
         android:layout_gravity="bottom"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="50dp"
         android:background="@color/core_black"
-        app:layout_constraintEnd_toStartOf="@+id/container_five"
+        app:layout_constraintDimensionRatio="w,1:1"
         app:layout_constraintHorizontal_bias="0.5"
-        android:layout_marginStart="16dp"
-        app:layout_constraintHorizontal_weight="1"
         app:layout_constraintStart_toEndOf="@+id/container_three"
-        app:layout_constraintTop_toBottomOf="@+id/code_three" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/code_five"
@@ -138,7 +146,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:textColor="@color/core_black"
-        android:textSize="24sp"
+        android:textSize="28sp"
         app:layout_constraintBottom_toTopOf="@+id/container_five"
         app:layout_constraintEnd_toEndOf="@+id/container_five"
         app:layout_constraintStart_toStartOf="@+id/container_five"
@@ -146,15 +154,15 @@
 
     <View
         android:id="@+id/container_five"
-        android:layout_width="0dp"
+        android:layout_width="40dp"
         android:layout_height="1dp"
-        android:layout_marginStart="16dp"
         android:layout_gravity="bottom"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="50dp"
         android:background="@color/core_black"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintDimensionRatio="w,1:1"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintHorizontal_weight="1"
         app:layout_constraintStart_toEndOf="@+id/container_four"
-        app:layout_constraintTop_toBottomOf="@+id/code_four" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

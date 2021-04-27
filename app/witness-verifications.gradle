@@ -213,14 +213,17 @@ dependencyVerification {
         ['com.davemorrissey.labs:subsampling-scale-image-view:3.6.0',
          '550c5baa07e0bb4ff0a18b705e96d34436d22619248bd8c08c08c730b1f55cfe'],
 
-        ['com.fasterxml.jackson.core:jackson-annotations:2.9.0',
-         '45d32ac61ef8a744b464c54c2b3414be571016dd46bfc2bec226761cf7ae457a'],
+        ['com.fasterxml.jackson.core:jackson-annotations:2.12.2',
+         '558561786c071af202e849b6ae3d39c87ed417ecc83d45e398c12eb3bffa557b'],
 
-        ['com.fasterxml.jackson.core:jackson-core:2.9.9',
-         '3083079be6088db2ed0a0c6ff92204e0aa48fa1de9db5b59c468f35acf882c2c'],
+        ['com.fasterxml.jackson.core:jackson-core:2.12.2',
+         '7883331763729b72735fdd8a117f32eb7d22695babfb37cc99df8392c196efc3'],
 
-        ['com.fasterxml.jackson.core:jackson-databind:2.9.9.2',
-         'fb262d42ea2de98044b62d393950a5aa050435fec38bbcadf2325cf7dc41b848'],
+        ['com.fasterxml.jackson.core:jackson-databind:2.12.2',
+         'c4002f861d8d33f3202bf8effabb53acc320c5276cc50c1bfaae73c36ce8db32'],
+
+        ['com.github.blongho:worldCountryData:1.5.2',
+         'e5a07cf5113483aefbf327ce099f2350c3f3806dc350b4369a6a8abc0c837d32'],
 
         ['com.github.bumptech.glide:annotations:4.11.0',
          'd219d238006d824962176229d4708abcdddcfe342c6a18a5d0fa48d6f0479b3e'],
@@ -235,7 +238,7 @@ dependencyVerification {
          '5c294e6a5f0f812cef876b8412954c1822da184af38e082a5b766e3c4f4fcd95'],
 
         ['com.github.chrisbanes:PhotoView:2.1.3',
-         'ed06775308da260e1fd86d1d3288988fcd3d80db24ce0d7c9fcfedc39e622292'],
+         '5af30effdb6734e166365f2b296407838c5c6b0a8106195f397b6a9834caf613'],
 
         ['com.github.dmytrodanylyk.circular-progress-button:library:1.1.3-S2',
          '8dc6a29a5a8db7b2ad5a9a7fda1dc9ae0893f4c8f0545732b2c63854ea693e8e'],
@@ -396,14 +399,17 @@ dependencyVerification {
         ['com.pnikosis:materialish-progress:1.5',
          'd71d80e00717a096784482aee21001a9d299fec3833e4ebd87739ed36cf77c54'],
 
-        ['com.squareup.okhttp3:okhttp:3.12.10',
-         '3cb8e21cd3ab10d390448f5a475c960732efab583a09c39f06f866a7ed819ebc'],
+        ['com.squareup.okhttp3:logging-interceptor:4.7.2',
+         '71c11949b9e065337b3e3c30cd7bddd131b63cf699e0bc8e251a186b50adfbff'],
+
+        ['com.squareup.okhttp3:okhttp:4.7.2',
+         '6b64ca1d2069751242984537d5de2cbe627ae000430f5117c47d8cb3d272facd'],
 
         ['com.squareup.okhttp:okhttp:2.7.4',
          'c88be9af1509d5aeec9394a818c0fa08e26fad9d64ba134e6f977e0bb20cb114'],
 
-        ['com.squareup.okio:okio:1.17.5',
-         '19a7ff48d86d3cf4497f7f250fbf295f430c13a528dd5b7b203f821802b886ad'],
+        ['com.squareup.okio:okio:2.6.0',
+         '4d84ef686277b58eb05691ac19cd3befa3429a27274982ee65ea0f07044bcc00'],
 
         ['com.takisoft.fix:colorpicker:0.9.1',
          'f5d0dbabe406a1800498ca9c1faf34db36e021d8488bf10360f29961fe3ab0d1'],
@@ -461,6 +467,18 @@ dependencyVerification {
 
         ['org.greenrobot:eventbus:3.0.0',
          '180d4212467df06f2fbc9c8d8a2984533ac79c87769ad883bc421612f0b4e17c'],
+
+        ['org.jetbrains.kotlin:kotlin-stdlib-common:1.4.32',
+         'e1ff6f55ee9e7591dcc633f7757bac25a7edb1cc7f738b37ec652f10f66a4145'],
+
+        ['org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.32',
+         '5f801e75ca27d8791c14b07943c608da27620d910a8093022af57f543d5d98b6'],
+
+        ['org.jetbrains.kotlin:kotlin-stdlib:1.4.32',
+         '13e9fd3e69dc7230ce0fc873a92a4e5d521d179bcf1bef75a6705baac3bfecba'],
+
+        ['org.jetbrains:annotations:13.0',
+         'ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478'],
 
         ['org.jsoup:jsoup:1.8.3',
          'abeaf34795a4de70f72aed6de5966d2955ec7eb348eeb813324f23c999575473'],

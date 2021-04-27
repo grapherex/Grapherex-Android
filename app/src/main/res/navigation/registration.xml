@@ -131,10 +131,8 @@
         android:label="fragment_enter_code"
         tools:layout="@layout/fragment_registration_enter_code">
 
-        <!--  app:destination="@id/registrationLockFragment"-->
         <action
             android:id="@+id/action_requireKbsLockPin"
-
             app:enterAnim="@anim/nav_default_enter_anim"
             app:exitAnim="@anim/nav_default_exit_anim"
             app:popEnterAnim="@anim/nav_default_pop_enter_anim"

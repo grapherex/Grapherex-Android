@@ -1,5 +1,7 @@
 package org.whispersystems.signalservice.internal.push;
 
+import org.jetbrains.annotations.NotNull;
+
 import java.io.IOException;
 import java.io.OutputStream;
 import java.nio.ByteBuffer;
@@ -172,5 +174,17 @@ public class NowhereBufferedSink implements BufferedSink {
   @Override
   public boolean isOpen() {
     return false;
+  }
+
+  @NotNull
+  @Override
+  public Buffer getBuffer() {
+    return null;
+  }
+
+  @NotNull
+  @Override
+  public BufferedSink write(@NotNull ByteString byteString, int i, int i1) throws IOException {
+    return null;
   }
 }

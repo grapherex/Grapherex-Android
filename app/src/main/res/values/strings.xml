@@ -1099,20 +1099,20 @@
 
     <!-- GV2 invitation revokes -->
     <plurals name="MessageRecord_you_revoked_invites">
-      <item quantity="one">You revoked an invitation to the group.</item>
-      <item quantity="other">You revoked %1$d invitations to the group.</item>
+        <item quantity="one">You revoked an invitation to the group.</item>
+        <item quantity="other">You revoked %1$d invitations to the group.</item>
     </plurals>
     <plurals name="MessageRecord_s_revoked_invites">
-      <item quantity="one">%1$s revoked an invitation to the group.</item>
-      <item quantity="other">%1$s revoked %2$d invitations to the group.</item>
+        <item quantity="one">%1$s revoked an invitation to the group.</item>
+        <item quantity="other">%1$s revoked %2$d invitations to the group.</item>
     </plurals>
     <string name="MessageRecord_someone_declined_an_invitation_to_the_group">Someone declined an invitation to the group.</string>
     <string name="MessageRecord_you_declined_the_invitation_to_the_group">You declined the invitation to the group.</string>
     <string name="MessageRecord_s_revoked_your_invitation_to_the_group">%1$s revoked your invitation to the group.</string>
     <string name="MessageRecord_an_admin_revoked_your_invitation_to_the_group">An admin revoked your invitation to the group.</string>
     <plurals name="MessageRecord_d_invitations_were_revoked">
-      <item quantity="one">An invitation to the group was revoked.</item>
-      <item quantity="other">%1$d invitations to the group were revoked.</item>
+        <item quantity="one">An invitation to the group was revoked.</item>
+        <item quantity="other">%1$d invitations to the group were revoked.</item>
     </plurals>
 
     <!-- GV2 invitation acceptance -->
@@ -2475,7 +2475,7 @@
     <string name="PaymentsAddMoneyFragment__copied_to_clipboard">Copied to clipboard</string>
     <string name="PaymentsAddMoneyFragment__to_add_funds">To add funds, send MobileCoin to your wallet address. Start a transaction from your account on an exchange that supports MobileCoin, then scan the QR code or copy your wallet address.</string>
     <string name="PaymentsAddMoneyFragment__learn_more__information" translatable="false">https://support.Grapherex.org/hc/articles/360057625692#payments_transfer_from_exchange</string>
-    
+
     <!-- PaymentsDetailsFragment -->
     <string name="PaymentsDetailsFragment__details">Details</string>
     <string name="PaymentsDetailsFragment__status">Status</string>
@@ -2843,8 +2843,8 @@
     <string name="CallNotificationBuilder_connecting">Connecting…</string>
     <string name="Permissions_permission_required">Permission required</string>
     <string name="ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms">Grapherex needs SMS permission in order to send an SMS, but it has been permanently denied. Please continue to app settings, select \"Permissions\" and enable \"SMS\".</string>
-    <string name="Permissions_continue">Continue</string>
-    <string name="Permissions_not_now">Not now</string>
+    <string name="Permissions_continue">ACCEPT</string>
+    <string name="Permissions_not_now">LATER</string>
     <string name="conversation_activity__enable_signal_messages">ENABLE Grapherex MESSAGES</string>
     <string name="SQLCipherMigrationHelper_migrating_signal_database">Migrating Grapherex database</string>
     <string name="PushDecryptJob_new_locked_message">New locked message</string>
@@ -3337,5 +3337,20 @@
     <string name="CanNotSendPaymentDialog__send_a_message">Send a message</string>
 
     <!-- EOF -->
+
+    <!-- WelcomeFragment -->
+    <string name="WelcomeFragment_sub_title">secure\ncrypto platform</string>
+    <string name="WelcomeFragment_btn_text">Registration</string>
+    <string name="WelcomeFragment_term_text"><u>User agreement</u></string>
+
+    <!-- EnterCodeFragment -->
+    <string name="EnterCodeFragment_toolbar_text">Confirmation code</string>
+    <string name="EnterCodeFragment_title_text">Enter code from SMS</string>
+    <string name="EnterCodeFragment_send_again"><u>Resend code</u></string>
+
+    <!-- EditProfileFragment -->
+    <string name="EditProfileFragment_input_name_title">Enter your name</string>
+    <string name="EditProfileFragment_input_name_hint">Enter</string>
+
 
 </resources>

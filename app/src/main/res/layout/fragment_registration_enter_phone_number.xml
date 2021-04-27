@@ -12,34 +12,57 @@
         android:layout_width="match_parent"
         android:layout_height="0dp">
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintTop_toTopOf="parent"/>
+        <!--        <androidx.appcompat.widget.Toolbar-->
+        <!--            android:id="@+id/toolbar"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            app:layout_constraintTop_toTopOf="parent"/>-->
 
-        <FrameLayout
-            android:id="@+id/country_spinner_frame"
+        <include
+            android:id="@+id/regArea"
+            layout="@layout/registration_top_area" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/verify_header"
+            style="@style/Signal.Text.Headline.Registration"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="56dp"
             android:layout_marginEnd="32dp"
-            android:background="@drawable/labeled_edit_text_background_inactive"
-
+            android:gravity="center"
+            android:text="@string/RegistrationActivity_enter_your_phone_number_to_get_started"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/verify_subheader">
+            app:layout_constraintTop_toBottomOf="@+id/regArea" />
 
-            <Spinner
-                android:id="@+id/country_spinner"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:padding="16dp"
-                android:textAlignment="viewStart" />
+        <Spinner
+            android:id="@+id/country_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="20dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:textAlignment="viewStart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/verify_header" />
 
-        </FrameLayout>
+        <View
+            android:id="@+id/vSpinnerSeparator"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="#DADDDF"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/country_spinner" />
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -52,7 +75,7 @@
             android:orientation="horizontal"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/country_spinner_frame">
+            app:layout_constraintTop_toBottomOf="@+id/vSpinnerSeparator">
 
             <org.thoughtcrime.securesms.components.LabeledEditText
                 android:id="@+id/country_code"
@@ -70,69 +93,49 @@
                 android:layout_weight="3"
                 app:labeledEditText_background="@color/white"
                 app:labeledEditText_label="@string/RegistrationActivity_phone_number_description"
-                app:labeledEditText_textLayout="@layout/phone_text" />
+                app:labeledEditText_textLayout="@layout/phone_text" >
+
+            </org.thoughtcrime.securesms.components.LabeledEditText>
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/verify_header"
-            style="@style/Signal.Text.Headline.Registration"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginStart="32dp"
-            android:layout_marginEnd="32dp"
-            android:gravity="center"
-            android:text="@string/RegistrationActivity_enter_your_phone_number_to_get_started"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/toolbar" />
-
-        <TextView
-            android:id="@+id/verify_subheader"
-            style="@style/Signal.Text.Body.Registration"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="32dp"
-            android:gravity="center"
-            android:text="@string/RegistrationActivity_you_will_receive_a_verification_code"
-            app:layout_constraintTop_toBottomOf="@+id/verify_header"
-            tools:layout_editor_absoluteX="0dp" />
-
-        <Button
-            android:id="@+id/cancel_button"
-            style="@style/Button.Borderless.Registration"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:text="@android:string/cancel"
-            android:textColor="@color/core_grey_60"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/registerButton"
-            app:layout_constraintVertical_bias="0" />
-
-        <com.dd.CircularProgressButton
+        <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/registerButton"
-            style="@style/Button.Registration"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="32dp"
-            android:layout_marginBottom="16dp"
-            app:cpb_textIdle="@string/RegistrationActivity_next"
+            android:layout_marginStart="69dp"
+            android:layout_marginEnd="69dp"
+            android:layout_marginBottom="122dp"
+            android:background="@drawable/reg_bg_next_selector"
+            android:gravity="center"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp"
+            android:enabled="false"
+            android:text="@string/RegistrationActivity_next"
+            android:textColor="@color/reg_bg_next_text_color_selector"
+            android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-            app:layout_constraintVertical_bias="0" />
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/registerButton"
+            app:layout_constraintEnd_toEndOf="@+id/registerButton"
+            app:layout_constraintTop_toTopOf="@+id/registerButton"
+            app:srcCompat="@drawable/ic_green_circle_arrow" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivCountryFlag"
+            android:layout_width="32dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="36dp"
+            android:src="@drawable/se"
+            app:layout_constraintBottom_toBottomOf="@+id/country_spinner"
+            app:layout_constraintEnd_toEndOf="@+id/country_spinner"
+            app:layout_constraintTop_toTopOf="@+id/country_spinner" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:tools="http://schemas.android.com/tools"
-              android:orientation="vertical"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
-    <LinearLayout android:id="@+id/header_container"
-                  android:background="@color/core_ultramarine"
-                  android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:orientation="horizontal"
-                  android:gravity="center"
-                  android:padding="40dp">
+    <include
+        android:id="@+id/regArea"
+        layout="@layout/registration_top_area" />
 
-    </LinearLayout>
-
-    <TextView android:id="@+id/message"
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:paddingTop="40dp"
-              android:paddingBottom="40dp"
-              android:paddingStart="20dp"
-              android:paddingEnd="20dp"
-              android:textSize="15sp"
-              android:lineSpacingMultiplier="1.3"
-              tools:text="Signal needs access to your contacts and media in order to connect with friends, exchange messages, and make secure calls."/>
-
-</LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regArea"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Grapherex Необходим доступ к вашим контактам, чтобы вы могли связаться с друзьями, обмениваться сообщениями и совершаться защищенные звонки" />
+</androidx.constraintlayout.widget.ConstraintLayout>
