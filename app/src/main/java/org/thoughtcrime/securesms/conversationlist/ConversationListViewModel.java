@@ -127,7 +127,7 @@ class ConversationListViewModel extends ViewModel {
   }
 
   void onVisible() {
-    megaphoneRepository.getNextMegaphone(megaphone::postValue);
+   // megaphoneRepository.getNextMegaphone(megaphone::postValue);
 
     if (!coldStart) {
       ApplicationDependencies.getDatabaseObserver().notifyConversationListListeners();

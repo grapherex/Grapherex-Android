@@ -491,7 +491,7 @@
 
     <activity android:name=".profiles.edit.EditProfileActivity"
               android:theme="@style/TextSecure.LightRegistrationTheme"
-              android:windowSoftInputMode="stateVisible|adjustResize" />
+              android:windowSoftInputMode="stateVisible|adjustPan" />
 
     <activity android:name=".profiles.manage.ManageProfileActivity"
               android:theme="@style/TextSecure.LightTheme"

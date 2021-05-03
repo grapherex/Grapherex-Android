@@ -6,7 +6,6 @@ import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ScrollView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -42,8 +41,6 @@ public final class EnterCodeFragment extends BaseRegistrationFragment
         implements SignalStrengthPhoneStateListener.Callback {
 
     private static final String TAG = Log.tag(EnterCodeFragment.class);
-
-    private ScrollView scrollView;
 
     private VerificationCodeView verificationCodeView;
     private VerificationPinKeyboard keyboard;
@@ -86,8 +83,6 @@ public final class EnterCodeFragment extends BaseRegistrationFragment
 
         setDebugLogSubmitMultiTapView(view.findViewById(R.id.verify_header));
 
-        scrollView = view.findViewById(R.id.scroll_view);
-
         verificationCodeView = view.findViewById(R.id.code);
         keyboard = view.findViewById(R.id.keyboard);
 
@@ -99,13 +94,6 @@ public final class EnterCodeFragment extends BaseRegistrationFragment
         setOnCodeFullyEnteredListener(verificationCodeView);
 
         RegistrationViewModel model = getModel();
-        model.getSuccessfulCodeRequestAttempts().observe(getViewLifecycleOwner(), (attempts) -> {
-            if (attempts >= 3) {
-
-                // scrollView.postDelayed(() -> scrollView.smoothScrollTo(0, noCodeReceivedHelp.getBottom()), 15000);
-            }
-        });
-
         model.onStartEnterCode();
     }
 
