@@ -51,11 +51,14 @@ import androidx.annotation.WorkerThread;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.view.ActionMode;
+import androidx.appcompat.widget.AppCompatTextView;
 import androidx.appcompat.widget.Toolbar;
 import androidx.appcompat.widget.TooltipCompat;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.ConstraintSet;
 import androidx.core.content.res.ResourcesCompat;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.DialogFragment;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.ItemTouchHelper;
@@ -64,6 +67,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.transition.TransitionManager;
 
 import com.annimon.stream.Stream;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
 import org.greenrobot.eventbus.EventBus;
@@ -116,6 +120,8 @@ import org.thoughtcrime.securesms.payments.preferences.PaymentsActivity;
 import org.thoughtcrime.securesms.payments.preferences.details.PaymentDetailsFragmentArgs;
 import org.thoughtcrime.securesms.payments.preferences.details.PaymentDetailsParcelable;
 import org.thoughtcrime.securesms.permissions.Permissions;
+import org.thoughtcrime.securesms.phonenumbers.PhoneNumberFormatter;
+import org.thoughtcrime.securesms.profiles.manage.ManageProfileActivity;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.service.KeyCachingService;
 import org.thoughtcrime.securesms.sms.MessageSender;
@@ -150,1133 +156,1206 @@ import static android.app.Activity.RESULT_OK;
 
 
 public class ConversationListFragment extends MainFragment implements ActionMode.Callback,
-                                                                      ConversationListAdapter.OnConversationClickListener,
-                                                                      ConversationListSearchAdapter.EventListener,
-                                                                      MainNavigator.BackHandler,
-                                                                      MegaphoneActionController
-{
-  public static final short MESSAGE_REQUESTS_REQUEST_CODE_CREATE_NAME = 32562;
-  public static final short SMS_ROLE_REQUEST_CODE                     = 32563;
+        ConversationListAdapter.OnConversationClickListener,
+        ConversationListSearchAdapter.EventListener,
+        MainNavigator.BackHandler,
+        MegaphoneActionController {
+    public static final short MESSAGE_REQUESTS_REQUEST_CODE_CREATE_NAME = 32562;
+    public static final short SMS_ROLE_REQUEST_CODE = 32563;
 
-  private static final String TAG = Log.tag(ConversationListFragment.class);
+    private static final String TAG = Log.tag(ConversationListFragment.class);
 
-  private static final int MAXIMUM_PINNED_CONVERSATIONS = 4;
+    private static final int MAXIMUM_PINNED_CONVERSATIONS = 4;
 
-  private ActionMode                        actionMode;
-  private ConstraintLayout                  constraintLayout;
-  private RecyclerView                      list;
-  private Stub<ReminderView>                reminderView;
-  private Stub<UnreadPaymentsView>          paymentNotificationView;
-  private Stub<ViewGroup>                   emptyState;
-  private TextView                          searchEmptyState;
-  private PulsingFloatingActionButton       fab;
-  private PulsingFloatingActionButton       cameraFab;
-  private Stub<SearchToolbar>               searchToolbar;
-  private ImageView                         proxyStatus;
-  private ImageView                         searchAction;
-  private View                              toolbarShadow;
-  private View                              unreadPaymentsDot;
-  private ConversationListViewModel         viewModel;
-  private RecyclerView.Adapter              activeAdapter;
-  private ConversationListAdapter           defaultAdapter;
-  private ConversationListSearchAdapter     searchAdapter;
-  private StickyHeaderDecoration            searchAdapterDecoration;
-  private Stub<ViewGroup>                   megaphoneContainer;
-  private SnapToTopDataObserver             snapToTopDataObserver;
-  private Drawable                          archiveDrawable;
-  private AppForegroundObserver.Listener    appForegroundObserver;
+    private ActionMode actionMode;
+    private ConstraintLayout constraintLayout;
+    private DrawerLayout drawerLayout;
+    private RecyclerView list;
+    private Stub<ReminderView> reminderView;
+    private Stub<UnreadPaymentsView> paymentNotificationView;
+    private Stub<ViewGroup> emptyState;
+    private TextView searchEmptyState;
+    private FloatingActionButton fab;
+    private PulsingFloatingActionButton cameraFab;
+    private Stub<SearchToolbar> searchToolbar;
+    private ImageView proxyStatus;
+    private ImageView searchAction;
+    private View toolbarShadow;
+    private View unreadPaymentsDot;
+    private ConversationListViewModel viewModel;
+    private RecyclerView.Adapter activeAdapter;
+    private ConversationListAdapter defaultAdapter;
+    private ConversationListSearchAdapter searchAdapter;
+    private StickyHeaderDecoration searchAdapterDecoration;
+    private Stub<ViewGroup> megaphoneContainer;
+    private SnapToTopDataObserver snapToTopDataObserver;
+    private Drawable archiveDrawable;
+    private AppForegroundObserver.Listener appForegroundObserver;
 
-  private Stopwatch startupStopwatch;
+    private Stopwatch startupStopwatch;
 
-  public static ConversationListFragment newInstance() {
-    return new ConversationListFragment();
-  }
-
-  @Override
-  public void onCreate(Bundle icicle) {
-    super.onCreate(icicle);
-    setHasOptionsMenu(true);
-    startupStopwatch = new Stopwatch("startup");
-  }
-
-  @Override
-  public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle bundle) {
-    return inflater.inflate(R.layout.conversation_list_fragment, container, false);
-  }
-
-  @Override
-  public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-    constraintLayout        = view.findViewById(R.id.constraint_layout);
-    list                    = view.findViewById(R.id.list);
-    fab                     = view.findViewById(R.id.fab);
-    cameraFab               = view.findViewById(R.id.camera_fab);
-    searchEmptyState        = view.findViewById(R.id.search_no_results);
-    searchAction            = view.findViewById(R.id.search_action);
-    toolbarShadow           = view.findViewById(R.id.conversation_list_toolbar_shadow);
-    proxyStatus             = view.findViewById(R.id.conversation_list_proxy_status);
-    unreadPaymentsDot       = view.findViewById(R.id.unread_payments_indicator);
-    reminderView            = new Stub<>(view.findViewById(R.id.reminder));
-    emptyState              = new Stub<>(view.findViewById(R.id.empty_state));
-    searchToolbar           = new Stub<>(view.findViewById(R.id.search_toolbar));
-    megaphoneContainer      = new Stub<>(view.findViewById(R.id.megaphone_container));
-    paymentNotificationView = new Stub<>(view.findViewById(R.id.payments_notification));
-
-    Toolbar toolbar = getToolbar(view);
-    toolbar.setVisibility(View.VISIBLE);
-    ((AppCompatActivity) requireActivity()).setSupportActionBar(toolbar);
-
-    proxyStatus.setOnClickListener(v -> onProxyStatusClicked());
-
-    fab.show();
-    cameraFab.show();
-
-    list.setLayoutManager(new LinearLayoutManager(requireActivity()));
-    list.setItemAnimator(new DeleteItemAnimator());
-    list.addOnScrollListener(new ScrollListener());
-
-    snapToTopDataObserver = new SnapToTopDataObserver(list);
-
-    new ItemTouchHelper(new ArchiveListenerCallback()).attachToRecyclerView(list);
-
-    fab.setOnClickListener(v -> startActivity(new Intent(getActivity(), NewConversationActivity.class)));
-    cameraFab.setOnClickListener(v -> {
-      Permissions.with(requireActivity())
-                 .request(Manifest.permission.CAMERA)
-                 .ifNecessary()
-                 .withRationaleDialog(getString(R.string.ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera), R.drawable.ic_camera_24)
-                 .withPermanentDenialDialog(getString(R.string.ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video))
-                 .onAllGranted(() -> startActivity(MediaSendActivity.buildCameraFirstIntent(requireActivity())))
-                 .onAnyDenied(() -> Toast.makeText(requireContext(), R.string.ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video, Toast.LENGTH_LONG).show())
-                 .execute();
-    });
-
-    initializeViewModel();
-    initializeListAdapters();
-    initializeTypingObserver();
-    initializeSearchListener();
-
-    RatingManager.showRatingDialogIfNecessary(requireContext());
-
-    TooltipCompat.setTooltipText(searchAction, getText(R.string.SearchToolbar_search_for_conversations_contacts_and_messages));
-  }
-
-  @Override
-  public void onResume() {
-    super.onResume();
-
-    updateReminders();
-    EventBus.getDefault().register(this);
-
-    if (TextSecurePreferences.isSmsEnabled(requireContext())) {
-      InsightsLauncher.showInsightsModal(requireContext(), requireFragmentManager());
+    public static ConversationListFragment newInstance() {
+        return new ConversationListFragment();
     }
 
-    SimpleTask.run(getViewLifecycleOwner().getLifecycle(), Recipient::self, this::initializeProfileIcon);
-
-    if ((!searchToolbar.resolved() || !searchToolbar.get().isVisible()) && list.getAdapter() != defaultAdapter) {
-      list.removeItemDecoration(searchAdapterDecoration);
-      setAdapter(defaultAdapter);
+    @Override
+    public void onCreate(Bundle icicle) {
+        super.onCreate(icicle);
+        // setHasOptionsMenu(true);
+        startupStopwatch = new Stopwatch("startup");
     }
 
-    if (activeAdapter != null) {
-      activeAdapter.notifyDataSetChanged();
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle bundle) {
+        return inflater.inflate(R.layout.conversation_list_fragment_temp, container, false);
     }
 
-    SignalProxyUtil.startListeningToWebsocket();
-  }
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        drawerLayout = view.findViewById(R.id.drawer);
+        constraintLayout = view.findViewById(R.id.constraint_layout);
+        list = view.findViewById(R.id.list);
+        fab = view.findViewById(R.id.fab);
+        cameraFab = view.findViewById(R.id.camera_fab);
+        searchEmptyState = view.findViewById(R.id.search_no_results);
+        searchAction = view.findViewById(R.id.search_action);
+        toolbarShadow = view.findViewById(R.id.conversation_list_toolbar_shadow);
+        proxyStatus = view.findViewById(R.id.conversation_list_proxy_status);
+        unreadPaymentsDot = view.findViewById(R.id.unread_payments_indicator);
+        reminderView = new Stub<>(view.findViewById(R.id.reminder));
+        emptyState = new Stub<>(view.findViewById(R.id.empty_state));
+        searchToolbar = new Stub<>(view.findViewById(R.id.search_toolbar));
+        megaphoneContainer = new Stub<>(view.findViewById(R.id.megaphone_container));
+        paymentNotificationView = new Stub<>(view.findViewById(R.id.payments_notification));
 
-  @Override
-  public void onStart() {
-    super.onStart();
-    ConversationFragment.prepare(requireContext());
-    ApplicationDependencies.getAppForegroundObserver().addListener(appForegroundObserver);
-  }
+        Toolbar toolbar = getToolbar(view);
+        toolbar.setVisibility(View.VISIBLE);
+        ((AppCompatActivity) requireActivity()).setSupportActionBar(toolbar);
 
-  @Override
-  public void onPause() {
-    super.onPause();
+        proxyStatus.setOnClickListener(v -> onProxyStatusClicked());
 
-    fab.stopPulse();
-    cameraFab.stopPulse();
-    EventBus.getDefault().unregister(this);
-  }
+        requireView().findViewById(R.id.ivBurger).setOnClickListener(v -> drawerLayout.openDrawer(GravityCompat.START));
 
-  @Override
-  public void onStop() {
-    super.onStop();
-    ApplicationDependencies.getAppForegroundObserver().removeListener(appForegroundObserver);
-  }
+        fab.show();
+        cameraFab.hide();
 
-  @Override
-  public void onCreateOptionsMenu(@NonNull Menu menu, @NonNull MenuInflater inflater) {
-    menu.clear();
-    inflater.inflate(R.menu.text_secure_normal, menu);
-  }
+        list.setLayoutManager(new LinearLayoutManager(requireActivity()));
+        list.setItemAnimator(new DeleteItemAnimator());
+        list.addOnScrollListener(new ScrollListener());
 
-  @Override
-  public void onPrepareOptionsMenu(Menu menu) {
-    menu.findItem(R.id.menu_insights).setVisible(TextSecurePreferences.isSmsEnabled(requireContext()));
-    menu.findItem(R.id.menu_clear_passphrase).setVisible(!TextSecurePreferences.isPasswordDisabled(requireContext()));
-  }
+        snapToTopDataObserver = new SnapToTopDataObserver(list);
 
-  @Override
-  public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-    super.onOptionsItemSelected(item);
+        new ItemTouchHelper(new ArchiveListenerCallback()).attachToRecyclerView(list);
 
-    switch (item.getItemId()) {
-      case R.id.menu_new_group:         handleCreateGroup();     return true;
-      case R.id.menu_settings:          handleDisplaySettings(); return true;
-      case R.id.menu_clear_passphrase:  handleClearPassphrase(); return true;
-      case R.id.menu_mark_all_read:     handleMarkAllRead();     return true;
-      case R.id.menu_invite:            handleInvite();          return true;
-      case R.id.menu_insights:          handleInsights();        return true;
-    }
-
-    return false;
-  }
-
-  @Override
-  public boolean onBackPressed() {
-    return closeSearchIfOpen();
-  }
-
-  private boolean closeSearchIfOpen() {
-    if ((searchToolbar.resolved() && searchToolbar.get().isVisible()) || activeAdapter == searchAdapter) {
-      list.removeItemDecoration(searchAdapterDecoration);
-      setAdapter(defaultAdapter);
-      searchToolbar.get().collapse();
-      return true;
-    }
-
-    return false;
-  }
-
-  @Override
-  public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-    if (resultCode != RESULT_OK) {
-      return;
-    }
-
-    if (requestCode == CreateKbsPinActivity.REQUEST_NEW_PIN) {
-      Snackbar.make(fab, R.string.ConfirmKbsPinFragment__pin_created, Snackbar.LENGTH_LONG).setTextColor(Color.WHITE).show();
-      viewModel.onMegaphoneCompleted(Megaphones.Event.PINS_FOR_ALL);
-    }
-  }
-
-  @Override
-  public void onConversationClicked(@NonNull ThreadRecord threadRecord) {
-    hideKeyboard();
-    getNavigator().goToConversation(threadRecord.getRecipient().getId(),
-                                    threadRecord.getThreadId(),
-                                    threadRecord.getDistributionType(),
-                                    -1);
-  }
-
-  @Override
-  public void onShowArchiveClick() {
-    getNavigator().goToArchiveList();
-  }
-
-  @Override
-  public void onContactClicked(@NonNull Recipient contact) {
-    SimpleTask.run(getViewLifecycleOwner().getLifecycle(), () -> {
-      return DatabaseFactory.getThreadDatabase(getContext()).getThreadIdIfExistsFor(contact.getId());
-    }, threadId -> {
-      hideKeyboard();
-      getNavigator().goToConversation(contact.getId(),
-                                      threadId,
-                                      ThreadDatabase.DistributionTypes.DEFAULT,
-                                      -1);
-    });
-  }
-
-  @Override
-  public void onMessageClicked(@NonNull MessageResult message) {
-    SimpleTask.run(getViewLifecycleOwner().getLifecycle(), () -> {
-      int startingPosition = DatabaseFactory.getMmsSmsDatabase(getContext()).getMessagePositionInConversation(message.threadId, message.receivedTimestampMs);
-      return Math.max(0, startingPosition);
-    }, startingPosition -> {
-      hideKeyboard();
-      getNavigator().goToConversation(message.conversationRecipient.getId(),
-                                      message.threadId,
-                                      ThreadDatabase.DistributionTypes.DEFAULT,
-                                      startingPosition);
-    });
-  }
-
-  @Override
-  public void onMegaphoneNavigationRequested(@NonNull Intent intent) {
-    startActivity(intent);
-  }
-
-  @Override
-  public void onMegaphoneNavigationRequested(@NonNull Intent intent, int requestCode) {
-    startActivityForResult(intent, requestCode);
-  }
-
-  @Override
-  public void onMegaphoneToastRequested(@NonNull String string) {
-    Snackbar.make(fab, string, Snackbar.LENGTH_LONG)
-            .setTextColor(Color.WHITE)
-            .show();
-  }
-
-  @Override
-  public @NonNull Activity getMegaphoneActivity() {
-    return requireActivity();
-  }
-
-  @Override
-  public void onMegaphoneSnooze(@NonNull Megaphones.Event event) {
-    viewModel.onMegaphoneSnoozed(event);
-  }
-
-  @Override
-  public void onMegaphoneCompleted(@NonNull Megaphones.Event event) {
-    viewModel.onMegaphoneCompleted(event);
-  }
-
-  @Override
-  public void onMegaphoneDialogFragmentRequested(@NonNull DialogFragment dialogFragment) {
-    dialogFragment.show(getChildFragmentManager(), "megaphone_dialog");
-  }
-
-  private void initializeReminderView() {
-    reminderView.get().setOnDismissListener(this::updateReminders);
-    reminderView.get().setOnActionClickListener(this::onReminderAction);
-  }
-
-  private void onReminderAction(@IdRes int reminderActionId) {
-    if (reminderActionId == R.id.reminder_action_update_now) {
-      PlayStoreUtil.openPlayStoreOrOurApkDownloadPage(requireContext());
-    }
-  }
-
-  private void hideKeyboard() {
-    InputMethodManager imm = ServiceUtil.getInputMethodManager(requireContext());
-    imm.hideSoftInputFromWindow(requireView().getWindowToken(), 0);
-  }
-
-  private void initializeProfileIcon(@NonNull Recipient recipient) {
-    ImageView icon = requireView().findViewById(R.id.toolbar_icon);
-
-    AvatarUtil.loadIconIntoImageView(recipient, icon);
-    icon.setOnClickListener(v -> getNavigator().goToAppSettings());
-  }
-
-  private void initializeSearchListener() {
-    searchAction.setOnClickListener(v -> {
-      searchToolbar.get().display(searchAction.getX() + (searchAction.getWidth() / 2.0f),
-                                  searchAction.getY() + (searchAction.getHeight() / 2.0f));
-
-      searchToolbar.get().setListener(new SearchToolbar.SearchListener() {
-        @Override
-        public void onSearchTextChange(String text) {
-          String trimmed = text.trim();
-
-          viewModel.updateQuery(trimmed);
-
-          if (trimmed.length() > 0) {
-            if (activeAdapter != searchAdapter) {
-              setAdapter(searchAdapter);
-              list.removeItemDecoration(searchAdapterDecoration);
-              list.addItemDecoration(searchAdapterDecoration);
-            }
-          } else {
-            if (activeAdapter != defaultAdapter) {
-              list.removeItemDecoration(searchAdapterDecoration);
-              setAdapter(defaultAdapter);
-            }
-          }
-        }
-
-        @Override
-        public void onSearchClosed() {
-          list.removeItemDecoration(searchAdapterDecoration);
-          setAdapter(defaultAdapter);
-        }
-      });
-    });
-  }
-
-  private void initializeListAdapters() {
-    defaultAdapter          = new ConversationListAdapter(GlideApp.with(this), this);
-    searchAdapter           = new ConversationListSearchAdapter(GlideApp.with(this), this, Locale.getDefault());
-    searchAdapterDecoration = new StickyHeaderDecoration(searchAdapter, false, false, 0);
-
-    setAdapter(defaultAdapter);
-
-    defaultAdapter.registerAdapterDataObserver(new RecyclerView.AdapterDataObserver() {
-      @Override
-      public void onItemRangeInserted(int positionStart, int itemCount) {
-        startupStopwatch.split("data-set");
-        defaultAdapter.unregisterAdapterDataObserver(this);
-        list.post(() -> {
-          AppStartup.getInstance().onCriticalRenderEventEnd();
-          startupStopwatch.split("first-render");
-          startupStopwatch.stop(TAG);
+        fab.setOnClickListener(v -> startActivity(new Intent(getActivity(), NewConversationActivity.class)));
+        cameraFab.setOnClickListener(v -> {
+            Permissions.with(requireActivity())
+                    .request(Manifest.permission.CAMERA)
+                    .ifNecessary()
+                    .withRationaleDialog(getString(R.string.ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera), R.drawable.ic_camera_24)
+                    .withPermanentDenialDialog(getString(R.string.ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video))
+                    .onAllGranted(() -> startActivity(MediaSendActivity.buildCameraFirstIntent(requireActivity())))
+                    .onAnyDenied(() -> Toast.makeText(requireContext(), R.string.ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video, Toast.LENGTH_LONG).show())
+                    .execute();
         });
-      }
-    });
-  }
 
-  @SuppressWarnings("rawtypes")
-  private void setAdapter(@NonNull RecyclerView.Adapter adapter) {
-    RecyclerView.Adapter oldAdapter = activeAdapter;
+        initializeViewModel();
+        initializeListAdapters();
+        initializeTypingObserver();
+        initializeSearchListener();
+        initDrawerMenuItems();
 
-    activeAdapter = adapter;
+        RatingManager.showRatingDialogIfNecessary(requireContext());
 
-    if (oldAdapter == activeAdapter) {
-      return;
+        TooltipCompat.setTooltipText(searchAction, getText(R.string.SearchToolbar_search_for_conversations_contacts_and_messages));
     }
 
-    if (adapter instanceof ConversationListAdapter) {
-      ((ConversationListAdapter) adapter).setPagingController(viewModel.getPagingController());
-    }
+    @Override
+    public void onResume() {
+        super.onResume();
 
-    list.setAdapter(adapter);
+        updateReminders();
+        EventBus.getDefault().register(this);
 
-    if (adapter == defaultAdapter) {
-      defaultAdapter.registerAdapterDataObserver(snapToTopDataObserver);
-    } else {
-      defaultAdapter.unregisterAdapterDataObserver(snapToTopDataObserver);
-    }
-  }
-
-  private void initializeTypingObserver() {
-    ApplicationDependencies.getTypingStatusRepository().getTypingThreads().observe(getViewLifecycleOwner(), threadIds -> {
-      if (threadIds == null) {
-        threadIds = Collections.emptySet();
-      }
-
-      defaultAdapter.setTypingThreads(threadIds);
-    });
-  }
-
-  protected boolean isArchived() {
-    return false;
-  }
-
-  private void initializeViewModel() {
-    viewModel = ViewModelProviders.of(this, new ConversationListViewModel.Factory(isArchived())).get(ConversationListViewModel.class);
-
-    viewModel.getSearchResult().observe(getViewLifecycleOwner(), this::onSearchResultChanged);
-    viewModel.getMegaphone().observe(getViewLifecycleOwner(), this::onMegaphoneChanged);
-    viewModel.getConversationList().observe(getViewLifecycleOwner(), this::onSubmitList);
-    viewModel.hasNoConversations().observe(getViewLifecycleOwner(), this::updateEmptyState);
-    viewModel.getPipeState().observe(getViewLifecycleOwner(), this::updateProxyStatus);
-
-    appForegroundObserver = new AppForegroundObserver.Listener() {
-      @Override
-      public void onForeground() {
-        viewModel.onVisible();
-      }
-
-      @Override
-      public void onBackground() { }
-    };
-
-    viewModel.getUnreadPaymentsLiveData().observe(getViewLifecycleOwner(), this::onUnreadPaymentsChanged);
-  }
-
-  private void onUnreadPaymentsChanged(@NonNull Optional<UnreadPayments> unreadPayments) {
-    if (unreadPayments.isPresent()) {
-      paymentNotificationView.get().setListener(new PaymentNotificationListener(unreadPayments.get()));
-      paymentNotificationView.get().setUnreadPayments(unreadPayments.get());
-      animatePaymentUnreadStatusIn();
-    } else {
-      animatePaymentUnreadStatusOut();
-    }
-  }
-
-  private void animatePaymentUnreadStatusIn() {
-    animatePaymentUnreadStatus(ConstraintSet.VISIBLE);
-    unreadPaymentsDot.animate().alpha(1);
-  }
-
-  private void animatePaymentUnreadStatusOut() {
-    if (paymentNotificationView.resolved()) {
-      animatePaymentUnreadStatus(ConstraintSet.GONE);
-    }
-
-    unreadPaymentsDot.animate().alpha(0);
-  }
-
-  private void animatePaymentUnreadStatus(int constraintSetVisibility) {
-    paymentNotificationView.get();
-
-    TransitionManager.beginDelayedTransition(constraintLayout);
-
-    ConstraintSet currentLayout = new ConstraintSet();
-    currentLayout.clone(constraintLayout);
-
-    currentLayout.setVisibility(R.id.payments_notification, constraintSetVisibility);
-    currentLayout.applyTo(constraintLayout);
-  }
-
-  private void onSearchResultChanged(@Nullable SearchResult result) {
-    result = result != null ? result : SearchResult.EMPTY;
-    searchAdapter.updateResults(result);
-
-    if (result.isEmpty() && activeAdapter == searchAdapter) {
-      searchEmptyState.setText(getString(R.string.SearchFragment_no_results, result.getQuery()));
-      searchEmptyState.setVisibility(View.VISIBLE);
-    } else {
-      searchEmptyState.setVisibility(View.GONE);
-    }
-  }
-
-  private void onMegaphoneChanged(@Nullable Megaphone megaphone) {
-    if (megaphone == null) {
-      if (megaphoneContainer.resolved()) {
-        megaphoneContainer.get().setVisibility(View.GONE);
-        megaphoneContainer.get().removeAllViews();
-      }
-      return;
-    }
-
-    View view = MegaphoneViewBuilder.build(requireContext(), megaphone, this);
-
-    megaphoneContainer.get().removeAllViews();
-
-    if (view != null) {
-      megaphoneContainer.get().addView(view);
-      megaphoneContainer.get().setVisibility(View.VISIBLE);
-    } else {
-      megaphoneContainer.get().setVisibility(View.GONE);
-
-      if (megaphone.getOnVisibleListener() != null) {
-        megaphone.getOnVisibleListener().onEvent(megaphone, this);
-      }
-    }
-
-    viewModel.onMegaphoneVisible(megaphone);
-  }
-
-  private void updateReminders() {
-    Context context = requireContext();
-
-    SimpleTask.run(getViewLifecycleOwner().getLifecycle(), () -> {
-      if (UnauthorizedReminder.isEligible(context)) {
-        return Optional.of(new UnauthorizedReminder(context));
-      } else if (ExpiredBuildReminder.isEligible()) {
-        return Optional.of(new ExpiredBuildReminder(context));
-      } else if (ServiceOutageReminder.isEligible(context)) {
-        ApplicationDependencies.getJobManager().add(new ServiceOutageDetectionJob());
-        return Optional.of(new ServiceOutageReminder(context));
-      } else if (OutdatedBuildReminder.isEligible()) {
-        return Optional.of(new OutdatedBuildReminder(context));
-      } else if (PushRegistrationReminder.isEligible(context)) {
-        return Optional.of((new PushRegistrationReminder(context)));
-      } else if (DozeReminder.isEligible(context)) {
-        return Optional.of(new DozeReminder(context));
-      } else {
-        return Optional.<Reminder>absent();
-      }
-    }, reminder -> {
-      if (reminder.isPresent() && getActivity() != null && !isRemoving()) {
-        if (!reminderView.resolved()) {
-          initializeReminderView();
+        if (TextSecurePreferences.isSmsEnabled(requireContext())) {
+            InsightsLauncher.showInsightsModal(requireContext(), requireFragmentManager());
         }
-        reminderView.get().showReminder(reminder.get());
-      } else if (reminderView.resolved() && !reminder.isPresent()) {
-        reminderView.get().hide();
-      }
-    });
-  }
 
-  private void handleCreateGroup() {
-    getNavigator().goToGroupCreation();
-  }
+        SimpleTask.run(getViewLifecycleOwner().getLifecycle(), Recipient::self, this::initializeProfileInfo);
 
-  private void handleDisplaySettings() {
-    getNavigator().goToAppSettings();
-  }
-
-  private void handleClearPassphrase() {
-    Intent intent = new Intent(requireActivity(), KeyCachingService.class);
-    intent.setAction(KeyCachingService.CLEAR_KEY_ACTION);
-    requireActivity().startService(intent);
-  }
-
-  private void handleMarkAllRead() {
-    Context context = requireContext();
-
-    SignalExecutors.BOUNDED.execute(() -> {
-      List<MarkedMessageInfo> messageIds = DatabaseFactory.getThreadDatabase(context).setAllThreadsRead();
-
-      ApplicationDependencies.getMessageNotifier().updateNotification(context);
-      MarkReadReceiver.process(context, messageIds);
-    });
-  }
-
-  private void handleMarkSelectedAsRead() {
-    Context   context               = requireContext();
-    Set<Long> selectedConversations = new HashSet<>(defaultAdapter.getBatchSelectionIds());
-
-    SimpleTask.run(getViewLifecycleOwner().getLifecycle(), () -> {
-      List<MarkedMessageInfo> messageIds = DatabaseFactory.getThreadDatabase(context).setRead(selectedConversations, false);
-
-      ApplicationDependencies.getMessageNotifier().updateNotification(context);
-      MarkReadReceiver.process(context, messageIds);
-
-      return null;
-    }, none -> {
-      if (actionMode != null) {
-        actionMode.finish();
-        actionMode = null;
-      }
-    });
-  }
-
-  private void handleMarkSelectedAsUnread() {
-    Context   context               = requireContext();
-    Set<Long> selectedConversations = new HashSet<>(defaultAdapter.getBatchSelectionIds());
-
-    SimpleTask.run(getViewLifecycleOwner().getLifecycle(), () -> {
-      DatabaseFactory.getThreadDatabase(context).setForcedUnread(selectedConversations);
-      StorageSyncHelper.scheduleSyncForDataChange();
-      return null;
-    }, none -> {
-      if (actionMode != null) {
-        actionMode.finish();
-        actionMode = null;
-      }
-    });
-  }
-
-  private void handleInvite() {
-    getNavigator().goToInvite();
-  }
-
-  private void handleInsights() {
-    getNavigator().goToInsights();
-  }
-
-  @SuppressLint("StaticFieldLeak")
-  private void handleArchiveAllSelected() {
-    Set<Long> selectedConversations = new HashSet<>(defaultAdapter.getBatchSelectionIds());
-    int       count                 = selectedConversations.size();
-    String    snackBarTitle         = getResources().getQuantityString(getArchivedSnackbarTitleRes(), count, count);
-
-    new SnackbarAsyncTask<Void>(getViewLifecycleOwner().getLifecycle(),
-                                requireView(),
-                                snackBarTitle,
-                                getString(R.string.ConversationListFragment_undo),
-                                getResources().getColor(R.color.amber_500),
-                                Snackbar.LENGTH_LONG, true)
-    {
-
-      @Override
-      protected void onPostExecute(Void result) {
-        super.onPostExecute(result);
-
-        if (actionMode != null) {
-          actionMode.finish();
-          actionMode = null;
+        if ((!searchToolbar.resolved() || !searchToolbar.get().isVisible()) && list.getAdapter() != defaultAdapter) {
+            list.removeItemDecoration(searchAdapterDecoration);
+            setAdapter(defaultAdapter);
         }
-      }
 
-      @Override
-      protected void executeAction(@Nullable Void parameter) {
-        archiveThreads(selectedConversations);
-      }
+        if (activeAdapter != null) {
+            activeAdapter.notifyDataSetChanged();
+        }
 
-      @Override
-      protected void reverseAction(@Nullable Void parameter) {
-        reverseArchiveThreads(selectedConversations);
-      }
-    }.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
-  }
+        SignalProxyUtil.startListeningToWebsocket();
+    }
 
-  @SuppressLint("StaticFieldLeak")
-  private void handleDeleteAllSelected() {
-    int                 conversationsCount = defaultAdapter.getBatchSelectionIds().size();
-    AlertDialog.Builder alert              = new AlertDialog.Builder(getActivity());
-    alert.setIcon(R.drawable.ic_warning);
-    alert.setTitle(getActivity().getResources().getQuantityString(R.plurals.ConversationListFragment_delete_selected_conversations,
-                                                                  conversationsCount, conversationsCount));
-    alert.setMessage(getActivity().getResources().getQuantityString(R.plurals.ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations,
-                                                                    conversationsCount, conversationsCount));
-    alert.setCancelable(true);
+    @Override
+    public void onStart() {
+        super.onStart();
+        ConversationFragment.prepare(requireContext());
+        ApplicationDependencies.getAppForegroundObserver().addListener(appForegroundObserver);
+    }
 
-    alert.setPositiveButton(R.string.delete, (dialog, which) -> {
-      final Set<Long> selectedConversations = defaultAdapter.getBatchSelectionIds();
+    @Override
+    public void onPause() {
+        super.onPause();
 
-      if (!selectedConversations.isEmpty()) {
-        new AsyncTask<Void, Void, Void>() {
-          private ProgressDialog dialog;
+        //fab.stopPulse();
+        cameraFab.stopPulse();
+        EventBus.getDefault().unregister(this);
+    }
 
-          @Override
-          protected void onPreExecute() {
-            dialog = ProgressDialog.show(getActivity(),
-                                         getActivity().getString(R.string.ConversationListFragment_deleting),
-                                         getActivity().getString(R.string.ConversationListFragment_deleting_selected_conversations),
-                                         true, false);
-          }
+    @Override
+    public void onStop() {
+        super.onStop();
+        ApplicationDependencies.getAppForegroundObserver().removeListener(appForegroundObserver);
+    }
 
-          @Override
-          protected Void doInBackground(Void... params) {
-            DatabaseFactory.getThreadDatabase(getActivity()).deleteConversations(selectedConversations);
-            ApplicationDependencies.getMessageNotifier().updateNotification(getActivity());
-            return null;
-          }
+    @Override
+    public void onCreateOptionsMenu(@NonNull Menu menu, @NonNull MenuInflater inflater) {
+        menu.clear();
+        inflater.inflate(R.menu.text_secure_normal, menu);
+    }
 
-          @Override
-          protected void onPostExecute(Void result) {
-            dialog.dismiss();
-            if (actionMode != null) {
-              actionMode.finish();
-              actionMode = null;
+    @Override
+    public void onPrepareOptionsMenu(Menu menu) {
+        menu.findItem(R.id.menu_insights).setVisible(TextSecurePreferences.isSmsEnabled(requireContext()));
+        menu.findItem(R.id.menu_clear_passphrase).setVisible(!TextSecurePreferences.isPasswordDisabled(requireContext()));
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        super.onOptionsItemSelected(item);
+
+        switch (item.getItemId()) {
+            case R.id.menu_new_group:
+                handleCreateGroup();
+                return true;
+            case R.id.menu_settings:
+                handleDisplaySettings();
+                return true;
+            case R.id.menu_clear_passphrase:
+                handleClearPassphrase();
+                return true;
+            case R.id.menu_mark_all_read:
+                handleMarkAllRead();
+                return true;
+            case R.id.menu_invite:
+                handleInvite();
+                return true;
+            case R.id.menu_insights:
+                handleInsights();
+                return true;
+        }
+
+        return false;
+    }
+
+    @Override
+    public boolean onBackPressed() {
+        return closeSearchIfOpen();
+    }
+
+    private boolean closeSearchIfOpen() {
+        if ((searchToolbar.resolved() && searchToolbar.get().isVisible()) || activeAdapter == searchAdapter) {
+            list.removeItemDecoration(searchAdapterDecoration);
+            setAdapter(defaultAdapter);
+            searchToolbar.get().collapse();
+            return true;
+        }
+
+        return false;
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        if (resultCode != RESULT_OK) {
+            return;
+        }
+
+        if (requestCode == CreateKbsPinActivity.REQUEST_NEW_PIN) {
+            Snackbar.make(fab, R.string.ConfirmKbsPinFragment__pin_created, Snackbar.LENGTH_LONG).setTextColor(Color.WHITE).show();
+            viewModel.onMegaphoneCompleted(Megaphones.Event.PINS_FOR_ALL);
+        }
+    }
+
+    @Override
+    public void onConversationClicked(@NonNull ThreadRecord threadRecord) {
+        hideKeyboard();
+        getNavigator().goToConversation(threadRecord.getRecipient().getId(),
+                threadRecord.getThreadId(),
+                threadRecord.getDistributionType(),
+                -1);
+    }
+
+    @Override
+    public void onShowArchiveClick() {
+        getNavigator().goToArchiveList();
+    }
+
+    @Override
+    public void onContactClicked(@NonNull Recipient contact) {
+        SimpleTask.run(getViewLifecycleOwner().getLifecycle(), () -> {
+            return DatabaseFactory.getThreadDatabase(getContext()).getThreadIdIfExistsFor(contact.getId());
+        }, threadId -> {
+            hideKeyboard();
+            getNavigator().goToConversation(contact.getId(),
+                    threadId,
+                    ThreadDatabase.DistributionTypes.DEFAULT,
+                    -1);
+        });
+    }
+
+    @Override
+    public void onMessageClicked(@NonNull MessageResult message) {
+        SimpleTask.run(getViewLifecycleOwner().getLifecycle(), () -> {
+            int startingPosition = DatabaseFactory.getMmsSmsDatabase(getContext()).getMessagePositionInConversation(message.threadId, message.receivedTimestampMs);
+            return Math.max(0, startingPosition);
+        }, startingPosition -> {
+            hideKeyboard();
+            getNavigator().goToConversation(message.conversationRecipient.getId(),
+                    message.threadId,
+                    ThreadDatabase.DistributionTypes.DEFAULT,
+                    startingPosition);
+        });
+    }
+
+    @Override
+    public void onMegaphoneNavigationRequested(@NonNull Intent intent) {
+        startActivity(intent);
+    }
+
+    @Override
+    public void onMegaphoneNavigationRequested(@NonNull Intent intent, int requestCode) {
+        startActivityForResult(intent, requestCode);
+    }
+
+    @Override
+    public void onMegaphoneToastRequested(@NonNull String string) {
+        Snackbar.make(fab, string, Snackbar.LENGTH_LONG)
+                .setTextColor(Color.WHITE)
+                .show();
+    }
+
+    @Override
+    public @NonNull
+    Activity getMegaphoneActivity() {
+        return requireActivity();
+    }
+
+    @Override
+    public void onMegaphoneSnooze(@NonNull Megaphones.Event event) {
+        viewModel.onMegaphoneSnoozed(event);
+    }
+
+    @Override
+    public void onMegaphoneCompleted(@NonNull Megaphones.Event event) {
+        viewModel.onMegaphoneCompleted(event);
+    }
+
+    @Override
+    public void onMegaphoneDialogFragmentRequested(@NonNull DialogFragment dialogFragment) {
+        dialogFragment.show(getChildFragmentManager(), "megaphone_dialog");
+    }
+
+    private void initializeReminderView() {
+        reminderView.get().setOnDismissListener(this::updateReminders);
+        reminderView.get().setOnActionClickListener(this::onReminderAction);
+    }
+
+    private void onReminderAction(@IdRes int reminderActionId) {
+        if (reminderActionId == R.id.reminder_action_update_now) {
+            PlayStoreUtil.openPlayStoreOrOurApkDownloadPage(requireContext());
+        }
+    }
+
+    private void hideKeyboard() {
+        InputMethodManager imm = ServiceUtil.getInputMethodManager(requireContext());
+        imm.hideSoftInputFromWindow(requireView().getWindowToken(), 0);
+    }
+
+    private void initializeProfileInfo(@NonNull Recipient recipient) {
+        ImageView icon = requireView().findViewById(R.id.toolbar_icon);
+        ((AppCompatTextView) requireView().findViewById(R.id.tvUserName)).setText(recipient.getProfileName().toString());
+        ((AppCompatTextView) requireView().findViewById(R.id.tvUserPhone)).setText(
+                recipient.getUsername().transform(username -> "@" + username).or(recipient.getE164().transform(PhoneNumberFormatter::prettyPrint)).orNull()
+        );
+
+        AvatarUtil.loadIconIntoImageView(recipient, icon);
+    }
+
+    private void initDrawerMenuItems() {
+        requireView().findViewById(R.id.tvProfile).setOnClickListener(drawerMenuClickListener());
+        requireView().findViewById(R.id.tvSettings).setOnClickListener(drawerMenuClickListener());
+
+        drawerLayout.addDrawerListener(new DrawerLayout.SimpleDrawerListener() {
+
+            @Override
+            public void onDrawerOpened(@NonNull View drawerView) {
+                hideKeyboard();
             }
-          }
-        }.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
-      }
-    });
 
-    alert.setNegativeButton(android.R.string.cancel, null);
-    alert.show();
-  }
-
-  private void handlePinAllSelected() {
-    final Set<Long> toPin = new LinkedHashSet<>(Stream.of(defaultAdapter.getBatchSelection())
-                                                      .filterNot(conversation -> conversation.getThreadRecord().isPinned())
-                                                      .map(conversation -> conversation.getThreadRecord().getThreadId())
-                                                      .toList());
-
-    if (toPin.size() + viewModel.getPinnedCount() > MAXIMUM_PINNED_CONVERSATIONS) {
-      Snackbar.make(fab,
-                    getString(R.string.conversation_list__you_can_only_pin_up_to_d_chats, MAXIMUM_PINNED_CONVERSATIONS),
-                    Snackbar.LENGTH_LONG)
-              .setTextColor(Color.WHITE)
-              .show();
-      actionMode.finish();
-      return;
+            @Override
+            public void onDrawerClosed(@NonNull View drawerView) {
+                if (drawerLayout.getTag() != null) {
+                    if (drawerLayout.getTag().equals("tvProfile")) {
+                        requireActivity().startActivity(ManageProfileActivity.getIntent(requireActivity()));
+                    } else if (drawerLayout.getTag().equals("tvSettings")) {
+                        getNavigator().goToAppSettings();
+                    }
+                }
+                drawerLayout.setTag(null);
+            }
+        });
     }
 
-    SimpleTask.run(SignalExecutors.BOUNDED, () -> {
-      ThreadDatabase db = DatabaseFactory.getThreadDatabase(ApplicationDependencies.getApplication());
-
-      db.pinConversations(toPin);
-
-      return null;
-    }, unused -> {
-      if (actionMode != null) {
-        actionMode.finish();
-      }
-    });
-  }
-
-  private void handleUnpinAllSelected() {
-    final Set<Long> toPin = new HashSet<>(defaultAdapter.getBatchSelectionIds());
-
-    SimpleTask.run(SignalExecutors.BOUNDED, () -> {
-      ThreadDatabase db = DatabaseFactory.getThreadDatabase(ApplicationDependencies.getApplication());
-
-      db.unpinConversations(toPin);
-
-      return null;
-    }, unused -> {
-      if (actionMode != null) {
-        actionMode.finish();
-      }
-    });
-  }
-
-  private void handleSelectAllThreads() {
-    defaultAdapter.selectAllThreads();
-    actionMode.setTitle(String.valueOf(defaultAdapter.getBatchSelectionIds().size()));
-  }
-
-  private void handleCreateConversation(long threadId, Recipient recipient, int distributionType) {
-    getNavigator().goToConversation(recipient.getId(), threadId, distributionType, -1);
-  }
-
-  private void onSubmitList(@NonNull List<Conversation> conversationList) {
-    defaultAdapter.submitList(conversationList);
-    onPostSubmitList(conversationList.size());
-  }
-
-  void updateEmptyState(boolean isConversationEmpty) {
-    if (isConversationEmpty) {
-      Log.i(TAG, "Received an empty data set.");
-      list.setVisibility(View.INVISIBLE);
-      emptyState.get().setVisibility(View.VISIBLE);
-      fab.startPulse(3 * 1000);
-      cameraFab.startPulse(3 * 1000);
-
-      SignalStore.onboarding().setShowNewGroup(true);
-      SignalStore.onboarding().setShowInviteFriends(true);
-    } else {
-      list.setVisibility(View.VISIBLE);
-      fab.stopPulse();
-      cameraFab.stopPulse();
-
-      if (emptyState.resolved()) {
-        emptyState.get().setVisibility(View.GONE);
-      }
-    }
-  }
-
-  private void updateProxyStatus(@NonNull PipeConnectivityListener.State state) {
-    if (SignalStore.proxy().isProxyEnabled()) {
-      proxyStatus.setVisibility(View.VISIBLE);
-
-      switch (state) {
-        case CONNECTING:
-        case DISCONNECTED:
-          proxyStatus.setImageResource(R.drawable.ic_proxy_connecting_24);
-          break;
-        case CONNECTED:
-          proxyStatus.setImageResource(R.drawable.ic_proxy_connected_24);
-          break;
-        case FAILURE:
-          proxyStatus.setImageResource(R.drawable.ic_proxy_failed_24);
-          break;
-      }
-    } else {
-      proxyStatus.setVisibility(View.GONE);
-    }
-  }
-
-  private void onProxyStatusClicked() {
-    Intent intent = new Intent(requireContext(), ApplicationPreferencesActivity.class);
-    intent.putExtra(ApplicationPreferencesActivity.LAUNCH_TO_PROXY_FRAGMENT, true);
-
-    startActivity(intent);
-  }
-
-  protected void onPostSubmitList(int conversationCount) {
-    if (conversationCount >= 6 && (SignalStore.onboarding().shouldShowInviteFriends() || SignalStore.onboarding().shouldShowNewGroup())) {
-      SignalStore.onboarding().clearAll();
-      ApplicationDependencies.getMegaphoneRepository().markFinished(Megaphones.Event.ONBOARDING);
-    }
-  }
-
-  @Override
-  public void onConversationClick(Conversation conversation) {
-    if (actionMode == null) {
-      handleCreateConversation(conversation.getThreadRecord().getThreadId(), conversation.getThreadRecord().getRecipient(), conversation.getThreadRecord().getDistributionType());
-    } else {
-      defaultAdapter.toggleConversationInBatchSet(conversation);
-
-      if (defaultAdapter.getBatchSelectionIds().size() == 0) {
-        actionMode.finish();
-      } else {
-        actionMode.setTitle(String.valueOf(defaultAdapter.getBatchSelectionIds().size()));
-        setCorrectMenuVisibility(actionMode.getMenu());
-      }
-    }
-  }
-
-  @Override
-  public boolean onConversationLongClick(Conversation conversation) {
-    if (actionMode != null) {
-      onConversationClick(conversation);
-      return true;
+    @SuppressLint("NonConstantResourceId")
+    private View.OnClickListener drawerMenuClickListener() {
+        return v -> {
+            drawerLayout.closeDrawers();
+            switch (v.getId()) {
+                case R.id.tvProfile:
+                    drawerLayout.setTag("tvProfile");
+                    break;
+                case R.id.tvSettings:
+                    drawerLayout.setTag("tvSettings");
+                    break;
+            }
+        };
     }
 
-    defaultAdapter.initializeBatchMode(true);
-    defaultAdapter.toggleConversationInBatchSet(conversation);
+    private void initializeSearchListener() {
+        searchAction.setOnClickListener(v -> {
+            searchToolbar.get().display(searchAction.getX() + (searchAction.getWidth() / 2.0f),
+                    searchAction.getY() + (searchAction.getHeight() / 2.0f));
 
-    actionMode = ((AppCompatActivity) getActivity()).startSupportActionMode(ConversationListFragment.this);
+            searchToolbar.get().setListener(new SearchToolbar.SearchListener() {
+                @Override
+                public void onSearchTextChange(String text) {
+                    String trimmed = text.trim();
 
-    return true;
-  }
+                    viewModel.updateQuery(trimmed);
 
-  @Override
-  public boolean onCreateActionMode(ActionMode mode, Menu menu) {
-    MenuInflater inflater = getActivity().getMenuInflater();
+                    if (trimmed.length() > 0) {
+                        if (activeAdapter != searchAdapter) {
+                            setAdapter(searchAdapter);
+                            list.removeItemDecoration(searchAdapterDecoration);
+                            list.addItemDecoration(searchAdapterDecoration);
+                        }
+                    } else {
+                        if (activeAdapter != defaultAdapter) {
+                            list.removeItemDecoration(searchAdapterDecoration);
+                            setAdapter(defaultAdapter);
+                        }
+                    }
+                }
 
-    inflater.inflate(R.menu.conversation_list_batch_pin, menu);
-    inflater.inflate(getActionModeMenuRes(), menu);
-    inflater.inflate(R.menu.conversation_list_batch, menu);
-
-    mode.setTitle("1");
-
-    WindowUtil.setStatusBarColor(requireActivity().getWindow(), getResources().getColor(R.color.action_mode_status_bar));
-
-    return true;
-  }
-
-  @Override
-  public boolean onPrepareActionMode(ActionMode mode, Menu menu) {
-    setCorrectMenuVisibility(menu);
-    return false;
-  }
-
-  @Override
-  public boolean onActionItemClicked(ActionMode mode, MenuItem item) {
-    switch (item.getItemId()) {
-      case R.id.menu_select_all:       handleSelectAllThreads();     return true;
-      case R.id.menu_delete_selected:  handleDeleteAllSelected();    return true;
-      case R.id.menu_pin_selected:     handlePinAllSelected();       return true;
-      case R.id.menu_unpin_selected:   handleUnpinAllSelected();     return true;
-      case R.id.menu_archive_selected: handleArchiveAllSelected();   return true;
-      case R.id.menu_mark_as_read:     handleMarkSelectedAsRead();   return true;
-      case R.id.menu_mark_as_unread:   handleMarkSelectedAsUnread(); return true;
+                @Override
+                public void onSearchClosed() {
+                    list.removeItemDecoration(searchAdapterDecoration);
+                    setAdapter(defaultAdapter);
+                }
+            });
+        });
     }
 
-    return false;
-  }
+    private void initializeListAdapters() {
+        defaultAdapter = new ConversationListAdapter(GlideApp.with(this), this);
+        searchAdapter = new ConversationListSearchAdapter(GlideApp.with(this), this, Locale.getDefault());
+        searchAdapterDecoration = new StickyHeaderDecoration(searchAdapter, false, false, 0);
 
-  @Override
-  public void onDestroyActionMode(ActionMode mode) {
-    defaultAdapter.initializeBatchMode(false);
+        setAdapter(defaultAdapter);
 
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-      TypedArray color = getActivity().getTheme().obtainStyledAttributes(new int[] {android.R.attr.statusBarColor});
-      WindowUtil.setStatusBarColor(getActivity().getWindow(), color.getColor(0, Color.BLACK));
-      color.recycle();
+        defaultAdapter.registerAdapterDataObserver(new RecyclerView.AdapterDataObserver() {
+            @Override
+            public void onItemRangeInserted(int positionStart, int itemCount) {
+                startupStopwatch.split("data-set");
+                defaultAdapter.unregisterAdapterDataObserver(this);
+                list.post(() -> {
+                    AppStartup.getInstance().onCriticalRenderEventEnd();
+                    startupStopwatch.split("first-render");
+                    startupStopwatch.stop(TAG);
+                });
+            }
+        });
     }
 
-    if (Build.VERSION.SDK_INT >= 23) {
-      TypedArray lightStatusBarAttr = getActivity().getTheme().obtainStyledAttributes(new int[] {android.R.attr.windowLightStatusBar});
-      int        current            = getActivity().getWindow().getDecorView().getSystemUiVisibility();
-      int        statusBarMode      = lightStatusBarAttr.getBoolean(0, false) ? current | View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
-                                                                              : current & ~View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR;
+    @SuppressWarnings("rawtypes")
+    private void setAdapter(@NonNull RecyclerView.Adapter adapter) {
+        RecyclerView.Adapter oldAdapter = activeAdapter;
 
-      getActivity().getWindow().getDecorView().setSystemUiVisibility(statusBarMode);
+        activeAdapter = adapter;
 
-      lightStatusBarAttr.recycle();
-    }
-
-    actionMode = null;
-  }
-
-  @Subscribe(threadMode = ThreadMode.MAIN)
-  public void onEvent(ReminderUpdateEvent event) {
-    updateReminders();
-  }
-
-  @Subscribe(threadMode = ThreadMode.MAIN, sticky = true)
-  public void onEvent(MessageSender.MessageSentEvent event) {
-    EventBus.getDefault().removeStickyEvent(event);
-    closeSearchIfOpen();
-  }
-
-  private void setCorrectMenuVisibility(@NonNull Menu menu) {
-    boolean hasUnread   = Stream.of(defaultAdapter.getBatchSelection()).anyMatch(conversation -> !conversation.getThreadRecord().isRead());
-    boolean hasUnpinned = Stream.of(defaultAdapter.getBatchSelection()).anyMatch(conversation -> !conversation.getThreadRecord().isPinned());
-    boolean canPin      = viewModel.getPinnedCount() < MAXIMUM_PINNED_CONVERSATIONS;
-
-    if (hasUnread) {
-      menu.findItem(R.id.menu_mark_as_unread).setVisible(false);
-      menu.findItem(R.id.menu_mark_as_read).setVisible(true);
-    } else {
-      menu.findItem(R.id.menu_mark_as_unread).setVisible(true);
-      menu.findItem(R.id.menu_mark_as_read).setVisible(false);
-    }
-
-    if (!isArchived() && hasUnpinned && canPin) {
-      menu.findItem(R.id.menu_pin_selected).setVisible(true);
-      menu.findItem(R.id.menu_unpin_selected).setVisible(false);
-    } else if (!isArchived() && !hasUnpinned) {
-      menu.findItem(R.id.menu_pin_selected).setVisible(false);
-      menu.findItem(R.id.menu_unpin_selected).setVisible(true);
-    } else {
-      menu.findItem(R.id.menu_pin_selected).setVisible(false);
-      menu.findItem(R.id.menu_unpin_selected).setVisible(false);
-    }
-  }
-
-  protected Toolbar getToolbar(@NonNull View rootView) {
-    return rootView.findViewById(R.id.toolbar);
-  }
-
-  protected @PluralsRes int getArchivedSnackbarTitleRes() {
-    return R.plurals.ConversationListFragment_conversations_archived;
-  }
-
-  protected @MenuRes int getActionModeMenuRes() {
-    return R.menu.conversation_list_batch_archive;
-  }
-
-  protected @DrawableRes int getArchiveIconRes() {
-    return R.drawable.ic_archive_white_36dp;
-  }
-
-  @WorkerThread
-  protected void archiveThreads(Set<Long> threadIds) {
-    DatabaseFactory.getThreadDatabase(getActivity()).setArchived(threadIds, true);
-  }
-
-  @WorkerThread
-  protected void reverseArchiveThreads(Set<Long> threadIds) {
-    DatabaseFactory.getThreadDatabase(getActivity()).setArchived(threadIds, false);
-  }
-
-  @SuppressLint("StaticFieldLeak")
-  protected void onItemSwiped(long threadId, int unreadCount) {
-    new SnackbarAsyncTask<Long>(getViewLifecycleOwner().getLifecycle(),
-                                requireView(),
-                                getResources().getQuantityString(R.plurals.ConversationListFragment_conversations_archived, 1, 1),
-                                getString(R.string.ConversationListFragment_undo),
-                                getResources().getColor(R.color.amber_500),
-                                Snackbar.LENGTH_LONG,
-                                false)
-    {
-      private final ThreadDatabase threadDatabase= DatabaseFactory.getThreadDatabase(getActivity());
-
-      private List<Long> pinnedThreadIds;
-
-      @Override
-      protected void executeAction(@Nullable Long parameter) {
-        Context context = requireActivity();
-
-        pinnedThreadIds = threadDatabase.getPinnedThreadIds();
-        threadDatabase.archiveConversation(threadId);
-
-        if (unreadCount > 0) {
-          List<MarkedMessageInfo> messageIds = threadDatabase.setRead(threadId, false);
-          ApplicationDependencies.getMessageNotifier().updateNotification(context);
-          MarkReadReceiver.process(context, messageIds);
+        if (oldAdapter == activeAdapter) {
+            return;
         }
-      }
 
-      @Override
-      protected void reverseAction(@Nullable Long parameter) {
-        Context context = requireActivity();
-
-        threadDatabase.unarchiveConversation(threadId);
-        threadDatabase.restorePins(pinnedThreadIds);
-
-        if (unreadCount > 0) {
-          threadDatabase.incrementUnread(threadId, unreadCount);
-          ApplicationDependencies.getMessageNotifier().updateNotification(context);
+        if (adapter instanceof ConversationListAdapter) {
+            ((ConversationListAdapter) adapter).setPagingController(viewModel.getPagingController());
         }
-      }
-    }.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, threadId);
-  }
 
-  private class PaymentNotificationListener implements UnreadPaymentsView.Listener {
+        list.setAdapter(adapter);
 
-    private final UnreadPayments unreadPayments;
-
-    private PaymentNotificationListener(@NonNull UnreadPayments unreadPayments) {
-      this.unreadPayments = unreadPayments;
+        if (adapter == defaultAdapter) {
+            defaultAdapter.registerAdapterDataObserver(snapToTopDataObserver);
+        } else {
+            defaultAdapter.unregisterAdapterDataObserver(snapToTopDataObserver);
+        }
     }
 
-    @Override
-    public void onOpenPaymentsNotificationClicked() {
-      UUID paymentId = unreadPayments.getPaymentUuid();
+    private void initializeTypingObserver() {
+        ApplicationDependencies.getTypingStatusRepository().getTypingThreads().observe(getViewLifecycleOwner(), threadIds -> {
+            if (threadIds == null) {
+                threadIds = Collections.emptySet();
+            }
 
-      if (paymentId == null) {
-        goToPaymentsHome();
-      } else {
-        goToSinglePayment(paymentId);
-      }
+            defaultAdapter.setTypingThreads(threadIds);
+        });
     }
 
-    @Override
-    public void onClosePaymentsNotificationClicked() {
-      viewModel.onUnreadPaymentsClosed();
+    protected boolean isArchived() {
+        return false;
     }
 
-    private void goToPaymentsHome() {
-      startActivity(new Intent(requireContext(), PaymentsActivity.class));
+    private void initializeViewModel() {
+        viewModel = ViewModelProviders.of(this, new ConversationListViewModel.Factory(isArchived())).get(ConversationListViewModel.class);
+
+        viewModel.getSearchResult().observe(getViewLifecycleOwner(), this::onSearchResultChanged);
+        viewModel.getMegaphone().observe(getViewLifecycleOwner(), this::onMegaphoneChanged);
+        viewModel.getConversationList().observe(getViewLifecycleOwner(), this::onSubmitList);
+        viewModel.hasNoConversations().observe(getViewLifecycleOwner(), this::updateEmptyState);
+        viewModel.getPipeState().observe(getViewLifecycleOwner(), this::updateProxyStatus);
+
+        appForegroundObserver = new AppForegroundObserver.Listener() {
+            @Override
+            public void onForeground() {
+                viewModel.onVisible();
+            }
+
+            @Override
+            public void onBackground() {
+            }
+        };
+
+        viewModel.getUnreadPaymentsLiveData().observe(getViewLifecycleOwner(), this::onUnreadPaymentsChanged);
     }
 
-    private void goToSinglePayment(@NonNull UUID paymentId) {
-      Intent intent = new Intent(requireContext(), PaymentsActivity.class);
-
-      intent.putExtra(PaymentsActivity.EXTRA_PAYMENTS_STARTING_ACTION, R.id.action_directly_to_paymentDetails);
-      intent.putExtra(PaymentsActivity.EXTRA_STARTING_ARGUMENTS, new PaymentDetailsFragmentArgs.Builder(PaymentDetailsParcelable.forUuid(paymentId)).build().toBundle());
-
-      startActivity(intent);
-    }
-  }
-
-  private class ArchiveListenerCallback extends ItemTouchHelper.SimpleCallback {
-
-    ArchiveListenerCallback() {
-      super(0, ItemTouchHelper.RIGHT);
+    private void onUnreadPaymentsChanged(@NonNull Optional<UnreadPayments> unreadPayments) {
+        if (unreadPayments.isPresent()) {
+            paymentNotificationView.get().setListener(new PaymentNotificationListener(unreadPayments.get()));
+            paymentNotificationView.get().setUnreadPayments(unreadPayments.get());
+            animatePaymentUnreadStatusIn();
+        } else {
+            animatePaymentUnreadStatusOut();
+        }
     }
 
-    @Override
-    public boolean onMove(@NonNull RecyclerView recyclerView,
-                          @NonNull RecyclerView.ViewHolder viewHolder,
-                          @NonNull RecyclerView.ViewHolder target)
-    {
-      return false;
+    private void animatePaymentUnreadStatusIn() {
+        animatePaymentUnreadStatus(ConstraintSet.VISIBLE);
+        unreadPaymentsDot.animate().alpha(1);
     }
 
-    @Override
-    public int getSwipeDirs(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder viewHolder) {
-      if (viewHolder.itemView instanceof ConversationListItemAction      ||
-          viewHolder instanceof ConversationListAdapter.HeaderViewHolder ||
-          actionMode != null                                             ||
-          activeAdapter == searchAdapter)
-      {
-        return 0;
-      }
+    private void animatePaymentUnreadStatusOut() {
+        if (paymentNotificationView.resolved()) {
+            animatePaymentUnreadStatus(ConstraintSet.GONE);
+        }
 
-      return super.getSwipeDirs(recyclerView, viewHolder);
+        unreadPaymentsDot.animate().alpha(0);
+    }
+
+    private void animatePaymentUnreadStatus(int constraintSetVisibility) {
+        paymentNotificationView.get();
+
+        TransitionManager.beginDelayedTransition(constraintLayout);
+
+        ConstraintSet currentLayout = new ConstraintSet();
+        currentLayout.clone(constraintLayout);
+
+        currentLayout.setVisibility(R.id.payments_notification, constraintSetVisibility);
+        currentLayout.applyTo(constraintLayout);
+    }
+
+    private void onSearchResultChanged(@Nullable SearchResult result) {
+        result = result != null ? result : SearchResult.EMPTY;
+        searchAdapter.updateResults(result);
+
+        if (result.isEmpty() && activeAdapter == searchAdapter) {
+            searchEmptyState.setText(getString(R.string.SearchFragment_no_results, result.getQuery()));
+            searchEmptyState.setVisibility(View.VISIBLE);
+        } else {
+            searchEmptyState.setVisibility(View.GONE);
+        }
+    }
+
+    private void onMegaphoneChanged(@Nullable Megaphone megaphone) {
+        if (megaphone == null) {
+            if (megaphoneContainer.resolved()) {
+                megaphoneContainer.get().setVisibility(View.GONE);
+                megaphoneContainer.get().removeAllViews();
+            }
+            return;
+        }
+
+        View view = MegaphoneViewBuilder.build(requireContext(), megaphone, this);
+
+        megaphoneContainer.get().removeAllViews();
+
+        if (view != null) {
+            megaphoneContainer.get().addView(view);
+            megaphoneContainer.get().setVisibility(View.VISIBLE);
+        } else {
+            megaphoneContainer.get().setVisibility(View.GONE);
+
+            if (megaphone.getOnVisibleListener() != null) {
+                megaphone.getOnVisibleListener().onEvent(megaphone, this);
+            }
+        }
+
+        viewModel.onMegaphoneVisible(megaphone);
+    }
+
+    private void updateReminders() {
+        Context context = requireContext();
+
+        SimpleTask.run(getViewLifecycleOwner().getLifecycle(), () -> {
+            if (UnauthorizedReminder.isEligible(context)) {
+                return Optional.of(new UnauthorizedReminder(context));
+            } else if (ExpiredBuildReminder.isEligible()) {
+                return Optional.of(new ExpiredBuildReminder(context));
+            } else if (ServiceOutageReminder.isEligible(context)) {
+                ApplicationDependencies.getJobManager().add(new ServiceOutageDetectionJob());
+                return Optional.of(new ServiceOutageReminder(context));
+            } else if (OutdatedBuildReminder.isEligible()) {
+                return Optional.of(new OutdatedBuildReminder(context));
+            } else if (PushRegistrationReminder.isEligible(context)) {
+                return Optional.of((new PushRegistrationReminder(context)));
+            } else if (DozeReminder.isEligible(context)) {
+                return Optional.of(new DozeReminder(context));
+            } else {
+                return Optional.<Reminder>absent();
+            }
+        }, reminder -> {
+            if (reminder.isPresent() && getActivity() != null && !isRemoving()) {
+                if (!reminderView.resolved()) {
+                    initializeReminderView();
+                }
+                reminderView.get().showReminder(reminder.get());
+            } else if (reminderView.resolved() && !reminder.isPresent()) {
+                reminderView.get().hide();
+            }
+        });
+    }
+
+    private void handleCreateGroup() {
+        getNavigator().goToGroupCreation();
+    }
+
+    private void handleDisplaySettings() {
+        getNavigator().goToAppSettings();
+    }
+
+    private void handleClearPassphrase() {
+        Intent intent = new Intent(requireActivity(), KeyCachingService.class);
+        intent.setAction(KeyCachingService.CLEAR_KEY_ACTION);
+        requireActivity().startService(intent);
+    }
+
+    private void handleMarkAllRead() {
+        Context context = requireContext();
+
+        SignalExecutors.BOUNDED.execute(() -> {
+            List<MarkedMessageInfo> messageIds = DatabaseFactory.getThreadDatabase(context).setAllThreadsRead();
+
+            ApplicationDependencies.getMessageNotifier().updateNotification(context);
+            MarkReadReceiver.process(context, messageIds);
+        });
+    }
+
+    private void handleMarkSelectedAsRead() {
+        Context context = requireContext();
+        Set<Long> selectedConversations = new HashSet<>(defaultAdapter.getBatchSelectionIds());
+
+        SimpleTask.run(getViewLifecycleOwner().getLifecycle(), () -> {
+            List<MarkedMessageInfo> messageIds = DatabaseFactory.getThreadDatabase(context).setRead(selectedConversations, false);
+
+            ApplicationDependencies.getMessageNotifier().updateNotification(context);
+            MarkReadReceiver.process(context, messageIds);
+
+            return null;
+        }, none -> {
+            if (actionMode != null) {
+                actionMode.finish();
+                actionMode = null;
+            }
+        });
+    }
+
+    private void handleMarkSelectedAsUnread() {
+        Context context = requireContext();
+        Set<Long> selectedConversations = new HashSet<>(defaultAdapter.getBatchSelectionIds());
+
+        SimpleTask.run(getViewLifecycleOwner().getLifecycle(), () -> {
+            DatabaseFactory.getThreadDatabase(context).setForcedUnread(selectedConversations);
+            StorageSyncHelper.scheduleSyncForDataChange();
+            return null;
+        }, none -> {
+            if (actionMode != null) {
+                actionMode.finish();
+                actionMode = null;
+            }
+        });
+    }
+
+    private void handleInvite() {
+        getNavigator().goToInvite();
+    }
+
+    private void handleInsights() {
+        getNavigator().goToInsights();
     }
 
     @SuppressLint("StaticFieldLeak")
-    @Override
-    public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
-      if (viewHolder.itemView instanceof ConversationListItemInboxZero) return;
-      final long threadId    = ((ConversationListItem)viewHolder.itemView).getThreadId();
-      final int  unreadCount = ((ConversationListItem)viewHolder.itemView).getUnreadCount();
+    private void handleArchiveAllSelected() {
+        Set<Long> selectedConversations = new HashSet<>(defaultAdapter.getBatchSelectionIds());
+        int count = selectedConversations.size();
+        String snackBarTitle = getResources().getQuantityString(getArchivedSnackbarTitleRes(), count, count);
 
-      onItemSwiped(threadId, unreadCount);
+        new SnackbarAsyncTask<Void>(getViewLifecycleOwner().getLifecycle(),
+                requireView(),
+                snackBarTitle,
+                getString(R.string.ConversationListFragment_undo),
+                getResources().getColor(R.color.amber_500),
+                Snackbar.LENGTH_LONG, true) {
+
+            @Override
+            protected void onPostExecute(Void result) {
+                super.onPostExecute(result);
+
+                if (actionMode != null) {
+                    actionMode.finish();
+                    actionMode = null;
+                }
+            }
+
+            @Override
+            protected void executeAction(@Nullable Void parameter) {
+                archiveThreads(selectedConversations);
+            }
+
+            @Override
+            protected void reverseAction(@Nullable Void parameter) {
+                reverseArchiveThreads(selectedConversations);
+            }
+        }.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+    }
+
+    @SuppressLint("StaticFieldLeak")
+    private void handleDeleteAllSelected() {
+        int conversationsCount = defaultAdapter.getBatchSelectionIds().size();
+        AlertDialog.Builder alert = new AlertDialog.Builder(getActivity());
+        alert.setIcon(R.drawable.ic_warning);
+        alert.setTitle(getActivity().getResources().getQuantityString(R.plurals.ConversationListFragment_delete_selected_conversations,
+                conversationsCount, conversationsCount));
+        alert.setMessage(getActivity().getResources().getQuantityString(R.plurals.ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations,
+                conversationsCount, conversationsCount));
+        alert.setCancelable(true);
+
+        alert.setPositiveButton(R.string.delete, (dialog, which) -> {
+            final Set<Long> selectedConversations = defaultAdapter.getBatchSelectionIds();
+
+            if (!selectedConversations.isEmpty()) {
+                new AsyncTask<Void, Void, Void>() {
+                    private ProgressDialog dialog;
+
+                    @Override
+                    protected void onPreExecute() {
+                        dialog = ProgressDialog.show(getActivity(),
+                                getActivity().getString(R.string.ConversationListFragment_deleting),
+                                getActivity().getString(R.string.ConversationListFragment_deleting_selected_conversations),
+                                true, false);
+                    }
+
+                    @Override
+                    protected Void doInBackground(Void... params) {
+                        DatabaseFactory.getThreadDatabase(getActivity()).deleteConversations(selectedConversations);
+                        ApplicationDependencies.getMessageNotifier().updateNotification(getActivity());
+                        return null;
+                    }
+
+                    @Override
+                    protected void onPostExecute(Void result) {
+                        dialog.dismiss();
+                        if (actionMode != null) {
+                            actionMode.finish();
+                            actionMode = null;
+                        }
+                    }
+                }.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+            }
+        });
+
+        alert.setNegativeButton(android.R.string.cancel, null);
+        alert.show();
+    }
+
+    private void handlePinAllSelected() {
+        final Set<Long> toPin = new LinkedHashSet<>(Stream.of(defaultAdapter.getBatchSelection())
+                .filterNot(conversation -> conversation.getThreadRecord().isPinned())
+                .map(conversation -> conversation.getThreadRecord().getThreadId())
+                .toList());
+
+        if (toPin.size() + viewModel.getPinnedCount() > MAXIMUM_PINNED_CONVERSATIONS) {
+            Snackbar.make(fab,
+                    getString(R.string.conversation_list__you_can_only_pin_up_to_d_chats, MAXIMUM_PINNED_CONVERSATIONS),
+                    Snackbar.LENGTH_LONG)
+                    .setTextColor(Color.WHITE)
+                    .show();
+            actionMode.finish();
+            return;
+        }
+
+        SimpleTask.run(SignalExecutors.BOUNDED, () -> {
+            ThreadDatabase db = DatabaseFactory.getThreadDatabase(ApplicationDependencies.getApplication());
+
+            db.pinConversations(toPin);
+
+            return null;
+        }, unused -> {
+            if (actionMode != null) {
+                actionMode.finish();
+            }
+        });
+    }
+
+    private void handleUnpinAllSelected() {
+        final Set<Long> toPin = new HashSet<>(defaultAdapter.getBatchSelectionIds());
+
+        SimpleTask.run(SignalExecutors.BOUNDED, () -> {
+            ThreadDatabase db = DatabaseFactory.getThreadDatabase(ApplicationDependencies.getApplication());
+
+            db.unpinConversations(toPin);
+
+            return null;
+        }, unused -> {
+            if (actionMode != null) {
+                actionMode.finish();
+            }
+        });
+    }
+
+    private void handleSelectAllThreads() {
+        defaultAdapter.selectAllThreads();
+        actionMode.setTitle(String.valueOf(defaultAdapter.getBatchSelectionIds().size()));
+    }
+
+    private void handleCreateConversation(long threadId, Recipient recipient, int distributionType) {
+        getNavigator().goToConversation(recipient.getId(), threadId, distributionType, -1);
+    }
+
+    private void onSubmitList(@NonNull List<Conversation> conversationList) {
+        defaultAdapter.submitList(conversationList);
+        onPostSubmitList(conversationList.size());
+    }
+
+    void updateEmptyState(boolean isConversationEmpty) {
+        if (isConversationEmpty) {
+            Log.i(TAG, "Received an empty data set.");
+            list.setVisibility(View.INVISIBLE);
+            emptyState.get().setVisibility(View.VISIBLE);
+            //fab.startPulse(3 * 1000);
+            cameraFab.startPulse(3 * 1000);
+
+            SignalStore.onboarding().setShowNewGroup(true);
+            SignalStore.onboarding().setShowInviteFriends(true);
+        } else {
+            list.setVisibility(View.VISIBLE);
+            //fab.stopPulse();
+            cameraFab.stopPulse();
+
+            if (emptyState.resolved()) {
+                emptyState.get().setVisibility(View.GONE);
+            }
+        }
+    }
+
+    private void updateProxyStatus(@NonNull PipeConnectivityListener.State state) {
+        if (SignalStore.proxy().isProxyEnabled()) {
+            proxyStatus.setVisibility(View.VISIBLE);
+
+            switch (state) {
+                case CONNECTING:
+                case DISCONNECTED:
+                    proxyStatus.setImageResource(R.drawable.ic_proxy_connecting_24);
+                    break;
+                case CONNECTED:
+                    proxyStatus.setImageResource(R.drawable.ic_proxy_connected_24);
+                    break;
+                case FAILURE:
+                    proxyStatus.setImageResource(R.drawable.ic_proxy_failed_24);
+                    break;
+            }
+        } else {
+            proxyStatus.setVisibility(View.GONE);
+        }
+    }
+
+    private void onProxyStatusClicked() {
+        Intent intent = new Intent(requireContext(), ApplicationPreferencesActivity.class);
+        intent.putExtra(ApplicationPreferencesActivity.LAUNCH_TO_PROXY_FRAGMENT, true);
+
+        startActivity(intent);
+    }
+
+    protected void onPostSubmitList(int conversationCount) {
+        if (conversationCount >= 6 && (SignalStore.onboarding().shouldShowInviteFriends() || SignalStore.onboarding().shouldShowNewGroup())) {
+            SignalStore.onboarding().clearAll();
+            ApplicationDependencies.getMegaphoneRepository().markFinished(Megaphones.Event.ONBOARDING);
+        }
     }
 
     @Override
-    public void onChildDraw(@NonNull Canvas canvas, @NonNull RecyclerView recyclerView,
-                            @NonNull RecyclerView.ViewHolder viewHolder,
-                            float dX, float dY, int actionState,
-                            boolean isCurrentlyActive)
-    {
-      if (viewHolder.itemView instanceof ConversationListItemInboxZero) return;
-      if (actionState == ItemTouchHelper.ACTION_STATE_SWIPE) {
-        View  itemView = viewHolder.itemView;
-        float alpha    = 1.0f - Math.abs(dX) / (float) viewHolder.itemView.getWidth();
+    public void onConversationClick(Conversation conversation) {
+        if (actionMode == null) {
+            handleCreateConversation(conversation.getThreadRecord().getThreadId(), conversation.getThreadRecord().getRecipient(), conversation.getThreadRecord().getDistributionType());
+        } else {
+            defaultAdapter.toggleConversationInBatchSet(conversation);
 
-        if (dX > 0) {
-          Resources resources = getResources();
-
-          if (archiveDrawable == null) {
-            archiveDrawable = ResourcesCompat.getDrawable(resources, getArchiveIconRes(), requireActivity().getTheme());
-            Objects.requireNonNull(archiveDrawable).setBounds(0, 0, archiveDrawable.getIntrinsicWidth(), archiveDrawable.getIntrinsicHeight());
-          }
-
-          canvas.save();
-          canvas.clipRect(itemView.getLeft(), itemView.getTop(), dX, itemView.getBottom());
-
-          canvas.drawColor(alpha > 0 ? resources.getColor(R.color.green_500) : Color.WHITE);
-
-          canvas.translate(itemView.getLeft() + resources.getDimension(R.dimen.conversation_list_fragment_archive_padding),
-                           itemView.getTop() + (itemView.getBottom() - itemView.getTop() - archiveDrawable.getIntrinsicHeight()) / 2f);
-
-          archiveDrawable.draw(canvas);
-          canvas.restore();
+            if (defaultAdapter.getBatchSelectionIds().size() == 0) {
+                actionMode.finish();
+            } else {
+                actionMode.setTitle(String.valueOf(defaultAdapter.getBatchSelectionIds().size()));
+                setCorrectMenuVisibility(actionMode.getMenu());
+            }
         }
-
-        viewHolder.itemView.setAlpha(alpha);
-        viewHolder.itemView.setTranslationX(dX);
-      } else {
-        super.onChildDraw(canvas, recyclerView, viewHolder, dX, dY, actionState, isCurrentlyActive);
-      }
     }
-  }
 
-  private class ScrollListener extends RecyclerView.OnScrollListener {
     @Override
-    public void onScrolled(@NonNull RecyclerView recyclerView, int dx, int dy) {
-      if (recyclerView.canScrollVertically(-1)) {
-        if (toolbarShadow.getVisibility() != View.VISIBLE) {
-          ViewUtil.fadeIn(toolbarShadow, 250);
+    public boolean onConversationLongClick(Conversation conversation) {
+        if (actionMode != null) {
+            onConversationClick(conversation);
+            return true;
         }
-      } else {
-        if (toolbarShadow.getVisibility() != View.GONE) {
-          ViewUtil.fadeOut(toolbarShadow, 250);
-        }
-      }
+
+        defaultAdapter.initializeBatchMode(true);
+        defaultAdapter.toggleConversationInBatchSet(conversation);
+
+        actionMode = ((AppCompatActivity) getActivity()).startSupportActionMode(ConversationListFragment.this);
+
+        return true;
     }
-  }
+
+    @Override
+    public boolean onCreateActionMode(ActionMode mode, Menu menu) {
+        MenuInflater inflater = getActivity().getMenuInflater();
+
+        inflater.inflate(R.menu.conversation_list_batch_pin, menu);
+        inflater.inflate(getActionModeMenuRes(), menu);
+        inflater.inflate(R.menu.conversation_list_batch, menu);
+
+        mode.setTitle("1");
+
+        WindowUtil.setStatusBarColor(requireActivity().getWindow(), getResources().getColor(R.color.action_mode_status_bar));
+
+        return true;
+    }
+
+    @Override
+    public boolean onPrepareActionMode(ActionMode mode, Menu menu) {
+        setCorrectMenuVisibility(menu);
+        return false;
+    }
+
+    @Override
+    public boolean onActionItemClicked(ActionMode mode, MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.menu_select_all:
+                handleSelectAllThreads();
+                return true;
+            case R.id.menu_delete_selected:
+                handleDeleteAllSelected();
+                return true;
+            case R.id.menu_pin_selected:
+                handlePinAllSelected();
+                return true;
+            case R.id.menu_unpin_selected:
+                handleUnpinAllSelected();
+                return true;
+            case R.id.menu_archive_selected:
+                handleArchiveAllSelected();
+                return true;
+            case R.id.menu_mark_as_read:
+                handleMarkSelectedAsRead();
+                return true;
+            case R.id.menu_mark_as_unread:
+                handleMarkSelectedAsUnread();
+                return true;
+        }
+
+        return false;
+    }
+
+    @Override
+    public void onDestroyActionMode(ActionMode mode) {
+        defaultAdapter.initializeBatchMode(false);
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            TypedArray color = getActivity().getTheme().obtainStyledAttributes(new int[]{android.R.attr.statusBarColor});
+            WindowUtil.setStatusBarColor(getActivity().getWindow(), color.getColor(0, Color.BLACK));
+            color.recycle();
+        }
+
+        if (Build.VERSION.SDK_INT >= 23) {
+            TypedArray lightStatusBarAttr = getActivity().getTheme().obtainStyledAttributes(new int[]{android.R.attr.windowLightStatusBar});
+            int current = getActivity().getWindow().getDecorView().getSystemUiVisibility();
+            int statusBarMode = lightStatusBarAttr.getBoolean(0, false) ? current | View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
+                    : current & ~View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR;
+
+            getActivity().getWindow().getDecorView().setSystemUiVisibility(statusBarMode);
+
+            lightStatusBarAttr.recycle();
+        }
+
+        actionMode = null;
+    }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onEvent(ReminderUpdateEvent event) {
+        updateReminders();
+    }
+
+    @Subscribe(threadMode = ThreadMode.MAIN, sticky = true)
+    public void onEvent(MessageSender.MessageSentEvent event) {
+        EventBus.getDefault().removeStickyEvent(event);
+        closeSearchIfOpen();
+    }
+
+    private void setCorrectMenuVisibility(@NonNull Menu menu) {
+        boolean hasUnread = Stream.of(defaultAdapter.getBatchSelection()).anyMatch(conversation -> !conversation.getThreadRecord().isRead());
+        boolean hasUnpinned = Stream.of(defaultAdapter.getBatchSelection()).anyMatch(conversation -> !conversation.getThreadRecord().isPinned());
+        boolean canPin = viewModel.getPinnedCount() < MAXIMUM_PINNED_CONVERSATIONS;
+
+        if (hasUnread) {
+            menu.findItem(R.id.menu_mark_as_unread).setVisible(false);
+            menu.findItem(R.id.menu_mark_as_read).setVisible(true);
+        } else {
+            menu.findItem(R.id.menu_mark_as_unread).setVisible(true);
+            menu.findItem(R.id.menu_mark_as_read).setVisible(false);
+        }
+
+        if (!isArchived() && hasUnpinned && canPin) {
+            menu.findItem(R.id.menu_pin_selected).setVisible(true);
+            menu.findItem(R.id.menu_unpin_selected).setVisible(false);
+        } else if (!isArchived() && !hasUnpinned) {
+            menu.findItem(R.id.menu_pin_selected).setVisible(false);
+            menu.findItem(R.id.menu_unpin_selected).setVisible(true);
+        } else {
+            menu.findItem(R.id.menu_pin_selected).setVisible(false);
+            menu.findItem(R.id.menu_unpin_selected).setVisible(false);
+        }
+    }
+
+    protected Toolbar getToolbar(@NonNull View rootView) {
+        return rootView.findViewById(R.id.toolbar);
+    }
+
+    protected @PluralsRes
+    int getArchivedSnackbarTitleRes() {
+        return R.plurals.ConversationListFragment_conversations_archived;
+    }
+
+    protected @MenuRes
+    int getActionModeMenuRes() {
+        return R.menu.conversation_list_batch_archive;
+    }
+
+    protected @DrawableRes
+    int getArchiveIconRes() {
+        return R.drawable.ic_archive_white_36dp;
+    }
+
+    @WorkerThread
+    protected void archiveThreads(Set<Long> threadIds) {
+        DatabaseFactory.getThreadDatabase(getActivity()).setArchived(threadIds, true);
+    }
+
+    @WorkerThread
+    protected void reverseArchiveThreads(Set<Long> threadIds) {
+        DatabaseFactory.getThreadDatabase(getActivity()).setArchived(threadIds, false);
+    }
+
+    @SuppressLint("StaticFieldLeak")
+    protected void onItemSwiped(long threadId, int unreadCount) {
+        new SnackbarAsyncTask<Long>(getViewLifecycleOwner().getLifecycle(),
+                requireView(),
+                getResources().getQuantityString(R.plurals.ConversationListFragment_conversations_archived, 1, 1),
+                getString(R.string.ConversationListFragment_undo),
+                getResources().getColor(R.color.amber_500),
+                Snackbar.LENGTH_LONG,
+                false) {
+            private final ThreadDatabase threadDatabase = DatabaseFactory.getThreadDatabase(getActivity());
+
+            private List<Long> pinnedThreadIds;
+
+            @Override
+            protected void executeAction(@Nullable Long parameter) {
+                Context context = requireActivity();
+
+                pinnedThreadIds = threadDatabase.getPinnedThreadIds();
+                threadDatabase.archiveConversation(threadId);
+
+                if (unreadCount > 0) {
+                    List<MarkedMessageInfo> messageIds = threadDatabase.setRead(threadId, false);
+                    ApplicationDependencies.getMessageNotifier().updateNotification(context);
+                    MarkReadReceiver.process(context, messageIds);
+                }
+            }
+
+            @Override
+            protected void reverseAction(@Nullable Long parameter) {
+                Context context = requireActivity();
+
+                threadDatabase.unarchiveConversation(threadId);
+                threadDatabase.restorePins(pinnedThreadIds);
+
+                if (unreadCount > 0) {
+                    threadDatabase.incrementUnread(threadId, unreadCount);
+                    ApplicationDependencies.getMessageNotifier().updateNotification(context);
+                }
+            }
+        }.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, threadId);
+    }
+
+    private class PaymentNotificationListener implements UnreadPaymentsView.Listener {
+
+        private final UnreadPayments unreadPayments;
+
+        private PaymentNotificationListener(@NonNull UnreadPayments unreadPayments) {
+            this.unreadPayments = unreadPayments;
+        }
+
+        @Override
+        public void onOpenPaymentsNotificationClicked() {
+            UUID paymentId = unreadPayments.getPaymentUuid();
+
+            if (paymentId == null) {
+                goToPaymentsHome();
+            } else {
+                goToSinglePayment(paymentId);
+            }
+        }
+
+        @Override
+        public void onClosePaymentsNotificationClicked() {
+            viewModel.onUnreadPaymentsClosed();
+        }
+
+        private void goToPaymentsHome() {
+            startActivity(new Intent(requireContext(), PaymentsActivity.class));
+        }
+
+        private void goToSinglePayment(@NonNull UUID paymentId) {
+            Intent intent = new Intent(requireContext(), PaymentsActivity.class);
+
+            intent.putExtra(PaymentsActivity.EXTRA_PAYMENTS_STARTING_ACTION, R.id.action_directly_to_paymentDetails);
+            intent.putExtra(PaymentsActivity.EXTRA_STARTING_ARGUMENTS, new PaymentDetailsFragmentArgs.Builder(PaymentDetailsParcelable.forUuid(paymentId)).build().toBundle());
+
+            startActivity(intent);
+        }
+    }
+
+    private class ArchiveListenerCallback extends ItemTouchHelper.SimpleCallback {
+
+        ArchiveListenerCallback() {
+            super(0, ItemTouchHelper.RIGHT);
+        }
+
+        @Override
+        public boolean onMove(@NonNull RecyclerView recyclerView,
+                              @NonNull RecyclerView.ViewHolder viewHolder,
+                              @NonNull RecyclerView.ViewHolder target) {
+            return false;
+        }
+
+        @Override
+        public int getSwipeDirs(@NonNull RecyclerView recyclerView, @NonNull RecyclerView.ViewHolder viewHolder) {
+            if (viewHolder.itemView instanceof ConversationListItemAction ||
+                    viewHolder instanceof ConversationListAdapter.HeaderViewHolder ||
+                    actionMode != null ||
+                    activeAdapter == searchAdapter) {
+                return 0;
+            }
+
+            return super.getSwipeDirs(recyclerView, viewHolder);
+        }
+
+        @SuppressLint("StaticFieldLeak")
+        @Override
+        public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
+            if (viewHolder.itemView instanceof ConversationListItemInboxZero) return;
+            final long threadId = ((ConversationListItem) viewHolder.itemView).getThreadId();
+            final int unreadCount = ((ConversationListItem) viewHolder.itemView).getUnreadCount();
+
+            onItemSwiped(threadId, unreadCount);
+        }
+
+        @Override
+        public void onChildDraw(@NonNull Canvas canvas, @NonNull RecyclerView recyclerView,
+                                @NonNull RecyclerView.ViewHolder viewHolder,
+                                float dX, float dY, int actionState,
+                                boolean isCurrentlyActive) {
+            if (viewHolder.itemView instanceof ConversationListItemInboxZero) return;
+            if (actionState == ItemTouchHelper.ACTION_STATE_SWIPE) {
+                View itemView = viewHolder.itemView;
+                float alpha = 1.0f - Math.abs(dX) / (float) viewHolder.itemView.getWidth();
+
+                if (dX > 0) {
+                    Resources resources = getResources();
+
+                    if (archiveDrawable == null) {
+                        archiveDrawable = ResourcesCompat.getDrawable(resources, getArchiveIconRes(), requireActivity().getTheme());
+                        Objects.requireNonNull(archiveDrawable).setBounds(0, 0, archiveDrawable.getIntrinsicWidth(), archiveDrawable.getIntrinsicHeight());
+                    }
+
+                    canvas.save();
+                    canvas.clipRect(itemView.getLeft(), itemView.getTop(), dX, itemView.getBottom());
+
+                    canvas.drawColor(alpha > 0 ? resources.getColor(R.color.green_500) : Color.WHITE);
+
+                    canvas.translate(itemView.getLeft() + resources.getDimension(R.dimen.conversation_list_fragment_archive_padding),
+                            itemView.getTop() + (itemView.getBottom() - itemView.getTop() - archiveDrawable.getIntrinsicHeight()) / 2f);
+
+                    archiveDrawable.draw(canvas);
+                    canvas.restore();
+                }
+
+                viewHolder.itemView.setAlpha(alpha);
+                viewHolder.itemView.setTranslationX(dX);
+            } else {
+                super.onChildDraw(canvas, recyclerView, viewHolder, dX, dY, actionState, isCurrentlyActive);
+            }
+        }
+    }
+
+    private class ScrollListener extends RecyclerView.OnScrollListener {
+        @Override
+        public void onScrolled(@NonNull RecyclerView recyclerView, int dx, int dy) {
+            if (recyclerView.canScrollVertically(-1)) {
+                if (toolbarShadow.getVisibility() != View.VISIBLE) {
+                    ViewUtil.fadeIn(toolbarShadow, 250);
+                }
+            } else {
+                if (toolbarShadow.getVisibility() != View.GONE) {
+                    ViewUtil.fadeOut(toolbarShadow, 250);
+                }
+            }
+        }
+    }
 }
 
 

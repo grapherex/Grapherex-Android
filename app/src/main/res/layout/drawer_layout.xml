@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="@color/white"
+    android:clickable="true"
+    tools:ignore="contentDescription">
+
+    <org.thoughtcrime.securesms.components.AvatarImageView
+        android:id="@+id/toolbar_icon"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/conversation_list_settings_shortcut"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/ic_contact_picture" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivCameraWhiteCircle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="42dp"
+        app:layout_constraintStart_toStartOf="@+id/toolbar_icon"
+        app:layout_constraintTop_toTopOf="@+id/toolbar_icon"
+        app:srcCompat="@drawable/ic_drawer_avatar_white_circle" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="42dp"
+        app:layout_constraintStart_toStartOf="@+id/toolbar_icon"
+        app:layout_constraintTop_toTopOf="@+id/toolbar_icon"
+        app:srcCompat="@drawable/ic_drawer_avatar_camera" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/new_core_black"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/toolbar_icon"
+        app:layout_constraintTop_toTopOf="@+id/toolbar_icon"
+        tools:text="Jessica Shmitz" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvUserPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/core_grey_30"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/tvUserName"
+        app:layout_constraintTop_toBottomOf="@+id/tvUserName"
+        tools:text="+7(926)111-22-33" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:drawableStart="@drawable/ic_drawer_profile"
+        android:drawablePadding="28dp"
+        android:gravity="start|center"
+        android:paddingStart="4dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="@string/ConversationListFragment_drawer_item_profile"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_icon" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvChat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_drawer_chat"
+        android:drawablePadding="24dp"
+        android:gravity="start|center"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="@string/ConversationListFragment_drawer_item_chats"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvProfile"
+        app:layout_constraintTop_toBottomOf="@+id/tvProfile" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvContacts"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_drawer_contacts"
+        android:drawablePadding="24dp"
+        android:gravity="start|center"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="@string/ConversationListFragment_drawer_item_contacts"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvChat"
+        app:layout_constraintTop_toBottomOf="@+id/tvChat" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvCalls"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_drawer_calls"
+        android:drawablePadding="24dp"
+        android:gravity="start|center"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="@string/ConversationListFragment_drawer_item_calls"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvContacts"
+        app:layout_constraintTop_toBottomOf="@+id/tvContacts" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvWallet"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_drawer_wallet"
+        android:drawablePadding="24dp"
+        android:gravity="start|center"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="@string/ConversationListFragment_drawer_item_wallet"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvCalls"
+        app:layout_constraintTop_toBottomOf="@+id/tvCalls" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvSettings"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_drawer_settings"
+        android:drawablePadding="24dp"
+        android:gravity="start|center"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="@string/ConversationListFragment_drawer_item_settings"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvWallet"
+        app:layout_constraintTop_toBottomOf="@+id/tvWallet" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvSupport"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:drawableStart="@drawable/ic_drawer_support"
+        android:drawablePadding="24dp"
+        android:gravity="start|center"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="@string/ConversationListFragment_drawer_item_support"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvSettings"
+        app:layout_constraintTop_toBottomOf="@+id/tvSettings" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvAbout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_drawer_about"
+        android:drawablePadding="24dp"
+        android:gravity="start|center"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="@string/ConversationListFragment_drawer_item_about"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvSupport"
+        app:layout_constraintTop_toBottomOf="@+id/tvSupport" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

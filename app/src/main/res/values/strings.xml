@@ -3351,6 +3351,14 @@
     <!-- EditProfileFragment -->
     <string name="EditProfileFragment_input_name_title">Enter your name</string>
     <string name="EditProfileFragment_input_name_hint">Enter</string>
+    <string name="ConversationListFragment_drawer_item_profile">Profile</string>
+    <string name="ConversationListFragment_drawer_item_chats">Chats</string>
+    <string name="ConversationListFragment_drawer_item_contacts">Contacts</string>
+    <string name="ConversationListFragment_drawer_item_calls">Calls</string>
+    <string name="ConversationListFragment_drawer_item_wallet">Wallet</string>
+    <string name="ConversationListFragment_drawer_item_settings">Settings</string>
+    <string name="ConversationListFragment_drawer_item_support">Support</string>
+    <string name="ConversationListFragment_drawer_item_about">About</string>
 
 
 </resources>
