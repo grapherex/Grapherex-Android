@@ -25,7 +25,7 @@ import androidx.fragment.app.Fragment;
 
 import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.registration.fragments.RestoreBackupFragment;
 import org.thoughtcrime.securesms.service.LocalBackupListener;
 import org.thoughtcrime.securesms.util.BackupUtil;
@@ -67,7 +67,7 @@ public class BackupDialog {
             int takeFlags          = Intent.FLAG_GRANT_READ_URI_PERMISSION |
                                      Intent.FLAG_GRANT_WRITE_URI_PERMISSION;
 
-            SignalStore.settings().setSignalBackupDirectory(backupDirectoryUri);
+            GrapherexStore.settings().setSignalBackupDirectory(backupDirectoryUri);
             context.getContentResolver()
                    .takePersistableUriPermission(backupDirectoryUri, takeFlags);
           }
@@ -120,7 +120,7 @@ public class BackupDialog {
                      Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT_TREE);
 
                      if (Build.VERSION.SDK_INT >= 26) {
-                       intent.putExtra(DocumentsContract.EXTRA_INITIAL_URI, SignalStore.settings().getLatestSignalBackupDirectory());
+                       intent.putExtra(DocumentsContract.EXTRA_INITIAL_URI, GrapherexStore.settings().getLatestSignalBackupDirectory());
                      }
 
                      intent.addFlags(Intent.FLAG_GRANT_PERSISTABLE_URI_PERMISSION |

@@ -15,7 +15,7 @@ import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
 import org.thoughtcrime.securesms.database.DatabaseFactory;
 import org.thoughtcrime.securesms.jobmanager.Data;
 import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.notifications.NotificationChannels;
 import org.thoughtcrime.securesms.service.GenericForegroundService;
 import org.thoughtcrime.securesms.service.NotificationController;
@@ -65,7 +65,7 @@ public final class LocalBackupJobApi29 extends BaseJob {
       throw new IOException("Wrong backup job!");
     }
 
-    Uri backupDirectoryUri = SignalStore.settings().getSignalBackupDirectory();
+    Uri backupDirectoryUri = GrapherexStore.settings().getSignalBackupDirectory();
     if (backupDirectoryUri == null || backupDirectoryUri.getPath() == null) {
       throw new IOException("Backup Directory has not been selected!");
     }

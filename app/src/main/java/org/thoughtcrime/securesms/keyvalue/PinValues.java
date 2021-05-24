@@ -47,7 +47,7 @@ public final class PinValues extends SignalStoreValues {
               .putLong(NEXT_INTERVAL, nextInterval)
               .apply();
 
-    SignalStore.kbsValues().setPinIfNotPresent(pin);
+    GrapherexStore.kbsValues().setPinIfNotPresent(pin);
   }
 
   public void onEntrySuccessWithWrongGuess(@NonNull String pin) {
@@ -59,7 +59,7 @@ public final class PinValues extends SignalStoreValues {
               .putLong(NEXT_INTERVAL, nextInterval)
               .apply();
 
-    SignalStore.kbsValues().setPinIfNotPresent(pin);
+    GrapherexStore.kbsValues().setPinIfNotPresent(pin);
   }
 
   public void onEntrySkipWithWrongGuess() {

@@ -8,7 +8,7 @@ import androidx.annotation.NonNull;
 import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.jobs.RemoteConfigRefreshJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
@@ -28,7 +28,7 @@ public class VersionTracker {
 
       if (currentVersionCode != lastVersionCode) {
         Log.i(TAG, "Upgraded from " + lastVersionCode + " to " + currentVersionCode);
-        SignalStore.misc().clearClientDeprecated();
+        GrapherexStore.misc().clearClientDeprecated();
         TextSecurePreferences.setLastVersionCode(context, currentVersionCode);
         ApplicationDependencies.getJobManager().add(new RemoteConfigRefreshJob());
       }

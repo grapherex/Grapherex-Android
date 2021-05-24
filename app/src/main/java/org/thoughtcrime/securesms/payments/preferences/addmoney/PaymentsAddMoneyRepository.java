@@ -6,7 +6,7 @@ import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;
 
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.payments.MobileCoinPublicAddress;
 import org.thoughtcrime.securesms.util.AsynchronousCallback;
 
@@ -14,7 +14,7 @@ final class PaymentsAddMoneyRepository {
 
   @MainThread
   void getWalletAddress(@NonNull AsynchronousCallback.MainThread<AddressAndUri, Error> callback) {
-    if (!SignalStore.paymentsValues().mobileCoinPaymentsEnabled()) {
+    if (!GrapherexStore.paymentsValues().mobileCoinPaymentsEnabled()) {
       callback.onError(Error.PAYMENTS_NOT_ENABLED);
     }
 

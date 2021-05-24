@@ -18,7 +18,7 @@ import org.thoughtcrime.securesms.conversationlist.ConversationListFragment;
 import org.thoughtcrime.securesms.database.model.MegaphoneRecord;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.lock.SignalPinReminderDialog;
 import org.thoughtcrime.securesms.lock.SignalPinReminders;
 import org.thoughtcrime.securesms.lock.v2.CreateKbsPinActivity;
@@ -97,7 +97,7 @@ public final class Megaphones {
       put(Event.PIN_REMINDER, new SignalPinReminderSchedule());
       put(Event.MESSAGE_REQUESTS, shouldShowMessageRequestsMegaphone() ? ALWAYS : NEVER);
       put(Event.LINK_PREVIEWS, shouldShowLinkPreviewsMegaphone(context) ? ALWAYS : NEVER);
-      put(Event.CLIENT_DEPRECATED, SignalStore.misc().isClientDeprecated() ? ALWAYS : NEVER);
+      put(Event.CLIENT_DEPRECATED, GrapherexStore.misc().isClientDeprecated() ? ALWAYS : NEVER);
       put(Event.RESEARCH, shouldShowResearchMegaphone(context) ? ShowForDurationSchedule.showForDays(7) : NEVER);
       put(Event.DONATE, shouldShowDonateMegaphone(context) ? ShowForDurationSchedule.showForDays(7) : NEVER);
       put(Event.GROUP_CALLING, shouldShowGroupCallingMegaphone() ? ALWAYS : NEVER);
@@ -179,7 +179,7 @@ public final class Megaphones {
                             public void onReminderDismissed(boolean includedFailure) {
                               Log.i(TAG, "[PinReminder] onReminderDismissed(" + includedFailure + ")");
                               if (includedFailure) {
-                                SignalStore.pinValues().onEntrySkipWithWrongGuess();
+                                GrapherexStore.pinValues().onEntrySkipWithWrongGuess();
                               }
                             }
 
@@ -187,13 +187,13 @@ public final class Megaphones {
                             public void onReminderCompleted(@NonNull String pin, boolean includedFailure) {
                               Log.i(TAG, "[PinReminder] onReminderCompleted(" + includedFailure + ")");
                               if (includedFailure) {
-                                SignalStore.pinValues().onEntrySuccessWithWrongGuess(pin);
+                                GrapherexStore.pinValues().onEntrySuccessWithWrongGuess(pin);
                               } else {
-                                SignalStore.pinValues().onEntrySuccess(pin);
+                                GrapherexStore.pinValues().onEntrySuccess(pin);
                               }
 
                               controller.onMegaphoneSnooze(Event.PIN_REMINDER);
-                              controller.onMegaphoneToastRequested(context.getString(SignalPinReminders.getReminderString(SignalStore.pinValues().getCurrentInterval())));
+                              controller.onMegaphoneToastRequested(context.getString(SignalPinReminders.getReminderString(GrapherexStore.pinValues().getCurrentInterval())));
                             }
                           });
                         })
@@ -316,7 +316,7 @@ public final class Megaphones {
   }
 
   private static boolean shouldShowLinkPreviewsMegaphone(@NonNull Context context) {
-    return TextSecurePreferences.wereLinkPreviewsEnabled(context) && !SignalStore.settings().isLinkPreviewsEnabled();
+    return TextSecurePreferences.wereLinkPreviewsEnabled(context) && !GrapherexStore.settings().isLinkPreviewsEnabled();
   }
 
   private static boolean shouldShowGroupCallingMegaphone() {
@@ -324,7 +324,7 @@ public final class Megaphones {
   }
 
   private static boolean shouldShowOnboardingMegaphone(@NonNull Context context) {
-    return SignalStore.onboarding().hasOnboarding(context);
+    return GrapherexStore.onboarding().hasOnboarding(context);
   }
 
   private static boolean shouldShowNotificationsMegaphone(@NonNull Context context) {

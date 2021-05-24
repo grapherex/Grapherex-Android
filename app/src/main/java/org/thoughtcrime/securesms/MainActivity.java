@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import org.thoughtcrime.securesms.devicetransfer.olddevice.OldDeviceTransferLockedDialog;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.util.AppStartup;
 import org.thoughtcrime.securesms.util.CachedInflater;
 import org.thoughtcrime.securesms.util.CommunicationActions;
@@ -72,7 +72,7 @@ public class MainActivity extends PassphraseRequiredActivity {
   protected void onResume() {
     super.onResume();
     dynamicTheme.onResume(this);
-    if (SignalStore.misc().isOldDeviceTransferLocked()) {
+    if (GrapherexStore.misc().isOldDeviceTransferLocked()) {
       OldDeviceTransferLockedDialog.show(getSupportFragmentManager());
     }
   }

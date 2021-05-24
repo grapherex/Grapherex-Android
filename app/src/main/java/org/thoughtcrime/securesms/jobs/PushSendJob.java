@@ -31,7 +31,7 @@ import org.thoughtcrime.securesms.jobmanager.JobManager;
 import org.thoughtcrime.securesms.jobmanager.impl.BackoffUtil;
 import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
 import org.thoughtcrime.securesms.keyvalue.CertificateType;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.linkpreview.LinkPreview;
 import org.thoughtcrime.securesms.mms.DecryptableStreamUriLoader;
 import org.thoughtcrime.securesms.mms.OutgoingMediaMessage;
@@ -378,14 +378,14 @@ public abstract class PushSendJob extends SendJob {
 
   protected void rotateSenderCertificateIfNecessary() throws IOException {
     try {
-      Collection<CertificateType> requiredCertificateTypes = SignalStore.phoneNumberPrivacy()
+      Collection<CertificateType> requiredCertificateTypes = GrapherexStore.phoneNumberPrivacy()
                                                                         .getRequiredCertificateTypes();
 
       Log.i(TAG, "Ensuring we have these certificates " + requiredCertificateTypes);
 
       for (CertificateType certificateType : requiredCertificateTypes) {
 
-        byte[] certificateBytes = SignalStore.certificateValues()
+        byte[] certificateBytes = GrapherexStore.certificateValues()
                                              .getUnidentifiedAccessCertificate(certificateType);
 
         if (certificateBytes == null) {

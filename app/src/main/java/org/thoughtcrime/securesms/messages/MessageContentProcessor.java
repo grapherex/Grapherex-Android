@@ -71,7 +71,7 @@ import org.thoughtcrime.securesms.jobs.RetrieveProfileJob;
 import org.thoughtcrime.securesms.jobs.SendDeliveryReceiptJob;
 import org.thoughtcrime.securesms.jobs.StickerPackDownloadJob;
 import org.thoughtcrime.securesms.jobs.TrimThreadJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.linkpreview.LinkPreview;
 import org.thoughtcrime.securesms.linkpreview.LinkPreviewUtil;
 import org.thoughtcrime.securesms.mms.IncomingMediaMessage;
@@ -779,7 +779,7 @@ public final class MessageContentProcessor {
     }
 
     if (configurationMessage.getLinkPreviews().isPresent()) {
-      SignalStore.settings().setLinkPreviewsEnabled(configurationMessage.getReadReceipts().get());
+      GrapherexStore.settings().setLinkPreviewsEnabled(configurationMessage.getReadReceipts().get());
     }
   }
 
@@ -976,7 +976,7 @@ public final class MessageContentProcessor {
       ApplicationDependencies.getJobManager().add(new MultiDeviceConfigurationUpdateJob(TextSecurePreferences.isReadReceiptsEnabled(context),
           TextSecurePreferences.isTypingIndicatorsEnabled(context),
           TextSecurePreferences.isShowUnidentifiedDeliveryIndicatorsEnabled(context),
-          SignalStore.settings().isLinkPreviewsEnabled()));
+          GrapherexStore.settings().isLinkPreviewsEnabled()));
       ApplicationDependencies.getJobManager().add(new MultiDeviceStickerPackSyncJob());
     }
 

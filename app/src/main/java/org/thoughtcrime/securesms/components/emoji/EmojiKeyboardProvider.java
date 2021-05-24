@@ -13,7 +13,7 @@ import androidx.viewpager.widget.PagerAdapter;
 
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.components.emoji.EmojiPageViewGridAdapter.VariationSelectorListener;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.mms.GlideRequests;
 import org.thoughtcrime.securesms.util.ResUtil;
 
@@ -50,7 +50,7 @@ public class EmojiKeyboardProvider implements MediaKeyboardProvider,
       @Override
       public void onEmojiSelected(String emoji) {
         recentModel.onCodePointSelected(emoji);
-        SignalStore.emojiValues().setPreferredVariation(emoji);
+        GrapherexStore.emojiValues().setPreferredVariation(emoji);
 
         if (emojiEventListener != null) {
           emojiEventListener.onEmojiSelected(emoji);

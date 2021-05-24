@@ -22,6 +22,7 @@ import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
@@ -106,7 +107,7 @@ import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.events.ReminderUpdateEvent;
 import org.thoughtcrime.securesms.insights.InsightsLauncher;
 import org.thoughtcrime.securesms.jobs.ServiceOutageDetectionJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.lock.v2.CreateKbsPinActivity;
 import org.thoughtcrime.securesms.mediasend.MediaSendActivity;
 import org.thoughtcrime.securesms.megaphone.Megaphone;
@@ -129,6 +130,7 @@ import org.thoughtcrime.securesms.storage.StorageSyncHelper;
 import org.thoughtcrime.securesms.util.AppForegroundObserver;
 import org.thoughtcrime.securesms.util.AppStartup;
 import org.thoughtcrime.securesms.util.AvatarUtil;
+import org.thoughtcrime.securesms.util.DynamicTheme;
 import org.thoughtcrime.securesms.util.PlayStoreUtil;
 import org.thoughtcrime.securesms.util.ServiceUtil;
 import org.thoughtcrime.securesms.util.SignalProxyUtil;
@@ -207,7 +209,7 @@ public class ConversationListFragment extends MainFragment implements ActionMode
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle bundle) {
-        return inflater.inflate(R.layout.conversation_list_fragment_temp, container, false);
+        return inflater.inflate(R.layout.conversation_list_fragment, container, false);
     }
 
     @Override
@@ -233,6 +235,16 @@ public class ConversationListFragment extends MainFragment implements ActionMode
         ((AppCompatActivity) requireActivity()).setSupportActionBar(toolbar);
 
         proxyStatus.setOnClickListener(v -> onProxyStatusClicked());
+
+        requireView().findViewById(R.id.ivChangeTheme).setOnClickListener(v -> {
+            String[] themeEntryValues = getResources().getStringArray(R.array.pref_theme_values);
+
+            TextSecurePreferences.setTheme(requireContext(),
+                    themeEntryValues[(getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK) == Configuration.UI_MODE_NIGHT_YES ? 1 : 2]);
+
+            DynamicTheme.setDefaultDayNightMode(requireActivity());
+            requireActivity().recreate();
+        });
 
         requireView().findViewById(R.id.ivBurger).setOnClickListener(v -> drawerLayout.openDrawer(GravityCompat.START));
 
@@ -329,6 +341,7 @@ public class ConversationListFragment extends MainFragment implements ActionMode
         menu.findItem(R.id.menu_clear_passphrase).setVisible(!TextSecurePreferences.isPasswordDisabled(requireContext()));
     }
 
+    @SuppressLint("NonConstantResourceId")
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         super.onOptionsItemSelected(item);
@@ -971,8 +984,8 @@ public class ConversationListFragment extends MainFragment implements ActionMode
             //fab.startPulse(3 * 1000);
             cameraFab.startPulse(3 * 1000);
 
-            SignalStore.onboarding().setShowNewGroup(true);
-            SignalStore.onboarding().setShowInviteFriends(true);
+            GrapherexStore.onboarding().setShowNewGroup(true);
+            GrapherexStore.onboarding().setShowInviteFriends(true);
         } else {
             list.setVisibility(View.VISIBLE);
             //fab.stopPulse();
@@ -985,7 +998,7 @@ public class ConversationListFragment extends MainFragment implements ActionMode
     }
 
     private void updateProxyStatus(@NonNull PipeConnectivityListener.State state) {
-        if (SignalStore.proxy().isProxyEnabled()) {
+        if (GrapherexStore.proxy().isProxyEnabled()) {
             proxyStatus.setVisibility(View.VISIBLE);
 
             switch (state) {
@@ -1013,8 +1026,8 @@ public class ConversationListFragment extends MainFragment implements ActionMode
     }
 
     protected void onPostSubmitList(int conversationCount) {
-        if (conversationCount >= 6 && (SignalStore.onboarding().shouldShowInviteFriends() || SignalStore.onboarding().shouldShowNewGroup())) {
-            SignalStore.onboarding().clearAll();
+        if (conversationCount >= 6 && (GrapherexStore.onboarding().shouldShowInviteFriends() || GrapherexStore.onboarding().shouldShowNewGroup())) {
+            GrapherexStore.onboarding().clearAll();
             ApplicationDependencies.getMegaphoneRepository().markFinished(Megaphones.Event.ONBOARDING);
         }
     }

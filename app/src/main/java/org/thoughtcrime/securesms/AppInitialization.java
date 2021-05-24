@@ -9,7 +9,7 @@ import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.insights.InsightsOptOut;
 import org.thoughtcrime.securesms.jobmanager.JobManager;
 import org.thoughtcrime.securesms.jobs.StickerPackDownloadJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.migrations.ApplicationMigrations;
 import org.thoughtcrime.securesms.stickers.BlessedPacks;
 import org.thoughtcrime.securesms.util.TextSecurePreferences;
@@ -40,7 +40,7 @@ public final class AppInitialization {
     TextSecurePreferences.setTypingIndicatorsEnabled(context, true);
     TextSecurePreferences.setHasSeenWelcomeScreen(context, false);
     ApplicationDependencies.getMegaphoneRepository().onFirstEverAppLaunch();
-    SignalStore.onFirstEverAppLaunch();
+    GrapherexStore.onFirstEverAppLaunch();
     ApplicationDependencies.getJobManager().add(StickerPackDownloadJob.forInstall(BlessedPacks.ZOZO.getPackId(), BlessedPacks.ZOZO.getPackKey(), false));
     ApplicationDependencies.getJobManager().add(StickerPackDownloadJob.forInstall(BlessedPacks.BANDIT.getPackId(), BlessedPacks.BANDIT.getPackKey(), false));
     ApplicationDependencies.getJobManager().add(StickerPackDownloadJob.forInstall(BlessedPacks.DAY_BY_DAY.getPackId(), BlessedPacks.DAY_BY_DAY.getPackKey(), false));
@@ -52,8 +52,8 @@ public final class AppInitialization {
     Log.i(TAG, "onPostBackupRestore()");
 
     ApplicationDependencies.getMegaphoneRepository().onFirstEverAppLaunch();
-    SignalStore.onFirstEverAppLaunch();
-    SignalStore.onboarding().clearAll();
+    GrapherexStore.onFirstEverAppLaunch();
+    GrapherexStore.onboarding().clearAll();
     TextSecurePreferences.onPostBackupRestore(context);
     ApplicationDependencies.getJobManager().add(StickerPackDownloadJob.forInstall(BlessedPacks.ZOZO.getPackId(), BlessedPacks.ZOZO.getPackKey(), false));
     ApplicationDependencies.getJobManager().add(StickerPackDownloadJob.forInstall(BlessedPacks.BANDIT.getPackId(), BlessedPacks.BANDIT.getPackKey(), false));
@@ -76,7 +76,7 @@ public final class AppInitialization {
     TextSecurePreferences.setPasswordDisabled(context, true);
     TextSecurePreferences.setLastExperienceVersionCode(context, Util.getCanonicalVersionCode());
     ApplicationDependencies.getMegaphoneRepository().onFirstEverAppLaunch();
-    SignalStore.onFirstEverAppLaunch();
+    GrapherexStore.onFirstEverAppLaunch();
     ApplicationDependencies.getJobManager().add(StickerPackDownloadJob.forInstall(BlessedPacks.ZOZO.getPackId(), BlessedPacks.ZOZO.getPackKey(), false));
     ApplicationDependencies.getJobManager().add(StickerPackDownloadJob.forInstall(BlessedPacks.BANDIT.getPackId(), BlessedPacks.BANDIT.getPackKey(), false));
     ApplicationDependencies.getJobManager().add(StickerPackDownloadJob.forInstall(BlessedPacks.DAY_BY_DAY.getPackId(), BlessedPacks.DAY_BY_DAY.getPackKey(), false));

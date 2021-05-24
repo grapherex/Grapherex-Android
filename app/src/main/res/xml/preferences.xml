@@ -3,58 +3,73 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <org.thoughtcrime.securesms.preferences.widgets.ProfilePreference
-            android:key="preference_category_profile"/>
+    <!--    <org.thoughtcrime.securesms.preferences.widgets.ProfilePreference-->
+    <!--            android:key="preference_category_profile"/>-->
 
-    <org.thoughtcrime.securesms.preferences.widgets.UsernamePreference
-            app:isPreferenceVisible="false"
-            android:key="preference_category_username"/>
+    <!--    <org.thoughtcrime.securesms.preferences.widgets.UsernamePreference-->
+    <!--            app:isPreferenceVisible="false"-->
+    <!--            android:key="preference_category_username"/>-->
 
-    <Preference android:key="preference_category_sms_mms"
-                android:title="@string/preferences__sms_mms"
-                android:icon="@drawable/ic_message_tinted_bitmap_24"/>
+    <Preference
+        android:icon="@drawable/ic_settings_item_notification"
+        android:key="preference_category_notifications"
+        android:title="@string/preferences__notifications" />
 
-    <Preference android:key="preference_category_notifications"
-                android:title="@string/preferences__notifications"
-                android:icon="@drawable/ic_bell_24"/>
+    <Preference
+        android:icon="@drawable/ic_settings_item_privacy"
+        android:key="preference_category_app_privacy"
+        android:title="@string/preferences__privacy" />
 
-    <Preference android:key="preference_category_app_protection"
-                android:title="@string/preferences__privacy"
-                android:icon="@drawable/ic_lock_24"/>
+    <Preference
+        android:icon="@drawable/ic_settings_item_appearance"
+        android:key="preference_category_appearance"
+        android:title="@string/preferences__appearance" />
 
-    <Preference android:key="preference_category_appearance"
-                android:title="@string/preferences__appearance"
-                android:icon="@drawable/ic_appearance_24"/>
+    <Preference
+        android:icon="@drawable/ic_settings_item_chats"
+        android:key="preference_category_chats"
+        android:title="@string/preferences_chats__chats" />
 
-    <Preference android:key="preference_category_chats"
-                android:title="@string/preferences_chats__chats"
-                android:icon="@drawable/ic_photo_24"/>
+    <ListPreference
+        android:icon="@drawable/ic_settings_item_language"
+        android:key="pref_language"
+        android:entries="@array/language_entries"
+        android:entryValues="@array/language_values"
+        android:defaultValue="zz"
+        android:title="@string/preferences__language" />
 
-    <Preference android:key="preference_category_storage"
-                android:title="@string/preferences__data_and_storage"
-                android:icon="@drawable/ic_archive_24dp"/>
+    <Preference
+        android:icon="@drawable/ic_settings_item_storage"
+        android:key="preference_category_storage"
+        android:title="@string/preferences__data_and_storage" />
 
-    <Preference android:key="preference_category_devices"
-                android:title="@string/preferences__linked_devices"
-                android:icon="@drawable/ic_linked_devices_24"/>
+    <Preference
+        android:icon="@drawable/ic_settings_item_note_to_self"
+        android:key="preference_category_note_to_self"
+        android:title="@string/preferences__note_to_self" />
 
-    <org.thoughtcrime.securesms.preferences.widgets.PaymentsPreference
-                android:key="preference_category_payments"
-                android:title="@string/preferences__payments"
-                android:icon="@drawable/ic_payments_24"
-                app:isPreferenceVisible="false" />
+<!--    <org.thoughtcrime.securesms.preferences.widgets.PaymentsPreference-->
+<!--        android:icon="@drawable/ic_payments_24"-->
+<!--        android:key="preference_category_payments"-->
+<!--        android:title="@string/preferences__payments"-->
+<!--        app:isPreferenceVisible="false" />-->
 
-    <Preference android:key="preference_category_help"
-                android:title="@string/preferences__help"
-                android:icon="@drawable/ic_help_24" />
+    <Preference
+        android:icon="@drawable/ic_settings_item_info"
+        android:key="preference_category_help"
+        android:title="@string/preferences__help" />
 
-    <Preference android:key="preference_category_advanced"
-                android:title="@string/preferences__advanced"
-                android:icon="@drawable/ic_advanced_24"/>
+    <Preference
+        android:key="preference_category_space_one"
+        android:title="" />
 
-    <Preference android:key="preference_category_donate"
-                android:title="@string/preferences__donate_to_signal"
-                android:icon="@drawable/ic_heart_24"
-                android:widgetLayout="@layout/donate_preference_widget" />
+    <Preference
+        android:key="preference_category_space_two"
+        android:title="" />
+
+    <org.thoughtcrime.securesms.preferences.widgets.TextColorPreference
+        android:icon="@drawable/ic_settings_item_delete"
+        android:key="preference_category_delete_account"
+        android:title="@string/preferences__delete_account" />
 
 </PreferenceScreen>

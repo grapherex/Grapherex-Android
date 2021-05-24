@@ -103,7 +103,7 @@ import org.thoughtcrime.securesms.groups.ui.invitesandrequests.invite.GroupLinkI
 import org.thoughtcrime.securesms.groups.ui.migration.GroupsV1MigrationInfoBottomSheetDialogFragment;
 import org.thoughtcrime.securesms.jobs.DirectoryRefreshJob;
 import org.thoughtcrime.securesms.jobs.MultiDeviceViewOnceOpenJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.linkpreview.LinkPreview;
 import org.thoughtcrime.securesms.longmessage.LongMessageActivity;
 import org.thoughtcrime.securesms.mediasend.Media;
@@ -816,13 +816,13 @@ public class ConversationFragment extends LoggingFragment {
       });
     };
 
-    if (SignalStore.uiHints().hasConfirmedDeleteForEveryoneOnce()) {
+    if (GrapherexStore.uiHints().hasConfirmedDeleteForEveryoneOnce()) {
       deleteForEveryone.run();
     } else {
       new AlertDialog.Builder(requireActivity())
                      .setMessage(R.string.ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation)
                      .setPositiveButton(R.string.ConversationFragment_delete_for_everyone, (dialog, which) -> {
-                       SignalStore.uiHints().markHasConfirmedDeleteForEveryoneOnce();
+                       GrapherexStore.uiHints().markHasConfirmedDeleteForEveryoneOnce();
                        deleteForEveryone.run();
                      })
                      .setNegativeButton(android.R.string.cancel, null)

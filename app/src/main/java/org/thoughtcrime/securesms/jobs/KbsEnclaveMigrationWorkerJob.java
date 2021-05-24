@@ -6,7 +6,7 @@ import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.jobmanager.Data;
 import org.thoughtcrime.securesms.jobmanager.Job;
 import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.migrations.KbsEnclaveMigrationJob;
 import org.thoughtcrime.securesms.pin.PinState;
 import org.whispersystems.signalservice.internal.contacts.crypto.UnauthenticatedResponseException;
@@ -49,9 +49,9 @@ public class KbsEnclaveMigrationWorkerJob extends BaseJob {
 
   @Override
   public void onRun() throws IOException, UnauthenticatedResponseException {
-    String pin = SignalStore.kbsValues().getPin();
+    String pin = GrapherexStore.kbsValues().getPin();
 
-    if (SignalStore.kbsValues().hasOptedOut()) {
+    if (GrapherexStore.kbsValues().hasOptedOut()) {
       Log.w(TAG, "Opted out of KBS! Nothing to migrate.");
       return;
     }

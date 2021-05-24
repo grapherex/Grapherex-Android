@@ -31,7 +31,7 @@ import org.thoughtcrime.securesms.imageeditor.model.EditorElement;
 import org.thoughtcrime.securesms.imageeditor.model.EditorModel;
 import org.thoughtcrime.securesms.imageeditor.renderers.FaceBlurRenderer;
 import org.thoughtcrime.securesms.imageeditor.renderers.MultiLineTextRenderer;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.mediasend.MediaSendPageFragment;
 import org.thoughtcrime.securesms.mms.MediaConstraints;
 import org.thoughtcrime.securesms.mms.PushMediaConstraints;
@@ -183,9 +183,9 @@ public final class ImageEditorFragment extends Fragment implements ImageEditorHu
 
     imageEditorView.setModel(editorModel);
 
-    if (!SignalStore.tooltips().hasSeenBlurHudIconTooltip()) {
+    if (!GrapherexStore.tooltips().hasSeenBlurHudIconTooltip()) {
       imageEditorHud.showBlurHudTooltip();
-      SignalStore.tooltips().markBlurHudIconTooltipSeen();
+      GrapherexStore.tooltips().markBlurHudIconTooltipSeen();
     }
 
     refreshUniqueColors();

@@ -13,7 +13,7 @@ import org.thoughtcrime.securesms.groups.GroupsV2Authorization;
 import org.thoughtcrime.securesms.groups.GroupsV2AuthorizationMemoryValueCache;
 import org.thoughtcrime.securesms.groups.v2.processing.GroupsV2StateProcessor;
 import org.thoughtcrime.securesms.jobmanager.JobManager;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.megaphone.MegaphoneRepository;
 import org.thoughtcrime.securesms.messages.BackgroundMessageRetriever;
 import org.thoughtcrime.securesms.messages.IncomingMessageObserver;
@@ -26,7 +26,7 @@ import org.thoughtcrime.securesms.recipients.LiveRecipientCache;
 import org.thoughtcrime.securesms.revealable.ViewOnceMessageManager;
 import org.thoughtcrime.securesms.service.ExpiringMessageManager;
 import org.thoughtcrime.securesms.service.TrimThreadsByDateManager;
-import org.thoughtcrime.securesms.service.webrtc.SignalCallManager;
+import org.thoughtcrime.securesms.service.webrtc.GrapherexCallManager;
 import org.thoughtcrime.securesms.shakereport.ShakeToReport;
 import org.thoughtcrime.securesms.util.AppForegroundObserver;
 import org.thoughtcrime.securesms.util.EarlyMessageCache;
@@ -81,7 +81,7 @@ public class ApplicationDependencies {
   private static volatile ExpiringMessageManager       expiringMessageManager;
   private static volatile Payments                     payments;
   private static volatile ShakeToReport                shakeToReport;
-  private static volatile SignalCallManager            signalCallManager;
+  private static volatile GrapherexCallManager grapherexCallManager;
 
   @MainThread
   public static void init(@NonNull Application application, @NonNull Provider provider) {
@@ -126,7 +126,7 @@ public class ApplicationDependencies {
     if (groupsV2Authorization == null) {
       synchronized (LOCK) {
         if (groupsV2Authorization == null) {
-          GroupsV2Authorization.ValueCache authCache = new GroupsV2AuthorizationMemoryValueCache(SignalStore.groupsV2AuthorizationCache());
+          GroupsV2Authorization.ValueCache authCache = new GroupsV2AuthorizationMemoryValueCache(GrapherexStore.groupsV2AuthorizationCache());
           groupsV2Authorization = new GroupsV2Authorization(getSignalServiceAccountManager().getGroupsV2Api(), authCache);
         }
       }
@@ -429,16 +429,17 @@ public class ApplicationDependencies {
     return shakeToReport;
   }
 
-  public static @NonNull SignalCallManager getSignalCallManager() {
-    if (signalCallManager == null) {
+  public static @NonNull
+  GrapherexCallManager getSignalCallManager() {
+    if (grapherexCallManager == null) {
       synchronized (LOCK) {
-        if (signalCallManager == null) {
-          signalCallManager = provider.provideSignalCallManager();
+        if (grapherexCallManager == null) {
+          grapherexCallManager = provider.provideSignalCallManager();
         }
       }
     }
 
-    return signalCallManager;
+    return grapherexCallManager;
   }
 
   public static @NonNull AppForegroundObserver getAppForegroundObserver() {
@@ -471,6 +472,7 @@ public class ApplicationDependencies {
     @NonNull Payments providePayments(@NonNull SignalServiceAccountManager signalServiceAccountManager);
     @NonNull ShakeToReport provideShakeToReport();
     @NonNull AppForegroundObserver provideAppForegroundObserver();
-    @NonNull SignalCallManager provideSignalCallManager();
+    @NonNull
+    GrapherexCallManager provideSignalCallManager();
   }
 }

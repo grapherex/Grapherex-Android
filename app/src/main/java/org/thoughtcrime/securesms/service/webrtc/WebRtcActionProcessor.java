@@ -55,7 +55,7 @@ import static org.thoughtcrime.securesms.service.webrtc.WebRtcData.ReceivedAnswe
  * For example, the {@link OutgoingCallActionProcessor} responds to the the
  * {@link #handleReceivedBusy(WebRtcServiceState, CallMetadata)} event but no others do.
  * <p>
- * Processing of the actions occur in by calls from {@link SignalCallManager} and
+ * Processing of the actions occur in by calls from {@link GrapherexCallManager} and
  * result in atomic state updates that are returned to the caller. Part of the state change can be
  * the replacement of the current action processor.
  */

@@ -10,27 +10,27 @@ import androidx.preference.PreferenceViewHolder;
 
 import org.thoughtcrime.securesms.R;
 
-public class SignalPreference extends Preference {
+public class GrapherexPreference extends Preference {
 
   private TextView rightSummary;
   private CharSequence summary;
 
-  public SignalPreference(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+  public GrapherexPreference(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
     super(context, attrs, defStyleAttr, defStyleRes);
     initialize();
   }
 
-  public SignalPreference(Context context, AttributeSet attrs, int defStyleAttr) {
+  public GrapherexPreference(Context context, AttributeSet attrs, int defStyleAttr) {
     super(context, attrs, defStyleAttr);
     initialize();
   }
 
-  public SignalPreference(Context context, AttributeSet attrs) {
+  public GrapherexPreference(Context context, AttributeSet attrs) {
     super(context, attrs);
     initialize();
   }
 
-  public SignalPreference(Context context) {
+  public GrapherexPreference(Context context) {
     super(context);
     initialize();
   }

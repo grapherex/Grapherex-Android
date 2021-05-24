@@ -4,7 +4,7 @@ import androidx.annotation.NonNull;
 
 import org.thoughtcrime.securesms.jobmanager.Data;
 import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 
 import java.util.concurrent.TimeUnit;
 
@@ -32,7 +32,7 @@ public class PinReminderMigrationJob extends MigrationJob {
 
   @Override
   void performMigration() {
-    SignalStore.pinValues().setNextReminderIntervalToAtMost(TimeUnit.DAYS.toMillis(3));
+    GrapherexStore.pinValues().setNextReminderIntervalToAtMost(TimeUnit.DAYS.toMillis(3));
   }
 
   @Override

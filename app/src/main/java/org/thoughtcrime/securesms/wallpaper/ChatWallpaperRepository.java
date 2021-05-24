@@ -8,14 +8,12 @@ import androidx.core.util.Consumer;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.thoughtcrime.securesms.database.DatabaseFactory;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.recipients.RecipientId;
 import org.thoughtcrime.securesms.util.concurrent.SerialExecutor;
-import org.whispersystems.libsignal.util.guava.Optional;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.Executor;
 
@@ -28,7 +26,7 @@ class ChatWallpaperRepository {
     if (recipientId != null) {
       return Recipient.live(recipientId).get().getWallpaper();
     } else {
-      return SignalStore.wallpaper().getWallpaper();
+      return GrapherexStore.wallpaper().getWallpaper();
     }
   }
 
@@ -48,12 +46,12 @@ class ChatWallpaperRepository {
         DatabaseFactory.getRecipientDatabase(ApplicationDependencies.getApplication()).setWallpaper(recipientId, chatWallpaper);
       });
     } else {
-      SignalStore.wallpaper().setWallpaper(ApplicationDependencies.getApplication(), chatWallpaper);
+      GrapherexStore.wallpaper().setWallpaper(ApplicationDependencies.getApplication(), chatWallpaper);
     }
   }
 
   void resetAllWallpaper() {
-    SignalStore.wallpaper().setWallpaper(ApplicationDependencies.getApplication(), null);
+    GrapherexStore.wallpaper().setWallpaper(ApplicationDependencies.getApplication(), null);
     EXECUTOR.execute(() -> {
       DatabaseFactory.getRecipientDatabase(ApplicationDependencies.getApplication()).resetAllWallpaper();
     });
@@ -76,7 +74,7 @@ class ChatWallpaperRepository {
         }
       });
     } else {
-      SignalStore.wallpaper().setDimInDarkTheme(dimInDarkTheme);
+      GrapherexStore.wallpaper().setDimInDarkTheme(dimInDarkTheme);
     }
   }
 }

@@ -7,7 +7,8 @@
     android:layout_gravity="start"
     android:background="@color/white"
     android:clickable="true"
-    tools:ignore="contentDescription">
+    tools:ignore="contentDescription"
+    android:focusable="true">
 
     <org.thoughtcrime.securesms.components.AvatarImageView
         android:id="@+id/toolbar_icon"
@@ -47,7 +48,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="12dp"
-        android:textColor="@color/new_core_black"
+        android:textColor="@color/black"
         android:textSize="14sp"
         app:layout_constraintStart_toEndOf="@+id/toolbar_icon"
         app:layout_constraintTop_toTopOf="@+id/toolbar_icon"
@@ -165,11 +166,11 @@
 
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/tvSupport"
+        android:id="@+id/tvInvite"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="68dp"
-        android:drawableStart="@drawable/ic_drawer_support"
+        android:drawableStart="@drawable/ic_drawer_invite_user"
         android:drawablePadding="24dp"
         android:gravity="start|center"
         android:paddingTop="8dp"
@@ -196,7 +197,17 @@
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/tvSupport"
-        app:layout_constraintTop_toBottomOf="@+id/tvSupport" />
+        app:layout_constraintStart_toStartOf="@+id/tvInvite"
+        app:layout_constraintTop_toBottomOf="@+id/tvInvite" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivChangeTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvUserPhone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvUserName"
+        app:srcCompat="@drawable/ic_drawer_change_theme" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

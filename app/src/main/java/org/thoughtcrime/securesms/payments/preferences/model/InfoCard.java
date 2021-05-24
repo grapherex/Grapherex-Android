@@ -5,8 +5,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
 
 import org.thoughtcrime.securesms.R;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.keyvalue.PaymentsValues;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
 import org.thoughtcrime.securesms.util.MappingModel;
 
 import java.util.ArrayList;
@@ -76,7 +76,7 @@ public class InfoCard implements MappingModel<InfoCard> {
 
   public static @NonNull List<InfoCard> getInfoCards() {
     List<InfoCard> infoCards      = new ArrayList<>(Type.values().length);
-    PaymentsValues paymentsValues = SignalStore.paymentsValues();
+    PaymentsValues paymentsValues = GrapherexStore.paymentsValues();
 
     if (paymentsValues.showRecoveryPhraseInfoCard()) {
       infoCards.add(new InfoCard(R.string.payment_info_card_record_recovery_phrase,

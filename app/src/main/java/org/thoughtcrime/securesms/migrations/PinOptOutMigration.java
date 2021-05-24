@@ -8,7 +8,7 @@ import org.thoughtcrime.securesms.jobmanager.Data;
 import org.thoughtcrime.securesms.jobmanager.Job;
 import org.thoughtcrime.securesms.jobs.RefreshAttributesJob;
 import org.thoughtcrime.securesms.jobs.StorageForcePushJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 
 /**
  * We changed some details of what it means to opt-out of a PIN. This ensures that users who went
@@ -36,13 +36,13 @@ public final class PinOptOutMigration extends MigrationJob {
 
   @Override
   void performMigration() {
-    if (SignalStore.kbsValues().hasOptedOut() && SignalStore.kbsValues().hasPin()) {
+    if (GrapherexStore.kbsValues().hasOptedOut() && GrapherexStore.kbsValues().hasPin()) {
       Log.w(TAG, "Discovered a legacy opt-out user! Resetting the state.");
 
-      SignalStore.kbsValues().optOut();
+      GrapherexStore.kbsValues().optOut();
       ApplicationDependencies.getJobManager().add(new RefreshAttributesJob());
       ApplicationDependencies.getJobManager().add(new StorageForcePushJob());
-    } else if (SignalStore.kbsValues().hasOptedOut()) {
+    } else if (GrapherexStore.kbsValues().hasOptedOut()) {
       Log.i(TAG, "Discovered an opt-out user, but they're already in a good state. No action required.");
     } else {
       Log.i(TAG, "Discovered a normal PIN user. No action required.");

@@ -12,7 +12,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 import org.thoughtcrime.securesms.ApplicationPreferencesActivity;
 import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.lock.v2.CreateKbsPinActivity;
 import org.thoughtcrime.securesms.payments.backup.PaymentsRecoveryStartFragmentArgs;
 import org.thoughtcrime.securesms.payments.preferences.PaymentsActivity;
@@ -51,7 +51,7 @@ public class AdvancedPinPreferenceFragment extends ListSummaryPreferenceFragment
     Preference enable = this.findPreference(PREF_ENABLE);
     Preference disable = this.findPreference(PREF_DISABLE);
 
-    if (SignalStore.kbsValues().hasOptedOut()) {
+    if (GrapherexStore.kbsValues().hasOptedOut()) {
       enable.setVisible(true);
       disable.setVisible(false);
 
@@ -74,7 +74,7 @@ public class AdvancedPinPreferenceFragment extends ListSummaryPreferenceFragment
 
   private void onPreferenceChanged(boolean enabled) {
     boolean hasRegistrationLock = TextSecurePreferences.isV1RegistrationLockEnabled(requireContext()) ||
-                                  SignalStore.kbsValues().isV2RegistrationLockEnabled();
+                                  GrapherexStore.kbsValues().isV2RegistrationLockEnabled();
 
     if (!enabled && hasRegistrationLock) {
       new AlertDialog.Builder(requireContext())
@@ -82,7 +82,7 @@ public class AdvancedPinPreferenceFragment extends ListSummaryPreferenceFragment
                      .setCancelable(true)
                      .setPositiveButton(android.R.string.ok, (d, which) -> d.dismiss())
                      .show();
-    } else if (!enabled && SignalStore.paymentsValues().mobileCoinPaymentsEnabled() && !SignalStore.paymentsValues().userConfirmedMnemonic()) {
+    } else if (!enabled && GrapherexStore.paymentsValues().mobileCoinPaymentsEnabled() && !GrapherexStore.paymentsValues().userConfirmedMnemonic()) {
       new AlertDialog.Builder(requireContext())
                      .setTitle(R.string.ApplicationPreferencesActivity_record_payments_recovery_phrase)
                      .setMessage(R.string.ApplicationPreferencesActivity_before_you_can_disable_your_pin)

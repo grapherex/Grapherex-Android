@@ -9,7 +9,7 @@ import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.jobmanager.Data;
 import org.thoughtcrime.securesms.jobmanager.Job;
 import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.util.TextSecurePreferences;
 import org.whispersystems.libsignal.IdentityKeyPair;
 import org.whispersystems.libsignal.state.PreKeyRecord;
@@ -43,7 +43,7 @@ public class RefreshPreKeysJob extends BaseJob {
   }
 
   public static void scheduleIfNecessary() {
-    long timeSinceLastRefresh = System.currentTimeMillis() - SignalStore.misc().getLastPrekeyRefreshTime();
+    long timeSinceLastRefresh = System.currentTimeMillis() - GrapherexStore.misc().getLastPrekeyRefreshTime();
 
     if (timeSinceLastRefresh > REFRESH_INTERVAL) {
       Log.i(TAG, "Scheduling a prekey refresh. Time since last schedule: " + timeSinceLastRefresh + " ms");
@@ -80,7 +80,7 @@ public class RefreshPreKeysJob extends BaseJob {
 
     if (availableKeys >= PREKEY_MINIMUM && TextSecurePreferences.isSignedPreKeyRegistered(context)) {
       Log.i(TAG, "Available keys sufficient.");
-      SignalStore.misc().setLastPrekeyRefreshTime(System.currentTimeMillis());
+      GrapherexStore.misc().setLastPrekeyRefreshTime(System.currentTimeMillis());
       return;
     }
 
@@ -96,7 +96,7 @@ public class RefreshPreKeysJob extends BaseJob {
     TextSecurePreferences.setSignedPreKeyRegistered(context, true);
 
     ApplicationDependencies.getJobManager().add(new CleanPreKeysJob());
-    SignalStore.misc().setLastPrekeyRefreshTime(System.currentTimeMillis());
+    GrapherexStore.misc().setLastPrekeyRefreshTime(System.currentTimeMillis());
     Log.i(TAG, "Successfully refreshed prekeys.");
   }
 

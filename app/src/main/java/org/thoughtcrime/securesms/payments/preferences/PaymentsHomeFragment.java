@@ -30,7 +30,7 @@ import org.thoughtcrime.securesms.LoggingFragment;
 import org.thoughtcrime.securesms.PaymentPreferencesDirections;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.help.HelpFragment;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.lock.v2.CreateKbsPinActivity;
 import org.thoughtcrime.securesms.payments.FiatMoneyUtil;
 import org.thoughtcrime.securesms.payments.MoneyView;
@@ -70,14 +70,14 @@ public class PaymentsHomeFragment extends LoggingFragment {
     toolbar.setOnMenuItemClickListener(this::onMenuItemSelected);
 
     addMoney.setOnClickListener(v -> {
-      if (SignalStore.paymentsValues().getPaymentsAvailability().isSendAllowed()) {
+      if (GrapherexStore.paymentsValues().getPaymentsAvailability().isSendAllowed()) {
         Navigation.findNavController(v).navigate(PaymentsHomeFragmentDirections.actionPaymentsHomeToPaymentsAddMoney());
       } else {
         showPaymentsDisabledDialog();
       }
     });
     sendMoney.setOnClickListener(v -> {
-      if (SignalStore.paymentsValues().getPaymentsAvailability().isSendAllowed()) {
+      if (GrapherexStore.paymentsValues().getPaymentsAvailability().isSendAllowed()) {
         Navigation.findNavController(v).navigate(PaymentsHomeFragmentDirections.actionPaymentsHomeToPaymentRecipientSelectionFragment());
       } else {
         showPaymentsDisabledDialog();

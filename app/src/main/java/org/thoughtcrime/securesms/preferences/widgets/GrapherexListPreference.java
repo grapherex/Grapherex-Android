@@ -12,30 +12,30 @@ import androidx.preference.PreferenceViewHolder;
 
 import org.thoughtcrime.securesms.R;
 
-public class SignalListPreference extends ListPreference {
+public class GrapherexListPreference extends ListPreference {
 
   private TextView                  rightSummary;
   private CharSequence              summary;
   private OnPreferenceClickListener clickListener;
 
   @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
-  public SignalListPreference(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+  public GrapherexListPreference(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
     super(context, attrs, defStyleAttr, defStyleRes);
     initialize();
   }
 
   @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
-  public SignalListPreference(Context context, AttributeSet attrs, int defStyleAttr) {
+  public GrapherexListPreference(Context context, AttributeSet attrs, int defStyleAttr) {
     super(context, attrs, defStyleAttr);
     initialize();
   }
 
-  public SignalListPreference(Context context, AttributeSet attrs) {
+  public GrapherexListPreference(Context context, AttributeSet attrs) {
     super(context, attrs);
     initialize();
   }
 
-  public SignalListPreference(Context context) {
+  public GrapherexListPreference(Context context) {
     super(context);
     initialize();
   }

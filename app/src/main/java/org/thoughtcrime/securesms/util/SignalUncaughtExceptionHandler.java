@@ -4,7 +4,7 @@ import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 
 public class SignalUncaughtExceptionHandler implements Thread.UncaughtExceptionHandler {
 
@@ -19,7 +19,7 @@ public class SignalUncaughtExceptionHandler implements Thread.UncaughtExceptionH
   @Override
   public void uncaughtException(Thread t, Throwable e) {
     Log.e(TAG, "", e);
-    SignalStore.blockUntilAllWritesFinished();
+    GrapherexStore.blockUntilAllWritesFinished();
     Log.blockUntilAllWritesFinished();
     ApplicationDependencies.getJobManager().flush();
     originalHandler.uncaughtException(t, e);

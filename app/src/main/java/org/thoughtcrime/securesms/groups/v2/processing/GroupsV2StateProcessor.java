@@ -35,7 +35,7 @@ import org.thoughtcrime.securesms.jobmanager.JobManager;
 import org.thoughtcrime.securesms.jobs.AvatarGroupsV2DownloadJob;
 import org.thoughtcrime.securesms.jobs.RequestGroupV2InfoJob;
 import org.thoughtcrime.securesms.jobs.RetrieveProfileJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.mms.MmsException;
 import org.thoughtcrime.securesms.mms.OutgoingGroupUpdateMessage;
 import org.thoughtcrime.securesms.recipients.Recipient;
@@ -175,7 +175,7 @@ public final class GroupsV2StateProcessor {
           localState.getRevision() + 1 == signedGroupChange.getRevision() &&
           revision == signedGroupChange.getRevision())
       {
-        if (SignalStore.internalValues().gv2IgnoreP2PChanges()) {
+        if (GrapherexStore.internalValues().gv2IgnoreP2PChanges()) {
           Log.w(TAG, "Ignoring P2P group change by setting");
         } else {
           try {
@@ -479,7 +479,7 @@ public final class GroupsV2StateProcessor {
       try {
         Collection<DecryptedGroupHistoryEntry> groupStatesFromRevision = groupsV2Api.getGroupHistory(groupSecretParams, logsNeededFromRevision, groupsV2Authorization.getAuthorizationForToday(selfUuid, groupSecretParams));
         ArrayList<ServerGroupLogEntry>         history                 = new ArrayList<>(groupStatesFromRevision.size());
-        boolean                                ignoreServerChanges     = SignalStore.internalValues().gv2IgnoreServerChanges();
+        boolean                                ignoreServerChanges     = GrapherexStore.internalValues().gv2IgnoreServerChanges();
 
         if (ignoreServerChanges) {
           Log.w(TAG, "Server change logs are ignored by setting");

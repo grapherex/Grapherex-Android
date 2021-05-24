@@ -14,7 +14,7 @@ import com.annimon.stream.Collectors;
 import com.annimon.stream.Stream;
 
 import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.recipients.RecipientId;
 import org.thoughtcrime.securesms.util.DefaultValueLiveData;
@@ -55,7 +55,7 @@ public final class AddGroupDetailsViewModel extends ViewModel {
     isMms                = Transformations.map(members, AddGroupDetailsViewModel::isAnyForcedSms);
 
     LiveData<List<GroupMemberEntry.NewGroupCandidate>> membersToCheckGv2CapabilityOf = LiveDataUtil.combineLatest(isMms, members, (forcedMms, memberList) -> {
-      if (SignalStore.internalValues().gv2DoNotCreateGv2Groups() || forcedMms) {
+      if (GrapherexStore.internalValues().gv2DoNotCreateGv2Groups() || forcedMms) {
         return Collections.emptyList();
       } else {
         return memberList;

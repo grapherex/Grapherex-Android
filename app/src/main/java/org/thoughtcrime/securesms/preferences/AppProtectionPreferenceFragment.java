@@ -39,14 +39,13 @@ import org.thoughtcrime.securesms.contactshare.SimpleTextWatcher;
 import org.thoughtcrime.securesms.crypto.MasterSecretUtil;
 import org.thoughtcrime.securesms.database.DatabaseFactory;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.jobs.ConversationShortcutUpdateJob;
 import org.thoughtcrime.securesms.jobs.MultiDeviceConfigurationUpdateJob;
 import org.thoughtcrime.securesms.jobs.RefreshAttributesJob;
 import org.thoughtcrime.securesms.keyvalue.KbsValues;
 import org.thoughtcrime.securesms.keyvalue.PhoneNumberPrivacyValues;
 import org.thoughtcrime.securesms.keyvalue.PinValues;
 import org.thoughtcrime.securesms.keyvalue.SettingsValues;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.lock.PinHashing;
 import org.thoughtcrime.securesms.lock.v2.CreateKbsPinActivity;
 import org.thoughtcrime.securesms.lock.v2.KbsConstants;
@@ -91,12 +90,12 @@ public class AppProtectionPreferenceFragment extends CorrectedPreferenceFragment
 
     disablePassphrase = (CheckBoxPreference) this.findPreference("pref_enable_passphrase_temporary");
 
-    this.findPreference(KbsValues.V2_LOCK_ENABLED).setPreferenceDataStore(SignalStore.getPreferenceDataStore());
-    ((SwitchPreferenceCompat) this.findPreference(KbsValues.V2_LOCK_ENABLED)).setChecked(SignalStore.kbsValues().isV2RegistrationLockEnabled());
+    this.findPreference(KbsValues.V2_LOCK_ENABLED).setPreferenceDataStore(GrapherexStore.getPreferenceDataStore());
+    ((SwitchPreferenceCompat) this.findPreference(KbsValues.V2_LOCK_ENABLED)).setChecked(GrapherexStore.kbsValues().isV2RegistrationLockEnabled());
     this.findPreference(KbsValues.V2_LOCK_ENABLED).setOnPreferenceChangeListener(new RegistrationLockV2ChangedListener());
 
-    this.findPreference(PinValues.PIN_REMINDERS_ENABLED).setPreferenceDataStore(SignalStore.getPreferenceDataStore());
-    ((SwitchPreferenceCompat) this.findPreference(PinValues.PIN_REMINDERS_ENABLED)).setChecked(SignalStore.pinValues().arePinRemindersEnabled());
+    this.findPreference(PinValues.PIN_REMINDERS_ENABLED).setPreferenceDataStore(GrapherexStore.getPreferenceDataStore());
+    ((SwitchPreferenceCompat) this.findPreference(PinValues.PIN_REMINDERS_ENABLED)).setChecked(GrapherexStore.pinValues().arePinRemindersEnabled());
     this.findPreference(PinValues.PIN_REMINDERS_ENABLED).setOnPreferenceChangeListener(new PinRemindersChangedListener());
 
     this.findPreference(TextSecurePreferences.SCREEN_LOCK).setOnPreferenceChangeListener(new ScreenLockListener());
@@ -127,8 +126,8 @@ public class AppProtectionPreferenceFragment extends CorrectedPreferenceFragment
     }
 
     SwitchPreferenceCompat linkPreviewPref = (SwitchPreferenceCompat) this.findPreference(SettingsValues.LINK_PREVIEWS);
-    linkPreviewPref.setChecked(SignalStore.settings().isLinkPreviewsEnabled());
-    linkPreviewPref.setPreferenceDataStore(SignalStore.getPreferenceDataStore());
+    linkPreviewPref.setChecked(GrapherexStore.settings().isLinkPreviewsEnabled());
+    linkPreviewPref.setPreferenceDataStore(GrapherexStore.getPreferenceDataStore());
     linkPreviewPref.setOnPreferenceChangeListener(new LinkPreviewToggleListener());
 
     initializeVisibility();
@@ -153,7 +152,7 @@ public class AppProtectionPreferenceFragment extends CorrectedPreferenceFragment
     SwitchPreferenceCompat signalPinReminders      = (SwitchPreferenceCompat) this.findPreference(PinValues.PIN_REMINDERS_ENABLED);
     SwitchPreferenceCompat registrationLockV2      = (SwitchPreferenceCompat) this.findPreference(KbsValues.V2_LOCK_ENABLED);
 
-    if (SignalStore.kbsValues().hasPin() && !SignalStore.kbsValues().hasOptedOut()) {
+    if (GrapherexStore.kbsValues().hasPin() && !GrapherexStore.kbsValues().hasOptedOut()) {
       signalPinCreateChange.setOnPreferenceClickListener(new KbsPinUpdateListener());
       signalPinCreateChange.setTitle(R.string.preferences_app_protection__change_your_pin);
       signalPinReminders.setEnabled(true);
@@ -196,7 +195,7 @@ public class AppProtectionPreferenceFragment extends CorrectedPreferenceFragment
   private void initializePhoneNumberPrivacyWhoCanSeeSummary() {
     Preference preference = findPreference(PREFERENCE_WHO_CAN_SEE_PHONE_NUMBER);
 
-    switch (SignalStore.phoneNumberPrivacy().getPhoneNumberSharingMode()) {
+    switch (GrapherexStore.phoneNumberPrivacy().getPhoneNumberSharingMode()) {
       case EVERYONE: preference.setSummary(R.string.PhoneNumberPrivacy_everyone);    break;
       case CONTACTS: preference.setSummary(R.string.PhoneNumberPrivacy_my_contacts); break;
       case NOBODY  : preference.setSummary(R.string.PhoneNumberPrivacy_nobody);      break;
@@ -207,7 +206,7 @@ public class AppProtectionPreferenceFragment extends CorrectedPreferenceFragment
   private void initializePhoneNumberPrivacyWhoCanFindSummary() {
     Preference preference = findPreference(PREFERENCE_WHO_CAN_FIND_BY_PHONE_NUMBER);
 
-    switch (SignalStore.phoneNumberPrivacy().getPhoneNumberListingMode()) {
+    switch (GrapherexStore.phoneNumberPrivacy().getPhoneNumberListingMode()) {
       case LISTED  : preference.setSummary(R.string.PhoneNumberPrivacy_everyone); break;
       case UNLISTED: preference.setSummary(R.string.PhoneNumberPrivacy_nobody);   break;
       default      : throw new AssertionError();
@@ -304,7 +303,7 @@ public class AppProtectionPreferenceFragment extends CorrectedPreferenceFragment
         ApplicationDependencies.getJobManager().add(new MultiDeviceConfigurationUpdateJob(enabled,
                                                                                           TextSecurePreferences.isTypingIndicatorsEnabled(requireContext()),
                                                                                           TextSecurePreferences.isShowUnidentifiedDeliveryIndicatorsEnabled(getContext()),
-                                                                                          SignalStore.settings().isLinkPreviewsEnabled()));
+                                                                                          GrapherexStore.settings().isLinkPreviewsEnabled()));
 
       });
       return true;
@@ -321,7 +320,7 @@ public class AppProtectionPreferenceFragment extends CorrectedPreferenceFragment
         ApplicationDependencies.getJobManager().add(new MultiDeviceConfigurationUpdateJob(TextSecurePreferences.isReadReceiptsEnabled(requireContext()),
                                                                                           enabled,
                                                                                           TextSecurePreferences.isShowUnidentifiedDeliveryIndicatorsEnabled(getContext()),
-                                                                                          SignalStore.settings().isLinkPreviewsEnabled()));
+                                                                                          GrapherexStore.settings().isLinkPreviewsEnabled()));
 
         if (!enabled) {
           ApplicationDependencies.getTypingStatusRepository().clear();
@@ -449,7 +448,7 @@ public class AppProtectionPreferenceFragment extends CorrectedPreferenceFragment
         ApplicationDependencies.getJobManager().add(new MultiDeviceConfigurationUpdateJob(TextSecurePreferences.isReadReceiptsEnabled(getContext()),
                                                                                           TextSecurePreferences.isTypingIndicatorsEnabled(getContext()),
                                                                                           enabled,
-                                                                                          SignalStore.settings().isLinkPreviewsEnabled()));
+                                                                                          GrapherexStore.settings().isLinkPreviewsEnabled()));
       });
 
       return true;
@@ -526,7 +525,7 @@ public class AppProtectionPreferenceFragment extends CorrectedPreferenceFragment
 
         ViewCompat.setAutofillHints(pinEditText, HintConstants.AUTOFILL_HINT_PASSWORD);
 
-        switch (SignalStore.pinValues().getKeyboardType()) {
+        switch (GrapherexStore.pinValues().getKeyboardType()) {
           case NUMERIC:
             pinEditText.setInputType(InputType.TYPE_CLASS_NUMBER | InputType.TYPE_NUMBER_VARIATION_PASSWORD);
             break;
@@ -548,10 +547,10 @@ public class AppProtectionPreferenceFragment extends CorrectedPreferenceFragment
 
         turnOffButton.setOnClickListener(v -> {
           String  pin     = pinEditText.getText().toString();
-          boolean correct = PinHashing.verifyLocalPinHash(Objects.requireNonNull(SignalStore.kbsValues().getLocalPinHash()), pin);
+          boolean correct = PinHashing.verifyLocalPinHash(Objects.requireNonNull(GrapherexStore.kbsValues().getLocalPinHash()), pin);
 
           if (correct) {
-            SignalStore.pinValues().setPinRemindersEnabled(false);
+            GrapherexStore.pinValues().setPinRemindersEnabled(false);
             ((SwitchPreferenceCompat) findPreference(PinValues.PIN_REMINDERS_ENABLED)).setChecked(false);
             dialog.dismiss();
           } else {
@@ -571,7 +570,7 @@ public class AppProtectionPreferenceFragment extends CorrectedPreferenceFragment
   private final class PhoneNumberPrivacyWhoCanSeeClickListener implements Preference.OnPreferenceClickListener {
     @Override
     public boolean onPreferenceClick(Preference preference) {
-      PhoneNumberPrivacyValues phoneNumberPrivacyValues = SignalStore.phoneNumberPrivacy();
+      PhoneNumberPrivacyValues phoneNumberPrivacyValues = GrapherexStore.phoneNumberPrivacy();
 
       final PhoneNumberPrivacyValues.PhoneNumberSharingMode[] value = { phoneNumberPrivacyValues.getPhoneNumberSharingMode() };
 
@@ -610,7 +609,7 @@ public class AppProtectionPreferenceFragment extends CorrectedPreferenceFragment
   private final class PhoneNumberPrivacyWhoCanFindClickListener implements Preference.OnPreferenceClickListener {
     @Override
     public boolean onPreferenceClick(Preference preference) {
-      PhoneNumberPrivacyValues phoneNumberPrivacyValues = SignalStore.phoneNumberPrivacy();
+      PhoneNumberPrivacyValues phoneNumberPrivacyValues = GrapherexStore.phoneNumberPrivacy();
 
       final PhoneNumberPrivacyValues.PhoneNumberListingMode[] value = { phoneNumberPrivacyValues.getPhoneNumberListingMode() };
 

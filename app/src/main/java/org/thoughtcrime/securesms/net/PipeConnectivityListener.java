@@ -8,7 +8,7 @@ import org.greenrobot.eventbus.EventBus;
 import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.events.ReminderUpdateEvent;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.util.DefaultValueLiveData;
 import org.thoughtcrime.securesms.util.TextSecurePreferences;
 import org.whispersystems.signalservice.api.websocket.ConnectivityListener;
@@ -66,7 +66,7 @@ public class PipeConnectivityListener implements ConnectivityListener {
     Log.w(TAG, "onGenericFailure() Response: " + response, throwable);
     state.postValue(State.FAILURE);
 
-    if (SignalStore.proxy().isProxyEnabled()) {
+    if (GrapherexStore.proxy().isProxyEnabled()) {
       Log.w(TAG, "Encountered an error while we had a proxy set! Terminating the connection to prevent retry spam.");
       ApplicationDependencies.closeConnections();
       return false;

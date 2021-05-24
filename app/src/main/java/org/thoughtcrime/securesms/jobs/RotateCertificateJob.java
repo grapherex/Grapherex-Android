@@ -8,7 +8,7 @@ import org.thoughtcrime.securesms.jobmanager.Data;
 import org.thoughtcrime.securesms.jobmanager.Job;
 import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
 import org.thoughtcrime.securesms.keyvalue.CertificateType;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.util.TextSecurePreferences;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
 import org.whispersystems.signalservice.api.push.exceptions.PushNetworkException;
@@ -58,7 +58,7 @@ public final class RotateCertificateJob extends BaseJob {
 
     synchronized (RotateCertificateJob.class) {
       SignalServiceAccountManager accountManager   = ApplicationDependencies.getSignalServiceAccountManager();
-      Collection<CertificateType> certificateTypes = SignalStore.phoneNumberPrivacy()
+      Collection<CertificateType> certificateTypes = GrapherexStore.phoneNumberPrivacy()
                                                                 .getAllCertificateTypes();
 
       Log.i(TAG, "Rotating these certificates " + certificateTypes);
@@ -73,7 +73,7 @@ public final class RotateCertificateJob extends BaseJob {
         }
 
         Log.i(TAG, String.format("Successfully got %s certificate", certificateType));
-        SignalStore.certificateValues()
+        GrapherexStore.certificateValues()
                    .setUnidentifiedAccessCertificate(certificateType, certificate);
       }
     }

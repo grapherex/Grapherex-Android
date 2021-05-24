@@ -4,7 +4,7 @@ import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 public final class RegistrationLockUtil {
@@ -12,6 +12,6 @@ public final class RegistrationLockUtil {
   private RegistrationLockUtil() {}
 
   public static boolean userHasRegistrationLock(@NonNull Context context) {
-    return TextSecurePreferences.isV1RegistrationLockEnabled(context) || SignalStore.kbsValues().isV2RegistrationLockEnabled();
+    return TextSecurePreferences.isV1RegistrationLockEnabled(context) || GrapherexStore.kbsValues().isV2RegistrationLockEnabled();
   }
 }

@@ -10,7 +10,7 @@ import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.jobs.PaymentLedgerUpdateJob;
 import org.thoughtcrime.securesms.jobs.ProfileUploadJob;
 import org.thoughtcrime.securesms.keyvalue.PaymentsValues;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.util.Util;
 
 import java.util.List;
@@ -24,7 +24,7 @@ class PaymentsRecoveryPhraseRepository {
   {
     SignalExecutors.BOUNDED.execute(() -> {
       String                             mnemonic = Util.join(words, " ");
-      PaymentsValues.WalletRestoreResult result   = SignalStore.paymentsValues().restoreWallet(mnemonic);
+      PaymentsValues.WalletRestoreResult result   = GrapherexStore.paymentsValues().restoreWallet(mnemonic);
 
       switch (result) {
         case ENTROPY_CHANGED:

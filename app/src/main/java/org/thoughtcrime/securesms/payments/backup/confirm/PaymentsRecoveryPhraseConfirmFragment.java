@@ -21,7 +21,7 @@ import androidx.navigation.Navigation;
 import com.google.android.material.textfield.TextInputLayout;
 
 import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.util.ViewUtil;
 import org.thoughtcrime.securesms.util.text.AfterTextChanged;
 
@@ -65,7 +65,7 @@ public class PaymentsRecoveryPhraseConfirmFragment extends Fragment {
     word2.addTextChangedListener(new AfterTextChanged(e -> viewModel.validateWord2(e.toString())));
     seePhraseAgain.setOnClickListener(v -> Navigation.findNavController(requireView()).popBackStack());
     done.setOnClickListener(v -> {
-      SignalStore.paymentsValues().setUserConfirmedMnemonic(true);
+      GrapherexStore.paymentsValues().setUserConfirmedMnemonic(true);
       ViewUtil.hideKeyboard(requireContext(), view);
       Toast.makeText(requireContext(), R.string.PaymentRecoveryPhraseConfirmFragment__recovery_phrase_confirmed, Toast.LENGTH_SHORT).show();
 

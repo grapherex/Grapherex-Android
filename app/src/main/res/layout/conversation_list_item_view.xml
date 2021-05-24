@@ -76,15 +76,16 @@
       style="@style/Signal.Text.Preview"
       android:layout_width="0dp"
       android:layout_height="wrap_content"
+      android:layout_marginEnd="8dp"
       android:ellipsize="end"
       android:maxLines="1"
-      android:textSize="12sp"
       android:textColor="@color/signal_text_secondary"
-      tools:text="I'll send those photos over to the Bugle ASAP."
-      app:layout_constraintTop_toBottomOf="@id/conversation_list_item_name"
+      android:textSize="12sp"
       app:layout_constraintBottom_toBottomOf="@id/conversation_list_item_avatar"
+      app:layout_constraintEnd_toStartOf="@+id/conversation_list_item_status"
       app:layout_constraintStart_toEndOf="@id/conversation_list_item_alert"
-      app:layout_constraintEnd_toStartOf="@id/conversation_list_item_status_barrier"/>
+      app:layout_constraintTop_toBottomOf="@id/conversation_list_item_name"
+      tools:text="I'll send those photos over to the Bugle ASAP." />
 
   <org.thoughtcrime.securesms.components.TypingIndicatorView
       android:id="@+id/conversation_list_item_typing_indicator"

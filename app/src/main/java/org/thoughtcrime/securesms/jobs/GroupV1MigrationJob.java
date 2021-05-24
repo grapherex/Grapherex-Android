@@ -17,11 +17,10 @@ import org.thoughtcrime.securesms.jobmanager.Data;
 import org.thoughtcrime.securesms.jobmanager.Job;
 import org.thoughtcrime.securesms.jobmanager.JobManager;
 import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.recipients.RecipientId;
 import org.thoughtcrime.securesms.transport.RetryLaterException;
-import org.thoughtcrime.securesms.util.FeatureFlags;
 import org.thoughtcrime.securesms.util.TextSecurePreferences;
 import org.whispersystems.signalservice.api.groupsv2.NoCredentialForRedemptionTimeException;
 import org.whispersystems.signalservice.api.push.exceptions.PushNetworkException;
@@ -69,7 +68,7 @@ public class GroupV1MigrationJob extends BaseJob {
   }
 
   public static void enqueueRoutineMigrationsIfNecessary(@NonNull Application application) {
-    if (!SignalStore.registrationValues().isRegistrationComplete() ||
+    if (!GrapherexStore.registrationValues().isRegistrationComplete() ||
         !TextSecurePreferences.isPushRegistered(application)       ||
         TextSecurePreferences.getLocalUuid(application) == null)
     {
@@ -77,14 +76,14 @@ public class GroupV1MigrationJob extends BaseJob {
       return;
     }
 
-    long timeSinceRefresh = System.currentTimeMillis() - SignalStore.misc().getLastGv1RoutineMigrationTime();
+    long timeSinceRefresh = System.currentTimeMillis() - GrapherexStore.misc().getLastGv1RoutineMigrationTime();
 
     if (timeSinceRefresh < REFRESH_INTERVAL) {
       Log.i(TAG, "Too soon to refresh. Did the last refresh " + timeSinceRefresh + " ms ago.");
       return;
     }
 
-    SignalStore.misc().setLastGv1RoutineMigrationTime(System.currentTimeMillis());
+    GrapherexStore.misc().setLastGv1RoutineMigrationTime(System.currentTimeMillis());
 
     SignalExecutors.BOUNDED.execute(() -> {
       JobManager         jobManager   = ApplicationDependencies.getJobManager();

@@ -5,7 +5,7 @@ import androidx.annotation.WorkerThread;
 
 import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.payments.currency.CurrencyExchange;
 import org.whispersystems.signalservice.api.payments.CurrencyConversion;
 import org.whispersystems.signalservice.api.payments.CurrencyConversions;
@@ -33,7 +33,7 @@ public final class Payments {
     if (wallet != null) {
       return wallet;
     }
-    Entropy paymentsEntropy = SignalStore.paymentsValues().getPaymentsEntropy();
+    Entropy paymentsEntropy = GrapherexStore.paymentsValues().getPaymentsEntropy();
     wallet = new Wallet(mobileCoinConfig, Objects.requireNonNull(paymentsEntropy));
     return wallet;
   }

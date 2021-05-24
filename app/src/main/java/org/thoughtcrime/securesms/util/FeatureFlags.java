@@ -15,7 +15,7 @@ import org.thoughtcrime.securesms.BuildConfig;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.groups.SelectionLimits;
 import org.thoughtcrime.securesms.jobs.RemoteConfigRefreshJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.messageprocessingalarm.MessageProcessReceiver;
 
 import java.util.HashMap;
@@ -185,11 +185,11 @@ public final class FeatureFlags {
   private FeatureFlags() {}
 
   public static synchronized void init() {
-    Map<String, Object> current = parseStoredConfig(SignalStore.remoteConfigValues().getCurrentConfig());
-    Map<String, Object> pending = parseStoredConfig(SignalStore.remoteConfigValues().getPendingConfig());
+    Map<String, Object> current = parseStoredConfig(GrapherexStore.remoteConfigValues().getCurrentConfig());
+    Map<String, Object> pending = parseStoredConfig(GrapherexStore.remoteConfigValues().getPendingConfig());
     Map<String, Change> changes = computeChanges(current, pending);
 
-    SignalStore.remoteConfigValues().setCurrentConfig(mapToJson(pending));
+    GrapherexStore.remoteConfigValues().setCurrentConfig(mapToJson(pending));
     REMOTE_VALUES.putAll(pending);
     triggerFlagChangeListeners(changes);
 
@@ -197,7 +197,7 @@ public final class FeatureFlags {
   }
 
   public static synchronized void refreshIfNecessary() {
-    long timeSinceLastFetch = System.currentTimeMillis() - SignalStore.remoteConfigValues().getLastFetchTime();
+    long timeSinceLastFetch = System.currentTimeMillis() - GrapherexStore.remoteConfigValues().getLastFetchTime();
 
     if (timeSinceLastFetch < 0 || timeSinceLastFetch > FETCH_INTERVAL) {
       Log.i(TAG, "Scheduling remote config refresh.");
@@ -209,15 +209,15 @@ public final class FeatureFlags {
 
   public static synchronized void update(@NonNull Map<String, Object> config) {
     Map<String, Object> memory  = REMOTE_VALUES;
-    Map<String, Object> disk    = parseStoredConfig(SignalStore.remoteConfigValues().getPendingConfig());
+    Map<String, Object> disk    = parseStoredConfig(GrapherexStore.remoteConfigValues().getPendingConfig());
     UpdateResult        result  = updateInternal(config, memory, disk, REMOTE_CAPABLE, HOT_SWAPPABLE, STICKY);
 
-    SignalStore.remoteConfigValues().setPendingConfig(mapToJson(result.getDisk()));
+    GrapherexStore.remoteConfigValues().setPendingConfig(mapToJson(result.getDisk()));
     REMOTE_VALUES.clear();
     REMOTE_VALUES.putAll(result.getMemory());
     triggerFlagChangeListeners(result.getMemoryChanges());
 
-    SignalStore.remoteConfigValues().setLastFetchTime(System.currentTimeMillis());
+    GrapherexStore.remoteConfigValues().setLastFetchTime(System.currentTimeMillis());
 
     Log.i(TAG, "[Memory] Before: " + memory.toString());
     Log.i(TAG, "[Memory] After : " + result.getMemory().toString());
@@ -358,12 +358,12 @@ public final class FeatureFlags {
 
   /** Only for rendering debug info. */
   public static synchronized @NonNull Map<String, Object> getDiskValues() {
-    return new TreeMap<>(parseStoredConfig(SignalStore.remoteConfigValues().getCurrentConfig()));
+    return new TreeMap<>(parseStoredConfig(GrapherexStore.remoteConfigValues().getCurrentConfig()));
   }
 
   /** Only for rendering debug info. */
   public static synchronized @NonNull Map<String, Object> getPendingDiskValues() {
-    return new TreeMap<>(parseStoredConfig(SignalStore.remoteConfigValues().getPendingConfig()));
+    return new TreeMap<>(parseStoredConfig(GrapherexStore.remoteConfigValues().getPendingConfig()));
   }
 
   /** Only for rendering debug info. */

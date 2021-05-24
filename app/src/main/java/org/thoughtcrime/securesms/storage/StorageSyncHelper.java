@@ -16,8 +16,8 @@ import org.thoughtcrime.securesms.database.RecipientDatabase.RecipientSettings;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.jobs.RetrieveProfileAvatarJob;
 import org.thoughtcrime.securesms.jobs.StorageSyncJob;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.keyvalue.PhoneNumberPrivacyValues;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
 import org.thoughtcrime.securesms.payments.Entropy;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.recipients.RecipientId;
@@ -406,12 +406,12 @@ public final class StorageSyncHelper {
                                                          .setTypingIndicatorsEnabled(TextSecurePreferences.isTypingIndicatorsEnabled(context))
                                                          .setReadReceiptsEnabled(TextSecurePreferences.isReadReceiptsEnabled(context))
                                                          .setSealedSenderIndicatorsEnabled(TextSecurePreferences.isShowUnidentifiedDeliveryIndicatorsEnabled(context))
-                                                         .setLinkPreviewsEnabled(SignalStore.settings().isLinkPreviewsEnabled())
-                                                         .setUnlistedPhoneNumber(SignalStore.phoneNumberPrivacy().getPhoneNumberListingMode().isUnlisted())
-                                                         .setPhoneNumberSharingMode(StorageSyncModels.localToRemotePhoneNumberSharingMode(SignalStore.phoneNumberPrivacy().getPhoneNumberSharingMode()))
+                                                         .setLinkPreviewsEnabled(GrapherexStore.settings().isLinkPreviewsEnabled())
+                                                         .setUnlistedPhoneNumber(GrapherexStore.phoneNumberPrivacy().getPhoneNumberListingMode().isUnlisted())
+                                                         .setPhoneNumberSharingMode(StorageSyncModels.localToRemotePhoneNumberSharingMode(GrapherexStore.phoneNumberPrivacy().getPhoneNumberSharingMode()))
                                                          .setPinnedConversations(StorageSyncModels.localToRemotePinnedConversations(pinned))
-                                                         .setPreferContactAvatars(SignalStore.settings().isPreferSystemContactPhotos())
-                                                         .setPayments(SignalStore.paymentsValues().mobileCoinPaymentsEnabled(), Optional.fromNullable(SignalStore.paymentsValues().getPaymentsEntropy()).transform(Entropy::getBytes).orNull())
+                                                         .setPreferContactAvatars(GrapherexStore.settings().isPreferSystemContactPhotos())
+                                                         .setPayments(GrapherexStore.paymentsValues().mobileCoinPaymentsEnabled(), Optional.fromNullable(GrapherexStore.paymentsValues().getPaymentsEntropy()).transform(Entropy::getBytes).orNull())
                                                          .build();
 
     return SignalStorageRecord.forAccount(account);
@@ -430,11 +430,11 @@ public final class StorageSyncHelper {
     TextSecurePreferences.setReadReceiptsEnabled(context, update.isReadReceiptsEnabled());
     TextSecurePreferences.setTypingIndicatorsEnabled(context, update.isTypingIndicatorsEnabled());
     TextSecurePreferences.setShowUnidentifiedDeliveryIndicatorsEnabled(context, update.isSealedSenderIndicatorsEnabled());
-    SignalStore.settings().setLinkPreviewsEnabled(update.isLinkPreviewsEnabled());
-    SignalStore.phoneNumberPrivacy().setPhoneNumberListingMode(update.isPhoneNumberUnlisted() ? PhoneNumberPrivacyValues.PhoneNumberListingMode.UNLISTED : PhoneNumberPrivacyValues.PhoneNumberListingMode.LISTED);
-    SignalStore.phoneNumberPrivacy().setPhoneNumberSharingMode(StorageSyncModels.remoteToLocalPhoneNumberSharingMode(update.getPhoneNumberSharingMode()));
-    SignalStore.settings().setPreferSystemContactPhotos(update.isPreferContactAvatars());
-    SignalStore.paymentsValues().setEnabledAndEntropy(update.getPayments().isEnabled(), Entropy.fromBytes(update.getPayments().getEntropy().orNull()));
+    GrapherexStore.settings().setLinkPreviewsEnabled(update.isLinkPreviewsEnabled());
+    GrapherexStore.phoneNumberPrivacy().setPhoneNumberListingMode(update.isPhoneNumberUnlisted() ? PhoneNumberPrivacyValues.PhoneNumberListingMode.UNLISTED : PhoneNumberPrivacyValues.PhoneNumberListingMode.LISTED);
+    GrapherexStore.phoneNumberPrivacy().setPhoneNumberSharingMode(StorageSyncModels.remoteToLocalPhoneNumberSharingMode(update.getPhoneNumberSharingMode()));
+    GrapherexStore.settings().setPreferSystemContactPhotos(update.isPreferContactAvatars());
+    GrapherexStore.paymentsValues().setEnabledAndEntropy(update.getPayments().isEnabled(), Entropy.fromBytes(update.getPayments().getEntropy().orNull()));
 
     if (fetchProfile && update.getAvatarUrlPath().isPresent()) {
       ApplicationDependencies.getJobManager().add(new RetrieveProfileAvatarJob(self, update.getAvatarUrlPath().get()));
@@ -442,7 +442,7 @@ public final class StorageSyncHelper {
   }
 
   public static void scheduleSyncForDataChange() {
-    if (!SignalStore.registrationValues().isRegistrationComplete()) {
+    if (!GrapherexStore.registrationValues().isRegistrationComplete()) {
       Log.d(TAG, "Registration still ongoing. Ignore sync request.");
       return;
     }
@@ -450,7 +450,7 @@ public final class StorageSyncHelper {
   }
 
   public static void scheduleRoutineSync() {
-    long timeSinceLastSync = System.currentTimeMillis() - SignalStore.storageServiceValues().getLastSyncTime();
+    long timeSinceLastSync = System.currentTimeMillis() - GrapherexStore.storageServiceValues().getLastSyncTime();
 
     if (timeSinceLastSync > REFRESH_INTERVAL) {
       Log.d(TAG, "Scheduling a sync. Last sync was " + timeSinceLastSync + " ms ago.");

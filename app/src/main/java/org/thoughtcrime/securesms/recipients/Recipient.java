@@ -34,7 +34,7 @@ import org.thoughtcrime.securesms.database.RecipientDatabase.UnidentifiedAccessM
 import org.thoughtcrime.securesms.database.RecipientDatabase.VibrateState;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.groups.GroupId;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.notifications.NotificationChannels;
 import org.thoughtcrime.securesms.phonenumbers.NumberUtil;
 import org.thoughtcrime.securesms.phonenumbers.PhoneNumberFormatter;
@@ -783,7 +783,7 @@ public class Recipient {
   public @Nullable ContactPhoto getContactPhoto() {
     if      (isSelf)                                                                             return null;
     else if (isGroupInternal() && groupAvatarId.isPresent())                                     return new GroupRecordContactPhoto(groupId, groupAvatarId.get());
-    else if (systemContactPhoto != null && SignalStore.settings().isPreferSystemContactPhotos()) return new SystemContactPhoto(id, systemContactPhoto, 0);
+    else if (systemContactPhoto != null && GrapherexStore.settings().isPreferSystemContactPhotos()) return new SystemContactPhoto(id, systemContactPhoto, 0);
     else if (profileAvatar != null && hasProfileImage)                                           return new ProfileContactPhoto(this, profileAvatar);
     else if (systemContactPhoto != null)                                                         return new SystemContactPhoto(id, systemContactPhoto, 0);
     else                                                                                         return null;
@@ -888,7 +888,7 @@ public class Recipient {
     if (wallpaper != null) {
       return wallpaper;
     } else {
-      return SignalStore.wallpaper().getWallpaper();
+      return GrapherexStore.wallpaper().getWallpaper();
     }
   }
 
@@ -900,7 +900,7 @@ public class Recipient {
    * A cheap way to check if wallpaper is set without doing any unnecessary proto parsing.
    */
   public boolean hasWallpaper() {
-    return wallpaper != null || SignalStore.wallpaper().hasWallpaperSet();
+    return wallpaper != null || GrapherexStore.wallpaper().hasWallpaperSet();
   }
 
   public boolean isSystemContact() {

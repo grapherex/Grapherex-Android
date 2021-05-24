@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.Transformations;
 import androidx.lifecycle.ViewModel;
 
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.payments.Balance;
 import org.thoughtcrime.securesms.payments.preferences.PaymentsHomeRepository;
 import org.thoughtcrime.securesms.util.SingleLiveEvent;
@@ -17,7 +17,7 @@ public class DeactivateWalletViewModel extends ViewModel {
   private final SingleLiveEvent<Result> deactivatePaymentResults = new SingleLiveEvent<>();
 
   public DeactivateWalletViewModel() {
-    balance = Transformations.map(SignalStore.paymentsValues().liveMobileCoinBalance(), Balance::getFullAmount);
+    balance = Transformations.map(GrapherexStore.paymentsValues().liveMobileCoinBalance(), Balance::getFullAmount);
   }
 
   void deactivateWallet() {

@@ -23,7 +23,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.annimon.stream.Stream;
 
 import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.payments.Mnemonic;
 import org.thoughtcrime.securesms.util.ServiceUtil;
 import org.thoughtcrime.securesms.util.Util;
@@ -59,7 +59,7 @@ public class PaymentsRecoveryPhraseFragment extends Fragment {
 
       setUpForConfirmation(message, next, edit, copy, words);
     } else {
-      Mnemonic mnemonic = SignalStore.paymentsValues().getPaymentsMnemonic();
+      Mnemonic mnemonic = GrapherexStore.paymentsValues().getPaymentsMnemonic();
 
       words = mnemonic.getWords();
 

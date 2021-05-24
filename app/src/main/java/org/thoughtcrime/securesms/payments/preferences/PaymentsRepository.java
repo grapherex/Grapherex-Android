@@ -12,7 +12,7 @@ import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.database.DatabaseFactory;
 import org.thoughtcrime.securesms.database.PaymentDatabase;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.payments.Direction;
 import org.thoughtcrime.securesms.payments.MobileCoinLedgerWrapper;
 import org.thoughtcrime.securesms.payments.Payment;
@@ -39,7 +39,7 @@ public class PaymentsRepository {
     paymentDatabase = DatabaseFactory.getPaymentDatabase(ApplicationDependencies.getApplication());
 
     LiveData<List<PaymentDatabase.PaymentTransaction>> localPayments = paymentDatabase.getAllLive();
-    LiveData<MobileCoinLedgerWrapper>                  ledger        = SignalStore.paymentsValues().liveMobileCoinLedger();
+    LiveData<MobileCoinLedgerWrapper>                  ledger        = GrapherexStore.paymentsValues().liveMobileCoinLedger();
 
     //noinspection NullableProblems
     this.recentPayments         = LiveDataUtil.mapAsync(LiveDataUtil.combineLatest(localPayments, ledger, Pair::create), p -> reconcile(p.first, p.second));

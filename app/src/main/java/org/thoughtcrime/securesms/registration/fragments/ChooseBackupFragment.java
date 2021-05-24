@@ -19,9 +19,7 @@ import androidx.navigation.Navigation;
 
 import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.database.documents.Document;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
-import org.thoughtcrime.securesms.util.BackupUtil;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 
 public class ChooseBackupFragment extends BaseRegistrationFragment {
 
@@ -70,7 +68,7 @@ public class ChooseBackupFragment extends BaseRegistrationFragment {
     intent.putExtra(Intent.EXTRA_LOCAL_ONLY, true);
 
     if (Build.VERSION.SDK_INT >= 26) {
-      intent.putExtra(DocumentsContract.EXTRA_INITIAL_URI, SignalStore.settings().getLatestSignalBackupDirectory());
+      intent.putExtra(DocumentsContract.EXTRA_INITIAL_URI, GrapherexStore.settings().getLatestSignalBackupDirectory());
     }
 
     startActivityForResult(intent, OPEN_FILE_REQUEST_CODE);

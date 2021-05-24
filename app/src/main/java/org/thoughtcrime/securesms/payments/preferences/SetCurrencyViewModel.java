@@ -16,7 +16,7 @@ import org.thoughtcrime.securesms.components.settings.SettingHeader;
 import org.thoughtcrime.securesms.components.settings.SettingProgress;
 import org.thoughtcrime.securesms.components.settings.SingleSelectSetting;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.payments.currency.CurrencyExchange;
 import org.thoughtcrime.securesms.payments.currency.CurrencyExchangeRepository;
 import org.thoughtcrime.securesms.payments.currency.CurrencyUtil;
@@ -43,10 +43,10 @@ public final class SetCurrencyViewModel extends ViewModel {
   private final LiveData<CurrencyListState> list;
 
   public SetCurrencyViewModel(@NonNull CurrencyExchangeRepository currencyExchangeRepository) {
-    this.store = new Store<>(new SetCurrencyState(SignalStore.paymentsValues().currentCurrency()));
+    this.store = new Store<>(new SetCurrencyState(GrapherexStore.paymentsValues().currentCurrency()));
     this.list  = Transformations.map(this.store.getStateLiveData(), this::createListState);
 
-    this.store.update(SignalStore.paymentsValues().liveCurrentCurrency(), (currency, state) -> state.updateCurrentCurrency(currency));
+    this.store.update(GrapherexStore.paymentsValues().liveCurrentCurrency(), (currency, state) -> state.updateCurrentCurrency(currency));
 
     currencyExchangeRepository.getCurrencyExchange(new AsynchronousCallback.WorkerThread<CurrencyExchange, Throwable>() {
       @Override
@@ -63,7 +63,7 @@ public final class SetCurrencyViewModel extends ViewModel {
   }
 
   public void select(@NonNull Currency selection) {
-    SignalStore.paymentsValues().setCurrentCurrency(selection);
+    GrapherexStore.paymentsValues().setCurrentCurrency(selection);
   }
 
   public LiveData<CurrencyListState> getCurrencyListState() {

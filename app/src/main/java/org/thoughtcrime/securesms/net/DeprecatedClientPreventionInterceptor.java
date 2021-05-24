@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.net;
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 
 import java.io.IOException;
 
@@ -22,7 +22,7 @@ public final class DeprecatedClientPreventionInterceptor implements Interceptor 
 
   @Override
   public @NonNull Response intercept(@NonNull Chain chain) throws IOException {
-    if (SignalStore.misc().isClientDeprecated()) {
+    if (GrapherexStore.misc().isClientDeprecated()) {
       Log.w(TAG, "Preventing request because client is deprecated.");
       return new Response.Builder()
                          .request(chain.request())

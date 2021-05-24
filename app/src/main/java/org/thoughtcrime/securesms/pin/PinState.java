@@ -13,10 +13,9 @@ import org.thoughtcrime.securesms.jobmanager.JobTracker;
 import org.thoughtcrime.securesms.jobs.ClearFallbackKbsEnclaveJob;
 import org.thoughtcrime.securesms.jobs.RefreshAttributesJob;
 import org.thoughtcrime.securesms.jobs.StorageForcePushJob;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.keyvalue.KbsValues;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
 import org.thoughtcrime.securesms.lock.PinHashing;
-import org.thoughtcrime.securesms.lock.RegistrationLockReminders;
 import org.thoughtcrime.securesms.lock.v2.PinKeyboardType;
 import org.thoughtcrime.securesms.megaphone.Megaphones;
 import org.thoughtcrime.securesms.registration.service.KeyBackupSystemWrongPinException;
@@ -142,10 +141,10 @@ public final class PinState {
   public static synchronized void onSignalPinRestore(@NonNull Context context, @NonNull KbsPinData kbsData, @NonNull String pin) {
     Log.i(TAG, "onSignalPinRestore()");
 
-    SignalStore.kbsValues().setKbsMasterKey(kbsData, pin);
-    SignalStore.kbsValues().setV2RegistrationLockEnabled(false);
-    SignalStore.pinValues().resetPinReminders();
-    SignalStore.storageServiceValues().setNeedsAccountRestore(false);
+    GrapherexStore.kbsValues().setKbsMasterKey(kbsData, pin);
+    GrapherexStore.kbsValues().setV2RegistrationLockEnabled(false);
+    GrapherexStore.pinValues().resetPinReminders();
+    GrapherexStore.storageServiceValues().setNeedsAccountRestore(false);
     resetPinRetryCount(context, pin);
     ClearFallbackKbsEnclaveJob.clearAll();
 
@@ -156,8 +155,8 @@ public final class PinState {
    * Invoked when the user skips out on PIN restoration or otherwise fails to remember their PIN.
    */
   public static synchronized void onPinRestoreForgottenOrSkipped() {
-    SignalStore.kbsValues().clearRegistrationLockAndPin();
-    SignalStore.storageServiceValues().setNeedsAccountRestore(false);
+    GrapherexStore.kbsValues().clearRegistrationLockAndPin();
+    GrapherexStore.storageServiceValues().setNeedsAccountRestore(false);
 
     updateState(buildInferredStateFromOtherFields());
   }
@@ -171,7 +170,7 @@ public final class PinState {
   {
     Log.i(TAG, "onPinChangedOrCreated()");
 
-    KbsValues                         kbsValues        = SignalStore.kbsValues();
+    KbsValues                         kbsValues        = GrapherexStore.kbsValues();
     boolean                           isFirstPin       = !kbsValues.hasPin() || kbsValues.hasOptedOut();
     MasterKey                         masterKey        = kbsValues.getOrCreateMasterKey();
     KeyBackupService                  keyBackupService = ApplicationDependencies.getKeyBackupService(KbsEnclaves.current());
@@ -181,8 +180,8 @@ public final class PinState {
 
     kbsValues.setKbsMasterKey(kbsData, pin);
     TextSecurePreferences.clearRegistrationLockV1(context);
-    SignalStore.pinValues().setKeyboardType(keyboard);
-    SignalStore.pinValues().resetPinReminders();
+    GrapherexStore.pinValues().setKeyboardType(keyboard);
+    GrapherexStore.pinValues().resetPinReminders();
     ApplicationDependencies.getMegaphoneRepository().markFinished(Megaphones.Event.PINS_FOR_ALL);
 
     if (isFirstPin) {
@@ -201,7 +200,7 @@ public final class PinState {
   public static synchronized void onPinCreateFailure() {
     Log.i(TAG, "onPinCreateFailure()");
     if (getState() == State.NO_REGISTRATION_LOCK) {
-      SignalStore.kbsValues().onPinCreateFailure();
+      GrapherexStore.kbsValues().onPinCreateFailure();
     }
   }
 
@@ -232,11 +231,11 @@ public final class PinState {
 
     assertState(State.PIN_WITH_REGISTRATION_LOCK_DISABLED);
 
-    SignalStore.kbsValues().setV2RegistrationLockEnabled(false);
+    GrapherexStore.kbsValues().setV2RegistrationLockEnabled(false);
     ApplicationDependencies.getKeyBackupService(KbsEnclaves.current())
-                           .newPinChangeSession(SignalStore.kbsValues().getRegistrationLockTokenResponse())
-                           .enableRegistrationLock(SignalStore.kbsValues().getOrCreateMasterKey());
-    SignalStore.kbsValues().setV2RegistrationLockEnabled(true);
+                           .newPinChangeSession(GrapherexStore.kbsValues().getRegistrationLockTokenResponse())
+                           .enableRegistrationLock(GrapherexStore.kbsValues().getOrCreateMasterKey());
+    GrapherexStore.kbsValues().setV2RegistrationLockEnabled(true);
 
     updateState(State.PIN_WITH_REGISTRATION_LOCK_ENABLED);
   }
@@ -255,11 +254,11 @@ public final class PinState {
 
     assertState(State.PIN_WITH_REGISTRATION_LOCK_ENABLED);
 
-    SignalStore.kbsValues().setV2RegistrationLockEnabled(true);
+    GrapherexStore.kbsValues().setV2RegistrationLockEnabled(true);
     ApplicationDependencies.getKeyBackupService(KbsEnclaves.current())
-                           .newPinChangeSession(SignalStore.kbsValues().getRegistrationLockTokenResponse())
+                           .newPinChangeSession(GrapherexStore.kbsValues().getRegistrationLockTokenResponse())
                            .disableRegistrationLock();
-    SignalStore.kbsValues().setV2RegistrationLockEnabled(false);
+    GrapherexStore.kbsValues().setV2RegistrationLockEnabled(false);
 
     updateState(State.PIN_WITH_REGISTRATION_LOCK_DISABLED);
   }
@@ -273,7 +272,7 @@ public final class PinState {
   {
     Log.i(TAG, "onMigrateToRegistrationLockV2()");
 
-    KbsValues                         kbsValues        = SignalStore.kbsValues();
+    KbsValues                         kbsValues        = GrapherexStore.kbsValues();
     MasterKey                         masterKey        = kbsValues.getOrCreateMasterKey();
     KeyBackupService                  keyBackupService = ApplicationDependencies.getKeyBackupService(KbsEnclaves.current());
     KeyBackupService.PinChangeSession pinChangeSession = keyBackupService.newPinChangeSession();
@@ -299,7 +298,7 @@ public final class PinState {
     assertState(State.PIN_WITH_REGISTRATION_LOCK_DISABLED, State.PIN_WITH_REGISTRATION_LOCK_ENABLED);
 
     Log.i(TAG, "Migrating to enclave " + KbsEnclaves.current().getEnclaveName());
-    setPinOnEnclave(KbsEnclaves.current(), pin, SignalStore.kbsValues().getOrCreateMasterKey());
+    setPinOnEnclave(KbsEnclaves.current(), pin, GrapherexStore.kbsValues().getOrCreateMasterKey());
 
     ClearFallbackKbsEnclaveJob.clearAll();
   }
@@ -339,7 +338,7 @@ public final class PinState {
     }
 
     try {
-      setPinOnEnclave(KbsEnclaves.current(), pin, SignalStore.kbsValues().getOrCreateMasterKey());
+      setPinOnEnclave(KbsEnclaves.current(), pin, GrapherexStore.kbsValues().getOrCreateMasterKey());
       TextSecurePreferences.clearRegistrationLockV1(context);
       Log.i(TAG, "Pin set/attempts reset on KBS");
     } catch (IOException e) {
@@ -358,14 +357,14 @@ public final class PinState {
     HashedPin                         hashedPin        = PinHashing.hashPin(pin, pinChangeSession);
     KbsPinData                        newData          = pinChangeSession.setPin(hashedPin, masterKey);
 
-    SignalStore.kbsValues().setKbsMasterKey(newData, pin);
+    GrapherexStore.kbsValues().setKbsMasterKey(newData, pin);
 
     return newData;
   }
 
   @WorkerThread
   private static void optOutOfPin() {
-    SignalStore.kbsValues().optOut();
+    GrapherexStore.kbsValues().optOut();
 
     ApplicationDependencies.getMegaphoneRepository().markFinished(Megaphones.Event.PINS_FOR_ALL);
 
@@ -393,25 +392,25 @@ public final class PinState {
   }
 
   private static @NonNull State getState() {
-    String serialized = SignalStore.pinValues().getPinState();
+    String serialized = GrapherexStore.pinValues().getPinState();
 
     if (serialized != null) {
       return State.deserialize(serialized);
     } else {
       State state = buildInferredStateFromOtherFields();
-      SignalStore.pinValues().setPinState(state.serialize());
+      GrapherexStore.pinValues().setPinState(state.serialize());
       return state;
     }
   }
 
   private static void updateState(@NonNull State state) {
     Log.i(TAG, "Updating state to: " + state);
-    SignalStore.pinValues().setPinState(state.serialize());
+    GrapherexStore.pinValues().setPinState(state.serialize());
   }
 
   private static @NonNull State buildInferredStateFromOtherFields() {
     Context   context   = ApplicationDependencies.getApplication();
-    KbsValues kbsValues = SignalStore.kbsValues();
+    KbsValues kbsValues = GrapherexStore.kbsValues();
 
     boolean v1Enabled = TextSecurePreferences.isV1RegistrationLockEnabled(context);
     boolean v2Enabled = kbsValues.isV2RegistrationLockEnabled();

@@ -7,7 +7,7 @@ import android.net.NetworkInfo;
 import androidx.annotation.NonNull;
 
 import org.signal.ringrtc.CallManager;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 
 public final class NetworkUtil {
 
@@ -33,7 +33,7 @@ public final class NetworkUtil {
   }
 
   private static boolean useLowBandwidthCalling(@NonNull Context context) {
-    switch (SignalStore.settings().getCallBandwidthMode()) {
+    switch (GrapherexStore.settings().getCallBandwidthMode()) {
       case HIGH_ON_WIFI:
         return !NetworkUtil.isConnectedWifi(context);
       case HIGH_ALWAYS:

@@ -23,7 +23,7 @@ import org.thoughtcrime.securesms.events.CallParticipantId;
 import org.thoughtcrime.securesms.events.WebRtcViewModel;
 import org.thoughtcrime.securesms.groups.LiveGroup;
 import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.recipients.LiveRecipient;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.recipients.RecipientId;
@@ -147,7 +147,7 @@ public class WebRtcCallViewModel extends ViewModel {
   @MainThread
   public void setIsViewingFocusedParticipant(@NonNull CallParticipantsState.SelectedPage page) {
     if (page == CallParticipantsState.SelectedPage.FOCUSED) {
-      SignalStore.tooltips().markGroupCallSpeakerViewSeen();
+      GrapherexStore.tooltips().markGroupCallSpeakerViewSeen();
     }
 
     //noinspection ConstantConditions
@@ -312,7 +312,7 @@ public class WebRtcCallViewModel extends ViewModel {
     return !state.isInPipMode()                        &&
            state.getRemoteDevicesCount().orElse(0) > 1 &&
            state.getGroupCallState().isConnected()     &&
-           !SignalStore.tooltips().hasSeenGroupCallSpeakerView();
+           !GrapherexStore.tooltips().hasSeenGroupCallSpeakerView();
   }
 
   private void startTimer() {

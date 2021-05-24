@@ -4,7 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
 
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.lock.v2.KbsConstants;
 import org.thoughtcrime.securesms.lock.v2.PinKeyboardType;
 import org.thoughtcrime.securesms.util.DefaultValueLiveData;
@@ -50,8 +50,8 @@ public class PinRestoreViewModel extends ViewModel {
 
         switch (result.getResult()) {
           case SUCCESS:
-            SignalStore.pinValues().setKeyboardType(pinKeyboardType);
-            SignalStore.storageServiceValues().setNeedsAccountRestore(false);
+            GrapherexStore.pinValues().setKeyboardType(pinKeyboardType);
+            GrapherexStore.storageServiceValues().setNeedsAccountRestore(false);
             event.postValue(Event.SUCCESS);
             break;
           case LOCKED:

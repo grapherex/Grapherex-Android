@@ -13,7 +13,7 @@ import org.thoughtcrime.securesms.backup.FullBackupBase;
 import org.thoughtcrime.securesms.backup.FullBackupExporter;
 import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
 import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.net.DeviceTransferBlockingInterceptor;
 
 import java.io.IOException;
@@ -67,7 +67,7 @@ final class OldDeviceClientTask implements ClientTask {
 
   @Override
   public void success() {
-    SignalStore.misc().markOldDeviceTransferLocked();
+    GrapherexStore.misc().markOldDeviceTransferLocked();
     EventBus.getDefault().post(new Status(0, true));
   }
 

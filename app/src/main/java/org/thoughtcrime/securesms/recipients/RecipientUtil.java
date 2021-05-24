@@ -21,7 +21,7 @@ import org.thoughtcrime.securesms.groups.GroupManager;
 import org.thoughtcrime.securesms.jobs.MultiDeviceBlockedUpdateJob;
 import org.thoughtcrime.securesms.jobs.MultiDeviceMessageRequestResponseJob;
 import org.thoughtcrime.securesms.jobs.RotateProfileKeyJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.storage.StorageSyncHelper;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.push.SignalServiceAddress;
@@ -238,7 +238,7 @@ public class RecipientUtil {
    */
   @WorkerThread
   public static boolean isPreMessageRequestThread(@NonNull Context context, long threadId) {
-    long beforeTime = SignalStore.misc().getMessageRequestEnableTime();
+    long beforeTime = GrapherexStore.misc().getMessageRequestEnableTime();
     return DatabaseFactory.getMmsSmsDatabase(context).getConversationCount(threadId, beforeTime) > 0;
   }
 

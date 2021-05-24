@@ -9,7 +9,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.annimon.stream.Stream;
 
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.recipients.RecipientId;
 import org.thoughtcrime.securesms.util.MappingModel;
@@ -62,7 +62,7 @@ public class ChatWallpaperViewModel extends ViewModel {
       repository.saveWallpaper(recipientId, null);
 
       if (recipientId != null) {
-        ChatWallpaper globalWallpaper = SignalStore.wallpaper().getWallpaper();
+        ChatWallpaper globalWallpaper = GrapherexStore.wallpaper().getWallpaper();
 
         this.wallpaper.setValue(Optional.fromNullable(globalWallpaper));
         this.dimInDarkTheme.setValue(globalWallpaper == null || globalWallpaper.getDimLevelForDarkTheme() > 0);
@@ -114,7 +114,7 @@ public class ChatWallpaperViewModel extends ViewModel {
   }
 
   private boolean hasClearableWallpaper() {
-    return (isGlobal() && SignalStore.wallpaper().hasWallpaperSet()) ||
+    return (isGlobal() && GrapherexStore.wallpaper().hasWallpaperSet()) ||
            (recipientId != null && Recipient.live(recipientId).get().hasOwnWallpaper());
   }
 

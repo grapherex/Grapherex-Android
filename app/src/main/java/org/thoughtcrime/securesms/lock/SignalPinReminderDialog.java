@@ -28,7 +28,7 @@ import androidx.core.view.ViewCompat;
 import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.contactshare.SimpleTextWatcher;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.lock.v2.CreateKbsPinActivity;
 import org.thoughtcrime.securesms.lock.v2.KbsConstants;
 import org.thoughtcrime.securesms.util.ServiceUtil;
@@ -42,7 +42,7 @@ public final class SignalPinReminderDialog {
   private static final String TAG = Log.tag(SignalPinReminderDialog.class);
 
   public static void show(@NonNull Context context, @NonNull Launcher launcher, @NonNull Callback mainCallback) {
-    if (!SignalStore.kbsValues().hasPin()) {
+    if (!GrapherexStore.kbsValues().hasPin()) {
       throw new AssertionError("Must have a PIN!");
     }
 
@@ -74,7 +74,7 @@ public final class SignalPinReminderDialog {
     ViewUtil.focusAndShowKeyboard(pinEditText);
     ViewCompat.setAutofillHints(pinEditText, HintConstants.AUTOFILL_HINT_PASSWORD);
 
-    switch (SignalStore.pinValues().getKeyboardType()) {
+    switch (GrapherexStore.pinValues().getKeyboardType()) {
       case NUMERIC:
         pinEditText.setInputType(InputType.TYPE_CLASS_NUMBER | InputType.TYPE_NUMBER_VARIATION_PASSWORD);
         break;
@@ -113,7 +113,7 @@ public final class SignalPinReminderDialog {
 
     pinEditText.addTextChangedListener(new SimpleTextWatcher() {
 
-      private final String localHash = Objects.requireNonNull(SignalStore.kbsValues().getLocalPinHash());
+      private final String localHash = Objects.requireNonNull(GrapherexStore.kbsValues().getLocalPinHash());
 
       @Override
       public void onTextChanged(String text) {
@@ -167,7 +167,7 @@ public final class SignalPinReminderDialog {
     private final String localPinHash;
 
     V2PinVerifier() {
-      localPinHash = SignalStore.kbsValues().getLocalPinHash();
+      localPinHash = GrapherexStore.kbsValues().getLocalPinHash();
 
       if (localPinHash == null) throw new AssertionError("No local pin hash set at time of reminder");
     }

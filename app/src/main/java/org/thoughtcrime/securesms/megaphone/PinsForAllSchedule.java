@@ -4,7 +4,7 @@ import androidx.annotation.VisibleForTesting;
 
 import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 import java.util.Locale;
@@ -43,11 +43,11 @@ class PinsForAllSchedule implements MegaphoneSchedule {
   }
 
   private static boolean isEnabled() {
-    if (SignalStore.kbsValues().hasOptedOut()) {
+    if (GrapherexStore.kbsValues().hasOptedOut()) {
       return false;
     }
 
-    if (SignalStore.kbsValues().hasPin()) {
+    if (GrapherexStore.kbsValues().hasPin()) {
       return false;
     }
 
@@ -59,7 +59,7 @@ class PinsForAllSchedule implements MegaphoneSchedule {
       return true;
     }
 
-    if (SignalStore.registrationValues().pinWasRequiredAtRegistration()) {
+    if (GrapherexStore.registrationValues().pinWasRequiredAtRegistration()) {
       return false;
     }
 
@@ -67,12 +67,12 @@ class PinsForAllSchedule implements MegaphoneSchedule {
   }
 
   private static boolean pinCreationFailedDuringRegistration() {
-    return SignalStore.registrationValues().pinWasRequiredAtRegistration() &&
-           !SignalStore.kbsValues().hasPin()                               &&
+    return GrapherexStore.registrationValues().pinWasRequiredAtRegistration() &&
+           !GrapherexStore.kbsValues().hasPin()                               &&
            !TextSecurePreferences.isV1RegistrationLockEnabled(ApplicationDependencies.getApplication());
   }
 
   private static boolean newlyRegisteredRegistrationLockV1User() {
-    return SignalStore.registrationValues().pinWasRequiredAtRegistration() && TextSecurePreferences.isV1RegistrationLockEnabled(ApplicationDependencies.getApplication());
+    return GrapherexStore.registrationValues().pinWasRequiredAtRegistration() && TextSecurePreferences.isV1RegistrationLockEnabled(ApplicationDependencies.getApplication());
   }
 }

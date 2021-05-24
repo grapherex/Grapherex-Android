@@ -202,7 +202,7 @@ public class ActiveCallActionProcessorDelegate extends WebRtcActionProcessor {
 
       OutgoingRinger ringer = new OutgoingRinger(context);
       ringer.start(OutgoingRinger.Type.BUSY);
-      ThreadUtil.runOnMainDelayed(ringer::stop, SignalCallManager.BUSY_TONE_LENGTH);
+      ThreadUtil.runOnMainDelayed(ringer::stop, GrapherexCallManager.BUSY_TONE_LENGTH);
     } else if (endedRemoteEvent == CallEvent.ENDED_REMOTE_GLARE && incomingBeforeAccept) {
       webRtcInteractor.insertMissedCall(remotePeer, remotePeer.getCallStartTimestamp(), currentState.getCallSetupState().isRemoteVideoOffer());
     }

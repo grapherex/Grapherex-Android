@@ -6,7 +6,7 @@ import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.Group;
 
 import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.payments.preferences.PaymentsHomeAdapter;
 import org.thoughtcrime.securesms.payments.preferences.model.IntroducingPayments;
 import org.thoughtcrime.securesms.util.MappingViewHolder;
@@ -44,7 +44,7 @@ public class IntroducingPaymentViewHolder extends MappingViewHolder<IntroducingP
 
     activateButton.setOnClickListener(v -> callbacks.onActivatePayments());
 
-    if (SignalStore.paymentsValues().hasPaymentsEntropy()) {
+    if (GrapherexStore.paymentsValues().hasPaymentsEntropy()) {
       restoreButton.setVisibility(View.GONE);
     } else {
       restoreButton.setVisibility(View.VISIBLE);

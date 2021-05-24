@@ -9,7 +9,7 @@ import org.thoughtcrime.securesms.database.PaymentDatabase;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.jobmanager.Data;
 import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.payments.MobileCoinLedgerWrapper;
 import org.thoughtcrime.securesms.transport.RetryLaterException;
 
@@ -55,7 +55,7 @@ public final class PaymentLedgerUpdateJob extends BaseJob {
 
   @Override
   protected void onRun() throws IOException, RetryLaterException {
-    if (!SignalStore.paymentsValues().mobileCoinPaymentsEnabled()) {
+    if (!GrapherexStore.paymentsValues().mobileCoinPaymentsEnabled()) {
       Log.w(TAG, "Payments are not enabled");
       return;
     }
@@ -84,7 +84,7 @@ public final class PaymentLedgerUpdateJob extends BaseJob {
 
     Log.i(TAG, "Ledger fetched successfully");
 
-    SignalStore.paymentsValues()
+    GrapherexStore.paymentsValues()
                .setMobileCoinFullLedger(ledger);
   }
 

@@ -12,7 +12,7 @@ import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
 import org.signal.core.util.ThreadUtil;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.net.RequestController;
 import org.thoughtcrime.securesms.util.Debouncer;
 import org.whispersystems.libsignal.util.guava.Optional;
@@ -37,7 +37,7 @@ public class LinkPreviewViewModel extends ViewModel {
     this.repository           = repository;
     this.linkPreviewState     = new MutableLiveData<>();
     this.debouncer            = new Debouncer(250);
-    this.enabled              = SignalStore.settings().isLinkPreviewsEnabled();
+    this.enabled              = GrapherexStore.settings().isLinkPreviewsEnabled();
     this.linkPreviewSafeState = Transformations.map(linkPreviewState, state -> enabled ? state : LinkPreviewState.forNoLinks());
   }
 
@@ -138,7 +138,7 @@ public class LinkPreviewViewModel extends ViewModel {
   }
 
   public void onTransportChanged(boolean isSms) {
-    enabled = SignalStore.settings().isLinkPreviewsEnabled() && !isSms;
+    enabled = GrapherexStore.settings().isLinkPreviewsEnabled() && !isSms;
 
     if (!enabled) {
       onUserCancel();
@@ -160,7 +160,7 @@ public class LinkPreviewViewModel extends ViewModel {
 
   public void onEnabled() {
     userCanceled = false;
-    enabled      = SignalStore.settings().isLinkPreviewsEnabled();
+    enabled      = GrapherexStore.settings().isLinkPreviewsEnabled();
   }
 
   @Override

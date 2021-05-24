@@ -13,8 +13,8 @@ import org.thoughtcrime.securesms.database.DatabaseFactory;
 import org.thoughtcrime.securesms.database.MmsSmsDatabase;
 import org.thoughtcrime.securesms.database.ThreadDatabase;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.keyvalue.KeepMessagesDuration;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
 
 public class TrimThreadsByDateManager extends TimedEventManager<TrimThreadsByDateManager.TrimEvent> {
 
@@ -34,7 +34,7 @@ public class TrimThreadsByDateManager extends TimedEventManager<TrimThreadsByDat
 
   @Override
   protected @Nullable TrimEvent getNextClosestEvent() {
-    KeepMessagesDuration keepMessagesDuration = SignalStore.settings().getKeepMessagesDuration();
+    KeepMessagesDuration keepMessagesDuration = GrapherexStore.settings().getKeepMessagesDuration();
     if (keepMessagesDuration == KeepMessagesDuration.FOREVER) {
       return null;
     }
@@ -57,9 +57,9 @@ public class TrimThreadsByDateManager extends TimedEventManager<TrimThreadsByDat
 
   @Override
   protected void executeEvent(@NonNull TrimEvent event) {
-    KeepMessagesDuration keepMessagesDuration = SignalStore.settings().getKeepMessagesDuration();
+    KeepMessagesDuration keepMessagesDuration = GrapherexStore.settings().getKeepMessagesDuration();
 
-    int trimLength = SignalStore.settings().isTrimByLengthEnabled() ? SignalStore.settings().getThreadTrimLength()
+    int trimLength = GrapherexStore.settings().isTrimByLengthEnabled() ? GrapherexStore.settings().getThreadTrimLength()
                                                                     : ThreadDatabase.NO_TRIM_MESSAGE_COUNT_SET;
 
     long trimBeforeDate = keepMessagesDuration != KeepMessagesDuration.FOREVER ? System.currentTimeMillis() - keepMessagesDuration.getDuration()

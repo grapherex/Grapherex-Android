@@ -21,8 +21,8 @@ import org.thoughtcrime.securesms.jobs.RefreshOwnProfileJob;
 import org.thoughtcrime.securesms.jobs.RemoteConfigRefreshJob;
 import org.thoughtcrime.securesms.jobs.RotateProfileKeyJob;
 import org.thoughtcrime.securesms.jobs.StorageForcePushJob;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.keyvalue.InternalValues;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
 import org.thoughtcrime.securesms.payments.DataExportUtil;
 import org.thoughtcrime.securesms.util.ConversationUtil;
 import org.thoughtcrime.securesms.util.concurrent.SimpleTask;
@@ -39,16 +39,16 @@ public class InternalOptionsPreferenceFragment extends CorrectedPreferenceFragme
   public void onCreatePreferences(@Nullable Bundle savedInstanceState, String rootKey) {
     addPreferencesFromResource(R.xml.preferences_internal);
 
-    PreferenceDataStore preferenceDataStore = SignalStore.getPreferenceDataStore();
+    PreferenceDataStore preferenceDataStore = GrapherexStore.getPreferenceDataStore();
 
-    initializeSwitchPreference(preferenceDataStore, InternalValues.RECIPIENT_DETAILS, SignalStore.internalValues().recipientDetails());
-    initializeSwitchPreference(preferenceDataStore, InternalValues.GV2_DO_NOT_CREATE_GV2, SignalStore.internalValues().gv2DoNotCreateGv2Groups());
-    initializeSwitchPreference(preferenceDataStore, InternalValues.GV2_FORCE_INVITES, SignalStore.internalValues().gv2ForceInvites());
-    initializeSwitchPreference(preferenceDataStore, InternalValues.GV2_IGNORE_SERVER_CHANGES, SignalStore.internalValues().gv2IgnoreServerChanges());
-    initializeSwitchPreference(preferenceDataStore, InternalValues.GV2_IGNORE_P2P_CHANGES, SignalStore.internalValues().gv2IgnoreP2PChanges());
-    initializeSwitchPreference(preferenceDataStore, InternalValues.GV2_DISABLE_AUTOMIGRATE_INITIATION, SignalStore.internalValues().disableGv1AutoMigrateInitiation());
-    initializeSwitchPreference(preferenceDataStore, InternalValues.GV2_DISABLE_AUTOMIGRATE_NOTIFICATION, SignalStore.internalValues().disableGv1AutoMigrateNotification());
-    initializeSwitchPreference(preferenceDataStore, InternalValues.FORCE_CENSORSHIP, SignalStore.internalValues().forcedCensorship());
+    initializeSwitchPreference(preferenceDataStore, InternalValues.RECIPIENT_DETAILS, GrapherexStore.internalValues().recipientDetails());
+    initializeSwitchPreference(preferenceDataStore, InternalValues.GV2_DO_NOT_CREATE_GV2, GrapherexStore.internalValues().gv2DoNotCreateGv2Groups());
+    initializeSwitchPreference(preferenceDataStore, InternalValues.GV2_FORCE_INVITES, GrapherexStore.internalValues().gv2ForceInvites());
+    initializeSwitchPreference(preferenceDataStore, InternalValues.GV2_IGNORE_SERVER_CHANGES, GrapherexStore.internalValues().gv2IgnoreServerChanges());
+    initializeSwitchPreference(preferenceDataStore, InternalValues.GV2_IGNORE_P2P_CHANGES, GrapherexStore.internalValues().gv2IgnoreP2PChanges());
+    initializeSwitchPreference(preferenceDataStore, InternalValues.GV2_DISABLE_AUTOMIGRATE_INITIATION, GrapherexStore.internalValues().disableGv1AutoMigrateInitiation());
+    initializeSwitchPreference(preferenceDataStore, InternalValues.GV2_DISABLE_AUTOMIGRATE_NOTIFICATION, GrapherexStore.internalValues().disableGv1AutoMigrateNotification());
+    initializeSwitchPreference(preferenceDataStore, InternalValues.FORCE_CENSORSHIP, GrapherexStore.internalValues().forcedCensorship());
 
     findPreference("pref_copy_payments_data").setOnPreferenceClickListener(preference -> {
       new AlertDialog.Builder(getContext())

@@ -28,7 +28,7 @@ import org.thoughtcrime.securesms.database.loaders.ThreadMediaLoader;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.groups.ui.GroupMemberEntry;
 import org.thoughtcrime.securesms.groups.ui.addtogroup.AddToGroupsActivity;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.notifications.NotificationChannels;
 import org.thoughtcrime.securesms.phonenumbers.PhoneNumberFormatter;
 import org.thoughtcrime.securesms.recipients.Recipient;
@@ -285,7 +285,7 @@ public final class ManageRecipientViewModel extends ViewModel {
   }
 
   private @NonNull String populateInternalDetails(@NonNull Recipient recipient) {
-    if (!SignalStore.internalValues().recipientDetails()) {
+    if (!GrapherexStore.internalValues().recipientDetails()) {
       return "";
     }
 

@@ -10,7 +10,7 @@ import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.net.PipeConnectivityListener;
 import org.thoughtcrime.securesms.push.AccountManagerFactory;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
@@ -35,7 +35,7 @@ public final class SignalProxyUtil {
   private SignalProxyUtil() {}
 
   public static void startListeningToWebsocket() {
-    if (SignalStore.proxy().isProxyEnabled() && ApplicationDependencies.getPipeListener().getState().getValue() == PipeConnectivityListener.State.FAILURE) {
+    if (GrapherexStore.proxy().isProxyEnabled() && ApplicationDependencies.getPipeListener().getState().getValue() == PipeConnectivityListener.State.FAILURE) {
       Log.w(TAG, "Proxy is in a failed state. Restarting.");
       ApplicationDependencies.closeConnections();
     }
@@ -48,7 +48,7 @@ public final class SignalProxyUtil {
    * network connections.
    */
   public static void enableProxy(@NonNull SignalProxy proxy) {
-    SignalStore.proxy().enableProxy(proxy);
+    GrapherexStore.proxy().enableProxy(proxy);
     Conscrypt.setUseEngineSocketByDefault(true);
     ApplicationDependencies.resetNetworkConnectionsAfterProxyChange();
     startListeningToWebsocket();
@@ -59,7 +59,7 @@ public final class SignalProxyUtil {
    * relevant network connections.
    */
   public static void disableProxy() {
-    SignalStore.proxy().disableProxy();
+    GrapherexStore.proxy().disableProxy();
     Conscrypt.setUseEngineSocketByDefault(false);
     ApplicationDependencies.resetNetworkConnectionsAfterProxyChange();
     startListeningToWebsocket();

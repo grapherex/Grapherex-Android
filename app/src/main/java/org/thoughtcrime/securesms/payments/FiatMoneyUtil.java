@@ -8,7 +8,7 @@ import androidx.lifecycle.LiveData;
 import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.payments.currency.FiatMoney;
 import org.thoughtcrime.securesms.util.DateUtils;
 import org.thoughtcrime.securesms.util.livedata.LiveDataUtil;
@@ -36,7 +36,7 @@ public final class FiatMoneyUtil {
       try {
         return ApplicationDependencies.getPayments()
                                       .getCurrencyExchange(false)
-                                      .getExchangeRate(SignalStore.paymentsValues().currentCurrency())
+                                      .getExchangeRate(GrapherexStore.paymentsValues().currentCurrency())
                                       .exchange(a);
       } catch (IOException e) {
         Log.w(TAG, e);

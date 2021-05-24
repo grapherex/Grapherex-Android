@@ -187,8 +187,8 @@ import org.thoughtcrime.securesms.jobs.GroupV2UpdateSelfProfileKeyJob;
 import org.thoughtcrime.securesms.jobs.RequestGroupV2InfoJob;
 import org.thoughtcrime.securesms.jobs.RetrieveProfileJob;
 import org.thoughtcrime.securesms.jobs.ServiceOutageDetectionJob;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.keyvalue.PaymentsValues;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
 import org.thoughtcrime.securesms.linkpreview.LinkPreview;
 import org.thoughtcrime.securesms.linkpreview.LinkPreviewRepository;
 import org.thoughtcrime.securesms.linkpreview.LinkPreviewViewModel;
@@ -1036,7 +1036,7 @@ public class ConversationActivity extends PassphraseRequiredActivity
       return super.onMenuOpened(featureId, null);
     }
 
-    if (!SignalStore.uiHints().hasSeenGroupSettingsMenuToast()) {
+    if (!GrapherexStore.uiHints().hasSeenGroupSettingsMenuToast()) {
       MenuItem settingsMenuItem = menu.findItem(R.id.menu_group_settings);
 
       if (settingsMenuItem != null && settingsMenuItem.isVisible()) {
@@ -1045,7 +1045,7 @@ public class ConversationActivity extends PassphraseRequiredActivity
         toast.setGravity(Gravity.CENTER, 0, 0);
         toast.show();
 
-        SignalStore.uiHints().markHasSeenGroupSettingsMenuToast();
+        GrapherexStore.uiHints().markHasSeenGroupSettingsMenuToast();
       }
     }
 
@@ -1455,7 +1455,7 @@ public class ConversationActivity extends PassphraseRequiredActivity
       return;
     }
 
-    PaymentsValues paymentsValues = SignalStore.paymentsValues();
+    PaymentsValues paymentsValues = GrapherexStore.paymentsValues();
 
     if (paymentsValues.getPaymentsAvailability().isSendAllowed() &&
         !recipient.get().isSelf()                                &&
@@ -2257,7 +2257,7 @@ public class ConversationActivity extends PassphraseRequiredActivity
   }
 
   private void showGroupCallingTooltip() {
-    if (Build.VERSION.SDK_INT == 19 || !SignalStore.tooltips().shouldShowGroupCallingTooltip() || callingTooltipShown) {
+    if (Build.VERSION.SDK_INT == 19 || !GrapherexStore.tooltips().shouldShowGroupCallingTooltip() || callingTooltipShown) {
       return;
     }
 
@@ -2269,12 +2269,12 @@ public class ConversationActivity extends PassphraseRequiredActivity
 
     callingTooltipShown = true;
 
-    SignalStore.tooltips().markGroupCallSpeakerViewSeen();
+    GrapherexStore.tooltips().markGroupCallSpeakerViewSeen();
     TooltipPopup.forTarget(anchor)
                 .setBackgroundTint(ContextCompat.getColor(this, R.color.signal_accent_green))
                 .setTextColor(getResources().getColor(R.color.core_white))
                 .setText(R.string.ConversationActivity__tap_here_to_start_a_group_call)
-                .setOnDismissListener(() -> SignalStore.tooltips().markGroupCallingTooltipSeen())
+                .setOnDismissListener(() -> GrapherexStore.tooltips().markGroupCallingTooltipSeen())
                 .show(TooltipPopup.POSITION_BELOW);
   }
 
@@ -2966,7 +2966,7 @@ public class ConversationActivity extends PassphraseRequiredActivity
   }
 
   private void updateLinkPreviewState() {
-    if (SignalStore.settings().isLinkPreviewsEnabled() && isSecureText && !sendButton.getSelectedTransport().isSms() && !attachmentManager.isAttachmentPresent()) {
+    if (GrapherexStore.settings().isLinkPreviewsEnabled() && isSecureText && !sendButton.getSelectedTransport().isSms() && !attachmentManager.isAttachmentPresent()) {
       linkPreviewViewModel.onEnabled();
       linkPreviewViewModel.onTextChanged(this, composeText.getTextTrimmed().toString(), composeText.getSelectionStart(), composeText.getSelectionEnd());
     } else {

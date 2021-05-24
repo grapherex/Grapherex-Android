@@ -26,7 +26,7 @@ public class StorageServiceValues extends SignalStoreValues {
   }
 
   public synchronized StorageKey getOrCreateStorageKey() {
-    return SignalStore.kbsValues().getOrCreateMasterKey().deriveStorageServiceKey();
+    return GrapherexStore.kbsValues().getOrCreateMasterKey().deriveStorageServiceKey();
   }
 
   public long getLastSyncTime() {

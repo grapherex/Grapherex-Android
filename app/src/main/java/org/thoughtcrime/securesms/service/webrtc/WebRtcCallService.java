@@ -31,7 +31,7 @@ import org.thoughtcrime.securesms.webrtc.locks.LockManager;
 import java.util.Objects;
 
 /**
- * Provide a foreground service for {@link SignalCallManager} to leverage to run in the background when necessary. Also
+ * Provide a foreground service for {@link GrapherexCallManager} to leverage to run in the background when necessary. Also
  * provides devices listeners needed for during a call (i.e., bluetooth, power button).
  */
 public final class WebRtcCallService extends Service implements BluetoothStateManager.BluetoothStateListener {
@@ -51,7 +51,7 @@ public final class WebRtcCallService extends Service implements BluetoothStateMa
 
   private static final int INVALID_NOTIFICATION_ID = -1;
 
-  private SignalCallManager callManager;
+  private GrapherexCallManager callManager;
 
   private WiredHeadsetStateReceiver       wiredHeadsetStateReceiver;
   private NetworkReceiver                 networkReceiver;

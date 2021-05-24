@@ -9,7 +9,7 @@ import androidx.annotation.WorkerThread;
 import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.database.DatabaseFactory;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.recipients.RecipientId;
 import org.thoughtcrime.securesms.wallpaper.ChatWallpaper;
 import org.thoughtcrime.securesms.wallpaper.WallpaperStorage;
@@ -40,7 +40,7 @@ final class WallpaperCropRepository {
         DatabaseFactory.getRecipientDatabase(context).setWallpaper(recipientId, wallpaper);
       } else {
         Log.i(TAG, "Setting image wallpaper for default");
-        SignalStore.wallpaper().setWallpaper(context, wallpaper);
+        GrapherexStore.wallpaper().setWallpaper(context, wallpaper);
       }
 
       return wallpaper;

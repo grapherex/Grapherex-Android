@@ -21,7 +21,7 @@ import com.dd.CircularProgressButton;
 
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.contactshare.SimpleTextWatcher;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.net.PipeConnectivityListener;
 import org.thoughtcrime.securesms.util.CommunicationActions;
 import org.thoughtcrime.securesms.util.SignalProxyUtil;
@@ -66,8 +66,8 @@ public class EditProxyFragment extends Fragment {
       }
     });
 
-    this.proxyText.setText(Optional.fromNullable(SignalStore.proxy().getProxy()).transform(SignalProxy::getHost).or(""));
-    this.proxySwitch.setChecked(SignalStore.proxy().isProxyEnabled());
+    this.proxyText.setText(Optional.fromNullable(GrapherexStore.proxy().getProxy()).transform(SignalProxy::getHost).or(""));
+    this.proxySwitch.setChecked(GrapherexStore.proxy().isProxyEnabled());
 
     initViewModel();
 
@@ -120,7 +120,7 @@ public class EditProxyFragment extends Fragment {
   }
 
   private void presentProxyState(@NonNull PipeConnectivityListener.State proxyState) {
-    if (SignalStore.proxy().getProxy() != null) {
+    if (GrapherexStore.proxy().getProxy() != null) {
       switch (proxyState) {
         case DISCONNECTED:
         case CONNECTING:
@@ -145,7 +145,7 @@ public class EditProxyFragment extends Fragment {
     switch (event) {
       case PROXY_SUCCESS:
         proxyStatus.setVisibility(View.VISIBLE);
-        proxyText.setText(Optional.fromNullable(SignalStore.proxy().getProxy()).transform(SignalProxy::getHost).or(""));
+        proxyText.setText(Optional.fromNullable(GrapherexStore.proxy().getProxy()).transform(SignalProxy::getHost).or(""));
         new AlertDialog.Builder(requireContext())
                        .setTitle(R.string.preferences_success)
                        .setMessage(R.string.preferences_you_are_connected_to_the_proxy)
@@ -157,7 +157,7 @@ public class EditProxyFragment extends Fragment {
         break;
       case PROXY_FAILURE:
         proxyStatus.setVisibility(View.INVISIBLE);
-        proxyText.setText(Optional.fromNullable(SignalStore.proxy().getProxy()).transform(SignalProxy::getHost).or(""));
+        proxyText.setText(Optional.fromNullable(GrapherexStore.proxy().getProxy()).transform(SignalProxy::getHost).or(""));
         ViewUtil.focusAndMoveCursorToEndAndOpenKeyboard(proxyText);
         new AlertDialog.Builder(requireContext())
                        .setTitle(R.string.preferences_failed_to_connect)
@@ -209,7 +209,7 @@ public class EditProxyFragment extends Fragment {
       shareButton.setAlpha(1);
 
       String trueHost = SignalProxyUtil.convertUserEnteredAddressToHost(proxyText.getText().toString());
-      if (SignalStore.proxy().isProxyEnabled() && trueHost.equals(SignalStore.proxy().getProxyHost())) {
+      if (GrapherexStore.proxy().isProxyEnabled() && trueHost.equals(GrapherexStore.proxy().getProxyHost())) {
         proxyStatus.setVisibility(View.VISIBLE);
       } else {
         proxyStatus.setVisibility(View.INVISIBLE);

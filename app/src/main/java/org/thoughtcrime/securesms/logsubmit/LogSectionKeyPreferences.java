@@ -4,7 +4,7 @@ import android.content.Context;
 
 import androidx.annotation.NonNull;
 
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.util.TextSecurePreferences;
 import org.thoughtcrime.securesms.util.Util;
 
@@ -22,8 +22,8 @@ final class LogSectionKeyPreferences implements LogSection {
                               .append("Password Disabled    : ").append(TextSecurePreferences.isPasswordDisabled(context)).append("\n")
                               .append("WiFi SMS             : ").append(TextSecurePreferences.isWifiSmsEnabled(context)).append("\n")
                               .append("Default SMS          : ").append(Util.isDefaultSmsProvider(context)).append("\n")
-                              .append("Prefer Contact Photos: ").append(SignalStore.settings().isPreferSystemContactPhotos()).append("\n")
-                              .append("Call Bandwidth Mode  : ").append(SignalStore.settings().getCallBandwidthMode()).append("\n")
-                              .append("Client Deprecated    : ").append(SignalStore.misc().isClientDeprecated()).append("\n");
+                              .append("Prefer Contact Photos: ").append(GrapherexStore.settings().isPreferSystemContactPhotos()).append("\n")
+                              .append("Call Bandwidth Mode  : ").append(GrapherexStore.settings().getCallBandwidthMode()).append("\n")
+                              .append("Client Deprecated    : ").append(GrapherexStore.misc().isClientDeprecated()).append("\n");
   }
 }

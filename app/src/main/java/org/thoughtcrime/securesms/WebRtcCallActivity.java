@@ -56,7 +56,7 @@ import org.thoughtcrime.securesms.messagerequests.CalleeMustAcceptMessageRequest
 import org.thoughtcrime.securesms.permissions.Permissions;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.recipients.RecipientId;
-import org.thoughtcrime.securesms.service.webrtc.SignalCallManager;
+import org.thoughtcrime.securesms.service.webrtc.GrapherexCallManager;
 import org.thoughtcrime.securesms.sms.MessageSender;
 import org.thoughtcrime.securesms.util.EllapsedTimeFormatter;
 import org.thoughtcrime.securesms.util.FullscreenHelper;
@@ -452,7 +452,7 @@ public class WebRtcCallActivity extends BaseActivity implements SafetyNumberChan
   private void handleCallBusy() {
     EventBus.getDefault().removeStickyEvent(WebRtcViewModel.class);
     callScreen.setStatus(getString(R.string.RedPhone_busy));
-    delayedFinish(SignalCallManager.BUSY_TONE_LENGTH);
+    delayedFinish(GrapherexCallManager.BUSY_TONE_LENGTH);
   }
 
   private void handleCallConnected(@NonNull WebRtcViewModel event) {

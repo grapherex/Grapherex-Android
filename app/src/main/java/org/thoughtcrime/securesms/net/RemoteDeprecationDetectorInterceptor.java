@@ -3,7 +3,7 @@ package org.thoughtcrime.securesms.net;
 import androidx.annotation.NonNull;
 
 import org.signal.core.util.logging.Log;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 
 import java.io.IOException;
 
@@ -21,9 +21,9 @@ public final class RemoteDeprecationDetectorInterceptor implements Interceptor {
   public @NonNull Response intercept(@NonNull Chain chain) throws IOException {
     Response response = chain.proceed(chain.request());
 
-    if (response.code() == 499 && !SignalStore.misc().isClientDeprecated()) {
+    if (response.code() == 499 && !GrapherexStore.misc().isClientDeprecated()) {
       Log.w(TAG, "Received 499. Client version is deprecated.");
-      SignalStore.misc().markClientDeprecated();
+      GrapherexStore.misc().markClientDeprecated();
     }
 
     return response;

@@ -21,7 +21,7 @@ import org.thoughtcrime.securesms.InviteActivity;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.conversationlist.ConversationListFragment;
 import org.thoughtcrime.securesms.groups.ui.creategroup.CreateGroupActivity;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.util.SmsUtil;
 
 import java.util.ArrayList;
@@ -126,15 +126,15 @@ public class OnboardingMegaphoneView extends FrameLayout {
     private static List<Integer> buildData(@NonNull Context context) {
       List<Integer> data = new ArrayList<>();
 
-      if (SignalStore.onboarding().shouldShowNewGroup()) {
+      if (GrapherexStore.onboarding().shouldShowNewGroup()) {
         data.add(TYPE_GROUP);
       }
 
-      if (SignalStore.onboarding().shouldShowInviteFriends()) {
+      if (GrapherexStore.onboarding().shouldShowInviteFriends()) {
         data.add(TYPE_INVITE);
       }
 
-      if (SignalStore.onboarding().shouldShowSms(context)) {
+      if (GrapherexStore.onboarding().shouldShowSms(context)) {
         data.add(TYPE_SMS);
       }
 
@@ -200,7 +200,7 @@ public class OnboardingMegaphoneView extends FrameLayout {
 
     @Override
     void onCloseClicked() {
-      SignalStore.onboarding().setShowNewGroup(false);
+      GrapherexStore.onboarding().setShowNewGroup(false);
     }
   }
 
@@ -227,7 +227,7 @@ public class OnboardingMegaphoneView extends FrameLayout {
 
     @Override
     void onCloseClicked() {
-      SignalStore.onboarding().setShowInviteFriends(false);
+      GrapherexStore.onboarding().setShowInviteFriends(false);
     }
   }
 
@@ -251,12 +251,12 @@ public class OnboardingMegaphoneView extends FrameLayout {
     void onActionClicked(@NonNull MegaphoneActionController controller) {
       Intent intent = SmsUtil.getSmsRoleIntent(controller.getMegaphoneActivity());
       controller.onMegaphoneNavigationRequested(intent, ConversationListFragment.SMS_ROLE_REQUEST_CODE);
-      SignalStore.onboarding().setShowSms(false);
+      GrapherexStore.onboarding().setShowSms(false);
     }
 
     @Override
     void onCloseClicked() {
-      SignalStore.onboarding().setShowSms(false);
+      GrapherexStore.onboarding().setShowSms(false);
     }
   }
 }

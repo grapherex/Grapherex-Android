@@ -11,7 +11,7 @@ import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.ApplicationPreferencesActivity;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.util.TextSecurePreferences;
 import org.thoughtcrime.securesms.util.Util;
 import org.thoughtcrime.securesms.webrtc.CallBandwidthMode;
@@ -72,7 +72,7 @@ public class DataAndStoragePreferenceFragment extends ListSummaryPreferenceFragm
     requireApplicationPreferencesActivity().getSupportActionBar().setTitle(R.string.preferences__data_and_storage);
     setMediaDownloadSummaries();
     ApplicationPreferencesViewModel.getApplicationPreferencesViewModel(requireActivity()).refreshStorageBreakdown(requireContext());
-    findPreference(USE_PROXY_KEY).setSummary(SignalStore.proxy().isProxyEnabled() ? R.string.preferences_on : R.string.preferences_off);
+    findPreference(USE_PROXY_KEY).setSummary(GrapherexStore.proxy().isProxyEnabled() ? R.string.preferences_on : R.string.preferences_off);
   }
 
   private @NonNull ApplicationPreferencesActivity requireApplicationPreferencesActivity() {
@@ -118,13 +118,13 @@ public class DataAndStoragePreferenceFragment extends ListSummaryPreferenceFragm
 
       switch (entryIndex) {
         case 0:
-          SignalStore.settings().setCallBandwidthMode(CallBandwidthMode.HIGH_ALWAYS);
+          GrapherexStore.settings().setCallBandwidthMode(CallBandwidthMode.HIGH_ALWAYS);
           break;
         case 1:
-          SignalStore.settings().setCallBandwidthMode(CallBandwidthMode.HIGH_ON_WIFI);
+          GrapherexStore.settings().setCallBandwidthMode(CallBandwidthMode.HIGH_ON_WIFI);
           break;
         case 2:
-          SignalStore.settings().setCallBandwidthMode(CallBandwidthMode.LOW_ALWAYS);
+          GrapherexStore.settings().setCallBandwidthMode(CallBandwidthMode.LOW_ALWAYS);
           break;
         default:
           throw new AssertionError();

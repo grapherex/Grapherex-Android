@@ -48,7 +48,7 @@ import com.google.i18n.phonenumbers.Phonenumber;
 import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.BuildConfig;
 import org.thoughtcrime.securesms.components.ComposeText;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.mms.OutgoingLegacyMmsConnection;
 import org.whispersystems.libsignal.util.guava.Optional;
 
@@ -382,7 +382,7 @@ public class Util {
    *         Takes into account both the build age as well as any remote deprecation values.
    */
   public static long getTimeUntilBuildExpiry() {
-    if (SignalStore.misc().isClientDeprecated()) {
+    if (GrapherexStore.misc().isClientDeprecated()) {
       return 0;
     }
 

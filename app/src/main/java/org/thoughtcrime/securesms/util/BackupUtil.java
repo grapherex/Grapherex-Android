@@ -18,7 +18,7 @@ import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.backup.BackupPassphrase;
 import org.thoughtcrime.securesms.database.NoExternalStorageException;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.permissions.Permissions;
 import org.whispersystems.libsignal.util.ByteUtil;
 
@@ -55,7 +55,7 @@ public class BackupUtil {
 
   public static boolean canUserAccessBackupDirectory(@NonNull Context context) {
     if (isUserSelectionRequired(context)) {
-      Uri backupDirectoryUri = SignalStore.settings().getSignalBackupDirectory();
+      Uri backupDirectoryUri = GrapherexStore.settings().getSignalBackupDirectory();
       if (backupDirectoryUri == null) {
         return false;
       }
@@ -107,13 +107,13 @@ public class BackupUtil {
     BackupUtil.deleteAllBackups();
 
     if (BackupUtil.isUserSelectionRequired(context)) {
-      Uri backupLocationUri = SignalStore.settings().getSignalBackupDirectory();
+      Uri backupLocationUri = GrapherexStore.settings().getSignalBackupDirectory();
 
       if (backupLocationUri == null) {
         return;
       }
 
-      SignalStore.settings().clearSignalBackupDirectory();
+      GrapherexStore.settings().clearSignalBackupDirectory();
 
       try {
         context.getContentResolver()
@@ -136,7 +136,7 @@ public class BackupUtil {
 
   @RequiresApi(29)
   private static List<BackupInfo> getAllBackupsNewestFirstApi29() {
-    Uri backupDirectoryUri = SignalStore.settings().getSignalBackupDirectory();
+    Uri backupDirectoryUri = GrapherexStore.settings().getSignalBackupDirectory();
     if (backupDirectoryUri == null) {
       Log.i(TAG, "Backup directory is not set. Returning an empty list.");
       return Collections.emptyList();

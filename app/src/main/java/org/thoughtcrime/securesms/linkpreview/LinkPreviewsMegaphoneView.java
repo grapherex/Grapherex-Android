@@ -8,7 +8,7 @@ import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 
 import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.megaphone.Megaphone;
 import org.thoughtcrime.securesms.megaphone.MegaphoneActionController;
 
@@ -36,12 +36,12 @@ public class LinkPreviewsMegaphoneView extends FrameLayout {
 
   public void present(@NonNull Megaphone megaphone, @NonNull MegaphoneActionController listener) {
     this.yesButton.setOnClickListener(v -> {
-      SignalStore.settings().setLinkPreviewsEnabled(true);
+      GrapherexStore.settings().setLinkPreviewsEnabled(true);
       listener.onMegaphoneCompleted(megaphone.getEvent());
     });
 
     this.noButton.setOnClickListener(v -> {
-      SignalStore.settings().setLinkPreviewsEnabled(false);
+      GrapherexStore.settings().setLinkPreviewsEnabled(false);
       listener.onMegaphoneCompleted(megaphone.getEvent());
     });
   }

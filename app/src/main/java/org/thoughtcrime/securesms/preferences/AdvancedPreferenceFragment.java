@@ -30,7 +30,7 @@ import org.thoughtcrime.securesms.contacts.ContactAccessor;
 import org.thoughtcrime.securesms.contacts.ContactIdentityManager;
 import org.thoughtcrime.securesms.delete.DeleteAccountFragment;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.logsubmit.SubmitDebugLogActivity;
 import org.thoughtcrime.securesms.payments.preferences.PaymentsActivity;
 import org.thoughtcrime.securesms.payments.preferences.transfer.PaymentsTransferFragmentArgs;
@@ -89,7 +89,7 @@ public class AdvancedPreferenceFragment extends CorrectedPreferenceFragment {
 
     Preference deleteAccount = this.findPreference(DELETE_ACCOUNT);
     deleteAccount.setOnPreferenceClickListener(preference -> {
-      Money.MobileCoin latestBalance = SignalStore.paymentsValues().mobileCoinLatestBalance().getFullAmount().requireMobileCoin();
+      Money.MobileCoin latestBalance = GrapherexStore.paymentsValues().mobileCoinLatestBalance().getFullAmount().requireMobileCoin();
 
       if (!latestBalance.equals(Money.MobileCoin.ZERO)) {
         new AlertDialog.Builder(requireContext())
@@ -251,7 +251,7 @@ public class AdvancedPreferenceFragment extends CorrectedPreferenceFragment {
           break;
         case SUCCESS:
           TextSecurePreferences.setPushRegistered(getActivity(), false);
-          SignalStore.registrationValues().clearRegistrationComplete();
+          GrapherexStore.registrationValues().clearRegistrationComplete();
           initializePushMessagingToggle();
           break;
         }

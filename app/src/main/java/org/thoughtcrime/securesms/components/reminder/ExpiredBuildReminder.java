@@ -5,7 +5,7 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 
 import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.util.PlayStoreUtil;
 
 import java.util.List;
@@ -39,6 +39,6 @@ public class ExpiredBuildReminder extends Reminder {
   }
 
   public static boolean isEligible() {
-    return SignalStore.misc().isClientDeprecated();
+    return GrapherexStore.misc().isClientDeprecated();
   }
 }

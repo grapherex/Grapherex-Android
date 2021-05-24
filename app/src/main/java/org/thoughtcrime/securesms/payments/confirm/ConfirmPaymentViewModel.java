@@ -11,7 +11,7 @@ import androidx.lifecycle.ViewModelProvider;
 import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.database.PaymentDatabase.PaymentTransaction;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.payments.CreatePaymentDetails;
 import org.thoughtcrime.securesms.payments.FiatMoneyUtil;
 import org.thoughtcrime.securesms.payments.PaymentTransactionLiveData;
@@ -46,7 +46,7 @@ final class ConfirmPaymentViewModel extends ViewModel {
     this.errorEvents              = new SingleLiveEvent<>();
     this.feeRetry                 = new DefaultValueLiveData<>(true);
 
-    this.store.update(SignalStore.paymentsValues().liveMobileCoinBalance(), (balance, state) -> state.updateBalance(balance.getFullAmount()));
+    this.store.update(GrapherexStore.paymentsValues().liveMobileCoinBalance(), (balance, state) -> state.updateBalance(balance.getFullAmount()));
 
     LiveData<Boolean> longLoadTime = LiveDataUtil.delay(1000, true);
     this.store.update(longLoadTime, (l, s) -> {

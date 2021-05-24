@@ -12,7 +12,7 @@ import org.greenrobot.eventbus.EventBus;
 import org.thoughtcrime.securesms.ApplicationPreferencesActivity;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.devicetransfer.olddevice.OldDeviceTransferActivity;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.permissions.Permissions;
 import org.thoughtcrime.securesms.storage.StorageSyncHelper;
 import org.thoughtcrime.securesms.util.ConversationUtil;
@@ -43,7 +43,7 @@ public class ChatsPreferenceFragment extends ListSummaryPreferenceFragment {
 
     findPreference(PREFER_SYSTEM_CONTACT_PHOTOS)
         .setOnPreferenceChangeListener((preference, newValue) -> {
-          SignalStore.settings().setPreferSystemContactPhotos(newValue == Boolean.TRUE);
+          GrapherexStore.settings().setPreferSystemContactPhotos(newValue == Boolean.TRUE);
           refreshDebouncer.publish(ConversationUtil::refreshRecipientShortcuts);
           StorageSyncHelper.scheduleSyncForDataChange();
           return true;

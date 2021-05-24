@@ -6,7 +6,7 @@ import androidx.preference.PreferenceDataStore;
 
 /**
  * An implementation of the {@link PreferenceDataStore} interface to let us link preference screens
- * to the {@link SignalStore}.
+ * to the {@link GrapherexStore}.
  */
 public class SignalPreferenceDataStore extends PreferenceDataStore {
 

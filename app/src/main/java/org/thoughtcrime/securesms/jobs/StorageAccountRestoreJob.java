@@ -9,7 +9,7 @@ import org.thoughtcrime.securesms.jobmanager.Job;
 import org.thoughtcrime.securesms.jobmanager.JobManager;
 import org.thoughtcrime.securesms.jobmanager.JobTracker;
 import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.storage.StorageSyncHelper;
 import org.thoughtcrime.securesms.util.TextSecurePreferences;
@@ -65,7 +65,7 @@ public class StorageAccountRestoreJob extends BaseJob {
   @Override
   protected void onRun() throws Exception {
     SignalServiceAccountManager accountManager    = ApplicationDependencies.getSignalServiceAccountManager();
-    StorageKey                  storageServiceKey = SignalStore.storageServiceValues().getOrCreateStorageKey();
+    StorageKey                  storageServiceKey = GrapherexStore.storageServiceValues().getOrCreateStorageKey();
 
     Log.i(TAG, "Retrieving manifest...");
     Optional<SignalStorageManifest> manifest = accountManager.getStorageManifest(storageServiceKey);

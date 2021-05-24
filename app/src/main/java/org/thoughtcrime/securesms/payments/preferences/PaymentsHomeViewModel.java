@@ -15,7 +15,7 @@ import org.thoughtcrime.securesms.components.settings.SettingHeader;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.keyvalue.PaymentsAvailability;
 import org.thoughtcrime.securesms.keyvalue.PaymentsValues;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.payments.Balance;
 import org.thoughtcrime.securesms.payments.Payment;
 import org.thoughtcrime.securesms.payments.UnreadPaymentsRepository;
@@ -65,7 +65,7 @@ public class PaymentsHomeViewModel extends ViewModel {
     this.currencyExchangeRepository = currencyExchangeRepository;
     this.unreadPaymentsRepository   = new UnreadPaymentsRepository();
     this.store                      = new Store<>(new PaymentsHomeState(getPaymentsState()));
-    this.balance                    = LiveDataUtil.mapDistinct(SignalStore.paymentsValues().liveMobileCoinBalance(), Balance::getFullAmount);
+    this.balance                    = LiveDataUtil.mapDistinct(GrapherexStore.paymentsValues().liveMobileCoinBalance(), Balance::getFullAmount);
     this.list                       = Transformations.map(store.getStateLiveData(), this::createList);
     this.paymentsEnabled            = LiveDataUtil.mapDistinct(store.getStateLiveData(), state -> state.getPaymentsState() == PaymentsHomeState.PaymentsState.ACTIVATED);
     this.exchange                   = LiveDataUtil.mapDistinct(store.getStateLiveData(), PaymentsHomeState::getExchangeAmount);
@@ -75,7 +75,7 @@ public class PaymentsHomeViewModel extends ViewModel {
 
     this.store.update(paymentsRepository.getRecentPayments(), this::updateRecentPayments);
 
-    LiveData<CurrencyExchange.ExchangeRate> liveExchangeRate = LiveDataUtil.combineLatest(SignalStore.paymentsValues().liveCurrentCurrency(),
+    LiveData<CurrencyExchange.ExchangeRate> liveExchangeRate = LiveDataUtil.combineLatest(GrapherexStore.paymentsValues().liveCurrentCurrency(),
                                                                                           LiveDataUtil.mapDistinct(store.getStateLiveData(), PaymentsHomeState::getCurrencyExchange),
                                                                                           (currency, exchange) -> exchange.getExchangeRate(currency));
 
@@ -88,7 +88,7 @@ public class PaymentsHomeViewModel extends ViewModel {
   }
 
   private static PaymentsHomeState.PaymentsState getPaymentsState() {
-    PaymentsValues paymentsValues = SignalStore.paymentsValues();
+    PaymentsValues paymentsValues = GrapherexStore.paymentsValues();
 
     PaymentsAvailability paymentsAvailability = paymentsValues.getPaymentsAvailability();
 
@@ -135,7 +135,7 @@ public class PaymentsHomeViewModel extends ViewModel {
 
   void checkPaymentActivationState() {
     PaymentsHomeState.PaymentsState storedState     = store.getState().getPaymentsState();
-    boolean                         paymentsEnabled = SignalStore.paymentsValues().mobileCoinPaymentsEnabled();
+    boolean                         paymentsEnabled = GrapherexStore.paymentsValues().mobileCoinPaymentsEnabled();
 
     if (storedState.equals(PaymentsHomeState.PaymentsState.ACTIVATED) && !paymentsEnabled) {
       store.update(s -> s.updatePaymentsEnabled(PaymentsHomeState.PaymentsState.NOT_ACTIVATED));

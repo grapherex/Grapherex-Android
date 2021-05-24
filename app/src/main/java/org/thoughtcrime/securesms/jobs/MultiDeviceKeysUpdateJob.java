@@ -9,7 +9,7 @@ import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.jobmanager.Data;
 import org.thoughtcrime.securesms.jobmanager.Job;
 import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.util.TextSecurePreferences;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.SignalServiceMessageSender;
@@ -59,7 +59,7 @@ public class MultiDeviceKeysUpdateJob extends BaseJob {
     }
 
     SignalServiceMessageSender messageSender     = ApplicationDependencies.getSignalServiceMessageSender();
-    StorageKey                 storageServiceKey = SignalStore.storageServiceValues().getOrCreateStorageKey();
+    StorageKey                 storageServiceKey = GrapherexStore.storageServiceValues().getOrCreateStorageKey();
 
     messageSender.sendMessage(SignalServiceSyncMessage.forKeys(new KeysMessage(Optional.fromNullable(storageServiceKey))),
                               UnidentifiedAccessUtil.getAccessForSync(context));

@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel;
 
 import org.signal.core.util.concurrent.SignalExecutors;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.net.PipeConnectivityListener;
 import org.thoughtcrime.securesms.util.SignalProxyUtil;
 import org.thoughtcrime.securesms.util.SingleLiveEvent;
@@ -31,7 +31,7 @@ public class EditProxyViewModel extends ViewModel {
     this.pipeState = TextSecurePreferences.getLocalNumber(ApplicationDependencies.getApplication()) == null ? new MutableLiveData<>()
                                                                                                             : ApplicationDependencies.getPipeListener().getState();
 
-    if (SignalStore.proxy().isProxyEnabled()) {
+    if (GrapherexStore.proxy().isProxyEnabled()) {
       uiState.setValue(UiState.ALL_ENABLED);
     } else {
       uiState.setValue(UiState.ALL_DISABLED);
@@ -40,7 +40,7 @@ public class EditProxyViewModel extends ViewModel {
 
   void onToggleProxy(boolean enabled) {
     if (enabled) {
-      SignalProxy currentProxy = SignalStore.proxy().getProxy();
+      SignalProxy currentProxy = GrapherexStore.proxy().getProxy();
 
       if (currentProxy != null && !Util.isEmpty(currentProxy.getHost())) {
         SignalProxyUtil.enableProxy(currentProxy);

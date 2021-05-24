@@ -6,7 +6,7 @@ import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.contacts.sync.DirectoryHelper;
 import org.thoughtcrime.securesms.jobmanager.Data;
 import org.thoughtcrime.securesms.jobmanager.Job;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.util.TextSecurePreferences;
 
 import java.io.IOException;
@@ -41,7 +41,7 @@ public final class DirectoryRefreshMigrationJob extends MigrationJob {
   @Override
   public void performMigration() throws IOException {
     if (!TextSecurePreferences.isPushRegistered(context)           ||
-        !SignalStore.registrationValues().isRegistrationComplete() ||
+        !GrapherexStore.registrationValues().isRegistrationComplete() ||
         TextSecurePreferences.getLocalUuid(context) == null)
     {
       Log.w(TAG, "Not registered! Skipping.");

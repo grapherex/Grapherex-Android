@@ -30,7 +30,7 @@ import java.util.UUID;
 public class WebRtcInteractor {
 
   @NonNull private final Context                        context;
-  @NonNull private final SignalCallManager              signalCallManager;
+  @NonNull private final GrapherexCallManager grapherexCallManager;
   @NonNull private final LockManager                    lockManager;
   @NonNull private final SignalAudioManager             audioManager;
   @NonNull private final CameraEventListener            cameraEventListener;
@@ -38,7 +38,7 @@ public class WebRtcInteractor {
   @NonNull private final AppForegroundObserver.Listener foregroundListener;
 
   public WebRtcInteractor(@NonNull Context context,
-                          @NonNull SignalCallManager signalCallManager,
+                          @NonNull GrapherexCallManager grapherexCallManager,
                           @NonNull LockManager lockManager,
                           @NonNull SignalAudioManager audioManager,
                           @NonNull CameraEventListener cameraEventListener,
@@ -46,7 +46,7 @@ public class WebRtcInteractor {
                           @NonNull AppForegroundObserver.Listener foregroundListener)
   {
     this.context           = context;
-    this.signalCallManager = signalCallManager;
+    this.grapherexCallManager = grapherexCallManager;
     this.lockManager       = lockManager;
     this.audioManager        = audioManager;
     this.cameraEventListener = cameraEventListener;
@@ -63,7 +63,7 @@ public class WebRtcInteractor {
   }
 
   @NonNull CallManager getCallManager() {
-    return signalCallManager.getRingRtcCallManager();
+    return grapherexCallManager.getRingRtcCallManager();
   }
 
   @NonNull GroupCall.Observer getGroupCallObserver() {
@@ -83,19 +83,19 @@ public class WebRtcInteractor {
   }
 
   void postStateUpdate(@NonNull WebRtcServiceState state) {
-    signalCallManager.postStateUpdate(state);
+    grapherexCallManager.postStateUpdate(state);
   }
 
   void sendCallMessage(@NonNull RemotePeer remotePeer, @NonNull SignalServiceCallMessage callMessage) {
-    signalCallManager.sendCallMessage(remotePeer, callMessage);
+    grapherexCallManager.sendCallMessage(remotePeer, callMessage);
   }
 
   void sendGroupCallMessage(@NonNull Recipient recipient, @Nullable String groupCallEraId) {
-    signalCallManager.sendGroupCallUpdateMessage(recipient, groupCallEraId);
+    grapherexCallManager.sendGroupCallUpdateMessage(recipient, groupCallEraId);
   }
 
   void updateGroupCallUpdateMessage(@NonNull RecipientId groupId, @Nullable String groupCallEraId, @NonNull Collection<UUID> joinedMembers, boolean isCallFull) {
-    signalCallManager.updateGroupCallUpdateMessage(groupId, groupCallEraId, joinedMembers, isCallFull);
+    grapherexCallManager.updateGroupCallUpdateMessage(groupId, groupCallEraId, joinedMembers, isCallFull);
   }
 
   void setCallInProgressNotification(int type, @NonNull RemotePeer remotePeer) {
@@ -107,7 +107,7 @@ public class WebRtcInteractor {
   }
 
   void retrieveTurnServers(@NonNull RemotePeer remotePeer) {
-    signalCallManager.retrieveTurnServers(remotePeer);
+    grapherexCallManager.retrieveTurnServers(remotePeer);
   }
 
   void stopForegroundService() {
@@ -115,11 +115,11 @@ public class WebRtcInteractor {
   }
 
   void insertMissedCall(@NonNull RemotePeer remotePeer, long timestamp, boolean isVideoOffer) {
-    signalCallManager.insertMissedCall(remotePeer, true, timestamp, isVideoOffer);
+    grapherexCallManager.insertMissedCall(remotePeer, true, timestamp, isVideoOffer);
   }
 
   boolean startWebRtcCallActivityIfPossible() {
-    return signalCallManager.startCallCardActivityIfPossible();
+    return grapherexCallManager.startCallCardActivityIfPossible();
   }
 
   void registerPowerButtonReceiver() {
@@ -155,6 +155,6 @@ public class WebRtcInteractor {
   }
 
   void peekGroupCall(@NonNull RecipientId recipientId) {
-    signalCallManager.peekGroupCall(recipientId);
+    grapherexCallManager.peekGroupCall(recipientId);
   }
 }

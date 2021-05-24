@@ -32,7 +32,7 @@ import com.mobilecoin.lib.exceptions.TransactionBuilderException;
 
 import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.keyvalue.PaymentsValues;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.payments.proto.MobileCoinLedger;
 import org.whispersystems.signalservice.api.payments.Money;
 import org.whispersystems.signalservice.api.util.Uint64RangeException;
@@ -82,12 +82,12 @@ public final class Wallet {
 
   @AnyThread
   public @NonNull Balance getCachedBalance() {
-    return SignalStore.paymentsValues().mobileCoinLatestBalance();
+    return GrapherexStore.paymentsValues().mobileCoinLatestBalance();
   }
 
   @AnyThread
   public @NonNull MobileCoinLedgerWrapper getCachedLedger() {
-    return SignalStore.paymentsValues().mobileCoinLatestFullLedger();
+    return GrapherexStore.paymentsValues().mobileCoinLatestFullLedger();
   }
 
   @WorkerThread
@@ -97,7 +97,7 @@ public final class Wallet {
 
   @WorkerThread
   private @NonNull MobileCoinLedgerWrapper getFullLedger(boolean retryOnAuthFailure) {
-    PaymentsValues paymentsValues = SignalStore.paymentsValues();
+    PaymentsValues paymentsValues = GrapherexStore.paymentsValues();
     try {
       MobileCoinLedgerWrapper ledger = tryGetFullLedger(null);
 

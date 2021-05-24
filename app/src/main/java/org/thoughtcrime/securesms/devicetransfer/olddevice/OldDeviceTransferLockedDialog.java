@@ -2,7 +2,6 @@ package org.thoughtcrime.securesms.devicetransfer.olddevice;
 
 import android.app.Dialog;
 import android.os.Bundle;
-import android.view.Window;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -13,7 +12,7 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
 import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.net.DeviceTransferBlockingInterceptor;
 
 /**
@@ -51,7 +50,7 @@ public final class OldDeviceTransferLockedDialog extends DialogFragment {
   }
 
   private void onUnlockRequest() {
-    SignalStore.misc().clearOldDeviceTransferLocked();
+    GrapherexStore.misc().clearOldDeviceTransferLocked();
     DeviceTransferBlockingInterceptor.getInstance().unblockNetwork();
   }
 }

@@ -24,7 +24,7 @@ import com.airbnb.lottie.LottieAnimationView;
 
 import org.thoughtcrime.securesms.LoggingFragment;
 import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.pin.PinOptOutDialog;
 import org.thoughtcrime.securesms.registration.RegistrationUtil;
 import org.thoughtcrime.securesms.util.CommunicationActions;
@@ -100,8 +100,8 @@ abstract class BaseKbsPinFragment<ViewModel extends BaseKbsPinViewModel> extends
   @Override
   public void onPrepareOptionsMenu(@NonNull Menu menu) {
     if (RegistrationLockUtil.userHasRegistrationLock(requireContext()) ||
-        SignalStore.kbsValues().hasPin()                               ||
-        SignalStore.kbsValues().hasOptedOut())
+        GrapherexStore.kbsValues().hasPin()                               ||
+        GrapherexStore.kbsValues().hasOptedOut())
     {
       menu.clear();
     }

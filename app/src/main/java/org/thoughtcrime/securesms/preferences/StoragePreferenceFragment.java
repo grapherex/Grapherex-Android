@@ -27,9 +27,9 @@ import org.thoughtcrime.securesms.components.settings.SingleSelectSetting;
 import org.thoughtcrime.securesms.database.DatabaseFactory;
 import org.thoughtcrime.securesms.database.ThreadDatabase;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.keyvalue.KeepMessagesDuration;
 import org.thoughtcrime.securesms.keyvalue.SettingsValues;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
 import org.thoughtcrime.securesms.mediaoverview.MediaOverviewActivity;
 import org.thoughtcrime.securesms.permissions.Permissions;
 import org.thoughtcrime.securesms.preferences.widgets.StoragePreferenceCategory;
@@ -88,9 +88,9 @@ public class StoragePreferenceFragment extends ListSummaryPreferenceFragment {
 
     viewModel.refreshStorageBreakdown(activity.getApplicationContext());
 
-    keepMessages.setSummary(SignalStore.settings().getKeepMessagesDuration().getStringResource());
+    keepMessages.setSummary(GrapherexStore.settings().getKeepMessagesDuration().getStringResource());
 
-    trimLength.setSummary(SignalStore.settings().isTrimByLengthEnabled() ? getString(R.string.preferences_storage__s_messages, NumberFormat.getInstance().format(SignalStore.settings().getThreadTrimLength()))
+    trimLength.setSummary(GrapherexStore.settings().isTrimByLengthEnabled() ? getString(R.string.preferences_storage__s_messages, NumberFormat.getInstance().format(GrapherexStore.settings().getThreadTrimLength()))
                                                                          : getString(R.string.preferences_storage__none));
   }
 
@@ -135,7 +135,7 @@ public class StoragePreferenceFragment extends ListSummaryPreferenceFragment {
 
     @Override
     public @NonNull MappingModelList getSettings() {
-      KeepMessagesDuration currentDuration = SignalStore.settings().getKeepMessagesDuration();
+      KeepMessagesDuration currentDuration = GrapherexStore.settings().getKeepMessagesDuration();
       return Stream.of(KeepMessagesDuration.values())
                    .map(duration -> new SingleSelectSetting.Item(duration, activity.getString(duration.getStringResource()), null, duration.equals(currentDuration)))
                    .collect(MappingModelList.toMappingModelList());
@@ -143,7 +143,7 @@ public class StoragePreferenceFragment extends ListSummaryPreferenceFragment {
 
     @Override
     public void onSelectionChanged(@NonNull Object selection) {
-      KeepMessagesDuration currentDuration = SignalStore.settings().getKeepMessagesDuration();
+      KeepMessagesDuration currentDuration = GrapherexStore.settings().getKeepMessagesDuration();
       KeepMessagesDuration newDuration     = (KeepMessagesDuration) selection;
 
       if (newDuration.ordinal() > currentDuration.ordinal()) {
@@ -159,7 +159,7 @@ public class StoragePreferenceFragment extends ListSummaryPreferenceFragment {
     }
 
     private void updateTrimByTime(@NonNull KeepMessagesDuration newDuration) {
-      SignalStore.settings().setKeepMessagesForDuration(newDuration);
+      GrapherexStore.settings().setKeepMessagesForDuration(newDuration);
       updateSettingsList();
       ApplicationDependencies.getTrimThreadsByDateManager().scheduleIfNecessary();
     }
@@ -177,7 +177,7 @@ public class StoragePreferenceFragment extends ListSummaryPreferenceFragment {
 
     @Override
     public @NonNull MappingModelList getSettings() {
-      int              trimLength   = SignalStore.settings().isTrimByLengthEnabled() ? SignalStore.settings().getThreadTrimLength() : 0;
+      int              trimLength   = GrapherexStore.settings().isTrimByLengthEnabled() ? GrapherexStore.settings().getThreadTrimLength() : 0;
       int[]            options      = activity.getResources().getIntArray(R.array.conversation_length_limit);
       boolean          hasSelection = false;
       MappingModelList settings     = new MappingModelList();
@@ -192,7 +192,7 @@ public class StoragePreferenceFragment extends ListSummaryPreferenceFragment {
         hasSelection = hasSelection || isSelected;
       }
 
-      int currentValue = SignalStore.settings().getThreadTrimLength();
+      int currentValue = GrapherexStore.settings().getThreadTrimLength();
       settings.add(new CustomizableSingleSelectSetting.Item(CUSTOM_LENGTH,
                                                             activity.getString(R.string.preferences_storage__custom),
                                                             !hasSelection,
@@ -204,8 +204,8 @@ public class StoragePreferenceFragment extends ListSummaryPreferenceFragment {
     @SuppressLint("InflateParams")
     @Override
     public void onCustomizeClicked(@Nullable CustomizableSingleSelectSetting.Item item) {
-      boolean trimLengthEnabled = SignalStore.settings().isTrimByLengthEnabled();
-      int     trimLength        = trimLengthEnabled ? SignalStore.settings().getThreadTrimLength() : 0;
+      boolean trimLengthEnabled = GrapherexStore.settings().isTrimByLengthEnabled();
+      int     trimLength        = trimLengthEnabled ? GrapherexStore.settings().getThreadTrimLength() : 0;
 
       View     view     = LayoutInflater.from(activity).inflate(R.layout.customizable_setting_edit_text, null, false);
       EditText editText = view.findViewById(R.id.customizable_setting_edit_text);
@@ -257,8 +257,8 @@ public class StoragePreferenceFragment extends ListSummaryPreferenceFragment {
 
     @Override
     public void onSelectionChanged(@NonNull Object selection) {
-      boolean trimLengthEnabled = SignalStore.settings().isTrimByLengthEnabled();
-      int     trimLength        = trimLengthEnabled ? SignalStore.settings().getThreadTrimLength() : 0;
+      boolean trimLengthEnabled = GrapherexStore.settings().isTrimByLengthEnabled();
+      int     trimLength        = trimLengthEnabled ? GrapherexStore.settings().getThreadTrimLength() : 0;
       int     newTrimLength     = (Integer) selection;
 
       if (newTrimLength > 0 && (!trimLengthEnabled || newTrimLength < trimLength)) {
@@ -276,14 +276,14 @@ public class StoragePreferenceFragment extends ListSummaryPreferenceFragment {
     }
 
     private void updateTrimByLength(int length) {
-      boolean restrictingChange = !SignalStore.settings().isTrimByLengthEnabled() || length < SignalStore.settings().getThreadTrimLength();
+      boolean restrictingChange = !GrapherexStore.settings().isTrimByLengthEnabled() || length < GrapherexStore.settings().getThreadTrimLength();
 
-      SignalStore.settings().setThreadTrimByLengthEnabled(length > 0);
-      SignalStore.settings().setThreadTrimLength(length);
+      GrapherexStore.settings().setThreadTrimByLengthEnabled(length > 0);
+      GrapherexStore.settings().setThreadTrimLength(length);
       updateSettingsList();
 
-      if (SignalStore.settings().isTrimByLengthEnabled() && restrictingChange) {
-        KeepMessagesDuration keepMessagesDuration = SignalStore.settings().getKeepMessagesDuration();
+      if (GrapherexStore.settings().isTrimByLengthEnabled() && restrictingChange) {
+        KeepMessagesDuration keepMessagesDuration = GrapherexStore.settings().getKeepMessagesDuration();
 
         long trimBeforeDate = keepMessagesDuration != KeepMessagesDuration.FOREVER ? System.currentTimeMillis() - keepMessagesDuration.getDuration()
                                                                                    : ThreadDatabase.NO_TRIM_BEFORE_DATE_SET;

@@ -11,7 +11,7 @@ import androidx.annotation.StringRes;
 import org.signal.core.util.ResourceUtil;
 import org.thoughtcrime.securesms.BuildConfig;
 import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 
 import java.util.Locale;
 
@@ -87,6 +87,6 @@ public final class SupportEmailUtil {
   }
 
   private static CharSequence getRegistrationLockEnabled(@NonNull Context context) {
-    return String.valueOf(TextSecurePreferences.isV1RegistrationLockEnabled(context) || SignalStore.kbsValues().isV2RegistrationLockEnabled());
+    return String.valueOf(TextSecurePreferences.isV1RegistrationLockEnabled(context) || GrapherexStore.kbsValues().isV2RegistrationLockEnabled());
   }
 }

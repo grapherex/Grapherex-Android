@@ -17,7 +17,7 @@ import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.jobmanager.Data;
 import org.thoughtcrime.securesms.jobmanager.Job;
 import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.migrations.StorageServiceMigrationJob;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.recipients.RecipientId;
@@ -167,7 +167,7 @@ public class StorageSyncJobV2 extends BaseJob {
 
   @Override
   protected void onRun() throws IOException, RetryLaterException {
-    if (!SignalStore.kbsValues().hasPin() && !SignalStore.kbsValues().hasOptedOut()) {
+    if (!GrapherexStore.kbsValues().hasPin() && !GrapherexStore.kbsValues().hasOptedOut()) {
       Log.i(TAG, "Doesn't have a PIN. Skipping.");
       return;
     }
@@ -184,7 +184,7 @@ public class StorageSyncJobV2 extends BaseJob {
         ApplicationDependencies.getJobManager().add(new MultiDeviceStorageSyncRequestJob());
       }
 
-      SignalStore.storageServiceValues().onSyncCompleted();
+      GrapherexStore.storageServiceValues().onSyncCompleted();
     } catch (InvalidKeyException e) {
       Log.w(TAG, "Failed to decrypt remote storage! Force-pushing and syncing the storage key to linked devices.", e);
 
@@ -211,7 +211,7 @@ public class StorageSyncJobV2 extends BaseJob {
     SignalServiceAccountManager accountManager     = ApplicationDependencies.getSignalServiceAccountManager();
     RecipientDatabase           recipientDatabase  = DatabaseFactory.getRecipientDatabase(context);
     UnknownStorageIdDatabase    storageIdDatabase  = DatabaseFactory.getUnknownStorageIdDatabase(context);
-    StorageKey                  storageServiceKey  = SignalStore.storageServiceValues().getOrCreateStorageKey();
+    StorageKey                  storageServiceKey  = GrapherexStore.storageServiceValues().getOrCreateStorageKey();
 
     boolean                         needsMultiDeviceSync  = false;
     boolean                         needsForcePush        = false;

@@ -19,7 +19,7 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.Navigation;
 
 import org.thoughtcrime.securesms.R;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.pin.PinOptOutDialog;
 import org.thoughtcrime.securesms.util.CommunicationActions;
 
@@ -115,7 +115,7 @@ public final class KbsSplashFragment extends Fragment {
   private void onCreatePin() {
     KbsSplashFragmentDirections.ActionCreateKbsPin action = KbsSplashFragmentDirections.actionCreateKbsPin();
 
-    action.setIsPinChange(SignalStore.kbsValues().hasPin());
+    action.setIsPinChange(GrapherexStore.kbsValues().hasPin());
 
     Navigation.findNavController(requireView()).navigate(action);
   }

@@ -34,7 +34,7 @@ import org.thoughtcrime.securesms.components.emoji.EmojiImageView;
 import org.thoughtcrime.securesms.components.emoji.EmojiUtil;
 import org.thoughtcrime.securesms.database.model.MessageRecord;
 import org.thoughtcrime.securesms.database.model.ReactionRecord;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.util.ThemeUtil;
 import org.thoughtcrime.securesms.util.Util;
@@ -401,13 +401,13 @@ public final class ConversationReactionOverlay extends RelativeLayout {
           view.setImageEmoji(oldEmoji);
           view.setTag(oldEmoji);
         } else {
-          view.setImageEmoji(SignalStore.emojiValues().getPreferredVariation(ReactionEmoji.values()[i].emoji));
+          view.setImageEmoji(GrapherexStore.emojiValues().getPreferredVariation(ReactionEmoji.values()[i].emoji));
         }
       } else if (isAtCustomIndex) {
         view.setImageDrawable(ContextCompat.getDrawable(getContext(), R.drawable.ic_any_emoji_32));
         view.setTag(null);
       } else {
-        view.setImageEmoji(SignalStore.emojiValues().getPreferredVariation(ReactionEmoji.values()[i].emoji));
+        view.setImageEmoji(GrapherexStore.emojiValues().getPreferredVariation(ReactionEmoji.values()[i].emoji));
       }
     }
   }
@@ -469,7 +469,7 @@ public final class ConversationReactionOverlay extends RelativeLayout {
       if (selected == customEmojiIndex) {
         onReactionSelectedListener.onCustomReactionSelected(messageRecord, emojiViews[selected].getTag() != null);
       } else {
-        onReactionSelectedListener.onReactionSelected(messageRecord, SignalStore.emojiValues().getPreferredVariation(ReactionEmoji.values()[selected].emoji));
+        onReactionSelectedListener.onReactionSelected(messageRecord, GrapherexStore.emojiValues().getPreferredVariation(ReactionEmoji.values()[selected].emoji));
       }
     } else {
       hide();

@@ -15,7 +15,6 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.StringRes;
 import androidx.appcompat.app.AlertDialog;
-import androidx.navigation.Navigation;
 
 import com.dd.CircularProgressButton;
 
@@ -23,7 +22,7 @@ import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.jobs.StorageAccountRestoreJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.lock.v2.PinKeyboardType;
 import org.thoughtcrime.securesms.pin.PinRestoreRepository.TokenData;
 import org.thoughtcrime.securesms.registration.service.CodeVerificationRequest;
@@ -308,11 +307,11 @@ public final class RegistrationLockFragment extends BaseRegistrationFragment {
   }
 
   private void handleSuccessfulPinEntry() {
-    SignalStore.pinValues().setKeyboardType(getPinEntryKeyboardType());
+    GrapherexStore.pinValues().setKeyboardType(getPinEntryKeyboardType());
 
     long startTime = System.currentTimeMillis();
     SimpleTask.run(() -> {
-      SignalStore.onboarding().clearAll();
+      GrapherexStore.onboarding().clearAll();
       return ApplicationDependencies.getJobManager().runSynchronously(new StorageAccountRestoreJob(), StorageAccountRestoreJob.LIFESPAN);
     }, result -> {
       long elapsedTime = System.currentTimeMillis() - startTime;

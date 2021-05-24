@@ -33,7 +33,7 @@ import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.jobs.MultiDeviceContactUpdateJob;
 import org.thoughtcrime.securesms.jobs.RetrieveProfileJob;
 import org.thoughtcrime.securesms.jobs.StorageSyncJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.notifications.NotificationChannels;
 import org.thoughtcrime.securesms.permissions.Permissions;
 import org.thoughtcrime.securesms.phonenumbers.PhoneNumberFormatter;
@@ -89,7 +89,7 @@ public class DirectoryHelper {
       return;
     }
 
-    if (!SignalStore.registrationValues().isRegistrationComplete()) {
+    if (!GrapherexStore.registrationValues().isRegistrationComplete()) {
       Log.w(TAG, "Registration is not yet complete. Skipping, but running a routine to possibly mark it complete.");
       RegistrationUtil.maybeMarkRegistrationComplete(context);
       return;

@@ -11,7 +11,7 @@ import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.jobmanager.Data;
 import org.thoughtcrime.securesms.jobmanager.Job;
 import org.thoughtcrime.securesms.jobmanager.JobManager;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.payments.FailureReason;
 import org.thoughtcrime.securesms.payments.MobileCoinPublicAddress;
 import org.thoughtcrime.securesms.payments.PaymentSubmissionResult;
@@ -123,7 +123,7 @@ public final class PaymentSendJob extends BaseJob {
 
   @Override
   protected void onRun() throws Exception {
-    if (!SignalStore.paymentsValues().mobileCoinPaymentsEnabled()) {
+    if (!GrapherexStore.paymentsValues().mobileCoinPaymentsEnabled()) {
       Log.w(TAG, "Payments are not enabled");
       return;
     }

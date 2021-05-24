@@ -13,7 +13,7 @@ import org.signal.zkgroup.groups.GroupMasterKey;
 import org.thoughtcrime.securesms.database.DatabaseFactory;
 import org.thoughtcrime.securesms.database.GroupDatabase;
 import org.thoughtcrime.securesms.database.RecipientDatabase;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.mms.MmsException;
 import org.thoughtcrime.securesms.mms.OutgoingMediaMessage;
 import org.thoughtcrime.securesms.recipients.Recipient;
@@ -81,7 +81,7 @@ public final class GroupsV1MigrationUtil {
           throw new InvalidMigrationStateException();
         }
 
-        if (!forced && SignalStore.internalValues().disableGv1AutoMigrateInitiation()) {
+        if (!forced && GrapherexStore.internalValues().disableGv1AutoMigrateInitiation()) {
           Log.w(TAG, "Auto migration initiation has been disabled! Skipping.");
           throw new InvalidMigrationStateException();
         }
@@ -136,7 +136,7 @@ public final class GroupsV1MigrationUtil {
 
     DecryptedGroup decryptedGroup = performLocalMigration(context, gv1Id, threadId, groupRecipient);
 
-    if (newlyCreated && decryptedGroup != null && !SignalStore.internalValues().disableGv1AutoMigrateNotification()) {
+    if (newlyCreated && decryptedGroup != null && !GrapherexStore.internalValues().disableGv1AutoMigrateNotification()) {
       Log.i(TAG, "Sending no-op update to notify others.");
       GroupManager.sendNoopUpdate(context, gv2MasterKey, decryptedGroup);
     }

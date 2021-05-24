@@ -235,9 +235,9 @@ public final class PaymentsValues extends SignalStoreValues {
 
   public boolean showUpdatePinInfoCard() {
     if (userHasLargeBalance()                  &&
-        SignalStore.kbsValues().hasPin()       &&
-        !SignalStore.kbsValues().hasOptedOut() &&
-        SignalStore.pinValues().getKeyboardType().equals(PinKeyboardType.NUMERIC)) {
+        GrapherexStore.kbsValues().hasPin()       &&
+        !GrapherexStore.kbsValues().hasOptedOut() &&
+        GrapherexStore.pinValues().getKeyboardType().equals(PinKeyboardType.NUMERIC)) {
       return getStore().getBoolean(SHOW_CASHING_OUT_INFO_CARD, true);
     } else {
       return false;

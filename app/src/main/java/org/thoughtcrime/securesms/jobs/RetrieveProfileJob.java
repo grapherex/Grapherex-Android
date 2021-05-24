@@ -25,7 +25,7 @@ import org.thoughtcrime.securesms.jobmanager.Data;
 import org.thoughtcrime.securesms.jobmanager.Job;
 import org.thoughtcrime.securesms.jobmanager.JobManager;
 import org.thoughtcrime.securesms.jobmanager.impl.NetworkConstraint;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.profiles.ProfileName;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.recipients.RecipientId;
@@ -168,7 +168,7 @@ public class RetrieveProfileJob extends BaseJob {
    * certain time period.
    */
   public static void enqueueRoutineFetchIfNecessary(Application application) {
-    if (!SignalStore.registrationValues().isRegistrationComplete() ||
+    if (!GrapherexStore.registrationValues().isRegistrationComplete() ||
         !TextSecurePreferences.isPushRegistered(application)       ||
         TextSecurePreferences.getLocalUuid(application) == null)
     {
@@ -176,7 +176,7 @@ public class RetrieveProfileJob extends BaseJob {
       return;
     }
 
-    long timeSinceRefresh = System.currentTimeMillis() - SignalStore.misc().getLastProfileRefreshTime();
+    long timeSinceRefresh = System.currentTimeMillis() - GrapherexStore.misc().getLastProfileRefreshTime();
     if (timeSinceRefresh < TimeUnit.HOURS.toMillis(12)) {
       Log.i(TAG, "Too soon to refresh. Did the last refresh " + timeSinceRefresh + " ms ago.");
       return;
@@ -199,7 +199,7 @@ public class RetrieveProfileJob extends BaseJob {
         Log.i(TAG, "No recipients to refresh.");
       }
 
-      SignalStore.misc().setLastProfileRefreshTime(System.currentTimeMillis());
+      GrapherexStore.misc().setLastProfileRefreshTime(System.currentTimeMillis());
     });
   }
 

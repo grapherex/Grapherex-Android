@@ -77,9 +77,9 @@ import static org.thoughtcrime.securesms.events.WebRtcViewModel.State.UNTRUSTED_
  * Entry point for all things calling. Lives for the life of the app instance and will spin up a foreground service when needed to
  * handle "active" calls.
  */
-public final class SignalCallManager implements CallManager.Observer, GroupCall.Observer, CameraEventListener, AppForegroundObserver.Listener {
+public final class GrapherexCallManager implements CallManager.Observer, GroupCall.Observer, CameraEventListener, AppForegroundObserver.Listener {
 
-  private static final String TAG = Log.tag(SignalCallManager.class);
+  private static final String TAG = Log.tag(GrapherexCallManager.class);
 
   public static final int BUSY_TONE_LENGTH = 2000;
 
@@ -94,7 +94,7 @@ public final class SignalCallManager implements CallManager.Observer, GroupCall.
 
   private WebRtcServiceState serviceState;
 
-  public SignalCallManager(@NonNull Application application) {
+  public GrapherexCallManager(@NonNull Application application) {
     this.context         = application.getApplicationContext();
     this.messageSender   = ApplicationDependencies.getSignalServiceMessageSender();
     this.accountManager  = ApplicationDependencies.getSignalServiceAccountManager();

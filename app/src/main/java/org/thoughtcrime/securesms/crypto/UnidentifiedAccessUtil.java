@@ -15,8 +15,8 @@ import org.signal.libsignal.metadata.certificate.InvalidCertificateException;
 import org.signal.zkgroup.profiles.ProfileKey;
 import org.thoughtcrime.securesms.BuildConfig;
 import org.thoughtcrime.securesms.keyvalue.CertificateType;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.keyvalue.PhoneNumberPrivacyValues;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.util.Base64;
 import org.thoughtcrime.securesms.util.TextSecurePreferences;
@@ -78,7 +78,7 @@ public class UnidentifiedAccessUtil {
     for (Recipient recipient : recipients) {
       byte[]          theirUnidentifiedAccessKey       = getTargetUnidentifiedAccessKey(recipient);
       CertificateType certificateType                  = getUnidentifiedAccessCertificateType(recipient);
-      byte[]          ourUnidentifiedAccessCertificate = SignalStore.certificateValues().getUnidentifiedAccessCertificate(certificateType);
+      byte[]          ourUnidentifiedAccessCertificate = GrapherexStore.certificateValues().getUnidentifiedAccessCertificate(certificateType);
 
       int typeCount = Util.getOrDefault(typeCounts, certificateType, 0);
       typeCount++;
@@ -133,7 +133,7 @@ public class UnidentifiedAccessUtil {
   }
 
   private static @NonNull CertificateType getUnidentifiedAccessCertificateType(@NonNull Recipient recipient) {
-    PhoneNumberPrivacyValues.PhoneNumberSharingMode sendPhoneNumberTo = SignalStore.phoneNumberPrivacy().getPhoneNumberSharingMode();
+    PhoneNumberPrivacyValues.PhoneNumberSharingMode sendPhoneNumberTo = GrapherexStore.phoneNumberPrivacy().getPhoneNumberSharingMode();
 
     switch (sendPhoneNumberTo) {
       case EVERYONE: return CertificateType.UUID_AND_E164;
@@ -144,7 +144,7 @@ public class UnidentifiedAccessUtil {
   }
 
   private static byte[] getUnidentifiedAccessCertificate(@NonNull Recipient recipient) {
-    return SignalStore.certificateValues()
+    return GrapherexStore.certificateValues()
                       .getUnidentifiedAccessCertificate(getUnidentifiedAccessCertificateType(recipient));
   }
 

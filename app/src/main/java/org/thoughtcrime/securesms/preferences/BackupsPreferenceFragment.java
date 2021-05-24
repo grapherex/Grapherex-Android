@@ -30,7 +30,7 @@ import org.thoughtcrime.securesms.backup.FullBackupBase;
 import org.thoughtcrime.securesms.database.NoExternalStorageException;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
 import org.thoughtcrime.securesms.jobs.LocalBackupJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.permissions.Permissions;
 import org.thoughtcrime.securesms.util.BackupUtil;
 import org.thoughtcrime.securesms.util.StorageUtil;
@@ -158,7 +158,7 @@ public class BackupsPreferenceFragment extends Fragment {
       if (BackupUtil.isUserSelectionRequired(requireContext()) &&
           BackupUtil.canUserAccessBackupDirectory(requireContext()))
       {
-        Uri backupUri = Objects.requireNonNull(SignalStore.settings().getSignalBackupDirectory());
+        Uri backupUri = Objects.requireNonNull(GrapherexStore.settings().getSignalBackupDirectory());
 
         folder.setVisibility(View.VISIBLE);
         folderName.setText(StorageUtil.getDisplayPath(requireContext(), backupUri));

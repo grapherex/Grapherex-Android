@@ -45,7 +45,7 @@ import org.thoughtcrime.securesms.backup.FullBackupImporter;
 import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
 import org.thoughtcrime.securesms.database.DatabaseFactory;
 import org.thoughtcrime.securesms.database.NoExternalStorageException;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.notifications.NotificationChannels;
 import org.thoughtcrime.securesms.service.LocalBackupListener;
 import org.thoughtcrime.securesms.util.BackupUtil;
@@ -132,7 +132,7 @@ public final class RestoreBackupFragment extends BaseRegistrationFragment {
       int takeFlags          = Intent.FLAG_GRANT_READ_URI_PERMISSION |
                                Intent.FLAG_GRANT_WRITE_URI_PERMISSION;
 
-      SignalStore.settings().setSignalBackupDirectory(backupDirectoryUri);
+      GrapherexStore.settings().setSignalBackupDirectory(backupDirectoryUri);
       requireContext().getContentResolver()
                       .takePersistableUriPermission(backupDirectoryUri, takeFlags);
 

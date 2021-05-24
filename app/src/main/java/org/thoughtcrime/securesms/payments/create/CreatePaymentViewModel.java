@@ -12,7 +12,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.payments.Balance;
 import org.thoughtcrime.securesms.payments.CreatePaymentDetails;
 import org.thoughtcrime.securesms.payments.FiatMoneyUtil;
@@ -51,7 +51,7 @@ public class CreatePaymentViewModel extends ViewModel {
 
   private CreatePaymentViewModel(@NonNull PayeeParcelable payee, @Nullable CharSequence note) {
     this.payee            = payee;
-    this.spendableBalance = Transformations.map(SignalStore.paymentsValues().liveMobileCoinBalance(), Balance::getTransferableAmount);
+    this.spendableBalance = Transformations.map(GrapherexStore.paymentsValues().liveMobileCoinBalance(), Balance::getTransferableAmount);
     this.note             = new MutableLiveData<>(note);
     this.inputState       = new Store<>(new InputState());
     this.isValidAmount    = LiveDataUtil.combineLatest(spendableBalance, inputState.getStateLiveData(), (b, s) -> validateAmount(b.requireMobileCoin(), s.getMoney().requireMobileCoin()));
@@ -70,7 +70,7 @@ public class CreatePaymentViewModel extends ViewModel {
       isPaymentsSupportedByPayee = new DefaultValueLiveData<>(true);
     }
 
-    LiveData<Optional<CurrencyExchange.ExchangeRate>> liveExchangeRate = LiveDataUtil.mapAsync(SignalStore.paymentsValues().liveCurrentCurrency(),
+    LiveData<Optional<CurrencyExchange.ExchangeRate>> liveExchangeRate = LiveDataUtil.mapAsync(GrapherexStore.paymentsValues().liveCurrentCurrency(),
                                                                                                currency -> {
                                                                                                  try {
                                                                                                    return Optional.fromNullable(ApplicationDependencies.getPayments()
@@ -132,7 +132,7 @@ public class CreatePaymentViewModel extends ViewModel {
   private @NonNull InputState updateAmount(@NonNull Context context, @NonNull InputState inputState, @NonNull AmountKeyboardGlyph glyph) {
     switch (inputState.getInputTarget()) {
       case FIAT_MONEY:
-        return updateFiatAmount(context, inputState, glyph, SignalStore.paymentsValues().currentCurrency());
+        return updateFiatAmount(context, inputState, glyph, GrapherexStore.paymentsValues().currentCurrency());
       case MONEY:
         return updateMoneyAmount(context, inputState, glyph);
       default:

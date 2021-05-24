@@ -9,7 +9,7 @@ import androidx.annotation.Nullable;
 
 import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.BuildConfig;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.net.CustomDns;
 import org.thoughtcrime.securesms.net.DeprecatedClientPreventionInterceptor;
 import org.thoughtcrime.securesms.net.DeviceTransferBlockingInterceptor;
@@ -33,8 +33,6 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import javax.net.ssl.SSLContext;
 
 import okhttp3.CipherSuite;
 import okhttp3.ConnectionSpec;
@@ -263,7 +261,7 @@ public class SignalServiceNetworkAccess {
                                                                   new SignalStorageUrl[] {new SignalStorageUrl(BuildConfig.STORAGE_URL, new SignalServiceTrustStore(context))},
                                                                   interceptors,
                                                                   dns,
-                                                                  SignalStore.proxy().isProxyEnabled() ? Optional.of(SignalStore.proxy().getProxy()) : Optional.absent(),
+                                                                  GrapherexStore.proxy().isProxyEnabled() ? Optional.of(GrapherexStore.proxy().getProxy()) : Optional.absent(),
                                                                   zkGroupServerPublicParams);
 
     this.censoredCountries = this.censorshipConfiguration.keySet().toArray(new String[0]);
@@ -275,11 +273,11 @@ public class SignalServiceNetworkAccess {
   }
 
   public SignalServiceConfiguration getConfiguration(@Nullable String localNumber) {
-    if (localNumber == null || SignalStore.proxy().isProxyEnabled()) {
+    if (localNumber == null || GrapherexStore.proxy().isProxyEnabled()) {
       return this.uncensoredConfiguration;
     }
 
-    if (SignalStore.internalValues().forcedCensorship()) {
+    if (GrapherexStore.internalValues().forcedCensorship()) {
       return this.censorshipConfiguration.get(COUNTRY_CODE_IRAN);
     }
 

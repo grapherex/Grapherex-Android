@@ -15,7 +15,7 @@ import org.thoughtcrime.securesms.crypto.AttachmentSecretProvider;
 import org.thoughtcrime.securesms.crypto.ModernDecryptingPartInputStream;
 import org.thoughtcrime.securesms.crypto.ModernEncryptingPartOutputStream;
 import org.thoughtcrime.securesms.database.DatabaseFactory;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.mms.PartAuthority;
 
 import java.io.File;
@@ -79,7 +79,7 @@ public final class WallpaperStorage {
    */
   @WorkerThread
   public static void onWallpaperDeselected(@NonNull Context context, @NonNull Uri uri) {
-    Uri globalUri = SignalStore.wallpaper().getWallpaperUri();
+    Uri globalUri = GrapherexStore.wallpaper().getWallpaperUri();
     if (Objects.equals(uri, globalUri)) {
       return;
     }

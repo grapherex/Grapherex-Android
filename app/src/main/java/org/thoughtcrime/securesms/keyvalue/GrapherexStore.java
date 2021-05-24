@@ -13,9 +13,9 @@ import java.util.List;
 /**
  * Simple, encrypted key-value store.
  */
-public final class SignalStore {
+public final class GrapherexStore {
 
-  private static final SignalStore INSTANCE = new SignalStore();
+  private static final GrapherexStore INSTANCE = new GrapherexStore();
 
   private final KeyValueStore            store;
   private final KbsValues                kbsValues;
@@ -36,7 +36,7 @@ public final class SignalStore {
   private final PaymentsValues           paymentsValues;
   private final ProxyValues              proxyValues;
 
-  private SignalStore() {
+  private GrapherexStore() {
     this.store                    = new KeyValueStore(ApplicationDependencies.getApplication());
     this.kbsValues                = new KbsValues(store);
     this.registrationValues       = new RegistrationValues(store);

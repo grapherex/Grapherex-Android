@@ -27,7 +27,7 @@ import org.thoughtcrime.securesms.groups.GroupId;
 import org.thoughtcrime.securesms.groups.GroupManager;
 import org.thoughtcrime.securesms.groups.v2.GroupInviteLinkUrl;
 import org.thoughtcrime.securesms.jobs.AvatarGroupsV2DownloadJob;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.linkpreview.LinkPreviewUtil.OpenGraph;
 import org.thoughtcrime.securesms.mms.GlideApp;
 import org.thoughtcrime.securesms.net.CallRequestController;
@@ -85,7 +85,7 @@ public class LinkPreviewRepository {
                                              @NonNull String url,
                                              @NonNull Callback callback)
   {
-    if (!SignalStore.settings().isLinkPreviewsEnabled()) {
+    if (!GrapherexStore.settings().isLinkPreviewsEnabled()) {
       throw new IllegalStateException();
     }
 

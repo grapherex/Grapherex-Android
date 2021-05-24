@@ -20,7 +20,6 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.widget.SwitchCompat;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
-import androidx.core.view.ViewCompat;
 import androidx.fragment.app.FragmentActivity;
 import androidx.lifecycle.ViewModelProviders;
 
@@ -41,7 +40,7 @@ import org.thoughtcrime.securesms.contacts.avatars.FallbackContactPhoto;
 import org.thoughtcrime.securesms.contacts.avatars.FallbackPhoto80dp;
 import org.thoughtcrime.securesms.database.DatabaseFactory;
 import org.thoughtcrime.securesms.groups.ui.GroupMemberListView;
-import org.thoughtcrime.securesms.keyvalue.SignalStore;
+import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.mediaoverview.MediaOverviewActivity;
 import org.thoughtcrime.securesms.mms.GlideApp;
 import org.thoughtcrime.securesms.notifications.NotificationChannels;
@@ -229,7 +228,7 @@ public class ManageRecipientFragment extends LoggingFragment {
     viewModel.getMuteState().observe(getViewLifecycleOwner(), this::presentMuteState);
     viewModel.getCanAddToAGroup().observe(getViewLifecycleOwner(), canAdd -> addToAGroup.setVisibility(canAdd ? View.VISIBLE : View.GONE));
 
-    if (SignalStore.internalValues().recipientDetails()) {
+    if (GrapherexStore.internalValues().recipientDetails()) {
       viewModel.getInternalDetails().observe(getViewLifecycleOwner(), internalDetailsText::setText);
       disableProfileSharingButton.setOnClickListener(v -> {
         SignalExecutors.BOUNDED.execute(() -> DatabaseFactory.getRecipientDatabase(requireContext()).setProfileSharing(recipientId, false));
