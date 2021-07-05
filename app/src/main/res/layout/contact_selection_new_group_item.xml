@@ -10,9 +10,9 @@
     android:fontFamily="sans-serif-medium"
     android:gravity="center_vertical|start"
     android:labelFor="@id/action_icon"
-    android:paddingStart="@dimen/selection_item_header_width"
+    android:paddingStart="16dp"
     android:singleLine="true"
     android:text="@string/contact_selection_activity__new_group"
     android:textAlignment="viewStart"
-    app:drawableStartCompat="@drawable/ic_new_group_circle"
+    app:drawableStartCompat="@drawable/ic_invite_create_group_header"
     tools:ignore="RtlSymmetry" />

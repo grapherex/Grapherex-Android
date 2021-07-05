@@ -37,6 +37,8 @@ class ConversationListAdapter extends ListAdapter<Conversation, RecyclerView.Vie
   private static final int TYPE_PLACEHOLDER = 3;
   private static final int TYPE_HEADER      = 4;
 
+  private Conversation selfConversation;
+
   private enum Payload {
     TYPING_INDICATOR,
     SELECTION
@@ -133,6 +135,10 @@ class ConversationListAdapter extends ListAdapter<Conversation, RecyclerView.Vie
       ConversationViewHolder casted       = (ConversationViewHolder) holder;
       Conversation           conversation = Objects.requireNonNull(getItem(position));
 
+      if (conversation.getThreadRecord().getRecipient().isSelf()){
+        selfConversation = conversation;
+      }
+
       casted.getConversationListItem().bind(conversation.getThreadRecord(),
                                             glideRequests,
                                             Locale.getDefault(),
@@ -169,6 +175,10 @@ class ConversationListAdapter extends ListAdapter<Conversation, RecyclerView.Vie
     }
 
     return super.getItem(position);
+  }
+
+  public Conversation getSelfConversation(){
+    return selfConversation;
   }
 
   @Override

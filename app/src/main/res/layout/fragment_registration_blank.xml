@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="45dp"
         android:layout_marginTop="145dp"
-        android:src="@drawable/ic_logo_grapherex_reg"
+        app:srcCompat="@drawable/ic_logo_grapherex_reg"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

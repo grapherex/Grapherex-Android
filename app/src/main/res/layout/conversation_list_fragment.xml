@@ -89,14 +89,12 @@
                     android:background="?actionBarItemBackground"
                     android:contentDescription="@string/conversation_list_search_description"
                     android:padding="12dp"
-                    android:tint="@color/new_core_black"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:srcCompat="@drawable/ic_search" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
-
         </org.thoughtcrime.securesms.util.views.DarkOverflowToolbar>
 
         <ViewStub

@@ -40,10 +40,13 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+
+
 public class CreateGroupActivity extends ContactSelectionActivity {
 
   private static final String TAG = Log.tag(CreateGroupActivity.class);
 
+  public static final String IS_GROUP_KEY = "IS_GROUP_KEY";
   private static final short REQUEST_CODE_ADD_DETAILS = 17275;
 
   private ExtendedFloatingActionButton next;
@@ -60,6 +63,7 @@ public class CreateGroupActivity extends ContactSelectionActivity {
                                                                   : ContactsCursorLoader.DisplayMode.FLAG_PUSH;
 
     intent.putExtra(ContactSelectionListFragment.DISPLAY_MODE, displayMode);
+    intent.putExtra(IS_GROUP_KEY, true);
     intent.putExtra(ContactSelectionListFragment.SELECTION_LIMITS, FeatureFlags.groupLimits().excludingSelf());
 
     return intent;
@@ -134,17 +138,13 @@ public class CreateGroupActivity extends ContactSelectionActivity {
     if (padStart != null) padStart.cancel();
 
     padStart = ValueAnimator.ofInt(next.getPaddingStart(), ViewUtil.dpToPx(startDp)).setDuration(200);
-    padStart.addUpdateListener(animation -> {
-      ViewUtil.setPaddingStart(next, (Integer) animation.getAnimatedValue());
-    });
+    padStart.addUpdateListener(animation -> ViewUtil.setPaddingStart(next, (Integer) animation.getAnimatedValue()));
     padStart.start();
 
     if (padEnd != null) padEnd.cancel();
 
     padEnd = ValueAnimator.ofInt(next.getPaddingEnd(), ViewUtil.dpToPx(endDp)).setDuration(200);
-    padEnd.addUpdateListener(animation -> {
-      ViewUtil.setPaddingEnd(next, (Integer) animation.getAnimatedValue());
-    });
+    padEnd.addUpdateListener(animation -> ViewUtil.setPaddingEnd(next, (Integer) animation.getAnimatedValue()));
     padEnd.start();
   }
 

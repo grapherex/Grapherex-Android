@@ -16,10 +16,12 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.FrameLayout;
 import android.widget.Toast;
 
 import androidx.annotation.AnimRes;
 import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.widget.AppCompatTextView;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.content.ContextCompat;
 import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
@@ -98,7 +100,8 @@ public class InviteActivity extends PassphraseRequiredActivity implements Contac
     slideOutAnimation = loadAnimation(R.anim.slide_to_bottom);
 
     View                 shareButton     = findViewById(R.id.share_button);
-    Button               smsButton       = findViewById(R.id.sms_button);
+    FrameLayout smsButton       = findViewById(R.id.sms_button);
+    AppCompatTextView tvInvite       = findViewById(R.id.tvInvite);
     Button               smsCancelButton = findViewById(R.id.cancel_sms_button);
     ContactFilterToolbar contactFilter   = findViewById(R.id.contact_filter);
 
@@ -110,9 +113,9 @@ public class InviteActivity extends PassphraseRequiredActivity implements Contac
     inviteText.setText(getString(R.string.InviteActivity_lets_switch_to_signal, getString(R.string.install_url)));
     inviteText.addTextChangedListener(new AfterTextChanged(editable -> {
       boolean isEnabled = editable.length() > 0;
+      tvInvite.setEnabled(isEnabled);
       smsButton.setEnabled(isEnabled);
       shareButton.setEnabled(isEnabled);
-      smsButton.animate().alpha(isEnabled ? 1f : 0.5f);
       shareButton.animate().alpha(isEnabled ? 1f : 0.5f);
     }));
 
@@ -129,7 +132,7 @@ public class InviteActivity extends PassphraseRequiredActivity implements Contac
     } else {
       shareButton.setVisibility(View.GONE);
       smsButton.setOnClickListener(new ShareClickListener());
-      smsButton.setText(R.string.InviteActivity_share);
+      tvInvite.setText(R.string.InviteActivity_share);
     }
   }
 

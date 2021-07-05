@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
-                android:tint="@color/signal_icon_tint_primary"
+                android:tint="@color/grapherex_icon_tint_primary"
                 app:srcCompat="@drawable/ic_search_24" />
 
         </RelativeLayout>

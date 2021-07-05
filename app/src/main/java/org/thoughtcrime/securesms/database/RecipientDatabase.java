@@ -2470,19 +2470,22 @@ public class RecipientDatabase extends Database {
                          "(" + SORT_NAME + " NOT NULL OR " + USERNAME + " NOT NULL)";
     String[] args;
 
-    if (includeSelf) {
-      args = new String[] { "0", String.valueOf(RegisteredState.REGISTERED.getId()), "1" };
-    } else {
-      selection += " AND " + ID + " != ?";
-      args       = new String[] { "0", String.valueOf(RegisteredState.REGISTERED.getId()), "1", Recipient.self().getId().serialize() };
-    }
+//    if (includeSelf) {
+//      args = new String[] { "0", String.valueOf(RegisteredState.REGISTERED.getId()), "1" };
+//    } else {
+//      selection += " AND " + ID + " != ?";
+//      args       = new String[] { "0", String.valueOf(RegisteredState.REGISTERED.getId()), "1", Recipient.self().getId().serialize() };
+//    }
+
+    selection += " AND " + ID + " != ?";
+    args       = new String[] { "0", String.valueOf(RegisteredState.REGISTERED.getId()), "1", Recipient.self().getId().serialize() };
 
     String   orderBy   = SORT_NAME + ", " + SYSTEM_JOINED_NAME + ", " + SEARCH_PROFILE_NAME + ", " + USERNAME + ", " + PHONE;
 
     return databaseHelper.getReadableDatabase().query(TABLE_NAME, SEARCH_PROJECTION, selection, args, null, null, orderBy);
   }
 
-  public @Nullable Cursor querySignalContacts(@NonNull String query, boolean includeSelf) {
+  public @Nullable Cursor queryGrapherexContacts(@NonNull String query, boolean includeSelf) {
     query = buildCaseInsensitiveGlobPattern(query);
 
     String   selection = BLOCKED     + " = ? AND " +
@@ -2496,12 +2499,32 @@ public class RecipientDatabase extends Database {
                          ")";
     String[] args;
 
-    if (includeSelf) {
-      args = new String[]{"0", String.valueOf(RegisteredState.REGISTERED.getId()), "1", query, query, query};
-    } else {
-      selection += " AND " + ID + " != ?";
-      args       = new String[] { "0", String.valueOf(RegisteredState.REGISTERED.getId()), "1", query, query, query, String.valueOf(Recipient.self().getId().toLong()) };
-    }
+//    if (includeSelf) {
+//      args = new String[]{"0", String.valueOf(RegisteredState.REGISTERED.getId()), "1", query, query, query};
+//    } else {
+//      selection += " AND " + ID + " != ?";
+//      args       = new String[] { "0", String.valueOf(RegisteredState.REGISTERED.getId()), "1", query, query, query, String.valueOf(Recipient.self().getId().toLong()) };
+//    }
+
+    selection += " AND " + ID + " != ?";
+    args       = new String[] { "0", String.valueOf(RegisteredState.REGISTERED.getId()), "1", query, query, query, String.valueOf(Recipient.self().getId().toLong()) };
+
+    String   orderBy   = SORT_NAME + ", " + SYSTEM_JOINED_NAME + ", " + SEARCH_PROFILE_NAME + ", " + PHONE;
+
+    return databaseHelper.getReadableDatabase().query(TABLE_NAME, SEARCH_PROJECTION, selection, args, null, null, orderBy);
+  }
+
+  public @Nullable Cursor querySelfContact() {
+    String   selection = BLOCKED     + " = ? AND " +
+            REGISTERED  + " = ? AND " +
+            GROUP_ID    + " IS NULL AND " +
+            "(" + SYSTEM_JOINED_NAME + " NOT NULL OR " + PROFILE_SHARING + " = ?) AND " +
+            "(" +
+            PHONE     + " GLOB ? OR " +
+            SORT_NAME + " GLOB ? OR " +
+            USERNAME  + " GLOB ?" +
+            ")";
+    String[]  args = new String[]{"0", String.valueOf(RegisteredState.REGISTERED.getId()), "1", "*", "*", "*"};
 
     String   orderBy   = SORT_NAME + ", " + SYSTEM_JOINED_NAME + ", " + SEARCH_PROFILE_NAME + ", " + PHONE;
 

@@ -23,7 +23,7 @@
     <color name="signal_text_toolbar_title">@color/transparent_white_90</color>
     <color name="signal_text_toolbar_subtitle">@color/transparent_white_80</color>
 
-    <color name="signal_icon_tint_primary">@color/core_grey_15</color>
+    <color name="grapherex_icon_tint_primary">@color/core_grey_15</color>
     <color name="signal_icon_tint_secondary">@color/core_grey_25</color>
 
     <color name="signal_button_primary">@color/core_ultramarine_light</color>

@@ -115,7 +115,7 @@ public class ContactRepository {
   @WorkerThread
   public Cursor querySignalContacts(@NonNull String query, boolean includeSelf) {
     Cursor cursor =  TextUtils.isEmpty(query) ? recipientDatabase.getSignalContacts(includeSelf)
-                                              : recipientDatabase.querySignalContacts(query, includeSelf);
+                                              : recipientDatabase.queryGrapherexContacts(query, includeSelf);
 
     if (includeSelf && noteToSelfTitle.toLowerCase().contains(query.toLowerCase())) {
       Recipient self        = Recipient.self();

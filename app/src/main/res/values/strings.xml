@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name" translatable="false">Grapherex</string>
+    <string name="empty" translatable="false" />
 
-    <string name="install_url" translatable="false">https://Grapherex.org/install</string>
-    <string name="donate_url" translatable="false">https://Grapherex.org/donate</string>
+    <string name="install_url" translatable="false">https://grapherex.com/</string>
+    <string name="donate_url" translatable="false">https://grapherex.com/</string>
     <string name="backup_support_url" translatable="false">https://support.Grapherex.org/hc/articles/360007059752</string>
     <string name="transfer_support_url" translatable="false">https://support.Grapherex.org/hc/articles/360007059752</string>
 
@@ -669,7 +670,7 @@
     <string name="AddGroupDetailsFragment__create">Create</string>
     <string name="AddGroupDetailsFragment__members">Members</string>
     <string name="AddGroupDetailsFragment__you_can_add_or_invite_friends_after_creating_this_group">You can add or invite friends after creating this group.</string>
-    <string name="AddGroupDetailsFragment__group_name_required">Group name (required)</string>
+    <string name="AddGroupDetailsFragment__group_name_required">Please enter group name</string>
     <string name="AddGroupDetailsFragment__group_name_optional">Group name (optional)</string>
     <string name="AddGroupDetailsFragment__this_field_is_required">This field is required.</string>
     <string name="AddGroupDetailsFragment__group_creation_failed">Group creation failed.</string>
@@ -2633,6 +2634,7 @@
 
     <!-- conversation_list_fragment -->
     <string name="conversation_list_fragment__fab_content_description">New conversation</string>
+    <string name="contacts_fragment__fab_content_description" translatable="false">Invite</string>
     <string name="conversation_list_fragment__open_camera_description">Open Camera</string>
     <string name="conversation_list_fragment__no_chats_yet_get_started_by_messaging_a_friend">No chats yet.\nGet started by messaging a friend.</string>
 
@@ -3360,8 +3362,15 @@
     <string name="ConversationListFragment_drawer_item_calls">Calls</string>
     <string name="ConversationListFragment_drawer_item_wallet">Wallet</string>
     <string name="ConversationListFragment_drawer_item_settings">Settings</string>
+    <string name="ConversationListFragment_drawer_item_note_to_self">Note to self</string>
     <string name="ConversationListFragment_drawer_item_support">Invite to Grapherex</string>
     <string name="ConversationListFragment_drawer_item_about">New features</string>
 
-
+    <!-- CallsFragment -->
+    <string name="CallsFragment_screen_title" translatable="false">Calls</string>
+    <string name="SelectCallContactFragment_screen_title" translatable="false">Select Contact</string>
+    <string name="CallsFragment_fab_select_contact_title" translatable="false">Calls</string>
+    <string name="calls_fragment__fab_content_description" translatable="false">Calls</string>
+    <string name="ContactSelectionListFragment_title" translatable="false">New message</string>
+    <string name="ContactSelectionListFragment_title_group" translatable="false">New Group</string>
 </resources>

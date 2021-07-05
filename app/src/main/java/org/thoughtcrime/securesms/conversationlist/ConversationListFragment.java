@@ -28,6 +28,7 @@ import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
@@ -155,6 +156,9 @@ import java.util.Set;
 import java.util.UUID;
 
 import static android.app.Activity.RESULT_OK;
+import static org.thoughtcrime.securesms.ContactSelectionActivity.EXTRA_CONTACTS_HEADER_TYPE;
+import static org.thoughtcrime.securesms.ContactSelectionActivity.EXTRA_CONTACTS_HEADER_TYPE_VALUE_GROUP;
+import static org.thoughtcrime.securesms.ContactSelectionActivity.EXTRA_CONTACTS_HEADER_TYPE_VALUE_INVITE;
 
 
 public class ConversationListFragment extends MainFragment implements ActionMode.Callback,
@@ -259,7 +263,11 @@ public class ConversationListFragment extends MainFragment implements ActionMode
 
         new ItemTouchHelper(new ArchiveListenerCallback()).attachToRecyclerView(list);
 
-        fab.setOnClickListener(v -> startActivity(new Intent(getActivity(), NewConversationActivity.class)));
+        fab.setOnClickListener(v ->{
+                    Intent intent = new Intent(getActivity(), NewConversationActivity.class);
+                    intent.putExtra(EXTRA_CONTACTS_HEADER_TYPE, EXTRA_CONTACTS_HEADER_TYPE_VALUE_GROUP);
+                    startActivity(intent);
+                });
         cameraFab.setOnClickListener(v -> {
             Permissions.with(requireActivity())
                     .request(Manifest.permission.CAMERA)
@@ -275,7 +283,6 @@ public class ConversationListFragment extends MainFragment implements ActionMode
         initializeListAdapters();
         initializeTypingObserver();
         initializeSearchListener();
-        initDrawerMenuItems();
 
         RatingManager.showRatingDialogIfNecessary(requireContext());
 
@@ -414,9 +421,7 @@ public class ConversationListFragment extends MainFragment implements ActionMode
 
     @Override
     public void onContactClicked(@NonNull Recipient contact) {
-        SimpleTask.run(getViewLifecycleOwner().getLifecycle(), () -> {
-            return DatabaseFactory.getThreadDatabase(getContext()).getThreadIdIfExistsFor(contact.getId());
-        }, threadId -> {
+        SimpleTask.run(getViewLifecycleOwner().getLifecycle(), () -> DatabaseFactory.getThreadDatabase(getContext()).getThreadIdIfExistsFor(contact.getId()), threadId -> {
             hideKeyboard();
             getNavigator().goToConversation(contact.getId(),
                     threadId,
@@ -501,11 +506,22 @@ public class ConversationListFragment extends MainFragment implements ActionMode
         );
 
         AvatarUtil.loadIconIntoImageView(recipient, icon);
+
+        requireView().findViewById(R.id.vClickArea).setOnClickListener(v ->
+                requireActivity().startActivity(ManageProfileActivity.getIntent(requireActivity())));
+
+        initDrawerMenuItems();
     }
 
     private void initDrawerMenuItems() {
         requireView().findViewById(R.id.tvProfile).setOnClickListener(drawerMenuClickListener());
         requireView().findViewById(R.id.tvSettings).setOnClickListener(drawerMenuClickListener());
+        requireView().findViewById(R.id.tvContacts).setOnClickListener(drawerMenuClickListener());
+        requireView().findViewById(R.id.tvChat).setOnClickListener(drawerMenuClickListener());
+        requireView().findViewById(R.id.tvCalls).setOnClickListener(drawerMenuClickListener());
+        requireView().findViewById(R.id.tvInvite).setOnClickListener(drawerMenuClickListener());
+        requireView().findViewById(R.id.tvNoteToSelf).setOnClickListener(drawerMenuClickListener());
+        requireView().findViewById(R.id.tvAbout).setOnClickListener(drawerMenuClickListener());
 
         drawerLayout.addDrawerListener(new DrawerLayout.SimpleDrawerListener() {
 
@@ -521,6 +537,28 @@ public class ConversationListFragment extends MainFragment implements ActionMode
                         requireActivity().startActivity(ManageProfileActivity.getIntent(requireActivity()));
                     } else if (drawerLayout.getTag().equals("tvSettings")) {
                         getNavigator().goToAppSettings();
+                    } else if (drawerLayout.getTag().equals("tvContacts")) {
+                        Intent intent = new Intent(getActivity(), NewConversationActivity.class);
+                        intent.putExtra(EXTRA_CONTACTS_HEADER_TYPE, EXTRA_CONTACTS_HEADER_TYPE_VALUE_INVITE);
+                        startActivity(intent);
+                    } else if (drawerLayout.getTag().equals("tvChat")) {
+                        getNavigator().goToDialogs();
+                    } else if (drawerLayout.getTag().equals("tvCalls")) {
+                        getNavigator().goToCalls();
+                    } else if (drawerLayout.getTag().equals("tvInvite")) {
+                        getNavigator().goToInvite();
+                    } else if (drawerLayout.getTag().equals("tvNoteToSelf")) {
+                        SimpleTask.run(getViewLifecycleOwner().getLifecycle(), () -> DatabaseFactory.getThreadDatabase(getContext()).getThreadIdIfExistsFor(Recipient.self().getId()), threadId -> {
+                            hideKeyboard();
+                            getNavigator().goToConversation(Recipient.self().getId(),
+                                    threadId,
+                                    ThreadDatabase.DistributionTypes.DEFAULT,
+                                    -1);
+                        });
+                    }else if (drawerLayout.getTag().equals("tvAbout")) {
+                        Intent i = new Intent(Intent.ACTION_VIEW);
+                        i.setData(Uri.parse(getString(R.string.install_url)));
+                        startActivity(i);
                     }
                 }
                 drawerLayout.setTag(null);
@@ -538,6 +576,24 @@ public class ConversationListFragment extends MainFragment implements ActionMode
                     break;
                 case R.id.tvSettings:
                     drawerLayout.setTag("tvSettings");
+                    break;
+                case R.id.tvContacts:
+                    drawerLayout.setTag("tvContacts");
+                    break;
+                case R.id.tvChat:
+                    drawerLayout.setTag("tvChat");
+                    break;
+                case R.id.tvCalls:
+                    drawerLayout.setTag("tvCalls");
+                    break;
+                case R.id.tvInvite:
+                    drawerLayout.setTag("tvInvite");
+                    break;
+                case R.id.tvNoteToSelf:
+                    drawerLayout.setTag("tvNoteToSelf");
+                    break;
+                case R.id.tvAbout:
+                    drawerLayout.setTag("tvAbout");
                     break;
             }
         };

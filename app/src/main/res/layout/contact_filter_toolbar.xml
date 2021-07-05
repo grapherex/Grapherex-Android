@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merge xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <LinearLayout android:layout_width="match_parent"
                   android:layout_height="match_parent"
@@ -42,7 +43,7 @@
                     android:gravity="center_vertical"
                     android:clickable="true"
                     android:focusable="true"
-                    android:tint="@color/signal_icon_tint_primary"
+                    android:tint="@color/grapherex_icon_tint_primary"
                     android:background="?actionBarItemBackground"
                     app:srcCompat="@drawable/ic_number_pad_conversation_filter_24" />
 
@@ -55,8 +56,9 @@
                     android:gravity="center_vertical"
                     android:clickable="true"
                     android:visibility="gone"
+                    tools:visibility="visible"
                     android:focusable="true"
-                    android:tint="@color/signal_icon_tint_primary"
+                    android:tint="@color/grapherex_icon_tint_primary"
                     android:background="?actionBarItemBackground"
                     app:srcCompat="@drawable/ic_keyboard_24" />
 

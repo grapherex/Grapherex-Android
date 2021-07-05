@@ -89,7 +89,7 @@
                             android:layout_height="@dimen/conversation_compose_height"
                             android:layout_gravity="bottom"
                             android:background="?selectableItemBackgroundBorderless"
-                            android:tint="@color/signal_icon_tint_primary"
+                            android:tint="@color/grapherex_icon_tint_primary"
                             android:contentDescription="@string/conversation_activity__emoji_toggle_description"
                             android:paddingEnd="6dp" />
 
@@ -135,7 +135,7 @@
                                     android:background="?selectableItemBackgroundBorderless"
                                     android:contentDescription="@string/conversation_activity__quick_attachment_drawer_toggle_camera_description"
                                     android:scaleType="fitCenter"
-                                    android:tint="@color/signal_icon_tint_primary"
+                                    android:tint="@color/grapherex_icon_tint_primary"
                                     app:srcCompat="@drawable/ic_camera_24" />
 
                                 <org.thoughtcrime.securesms.components.MicrophoneRecorderView

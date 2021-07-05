@@ -3365,7 +3365,7 @@ public class ConversationActivity extends PassphraseRequiredActivity
         reviewBanner.get().setBannerMessage(message);
 
         Drawable drawable = ContextUtil.requireDrawable(this, R.drawable.ic_info_white_24).mutate();
-        DrawableCompat.setTint(drawable, ContextCompat.getColor(this, R.color.signal_icon_tint_primary));
+        DrawableCompat.setTint(drawable, ContextCompat.getColor(this, R.color.grapherex_icon_tint_primary));
 
         reviewBanner.get().setBannerIcon(drawable);
         reviewBanner.get().setOnClickListener(unused -> handleReviewRequest(recipient.getId()));

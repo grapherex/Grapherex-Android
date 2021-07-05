@@ -72,6 +72,17 @@ public class ContactSelectionListAdapter extends CursorRecyclerViewAdapter<ViewH
   private final Set<RecipientId>  currentContacts;
 
   private final SelectedContactSet selectedContacts = new SelectedContactSet();
+  private  ContactSelectionListItem.IOnAudioCallClicked clicked;
+
+  private boolean hidePhoneCallIcon = false;
+
+  public void setHidePhoneCallIcon(boolean hidePhoneCallIcon) {
+    this.hidePhoneCallIcon = hidePhoneCallIcon;
+  }
+
+  public void setClicked(ContactSelectionListItem.IOnAudioCallClicked clicked) {
+    this.clicked = clicked;
+  }
 
   public void clearSelectedContacts() {
     selectedContacts.clear();
@@ -98,7 +109,7 @@ public class ContactSelectionListAdapter extends CursorRecyclerViewAdapter<ViewH
       super(itemView);
     }
 
-    public abstract void bind(@NonNull GlideRequests glideRequests, @Nullable RecipientId recipientId, int type, String name, String number, String label, String about, int color, boolean checkboxVisible);
+    public abstract void bind(@NonNull GlideRequests glideRequests, @Nullable RecipientId recipientId, int type, String name, String number, String label, String about, int color, boolean checkboxVisible, ContactSelectionListItem.IOnAudioCallClicked clicked, boolean hide);
     public abstract void unbind(@NonNull GlideRequests glideRequests);
     public abstract void setChecked(boolean checked);
     public abstract void setEnabled(boolean enabled);
@@ -118,8 +129,8 @@ public class ContactSelectionListAdapter extends CursorRecyclerViewAdapter<ViewH
       return (ContactSelectionListItem) itemView;
     }
 
-    public void bind(@NonNull GlideRequests glideRequests, @Nullable RecipientId recipientId, int type, String name, String number, String label, String about, int color, boolean checkBoxVisible) {
-      getView().set(glideRequests, recipientId, type, name, number, label, about, color, checkBoxVisible);
+    public void bind(@NonNull GlideRequests glideRequests, @Nullable RecipientId recipientId, int type, String name, String number, String label, String about, int color, boolean checkBoxVisible, ContactSelectionListItem.IOnAudioCallClicked clicked, boolean hide) {
+      getView().set(glideRequests, recipientId, type, name, number, label, about, color, checkBoxVisible, clicked, hide);
     }
 
     @Override
@@ -148,7 +159,7 @@ public class ContactSelectionListAdapter extends CursorRecyclerViewAdapter<ViewH
     }
 
     @Override
-    public void bind(@NonNull GlideRequests glideRequests, @Nullable RecipientId recipientId, int type, String name, String number, String label, String about, int color, boolean checkboxVisible) {
+    public void bind(@NonNull GlideRequests glideRequests, @Nullable RecipientId recipientId, int type, String name, String number, String label, String about, int color, boolean checkboxVisible, ContactSelectionListItem.IOnAudioCallClicked clicked, boolean hide) {
       this.label.setText(name);
     }
 
@@ -223,7 +234,7 @@ public class ContactSelectionListAdapter extends CursorRecyclerViewAdapter<ViewH
     boolean currentContact = currentContacts.contains(id);
 
     viewHolder.unbind(glideRequests);
-    viewHolder.bind(glideRequests, id, contactType, name, number, labelText, about, color, multiSelect || currentContact);
+    viewHolder.bind(glideRequests, id, contactType, name, number, labelText, about, color, multiSelect || currentContact, clicked, hidePhoneCallIcon);
     viewHolder.setEnabled(true);
 
     if (currentContact) {
@@ -275,7 +286,7 @@ public class ContactSelectionListAdapter extends CursorRecyclerViewAdapter<ViewH
 
   @Override
   public void onBindHeaderViewHolder(HeaderViewHolder viewHolder, int position, int type) {
-    ((TextView)viewHolder.itemView).setText(getSpannedHeaderString(position));
+    //((TextView)viewHolder.itemView).setText(getSpannedHeaderString(position));
   }
 
   @Override

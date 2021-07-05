@@ -33,7 +33,7 @@ public class DarkOverflowToolbar extends Toolbar {
 
   private void init() {
     if (getOverflowIcon() != null) {
-      getOverflowIcon().setColorFilter(ContextCompat.getColor(getContext(), R.color.signal_icon_tint_primary), PorterDuff.Mode.SRC_ATOP);
+      getOverflowIcon().setColorFilter(ContextCompat.getColor(getContext(), R.color.grapherex_icon_tint_primary), PorterDuff.Mode.SRC_ATOP);
     }
   }
 }

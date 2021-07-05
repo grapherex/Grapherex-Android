@@ -105,35 +105,41 @@ dependencyVerification {
         ['androidx.legacy:legacy-support-v4:1.0.0',
          '78fec1485f0f388a4749022dd51416857127cd2544ae1c3fd0b16589055480b0'],
 
-        ['androidx.lifecycle:lifecycle-common-java8:2.1.0',
+        ['androidx.lifecycle:lifecycle-common-java8:2.3.1',
          'a1ec63c1bb973443cb731d78ec336c5e20e7ee35c89cbb32d36f92c55bb02542'],
 
-        ['androidx.lifecycle:lifecycle-common:2.2.0',
-         '63898dabf7cfe5ec5d7ed8b8c2564c1427be876e1496ead95c2703cf59d3734b'],
+        ['androidx.lifecycle:lifecycle-common:2.4.0-alpha02',
+         '75fc18067a33a75804077b36012735f760ffb0bcec4e768ac6ff135f04191f9f'],
 
-        ['androidx.lifecycle:lifecycle-extensions:2.1.0',
-         'bd53c64b038585215b4959c1a388437a3ad525608a31c58e4283c3e371727d4d'],
+        ['androidx.lifecycle:lifecycle-extensions:2.2.0',
+         '648c8de1d10b025d524a2e46ac994fc3f6bf186826c09ec1a62d250bf1b877ae'],
 
-        ['androidx.lifecycle:lifecycle-livedata-core:2.2.0',
-         '556c1f3af90aa9d7d0d330565adbf6da71b2429148bac91e07c485f4f9abf614'],
+        ['androidx.lifecycle:lifecycle-livedata-core:2.4.0-alpha02',
+         'fc6f4099bb35a9a700d4ada4cab1fcd0025d9606db6e0c369ad29cf3be2abf0a'],
 
-        ['androidx.lifecycle:lifecycle-livedata:2.1.0',
-         '242e446bed3db36f0df0aab0cb7f91060bd2dab7adcad1117adf54e724cd1d26'],
+        ['androidx.lifecycle:lifecycle-livedata:2.2.0',
+         'd83af94860aa9f64cbdc51f40796a7cf55b116f0e6efd752e845c0104c8b16f6'],
 
-        ['androidx.lifecycle:lifecycle-process:2.1.0',
-         '8cddd0c7f4927bbf71fb71fca000786df82cc597c99463d6916ccbe4a205a9ac'],
+        ['androidx.lifecycle:lifecycle-process:2.2.0',
+         '3a977e7778fc8418742d388409daaba7ea8fea8823d21ffb96e4c4236f715070'],
 
-        ['androidx.lifecycle:lifecycle-runtime:2.2.0',
-         '2f866c07a1f33a8c9bb69a9545d4f20b4f0628cd0a155432386d7cb081e1e0bc'],
+        ['androidx.lifecycle:lifecycle-runtime-ktx:2.3.1',
+         '7ad2987dd7f4075c0871a72cf07e9649d9cd790fc23dfab1972eca4710373873'],
 
-        ['androidx.lifecycle:lifecycle-service:2.1.0',
-         '23516745f34f16ff7850bb1eadd55cf193dd789cba428de4bca120433e3bfd69'],
+        ['androidx.lifecycle:lifecycle-runtime:2.3.1',
+         'dd294f4a689c71ff877fd41f3b67a3a62f7760d44ce420e6130f1fc3569d8f00'],
 
-        ['androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0',
-         '3ce866fb822b20fe2f188f974992869a0a6233fe40acbefcff090d6def5e7f33'],
+        ['androidx.lifecycle:lifecycle-service:2.2.0',
+         'ca2801ffc069555afed8eddd2292130f436956452bc8bbad30fb56f8e4e382a0'],
 
-        ['androidx.lifecycle:lifecycle-viewmodel:2.2.0',
-         '967efab24d6c49dd414a8c0ac4a1cd09b018f0b8bb43b739ad360c4158ebde27'],
+        ['androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1',
+         '5fb3591b6a54eeb3e204be0125d48eb987b8ea45a5048140036865482ccf9de9'],
+
+        ['androidx.lifecycle:lifecycle-viewmodel-savedstate:2.4.0-alpha02',
+         '718386eac7f637109636e6e8e4d5168a0214446e857776edddfa6cb7f7212075'],
+
+        ['androidx.lifecycle:lifecycle-viewmodel:2.4.0-alpha02',
+         '07262c56b08a9090424a5f82973653933c340d84183ae3ad02b20a0ca255942c'],
 
         ['androidx.loader:loader:1.0.0',
          '11f735cb3b55c458d470bed9e25254375b518b4b1bad6926783a7026db0f5025'],
@@ -468,14 +474,26 @@ dependencyVerification {
         ['org.greenrobot:eventbus:3.0.0',
          '180d4212467df06f2fbc9c8d8a2984533ac79c87769ad883bc421612f0b4e17c'],
 
-        ['org.jetbrains.kotlin:kotlin-stdlib-common:1.4.32',
-         'e1ff6f55ee9e7591dcc633f7757bac25a7edb1cc7f738b37ec652f10f66a4145'],
+        ['org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.5.0',
+         '0f24b8468f9dd8ae4ad33e9865e4e06c96e0dbac8ddc2891ba1265166ccbe060'],
 
-        ['org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.32',
-         '5f801e75ca27d8791c14b07943c608da27620d910a8093022af57f543d5d98b6'],
+        ['org.jetbrains.kotlin:kotlin-stdlib-common:1.5.0',
+         'c14ce6720a487b5e238f1b0c30ac3ad73e45b90a40731ca0b1cfddec1a37682f'],
 
-        ['org.jetbrains.kotlin:kotlin-stdlib:1.4.32',
-         '13e9fd3e69dc7230ce0fc873a92a4e5d521d179bcf1bef75a6705baac3bfecba'],
+        ['org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.0',
+         'ac12f092f12b575c1f9e0ab5025b1e610b0fe95663e26371c16c328895711bae'],
+
+        ['org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.0',
+         '15e6c81b9e845eefe58d51a04670bb90418046f458264ec0e61ee9bdbc1bfae7'],
+
+        ['org.jetbrains.kotlin:kotlin-stdlib:1.5.0',
+         '52283996fe4067cd7330288b96ae67ecd463614dc741172c54d9d349ab6a9cd7'],
+
+        ['org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0',
+         '7099198391d673c199fea084423d9f3fdc79470acba19111330c7f88504279c7'],
+
+        ['org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.0',
+         '78d6cc7135f84d692ff3752fcfd1fa1bbe0940d7df70652e4f1eaeec0c78afbb'],
 
         ['org.jetbrains:annotations:13.0',
          'ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478'],

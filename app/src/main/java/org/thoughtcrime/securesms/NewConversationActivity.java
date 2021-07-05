@@ -42,117 +42,123 @@ import java.io.IOException;
  * Activity container for starting a new conversation.
  *
  * @author Moxie Marlinspike
- *
  */
 public class NewConversationActivity extends ContactSelectionActivity
-                                    implements ContactSelectionListFragment.ListCallback
-{
+        implements ContactSelectionListFragment.ListCallback {
 
-  @SuppressWarnings("unused")
-  private static final String TAG = Log.tag(NewConversationActivity.class);
+    @SuppressWarnings("unused")
+    private static final String TAG = Log.tag(NewConversationActivity.class);
 
-  @Override
-  public void onCreate(Bundle bundle, boolean ready) {
-    super.onCreate(bundle, ready);
-    assert getSupportActionBar() != null;
-    getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-  }
+    @Override
+    public void onCreate(Bundle bundle, boolean ready) {
+        super.onCreate(bundle, ready);
+        assert getSupportActionBar() != null;
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
 
-  @Override
-  public boolean onBeforeContactSelected(Optional<RecipientId> recipientId, String number) {
-    if (recipientId.isPresent()) {
-      launch(Recipient.resolved(recipientId.get()));
-    } else {
-      Log.i(TAG, "[onContactSelected] Maybe creating a new recipient.");
+    @Override
+    public boolean onBeforeContactSelected(Optional<RecipientId> recipientId, String number) {
+        if (recipientId.isPresent()) {
+            launch(Recipient.resolved(recipientId.get()));
+        } else {
+            Log.i(TAG, "[onContactSelected] Maybe creating a new recipient.");
 
-      if (TextSecurePreferences.isPushRegistered(this) && NetworkConstraint.isMet(this)) {
-        Log.i(TAG, "[onContactSelected] Doing contact refresh.");
+            if (TextSecurePreferences.isPushRegistered(this) && NetworkConstraint.isMet(this)) {
+                Log.i(TAG, "[onContactSelected] Doing contact refresh.");
 
-        AlertDialog progress = SimpleProgressDialog.show(this);
+                AlertDialog progress = SimpleProgressDialog.show(this);
 
-        SimpleTask.run(getLifecycle(), () -> {
-          Recipient resolved = Recipient.external(this, number);
+                SimpleTask.run(getLifecycle(), () -> {
+                    Recipient resolved = Recipient.external(this, number);
 
-          if (!resolved.isRegistered() || !resolved.hasUuid()) {
-            Log.i(TAG, "[onContactSelected] Not registered or no UUID. Doing a directory refresh.");
-            try {
-              DirectoryHelper.refreshDirectoryFor(this, resolved, false);
-              resolved = Recipient.resolved(resolved.getId());
-            } catch (IOException e) {
-              Log.w(TAG, "[onContactSelected] Failed to refresh directory for new contact.");
+                    if (!resolved.isRegistered() || !resolved.hasUuid()) {
+                        Log.i(TAG, "[onContactSelected] Not registered or no UUID. Doing a directory refresh.");
+                        try {
+                            DirectoryHelper.refreshDirectoryFor(this, resolved, false);
+                            resolved = Recipient.resolved(resolved.getId());
+                        } catch (IOException e) {
+                            Log.w(TAG, "[onContactSelected] Failed to refresh directory for new contact.");
+                        }
+                    }
+
+                    return resolved;
+                }, resolved -> {
+                    progress.dismiss();
+                    launch(resolved);
+                });
+            } else {
+                launch(Recipient.external(this, number));
             }
-          }
+        }
 
-          return resolved;
-        }, resolved -> {
-          progress.dismiss();
-          launch(resolved);
-        });
-      } else {
-        launch(Recipient.external(this, number));
-      }
+        return true;
     }
 
-    return true;
-  }
+    private void launch(Recipient recipient) {
+        long existingThread = DatabaseFactory.getThreadDatabase(this).getThreadIdIfExistsFor(recipient.getId());
+        Intent intent = ConversationIntents.createBuilder(this, recipient.getId(), existingThread)
+                .withDraftText(getIntent().getStringExtra(Intent.EXTRA_TEXT))
+                .withDataUri(getIntent().getData())
+                .withDataType(getIntent().getType())
+                .build();
 
-  private void launch(Recipient recipient) {
-    long   existingThread = DatabaseFactory.getThreadDatabase(this).getThreadIdIfExistsFor(recipient.getId());
-    Intent intent         = ConversationIntents.createBuilder(this, recipient.getId(), existingThread)
-                                               .withDraftText(getIntent().getStringExtra(Intent.EXTRA_TEXT))
-                                               .withDataUri(getIntent().getData())
-                                               .withDataType(getIntent().getType())
-                                               .build();
-
-    startActivity(intent);
-    finish();
-  }
-
-  @Override
-  public boolean onOptionsItemSelected(MenuItem item) {
-    super.onOptionsItemSelected(item);
-
-    switch (item.getItemId()) {
-    case android.R.id.home:   super.onBackPressed(); return true;
-    case R.id.menu_refresh:   handleManualRefresh(); return true;
-    case R.id.menu_new_group: handleCreateGroup();   return true;
-    case R.id.menu_invite:    handleInvite();        return true;
+        startActivity(intent);
     }
 
-    return false;
-  }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        super.onOptionsItemSelected(item);
 
-  private void handleManualRefresh() {
-    contactsFragment.setRefreshing(true);
-    onRefresh();
-  }
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                super.onBackPressed();
+                return true;
+            case R.id.menu_refresh:
+                handleManualRefresh();
+                return true;
+            case R.id.menu_new_group:
+                handleCreateGroup();
+                return true;
+            case R.id.menu_invite:
+                handleInvite();
+                return true;
+        }
 
-  private void handleCreateGroup() {
-    startActivity(CreateGroupActivity.newIntent(this));
-  }
+        return false;
+    }
 
-  private void handleInvite() {
-    startActivity(new Intent(this, InviteActivity.class));
-  }
+    private void handleManualRefresh() {
+        contactsFragment.setRefreshing(true);
+        onRefresh();
+    }
 
-  @Override
-  public boolean onCreateOptionsMenu(Menu menu) {
-    menu.clear();
-    getMenuInflater().inflate(R.menu.new_conversation_activity, menu);
+    private void handleCreateGroup() {
+        startActivity(CreateGroupActivity.newIntent(this));
+    }
 
-    super.onCreateOptionsMenu(menu);
-    return true;
-  }
+    private void handleInvite() {
+        startActivity(new Intent(this, InviteActivity.class));
+    }
 
-  @Override
-  public void onInvite() {
-    handleInvite();
-    finish();
-  }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        if (contactsFragment == null) {
+            menu.clear();
+            getMenuInflater().inflate(R.menu.new_conversation_activity, menu);
+            super.onCreateOptionsMenu(menu);
+        }
+        return true;
+    }
 
-  @Override
-  public void onNewGroup(boolean forceV1) {
-    handleCreateGroup();
-    finish();
-  }
+    @Override
+    public void onInvite() {
+        handleInvite();
+        finish();
+    }
+
+    @Override
+    public void onNewGroup(boolean forceV1) {
+        handleCreateGroup();
+        finish();
+    }
 }

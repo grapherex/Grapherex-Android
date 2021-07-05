@@ -72,14 +72,12 @@ class ConversationListViewModel extends ViewModel {
                                                          .setBufferPages(2)
                                                          .build());
     this.unreadPaymentsLiveData   = new UnreadPaymentsLiveData();
-    this.observer                 = () -> {
-      updateDebouncer.publish(() -> {
-        if (!TextUtils.isEmpty(getLastQuery())) {
-          searchRepository.query(getLastQuery(), searchResult::postValue);
-        }
-        pagedData.getController().onDataInvalidated();
-      });
-    };
+    this.observer                 = () -> updateDebouncer.publish(() -> {
+      if (!TextUtils.isEmpty(getLastQuery())) {
+        searchRepository.query(getLastQuery(), searchResult::postValue);
+      }
+      pagedData.getController().onDataInvalidated();
+    });
 
     this.hasNoConversations = LiveDataUtil.mapAsync(pagedData.getData(), conversations -> {
       pinnedCount = DatabaseFactory.getThreadDatabase(application).getPinnedConversationListCount();

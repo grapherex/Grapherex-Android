@@ -151,7 +151,7 @@
         <item name="homeAsUpIndicator">@drawable/ic_arrow_left_24</item>
         <item name="android:homeAsUpIndicator">@drawable/ic_arrow_left_24</item>
 
-        <item name="contact_filter_toolbar_icon_tint">@color/signal_icon_tint_primary</item>
+        <item name="contact_filter_toolbar_icon_tint">@color/grapherex_icon_tint_primary</item>
 
         <item name="emoji_category_recent">@drawable/ic_recent_20</item>
         <item name="emoji_category_people">@drawable/ic_emoji_people_20</item>
@@ -204,7 +204,7 @@
         <item name="homeAsUpIndicator">@drawable/ic_arrow_left_24</item>
         <item name="android:homeAsUpIndicator">@drawable/ic_arrow_left_24</item>
 
-        <item name="contact_filter_toolbar_icon_tint">@color/signal_icon_tint_primary</item>
+        <item name="contact_filter_toolbar_icon_tint">@color/grapherex_icon_tint_primary</item>
 
         <item name="emoji_category_recent">@drawable/ic_recent_20</item>
         <item name="emoji_category_people">@drawable/ic_emoji_people_20</item>

@@ -43,6 +43,7 @@ public class DatabaseFactory {
 
   private final SQLCipherOpenHelper      databaseHelper;
   private final SmsDatabase              sms;
+  private final CallsHistoryDatabase     сallsHistoryDatabase;
   private final MmsDatabase              mms;
   private final AttachmentDatabase       attachments;
   private final MediaDatabase            media;
@@ -170,6 +171,10 @@ public class DatabaseFactory {
     return getInstance(context).paymentDatabase;
   }
 
+  public static CallsHistoryDatabase getCallsHistoryDatabase(Context context) {
+    return getInstance(context).сallsHistoryDatabase;
+  }
+
   public static SQLiteDatabase getBackupDatabase(Context context) {
     return getInstance(context).databaseHelper.getReadableDatabase().getSqlCipherDatabase();
   }
@@ -202,6 +207,7 @@ public class DatabaseFactory {
 
     this.databaseHelper          = new SQLCipherOpenHelper(context, databaseSecret);
     this.sms                     = new SmsDatabase(context, databaseHelper);
+    this.сallsHistoryDatabase    = new CallsHistoryDatabase(context, databaseHelper);
     this.mms                     = new MmsDatabase(context, databaseHelper);
     this.attachments             = new AttachmentDatabase(context, databaseHelper, attachmentSecret);
     this.media                   = new MediaDatabase(context, databaseHelper);

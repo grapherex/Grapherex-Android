@@ -32,6 +32,7 @@ import androidx.preference.Preference;
 
 import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.conversationlist.model.UnreadPaymentsLiveData;
+import org.thoughtcrime.securesms.delete.DeleteAccountFragment;
 import org.thoughtcrime.securesms.help.HelpFragment;
 import org.thoughtcrime.securesms.preferences.AppProtectionPreferenceFragment;
 import org.thoughtcrime.securesms.preferences.AppearancePreferenceFragment;
@@ -74,8 +75,9 @@ public class ApplicationPreferencesActivity extends PassphraseRequiredActivity
     private static final String PREFERENCE_CATEGORY_APPEARANCE = "preference_category_appearance";
     private static final String PREFERENCE_CATEGORY_CHATS = "preference_category_chats";
     private static final String PREFERENCE_CATEGORY_STORAGE = "preference_category_storage";
-    private static final String PREFERENCE_CATEGORY_NOTE_TO_SELF = "preference_category_note_to_self";
+
     private static final String PREFERENCE_CATEGORY_HELP = "preference_category_help";
+    private static final String PREFERENCE_CATEGORY_DELETE_ACCOUNT = "preference_category_delete_account";
 //  private static final String PREFERENCE_CATEGORY_PAYMENTS       = "preference_category_payments";
 
     private static final String WAS_CONFIGURATION_UPDATED = "was_configuration_updated";
@@ -214,10 +216,10 @@ public class ApplicationPreferencesActivity extends PassphraseRequiredActivity
 
             this.findPreference(PREFERENCE_CATEGORY_STORAGE)
                     .setOnPreferenceClickListener(new CategoryClickListener(PREFERENCE_CATEGORY_STORAGE));
-            this.findPreference(PREFERENCE_CATEGORY_NOTE_TO_SELF)
-                    .setOnPreferenceClickListener(new CategoryClickListener(PREFERENCE_CATEGORY_NOTE_TO_SELF));
             this.findPreference(PREFERENCE_CATEGORY_HELP)
                     .setOnPreferenceClickListener(new CategoryClickListener(PREFERENCE_CATEGORY_HELP));
+            this.findPreference(PREFERENCE_CATEGORY_DELETE_ACCOUNT)
+                    .setOnPreferenceClickListener(new CategoryClickListener(PREFERENCE_CATEGORY_DELETE_ACCOUNT));
 
 //      Preference paymentsPreference = this.findPreference(PREFERENCE_CATEGORY_PAYMENTS);
 //
@@ -370,6 +372,9 @@ public class ApplicationPreferencesActivity extends PassphraseRequiredActivity
 //          break;
                     case PREFERENCE_CATEGORY_HELP:
                         fragment = new HelpFragment();
+                        break;
+                    case PREFERENCE_CATEGORY_DELETE_ACCOUNT:
+                        fragment = new DeleteAccountFragment();
                         break;
 //        case PREFERENCE_CATEGORY_DONATE:
 //          CommunicationActions.openBrowserLink(requireContext(), getString(R.string.donate_url));

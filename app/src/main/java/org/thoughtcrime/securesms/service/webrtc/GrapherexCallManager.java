@@ -155,8 +155,16 @@ public final class GrapherexCallManager implements CallManager.Observer, GroupCa
     process((s, p) -> p.handleOutgoingCall(s, new RemotePeer(recipient.getId()), OfferMessage.Type.AUDIO_CALL));
   }
 
+  public void startOutgoingAudioCall(@NonNull RecipientId recipient) {
+    process((s, p) -> p.handleOutgoingCall(s, new RemotePeer(recipient), OfferMessage.Type.AUDIO_CALL));
+  }
+
   public void startOutgoingVideoCall(@NonNull Recipient recipient) {
     process((s, p) -> p.handleOutgoingCall(s, new RemotePeer(recipient.getId()), OfferMessage.Type.VIDEO_CALL));
+  }
+
+  public void startOutgoingVideoCall(@NonNull RecipientId recipient) {
+    process((s, p) -> p.handleOutgoingCall(s, new RemotePeer(recipient), OfferMessage.Type.VIDEO_CALL));
   }
 
   public void cancelPreJoin() {

@@ -41,33 +41,23 @@ public final class DatabaseObserver {
   }
 
   public void registerConversationListObserver(@NonNull Observer listener) {
-    executor.execute(() -> {
-      conversationListObservers.add(listener);
-    });
+    executor.execute(() -> conversationListObservers.add(listener));
   }
 
   public void registerConversationObserver(long threadId, @NonNull Observer listener) {
-    executor.execute(() -> {
-      registerMapped(conversationObservers, threadId, listener);
-    });
+    executor.execute(() -> registerMapped(conversationObservers, threadId, listener));
   }
 
   public void registerVerboseConversationObserver(long threadId, @NonNull Observer listener) {
-    executor.execute(() -> {
-      registerMapped(verboseConversationObservers, threadId, listener);
-    });
+    executor.execute(() -> registerMapped(verboseConversationObservers, threadId, listener));
   }
 
   public void registerPaymentObserver(@NonNull UUID paymentId, @NonNull Observer listener) {
-    executor.execute(() -> {
-      registerMapped(paymentObservers, paymentId, listener);
-    });
+    executor.execute(() -> registerMapped(paymentObservers, paymentId, listener));
   }
 
   public void registerAllPaymentsObserver(@NonNull Observer listener) {
-    executor.execute(() -> {
-      allPaymentsObservers.add(listener);
-    });
+    executor.execute(() -> allPaymentsObservers.add(listener));
   }
 
   public void unregisterObserver(@NonNull Observer listener) {
@@ -104,9 +94,7 @@ public final class DatabaseObserver {
   }
 
   public void notifyVerboseConversationListeners(long threadId) {
-    executor.execute(() -> {
-      notifyMapped(verboseConversationObservers, threadId);
-    });
+    executor.execute(() -> notifyMapped(verboseConversationObservers, threadId));
 
     application.getContentResolver().notifyChange(DatabaseContentProviders.Conversation.getVerboseUriForThread(threadId), null);
   }
@@ -120,15 +108,11 @@ public final class DatabaseObserver {
   }
 
   public void notifyPaymentListeners(@NonNull UUID paymentId) {
-    executor.execute(() -> {
-      notifyMapped(paymentObservers, paymentId);
-    });
+    executor.execute(() -> notifyMapped(paymentObservers, paymentId));
   }
 
   public void notifyAllPaymentsListeners() {
-    executor.execute(() -> {
-      notifySet(allPaymentsObservers);
-    });
+    executor.execute(() -> notifySet(allPaymentsObservers));
   }
 
   private <K> void registerMapped(@NonNull Map<K, Set<Observer>> map, @NonNull K key, @NonNull Observer listener) {

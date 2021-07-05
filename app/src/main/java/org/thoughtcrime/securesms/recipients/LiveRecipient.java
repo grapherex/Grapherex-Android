@@ -65,6 +65,10 @@ public final class LiveRecipient {
     return recipient.get().getId();
   }
 
+  public @NonNull Recipient getRecipient() {
+    return recipient.get();
+  }
+
   /**
    * @return A recipient that may or may not be fully-resolved.
    */

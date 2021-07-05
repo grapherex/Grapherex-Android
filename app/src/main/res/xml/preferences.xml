@@ -43,10 +43,10 @@
         android:key="preference_category_storage"
         android:title="@string/preferences__data_and_storage" />
 
-    <Preference
-        android:icon="@drawable/ic_settings_item_note_to_self"
-        android:key="preference_category_note_to_self"
-        android:title="@string/preferences__note_to_self" />
+<!--    <Preference-->
+<!--        android:icon="@drawable/ic_settings_item_note_to_self"-->
+<!--        android:key="preference_category_note_to_self"-->
+<!--        android:title="@string/preferences__note_to_self" />-->
 
 <!--    <org.thoughtcrime.securesms.preferences.widgets.PaymentsPreference-->
 <!--        android:icon="@drawable/ic_payments_24"-->
@@ -61,10 +61,12 @@
 
     <Preference
         android:key="preference_category_space_one"
+        android:selectable="false"
         android:title="" />
 
     <Preference
         android:key="preference_category_space_two"
+        android:selectable="false"
         android:title="" />
 
     <org.thoughtcrime.securesms.preferences.widgets.TextColorPreference

@@ -9,7 +9,9 @@
     <include
         android:id="@+id/empty_conversation_banner"
         layout="@layout/conversation_item_banner"
-        android:visibility="gone" />
+        android:visibility="gone"
+        tools:visibility="visible"
+        />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@android:id/list"
@@ -32,6 +34,7 @@
         android:gravity="center"
         android:paddingStart="12dp"
         android:paddingTop="4dp"
+        tools:visibility="visible"
         android:paddingEnd="12dp"
         android:paddingBottom="4dp"
         android:textColor="@color/signal_text_secondary"
@@ -46,6 +49,7 @@
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:alpha="1"
+        tools:visibility="visible"
         android:background="@drawable/compose_divider_background"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent" />
@@ -56,6 +60,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="12dp"
+        tools:visibility="visible"
         android:visibility="invisible"
         app:cstv_scroll_button_src="@drawable/ic_at_24"
         app:layout_constraintBottom_toTopOf="@id/scroll_to_bottom"
@@ -66,6 +71,7 @@
         android:id="@+id/scroll_to_bottom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        tools:visibility="visible"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="16dp"
         android:visibility="invisible"
