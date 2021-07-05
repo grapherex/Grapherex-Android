@@ -1,53 +1,16 @@
-# Signal Android 
+# Grapherex Android
 
-Signal is a messaging app for simple private communication with friends.
+Grapherex is an open source project. Anyone can get access to the code to study, test and debug the functionality. We use only proven and reliable encryption technologies and algorithms. You can check it out personally.
 
-Signal uses your phone's data connection (WiFi/3G/4G) to communicate securely, optionally supports plain SMS/MMS to function as a unified messenger, and can also encrypt the stored messages on your phone.
 
-Currently available on the Play store.
+## Questions?
 
-<a href='https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height='80px'/></a>
-
-## Contributing Bug reports
-We use GitHub for bug tracking. Please search the existing issues for your bug and create a new one if the issue is not yet tracked!
-
-https://github.com/signalapp/Signal-Android/issues
-
-## Joining the Beta
-Want to live life on the bleeding edge and help out with testing?
-
-You can subscribe to Signal Android Beta releases here:
-https://play.google.com/apps/testing/org.thoughtcrime.securesms
- 
-If you're interested in a life of peace and tranquility, stick with the standard releases.
-
-## Contributing Translations
-Interested in helping to translate Signal? Contribute here:
-
-https://www.transifex.com/projects/p/signal-android/
+For troubleshooting and questions, please visit our [help center](https://https://support.grapherex.com/hc/en-150).
 
 ## Contributing Code
 
-If you're new to the Signal codebase, we recommend going through our issues and picking out a simple bug to fix (check the "easy" label in our issues) in order to get yourself familiar. Also please have a look at the [CONTRIBUTING.md](https://github.com/signalapp/Signal-Android/blob/master/CONTRIBUTING.md), that might answer some of your questions.
+Instructions on how to setup your development environment and build Grapherex-iOS can be found in [BUILDING.md]
 
-For larger changes and feature ideas, we ask that you propose it on the [unofficial Community Forum](https://community.signalusers.org) for a high-level discussion with the wider community before implementation.
-
-## Contributing Ideas
-Have something you want to say about Open Whisper Systems projects or want to be part of the conversation? Get involved in the [community forum](https://community.signalusers.org).
-
-Help
-====
-## Support
-For troubleshooting and questions, please visit our support center!
-
-https://support.signal.org/
-
-## Documentation
-Looking for documentation? Check out the wiki!
-
-https://github.com/signalapp/Signal-Android/wiki
-
-# Legal things
 ## Cryptography Notice
 
 This distribution includes cryptographic software. The country in which you currently reside may have restrictions on the import, possession, use, and/or re-export to another country, of encryption software.
@@ -59,8 +22,9 @@ The form and manner of this distribution makes it eligible for export under the 
 
 ## License
 
-Copyright 2013-2020 Signal
+Licensed under [GPLv3](http://www.gnu.org/licenses/gpl-3.0.html)
 
-Licensed under the GPLv3: http://www.gnu.org/licenses/gpl-3.0.html
+- Copyright 2014-2019 Open Whisper Systems
+- Copyright 2019-2021 Grapherex Crypto Communication
 
-Google Play and the Google Play logo are trademarks of Google Inc.
+_Apple and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc., registered in the U.S. and other countries._
