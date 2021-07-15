@@ -3,7 +3,7 @@ package org.whispersystems.signalservice.api.groupsv2;
 import org.signal.zkgroup.ServerPublicParams;
 import org.signal.zkgroup.auth.ClientZkAuthOperations;
 import org.signal.zkgroup.profiles.ClientZkProfileOperations;
-import org.whispersystems.signalservice.internal.configuration.SignalServiceConfiguration;
+import org.whispersystems.signalservice.internal.configuration.GrapherexServiceConfiguration;
 
 /**
  * Contains access to all ZK group operations for the client.
@@ -22,7 +22,7 @@ public final class ClientZkOperations {
     this.clientZkProfileOperations = new ClientZkProfileOperations(serverPublicParams);
   }
 
-  public static ClientZkOperations create(SignalServiceConfiguration configuration) {
+  public static ClientZkOperations create(GrapherexServiceConfiguration configuration) {
     return new ClientZkOperations(new ServerPublicParams(configuration.getZkGroupServerPublicParams()));
   }
 

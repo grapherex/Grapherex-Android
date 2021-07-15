@@ -84,6 +84,11 @@ class CallsHistoryFragment : BaseFragment() {
     }
   }
 
+  override fun onResume() {
+    super.onResume()
+    viewModel.getCallsHistory()
+  }
+
   override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
     inflater.inflate(R.menu.pop_up_delete_all_calls, menu)
     menu.showIcons()

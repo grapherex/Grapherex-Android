@@ -35,7 +35,8 @@ public final class InternalValues extends SignalStoreValues {
    * Do not attempt to create GV2 groups, i.e. will force creation of GV1 or MMS groups.
    */
   public synchronized boolean gv2DoNotCreateGv2Groups() {
-    return FeatureFlags.internalUser() && getBoolean(GV2_DO_NOT_CREATE_GV2, false);
+   // return FeatureFlags.internalUser() && getBoolean(GV2_DO_NOT_CREATE_GV2, false);
+    return true;
   }
 
   /**

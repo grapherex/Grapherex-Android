@@ -23,10 +23,6 @@ class CallsHistoryViewModel(
   val callsHistoryData: MutableLiveData<List<CallHistoryItem>> = MutableLiveData()
   val loading: MutableLiveData<Boolean> = MutableLiveData()
 
-  init {
-    getCallsHistory()
-  }
-
   fun getCallsHistory() = viewModelScope.launch {
     fetchCallsHistory()
   }
@@ -70,6 +66,7 @@ class CallsHistoryViewModel(
               Locale.getDefault(),
               it.callTimestamp
             ),
+            CallType.TYPE.getRotationByType(it.callType),
             it.recipientAvatar
           )
         )
@@ -77,14 +74,13 @@ class CallsHistoryViewModel(
     }
 
 
- public enum class CallType(val res: Int, val type: Int) {
-    INCOMING(R.drawable.ic_calls_incoming_call, 1),
-    OUTGOING(R.drawable.ic_calls_outgoing_call, 2),
-    MISSED(R.drawable.ic_calls_decline_call, 3),
-    CANCELED(-1, 4),
-    DECLINE(-1, 5),
-    TYPE(-1, -1);
+ enum class CallType(val res: Int, val type: Int, val rotation:Boolean) {
+    INCOMING(R.drawable.ic_calls_outgoing_call, 1, true),
+    OUTGOING(R.drawable.ic_calls_outgoing_call, 2, false),
+    MISSED(R.drawable.ic_calls_decline_call, 3, true),
+    TYPE(-1, -1, false);
 
     fun getResByType(type: Int): Int = values().find { it.type == type }?.res ?: -1
+    fun getRotationByType(type: Int): Boolean = values().find { it.type == type }?.rotation ?: false
   }
 }

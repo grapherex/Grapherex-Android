@@ -6,7 +6,6 @@
 
 package org.whispersystems.signalservice.api;
 
-import org.signal.zkgroup.VerificationFailedException;
 import org.signal.zkgroup.profiles.ClientZkProfileOperations;
 import org.signal.zkgroup.profiles.ProfileKey;
 import org.whispersystems.libsignal.InvalidMessageException;
@@ -23,13 +22,11 @@ import org.whispersystems.signalservice.api.profiles.ProfileAndCredential;
 import org.whispersystems.signalservice.api.profiles.SignalServiceProfile;
 import org.whispersystems.signalservice.api.push.SignalServiceAddress;
 import org.whispersystems.signalservice.api.push.exceptions.MissingConfigurationException;
-import org.whispersystems.signalservice.api.push.exceptions.NonSuccessfulResponseCodeException;
-import org.whispersystems.signalservice.api.push.exceptions.PushNetworkException;
 import org.whispersystems.signalservice.api.util.CredentialsProvider;
 import org.whispersystems.signalservice.api.util.SleepTimer;
 import org.whispersystems.signalservice.api.util.UuidUtil;
 import org.whispersystems.signalservice.api.websocket.ConnectivityListener;
-import org.whispersystems.signalservice.internal.configuration.SignalServiceConfiguration;
+import org.whispersystems.signalservice.internal.configuration.GrapherexServiceConfiguration;
 import org.whispersystems.signalservice.internal.push.PushServiceSocket;
 import org.whispersystems.signalservice.internal.push.SignalServiceEnvelopeEntity;
 import org.whispersystems.signalservice.internal.push.SignalServiceMessagesResult;
@@ -59,7 +56,7 @@ import java.util.UUID;
 public class SignalServiceMessageReceiver {
 
   private final PushServiceSocket          socket;
-  private final SignalServiceConfiguration urls;
+  private final GrapherexServiceConfiguration urls;
   private final CredentialsProvider        credentialsProvider;
   private final String                     signalAgent;
   private final ConnectivityListener       connectivityListener;
@@ -75,7 +72,7 @@ public class SignalServiceMessageReceiver {
    * @param password The Signal Service user password.
    * @param signalingKey The 52 byte signaling key assigned to this user at registration.
    */
-  public SignalServiceMessageReceiver(SignalServiceConfiguration urls,
+  public SignalServiceMessageReceiver(GrapherexServiceConfiguration urls,
                                       UUID uuid,
                                       String e164,
                                       String password,
@@ -94,7 +91,7 @@ public class SignalServiceMessageReceiver {
    * @param urls The URL of the Signal Service.
    * @param credentials The Signal Service user's credentials.
    */
-  public SignalServiceMessageReceiver(SignalServiceConfiguration urls,
+  public SignalServiceMessageReceiver(GrapherexServiceConfiguration urls,
                                       CredentialsProvider credentials,
                                       String signalAgent,
                                       ConnectivityListener listener,

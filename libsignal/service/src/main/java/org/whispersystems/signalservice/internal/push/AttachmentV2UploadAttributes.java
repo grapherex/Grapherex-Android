@@ -32,6 +32,9 @@ public class AttachmentV2UploadAttributes {
   private String attachmentId;
 
   @JsonProperty
+  private String bucket;
+
+  @JsonProperty
   private String attachmentIdString;
 
   public AttachmentV2UploadAttributes() {}
@@ -74,5 +77,9 @@ public class AttachmentV2UploadAttributes {
 
   public String getAttachmentIdString() {
     return attachmentIdString;
+  }
+
+  public String getBucket() {
+    return bucket;
   }
 }

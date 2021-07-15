@@ -171,7 +171,7 @@ public class ApplicationContext extends MultiDexApplication implements AppForegr
       FeatureFlags.refreshIfNecessary();
       ApplicationDependencies.getRecipientCache().warmUp();
       RetrieveProfileJob.enqueueRoutineFetchIfNecessary(this);
-      GroupV1MigrationJob.enqueueRoutineMigrationsIfNecessary(this);
+      //GroupV1MigrationJob.enqueueRoutineMigrationsIfNecessary(this);
       executePendingContactSync();
       KeyCachingService.onAppForegrounded(this);
       ApplicationDependencies.getShakeToReport().enable();

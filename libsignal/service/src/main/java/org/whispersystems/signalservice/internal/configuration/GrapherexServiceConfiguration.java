@@ -8,7 +8,7 @@ import java.util.Map;
 import okhttp3.Dns;
 import okhttp3.Interceptor;
 
-public final class SignalServiceConfiguration {
+public final class GrapherexServiceConfiguration {
 
   private final SignalServiceUrl[]           signalServiceUrls;
   private final Map<Integer, SignalCdnUrl[]> signalCdnUrlMap;
@@ -20,15 +20,15 @@ public final class SignalServiceConfiguration {
   private final Optional<SignalProxy>        proxy;
   private final byte[]                       zkGroupServerPublicParams;
 
-  public SignalServiceConfiguration(SignalServiceUrl[] signalServiceUrls,
-                                    Map<Integer, SignalCdnUrl[]> signalCdnUrlMap,
-                                    SignalContactDiscoveryUrl[] signalContactDiscoveryUrls,
-                                    SignalKeyBackupServiceUrl[] signalKeyBackupServiceUrls,
-                                    SignalStorageUrl[] signalStorageUrls,
-                                    List<Interceptor> networkInterceptors,
-                                    Optional<Dns> dns,
-                                    Optional<SignalProxy> proxy,
-                                    byte[] zkGroupServerPublicParams)
+  public GrapherexServiceConfiguration(SignalServiceUrl[] signalServiceUrls,
+                                       Map<Integer, SignalCdnUrl[]> signalCdnUrlMap,
+                                       SignalContactDiscoveryUrl[] signalContactDiscoveryUrls,
+                                       SignalKeyBackupServiceUrl[] signalKeyBackupServiceUrls,
+                                       SignalStorageUrl[] signalStorageUrls,
+                                       List<Interceptor> networkInterceptors,
+                                       Optional<Dns> dns,
+                                       Optional<SignalProxy> proxy,
+                                       byte[] zkGroupServerPublicParams)
   {
     this.signalServiceUrls          = signalServiceUrls;
     this.signalCdnUrlMap            = signalCdnUrlMap;

@@ -60,7 +60,7 @@ import org.whispersystems.signalservice.api.push.exceptions.UnregisteredUserExce
 import org.whispersystems.signalservice.api.util.CredentialsProvider;
 import org.whispersystems.signalservice.api.util.Uint64RangeException;
 import org.whispersystems.signalservice.api.util.Uint64Util;
-import org.whispersystems.signalservice.internal.configuration.SignalServiceConfiguration;
+import org.whispersystems.signalservice.internal.configuration.GrapherexServiceConfiguration;
 import org.whispersystems.signalservice.internal.crypto.PaddingInputStream;
 import org.whispersystems.signalservice.internal.push.AttachmentV2UploadAttributes;
 import org.whispersystems.signalservice.internal.push.AttachmentV3UploadAttributes;
@@ -145,7 +145,7 @@ public class SignalServiceMessageSender {
    * @param eventListener An optional event listener, which fires whenever sessions are
    *                      setup or torn down for a recipient.
    */
-  public SignalServiceMessageSender(SignalServiceConfiguration urls,
+  public SignalServiceMessageSender(GrapherexServiceConfiguration urls,
                                     UUID uuid, String e164, String password,
                                     SignalServiceProtocolStore store,
                                     SignalSessionLock sessionLock,
@@ -161,7 +161,7 @@ public class SignalServiceMessageSender {
     this(urls, new StaticCredentialsProvider(uuid, e164, password), store, sessionLock, signalAgent, isMultiDevice, pipe, unidentifiedPipe, eventListener, clientZkProfileOperations, executor, 0, automaticNetworkRetry);
   }
 
-  public SignalServiceMessageSender(SignalServiceConfiguration urls,
+  public SignalServiceMessageSender(GrapherexServiceConfiguration urls,
                                     CredentialsProvider credentialsProvider,
                                     SignalServiceProtocolStore store,
                                     SignalSessionLock sessionLock,
@@ -412,11 +412,11 @@ public class SignalServiceMessageSender {
                                                                  attachment.getCancelationSignal(),
                                                                  attachment.getResumableUploadSpec().orNull());
 
-    if (attachment.getResumableUploadSpec().isPresent()) {
-      return uploadAttachmentV3(attachment, attachmentKey, attachmentData);
-    } else {
+//    if (attachment.getResumableUploadSpec().isPresent()) {
+//      return uploadAttachmentV3(attachment, attachmentKey, attachmentData);
+//    } else {
       return uploadAttachmentV2(attachment, attachmentKey, attachmentData);
-    }
+   // }
   }
 
   private SignalServiceAttachmentPointer uploadAttachmentV2(SignalServiceAttachmentStream attachment, byte[] attachmentKey, PushAttachmentData attachmentData)

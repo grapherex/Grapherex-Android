@@ -23,7 +23,7 @@ import org.whispersystems.signalservice.api.push.TrustStore;
 import org.whispersystems.signalservice.internal.configuration.SignalCdnUrl;
 import org.whispersystems.signalservice.internal.configuration.SignalContactDiscoveryUrl;
 import org.whispersystems.signalservice.internal.configuration.SignalKeyBackupServiceUrl;
-import org.whispersystems.signalservice.internal.configuration.SignalServiceConfiguration;
+import org.whispersystems.signalservice.internal.configuration.GrapherexServiceConfiguration;
 import org.whispersystems.signalservice.internal.configuration.SignalServiceUrl;
 import org.whispersystems.signalservice.internal.configuration.SignalStorageUrl;
 
@@ -110,9 +110,9 @@ public class SignalServiceNetworkAccess {
 
   private static final ConnectionSpec APP_CONNECTION_SPEC = ConnectionSpec.MODERN_TLS;
 
-  private final Map<String, SignalServiceConfiguration> censorshipConfiguration;
+  private final Map<String, GrapherexServiceConfiguration> censorshipConfiguration;
   private final String[]                                censoredCountries;
-  private final SignalServiceConfiguration              uncensoredConfiguration;
+  private final GrapherexServiceConfiguration uncensoredConfiguration;
 
   public SignalServiceNetworkAccess(Context context) {
 
@@ -194,9 +194,9 @@ public class SignalServiceNetworkAccess {
       throw new AssertionError(e);
     }
 
-    this.censorshipConfiguration = new HashMap<String, SignalServiceConfiguration>() {{
+    this.censorshipConfiguration = new HashMap<String, GrapherexServiceConfiguration>() {{
 
-      put(COUNTRY_CODE_EGYPT, new SignalServiceConfiguration(new SignalServiceUrl[] {egyptGoogleService, baseGoogleService, baseAndroidService, mapsOneAndroidService, mapsTwoAndroidService, mailAndroidService},
+      put(COUNTRY_CODE_EGYPT, new GrapherexServiceConfiguration(new SignalServiceUrl[] {egyptGoogleService, baseGoogleService, baseAndroidService, mapsOneAndroidService, mapsTwoAndroidService, mailAndroidService},
                                                              makeSignalCdnUrlMapFor(new SignalCdnUrl[] {egyptGoogleCdn, baseAndroidCdn, baseGoogleCdn, mapsOneAndroidCdn, mapsTwoAndroidCdn, mailAndroidCdn, mailAndroidCdn},
                                                                                     new SignalCdnUrl[] {egyptGoogleCdn2, baseAndroidCdn2, baseGoogleCdn2, mapsOneAndroidCdn2, mapsTwoAndroidCdn2, mailAndroidCdn2, mailAndroidCdn2}),
                                                              new SignalContactDiscoveryUrl[] {egyptGoogleDiscovery, baseGoogleDiscovery, baseAndroidDiscovery, mapsOneAndroidDiscovery, mapsTwoAndroidDiscovery, mailAndroidDiscovery},
@@ -207,7 +207,7 @@ public class SignalServiceNetworkAccess {
                                                              Optional.absent(),
                                                              zkGroupServerPublicParams));
 
-      put(COUNTRY_CODE_UAE, new SignalServiceConfiguration(new SignalServiceUrl[] {uaeGoogleService, baseAndroidService, baseGoogleService, mapsOneAndroidService, mapsTwoAndroidService, mailAndroidService},
+      put(COUNTRY_CODE_UAE, new GrapherexServiceConfiguration(new SignalServiceUrl[] {uaeGoogleService, baseAndroidService, baseGoogleService, mapsOneAndroidService, mapsTwoAndroidService, mailAndroidService},
                                                            makeSignalCdnUrlMapFor(new SignalCdnUrl[] {uaeGoogleCdn, baseAndroidCdn, baseGoogleCdn, mapsOneAndroidCdn, mapsTwoAndroidCdn, mailAndroidCdn},
                                                                                   new SignalCdnUrl[] {uaeGoogleCdn2, baseAndroidCdn2, baseGoogleCdn2, mapsOneAndroidCdn2, mapsTwoAndroidCdn2, mailAndroidCdn2}),
                                                            new SignalContactDiscoveryUrl[] {uaeGoogleDiscovery, baseGoogleDiscovery, baseAndroidDiscovery, mapsOneAndroidDiscovery, mapsTwoAndroidDiscovery, mailAndroidDiscovery},
@@ -218,7 +218,7 @@ public class SignalServiceNetworkAccess {
                                                            Optional.absent(),
                                                            zkGroupServerPublicParams));
 
-      put(COUNTRY_CODE_OMAN, new SignalServiceConfiguration(new SignalServiceUrl[] {omanGoogleService, baseAndroidService, baseGoogleService, mapsOneAndroidService, mapsTwoAndroidService, mailAndroidService},
+      put(COUNTRY_CODE_OMAN, new GrapherexServiceConfiguration(new SignalServiceUrl[] {omanGoogleService, baseAndroidService, baseGoogleService, mapsOneAndroidService, mapsTwoAndroidService, mailAndroidService},
                                                             makeSignalCdnUrlMapFor(new SignalCdnUrl[] {omanGoogleCdn, baseAndroidCdn, baseGoogleCdn, mapsOneAndroidCdn, mapsTwoAndroidCdn, mailAndroidCdn},
                                                                                    new SignalCdnUrl[] {omanGoogleCdn2, baseAndroidCdn2, baseGoogleCdn2, mapsOneAndroidCdn2, mapsTwoAndroidCdn2, mailAndroidCdn2}),
                                                             new SignalContactDiscoveryUrl[] {omanGoogleDiscovery, baseGoogleDiscovery, baseAndroidDiscovery, mapsOneAndroidDiscovery, mapsTwoAndroidDiscovery, mailAndroidDiscovery},
@@ -230,7 +230,7 @@ public class SignalServiceNetworkAccess {
                                                             zkGroupServerPublicParams));
 
 
-      put(COUNTRY_CODE_QATAR, new SignalServiceConfiguration(new SignalServiceUrl[] {qatarGoogleService, baseAndroidService, baseGoogleService, mapsOneAndroidService, mapsTwoAndroidService, mailAndroidService},
+      put(COUNTRY_CODE_QATAR, new GrapherexServiceConfiguration(new SignalServiceUrl[] {qatarGoogleService, baseAndroidService, baseGoogleService, mapsOneAndroidService, mapsTwoAndroidService, mailAndroidService},
                                                              makeSignalCdnUrlMapFor(new SignalCdnUrl[] {qatarGoogleCdn, baseAndroidCdn, baseGoogleCdn, mapsOneAndroidCdn, mapsTwoAndroidCdn, mailAndroidCdn},
                                                                                     new SignalCdnUrl[] {qatarGoogleCdn2, baseAndroidCdn2, baseGoogleCdn2, mapsOneAndroidCdn2, mapsTwoAndroidCdn2, mailAndroidCdn2}),
                                                              new SignalContactDiscoveryUrl[] {qatarGoogleDiscovery, baseGoogleDiscovery, baseAndroidDiscovery, mapsOneAndroidDiscovery, mapsTwoAndroidDiscovery, mailAndroidDiscovery},
@@ -241,7 +241,7 @@ public class SignalServiceNetworkAccess {
                                                              Optional.absent(),
                                                              zkGroupServerPublicParams));
 
-      put(COUNTRY_CODE_IRAN, new SignalServiceConfiguration(Stream.of(fastUrls).map(url -> new SignalServiceUrl(url, SERVICE_FASTLY_HOST, new DomainFrontingDigicertTrustStore(context), APP_CONNECTION_SPEC)).toArray(SignalServiceUrl[]::new),
+      put(COUNTRY_CODE_IRAN, new GrapherexServiceConfiguration(Stream.of(fastUrls).map(url -> new SignalServiceUrl(url, SERVICE_FASTLY_HOST, new DomainFrontingDigicertTrustStore(context), APP_CONNECTION_SPEC)).toArray(SignalServiceUrl[]::new),
                                                             makeSignalCdnUrlMapFor(Stream.of(fastUrls).map(url -> new SignalCdnUrl(url, CDN_FASTLY_HOST, new DomainFrontingDigicertTrustStore(context), APP_CONNECTION_SPEC)).toArray(SignalCdnUrl[]::new),
                                                                                    Stream.of(fastUrls).map(url -> new SignalCdnUrl(url, CDN2_FASTLY_HOST, new DomainFrontingDigicertTrustStore(context), APP_CONNECTION_SPEC)).toArray(SignalCdnUrl[]::new)),
                                                             Stream.of(fastUrls).map(url -> new SignalContactDiscoveryUrl(url, DIRECTORY_FASTLY_HOST, new DomainFrontingDigicertTrustStore(context), APP_CONNECTION_SPEC)).toArray(SignalContactDiscoveryUrl[]::new),
@@ -253,7 +253,7 @@ public class SignalServiceNetworkAccess {
                                                             zkGroupServerPublicParams));
     }};
 
-    this.uncensoredConfiguration = new SignalServiceConfiguration(new SignalServiceUrl[] {new SignalServiceUrl(BuildConfig.SIGNAL_URL, new SignalServiceTrustStore(context))},
+    this.uncensoredConfiguration = new GrapherexServiceConfiguration(new SignalServiceUrl[] {new SignalServiceUrl(BuildConfig.SIGNAL_URL, new SignalServiceTrustStore(context))},
                                                                   makeSignalCdnUrlMapFor(new SignalCdnUrl[] {new SignalCdnUrl(BuildConfig.SIGNAL_CDN_URL, new SignalServiceTrustStore(context))},
                                                                                          new SignalCdnUrl[] {new SignalCdnUrl(BuildConfig.SIGNAL_CDN2_URL, new SignalServiceTrustStore(context))}),
                                                                   new SignalContactDiscoveryUrl[] {new SignalContactDiscoveryUrl(BuildConfig.SIGNAL_CONTACT_DISCOVERY_URL, new SignalServiceTrustStore(context))},
@@ -267,12 +267,12 @@ public class SignalServiceNetworkAccess {
     this.censoredCountries = this.censorshipConfiguration.keySet().toArray(new String[0]);
   }
 
-  public SignalServiceConfiguration getConfiguration(Context context) {
+  public GrapherexServiceConfiguration getConfiguration(Context context) {
     String localNumber = TextSecurePreferences.getLocalNumber(context);
     return getConfiguration(localNumber);
   }
 
-  public SignalServiceConfiguration getConfiguration(@Nullable String localNumber) {
+  public GrapherexServiceConfiguration getConfiguration(@Nullable String localNumber) {
     if (localNumber == null || GrapherexStore.proxy().isProxyEnabled()) {
       return this.uncensoredConfiguration;
     }

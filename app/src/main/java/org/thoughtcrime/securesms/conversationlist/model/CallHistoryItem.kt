@@ -7,4 +7,5 @@ data class CallHistoryItem(
   val recipientName: String,
   val callTypeRes: Int,
   val callDate: String,
+  val callTypeRotationNeed: Boolean,
   val recipientAvatar: String)

@@ -132,6 +132,7 @@ class ManageProfileViewModel extends ViewModel {
                 switch (result) {
                     case SUCCESS:
                         avatar.postValue(AvatarState.loaded(null));
+                        Recipient.self().live().refresh();
                         previousAvatar = null;
                         break;
                     case FAILURE_NETWORK:
@@ -152,6 +153,7 @@ class ManageProfileViewModel extends ViewModel {
                         switch (result) {
                             case SUCCESS:
                                 avatar.postValue(AvatarState.loaded(data));
+                                Recipient.self().live().refresh();
                                 previousAvatar = data;
                                 break;
                             case FAILURE_NETWORK:

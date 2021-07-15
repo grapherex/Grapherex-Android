@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -26,7 +27,6 @@ import org.thoughtcrime.securesms.profiles.ProfileName;
 import org.thoughtcrime.securesms.profiles.manage.ManageProfileViewModel.AvatarState;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.util.AvatarUtil;
-import org.thoughtcrime.securesms.util.views.SimpleProgressDialog;
 
 import static android.app.Activity.RESULT_OK;
 
@@ -36,6 +36,7 @@ public class ManageProfileFragment extends LoggingFragment {
     private static final short REQUEST_CODE_SELECT_AVATAR = 31726;
 
     private Toolbar toolbar;
+    private ProgressBar pbLoading;
     private AppCompatImageView avatarView;
     private AppCompatTextView profileNameView;
     private AppCompatTextView tvPhoneNumber;
@@ -53,6 +54,7 @@ public class ManageProfileFragment extends LoggingFragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         this.toolbar = view.findViewById(R.id.toolbar);
+        this.pbLoading = view.findViewById(R.id.pbLoading);
         this.avatarView = view.findViewById(R.id.ivAvatar);
         this.profileNameView = view.findViewById(R.id.tvUserName);
         this.tvPhoneNumber = view.findViewById(R.id.tvPhoneNumber);
@@ -119,10 +121,10 @@ public class ManageProfileFragment extends LoggingFragment {
     }
 
     private void presentAvatar(@NonNull AvatarState avatarState) {
-        if (avatarProgress == null && avatarState.getLoadingState() == ManageProfileViewModel.LoadingState.LOADING) {
-            avatarProgress = SimpleProgressDialog.show(requireContext());
-        } else if (avatarProgress != null && avatarState.getLoadingState() == ManageProfileViewModel.LoadingState.LOADED) {
-            avatarProgress.dismiss();
+        if (avatarState.getLoadingState() == ManageProfileViewModel.LoadingState.LOADING) {
+            pbLoading.setVisibility(View.VISIBLE);
+        } else if (avatarState.getLoadingState() == ManageProfileViewModel.LoadingState.LOADED) {
+            pbLoading.setVisibility(View.GONE);
         }
     }
 

@@ -681,16 +681,14 @@ public class SmsDatabase extends MessageDatabase {
     @Override
     public @NonNull
     Pair<Long, Long> insertReceivedCall(@NonNull RecipientId address, boolean isVideoOffer) {
-        Recipient recipient= Recipient.live(address).get();
-        DatabaseFactory.getCallsHistoryDatabase(context).addCall(address.toLong(), recipient.getDisplayName(context), CallsHistoryViewModel.CallType.INCOMING.getType(), System.currentTimeMillis(), recipient.getProfileAvatar());
+
         return insertCallLog(address, isVideoOffer ? INCOMING_VIDEO_CALL_TYPE : INCOMING_AUDIO_CALL_TYPE, false, System.currentTimeMillis());
     }
 
     @Override
     public @NonNull
     Pair<Long, Long> insertOutgoingCall(@NonNull RecipientId address, boolean isVideoOffer) {
-        Recipient recipient= Recipient.live(address).get();
-        DatabaseFactory.getCallsHistoryDatabase(context).addCall(address.toLong(), recipient.getDisplayName(context), CallsHistoryViewModel.CallType.OUTGOING.getType(), System.currentTimeMillis(), recipient.getProfileAvatar());
+
         return insertCallLog(address, isVideoOffer ? OUTGOING_VIDEO_CALL_TYPE : OUTGOING_AUDIO_CALL_TYPE, false, System.currentTimeMillis());
     }
 

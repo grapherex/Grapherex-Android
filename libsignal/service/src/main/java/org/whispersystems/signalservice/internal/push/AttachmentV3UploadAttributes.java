@@ -17,6 +17,9 @@ public final class AttachmentV3UploadAttributes {
     @JsonProperty
     private String signedUploadLocation;
 
+    @JsonProperty
+    private String policy;
+
     public AttachmentV3UploadAttributes() {
     }
 
@@ -34,5 +37,9 @@ public final class AttachmentV3UploadAttributes {
 
     public String getSignedUploadLocation() {
         return signedUploadLocation;
+    }
+
+    public String getPolicy() {
+        return policy;
     }
 }

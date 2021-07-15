@@ -8,7 +8,6 @@ import kotlinx.android.synthetic.main.item_call.view.*
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.conversationlist.model.CallHistoryItem
 import org.thoughtcrime.securesms.recipients.Recipient
-import org.thoughtcrime.securesms.recipients.RecipientId
 import org.thoughtcrime.securesms.util.AvatarUtil
 
 class CallsHistoryAdapter(private val callClickListener: (Recipient) -> Unit) :
@@ -56,7 +55,7 @@ class CallsHistoryAdapter(private val callClickListener: (Recipient) -> Unit) :
       itemView.ivCall.setOnClickListener {
         callClickListener(recipient.get())
       }
-
+      itemView.ivCallsType.rotationY = if (item.callTypeRotationNeed) 180f else 0f
       itemView.ivCallsType.setBackgroundResource(item.callTypeRes)
     }
   }

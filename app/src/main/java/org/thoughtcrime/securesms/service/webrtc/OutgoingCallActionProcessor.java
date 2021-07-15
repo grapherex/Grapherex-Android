@@ -11,10 +11,12 @@ import org.signal.ringrtc.CallException;
 import org.signal.ringrtc.CallId;
 import org.signal.ringrtc.CallManager;
 import org.thoughtcrime.securesms.components.webrtc.OrientationAwareVideoSink;
+import org.thoughtcrime.securesms.conversationlist.CallsHistoryViewModel;
 import org.thoughtcrime.securesms.crypto.IdentityKeyUtil;
 import org.thoughtcrime.securesms.database.DatabaseFactory;
 import org.thoughtcrime.securesms.events.CallParticipant;
 import org.thoughtcrime.securesms.events.WebRtcViewModel;
+import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.ringrtc.RemotePeer;
 import org.thoughtcrime.securesms.service.webrtc.WebRtcData.CallMetadata;
 import org.thoughtcrime.securesms.service.webrtc.WebRtcData.OfferMetadata;
@@ -77,7 +79,8 @@ public class OutgoingCallActionProcessor extends DeviceAwareActionProcessor {
     webRtcInteractor.setWantsBluetoothConnection(true);
 
     DatabaseFactory.getSmsDatabase(context).insertOutgoingCall(remotePeer.getId(), currentState.getCallSetupState().isEnableVideoOnCreate());
-
+    Recipient recipient= Recipient.live(remotePeer.getId()).get();
+    DatabaseFactory.getCallsHistoryDatabase(context).addCall(remotePeer.getId().toLong(), recipient.getDisplayName(context), CallsHistoryViewModel.CallType.OUTGOING.getType(), System.currentTimeMillis(), recipient.getProfileAvatar());
     webRtcInteractor.retrieveTurnServers(remotePeer);
 
     return builder.changeCallInfoState()
@@ -160,6 +163,7 @@ public class OutgoingCallActionProcessor extends DeviceAwareActionProcessor {
       byte[] localIdentityKey  = WebRtcUtil.getPublicKeyBytes(IdentityKeyUtil.getIdentityKey(context).serialize());
 
       webRtcInteractor.getCallManager().receivedAnswer(callMetadata.getCallId(), callMetadata.getRemoteDevice(), answerMetadata.getOpaque(), receivedAnswerMetadata.isMultiRing(), remoteIdentityKey, localIdentityKey);
+
     } catch (CallException | InvalidKeyException e) {
       return callFailure(currentState, "receivedAnswer() failed: ", e);
     }

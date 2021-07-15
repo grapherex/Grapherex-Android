@@ -11,6 +11,7 @@ import org.signal.ringrtc.CallException;
 import org.signal.ringrtc.CallId;
 import org.signal.ringrtc.CallManager;
 import org.thoughtcrime.securesms.components.webrtc.OrientationAwareVideoSink;
+import org.thoughtcrime.securesms.conversationlist.CallsHistoryViewModel;
 import org.thoughtcrime.securesms.database.DatabaseFactory;
 import org.thoughtcrime.securesms.database.RecipientDatabase;
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
@@ -120,6 +121,8 @@ public class IncomingCallActionProcessor extends DeviceAwareActionProcessor {
 
     try {
       webRtcInteractor.getCallManager().acceptCall(activePeer.getCallId());
+      Recipient recipient= Recipient.live(activePeer.getId()).get();
+      DatabaseFactory.getCallsHistoryDatabase(context).addCall(activePeer.getId().toLong(), recipient.getDisplayName(context), CallsHistoryViewModel.CallType.INCOMING.getType(), System.currentTimeMillis(), recipient.getProfileAvatar());
     } catch (CallException e) {
       return callFailure(currentState, "accept() failed: ", e);
     }

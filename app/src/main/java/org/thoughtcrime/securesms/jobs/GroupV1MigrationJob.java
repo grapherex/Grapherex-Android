@@ -62,7 +62,7 @@ public class GroupV1MigrationJob extends BaseJob {
   public static void enqueuePossibleAutoMigrate(@NonNull RecipientId recipientId) {
     SignalExecutors.BOUNDED.execute(() -> {
       if (Recipient.resolved(recipientId).isPushV1Group()) {
-        ApplicationDependencies.getJobManager().add(new GroupV1MigrationJob(recipientId));
+        //ApplicationDependencies.getJobManager().add(new GroupV1MigrationJob(recipientId));
       }
     });
   }
@@ -124,11 +124,11 @@ public class GroupV1MigrationJob extends BaseJob {
 
   @Override
   protected void onRun() throws IOException, GroupChangeBusyException, RetryLaterException {
-    try {
-      GroupsV1MigrationUtil.migrate(context, recipientId, false);
-    } catch (GroupsV1MigrationUtil.InvalidMigrationStateException e) {
-      Log.w(TAG, "Invalid migration state. Skipping.");
-    }
+//    try {
+//      GroupsV1MigrationUtil.migrate(context, recipientId, false);
+//    } catch (GroupsV1MigrationUtil.InvalidMigrationStateException e) {
+//      Log.w(TAG, "Invalid migration state. Skipping.");
+//    }
   }
 
   @Override

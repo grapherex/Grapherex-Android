@@ -490,7 +490,7 @@ public class ConversationActivity extends PassphraseRequiredActivity
   protected void onNewIntent(Intent intent) {
     super.onNewIntent(intent);
     Log.i(TAG, "onNewIntent()");
-    
+
     if (isFinishing()) {
       Log.w(TAG, "Activity is finishing...");
       return;
@@ -3614,9 +3614,10 @@ public class ConversationActivity extends PassphraseRequiredActivity
     BlockUnblockDialog.showUnblockFor(this, getLifecycle(), recipient, requestModel::onUnblock);
   }
 
-  private static void hideMenuItem(@NonNull Menu menu, @IdRes int menuItem) {
-    if (menu.findItem(menuItem) != null) {
-      menu.findItem(menuItem).setVisible(false);
+  private static void hideMenuItem(@NonNull Menu menu, @IdRes int menuItemRes) {
+    MenuItem menuItem = menu.findItem(menuItemRes);
+    if (menuItem != null) {
+      menuItem.setVisible(false);
     }
   }
 

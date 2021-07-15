@@ -47,7 +47,7 @@
         android:layout_marginTop="4dp"
         app:layout_constraintStart_toEndOf="@+id/ivAvatarPhoto"
         app:layout_constraintTop_toBottomOf="@+id/tvName"
-        app:srcCompat="@drawable/ic_calls_outgoing_call" />
+        tools:srcCompat="@drawable/ic_calls_outgoing_call" />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/ivCall"

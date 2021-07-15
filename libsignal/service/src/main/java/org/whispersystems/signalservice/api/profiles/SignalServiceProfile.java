@@ -85,7 +85,7 @@ public class SignalServiceProfile {
   }
 
     public String getAvatar() {
-        return avatar != null && avatar.getBucket() != null ? avatar.getBucket() : "";
+        return avatar != null && avatar.getAttachmentId() != null ? avatar.getAttachmentId() : "";
     }
 
     public String getUnidentifiedAccess() {

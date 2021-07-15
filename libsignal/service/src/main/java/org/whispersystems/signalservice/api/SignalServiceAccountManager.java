@@ -45,7 +45,7 @@ import org.whispersystems.signalservice.api.storage.StorageKey;
 import org.whispersystems.signalservice.api.storage.StorageManifestKey;
 import org.whispersystems.signalservice.api.util.CredentialsProvider;
 import org.whispersystems.signalservice.api.util.StreamDetails;
-import org.whispersystems.signalservice.internal.configuration.SignalServiceConfiguration;
+import org.whispersystems.signalservice.internal.configuration.GrapherexServiceConfiguration;
 import org.whispersystems.signalservice.internal.contacts.crypto.ContactDiscoveryCipher;
 import org.whispersystems.signalservice.internal.contacts.crypto.Quote;
 import org.whispersystems.signalservice.internal.contacts.crypto.RemoteAttestation;
@@ -121,7 +121,7 @@ public class SignalServiceAccountManager {
    * @param password A Signal Service password.
    * @param signalAgent A string which identifies the client software.
    */
-  public SignalServiceAccountManager(SignalServiceConfiguration configuration,
+  public SignalServiceAccountManager(GrapherexServiceConfiguration configuration,
                                      UUID uuid, String e164, String password,
                                      String signalAgent, boolean automaticNetworkRetry)
   {
@@ -132,7 +132,7 @@ public class SignalServiceAccountManager {
          automaticNetworkRetry);
   }
 
-  public SignalServiceAccountManager(SignalServiceConfiguration configuration,
+  public SignalServiceAccountManager(GrapherexServiceConfiguration configuration,
                                      CredentialsProvider credentialsProvider,
                                      String signalAgent,
                                      GroupsV2Operations groupsV2Operations,

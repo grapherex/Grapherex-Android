@@ -77,6 +77,7 @@ def abiPostFix = ['universal'   : 0,
 def keystores = [ 'debug'  : loadKeystoreProperties('keystore.debug.properties') ]
 
 android {
+
     buildToolsVersion BUILD_TOOL_VERSION
     compileSdkVersion COMPILE_SDK
 
@@ -119,6 +120,8 @@ android {
 
         versionCode canonicalVersionCode * postFixSize
         versionName canonicalVersionName
+
+        applicationId = "com.grapherex.app"
 
         minSdkVersion MINIMUM_SDK
         targetSdkVersion TARGET_SDK

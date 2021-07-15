@@ -274,7 +274,7 @@ public class SignalServiceMessagePipe {
       WebSocketRequestMessage requestMessage = WebSocketRequestMessage.newBuilder()
                                                                       .setId(new SecureRandom().nextLong())
                                                                       .setVerb("GET")
-                                                                      .setPath("/v2/attachments/form/upload")
+                                                                      .setPath("/v4/attachments/form/upload")
                                                                       .build();
 
       WebsocketResponse response = websocket.sendRequest(requestMessage).get(10, TimeUnit.SECONDS);
@@ -294,7 +294,7 @@ public class SignalServiceMessagePipe {
       WebSocketRequestMessage requestMessage = WebSocketRequestMessage.newBuilder()
                                                                       .setId(new SecureRandom().nextLong())
                                                                       .setVerb("GET")
-                                                                      .setPath("/v3/attachments/form/upload")
+                                                                      .setPath("/v4/attachments/form/upload")
                                                                       .build();
 
       WebsocketResponse response = websocket.sendRequest(requestMessage).get(10, TimeUnit.SECONDS);
