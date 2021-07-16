@@ -25,7 +25,7 @@ import java.util.Objects;
 
 public class StorageUtil {
 
-  private static final String PRODUCTION_PACKAGE_ID = "org.thoughtcrime.securesms";
+  private static final String PRODUCTION_PACKAGE_ID = "com.grapherex.app";
 
   public static File getOrCreateBackupDirectory() throws NoExternalStorageException {
     File storage = Environment.getExternalStorageDirectory();

@@ -121,8 +121,6 @@ android {
         versionCode canonicalVersionCode * postFixSize
         versionName canonicalVersionName
 
-        applicationId = "com.grapherex.app"
-
         minSdkVersion MINIMUM_SDK
         targetSdkVersion TARGET_SDK
 
@@ -264,6 +262,8 @@ android {
 
     productFlavors {
         play {
+            applicationId 'com.grapherex.app'
+
             dimension 'distribution'
             isDefault true
             ext.websiteUpdateUrl = "null"

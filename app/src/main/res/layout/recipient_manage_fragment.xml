@@ -109,7 +109,7 @@
                         style="@style/Widget.Signal.Button.Icon.Circular"
                         android:contentDescription="@string/ManageRecipientActivity_message_description"
                         app:backgroundTint="@color/recipient_contact_button_color"
-                        app:icon="@drawable/ic_message_primary_accent_24"
+                        app:icon="@drawable/ic_recipient_manage_chat"
                         app:rippleColor="@color/core_ultramarine" />
 
                     <com.google.android.material.button.MaterialButton
@@ -119,7 +119,7 @@
                         android:contentDescription="@string/ManageRecipientActivity_video_call_description"
                         android:visibility="gone"
                         app:backgroundTint="@color/recipient_contact_button_color"
-                        app:icon="@drawable/ic_video_primary_accent_24"
+                        app:icon="@drawable/ic_recipient_manage_video_call"
                         tools:visibility="visible" />
 
                     <com.google.android.material.button.MaterialButton
@@ -129,7 +129,7 @@
                         android:contentDescription="@string/ManageRecipientActivity_voice_call_description"
                         android:visibility="gone"
                         app:backgroundTint="@color/recipient_contact_button_color"
-                        app:icon="@drawable/ic_phone_right_primary_accent_24"
+                        app:icon="@drawable/ic_recipient_manage_audio_call"
                         tools:visibility="visible" />
 
                     <com.google.android.material.button.MaterialButton
@@ -250,8 +250,7 @@
                         android:paddingEnd="@dimen/group_manage_fragment_row_horizontal_padding"
                         android:textAppearance="@style/Signal.Text.Body"
                         android:textColor="@color/ultramarine_text_button"
-                        android:tint="?colorAccent"
-                        app:srcCompat="@drawable/ic_profile_circle_outline_24"
+                        app:srcCompat="@drawable/ic_recipient_manage_user"
                         tools:text="Off" />
 
                 </LinearLayout>
@@ -300,7 +299,7 @@
                         android:paddingEnd="@dimen/group_manage_fragment_row_horizontal_padding"
                         android:gravity="end"
                         android:textAppearance="@style/Signal.Text.Body"
-                        android:textColor="@color/ultramarine_text_button"
+                        android:textColor="@color/signal_text_secondary"
                         tools:text="Off" />
 
                 </LinearLayout>
@@ -401,7 +400,7 @@
                             android:paddingStart="@dimen/group_manage_fragment_row_horizontal_padding"
                             android:paddingEnd="@dimen/group_manage_fragment_row_horizontal_padding"
                             android:textAppearance="@style/Signal.Text.Body"
-                            android:textColor="@color/ultramarine_text_button"
+                            android:textColor="@color/signal_text_secondary"
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toEndOf="@id/recipient_custom_notifications"
@@ -571,7 +570,7 @@
                         android:layout_marginTop="0dp"
                         android:layout_marginBottom="8dp"
                         android:background="?selectableItemBackground"
-                        android:drawableStart="@drawable/ic_add_members_circle"
+                        android:drawableStart="@drawable/ic_recipient_manage_add_to_group"
                         android:drawablePadding="8dp"
                         android:gravity="center_vertical|start"
                         android:paddingStart="@dimen/group_manage_fragment_row_horizontal_padding"
@@ -579,7 +578,7 @@
                         android:text="@string/ManageRecipientActivity_add_to_a_group"
                         android:textAlignment="viewStart"
                         android:textAppearance="@style/Signal.Text.Body"
-                        android:textColor="@color/ultramarine_text_button" />
+                        android:textColor="@color/signal_text_secondary" />
 
                     <org.thoughtcrime.securesms.groups.ui.GroupMemberListView
                         android:id="@+id/shared_group_list"

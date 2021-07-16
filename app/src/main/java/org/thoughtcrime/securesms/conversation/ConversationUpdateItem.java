@@ -237,8 +237,7 @@ public final class ConversationUpdateItem extends FrameLayout
                        @NonNull Optional<MessageRecord> nextMessageRecord,
                        @NonNull Recipient conversationRecipient)
   {
-    if (batchSelected.contains(conversationMessage)) setSelected(true);
-    else                                             setSelected(false);
+    setSelected(batchSelected.contains(conversationMessage));
 
     if (conversationMessage.getMessageRecord().isGroupV1MigrationEvent() &&
         (!nextMessageRecord.isPresent() || !nextMessageRecord.get().isGroupV1MigrationEvent()))
