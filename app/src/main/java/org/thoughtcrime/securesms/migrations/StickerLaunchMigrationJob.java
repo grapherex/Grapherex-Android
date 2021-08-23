@@ -56,7 +56,7 @@ public class StickerLaunchMigrationJob extends MigrationJob {
       stickerDatabase.markPackAsInstalled(pack.getPackId(), false);
     }
 
-    jobManager.add(StickerPackDownloadJob.forInstall(pack.getPackId(), pack.getPackKey(), false));
+   // jobManager.add(StickerPackDownloadJob.forInstall(pack.getPackId(), pack.getPackKey(), false));
 
     if (TextSecurePreferences.isMultiDevice(context)) {
       jobManager.add(new MultiDeviceStickerPackOperationJob(pack.getPackId(), pack.getPackKey(), MultiDeviceStickerPackOperationJob.Type.INSTALL));

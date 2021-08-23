@@ -349,7 +349,7 @@ android {
 //                            "appDistributionUpload${variant.name.capitalize()}")
 //                }.each {
 //                    it.doFirst {
-//                        it.appDistributionProperties.appId = "1:59023565119:android:e9c2c226c1e22be216f38a"
+//                        it.appDistributionProperties.appId = "1:59023565119:android:e081c766e05d372516f38a"
 //                        it.appDistributionProperties.artifactPath = output.outputFile.absolutePath
 //                    }
 //                }
@@ -448,7 +448,7 @@ dependencies {
     implementation project(':device-transfer')
 
     implementation 'org.signal:zkgroup-android:0.7.0'
-    implementation 'org.whispersystems:signal-client-android:0.1.7'
+    implementation 'org.whispersystems:signal-client-android:0.8.3'
     implementation 'com.google.protobuf:protobuf-javalite:3.10.0'
 
     implementation('com.mobilecoin:android-sdk:1.0.0') {

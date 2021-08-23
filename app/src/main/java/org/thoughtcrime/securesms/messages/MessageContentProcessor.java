@@ -746,23 +746,23 @@ public final class MessageContentProcessor {
   private void handleSynchronizeStickerPackOperation(@NonNull List<StickerPackOperationMessage> stickerPackOperations) {
     JobManager jobManager = ApplicationDependencies.getJobManager();
 
-    for (StickerPackOperationMessage operation : stickerPackOperations) {
-      if (operation.getPackId().isPresent() && operation.getPackKey().isPresent() && operation.getType().isPresent()) {
-        String packId  = Hex.toStringCondensed(operation.getPackId().get());
-        String packKey = Hex.toStringCondensed(operation.getPackKey().get());
-
-        switch (operation.getType().get()) {
-          case INSTALL:
-            jobManager.add(StickerPackDownloadJob.forInstall(packId, packKey, false));
-            break;
-          case REMOVE:
-            DatabaseFactory.getStickerDatabase(context).uninstallPack(packId);
-            break;
-        }
-      } else {
-        warn("Received incomplete sticker pack operation sync.");
-      }
-    }
+//    for (StickerPackOperationMessage operation : stickerPackOperations) {
+//      if (operation.getPackId().isPresent() && operation.getPackKey().isPresent() && operation.getType().isPresent()) {
+//        String packId  = Hex.toStringCondensed(operation.getPackId().get());
+//        String packKey = Hex.toStringCondensed(operation.getPackKey().get());
+//
+//        switch (operation.getType().get()) {
+//          case INSTALL:
+//            jobManager.add(StickerPackDownloadJob.forInstall(packId, packKey, false));
+//            break;
+//          case REMOVE:
+//            DatabaseFactory.getStickerDatabase(context).uninstallPack(packId);
+//            break;
+//        }
+//      } else {
+//        warn("Received incomplete sticker pack operation sync.");
+//      }
+//    }
   }
 
   private void handleSynchronizeConfigurationMessage(@NonNull ConfigurationMessage configurationMessage) {

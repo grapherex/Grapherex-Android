@@ -30,7 +30,7 @@ import org.whispersystems.signalservice.internal.configuration.GrapherexServiceC
 import org.whispersystems.signalservice.internal.push.PushServiceSocket;
 import org.whispersystems.signalservice.internal.push.SignalServiceEnvelopeEntity;
 import org.whispersystems.signalservice.internal.push.SignalServiceMessagesResult;
-import org.whispersystems.signalservice.internal.sticker.StickerProtos;
+import org.whispersystems.signalservice.internal.push.SignalServiceProtos;
 import org.whispersystems.signalservice.internal.util.StaticCredentialsProvider;
 import org.whispersystems.signalservice.internal.util.Util;
 import org.whispersystems.signalservice.internal.util.concurrent.FutureTransformers;
@@ -70,7 +70,7 @@ public class SignalServiceMessageReceiver {
    * @param uuid The Signal Service UUID.
    * @param e164 The Signal Service phone number.
    * @param password The Signal Service user password.
-   * @param signalingKey The 52 byte signaling key assigned to this user at registration.
+  // * @param signalingKey The 52 byte signaling key assigned to this user at registration.
    */
   public SignalServiceMessageReceiver(GrapherexServiceConfiguration urls,
                                       UUID uuid,
@@ -135,18 +135,14 @@ public class SignalServiceMessageReceiver {
       if (requestType == SignalServiceProfile.RequestType.PROFILE_AND_CREDENTIAL) {
         return socket.retrieveVersionedProfileAndCredential(uuid.get(), profileKey.get(), unidentifiedAccess);
       } else {
-        return FutureTransformers.map(socket.retrieveVersionedProfile(uuid.get(), profileKey.get(), unidentifiedAccess), profile -> {
-          return new ProfileAndCredential(profile,
-                                          SignalServiceProfile.RequestType.PROFILE,
-                                          Optional.absent());
-        });
+        return FutureTransformers.map(socket.retrieveVersionedProfile(uuid.get(), profileKey.get(), unidentifiedAccess), profile -> new ProfileAndCredential(profile,
+                                        SignalServiceProfile.RequestType.PROFILE,
+                                        Optional.absent()));
       }
     } else {
-      return FutureTransformers.map(socket.retrieveProfile(address, unidentifiedAccess), profile -> {
-        return new ProfileAndCredential(profile,
-                                        SignalServiceProfile.RequestType.PROFILE,
-                                        Optional.absent());
-      });
+      return FutureTransformers.map(socket.retrieveProfile(address, unidentifiedAccess), profile -> new ProfileAndCredential(profile,
+                                      SignalServiceProfile.RequestType.PROFILE,
+                                      Optional.absent()));
     }
   }
 
@@ -210,23 +206,24 @@ public class SignalServiceMessageReceiver {
   public SignalServiceStickerManifest retrieveStickerManifest(byte[] packId, byte[] packKey)
       throws IOException, InvalidMessageException
   {
-    byte[] manifestBytes = socket.retrieveStickerManifest(packId);
-
-    InputStream           cipherStream = AttachmentCipherInputStream.createForStickerData(manifestBytes, packKey);
-    ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-
-    Util.copy(cipherStream, outputStream);
-
-    StickerProtos.Pack                             pack     = StickerProtos.Pack.parseFrom(outputStream.toByteArray());
-    List<SignalServiceStickerManifest.StickerInfo> stickers = new ArrayList<>(pack.getStickersCount());
-    SignalServiceStickerManifest.StickerInfo       cover    = pack.hasCover() ? new SignalServiceStickerManifest.StickerInfo(pack.getCover().getId(), pack.getCover().getEmoji(), pack.getCover().getContentType())
-                                                                          : null;
-
-    for (StickerProtos.Pack.Sticker sticker : pack.getStickersList()) {
-      stickers.add(new SignalServiceStickerManifest.StickerInfo(sticker.getId(), sticker.getEmoji(), sticker.getContentType()));
-    }
-
-    return new SignalServiceStickerManifest(pack.getTitle(), pack.getAuthor(), cover, stickers);
+//    byte[] manifestBytes = socket.retrieveStickerManifest(packId);
+//
+//    InputStream           cipherStream = AttachmentCipherInputStream.createForStickerData(manifestBytes, packKey);
+//    ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+//
+//    Util.copy(cipherStream, outputStream);
+//
+//    StickerProtos.Pack                             pack     = StickerProtos.Pack.parseFrom(outputStream.toByteArray());
+//    List<SignalServiceStickerManifest.StickerInfo> stickers = new ArrayList<>(pack.getStickersCount());
+//    SignalServiceStickerManifest.StickerInfo       cover    = pack.hasCover() ? new SignalServiceStickerManifest.StickerInfo(pack.getCover().getId(), pack.getCover().getEmoji(), pack.getCover().getContentType())
+//                                                                          : null;
+//
+//    for (SignalServiceProtos.Pack.Sticker sticker : pack.getStickersList()) {
+//      stickers.add(new SignalServiceStickerManifest.StickerInfo(sticker.getId(), sticker.getEmoji(), sticker.getContentType()));
+//    }
+//
+//    return new SignalServiceStickerManifest(pack.getTitle(), pack.getAuthor(), cover, stickers);
+    return null;
   }
 
   /**

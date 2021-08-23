@@ -50,12 +50,12 @@ class ContactDiscoveryV1 {
   private static @NonNull List<ContactTokenDetails> getTokens(@NonNull Set<String> numbers) throws IOException {
     SignalServiceAccountManager accountManager = ApplicationDependencies.getSignalServiceAccountManager();
 
-//    if (numbers.size() == 1) {
-//      Optional<ContactTokenDetails> details = accountManager.getContact(numbers.iterator().next());
-//      return details.isPresent() ? Collections.singletonList(details.get()) : Collections.emptyList();
-//    } else {
-//      return accountManager.getContacts(numbers);
-//    }
-    return accountManager.getContacts(numbers);
+    if (numbers.size() == 1) {
+      Optional<ContactTokenDetails> details = accountManager.getContact(numbers.iterator().next());
+      return details.isPresent() ? Collections.singletonList(details.get()) : Collections.emptyList();
+    } else {
+      return accountManager.getContacts(numbers);
+    }
+
   }
 }

@@ -117,6 +117,8 @@ public class AttachmentDatabase extends Database {
           static final String TRANSFORM_PROPERTIES   = "transform_properties";
           static final String DISPLAY_ORDER          = "display_order";
           static final String UPLOAD_TIMESTAMP       = "upload_timestamp";
+          static final String CREDENTIONALS       = "credentionals";
+          static final String BUCKET       = "bucket";
           static final String CDN_NUMBER             = "cdn_number";
 
   public  static final String DIRECTORY              = "parts";
@@ -139,7 +141,8 @@ public class AttachmentDatabase extends Database {
                                                            WIDTH, HEIGHT, CAPTION, STICKER_PACK_ID,
                                                            STICKER_PACK_KEY, STICKER_ID, STICKER_EMOJI, DATA_HASH, VISUAL_HASH,
                                                            TRANSFORM_PROPERTIES, TRANSFER_FILE, DISPLAY_ORDER,
-                                                           UPLOAD_TIMESTAMP };
+                                                           UPLOAD_TIMESTAMP,
+  CREDENTIONALS, BUCKET};
 
   public static final String CREATE_TABLE = "CREATE TABLE " + TABLE_NAME + " (" + ROW_ID                 + " INTEGER PRIMARY KEY, " +
                                                                                   MMS_ID                 + " INTEGER, " +
@@ -178,6 +181,8 @@ public class AttachmentDatabase extends Database {
                                                                                   TRANSFER_FILE          + " TEXT DEFAULT NULL, " +
                                                                                   DISPLAY_ORDER          + " INTEGER DEFAULT 0, " +
                                                                                   UPLOAD_TIMESTAMP       + " INTEGER DEFAULT 0, " +
+                                                                                  CREDENTIONALS       + " TEXT DEFAULT NULL, " +
+                                                                                  BUCKET       + " TEXT DEFAULT NULL, " +
                                                                                   CDN_NUMBER             + " INTEGER DEFAULT 0);";
 
   public static final String[] CREATE_INDEXS = {
@@ -682,6 +687,8 @@ public class AttachmentDatabase extends Database {
     values.put(FAST_PREFLIGHT_ID, attachment.getFastPreflightId());
     values.put(VISUAL_HASH, getVisualHashStringOrNull(attachment));
     values.put(UPLOAD_TIMESTAMP, uploadTimestamp);
+    values.put(CREDENTIONALS, attachment.getCredentionals());
+    values.put(BUCKET, attachment.getBucket());
 
     if (dataInfo != null && dataInfo.hash != null) {
       updateAttachmentAndMatchingHashes(database, id, dataInfo.hash, values);
@@ -1158,7 +1165,9 @@ public class AttachmentDatabase extends Database {
                                               MediaUtil.isAudioType(contentType) ? AudioHash.parseOrNull(object.getString(VISUAL_HASH)) : null,
                                               TransformProperties.parse(object.getString(TRANSFORM_PROPERTIES)),
                                               object.getInt(DISPLAY_ORDER),
-                                              object.getLong(UPLOAD_TIMESTAMP)));
+                                              object.getLong(UPLOAD_TIMESTAMP),
+                    object.getString(CREDENTIONALS),
+                    object.getString(BUCKET)));
           }
         }
 
@@ -1196,7 +1205,9 @@ public class AttachmentDatabase extends Database {
                                                                 MediaUtil.isAudioType(contentType) ? AudioHash.parseOrNull(cursor.getString(cursor.getColumnIndexOrThrow(VISUAL_HASH))) : null,
                                                                 TransformProperties.parse(cursor.getString(cursor.getColumnIndexOrThrow(TRANSFORM_PROPERTIES))),
                                                                 cursor.getInt(cursor.getColumnIndexOrThrow(DISPLAY_ORDER)),
-                                                                cursor.getLong(cursor.getColumnIndexOrThrow(UPLOAD_TIMESTAMP))));
+                                                                cursor.getLong(cursor.getColumnIndexOrThrow(UPLOAD_TIMESTAMP)),
+                                                                        cursor.getString(cursor.getColumnIndexOrThrow(CREDENTIONALS)),
+                                                                        cursor.getString(cursor.getColumnIndexOrThrow(BUCKET))));
       }
     } catch (JSONException e) {
       throw new AssertionError(e);
@@ -1255,6 +1266,9 @@ public class AttachmentDatabase extends Database {
       contentValues.put(QUOTE, quote);
       contentValues.put(CAPTION, attachment.getCaption());
       contentValues.put(UPLOAD_TIMESTAMP, useTemplateUpload ? template.getUploadTimestamp() : attachment.getUploadTimestamp());
+      contentValues.put(CREDENTIONALS, attachment.getCredentionals());
+      contentValues.put(BUCKET, attachment.getBucket());
+
       if (attachment.getTransformProperties().isVideoEdited()) {
         contentValues.putNull(VISUAL_HASH);
         contentValues.put(TRANSFORM_PROPERTIES, attachment.getTransformProperties().serialize());

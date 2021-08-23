@@ -697,7 +697,7 @@ public class PushServiceSocket {
     public void retrieveProfileAvatar(String path, File destination, long maxSizeBytes)
             throws IOException {
         try {
-            downloadFromCdn(destination, 0,"api/v1/osp/objects/profiles/"+ path, maxSizeBytes, null);
+            downloadFromCdn(destination, 0, "api/v1/osp/objects/profiles/" + path, maxSizeBytes, null);
         } catch (MissingConfigurationException e) {
             throw new AssertionError(e);
         }
@@ -728,7 +728,7 @@ public class PushServiceSocket {
 
             uploadToCdn0(ATTACHMENT_UPLOAD_PATH, formAttributes.getAcl(), formAttributes.getKey(),
                     formAttributes.getPolicy(), formAttributes.getAlgorithm(),
-                    formAttributes.getCredential(), formAttributes.getDate(),
+                    formAttributes.getCredential(), "", formAttributes.getDate(),
                     formAttributes.getSignature(), profileAvatar.getData(),
                     profileAvatar.getContentType(), profileAvatar.getDataLength(),
                     profileAvatar.getOutputStreamFactory(), null, null);
@@ -937,8 +937,7 @@ public class PushServiceSocket {
     public byte[] uploadGroupV2Avatar(byte[] avatarCipherText, AvatarUploadAttributes uploadAttributes)
             throws IOException {
         return uploadToCdn0(ATTACHMENT_UPLOAD_PATH, uploadAttributes.getAcl(), uploadAttributes.getKey(),
-                uploadAttributes.getPolicy(), uploadAttributes.getAlgorithm(),
-                uploadAttributes.getCredential(), uploadAttributes.getDate(),
+                uploadAttributes.getPolicy(), uploadAttributes.getAlgorithm(), uploadAttributes.getCredential(), "", uploadAttributes.getDate(),
                 uploadAttributes.getSignature(),
                 new ByteArrayInputStream(avatarCipherText),
                 "application/octet-stream", avatarCipherText.length,
@@ -950,8 +949,7 @@ public class PushServiceSocket {
             throws PushNetworkException, NonSuccessfulResponseCodeException {
         long id = Long.parseLong(uploadAttributes.getAttachmentId());
         byte[] digest = uploadToCdn0(ATTACHMENT_UPLOAD_PATH, uploadAttributes.getAcl(), uploadAttributes.getKey(),
-                uploadAttributes.getPolicy(), uploadAttributes.getAlgorithm(),
-                uploadAttributes.getCredential(), uploadAttributes.getDate(),
+                uploadAttributes.getPolicy(),uploadAttributes.getAlgorithm() , uploadAttributes.getCredential(), uploadAttributes.getAttachmentId(), uploadAttributes.getDate(),
                 uploadAttributes.getSignature(), attachment.getData(),
                 "application/octet-stream", attachment.getDataSize(),
                 attachment.getOutputStreamFactory(), attachment.getListener(),
@@ -1075,7 +1073,7 @@ public class PushServiceSocket {
     }
 
     private byte[] uploadToCdn0(String path, String acl, String key, String policy, String algorithm,
-                                String credential, String date, String signature,
+                                String credential, String attachmentId, String date, String signature,
                                 InputStream data, String contentType, long length,
                                 OutputStreamFactory outputStreamFactory, ProgressListener progressListener,
                                 CancelationSignal cancelationSignal)
@@ -1089,7 +1087,7 @@ public class PushServiceSocket {
 
         DigestingRequestBody file = new DigestingRequestBody(data, outputStreamFactory, contentType, length, progressListener, cancelationSignal, 0);
 
-        MultipartBody requestBody = requestBodyForAttachment(policy, file);
+        MultipartBody requestBody = requestBodyForAttachment(policy, credential, attachmentId, file);
 
         Request.Builder request = new Request.Builder()
                 .url(connectionHolder.getUrl() + "/" + path)
@@ -1125,23 +1123,23 @@ public class PushServiceSocket {
     }
 
     @NotNull
-    private MultipartBody requestBodyForAttachment(String policy, DigestingRequestBody file) {
-        MultipartBody requestBody = new MultipartBody.Builder()
+    private MultipartBody requestBodyForAttachment(String policy, String credential, String attachmentId, DigestingRequestBody file) {
+        return new MultipartBody.Builder()
                 .setType(MultipartBody.FORM)
-                .addFormDataPart("policy", policy)
+                .addFormDataPart("policy", policy != null ? policy : "")
+                .addFormDataPart("credential", credential != null ? credential : "")
+                .addFormDataPart("attachmentId", attachmentId != null ? attachmentId : "")
                 .addFormDataPart("file", "file", file)
                 .build();
-        return requestBody;
     }
 
     @NotNull
     private MultipartBody requestBodyForProfileAvatar(String policy, DigestingRequestBody file) {
-        MultipartBody requestBody = new MultipartBody.Builder()
+        return new MultipartBody.Builder()
                 .setType(MultipartBody.FORM)
                 .addFormDataPart("policy", policy)
                 .addFormDataPart("file", "file", file)
                 .build();
-        return requestBody;
     }
 
     private String getResumableUploadUrl(String signedUrl, Map<String, String> headers) throws IOException {

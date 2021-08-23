@@ -44,6 +44,8 @@ public abstract class Attachment {
   private final int     height;
   private final boolean quote;
   private final long    uploadTimestamp;
+  private final String    credentionals;
+  private final String    bucket;
 
   @Nullable
   private final String caption;
@@ -76,6 +78,8 @@ public abstract class Attachment {
                     int height,
                     boolean quote,
                     long uploadTimestamp,
+                    String credentionals,
+                    String bucket,
                     @Nullable String caption,
                     @Nullable StickerLocator stickerLocator,
                     @Nullable BlurHash blurHash,
@@ -98,6 +102,8 @@ public abstract class Attachment {
     this.height              = height;
     this.quote               = quote;
     this.uploadTimestamp     = uploadTimestamp;
+    this.credentionals     = credentionals;
+    this.bucket     = bucket;
     this.stickerLocator      = stickerLocator;
     this.caption             = caption;
     this.blurHash            = blurHash;
@@ -117,6 +123,14 @@ public abstract class Attachment {
   public boolean isInProgress() {
     return transferState != AttachmentDatabase.TRANSFER_PROGRESS_DONE &&
            transferState != AttachmentDatabase.TRANSFER_PROGRESS_FAILED;
+  }
+
+  public String getCredentionals() {
+    return credentionals;
+  }
+
+  public String getBucket() {
+    return bucket;
   }
 
   public long getSize() {

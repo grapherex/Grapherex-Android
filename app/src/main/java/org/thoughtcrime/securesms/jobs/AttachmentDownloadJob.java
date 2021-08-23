@@ -215,7 +215,11 @@ public final class AttachmentDownloadJob extends BaseJob {
                                                 attachment.isBorderless(),
                                                 Optional.absent(),
                                                 Optional.fromNullable(attachment.getBlurHash()).transform(BlurHash::getHash),
-                                                attachment.getUploadTimestamp());
+                                                attachment.getUploadTimestamp(),
+                                               null,
+              null
+
+      );
     } catch (IOException | ArithmeticException e) {
       Log.w(TAG, e);
       throw new InvalidPartException(e);

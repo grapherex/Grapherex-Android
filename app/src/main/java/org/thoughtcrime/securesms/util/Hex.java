@@ -47,8 +47,8 @@ public class Hex {
 
   public static String toStringCondensed(byte[] bytes) {
     StringBuffer buf = new StringBuffer();
-    for (int i=0;i<bytes.length;i++) {
-      appendHexChar(buf, bytes[i]);
+    for (byte aByte : bytes) {
+      appendHexChar(buf, aByte);
     }
     return buf.toString();
   }

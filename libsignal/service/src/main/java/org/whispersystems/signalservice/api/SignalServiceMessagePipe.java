@@ -8,7 +8,7 @@ package org.whispersystems.signalservice.api;
 
 import com.google.protobuf.ByteString;
 
-import org.signal.zkgroup.VerificationFailedException;
+
 import org.signal.zkgroup.profiles.ClientZkProfileOperations;
 import org.signal.zkgroup.profiles.ProfileKey;
 import org.signal.zkgroup.profiles.ProfileKeyCredential;
@@ -17,7 +17,6 @@ import org.signal.zkgroup.profiles.ProfileKeyCredentialRequestContext;
 import org.signal.zkgroup.profiles.ProfileKeyVersion;
 import org.whispersystems.libsignal.InvalidVersionException;
 import org.whispersystems.libsignal.logging.Log;
-import org.whispersystems.libsignal.util.Hex;
 import org.whispersystems.libsignal.util.guava.Optional;
 import org.whispersystems.signalservice.api.crypto.UnidentifiedAccess;
 import org.whispersystems.signalservice.api.messages.SignalServiceEnvelope;
@@ -33,6 +32,7 @@ import org.whispersystems.signalservice.internal.push.AttachmentV2UploadAttribut
 import org.whispersystems.signalservice.internal.push.AttachmentV3UploadAttributes;
 import org.whispersystems.signalservice.internal.push.OutgoingPushMessageList;
 import org.whispersystems.signalservice.internal.push.SendMessageResponse;
+import org.whispersystems.signalservice.internal.util.Hex;
 import org.whispersystems.signalservice.internal.util.JsonUtil;
 import org.whispersystems.signalservice.internal.util.Util;
 import org.whispersystems.signalservice.internal.util.concurrent.FutureTransformers;
@@ -242,12 +242,12 @@ public class SignalServiceMessagePipe {
         ProfileKeyCredentialRequest request           = requestContext.getRequest();
         String                      credentialRequest = Hex.toStringCondensed(request.serialize());
 
-        builder.setPath(String.format("/v1/profile/%s/%s/%s", target, version, credentialRequest));
+        builder.setPath(String.format("/v2/profile/%s/%s/%s", target, version, credentialRequest));
       } else {
-        builder.setPath(String.format("/v1/profile/%s/%s", target, version));
+        builder.setPath(String.format("/v2/profile/%s/%s", target, version));
       }
     } else {
-      builder.setPath(String.format("/v1/profile/%s", address.getIdentifier()));
+      builder.setPath(String.format("/v2/profile/%s", address.getIdentifier()));
     }
 
     final ProfileKeyCredentialRequestContext finalRequestContext = requestContext;

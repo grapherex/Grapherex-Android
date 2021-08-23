@@ -35,9 +35,11 @@ public class PointerAttachment extends Attachment {
                             long uploadTimestamp,
                             @Nullable String caption,
                             @Nullable StickerLocator stickerLocator,
-                            @Nullable BlurHash blurHash)
+                            @Nullable BlurHash blurHash,
+                            String credentials,
+                            String bucket)
   {
-    super(contentType, transferState, size, fileName, cdnNumber, location, key, relay, digest, fastPreflightId, voiceNote, borderless, width, height, false, uploadTimestamp, caption, stickerLocator, blurHash, null, null);
+    super(contentType, transferState, size, fileName, cdnNumber, location, key, relay, digest, fastPreflightId, voiceNote, borderless, width, height, false, uploadTimestamp, credentials,bucket,caption, stickerLocator, blurHash, null, null);
   }
 
   @Nullable
@@ -116,7 +118,9 @@ public class PointerAttachment extends Attachment {
                                              pointer.get().asPointer().getUploadTimestamp(),
                                              pointer.get().asPointer().getCaption().orNull(),
                                              stickerLocator,
-                                             BlurHash.parseOrNull(pointer.get().asPointer().getBlurHash().orNull())));
+                                             BlurHash.parseOrNull(pointer.get().asPointer().getBlurHash().orNull()),
+            pointer.get().asPointer().getCredentionals().orNull()
+            ,pointer.get().asPointer().getBucket().orNull()));
 
   }
 
@@ -140,6 +144,8 @@ public class PointerAttachment extends Attachment {
                                              thumbnail != null ? thumbnail.asPointer().getUploadTimestamp() : 0,
                                              thumbnail != null ? thumbnail.asPointer().getCaption().orNull() : null,
                                              null,
-                                             null));
+                                             null,
+            thumbnail != null ? thumbnail.asPointer().getCredentionals().orNull() :""
+            ,  thumbnail != null ?thumbnail.asPointer().getBucket().orNull():""));
   }
 }

@@ -58,10 +58,10 @@ public class StickerAdditionMigrationJob extends MigrationJob {
   public void performMigration() {
     JobManager jobManager = ApplicationDependencies.getJobManager();
 
-    for (BlessedPacks.Pack pack : packs) {
-      Log.i(TAG, "Installing reference for blessed pack: " + pack.getPackId());
-      jobManager.add(StickerPackDownloadJob.forReference(pack.getPackId(), pack.getPackKey()));
-    }
+//    for (BlessedPacks.Pack pack : packs) {
+//      Log.i(TAG, "Installing reference for blessed pack: " + pack.getPackId());
+//      jobManager.add(StickerPackDownloadJob.forReference(pack.getPackId(), pack.getPackKey()));
+//    }
   }
 
   @Override

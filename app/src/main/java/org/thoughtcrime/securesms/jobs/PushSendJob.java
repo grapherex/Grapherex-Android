@@ -249,7 +249,7 @@ public abstract class PushSendJob extends SendJob {
                                                 attachment.isBorderless(),
                                                 Optional.fromNullable(attachment.getCaption()),
                                                 Optional.fromNullable(attachment.getBlurHash()).transform(BlurHash::getHash),
-                                                attachment.getUploadTimestamp());
+                                                attachment.getUploadTimestamp(), Optional.of(attachment.getCredentionals()), Optional.of(attachment.getBucket()));
     } catch (IOException | ArithmeticException e) {
       Log.w(TAG, e);
       return null;

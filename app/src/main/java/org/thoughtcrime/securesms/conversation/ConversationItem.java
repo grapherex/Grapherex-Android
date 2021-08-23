@@ -1258,13 +1258,11 @@ public final class ConversationItem extends RelativeLayout implements BindableCo
     if (isSingularMessage(current, previous, next, isGroupThread)) {
       if (current.isOutgoing()) {
         background = R.drawable.message_bubble_background_sent_alone;
-        outliner.setRadius(bigRadius);
-        pulseOutliner.setRadius(bigRadius);
       } else {
         background = R.drawable.message_bubble_background_received_alone;
-        outliner.setRadius(bigRadius);
-        pulseOutliner.setRadius(bigRadius);
       }
+      outliner.setRadius(bigRadius);
+      pulseOutliner.setRadius(bigRadius);
     } else if (isStartOfMessageCluster(current, previous, isGroupThread)) {
       if (current.isOutgoing()) {
         background = R.drawable.message_bubble_background_sent_start;

@@ -45,7 +45,7 @@ final class StickerManagementRepository {
           String packId  = cursor.getString(cursor.getColumnIndexOrThrow(AttachmentDatabase.STICKER_PACK_ID));
           String packKey = cursor.getString(cursor.getColumnIndexOrThrow(AttachmentDatabase.STICKER_PACK_KEY));
 
-          jobManager.add(StickerPackDownloadJob.forReference(packId, packKey));
+         // jobManager.add(StickerPackDownloadJob.forReference(packId, packKey));
         }
       }
     });
@@ -92,7 +92,7 @@ final class StickerManagementRepository {
         stickerDatabase.markPackAsInstalled(packId, notify);
       }
 
-      jobManager.add(StickerPackDownloadJob.forInstall(packId, packKey, notify));
+     // jobManager.add(StickerPackDownloadJob.forInstall(packId, packKey, notify));
 
       if (TextSecurePreferences.isMultiDevice(context)) {
         jobManager.add(new MultiDeviceStickerPackOperationJob(packId, packKey, MultiDeviceStickerPackOperationJob.Type.INSTALL));

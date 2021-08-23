@@ -33,6 +33,35 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59023565119:android:4d00c25d58583a1c16f38a",
+        "android_client_info": {
+          "package_name": "org.thoughtcrime.securesms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59023565119-tqv9bo5li1u3uniqiqphi1j5462hm1n5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmOgojWunFN5au3Ytp8mtm3X9ELN7DtGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59023565119-tqv9bo5li1u3uniqiqphi1j5462hm1n5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"

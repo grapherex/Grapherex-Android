@@ -140,6 +140,19 @@ public abstract class MessageRecord extends DisplayRecord {
     return new SpannableString(getBody());
   }
 
+  public boolean isCallInfo(){
+      return isIncomingAudioCall()
+              ||isIncomingVideoCall()
+              ||isOutgoingAudioCall()
+              ||isOutgoingVideoCall()
+              ||isMissedAudioCall()
+              ||isMissedVideoCall();
+  }
+
+  public boolean isOutgoingCall(){
+      return isOutgoingAudioCall() ||isOutgoingVideoCall();
+  }
+
   public @Nullable UpdateDescription getUpdateDisplayBody(@NonNull Context context) {
     if (isGroupUpdate() && isGroupV2()) {
       return getGv2ChangeDescription(context, getBody());

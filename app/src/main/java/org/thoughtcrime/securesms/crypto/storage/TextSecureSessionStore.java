@@ -10,6 +10,7 @@ import org.thoughtcrime.securesms.database.DatabaseFactory;
 import org.thoughtcrime.securesms.database.SessionDatabase;
 import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.recipients.RecipientId;
+import org.whispersystems.libsignal.NoSessionException;
 import org.whispersystems.libsignal.SignalProtocolAddress;
 import org.whispersystems.libsignal.protocol.CiphertextMessage;
 import org.whispersystems.libsignal.state.SessionRecord;
@@ -45,6 +46,11 @@ public class TextSecureSessionStore implements SignalServiceSessionStore {
   }
 
   @Override
+  public List<SessionRecord> loadExistingSessions(List<SignalProtocolAddress> addresses) throws NoSessionException {
+    return null;
+  }
+
+  @Override
   public void storeSession(@NonNull SignalProtocolAddress address, @NonNull SessionRecord record) {
     try (SignalSessionLock.Lock unused = DatabaseSessionLock.INSTANCE.acquire()) {
       RecipientId id = Recipient.external(context, address.getName()).getId();
@@ -60,8 +66,8 @@ public class TextSecureSessionStore implements SignalServiceSessionStore {
         SessionRecord sessionRecord = DatabaseFactory.getSessionDatabase(context).load(recipientId, address.getDeviceId());
 
         return sessionRecord != null &&
-               sessionRecord.getSessionState().hasSenderChain() &&
-               sessionRecord.getSessionState().getSessionVersion() == CiphertextMessage.CURRENT_VERSION;
+               sessionRecord.hasSenderChain() &&
+               sessionRecord.getSessionVersion() == CiphertextMessage.CURRENT_VERSION;
       } else {
         return false;
       }

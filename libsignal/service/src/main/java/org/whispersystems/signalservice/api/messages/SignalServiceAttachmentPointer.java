@@ -32,6 +32,8 @@ public class SignalServiceAttachmentPointer extends SignalServiceAttachment {
   private final Optional<String>                caption;
   private final Optional<String>                blurHash;
   private final long                            uploadTimestamp;
+  private final Optional<String>                             credentionals;
+  private final Optional<String>                             bucket;
 
   public SignalServiceAttachmentPointer(int cdnNumber,
                                         SignalServiceAttachmentRemoteId remoteId,
@@ -47,7 +49,10 @@ public class SignalServiceAttachmentPointer extends SignalServiceAttachment {
                                         boolean borderless,
                                         Optional<String> caption,
                                         Optional<String> blurHash,
-                                        long uploadTimestamp)
+                                        long uploadTimestamp,
+                                        Optional<String>                             credentionals,
+                                        Optional<String>                             bucket
+  )
   {
     super(contentType);
     this.cdnNumber       = cdnNumber;
@@ -64,6 +69,8 @@ public class SignalServiceAttachmentPointer extends SignalServiceAttachment {
     this.caption         = caption;
     this.blurHash        = blurHash;
     this.uploadTimestamp = uploadTimestamp;
+    this.credentionals = credentionals;
+    this.bucket = bucket;
   }
 
   public int getCdnNumber() {
@@ -130,5 +137,13 @@ public class SignalServiceAttachmentPointer extends SignalServiceAttachment {
 
   public long getUploadTimestamp() {
     return uploadTimestamp;
+  }
+
+  public Optional<String> getCredentionals() {
+    return credentionals;
+  }
+
+  public Optional<String> getBucket() {
+    return bucket;
   }
 }
