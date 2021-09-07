@@ -20,7 +20,8 @@ import androidx.core.content.ContextCompat;
 import androidx.preference.CheckBoxPreference;
 import androidx.preference.Preference;
 
-import com.google.firebase.iid.FirebaseInstanceId;
+
+import com.google.firebase.installations.FirebaseInstallations;
 
 import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.ApplicationPreferencesActivity;
@@ -270,7 +271,7 @@ public class AdvancedPreferenceFragment extends CorrectedPreferenceFragment {
           }
 
           if (!TextSecurePreferences.isFcmDisabled(context)) {
-            FirebaseInstanceId.getInstance().deleteInstanceId();
+            FirebaseInstallations.getInstance().delete();
           }
 
           return SUCCESS;

@@ -550,7 +550,7 @@ public final class GrapherexCallManager implements CallManager.Observer, GroupCa
       try {
         messageSender.sendCallMessage(RecipientUtil.toSignalServiceAddress(context, recipient),
                                       UnidentifiedAccessUtil.getAccessFor(context, recipient),
-                                      callMessage);
+                                      callMessage, null, null);
       } catch (UntrustedIdentityException e) {
         Log.i(TAG, "sendOpaqueCallMessage onFailure: ", e);
         process((s, p) -> p.handleGroupMessageSentError(s, new RemotePeer(recipient.getId()), UNTRUSTED_IDENTITY, Optional.fromNullable(e.getIdentityKey())));
@@ -715,7 +715,12 @@ public final class GrapherexCallManager implements CallManager.Observer, GroupCa
   }
 
   public void sendCallMessage(@NonNull final RemotePeer remotePeer,
-                              @NonNull final SignalServiceCallMessage callMessage)
+                              @NonNull final SignalServiceCallMessage callMessage){
+    sendCallMessage(remotePeer, callMessage, null);
+  }
+
+  public void sendCallMessage(@NonNull final RemotePeer remotePeer,
+                              @NonNull final SignalServiceCallMessage callMessage, String type)
   {
     networkExecutor.execute(() -> {
       Recipient recipient = Recipient.resolved(remotePeer.getId());
@@ -726,7 +731,7 @@ public final class GrapherexCallManager implements CallManager.Observer, GroupCa
       try {
         messageSender.sendCallMessage(RecipientUtil.toSignalServiceAddress(context, recipient),
                                       UnidentifiedAccessUtil.getAccessFor(context, recipient),
-                                      callMessage);
+                                      callMessage, type, Recipient.self().getUuid().get().toString());
         process((s, p) -> p.handleMessageSentSuccess(s, remotePeer.getCallId()));
       } catch (UntrustedIdentityException e) {
         processSendMessageFailureWithChangeDetection(remotePeer,

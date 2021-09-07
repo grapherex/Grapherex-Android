@@ -175,6 +175,7 @@ public class PushServiceSocket {
     private static final String SET_USERNAME_PATH = "/v1/accounts/username/%s";
     private static final String DELETE_USERNAME_PATH = "/v1/accounts/username";
     private static final String DELETE_ACCOUNT_PATH = "/v1/accounts/me";
+    private static final String CALL_ACCOUNT_PATH = "/v1/accounts/call/";
 
     private static final String PREKEY_METADATA_PATH = "/v2/keys/";
     private static final String PREKEY_PATH = "/v2/keys/%s";
@@ -949,7 +950,7 @@ public class PushServiceSocket {
             throws PushNetworkException, NonSuccessfulResponseCodeException {
         long id = Long.parseLong(uploadAttributes.getAttachmentId());
         byte[] digest = uploadToCdn0(ATTACHMENT_UPLOAD_PATH, uploadAttributes.getAcl(), uploadAttributes.getKey(),
-                uploadAttributes.getPolicy(),uploadAttributes.getAlgorithm() , uploadAttributes.getCredential(), uploadAttributes.getAttachmentId(), uploadAttributes.getDate(),
+                uploadAttributes.getPolicy(), uploadAttributes.getAlgorithm(), uploadAttributes.getCredential(), uploadAttributes.getAttachmentId(), uploadAttributes.getDate(),
                 uploadAttributes.getSignature(), attachment.getData(),
                 "application/octet-stream", attachment.getDataSize(),
                 attachment.getOutputStreamFactory(), attachment.getListener(),
@@ -1716,6 +1717,15 @@ public class PushServiceSocket {
         }
 
         throw new NonSuccessfulResponseCodeException(response.code(), "Response: " + response);
+    }
+
+    public void makeOutgoingCallRequest(String senderNumber, String recipientId, String type) throws IOException {
+        recipientId = "\\\"" + recipientId + "\\\",";
+        type = "\\\"" + type + "\\\"";
+
+        String request = "{\"message\":\"{\\\"aps\\\":{\\\"sound\\\":\\\"default\\\",\\\"alert\\\":{\\\"loc-key\\\":\\\"APN_Message\\\"}}, \\\"sender\\\" :" + recipientId + "\\\"callType\\\" :" + type + "}\"}";
+
+        makeServiceRequest(CALL_ACCOUNT_PATH + senderNumber, "PUT", request);
     }
 
     public CallingResponse makeCallingRequest(long requestId, String url, String httpMethod, List<Pair<String, String>> headers, byte[] body) {

@@ -81,7 +81,8 @@ public class SignalServiceCipher {
 
   public OutgoingPushMessage encrypt(SignalProtocolAddress        destination,
                                      Optional<UnidentifiedAccess> unidentifiedAccess,
-                                     byte[]                       unpaddedMessage)
+                                     byte[]                       unpaddedMessage,
+                                     boolean online)
       throws UntrustedIdentityException, InvalidKeyException
   {
     if (unidentifiedAccess.isPresent()) {
@@ -91,7 +92,7 @@ public class SignalServiceCipher {
       String                    body                 = Base64.encodeBytes(ciphertext);
       int                       remoteRegistrationId = sessionCipher.getRemoteRegistrationId(destination);
 
-      return new OutgoingPushMessage(Type.UNIDENTIFIED_SENDER_VALUE, destination.getDeviceId(), remoteRegistrationId, body);
+      return new OutgoingPushMessage(Type.UNIDENTIFIED_SENDER_VALUE, destination.getDeviceId(), remoteRegistrationId, body, online);
     } else {
       SignalSessionCipher  sessionCipher        = new SignalSessionCipher(sessionLock, new SessionCipher(signalProtocolStore, destination));
       PushTransportDetails transportDetails     = new PushTransportDetails(sessionCipher.getSessionVersion());
@@ -107,7 +108,7 @@ public class SignalServiceCipher {
         default: throw new AssertionError("Bad type: " + message.getType());
       }
 
-      return new OutgoingPushMessage(type, destination.getDeviceId(), remoteRegistrationId, body);
+      return new OutgoingPushMessage(type, destination.getDeviceId(), remoteRegistrationId, body, online);
     }
   }
 

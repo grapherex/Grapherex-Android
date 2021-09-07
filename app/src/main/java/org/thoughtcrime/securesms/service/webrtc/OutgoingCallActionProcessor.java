@@ -100,7 +100,7 @@ public class OutgoingCallActionProcessor extends DeviceAwareActionProcessor {
     Integer                  destinationDeviceId = broadcast ? null : callMetadata.getRemoteDevice();
     SignalServiceCallMessage callMessage         = SignalServiceCallMessage.forOffer(offerMessage, true, destinationDeviceId);
 
-    webRtcInteractor.sendCallMessage(callMetadata.getRemotePeer(), callMessage);
+    webRtcInteractor.sendCallMessageWithType(callMetadata.getRemotePeer(), callMessage, offerMetadata.getOfferType().getCode());
 
     return currentState;
   }

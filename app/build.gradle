@@ -132,23 +132,6 @@ android {
         buildConfigField "long", "BUILD_TIMESTAMP", getLastCommitTimestamp() + "L"
         buildConfigField "String", "GIT_HASH", "\"${getGitHash()}\""
 
-        //buildConfigField "String", "SIGNAL_URL", "\"https://textsecure-service.whispersystems.org\""
-        // buildConfigField "String", "SIGNAL_URL", "\"https://api.grapherex.com\""
-        buildConfigField "String", "SIGNAL_URL", "\"https://api.grapherextests.com\""
-
-        //buildConfigField "String", "STORAGE_URL", "\"https://storage.signal.org\""
-        buildConfigField "String", "STORAGE_URL", "\"https://storage.grapherextests.com\""
-
-        // buildConfigField "String", "SIGNAL_CDN_URL", "\"https://cdn.signal.org\""
-        buildConfigField "String", "SIGNAL_CDN_URL", "\"https://cdn.grapherextests.com\""
-
-        // buildConfigField "String", "SIGNAL_CDN2_URL", "\"https://cdn2.signal.org\""
-        buildConfigField "String", "SIGNAL_CDN2_URL", "\"https://cdn.grapherextests.com\""
-
-        // buildConfigField "String", "SIGNAL_CONTACT_DISCOVERY_URL", "\"https://api.directory.signal.org\""
-        //buildConfigField "String", "SIGNAL_CONTACT_DISCOVERY_URL", "\"https://api.grapherex.com\""
-        buildConfigField "String", "SIGNAL_CONTACT_DISCOVERY_URL", "\"https://api.grapherextests.com\""
-
         buildConfigField "String", "SIGNAL_SERVICE_STATUS_URL", "\"uptime.signal.org\""
 
         // buildConfigField "String", "SIGNAL_KEY_BACKUP_URL", "\"https://api.backup.signal.org\""
@@ -163,8 +146,7 @@ android {
                 "\"fe7c1bfae98f9b073d220366ea31163ee82f6d04bead774f71ca8e5c40847bfe\", " +
                 "\"a3baab19ef6ce6f34ab9ebb25ba722725ae44a8872dc0ff08ad6d83a9489de87\")";
         buildConfigField "KbsEnclave[]", "KBS_FALLBACKS", "new KbsEnclave[0]"
-        buildConfigField "String", "UNIDENTIFIED_SENDER_TRUST_ROOT", "\"BTdIuRPrgRf3GnJXgjjqddSrLng6VkZTZNDR7qXjmrlz\""
-        buildConfigField "String", "ZKGROUP_SERVER_PUBLIC_PARAMS", "\"ALRbOPkWOmalFte5ILZa4zeCyxE0e3IlPpKOWPgR3dMrRLeXssRKNsvUg/m+IugL1skJqi8WPQE9Nfk8ujsSWDOcSn5+444FYgHJ7ofg7P4QRDPkEtC0fsSGlyCfnus2Unp+qDmfd4lHTBBmpXdl4gSMpwS8cXGfwII6iY7JObE+tuVY5R4MeH0IHRw5DYiH9t1EZs9oNeqk7EEN2bM5InU==\""
+
         buildConfigField "String[]", "LANGUAGES", "new String[]{\"" + autoResConfig().collect { s -> s.replace('-r', '_') }.join('", "') + '"}'
         buildConfigField "int", "CANONICAL_VERSION_CODE", "$canonicalVersionCode"
         buildConfigField "String", "DEFAULT_CURRENCIES", "\"EUR,AUD,GBP,CAD,CNY\""
@@ -269,12 +251,6 @@ android {
             ext.websiteUpdateUrl = "null"
             buildConfigField "boolean", "PLAY_STORE_DISABLED", "false"
             buildConfigField "String", "NOPLAY_UPDATE_URL", "$ext.websiteUpdateUrl"
-
-            firebaseAppDistribution {
-                // releaseNotesFile="/path/to/releasenotes.txt"
-                serviceCredentialsFile="./app/androiddev-310512-0d587e362f53.json"
-                testers = "ak@skytech.app, id@stacle.com"
-            }
         }
 
         website {
@@ -299,13 +275,55 @@ android {
             buildConfigField "boolean", "PLAY_STORE_DISABLED", "false"
             buildConfigField "String", "NOPLAY_UPDATE_URL", "$ext.websiteUpdateUrl"
         }
+        dev {
+            dimension 'environment'
 
+            isDefault true
+
+            buildConfigField "String", "MOBILE_COIN_ENVIRONMENT", "\"mainnet\""
+
+            buildConfigField "String", "SIGNAL_URL", "\"https://api.grapherextests.com\""
+            buildConfigField "String", "STORAGE_URL", "\"https://storage.grapherextests.com\""
+            buildConfigField "String", "SIGNAL_CDN_URL", "\"https://cdn.grapherextests.com\""
+            buildConfigField "String", "SIGNAL_CDN2_URL", "\"https://cdn.grapherextests.com\""
+            buildConfigField "String", "SIGNAL_CONTACT_DISCOVERY_URL", "\"https://api.grapherextests.com\""
+
+            buildConfigField "String", "UNIDENTIFIED_SENDER_TRUST_ROOT", "\"BTdIuRPrgRf3GnJXgjjqddSrLng6VkZTZNDR7qXjmrlz\""
+            buildConfigField "String", "ZKGROUP_SERVER_PUBLIC_PARAMS", "\"ALRbOPkWOmalFte5ILZa4zeCyxE0e3IlPpKOWPgR3dMrRLeXssRKNsvUg/m+IugL1skJqi8WPQE9Nfk8ujsSWDOcSn5+444FYgHJ7ofg7P4QRDPkEtC0fsSGlyCfnus2Unp+qDmfd4lHTBBmpXdl4gSMpwS8cXGfwII6iY7JObE+tuVY5R4MeH0IHRw5DYiH9t1EZs9oNeqk7EEN2bM5InU==\""
+
+            firebaseAppDistribution {
+                // releaseNotesFile="/path/to/releasenotes.txt"
+                serviceCredentialsFile="./app/androiddev-310512-0d587e362f53.json"
+                testers = "ak@skytech.app, ap@stacle.com, id@grapherex.com"
+                appId ="1:59023565119:android:e081c766e05d372516f38a"
+                artifactType="APK"
+                artifactPath="$rootDir/app/build/outputs/apk/playDev/debug/Signal-Android-play-dev-universal-debug5.8.9.apk"
+            }
+        }
         prod {
             dimension 'environment'
 
             isDefault true
 
             buildConfigField "String", "MOBILE_COIN_ENVIRONMENT", "\"mainnet\""
+
+            buildConfigField "String", "SIGNAL_URL", "\"https://api.grapherex.com\""
+            buildConfigField "String", "STORAGE_URL", "\"https://storage.grapherex.com\""
+            buildConfigField "String", "SIGNAL_CDN_URL", "\"https://cdn.grapherex.com\""
+            buildConfigField "String", "SIGNAL_CDN2_URL", "\"https://cdn.grapherex.com\""
+            buildConfigField "String", "SIGNAL_CONTACT_DISCOVERY_URL", "\"https://api.grapherex.com\""
+
+            buildConfigField "String", "UNIDENTIFIED_SENDER_TRUST_ROOT", "\"BX/Mjk0HarJmhgYrNuAbK5MkcWhq+Syv3cRVLlO2XbVI\""
+            buildConfigField "String", "ZKGROUP_SERVER_PUBLIC_PARAMS", "\"AJ5s6oYLJTKMeGXCIZB52Vh3+aTvM/ulexj2X0OM3uM1Sg0QbMOfWLnGiQwzZEBOXHyjIAOWtfqWkJE8kysABwHe8ODl0xul0NnsQjpTxG6S4RpiRk5STFHPHtRJ/I9UIh7I36P/D3FzqoiUCaU1BkpAhTS05VeXJTwyTWPn2Eh6sE0Fkw12/dKZTBm0ImTiUTs9bd1P0LZjacfmM4kZZi4==\""
+
+            firebaseAppDistribution {
+                // releaseNotesFile="/path/to/releasenotes.txt"
+                serviceCredentialsFile="./app/androiddev-310512-0d587e362f53.json"
+                testers = "ak@skytech.app, ap@stacle.com, id@grapherex.com"
+                appId ="1:59023565119:android:e081c766e05d372516f38a"
+                artifactType="APK"
+                artifactPath="$rootDir/app/build/outputs/apk/playProd/debug/Signal-Android-play-prod-universal-debug5.8.9.apk"
+            }
         }
 
 //        staging {
@@ -332,28 +350,16 @@ android {
 
     android.applicationVariants.all { variant ->
         variant.outputs.each { output ->
-            output.outputFileName = output.outputFileName.replace(".apk", "-${variant.versionName}.apk")
-            def abiName = output.getFilter("ABI") ?: 'universal'
-            output.outputFileName = output.outputFileName.replace(".apk", "${abiName}-${variant.versionName}.apk")
-            def postFix = abiPostFix.get(abiName, 0)
+            def flavorName = variant.getFlavorName()
+
+            def filter = output.getFilter("ABI") ?: 'universal'
+            output.outputFileName = output.outputFileName.replace(".apk", "${variant.versionName}.apk")
+            def postFix = abiPostFix.get(filter, 0)
 
             if (postFix >= postFixSize) throw new AssertionError("postFix is too large")
 
             output.versionCodeOverride = canonicalVersionCode * postFixSize + postFix
-
-            def filter = output.getFilter(com.android.build.OutputFile.ABI)
-
-            if (filter == null) {
-                tasks.findAll {
-                    it.name.startsWith(
-                            "appDistributionUpload${variant.name.capitalize()}")
-                }.each {
-                    it.doFirst {
-                        it.appDistributionProperties.appId = "1:59023565119:android:e081c766e05d372516f38a"
-                        it.appDistributionProperties.artifactPath = output.outputFile.absolutePath
-                    }
-                }
-            }
+            output.versionNameOverride = canonicalVersionName + "-" + flavorName
         }
     }
 
@@ -425,14 +431,17 @@ dependencies {
     implementation "androidx.autofill:autofill:1.0.0"
     implementation "androidx.biometric:biometric:1.1.0"
 
-    implementation ('com.google.firebase:firebase-messaging:20.2.0') {
+    implementation ('com.google.firebase:firebase-messaging:22.0.0') {
         exclude group: 'com.google.firebase', module: 'firebase-core'
         exclude group: 'com.google.firebase', module: 'firebase-analytics'
         exclude group: 'com.google.firebase', module: 'firebase-measurement-connector'
     }
 
-    implementation 'com.google.android.gms:play-services-maps:16.1.0'
-    implementation 'com.google.android.gms:play-services-auth:16.0.1'
+    implementation 'com.google.firebase:firebase-core:19.0.1'
+
+    implementation 'com.google.android.gms:play-services-maps:17.0.1'
+    implementation 'com.google.android.gms:play-services-auth:19.2.0'
+    implementation 'com.google.android.gms:play-services-analytics:17.0.1'
 
     implementation 'com.google.android.exoplayer:exoplayer-core:2.9.1'
     implementation 'com.google.android.exoplayer:exoplayer-ui:2.9.1'

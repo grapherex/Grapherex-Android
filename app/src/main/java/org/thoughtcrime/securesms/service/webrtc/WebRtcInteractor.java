@@ -90,6 +90,10 @@ public class WebRtcInteractor {
     grapherexCallManager.sendCallMessage(remotePeer, callMessage);
   }
 
+  void sendCallMessageWithType(@NonNull RemotePeer remotePeer, @NonNull SignalServiceCallMessage callMessage, String type) {
+    grapherexCallManager.sendCallMessage(remotePeer, callMessage, type);
+  }
+
   void sendGroupCallMessage(@NonNull Recipient recipient, @Nullable String groupCallEraId) {
     grapherexCallManager.sendGroupCallUpdateMessage(recipient, groupCallEraId);
   }

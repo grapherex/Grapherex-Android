@@ -23,11 +23,13 @@ public class OutgoingPushMessage {
   public OutgoingPushMessage(int type,
                              int destinationDeviceId,
                              int destinationRegistrationId,
-                             String content)
+                             String content,
+                             boolean online)
   {
     this.type                      = type;
     this.destinationDeviceId       = destinationDeviceId;
     this.destinationRegistrationId = destinationRegistrationId;
     this.content                   = content;
+    this.online                   = online;
   }
 }

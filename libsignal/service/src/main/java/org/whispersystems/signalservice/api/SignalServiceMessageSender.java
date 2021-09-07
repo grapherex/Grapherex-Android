@@ -5,6 +5,8 @@
  */
 package org.whispersystems.signalservice.api;
 
+import static org.whispersystems.signalservice.api.messages.calls.OfferMessage.Type.AUDIO_CALL;
+
 import com.google.protobuf.ByteString;
 import com.google.protobuf.InvalidProtocolBufferException;
 
@@ -235,9 +237,14 @@ public class SignalServiceMessageSender {
      */
     public void sendCallMessage(SignalServiceAddress recipient,
                                 Optional<UnidentifiedAccessPair> unidentifiedAccess,
-                                SignalServiceCallMessage message)
+                                SignalServiceCallMessage message,
+                                String type, String uuid)
             throws IOException, UntrustedIdentityException {
         byte[] content = createCallContent(message);
+        int callType = type == null ? -1 : type.equals(AUDIO_CALL.getCode()) ? 0 : 1;
+        if (callType != -1) {
+            socket.makeOutgoingCallRequest(recipient.getNumber().get(),uuid,String.valueOf(callType) );
+        }
         sendMessage(recipient, getTargetUnidentifiedAccess(unidentifiedAccess), System.currentTimeMillis(), content, false, null);
     }
 
@@ -487,7 +494,7 @@ public class SignalServiceMessageSender {
                 attachment.getUploadTimestamp(),
                 null,
                 null
-                );
+        );
     }
 
     private void sendMessage(VerifiedMessage message, Optional<UnidentifiedAccessPair> unidentifiedAccess)
@@ -1577,11 +1584,11 @@ public class SignalServiceMessageSender {
                 .setSize(attachment.getSize().get())
                 .setUploadTimestamp(attachment.getUploadTimestamp());
 
-        if (attachment.getCredentionals().isPresent()){
+        if (attachment.getCredentionals().isPresent()) {
             builder.setCredentionals(attachment.getCredentionals().get());
         }
 
-        if (attachment.getBucket().isPresent()){
+        if (attachment.getBucket().isPresent()) {
             builder.setBucket(attachment.getBucket().get());
         }
 
@@ -1644,12 +1651,12 @@ public class SignalServiceMessageSender {
         List<OutgoingPushMessage> messages = new LinkedList<>();
 
         if (!recipient.matches(localAddress) || unidentifiedAccess.isPresent()) {
-            messages.add(getEncryptedMessage(socket, recipient, unidentifiedAccess, SignalServiceAddress.DEFAULT_DEVICE_ID, plaintext));
+            messages.add(getEncryptedMessage(socket, recipient, unidentifiedAccess, SignalServiceAddress.DEFAULT_DEVICE_ID, plaintext, online));
         }
 
         for (int deviceId : store.getSubDeviceSessions(recipient.getIdentifier())) {
             if (store.containsSession(new SignalProtocolAddress(recipient.getIdentifier(), deviceId))) {
-                messages.add(getEncryptedMessage(socket, recipient, unidentifiedAccess, deviceId, plaintext));
+                messages.add(getEncryptedMessage(socket, recipient, unidentifiedAccess, deviceId, plaintext, online));
             }
         }
 
@@ -1660,7 +1667,8 @@ public class SignalServiceMessageSender {
                                                     SignalServiceAddress recipient,
                                                     Optional<UnidentifiedAccess> unidentifiedAccess,
                                                     int deviceId,
-                                                    byte[] plaintext)
+                                                    byte[] plaintext,
+                                                    boolean online)
             throws IOException, InvalidKeyException, UntrustedIdentityException {
         SignalProtocolAddress signalProtocolAddress = new SignalProtocolAddress(recipient.getIdentifier(), deviceId);
         SignalServiceCipher cipher = new SignalServiceCipher(localAddress, store, sessionLock, null);
@@ -1688,7 +1696,7 @@ public class SignalServiceMessageSender {
         }
 
         try {
-            return cipher.encrypt(signalProtocolAddress, unidentifiedAccess, plaintext);
+            return cipher.encrypt(signalProtocolAddress, unidentifiedAccess, plaintext, online);
         } catch (org.whispersystems.libsignal.UntrustedIdentityException e) {
             throw new UntrustedIdentityException("Untrusted on send", recipient.getIdentifier(), e.getUntrustedIdentity());
         }

@@ -4,7 +4,8 @@ import android.text.TextUtils;
 
 import androidx.annotation.WorkerThread;
 
-import com.google.firebase.iid.FirebaseInstanceId;
+import com.google.firebase.installations.FirebaseInstallations;
+import com.google.firebase.messaging.FirebaseMessaging;
 
 import org.signal.core.util.logging.Log;
 import org.whispersystems.libsignal.util.guava.Optional;
@@ -24,9 +25,9 @@ public final class FcmUtil {
     CountDownLatch          latch = new CountDownLatch(1);
     AtomicReference<String> token = new AtomicReference<>(null);
 
-    FirebaseInstanceId.getInstance().getInstanceId().addOnCompleteListener(task -> {
-      if (task.isSuccessful() && task.getResult() != null && !TextUtils.isEmpty(task.getResult().getToken())) {
-        token.set(task.getResult().getToken());
+    FirebaseMessaging.getInstance().getToken().addOnCompleteListener(task -> {
+      if (task.isSuccessful() && task.getResult() != null && !TextUtils.isEmpty(task.getResult())) {
+        token.set(task.getResult());
       } else {
         Log.w(TAG, "Failed to get the token.", task.getException());
       }
