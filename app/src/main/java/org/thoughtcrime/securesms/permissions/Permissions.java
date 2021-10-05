@@ -155,7 +155,6 @@ public class Permissions {
 
     private void executePreGrantedPermissionsRequest(PermissionsRequest request) {
       int[] grantResults = new int[requestedPermissions.length];
-      for (int i=0;i<grantResults.length;i++) grantResults[i] = PackageManager.PERMISSION_GRANTED;
 
       request.onResult(requestedPermissions, grantResults, new boolean[requestedPermissions.length]);
     }

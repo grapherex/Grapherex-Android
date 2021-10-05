@@ -54,7 +54,7 @@ public class QrView extends SquareImageView {
     }
 
     if (isInEditMode()) {
-      setQrText("https://signal.org");
+      setQrText("https://signal.org/blog/sealed-sender/");
     }
   }
 

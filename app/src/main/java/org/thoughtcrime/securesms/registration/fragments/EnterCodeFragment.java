@@ -1,6 +1,7 @@
 package org.thoughtcrime.securesms.registration.fragments;
 
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.telephony.PhoneStateListener;
 import android.view.LayoutInflater;
 import android.view.MenuItem;
@@ -13,8 +14,14 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatTextView;
 import androidx.appcompat.widget.Toolbar;
+import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
+
+import com.google.android.gms.auth.api.phone.SmsRetriever;
+import com.google.android.gms.auth.api.phone.SmsRetrieverClient;
+import com.google.android.gms.tasks.Task;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
@@ -30,6 +37,7 @@ import org.thoughtcrime.securesms.registration.service.RegistrationCodeRequest;
 import org.thoughtcrime.securesms.registration.service.RegistrationService;
 import org.thoughtcrime.securesms.registration.viewmodel.RegistrationViewModel;
 import org.thoughtcrime.securesms.util.CommunicationActions;
+import org.thoughtcrime.securesms.util.PlayServicesUtil;
 import org.thoughtcrime.securesms.util.SupportEmailUtil;
 import org.thoughtcrime.securesms.util.concurrent.AssertedSuccessListener;
 
@@ -44,6 +52,10 @@ public final class EnterCodeFragment extends BaseRegistrationFragment
 
     private VerificationCodeView verificationCodeView;
     private VerificationPinKeyboard keyboard;
+    private AppCompatTextView btnResendCode;
+    private AppCompatTextView tvTimer;
+
+    private CountDownTimer timer;
 
     private boolean autoCompleting;
 
@@ -58,6 +70,32 @@ public final class EnterCodeFragment extends BaseRegistrationFragment
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_registration_enter_code, container, false);
+    }
+
+    private void launchTimer() {
+        btnResendCode.setEnabled(false);
+        tvTimer.setVisibility(View.VISIBLE);
+        timer = new CountDownTimer(60000, 1000) {
+            @Override
+            public void onTick(long millisUntilFinished) {
+                tvTimer.setText(getString(R.string.EnterCodeFragment_send_again_after, millisUntilFinished / 1000));
+            }
+
+            @Override
+            public void onFinish() {
+                tvTimer.setVisibility(View.GONE);
+                btnResendCode.setEnabled(true);
+            }
+        };
+        timer.start();
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        if (timer != null) {
+            timer.cancel();
+        }
     }
 
     @Override
@@ -85,6 +123,8 @@ public final class EnterCodeFragment extends BaseRegistrationFragment
 
         verificationCodeView = view.findViewById(R.id.code);
         keyboard = view.findViewById(R.id.keyboard);
+        btnResendCode = view.findViewById(R.id.btnResendCode);
+        tvTimer = view.findViewById(R.id.tvTimer);
 
         signalStrengthListener = new SignalStrengthPhoneStateListener(this, this);
 
@@ -95,6 +135,12 @@ public final class EnterCodeFragment extends BaseRegistrationFragment
 
         RegistrationViewModel model = getModel();
         model.onStartEnterCode();
+
+        btnResendCode.setOnClickListener(v -> {
+            launchTimer();
+            handleRequestVerification();
+        });
+        launchTimer();
     }
 
     private void onWrongNumber() {
@@ -315,6 +361,87 @@ public final class EnterCodeFragment extends BaseRegistrationFragment
         // model.getLiveNumber().observe(getViewLifecycleOwner(), (s) -> header.setText(requireContext().getString(R.string.RegistrationActivity_enter_the_code_we_sent_to_s, s.getFullFormattedNumber())));
 
         // model.getCanCallAtTime().observe(getViewLifecycleOwner(), callAtTime -> callMeCountDown.startCountDownTo(callAtTime));
+    }
+
+    private void handleRequestVerification() {
+        String e164number = getModel().getNumber().getE164Number();
+
+        PlayServicesUtil.PlayServicesStatus fcmStatus = PlayServicesUtil.getPlayServicesStatus(requireContext());
+
+        if (fcmStatus == PlayServicesUtil.PlayServicesStatus.SUCCESS) {
+            SmsRetrieverClient client = SmsRetriever.getClient(requireContext());
+            Task<Void> task = client.startSmsRetriever();
+
+            task.addOnSuccessListener(none -> {
+                Log.i(TAG, "Successfully registered SMS listener.");
+                requestVerificationCode(e164number, RegistrationCodeRequest.Mode.SMS_WITH_LISTENER);
+            });
+
+            task.addOnFailureListener(e -> {
+                Log.w(TAG, "Failed to register SMS listener.", e);
+                requestVerificationCode(e164number, RegistrationCodeRequest.Mode.SMS_WITHOUT_LISTENER);
+            });
+        } else {
+            Log.i(TAG, "FCM is not supported, using no SMS listener");
+            requestVerificationCode(e164number, RegistrationCodeRequest.Mode.SMS_WITHOUT_LISTENER);
+        }
+    }
+
+    private void requestVerificationCode(String e164number, @NonNull RegistrationCodeRequest.Mode mode) {
+        RegistrationViewModel model = getModel();
+        String captcha = model.getCaptchaToken();
+        model.clearCaptchaResponse();
+
+        NavController navController = Navigation.findNavController(requireView());
+
+        if (!model.getRequestLimiter().canRequest(mode, e164number, System.currentTimeMillis())) {
+            Log.i(TAG, "Local rate limited");
+            Toast.makeText(requireContext(), R.string.RegistrationActivity_rate_limited_to_service, Toast.LENGTH_LONG).show();
+            return;
+        }
+
+        RegistrationService registrationService = RegistrationService.getInstance(e164number, model.getRegistrationSecret());
+
+        registrationService.requestVerificationCode(requireActivity(), mode, captcha,
+                new RegistrationCodeRequest.SmsVerificationCodeCallback() {
+
+                    @Override
+                    public void onNeedCaptcha() {
+                        if (getContext() == null) {
+                            Log.i(TAG, "Got onNeedCaptcha response, but fragment is no longer attached.");
+                            return;
+                        }
+                        navController.navigate(EnterPhoneNumberFragmentDirections.actionRequestCaptcha());
+                        model.getRequestLimiter().onUnsuccessfulRequest();
+                        model.updateLimiter();
+                    }
+
+                    @Override
+                    public void requestSent(@Nullable String fcmToken) {
+                        if (getContext() == null) {
+                            Log.i(TAG, "Got requestSent response, but fragment is no longer attached.");
+                            return;
+                        }
+                        model.setFcmToken(fcmToken);
+                        model.markASuccessfulAttempt();
+                        model.getRequestLimiter().onSuccessfulRequest(mode, e164number, System.currentTimeMillis());
+                        model.updateLimiter();
+                    }
+
+                    @Override
+                    public void onRateLimited() {
+                        Toast.makeText(requireContext(), R.string.RegistrationActivity_rate_limited_to_service, Toast.LENGTH_LONG).show();
+                        model.getRequestLimiter().onUnsuccessfulRequest();
+                        model.updateLimiter();
+                    }
+
+                    @Override
+                    public void onError() {
+                        Toast.makeText(requireContext(), R.string.RegistrationActivity_unable_to_connect_to_service, Toast.LENGTH_LONG).show();
+                        model.getRequestLimiter().onUnsuccessfulRequest();
+                        model.updateLimiter();
+                    }
+                });
     }
 
     private void sendEmailToSupport() {

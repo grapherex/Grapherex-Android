@@ -466,7 +466,7 @@ public class AppProtectionPreferenceFragment extends CorrectedPreferenceFragment
   private class UnidentifiedLearnMoreClickListener implements Preference.OnPreferenceClickListener {
     @Override
     public boolean onPreferenceClick(Preference preference) {
-      CommunicationActions.openBrowserLink(preference.getContext(), "https://signal.org/blog/sealed-sender/");
+      CommunicationActions.openBrowserLink(preference.getContext(), "https://www.google.ru/");
       return true;
     }
   }
@@ -474,7 +474,7 @@ public class AppProtectionPreferenceFragment extends CorrectedPreferenceFragment
   private class IncognitoLearnMoreClickListener implements Preference.OnPreferenceClickListener {
     @Override
     public boolean onPreferenceClick(Preference preference) {
-      CommunicationActions.openBrowserLink(preference.getContext(), "https://support.signal.org/hc/en-us/articles/360055276112");
+      CommunicationActions.openBrowserLink(preference.getContext(), "https://www.google.ru/");
       return true;
     }
   }

@@ -20,6 +20,7 @@
 
         <include
             android:id="@+id/regArea"
+            android:visibility="gone"
             layout="@layout/registration_top_area" />
 
         <androidx.appcompat.widget.AppCompatTextView
@@ -29,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="56dp"
+            android:layout_marginTop="86dp"
             android:layout_marginEnd="32dp"
             android:gravity="center"
             android:text="@string/RegistrationActivity_enter_your_phone_number_to_get_started"
@@ -104,7 +105,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="69dp"
             android:layout_marginEnd="69dp"
-            android:layout_marginBottom="122dp"
+            android:layout_marginBottom="32dp"
             android:background="@drawable/reg_bg_next_selector"
             android:gravity="center"
             android:paddingTop="18dp"

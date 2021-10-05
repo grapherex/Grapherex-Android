@@ -47,6 +47,8 @@ import org.thoughtcrime.securesms.registration.viewmodel.RegistrationViewModel;
 import org.thoughtcrime.securesms.util.Dialogs;
 import org.thoughtcrime.securesms.util.PlayServicesUtil;
 
+import java.util.regex.Pattern;
+
 public final class EnterPhoneNumberFragment extends BaseRegistrationFragment {
 
     private static final String TAG = Log.tag(EnterPhoneNumberFragment.class);
@@ -155,7 +157,7 @@ public final class EnterPhoneNumberFragment extends BaseRegistrationFragment {
     }
 
     private void handleRegister(@NonNull Context context) {
-        if (TextUtils.isEmpty(countryCode.getText())) {
+        if (TextUtils.isEmpty(countryCode.getText())||Pattern.matches("^0{1,3}$",  countryCode.getText().toString())) {
             Toast.makeText(context, getString(R.string.RegistrationActivity_you_must_specify_your_country_code), Toast.LENGTH_LONG).show();
             return;
         }

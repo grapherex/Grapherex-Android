@@ -3352,6 +3352,7 @@
     <string name="EnterCodeFragment_toolbar_text">Confirmation code</string>
     <string name="EnterCodeFragment_title_text">Enter code from SMS</string>
     <string name="EnterCodeFragment_send_again"><u>Resend code</u></string>
+    <string name="EnterCodeFragment_send_again_after">After %d seconds</string>
 
     <!-- EditProfileFragment -->
     <string name="EditProfileFragment_input_name_title">Enter your name</string>

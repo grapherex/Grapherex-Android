@@ -9,7 +9,7 @@
         android:visibility="gone"
         app:foregroundTintColor="@color/white"
         app:backgroundTintColor="@color/blue_500"
-        app:waveformPlayedBarsColor="@color/core_white"
-        app:waveformUnplayedBarsColor="@color/transparent_white_40"
-        app:progressAndPlayTint="@color/transparent_white_20"
+        app:waveformPlayedBarsColor="@color/waveformPlayedBarsColor_received"
+        app:waveformUnplayedBarsColor="@color/waveformUnplayedBarsColor_received"
+        app:progressAndPlayTint="@color/progressAndPlayTint_received"
         tools:visibility="visible"/>

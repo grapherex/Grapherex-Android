@@ -19,6 +19,10 @@
     <uses-feature android:name="android.hardware.portrait" android:required="false"/>
     <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
 
+    <uses-permission
+        android:name="com.google.android.finsky.permision.BIND_GET_INSTALL_REFERRER_SERVICE"
+        tools:node="remove" />
+
     <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
     <uses-permission android:name="org.thoughtcrime.securesms.ACCESS_SECRETS"/>
     <uses-permission android:name="android.permission.READ_PROFILE"/>
@@ -106,9 +110,6 @@
 
     <meta-data android:name="com.google.android.gms.version"
                android:value="@integer/google_play_services_version" />
-
-    <meta-data android:name="com.google.android.gms.car.application"
-               android:resource="@xml/automotive_app_desc" />
 
     <meta-data android:name="firebase_analytics_collection_deactivated" android:value="true" />
     <meta-data android:name="google_analytics_adid_collection_enabled" android:value="false" />
@@ -390,7 +391,7 @@
     <activity android:name=".registration.RegistrationNavigationActivity"
               android:launchMode="singleTask"
               android:theme="@style/TextSecure.LightRegistrationTheme"
-              android:windowSoftInputMode="adjustPan"
+              android:windowSoftInputMode="adjustResize"
               android:configChanges="touchscreen|keyboard|keyboardHidden|orientation|screenLayout|screenSize"/>
 
     <activity android:name=".revealable.ViewOnceMessageActivity"

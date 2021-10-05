@@ -598,7 +598,9 @@ public class MmsSmsDatabase extends Database {
                                   "'" + AttachmentDatabase.VISUAL_HASH + "', " + AttachmentDatabase.TABLE_NAME + "." + AttachmentDatabase.VISUAL_HASH + ", " +
                                   "'" + AttachmentDatabase.TRANSFORM_PROPERTIES + "', " + AttachmentDatabase.TABLE_NAME + "." + AttachmentDatabase.TRANSFORM_PROPERTIES + ", " +
                                   "'" + AttachmentDatabase.DISPLAY_ORDER + "', " + AttachmentDatabase.TABLE_NAME + "." + AttachmentDatabase.DISPLAY_ORDER + ", " +
-                                  "'" + AttachmentDatabase.UPLOAD_TIMESTAMP + "', " + AttachmentDatabase.TABLE_NAME + "." + AttachmentDatabase.UPLOAD_TIMESTAMP +
+                                  "'" + AttachmentDatabase.UPLOAD_TIMESTAMP + "', " + AttachmentDatabase.TABLE_NAME + "." + AttachmentDatabase.UPLOAD_TIMESTAMP + ", " +
+                                  "'" + AttachmentDatabase.CREDENTIONALS + "', " + AttachmentDatabase.TABLE_NAME + "." + AttachmentDatabase.CREDENTIONALS + ", " +
+                                  "'" + AttachmentDatabase.BUCKET + "', " + AttachmentDatabase.TABLE_NAME + "." + AttachmentDatabase.BUCKET +
                                   ")) AS " + AttachmentDatabase.ATTACHMENT_JSON_ALIAS,
                               SmsDatabase.BODY, MmsSmsColumns.READ, MmsSmsColumns.THREAD_ID,
                               SmsDatabase.TYPE, SmsDatabase.RECIPIENT_ID, SmsDatabase.ADDRESS_DEVICE_ID, SmsDatabase.SUBJECT, MmsDatabase.MESSAGE_TYPE,

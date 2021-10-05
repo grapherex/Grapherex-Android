@@ -1,5 +1,7 @@
 package org.thoughtcrime.securesms.delete;
 
+import android.content.Intent;
+
 import androidx.annotation.NonNull;
 
 import com.annimon.stream.Stream;
@@ -38,37 +40,36 @@ class DeleteAccountRepository {
 
   void deleteAccount(@NonNull Runnable onFailureToRemovePin,
                      @NonNull Runnable onFailureToDeleteFromService,
-                     @NonNull Runnable onFailureToDeleteLocalData)
+                     @NonNull Runnable onFailureToDeleteLocalData,
+                     @NonNull Runnable onSuccessToDeleteLocalData
+                     )
   {
     SignalExecutors.BOUNDED.execute(() -> {
       Log.i(TAG, "deleteAccount: attempting to remove pin...");
 
-      try {
-        ApplicationDependencies.getKeyBackupService(KbsEnclaves.current()).newPinChangeSession().removePin();
-      } catch (UnauthenticatedResponseException | IOException e) {
-        Log.w(TAG, "deleteAccount: failed to remove PIN", e);
-        onFailureToRemovePin.run();
-        return;
-      }
+//      try {
+//        ApplicationDependencies.getKeyBackupService(KbsEnclaves.current()).newPinChangeSession().removePin();
+//      } catch (UnauthenticatedResponseException | IOException e) {
+//        Log.w(TAG, "deleteAccount: failed to remove PIN", e);
+//        onFailureToRemovePin.run();
+//        return;
+//      }
+//
+//      Log.i(TAG, "deleteAccount: successfully removed pin.");
+//      Log.i(TAG, "deleteAccount: attempting to delete account from server...");
+//
+//      try {
+//        ApplicationDependencies.getSignalServiceAccountManager().deleteAccount();
+//      } catch (IOException e) {
+//        Log.w(TAG, "deleteAccount: failed to delete account from signal service", e);
+//        onFailureToDeleteFromService.run();
+//        return;
+//      }
+//
+//      Log.i(TAG, "deleteAccount: successfully removed account from server");
+//      Log.i(TAG, "deleteAccount: attempting to delete user data and close process...");
 
-      Log.i(TAG, "deleteAccount: successfully removed pin.");
-      Log.i(TAG, "deleteAccount: attempting to delete account from server...");
-
-      try {
-        ApplicationDependencies.getSignalServiceAccountManager().deleteAccount();
-      } catch (IOException e) {
-        Log.w(TAG, "deleteAccount: failed to delete account from signal service", e);
-        onFailureToDeleteFromService.run();
-        return;
-      }
-
-      Log.i(TAG, "deleteAccount: successfully removed account from server");
-      Log.i(TAG, "deleteAccount: attempting to delete user data and close process...");
-
-      if (!ServiceUtil.getActivityManager(ApplicationDependencies.getApplication()).clearApplicationUserData()) {
-        Log.w(TAG, "deleteAccount: failed to delete user data");
-        onFailureToDeleteLocalData.run();
-      }
+      onSuccessToDeleteLocalData.run();
     });
   }
 

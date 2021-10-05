@@ -36,6 +36,8 @@ import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.annimon.stream.Stream;
+
 import org.signal.core.util.ThreadUtil;
 import org.signal.core.util.logging.Log;
 import org.signal.paging.PagingController;
@@ -354,7 +356,13 @@ public class ConversationAdapter
 
   public void submitList(@Nullable List<ConversationMessage> pagedList) {
     cleanFastRecords();
-    super.submitList(pagedList);
+    if (pagedList!=null){
+      List<ConversationMessage> filteredList = Stream.of(pagedList).
+              filter(it-> !it.getMessageRecord().isIdentityUpdate()).toList();
+      super.submitList(filteredList);
+    }else {
+      super.submitList(null);
+    }
   }
 
   public void setPagingController(@Nullable PagingController pagingController) {

@@ -27,6 +27,7 @@ import org.whispersystems.signalservice.api.messages.SignalServiceGroup;
 import org.whispersystems.signalservice.api.messages.SignalServiceGroup.Type;
 import org.whispersystems.signalservice.api.push.SignalServiceAddress;
 import org.whispersystems.signalservice.api.push.exceptions.PushNetworkException;
+import org.whispersystems.signalservice.internal.push.PushType;
 
 import java.io.IOException;
 import java.util.LinkedList;
@@ -121,7 +122,7 @@ public class PushGroupUpdateJob extends BaseJob {
 
     messageSender.sendMessage(RecipientUtil.toSignalServiceAddress(context, recipient),
                               UnidentifiedAccessUtil.getAccessFor(context, recipient),
-                              message);
+                              message, PushType.PUSH_GROUP);
   }
 
   @Override

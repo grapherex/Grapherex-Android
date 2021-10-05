@@ -75,7 +75,7 @@ final class SafetyNumberChangeAdapter extends ListAdapter<ChangedRecipient, Safe
       }
       subtitle.setVisibility(TextUtils.isEmpty(subtitle.getText()) ?  View.GONE : View.VISIBLE);
 
-      viewButton.setOnClickListener(view -> callbacks.onViewIdentityRecord(changedRecipient.getIdentityRecord()));
+     // viewButton.setOnClickListener(view -> callbacks.onViewIdentityRecord(changedRecipient.getIdentityRecord()));
     }
   }
 

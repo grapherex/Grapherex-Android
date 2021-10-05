@@ -13,7 +13,6 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.arch.core.util.Function;
 import androidx.core.content.ContextCompat;
 import androidx.lifecycle.LifecycleOwner;
 import androidx.lifecycle.LiveData;
@@ -57,6 +56,7 @@ public final class ConversationUpdateItem extends FrameLayout
 
     private Set<ConversationMessage> batchSelected;
 
+    private View mainView;
     private TextView body;
     private TextView bodyCalls;
     private MaterialButton actionButton;
@@ -85,6 +85,7 @@ public final class ConversationUpdateItem extends FrameLayout
     @Override
     public void onFinishInflate() {
         super.onFinishInflate();
+        this.mainView = findViewById(R.id.conversation_update_item);
         this.body = findViewById(R.id.conversation_update_body);
         this.bodyCalls = findViewById(R.id.conversation_update_body_calls);
         this.actionButton = findViewById(R.id.conversation_update_action);
@@ -140,10 +141,10 @@ public final class ConversationUpdateItem extends FrameLayout
             groupObserver.observe(lifecycleOwner, null);
         }
 
-        int textColor = ContextCompat.getColor(getContext(), R.color.conversation_item_update_text_color);
-        if (ThemeUtil.isDarkTheme(getContext()) && hasWallpaper) {
-            textColor = ContextCompat.getColor(getContext(), R.color.core_grey_15);
-        }
+        int textColor = ContextCompat.getColor(getContext(), R.color.signal_text_primary);
+//        if (ThemeUtil.isDarkTheme(getContext()) && hasWallpaper) {
+//            textColor = ContextCompat.getColor(getContext(), R.color.core_grey_15);
+//        }
 
         if (!ThemeUtil.isDarkTheme(getContext())) {
             if (hasWallpaper) {
@@ -230,21 +231,22 @@ public final class ConversationUpdateItem extends FrameLayout
     }
 
     private void setBodyText(@Nullable CallTextDirection data) {
-        if (data == null) {
-            body.setVisibility(INVISIBLE);
-        } else {
-            if (data.isCallText()) {
-                body.setVisibility(GONE);
-                bodyCalls.setVisibility(VISIBLE);
-                LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
-                params.gravity =data.isOutgoing() ? Gravity.CENTER | Gravity.END : Gravity.CENTER | Gravity.START;
-                bodyCalls.setLayoutParams(params);
-                bodyCalls.setText(data.getText());
+        mainView.setVisibility(GONE);
+        if (data != null && data.isCallText()) {
+            mainView.setVisibility(VISIBLE);
+            bodyCalls.setVisibility(VISIBLE);
+            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
+            if (data.isOutgoing()) {
+                params.gravity = Gravity.CENTER | Gravity.END;
+                bodyCalls.setTextColor(mainView.getContext().getColor(R.color.outgoing_text_secondary));
+                bodyCalls.setBackgroundResource(R.drawable.conversation_update_wallpaper_background_middle_outgoing);
             } else {
-                body.setText(data.getText());
-                body.setVisibility(VISIBLE);
-                bodyCalls.setVisibility(GONE);
+                params.gravity = Gravity.CENTER | Gravity.START;
+                bodyCalls.setBackgroundResource(R.drawable.conversation_update_wallpaper_background_middle_incoming);
+                bodyCalls.setTextColor(mainView.getContext().getColor(R.color.incoming_text_secondary));
             }
+            bodyCalls.setLayoutParams(params);
+            bodyCalls.setText(data.getText());
         }
     }
 
@@ -256,7 +258,7 @@ public final class ConversationUpdateItem extends FrameLayout
         if (conversationMessage.getMessageRecord().isGroupV1MigrationEvent() &&
                 (!nextMessageRecord.isPresent() || !nextMessageRecord.get().isGroupV1MigrationEvent())) {
             actionButton.setText(R.string.ConversationUpdateItem_learn_more);
-            actionButton.setVisibility(VISIBLE);
+            // actionButton.setVisibility(VISIBLE);
             actionButton.setOnClickListener(v -> {
                 if (batchSelected.isEmpty() && eventListener != null) {
                     eventListener.onGroupMigrationLearnMoreClicked(conversationMessage.getMessageRecord().getGroupV1MigrationMembershipChanges());
@@ -265,7 +267,7 @@ public final class ConversationUpdateItem extends FrameLayout
         } else if (conversationMessage.getMessageRecord().isFailedDecryptionType() &&
                 (!nextMessageRecord.isPresent() || !nextMessageRecord.get().isFailedDecryptionType())) {
             actionButton.setText(R.string.ConversationUpdateItem_learn_more);
-            actionButton.setVisibility(VISIBLE);
+            //actionButton.setVisibility(VISIBLE);
             actionButton.setOnClickListener(v -> {
                 if (batchSelected.isEmpty() && eventListener != null) {
                     eventListener.onDecryptionFailedLearnMoreClicked();
@@ -273,7 +275,7 @@ public final class ConversationUpdateItem extends FrameLayout
             });
         } else if (conversationMessage.getMessageRecord().isIdentityUpdate()) {
             actionButton.setText(R.string.ConversationUpdateItem_learn_more);
-            actionButton.setVisibility(VISIBLE);
+            //actionButton.setVisibility(VISIBLE);
             actionButton.setOnClickListener(v -> {
                 if (batchSelected.isEmpty() && eventListener != null) {
                     eventListener.onSafetyNumberLearnMoreClicked(conversationMessage.getMessageRecord().getIndividualRecipient());

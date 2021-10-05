@@ -31,9 +31,12 @@ import com.google.android.material.snackbar.Snackbar;
 import com.google.i18n.phonenumbers.AsYouTypeFormatter;
 import com.google.i18n.phonenumbers.PhoneNumberUtil;
 
+import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.ApplicationPreferencesActivity;
 import org.thoughtcrime.securesms.R;
 import org.thoughtcrime.securesms.components.LabeledEditText;
+import org.thoughtcrime.securesms.dependencies.ApplicationDependencies;
+import org.thoughtcrime.securesms.util.ServiceUtil;
 import org.thoughtcrime.securesms.util.SpanUtil;
 import org.thoughtcrime.securesms.util.ViewUtil;
 import org.thoughtcrime.securesms.util.text.AfterTextChanged;
@@ -42,6 +45,7 @@ import org.whispersystems.libsignal.util.guava.Optional;
 
 public class DeleteAccountFragment extends Fragment {
 
+  private static final String TAG = DeleteAccountFragment.class.getSimpleName();
   private ArrayAdapter<String>   countrySpinnerAdapter;
   private TextView               bullets;
   private LabeledEditText        countryCode;
@@ -256,6 +260,13 @@ public class DeleteAccountFragment extends Fragment {
                        .show();
         break;
       case PIN_DELETION_FAILED:
+      case LOCAL_DATA_DELETION_SUCCESS:
+        if (!ServiceUtil.getActivityManager(ApplicationDependencies.getApplication()).clearApplicationUserData()) {
+          Log.w(TAG, "deleteAccount: failed to delete user data");
+          dismissDeletionProgressDialog();
+          showLocalDataDeletionFailedDialog();
+        }
+        break;
       case SERVER_DELETION_FAILED:
         dismissDeletionProgressDialog();
         showNetworkDeletionFailedDialog();

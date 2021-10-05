@@ -8,7 +8,7 @@
         app:foregroundTintColor="@color/grey_500"
         app:backgroundTintColor="@color/white"
         app:waveformThumbTint="@color/audio_seek_bar_sent_played_color"
-        app:waveformPlayedBarsColor="@color/audio_seek_bar_sent_played_color"
-        app:waveformUnplayedBarsColor="@color/audio_seek_bar_sent_unplayed_color"
-        app:progressAndPlayTint="@color/audio_play_pause_sent_background_tint"
+        app:waveformPlayedBarsColor="@color/waveformPlayedBarsColor_sent"
+        app:waveformUnplayedBarsColor="@color/waveformUnplayedBarsColor_sent"
+        app:progressAndPlayTint="@color/progressAndPlayTint_sent"
         android:visibility="gone"/>

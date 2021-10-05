@@ -400,7 +400,7 @@ public final class ConversationItem extends RelativeLayout implements BindableCo
   }
 
   private @ColorInt int getDefaultBubbleColor(boolean hasWallpaper) {
-    return hasWallpaper ? defaultBubbleColorForWallpaper : defaultBubbleColor;
+    return  ContextCompat.getColor(context, R.color.outgoing_background_bubble);
   }
 
   @Override
@@ -422,22 +422,24 @@ public final class ConversationItem extends RelativeLayout implements BindableCo
 
   private void setBubbleState(MessageRecord messageRecord, boolean hasWallpaper) {
     if (messageRecord.isOutgoing() && !messageRecord.isRemoteDelete()) {
-      bodyBubble.getBackground().setColorFilter(getDefaultBubbleColor(hasWallpaper), PorterDuff.Mode.MULTIPLY);
-      footer.setTextColor(ContextCompat.getColor(context, R.color.signal_text_secondary));
-      footer.setIconColor(ContextCompat.getColor(context, R.color.signal_icon_tint_secondary));
+      bodyBubble.getBackground().setColorFilter(ContextCompat.getColor(context, R.color.outgoing_background_bubble), PorterDuff.Mode.SRC_IN);
+      footer.setTextColor(ContextCompat.getColor(context, R.color.outgoing_text_secondary));
+      footer.setIconColor(ContextCompat.getColor(context, R.color.outgoing_icon_tint_secondary));
       footer.setOnlyShowSendingStatus(false, messageRecord);
     } else if (messageRecord.isRemoteDelete() || (isViewOnceMessage(messageRecord) && ViewOnceUtil.isViewed((MmsMessageRecord) messageRecord))) {
-      if (hasWallpaper) {
-        bodyBubble.getBackground().setColorFilter(ContextCompat.getColor(context, R.color.wallpaper_bubble_color), PorterDuff.Mode.SRC_IN);
-      } else {
-        bodyBubble.getBackground().setColorFilter(ContextCompat.getColor(context, R.color.signal_background_primary), PorterDuff.Mode.MULTIPLY);
-        footer.setIconColor(ContextCompat.getColor(context, R.color.signal_icon_tint_secondary));
-      }
+//      if (hasWallpaper) {
+//        bodyBubble.getBackground().setColorFilter(ContextCompat.getColor(context, R.color.wallpaper_bubble_color), PorterDuff.Mode.SRC_IN);
+//      } else {
+//        bodyBubble.getBackground().setColorFilter(ContextCompat.getColor(context, R.color.signal_background_primary), PorterDuff.Mode.MULTIPLY);
+//        footer.setIconColor(ContextCompat.getColor(context, R.color.signal_icon_tint_secondary));
+//      }
+      bodyBubble.getBackground().setColorFilter(ContextCompat.getColor(context, R.color.signal_background_primary), PorterDuff.Mode.MULTIPLY);
+      footer.setIconColor(ContextCompat.getColor(context, R.color.signal_icon_tint_secondary));
       footer.setTextColor(ContextCompat.getColor(context, R.color.signal_text_secondary));
       footer.setOnlyShowSendingStatus(messageRecord.isRemoteDelete(), messageRecord);
     } else {
-      bodyBubble.getBackground().setColorFilter(messageRecord.getRecipient().getColor().toConversationColor(context), PorterDuff.Mode.MULTIPLY);
-      footer.setTextColor(ContextCompat.getColor(context, R.color.conversation_item_received_text_secondary_color));
+      bodyBubble.getBackground().setColorFilter(ContextCompat.getColor(context, R.color.incoming_background_bubble),PorterDuff.Mode.SRC_IN);
+      footer.setTextColor(ContextCompat.getColor(context, R.color.incoming_text_secondary));
       footer.setIconColor(ContextCompat.getColor(context, R.color.conversation_item_received_text_secondary_color));
       footer.setOnlyShowSendingStatus(false, messageRecord);
     }
@@ -1195,7 +1197,7 @@ public final class ConversationItem extends RelativeLayout implements BindableCo
     if (groupSender != null) {
       int stickerAuthorColor = ContextCompat.getColor(context, R.color.signal_text_primary);
 
-      if (shouldDrawBodyBubbleOutline(messageRecord, false)) {
+      if (shouldDrawBodyBubbleOutline(messageRecord, hasWallpaper)) {
         groupSender.setTextColor(stickerAuthorColor);
       } else if (!hasWallpaper && hasNoBubble(messageRecord)) {
         groupSender.setTextColor(stickerAuthorColor);

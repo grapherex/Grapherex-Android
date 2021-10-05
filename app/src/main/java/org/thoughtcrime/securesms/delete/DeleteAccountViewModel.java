@@ -82,7 +82,8 @@ public class DeleteAccountViewModel extends ViewModel {
   void deleteAccount() {
     repository.deleteAccount(() -> events.postValue(EventType.PIN_DELETION_FAILED),
                              () -> events.postValue(EventType.SERVER_DELETION_FAILED),
-                             () -> events.postValue(EventType.LOCAL_DATA_DELETION_FAILED));
+                             () -> events.postValue(EventType.LOCAL_DATA_DELETION_FAILED),
+            () -> events.postValue(EventType.LOCAL_DATA_DELETION_SUCCESS));
   }
 
   void submit() {
@@ -162,7 +163,8 @@ public class DeleteAccountViewModel extends ViewModel {
     CONFIRM_DELETION,
     PIN_DELETION_FAILED,
     SERVER_DELETION_FAILED,
-    LOCAL_DATA_DELETION_FAILED
+    LOCAL_DATA_DELETION_FAILED,
+    LOCAL_DATA_DELETION_SUCCESS
   }
 
   public static final class Factory implements ViewModelProvider.Factory {

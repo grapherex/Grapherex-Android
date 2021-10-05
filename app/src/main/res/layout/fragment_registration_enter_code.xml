@@ -29,19 +29,20 @@
 
             <include
                 android:id="@+id/regArea"
+                android:visibility="gone"
                 layout="@layout/registration_top_area" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/tvTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="64dp"
                 android:text="@string/EnterCodeFragment_title_text"
                 android:textSize="28sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/regArea" />
+                app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
             <org.thoughtcrime.securesms.components.registration.VerificationCodeView
                 android:id="@+id/code"
@@ -58,15 +59,29 @@
                 app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
 
             <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/btnResendCode"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="68dp"
+                android:background="@null"
+                android:enabled="false"
                 android:text="@string/EnterCodeFragment_send_again"
-                android:textColor="@color/core_grey"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="@+id/code"
                 app:layout_constraintStart_toStartOf="@+id/code"
                 app:layout_constraintTop_toBottomOf="@+id/code" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvTimer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/core_grey"
+                android:textSize="12sp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintEnd_toEndOf="@+id/btnResendCode"
+                app:layout_constraintStart_toStartOf="@+id/btnResendCode"
+                app:layout_constraintTop_toBottomOf="@+id/btnResendCode"
+                tools:text="After 43 seconds" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
