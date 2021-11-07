@@ -4,6 +4,7 @@ import android.content.Context
 import org.thoughtcrime.securesms.conversationlist.model.CallHistoryData
 import org.thoughtcrime.securesms.database.CallsHistoryDatabase
 import org.thoughtcrime.securesms.database.DatabaseFactory
+import org.thoughtcrime.securesms.recipients.RecipientId
 import org.thoughtcrime.securesms.util.CursorUtil
 
 class CallsHistoryRepository(
@@ -18,6 +19,7 @@ class CallsHistoryRepository(
     val callsHistory = mutableListOf<CallHistoryData>()
     val cursor = callsHistoryDatabase.fetchCallsHistory()
     while (cursor.moveToNext()) {
+      val id = CursorUtil.requireInt(cursor, CallsHistoryDatabase.ID)
       val recipientId = CursorUtil.requireLong(cursor, CallsHistoryDatabase.RECIPIENT_ID)
       val recipientName = CursorUtil.requireString(cursor, CallsHistoryDatabase.RECIPIENT_NAME)
       val callType = CursorUtil.requireInt(cursor, CallsHistoryDatabase.CALL_TYPE)
@@ -26,6 +28,7 @@ class CallsHistoryRepository(
 
       callsHistory.add(
         CallHistoryData(
+          id,
           recipientId,
           recipientName,
           callType,
@@ -34,6 +37,7 @@ class CallsHistoryRepository(
         )
       )
     }
+    cursor.close()
     return callsHistory
   }
 
@@ -56,5 +60,9 @@ class CallsHistoryRepository(
 
   fun clearCallsHistory() {
     callsHistoryDatabase.deleteAllCall()
+  }
+
+  fun deleteCalls(ids:MutableList<String>) {
+    callsHistoryDatabase.deleteCallsById(ids)
   }
 }

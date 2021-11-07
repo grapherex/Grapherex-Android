@@ -13,6 +13,15 @@
     android:nextFocusRight="@id/embedded_text_editor"
     android:orientation="horizontal">
 
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cbSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/ic_calls_select_selector"
+        android:visibility="gone"
+        tools:checked="true"
+        tools:visibility="visible" />
+
     <FrameLayout
         android:id="@+id/reply_icon_wrapper"
         android:layout_width="wrap_content"

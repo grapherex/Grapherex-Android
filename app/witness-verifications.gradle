@@ -171,6 +171,9 @@ dependencyVerification {
         ['androidx.print:print:1.0.0',
          '1d5c7f3135a1bba661fc373fd72e11eb0a4adbb3396787826dd8e4190d5d9edd'],
 
+        ['androidx.recyclerview:recyclerview-selection:1.1.0',
+         '9e2ba1c7d6b0eb5e64c10b1b0eb01b51e8511cee002c9bd56ce9cc138ebc4898'],
+
         ['androidx.recyclerview:recyclerview:1.1.0',
          'f0d2b5a67d0a91ee1b1c73ef2b636a81f3563925ddd15a1d4e1c41ec28de7a4f'],
 

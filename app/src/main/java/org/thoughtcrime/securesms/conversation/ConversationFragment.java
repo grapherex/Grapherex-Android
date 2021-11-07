@@ -1313,26 +1313,28 @@ public class ConversationFragment extends LoggingFragment {
 
             MessageRecord messageRecord = conversationMessage.getMessageRecord();
 
-            if (messageRecord.isSecure() &&
-                    !messageRecord.isRemoteDelete() &&
-                    !messageRecord.isUpdate() &&
-                    !recipient.get().isBlocked() &&
-                    !messageRequestViewModel.shouldShowMessageRequest() &&
-                    (!recipient.get().isGroup() || recipient.get().isActiveGroup()) &&
-                    ((ConversationAdapter) list.getAdapter()).getSelectedItems().isEmpty()) {
-                isReacting = true;
-                list.setLayoutFrozen(true);
-                listener.handleReaction(maskTarget, messageRecord, new ReactionsToolbarListener(conversationMessage), () -> {
-                    isReacting = false;
-                    list.setLayoutFrozen(false);
-                    WindowUtil.setLightStatusBarFromTheme(requireActivity());
-                });
-            } else {
-                ((ConversationAdapter) list.getAdapter()).toggleSelection(conversationMessage);
-                list.getAdapter().notifyDataSetChanged();
+//            if (messageRecord.isSecure() &&
+//                    !messageRecord.isRemoteDelete() &&
+//                    !messageRecord.isUpdate() &&
+//                    !recipient.get().isBlocked() &&
+//                    !messageRequestViewModel.shouldShowMessageRequest() &&
+//                    (!recipient.get().isGroup() || recipient.get().isActiveGroup()) &&
+//                    ((ConversationAdapter) list.getAdapter()).getSelectedItems().isEmpty()) {
+//                isReacting = true;
+//                list.setLayoutFrozen(true);
+//                listener.handleReaction(maskTarget, messageRecord, new ReactionsToolbarListener(conversationMessage), () -> {
+//                    isReacting = false;
+//                    list.setLayoutFrozen(false);
+//                    WindowUtil.setLightStatusBarFromTheme(requireActivity());
+//                });
+//            } else {
+            ConversationAdapter adapter = ((ConversationAdapter) list.getAdapter());
+            adapter.showSelection();
+            adapter.toggleSelection(conversationMessage);
+            list.getAdapter().notifyDataSetChanged();
 
-                actionMode = ((AppCompatActivity) getActivity()).startSupportActionMode(actionModeCallback);
-            }
+            actionMode = ((AppCompatActivity) getActivity()).startSupportActionMode(actionModeCallback);
+            //}
         }
 
         @Override

@@ -70,7 +70,7 @@ public final class WaveFormSeekBarView extends AppCompatSeekBar {
     this.playedBarColor   = playedBarColor;
     this.unplayedBarColor = unplayedBarColor;
 
-    getThumb().setColorFilter(thumbTint, PorterDuff.Mode.SRC_IN);
+    //getThumb().setColorFilter(thumbTint, PorterDuff.Mode.SRC_IN);
 
     invalidate();
   }

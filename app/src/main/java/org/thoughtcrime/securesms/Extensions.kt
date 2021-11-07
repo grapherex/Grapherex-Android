@@ -79,6 +79,8 @@ fun View.visible(visible: Boolean) {
   this.visibility = if (visible) View.VISIBLE else View.GONE
 }
 
+fun View.isVisible(): Boolean = this.visibility == View.VISIBLE
+
 fun TextView.showTextOrHide(str: String?) {
   this.text = str
   this.visible(!str.isNullOrBlank())

@@ -7,6 +7,7 @@
         android:layout_width="@dimen/message_audio_width"
         android:layout_height="wrap_content"
         android:visibility="gone"
+        app:isSent="false"
         app:foregroundTintColor="@color/white"
         app:backgroundTintColor="@color/blue_500"
         app:waveformPlayedBarsColor="@color/waveformPlayedBarsColor_received"

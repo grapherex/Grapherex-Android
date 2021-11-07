@@ -132,7 +132,7 @@
     <color name="conversation_item_body">#333333</color>
 
     <color name="outgoing_background_bubble">#D2D2D2</color>
-    <color name="outgoing_icon_tint_secondary">#ffffff</color>
+    <color name="outgoing_icon_tint_secondary">#646464</color>
     <color name="outgoing_text_secondary">#535353</color>
     <color name="incoming_text_secondary">#ffffff</color>
 
@@ -145,5 +145,7 @@
     <color name="waveformUnplayedBarsColor_sent">#646464</color>
     <color name="waveformPlayedBarsColor_sent">#FFFFFF</color>
     <color name="progressAndPlayTint_sent">#B3B3B3</color>
+
+    <color name="conversation_btn_play_triangle">#D2D2D2</color>
 
 </resources>

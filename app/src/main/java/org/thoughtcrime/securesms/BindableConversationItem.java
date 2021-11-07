@@ -34,6 +34,7 @@ public interface BindableConversationItem extends Unbindable {
             @NonNull GlideRequests glideRequests,
             @NonNull Locale locale,
             @NonNull Set<ConversationMessage> batchSelected,
+            boolean hasSelection,
             @NonNull Recipient recipients,
             @Nullable String searchQuery,
             boolean pulseMention,

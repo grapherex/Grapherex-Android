@@ -1,30 +1,42 @@
 package org.thoughtcrime.securesms.conversationlist
 
 import android.Manifest
+import android.annotation.SuppressLint
 import android.app.Application
+import android.content.DialogInterface
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.widget.Toolbar
+import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.selection.ItemKeyProvider
+import androidx.recyclerview.selection.SelectionPredicates
+import androidx.recyclerview.selection.SelectionTracker
+import androidx.recyclerview.selection.StorageStrategy
 import kotlinx.android.synthetic.main.calls_fragment.*
+import org.signal.glide.Log
 import org.thoughtcrime.securesms.*
 import org.thoughtcrime.securesms.dependencies.ApplicationDependencies
 import org.thoughtcrime.securesms.permissions.Permissions
 import org.thoughtcrime.securesms.recipients.Recipient
 import org.thoughtcrime.securesms.sms.MessageSender
 
+@SuppressLint("LogNotSignal")
 class CallsHistoryFragment : BaseFragment() {
 
   private lateinit var viewModel: CallsHistoryViewModel
+  private var tracker: SelectionTracker<String>? = null
 
   private val callsAdapter by lazy {
-    CallsHistoryAdapter(callClickListener = {
-      requestPermissionsForCall(it)
-    })
+    CallsHistoryAdapter(
+      callClickListener = {
+        requestPermissionsForCall(it)
+      })
   }
 
   override fun initToolbar() {
@@ -38,6 +50,8 @@ class CallsHistoryFragment : BaseFragment() {
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     setHasOptionsMenu(true)
+    initializeViewModel()
+    viewModel.getCallsHistory()
   }
 
   private fun requestPermissionsForCall(recipient: Recipient) {
@@ -72,7 +86,8 @@ class CallsHistoryFragment : BaseFragment() {
       adapter = callsAdapter
     }
 
-    initializeViewModel()
+    initSelection()
+    initSelectionTracker()
 
     fabInvite.setOnClickListener {
       MainNavigator.get(requireActivity()).goToCallsContacts()
@@ -84,9 +99,67 @@ class CallsHistoryFragment : BaseFragment() {
     }
   }
 
-  override fun onResume() {
-    super.onResume()
-    viewModel.getCallsHistory()
+  private fun initSelection() {
+    selectionToolbar.apply {
+      inflateMenu(R.menu.calls_selection)
+      setOnMenuItemClickListener {
+        when (it.itemId) {
+          R.id.action_delete -> {
+            AlertDialog.Builder(requireContext())
+              .setTitle(R.string.CallsHistoryFragment_delete_calls_title)
+              .setMessage(R.string.CallsHistoryFragment_delete_calls_message)
+              .setPositiveButton(R.string.delete) { _: DialogInterface?, _: Int ->
+                val items = tracker?.selection?.map { id -> id.toString() }
+                  ?.toMutableList() ?: mutableListOf()
+                viewModel.deleteCallsById(items)
+                callsAdapter.deleteItems(items)
+                tracker?.clearSelection()
+              }
+              .setNegativeButton(android.R.string.cancel) { _: DialogInterface?, _: Int ->
+                tracker?.clearSelection()
+              }
+              .show()
+            true
+          }
+          else -> false
+        }
+      }
+
+      // use navigationIcon as close icon
+      navigationIcon = ContextCompat.getDrawable(context, R.drawable.ic_close_14)
+      setNavigationOnClickListener {
+        tracker?.clearSelection()
+      }
+    }
+  }
+
+  private fun initSelectionTracker() {
+    val tracker = this.tracker ?: run {
+      SelectionTracker.Builder(
+        "mySelection",
+        rvCalls,
+        CallItemKeyProvider(callsAdapter),
+        CallsItemDetailsLookup(rvCalls),
+        StorageStrategy.createStringStorage()
+      ).withSelectionPredicate(
+        SelectionPredicates.createSelectAnything()
+      ).build().also {
+        this.tracker = it
+      }
+    }
+
+    callsAdapter.tracker = tracker
+
+    tracker.addObserver(object : SelectionTracker.SelectionObserver<String>() {
+
+      override fun onSelectionChanged() {
+        Log.e("FUCK", "onSelectionChanged tracker.hasSelection() = ${tracker.hasSelection()}")
+        selectionToolbar.visible(tracker.hasSelection())
+        fragmentToolbar?.visible(!tracker.hasSelection())
+        selectionToolbar.title = tracker.selection.size().toString()
+        callsAdapter.showSelection(tracker.hasSelection())
+      }
+    })
   }
 
   override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
@@ -106,7 +179,7 @@ class CallsHistoryFragment : BaseFragment() {
 
   class ViewModelProviderFactory(
     val app: Application,
-    val callsHistoryRepository: CallsHistoryRepository
+    private val callsHistoryRepository: CallsHistoryRepository
   ) : ViewModelProvider.Factory {
 
     override fun <T : ViewModel?> create(modelClass: Class<T>): T {
@@ -130,5 +203,18 @@ class CallsHistoryFragment : BaseFragment() {
     viewModel.callsHistoryData.observe(this, { list ->
       callsAdapter.setData(list)
     })
+  }
+
+  private class CallItemKeyProvider(private val adapter: CallsHistoryAdapter) :
+    ItemKeyProvider<String>(
+      SCOPE_MAPPED
+    ) {
+    override fun getKey(position: Int): String {
+      return adapter.items[position].callId.toString()
+    }
+
+    override fun getPosition(key: String): Int {
+      return adapter.items.indexOfFirst { it.callId.toString() == key }
+    }
   }
 }

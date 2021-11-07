@@ -146,4 +146,6 @@
     <color name="waveformPlayedBarsColor_sent">#030303</color>
     <color name="progressAndPlayTint_sent">#B3B3B3</color>
 
+    <color name="conversation_btn_play_triangle">#9CFFC4</color>
+
 </resources>

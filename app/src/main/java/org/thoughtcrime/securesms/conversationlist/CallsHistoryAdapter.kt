@@ -1,19 +1,26 @@
 package org.thoughtcrime.securesms.conversationlist
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.selection.ItemDetailsLookup
+import androidx.recyclerview.selection.SelectionTracker
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.item_call.view.*
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.conversationlist.model.CallHistoryItem
 import org.thoughtcrime.securesms.recipients.Recipient
 import org.thoughtcrime.securesms.util.AvatarUtil
+import org.thoughtcrime.securesms.visible
 
+@SuppressLint("NotifyDataSetChanged")
 class CallsHistoryAdapter(private val callClickListener: (Recipient) -> Unit) :
   RecyclerView.Adapter<CallsHistoryAdapter.CallsHolder>() {
 
-  private val items = mutableListOf<CallHistoryItem>()
+  val items = mutableListOf<CallHistoryItem>()
+  var tracker: SelectionTracker<String>? = null
+  private var hasSelection: Boolean = false
 
   override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CallsHolder {
     return CallsHolder(
@@ -24,7 +31,9 @@ class CallsHistoryAdapter(private val callClickListener: (Recipient) -> Unit) :
   }
 
   override fun onBindViewHolder(holder: CallsHolder, position: Int) {
-    holder.bind(items[position])
+    tracker?.let {
+      holder.bind(items[position], it.isSelected(items[position].callId.toString()))
+    }
   }
 
   fun setData(data: List<CallHistoryItem>) {
@@ -33,9 +42,26 @@ class CallsHistoryAdapter(private val callClickListener: (Recipient) -> Unit) :
     notifyDataSetChanged()
   }
 
-  override fun getItemCount(): Int {
-    return items.size
+  fun deleteItems(ids: List<String>) {
+    ids.forEach {
+      findItemByCallId(it)?.let { callItem ->
+        items.remove(callItem)
+      }
+    }
+    notifyDataSetChanged()
   }
+
+  fun showSelection(hasSelection:Boolean) {
+    if (this.hasSelection != hasSelection){
+      this.hasSelection = hasSelection
+      notifyDataSetChanged()
+    }
+  }
+
+  private fun findItemByCallId(callId: String): CallHistoryItem? =
+    items.find { it.callId == callId.toInt() }
+
+  override fun getItemCount(): Int = items.size
 
   fun clear() {
     items.clear()
@@ -43,7 +69,7 @@ class CallsHistoryAdapter(private val callClickListener: (Recipient) -> Unit) :
   }
 
   inner class CallsHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-    fun bind(item: CallHistoryItem) {
+    fun bind(item: CallHistoryItem, isActivated: Boolean = false) {
 
       itemView.tvDate.text = item.callDate
 
@@ -55,8 +81,18 @@ class CallsHistoryAdapter(private val callClickListener: (Recipient) -> Unit) :
       itemView.ivCall.setOnClickListener {
         callClickListener(recipient.get())
       }
+
+      itemView.cbSelect.visible(hasSelection)
+      itemView.cbSelect.isChecked = isActivated
+
       itemView.ivCallsType.rotationY = if (item.callTypeRotationNeed) 180f else 0f
       itemView.ivCallsType.setBackgroundResource(item.callTypeRes)
     }
+
+    fun getItemDetails(): ItemDetailsLookup.ItemDetails<String> =
+      object : ItemDetailsLookup.ItemDetails<String>() {
+        override fun getPosition(): Int = layoutPosition
+        override fun getSelectionKey(): String = items[adapterPosition].callId.toString()
+      }
   }
 }

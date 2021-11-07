@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatCheckBox;
 import androidx.core.content.ContextCompat;
 import androidx.lifecycle.LifecycleOwner;
 import androidx.lifecycle.LiveData;
@@ -55,6 +56,7 @@ public final class ConversationUpdateItem extends FrameLayout
     private static final String TAG = Log.tag(ConversationUpdateItem.class);
 
     private Set<ConversationMessage> batchSelected;
+    private boolean hasSelection;
 
     private View mainView;
     private TextView body;
@@ -73,6 +75,8 @@ public final class ConversationUpdateItem extends FrameLayout
     private final PresentOnChange presentOnChange = new PresentOnChange();
     private final RecipientObserverManager senderObserver = new RecipientObserverManager(presentOnChange);
     private final RecipientObserverManager groupObserver = new RecipientObserverManager(presentOnChange);
+    private AppCompatCheckBox cbSelect;
+
 
     public ConversationUpdateItem(Context context) {
         super(context);
@@ -88,6 +92,7 @@ public final class ConversationUpdateItem extends FrameLayout
         this.mainView = findViewById(R.id.conversation_update_item);
         this.body = findViewById(R.id.conversation_update_body);
         this.bodyCalls = findViewById(R.id.conversation_update_body_calls);
+        this.cbSelect = findViewById(R.id.cbSelect);
         this.actionButton = findViewById(R.id.conversation_update_action);
         this.background = findViewById(R.id.conversation_update_background);
 
@@ -102,12 +107,14 @@ public final class ConversationUpdateItem extends FrameLayout
                      @NonNull GlideRequests glideRequests,
                      @NonNull Locale locale,
                      @NonNull Set<ConversationMessage> batchSelected,
+                     boolean hasSelection,
                      @NonNull Recipient conversationRecipient,
                      @Nullable String searchQuery,
                      boolean pulseMention,
                      boolean hasWallpaper,
                      boolean isMessageRequestAccepted) {
         this.batchSelected = batchSelected;
+        this.hasSelection = hasSelection;
 
         bind(lifecycleOwner, conversationMessage, previousMessageRecord, nextMessageRecord, conversationRecipient, hasWallpaper);
     }
@@ -133,6 +140,10 @@ public final class ConversationUpdateItem extends FrameLayout
         this.nextMessageRecord = nextMessageRecord;
         this.conversationRecipient = conversationRecipient;
 
+        cbSelect.setVisibility(hasSelection ? VISIBLE : GONE);
+        cbSelect.setChecked(batchSelected.contains(conversationMessage));
+        cbSelect.setClickable(false);
+
         senderObserver.observe(lifecycleOwner, messageRecord.getIndividualRecipient());
 
         if (conversationRecipient.isActiveGroup() && conversationMessage.getMessageRecord().isGroupCall()) {
@@ -140,8 +151,13 @@ public final class ConversationUpdateItem extends FrameLayout
         } else {
             groupObserver.observe(lifecycleOwner, null);
         }
+        int textColor;
+        if (messageRecord.isOutgoingCall()) {
+            textColor = ContextCompat.getColor(getContext(), R.color.outgoing_text_secondary);
+        } else {
+            textColor = ContextCompat.getColor(getContext(), R.color.incoming_text_secondary);
+        }
 
-        int textColor = ContextCompat.getColor(getContext(), R.color.signal_text_primary);
 //        if (ThemeUtil.isDarkTheme(getContext()) && hasWallpaper) {
 //            textColor = ContextCompat.getColor(getContext(), R.color.core_grey_15);
 //        }
@@ -242,8 +258,8 @@ public final class ConversationUpdateItem extends FrameLayout
                 bodyCalls.setBackgroundResource(R.drawable.conversation_update_wallpaper_background_middle_outgoing);
             } else {
                 params.gravity = Gravity.CENTER | Gravity.START;
-                bodyCalls.setBackgroundResource(R.drawable.conversation_update_wallpaper_background_middle_incoming);
                 bodyCalls.setTextColor(mainView.getContext().getColor(R.color.incoming_text_secondary));
+                bodyCalls.setBackgroundResource(R.drawable.conversation_update_wallpaper_background_middle_incoming);
             }
             bodyCalls.setLayoutParams(params);
             bodyCalls.setText(data.getText());
@@ -253,7 +269,7 @@ public final class ConversationUpdateItem extends FrameLayout
     private void present(@NonNull ConversationMessage conversationMessage,
                          @NonNull Optional<MessageRecord> nextMessageRecord,
                          @NonNull Recipient conversationRecipient) {
-        setSelected(batchSelected.contains(conversationMessage));
+        // setSelected(batchSelected.contains(conversationMessage));
 
         if (conversationMessage.getMessageRecord().isGroupV1MigrationEvent() &&
                 (!nextMessageRecord.isPresent() || !nextMessageRecord.get().isGroupV1MigrationEvent())) {

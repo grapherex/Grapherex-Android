@@ -114,7 +114,7 @@
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
                     android:visibility="gone"
-                    tools:visibility="gone" />
+                    tools:visibility="visible" />
 
                 <FrameLayout
                     android:id="@+id/quote_video_overlay"

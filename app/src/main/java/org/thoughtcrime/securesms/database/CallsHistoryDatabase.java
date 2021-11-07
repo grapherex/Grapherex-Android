@@ -9,6 +9,8 @@ import org.thoughtcrime.securesms.recipients.Recipient;
 import org.thoughtcrime.securesms.recipients.RecipientId;
 import org.thoughtcrime.securesms.util.CursorUtil;
 
+import java.util.List;
+
 public class CallsHistoryDatabase extends Database {
 
     public static final String TABLE_NAME = "calls_history";
@@ -26,21 +28,6 @@ public class CallsHistoryDatabase extends Database {
 
     public CallsHistoryDatabase(Context context, SQLCipherOpenHelper databaseHelper) {
         super(context, databaseHelper);
-    }
-
-    private void fillDatabase(Context context) {
-        deleteAllCall();
-        Cursor cursor = DatabaseFactory.getSmsDatabase(context).getAllMessagesWithCallType();
-
-        while (cursor.moveToNext()) {
-            long recipientId = CursorUtil.requireLong(cursor, "address");
-            int callType = CursorUtil.requireInt(cursor, "type");
-            long timestamp = CursorUtil.requireLong(cursor, "date");
-
-            Recipient recipient = Recipient.live(RecipientId.from(recipientId)).get();
-
-            addCall(recipientId, recipient.getDisplayName(context), callType, timestamp, recipient.getProfileAvatar());
-        }
     }
 
     public void addCall(long recipientId, String recipientName, int callType, long callTimestamp, String recipientAvatar) {
@@ -70,5 +57,12 @@ public class CallsHistoryDatabase extends Database {
     public void deleteAllCall() {
         SQLiteDatabase db = databaseHelper.getReadableDatabase();
         db.delete(TABLE_NAME, null, null);
+    }
+
+    public void deleteCallsById(List<String> ids) {
+        SQLiteDatabase db = databaseHelper.getReadableDatabase();
+        for (String id : ids) {
+            db.delete(TABLE_NAME, ID + " = ?", new String[]{id});
+        }
     }
 }

@@ -1,11 +1,13 @@
 package org.thoughtcrime.securesms.conversationlist
 
+import android.annotation.SuppressLint
 import android.app.Application
+import android.util.Log
+
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
-import org.signal.glide.Log
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.conversationlist.model.CallHistoryData
 import org.thoughtcrime.securesms.conversationlist.model.CallHistoryItem
@@ -14,7 +16,7 @@ import org.thoughtcrime.securesms.recipients.RecipientId
 import org.thoughtcrime.securesms.util.DateUtils
 import java.util.*
 
-
+@SuppressLint("LogNotSignal")
 class CallsHistoryViewModel(
   app: Application,
   private val callsHistoryRepository: CallsHistoryRepository
@@ -29,6 +31,21 @@ class CallsHistoryViewModel(
 
   fun deleteCallsHistory() = viewModelScope.launch {
     clearCallsHistory()
+  }
+
+  fun deleteCallsById(ids: MutableList<String>) = viewModelScope.launch {
+    deleteCall(ids)
+  }
+
+  private fun deleteCall(ids: MutableList<String>) {
+    try {
+      loading.postValue(true)
+      callsHistoryRepository.deleteCalls(ids)
+    } catch (t: Throwable) {
+      Log.e("CallsHistoryViewModel", "deleteCalls by id $ids", t)
+    } finally {
+      loading.postValue(false)
+    }
   }
 
   private fun clearCallsHistory() {
@@ -58,6 +75,7 @@ class CallsHistoryViewModel(
       callHistoryData.reversed().forEach {
         this.add(
           CallHistoryItem(
+            it.id,
             RecipientId.from(it.recipientId),
             it.recipientName,
             CallType.TYPE.getResByType(it.callType),
@@ -74,7 +92,7 @@ class CallsHistoryViewModel(
     }
 
 
- enum class CallType(val res: Int, val type: Int, val rotation:Boolean) {
+  enum class CallType(val res: Int, val type: Int, val rotation: Boolean) {
     INCOMING(R.drawable.ic_calls_outgoing_call, 1, true),
     OUTGOING(R.drawable.ic_calls_outgoing_call, 2, false),
     MISSED(R.drawable.ic_calls_decline_call, 3, true),

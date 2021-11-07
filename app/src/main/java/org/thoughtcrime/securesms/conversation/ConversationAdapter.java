@@ -115,6 +115,7 @@ public class ConversationAdapter
   private PagingController    pagingController;
   private boolean             hasWallpaper;
   private boolean             isMessageRequestAccepted;
+  private boolean             hasSelection;
 
   ConversationAdapter(@NonNull LifecycleOwner lifecycleOwner,
                       @NonNull GlideRequests glideRequests,
@@ -255,6 +256,7 @@ public class ConversationAdapter
                                                   glideRequests,
                                                   locale,
                                                   selected,
+                                                  hasSelection,
                                                   recipient,
                                                   searchQuery,
                                                   conversationMessage == recordToPulse,
@@ -523,6 +525,16 @@ public class ConversationAdapter
    */
   void clearSelection() {
     selected.clear();
+    hasSelection = false;
+    notifyDataSetChanged();
+  }
+
+  /**
+   * Toggles the selected state of a record in multi-select mode.
+   */
+  void showSelection() {
+    hasSelection = true;
+    notifyDataSetChanged();
   }
 
   /**
