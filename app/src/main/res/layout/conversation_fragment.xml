@@ -21,7 +21,8 @@
         android:clipChildren="false"
         android:clipToPadding="false"
         android:paddingBottom="2dp"
-        android:scrollbars="vertical" />
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/scroll_date_header"

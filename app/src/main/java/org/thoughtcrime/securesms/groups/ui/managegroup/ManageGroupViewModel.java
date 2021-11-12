@@ -108,8 +108,10 @@ public class ManageGroupViewModel extends ViewModel {
     this.showLegacyIndicator       = Transformations.map(groupRecipient, recipient -> recipient.requireGroupId().isV1());
     this.memberCountSummary        = LiveDataUtil.combineLatest(liveGroup.getMembershipCountDescription(context.getResources()),
                                                                 this.showLegacyIndicator,
-                                                                (description, legacy) -> legacy ? String.format("%s · %s", description, context.getString(R.string.ManageGroupActivity_legacy_group))
-                                                                                                : description);
+            (description, legacy)->description
+//                                                                (description, legacy) -> legacy ? String.format("%s · %s", description, context.getString(R.string.ManageGroupActivity_legacy_group))
+//                                                                                                : description
+  );
     this.fullMemberCountSummary    = liveGroup.getFullMembershipCountDescription(context.getResources());
     this.editMembershipRights      = liveGroup.getMembershipAdditionAccessControl();
     this.editGroupAttributesRights = liveGroup.getAttributesAccessControl();

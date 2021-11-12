@@ -233,25 +233,26 @@ public class Util {
     }
   }
 
-  @RequiresPermission(anyOf = {
-      android.Manifest.permission.READ_PHONE_STATE,
-      android.Manifest.permission.READ_SMS,
-      android.Manifest.permission.READ_PHONE_NUMBERS
-  })
+//  @RequiresPermission(anyOf = {
+//      android.Manifest.permission.READ_PHONE_STATE,
+//      android.Manifest.permission.READ_SMS,
+//      android.Manifest.permission.READ_PHONE_NUMBERS
+//  })
   @SuppressLint("MissingPermission")
   public static Optional<Phonenumber.PhoneNumber> getDeviceNumber(Context context) {
-    try {
-      final String           localNumber = ((TelephonyManager)context.getSystemService(Context.TELEPHONY_SERVICE)).getLine1Number();
-      final Optional<String> countryIso  = getSimCountryIso(context);
+   // try {
+     // final String           localNumber = ((TelephonyManager)context.getSystemService(Context.TELEPHONY_SERVICE)).getLine1Number();
+    //  final Optional<String> countryIso  = getSimCountryIso(context);
 
-      if (TextUtils.isEmpty(localNumber)) return Optional.absent();
-      if (!countryIso.isPresent())        return Optional.absent();
+     // if (TextUtils.isEmpty(localNumber)) return Optional.absent();
+    //  if (!countryIso.isPresent())        return Optional.absent();
 
-      return Optional.fromNullable(PhoneNumberUtil.getInstance().parse(localNumber, countryIso.get()));
-    } catch (NumberParseException e) {
-      Log.w(TAG, e);
-      return Optional.absent();
-    }
+     // return Optional.fromNullable(PhoneNumberUtil.getInstance().parse(localNumber, countryIso.get()));
+       return Optional.absent();
+   // } catch (NumberParseException e) {
+//      Log.w(TAG, e);
+//      return Optional.absent();
+//    }
   }
 
   public static Optional<String> getSimCountryIso(Context context) {

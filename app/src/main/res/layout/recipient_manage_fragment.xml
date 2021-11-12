@@ -51,11 +51,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
+                    android:gravity="center"
                     android:paddingStart="16dp"
                     android:paddingEnd="16dp"
                     android:textAppearance="@style/Signal.Text.Body"
                     android:textColor="@color/signal_text_secondary"
-                    android:gravity="center"
                     app:emoji_forceCustom="true"
                     tools:text="Hangin' around the web" />
 
@@ -72,8 +72,8 @@
                     android:id="@+id/recipient_internal_details"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
                     android:gravity="center"
+                    android:orientation="vertical"
                     android:visibility="gone"
                     tools:visibility="visible">
 
@@ -83,18 +83,18 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="14dp"
+                        android:gravity="center"
                         android:textAppearance="@style/Signal.Text.Caption"
                         android:textColor="@color/signal_text_secondary"
-                        android:gravity="center"
                         android:textIsSelectable="true"
                         tools:text="Internal Details" />
 
                     <com.google.android.material.button.MaterialButton
                         android:id="@+id/recipient_internal_details_disable_profile_sharing_button"
+                        style="@style/Signal.Widget.Button.Medium.Secondary"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        style="@style/Signal.Widget.Button.Medium.Secondary"
-                        android:text="@string/preferences__internal_disable_profile_sharing"/>
+                        android:text="@string/preferences__internal_disable_profile_sharing" />
 
                 </LinearLayout>
 
@@ -104,32 +104,35 @@
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="16dp">
 
-                    <com.google.android.material.button.MaterialButton
+                    <androidx.appcompat.widget.AppCompatImageButton
                         android:id="@+id/recipient_message"
-                        style="@style/Widget.Signal.Button.Icon.Circular"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:background="@drawable/recipiennt_manager_icons_circle"
                         android:contentDescription="@string/ManageRecipientActivity_message_description"
-                        app:backgroundTint="@color/recipient_contact_button_color"
-                        app:icon="@drawable/ic_recipient_manage_chat"
+                        app:srcCompat="@drawable/ic_recipient_manage_chat"
                         app:rippleColor="@color/core_ultramarine" />
 
-                    <com.google.android.material.button.MaterialButton
+                    <androidx.appcompat.widget.AppCompatImageButton
                         android:id="@+id/recipient_video_call"
-                        style="@style/Widget.Signal.Button.Icon.Circular"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
                         android:layout_marginStart="36dp"
                         android:contentDescription="@string/ManageRecipientActivity_video_call_description"
                         android:visibility="gone"
-                        app:backgroundTint="@color/recipient_contact_button_color"
-                        app:icon="@drawable/ic_recipient_manage_video_call"
+                        android:background="@drawable/recipiennt_manager_icons_circle"
+                        app:srcCompat="@drawable/ic_recipient_manage_video_call"
                         tools:visibility="visible" />
 
-                    <com.google.android.material.button.MaterialButton
+                    <androidx.appcompat.widget.AppCompatImageButton
                         android:id="@+id/recipient_voice_call"
-                        style="@style/Widget.Signal.Button.Icon.Circular"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
                         android:layout_marginStart="36dp"
+                        android:background="@drawable/recipiennt_manager_icons_circle"
                         android:contentDescription="@string/ManageRecipientActivity_voice_call_description"
                         android:visibility="gone"
-                        app:backgroundTint="@color/recipient_contact_button_color"
-                        app:icon="@drawable/ic_recipient_manage_audio_call"
+                        app:srcCompat="@drawable/ic_recipient_manage_audio_call"
                         tools:visibility="visible" />
 
                     <com.google.android.material.button.MaterialButton
@@ -294,10 +297,10 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:gravity="end"
                         android:minWidth="48dp"
                         android:paddingStart="@dimen/group_manage_fragment_row_horizontal_padding"
                         android:paddingEnd="@dimen/group_manage_fragment_row_horizontal_padding"
-                        android:gravity="end"
                         android:textAppearance="@style/Signal.Text.Body"
                         android:textColor="@color/signal_text_secondary"
                         tools:text="Off" />
@@ -484,9 +487,10 @@
                 app:layout_constraintTop_toBottomOf="@id/recipient_media_card">
 
                 <LinearLayout
-                    android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
 
                     <LinearLayout
                         android:id="@+id/color_row"

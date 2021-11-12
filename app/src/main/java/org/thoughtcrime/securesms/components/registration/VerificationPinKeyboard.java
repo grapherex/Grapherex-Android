@@ -165,8 +165,10 @@ public class VerificationPinKeyboard extends FrameLayout {
         timer = new CountDownTimer(8 * 1000, 1000) {
             @Override
             public void onTick(long millisUntilFinished) {
-                progressViews.get(progressStep).setImageResource(R.drawable.ic_loading_active_part);
-                progressStep++;
+                if (progressStep<progressViews.size()){
+                    progressViews.get(progressStep).setImageResource(R.drawable.ic_loading_active_part);
+                    progressStep++;
+                }
             }
 
             @Override

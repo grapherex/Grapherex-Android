@@ -18,6 +18,7 @@ package org.thoughtcrime.securesms.conversationlist;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.graphics.drawable.RippleDrawable;
 import android.os.Build;
@@ -72,6 +73,7 @@ import java.util.Collections;
 import java.util.Locale;
 import java.util.Set;
 
+import static org.thoughtcrime.securesms.color.MaterialColor.STEEL;
 import static org.thoughtcrime.securesms.database.model.LiveUpdateMessage.recipientToStringAsync;
 
 public final class ConversationListItem extends ConstraintLayout
@@ -163,11 +165,6 @@ public final class ConversationListItem extends ConstraintLayout
         this.unreadCount = thread.getUnreadCount();
         this.lastSeen = thread.getLastSeen();
         this.thread = thread;
-
-        if (recipient.get().isSelf()) {
-            this.itemView.setVisibility(GONE);
-            return;
-        }
 
         if (highlightSubstring != null) {
             String name = recipient.get().isSelf() ? getContext().getString(R.string.note_to_self) : recipient.get().getDisplayName(getContext());
@@ -393,10 +390,8 @@ public final class ConversationListItem extends ConstraintLayout
     }
 
     private void setRippleColor(Recipient recipient) {
-        if (Build.VERSION.SDK_INT >= 21) {
-            ((RippleDrawable) (getBackground()).mutate())
-                    .setColor(ColorStateList.valueOf(recipient.getColor().toConversationColor(getContext())));
-        }
+        ((RippleDrawable) (getBackground()).mutate())
+                .setColor(ColorStateList.valueOf(getContext().getColor(R.color.conversation_ripple_color)));
     }
 
     private void setUnreadIndicator(ThreadRecord thread) {

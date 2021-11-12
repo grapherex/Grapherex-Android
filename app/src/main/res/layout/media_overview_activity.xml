@@ -16,17 +16,18 @@
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
+            tools:title="Test"
             android:layout_height="?android:attr/actionBarSize"
-            android:background="@color/media_overview_toolbar_background"
-            android:titleTextColor="@color/media_overview_toolbar_foreground"
+            android:background="@color/white"
+            android:titleTextColor="@color/black"
             app:layout_scrollFlags="scroll|enterAlways" />
 
         <org.thoughtcrime.securesms.components.ControllableTabLayout
             android:id="@+id/tab_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/media_overview_toolbar_background"
-            app:tabIndicatorColor="@color/core_ultramarine"
+            android:background="@color/white"
+            app:tabIndicatorColor="@color/black"
             app:tabMode="scrollable"
             app:tabSelectedTextColor="@color/core_ultramarine" />
 
@@ -47,7 +48,7 @@
         android:layout_height="0dp"
         android:layout_marginStart="16dp"
         android:gravity="center_vertical"
-        android:textColor="@color/media_overview_toolbar_foreground"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/sorting"
         app:layout_constraintStart_toStartOf="@+id/sorting"
         app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
@@ -59,7 +60,7 @@
         android:layout_height="0dp"
         android:importantForAccessibility="no"
         android:padding="4dp"
-        android:tint="@color/media_overview_toolbar_foreground"
+        android:tint="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/sort_order"
         app:layout_constraintStart_toEndOf="@+id/sort_order"
         app:layout_constraintTop_toTopOf="@+id/sort_order"
@@ -87,7 +88,7 @@
             android:contentDescription="@string/MediaOverviewActivity_Grid_view_description"
             android:focusable="true"
             android:gravity="center_vertical"
-            android:tint="@color/media_overview_toolbar_foreground"
+            android:tint="@color/black"
             android:visibility="visible"
             app:srcCompat="@drawable/ic_grid_20" />
 
@@ -101,7 +102,7 @@
             android:contentDescription="@string/MediaOverviewActivity_List_view_description"
             android:focusable="true"
             android:gravity="center_vertical"
-            android:tint="@color/media_overview_toolbar_foreground"
+            android:tint="@color/black"
             android:visibility="gone"
             app:srcCompat="@drawable/ic_list_20" />
 

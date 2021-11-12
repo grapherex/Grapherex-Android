@@ -155,11 +155,11 @@ public final class RecipientBottomSheetDialogFragment extends BottomSheetDialogF
                                               : recipient.getDisplayName(requireContext());
       fullName.setText(name);
       fullName.setVisibility(TextUtils.isEmpty(name) ? View.GONE : View.VISIBLE);
-      if (recipient.isSystemContact() && !recipient.isSelf()) {
-        fullName.setCompoundDrawablesRelativeWithIntrinsicBounds(0, 0, R.drawable.ic_profile_circle_outline_16, 0);
-        fullName.setCompoundDrawablePadding(ViewUtil.dpToPx(4));
-        TextViewCompat.setCompoundDrawableTintList(fullName, ColorStateList.valueOf(ContextCompat.getColor(requireContext(), R.color.signal_text_primary)));
-      }
+//      if (recipient.isSystemContact() && !recipient.isSelf()) {
+//        fullName.setCompoundDrawablesRelativeWithIntrinsicBounds(0, 0, R.drawable.ic_profile_circle_outline_16, 0);
+//        fullName.setCompoundDrawablePadding(ViewUtil.dpToPx(4));
+//        TextViewCompat.setCompoundDrawableTintList(fullName, ColorStateList.valueOf(ContextCompat.getColor(requireContext(), R.color.signal_text_primary)));
+//      }
 
       String aboutText = recipient.getCombinedAboutAndEmoji();
       if (!Util.isEmpty(aboutText)) {

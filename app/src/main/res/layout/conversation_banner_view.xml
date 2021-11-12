@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="24dp"
+    android:padding="16dp"
     tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
 
     <org.thoughtcrime.securesms.components.AvatarImageView
         android:id="@+id/message_request_avatar"
         android:layout_width="112dp"
         android:layout_height="112dp"
+        android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,6 +24,7 @@
         android:gravity="center"
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
+        android:visibility="gone"
         android:textAppearance="@style/Signal.Text.MessageRequest.Title"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,6 +37,7 @@
         android:layout_height="wrap_content"
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
+        android:visibility="gone"
         android:gravity="center"
         android:textAppearance="@style/Signal.Text.MessageRequest.Subtitle"
         tools:text="Hangin' on the web"
@@ -47,6 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="2dp"
         android:gravity="center"
+        android:visibility="gone"
         android:textAppearance="@style/Signal.Text.MessageRequest.Subtitle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,6 +62,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
+        android:visibility="gone"
         android:gravity="center"
         android:textAppearance="@style/Signal.Text.MessageRequest.Description"
         app:layout_constraintBottom_toBottomOf="parent"

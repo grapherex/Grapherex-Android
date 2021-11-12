@@ -223,6 +223,25 @@ public class CommunicationActions {
 
   private static void startInsecureCallInternal(@NonNull Activity activity, @NonNull Recipient recipient) {
     try {
+      Permissions.with(activity)
+              .request(Manifest.permission.RECORD_AUDIO)
+              .ifNecessary()
+              .withRationaleDialog(activity.getString(R.string.ConversationActivity__to_call_s_signal_needs_access_to_your_microphone, recipient.getDisplayName(activity)),
+                      R.drawable.ic_mic_solid_24)
+              .withPermanentDenialDialog(activity.getString(R.string.ConversationActivity__to_call_s_signal_needs_access_to_your_microphone, recipient.getDisplayName(activity)))
+              .onAllGranted(() -> {
+                ApplicationDependencies.getSignalCallManager().startOutgoingAudioCall(recipient);
+
+                MessageSender.onMessageSent();
+
+                Intent activityIntent = new Intent(activity, WebRtcCallActivity.class);
+
+                activityIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+
+                activity.startActivity(activityIntent);
+              })
+              .execute();
+
       Intent dialIntent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + recipient.requireSmsAddress()));
       activity.startActivity(dialIntent);
     } catch (ActivityNotFoundException anfe) {

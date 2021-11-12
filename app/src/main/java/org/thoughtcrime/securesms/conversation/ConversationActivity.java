@@ -2061,8 +2061,8 @@ public class ConversationActivity extends PassphraseRequiredActivity
             linkPreviewViewModel.onTransportChanged(newTransport.isSms());
             composeText.setTransport(newTransport);
 
-      buttonToggle.getBackground().setColorFilter(newTransport.getBackgroundColor(), PorterDuff.Mode.MULTIPLY);
-      buttonToggle.getBackground().invalidateSelf();
+//      buttonToggle.getBackground().setColorFilter(newTransport.getBackgroundColor(), PorterDuff.Mode.MULTIPLY);
+//      buttonToggle.getBackground().invalidateSelf();
 
             if (manuallySelected) recordTransportPreference(newTransport);
         });
@@ -2918,28 +2918,39 @@ public class ConversationActivity extends PassphraseRequiredActivity
             outgoingMessage = outgoingMessageCandidate;
         }
 
-    Permissions.with(this)
-               .request(Manifest.permission.SEND_SMS, Manifest.permission.READ_SMS)
-               .ifNecessary(!isSecureText || forceSms)
-               .withPermanentDenialDialog(getString(R.string.ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms))
-               .onAllGranted(() -> {
-                 if (clearComposeBox) {
-                   inputPanel.clearQuote();
-                   attachmentManager.clear(glideRequests, false);
-                   silentlySetComposeText("");
-                 }
+//    Permissions.with(this)
+//               .request(Manifest.permission.SEND_SMS, Manifest.permission.READ_SMS)
+//               .ifNecessary(!isSecureText || forceSms)
+//               .withPermanentDenialDialog(getString(R.string.ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms))
+//               .onAllGranted(() -> {
+//                 if (clearComposeBox) {
+//                   inputPanel.clearQuote();
+//                   attachmentManager.clear(glideRequests, false);
+//                   silentlySetComposeText("");
+//                 }
+//
+//                 final long id = fragment.stageOutgoingMessage(outgoingMessage);
+//
+//                 SimpleTask.run(() -> MessageSender.send(context, outgoingMessage, thread, forceSms, () -> fragment.releaseOutgoingMessage(id)), result -> {
+//                   sendComplete(result);
+//                   future.set(null);
+//                 });
+//               })
+//               .onAnyDenied(() -> future.set(null))
+//               .execute();
 
-                 final long id = fragment.stageOutgoingMessage(outgoingMessage);
+        if (clearComposeBox) {
+            inputPanel.clearQuote();
+            attachmentManager.clear(glideRequests, false);
+            silentlySetComposeText("");
+        }
 
-                 SimpleTask.run(() -> {
-                   return MessageSender.send(context, outgoingMessage, thread, forceSms, () -> fragment.releaseOutgoingMessage(id));
-                 }, result -> {
-                   sendComplete(result);
-                   future.set(null);
-                 });
-               })
-               .onAnyDenied(() -> future.set(null))
-               .execute();
+        final long id = fragment.stageOutgoingMessage(outgoingMessage);
+
+        SimpleTask.run(() -> MessageSender.send(context, outgoingMessage, thread, forceSms, () -> fragment.releaseOutgoingMessage(id)), result -> {
+            sendComplete(result);
+            future.set(null);
+        });
 
         return future;
     }
@@ -2964,20 +2975,22 @@ public class ConversationActivity extends PassphraseRequiredActivity
             message = new OutgoingTextMessage(recipient.get(), messageBody, expiresIn, subscriptionId);
         }
 
-    Permissions.with(this)
-               .request(Manifest.permission.SEND_SMS)
-               .ifNecessary(forceSms || !isSecureText)
-               .withPermanentDenialDialog(getString(R.string.ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms))
-               .onAllGranted(() -> {
-                 silentlySetComposeText("");
-                 final long id = fragment.stageOutgoingMessage(message);
+//    Permissions.with(this)
+//               .request(Manifest.permission.SEND_SMS)
+//               .ifNecessary(forceSms || !isSecureText)
+//               .withPermanentDenialDialog(getString(R.string.ConversationActivity_signal_needs_sms_permission_in_order_to_send_an_sms))
+//               .onAllGranted(() -> {
+//                 silentlySetComposeText("");
+//                 final long id = fragment.stageOutgoingMessage(message);
+//
+//                 SimpleTask.run(() -> MessageSender.send(context, message, thread, forceSms, () -> fragment.releaseOutgoingMessage(id)), this::sendComplete);
+//               })
+//               .execute();
 
-                 SimpleTask.run(() -> {
-                   return MessageSender.send(context, message, thread, forceSms, () -> fragment.releaseOutgoingMessage(id));
-                 }, this::sendComplete);
-               })
-               .execute();
-  }
+        silentlySetComposeText("");
+        final long id = fragment.stageOutgoingMessage(message);
+        SimpleTask.run(() -> MessageSender.send(context, message, thread, forceSms, () -> fragment.releaseOutgoingMessage(id)), this::sendComplete);
+    }
 
     private void showDefaultSmsPrompt() {
         new AlertDialog.Builder(this)

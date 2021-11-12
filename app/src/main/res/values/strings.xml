@@ -3368,10 +3368,13 @@
     <string name="ConversationListFragment_drawer_item_about">New features</string>
 
     <!-- CallsFragment -->
-    <string name="CallsFragment_screen_title" translatable="false">Calls</string>
-    <string name="SelectCallContactFragment_screen_title" translatable="false">Select Contact</string>
-    <string name="CallsFragment_fab_select_contact_title" translatable="false">Calls</string>
-    <string name="calls_fragment__fab_content_description" translatable="false">Calls</string>
-    <string name="ContactSelectionListFragment_title" translatable="false">New message</string>
-    <string name="ContactSelectionListFragment_title_group" translatable="false">New Group</string>
+    <string name="CallsFragment_screen_title">Calls</string>
+    <string name="SelectCallContactFragment_screen_title">Select Contact</string>
+    <string name="CallsFragment_fab_select_contact_title" >Calls</string>
+    <string name="calls_fragment__fab_content_description" >Calls</string>
+    <string name="ContactSelectionListFragment_title">New message</string>
+    <string name="ContactSelectionListFragment_title_group">New Group</string>
+
+    <string name="CallsHistoryFragment_delete_calls_title">Delete selected calls</string>
+    <string name="CallsHistoryFragment_delete_calls_message">Are you sure you want to delete the selected calls?</string>
 </resources>

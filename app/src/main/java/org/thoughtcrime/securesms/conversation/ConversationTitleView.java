@@ -87,11 +87,11 @@ public class ConversationTitleView extends RelativeLayout {
       startDrawable = R.drawable.ic_volume_off_white_18dp;
     }
 
-    if (recipient != null && recipient.isSystemContact() && !recipient.isSelf()) {
-      endDrawable = R.drawable.ic_profile_circle_outline_16;
-    }
+//    if (recipient != null && recipient.isSystemContact() && !recipient.isSelf()) {
+//      endDrawable = R.drawable.ic_profile_circle_outline_16;
+//    }
 
-    title.setCompoundDrawablesRelativeWithIntrinsicBounds(startDrawable, 0, endDrawable, 0);
+    title.setCompoundDrawablesRelativeWithIntrinsicBounds(startDrawable, 0, 0, 0);
     TextViewCompat.setCompoundDrawableTintList(title, ColorStateList.valueOf(ContextCompat.getColor(getContext(), R.color.signal_inverse_transparent_80)));
 
     if (recipient != null) {

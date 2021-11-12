@@ -57,12 +57,12 @@ public class ConversationBannerView extends ConstraintLayout {
 
   public void setAbout(@Nullable String about) {
     contactAbout.setText(about);
-    contactAbout.setVisibility(TextUtils.isEmpty(about) ? GONE : VISIBLE);
+   // contactAbout.setVisibility(TextUtils.isEmpty(about) ? GONE : VISIBLE);
   }
 
   public void setSubtitle(@Nullable CharSequence subtitle) {
     contactSubtitle.setText(subtitle);
-    contactSubtitle.setVisibility(TextUtils.isEmpty(subtitle) ? GONE : VISIBLE);
+    //contactSubtitle.setVisibility(TextUtils.isEmpty(subtitle) ? GONE : VISIBLE);
   }
 
   public void setDescription(@Nullable CharSequence description) {
@@ -82,7 +82,7 @@ public class ConversationBannerView extends ConstraintLayout {
   }
 
   public void showDescription() {
-    contactDescription.setVisibility(View.VISIBLE);
+    //contactDescription.setVisibility(View.VISIBLE);
   }
 
   public void hideDescription() {

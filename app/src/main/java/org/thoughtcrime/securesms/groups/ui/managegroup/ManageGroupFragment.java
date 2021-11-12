@@ -360,36 +360,36 @@ public class ManageGroupFragment extends LoggingFragment {
     viewModel.getCanBlockGroup().observe(getViewLifecycleOwner(), canBlock -> blockGroup.setVisibility(canBlock ? View.VISIBLE : View.GONE));
     viewModel.getCanUnblockGroup().observe(getViewLifecycleOwner(), canUnblock -> unblockGroup.setVisibility(canUnblock ? View.VISIBLE : View.GONE));
 
-    viewModel.getGroupInfoMessage().observe(getViewLifecycleOwner(), message -> {
-      switch (message) {
-        case LEGACY_GROUP_LEARN_MORE:
-          groupInfoText.setText(R.string.ManageGroupActivity_legacy_group_learn_more);
-          groupInfoText.setOnLinkClickListener(v -> GroupsLearnMoreBottomSheetDialogFragment.show(requireFragmentManager()));
-          groupInfoText.setLearnMoreVisible(true);
-          groupInfoText.setVisibility(View.VISIBLE);
-          break;
-        case LEGACY_GROUP_UPGRADE:
-          groupInfoText.setText(R.string.ManageGroupActivity_legacy_group_upgrade);
-          groupInfoText.setOnLinkClickListener(v -> GroupsV1MigrationInitiationBottomSheetDialogFragment.showForInitiation(requireFragmentManager(), Recipient.externalPossiblyMigratedGroup(requireContext(), groupId).getId()));
-          groupInfoText.setLearnMoreVisible(true, R.string.ManageGroupActivity_upgrade_this_group);
-          groupInfoText.setVisibility(View.VISIBLE);
-          break;
-        case LEGACY_GROUP_TOO_LARGE:
-          groupInfoText.setText(context.getString(R.string.ManageGroupActivity_legacy_group_too_large, FeatureFlags.groupLimits().getHardLimit() - 1));
-          groupInfoText.setLearnMoreVisible(false);
-          groupInfoText.setVisibility(View.VISIBLE);
-          break;
-        case MMS_WARNING:
-          groupInfoText.setText(R.string.ManageGroupActivity_this_is_an_insecure_mms_group);
-          groupInfoText.setOnLinkClickListener(v -> startActivity(new Intent(requireContext(), InviteActivity.class)));
-          groupInfoText.setLearnMoreVisible(true, R.string.ManageGroupActivity_invite_now);
-          groupInfoText.setVisibility(View.VISIBLE);
-          break;
-        default:
-          groupInfoText.setVisibility(View.GONE);
-          break;
-      }
-    });
+//    viewModel.getGroupInfoMessage().observe(getViewLifecycleOwner(), message -> {
+//      switch (message) {
+//        case LEGACY_GROUP_LEARN_MORE:
+//          groupInfoText.setText(R.string.ManageGroupActivity_legacy_group_learn_more);
+//          groupInfoText.setOnLinkClickListener(v -> GroupsLearnMoreBottomSheetDialogFragment.show(requireFragmentManager()));
+//          groupInfoText.setLearnMoreVisible(true);
+//          groupInfoText.setVisibility(View.VISIBLE);
+//          break;
+//        case LEGACY_GROUP_UPGRADE:
+//          groupInfoText.setText(R.string.ManageGroupActivity_legacy_group_upgrade);
+//          groupInfoText.setOnLinkClickListener(v -> GroupsV1MigrationInitiationBottomSheetDialogFragment.showForInitiation(requireFragmentManager(), Recipient.externalPossiblyMigratedGroup(requireContext(), groupId).getId()));
+//          groupInfoText.setLearnMoreVisible(true, R.string.ManageGroupActivity_upgrade_this_group);
+//          groupInfoText.setVisibility(View.VISIBLE);
+//          break;
+//        case LEGACY_GROUP_TOO_LARGE:
+//          groupInfoText.setText(context.getString(R.string.ManageGroupActivity_legacy_group_too_large, FeatureFlags.groupLimits().getHardLimit() - 1));
+//          groupInfoText.setLearnMoreVisible(false);
+//          groupInfoText.setVisibility(View.VISIBLE);
+//          break;
+//        case MMS_WARNING:
+//          groupInfoText.setText(R.string.ManageGroupActivity_this_is_an_insecure_mms_group);
+//          groupInfoText.setOnLinkClickListener(v -> startActivity(new Intent(requireContext(), InviteActivity.class)));
+//          groupInfoText.setLearnMoreVisible(true, R.string.ManageGroupActivity_invite_now);
+//          groupInfoText.setVisibility(View.VISIBLE);
+//          break;
+//        default:
+//          groupInfoText.setVisibility(View.GONE);
+//          break;
+//      }
+//    });
   }
 
   private static int booleanToOnOff(boolean isOn) {
