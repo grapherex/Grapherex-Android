@@ -23,13 +23,14 @@ public final class MoneyProtobufUtil {
 //    return null;
 //  }
 
-    public static Money paymentAmountToMoney(SignalServiceProtos.DataMessage.Payment.Amount amount) throws UnsupportedCurrencyException {
-      switch (amount.getAmountCase()) {
-        case MOBILECOIN:
-          return Money.picoMobileCoin(amount.getMobileCoin().getPicoMob());
-        case AMOUNT_NOT_SET:
-        default:
-          throw new UnsupportedCurrencyException();
-      }
-  }
+//    public static Money paymentAmountToMoney(SignalServiceProtos.DataMessage.Payment.Amount amount) throws UnsupportedCurrencyException {
+////      switch (amount.getAmountCase()) {
+////        case MOBILECOIN:
+////          return Money.picoMobileCoin(amount.getMobileCoin().getPicoMob());
+////        case AMOUNT_NOT_SET:
+////        default:
+////          throw new UnsupportedCurrencyException();
+////      }
+//      throw new UnsupportedCurrencyException();
+//  }
 }

@@ -603,31 +603,31 @@ public final class SignalServiceContent {
             return SignalServiceSyncMessage.forMessageRequestResponse(responseMessage);
         }
 
-    if (content.hasOutgoingPayment()) {
-      SignalServiceProtos.SyncMessage.OutgoingPayment outgoingPayment = content.getOutgoingPayment();
-      switch (outgoingPayment.getPaymentDetailCase()) {
-        case MOBILECOIN: {
-          SignalServiceProtos.SyncMessage.OutgoingPayment.MobileCoin mobileCoin = outgoingPayment.getMobileCoin();
-          Money.MobileCoin                                           amount     = Money.picoMobileCoin(mobileCoin.getAmountPicoMob());
-          Money.MobileCoin                                           fee        = Money.picoMobileCoin(mobileCoin.getFeePicoMob());
-          ByteString                                                 address    = mobileCoin.getRecipientAddress();
-          Optional<UUID>                                             recipient  = Optional.fromNullable(UuidUtil.parseOrNull(outgoingPayment.getRecipientUuid()));
-
-          return SignalServiceSyncMessage.forOutgoingPayment(new OutgoingPaymentMessage(recipient,
-                                                                                        amount,
-                                                                                        fee,
-                                                                                        mobileCoin.getReceipt(),
-                                                                                        mobileCoin.getLedgerBlockIndex(),
-                                                                                        mobileCoin.getLedgerBlockTimestamp(),
-                                                                                        address.isEmpty() ? Optional.absent() : Optional.of(address.toByteArray()),
-                                                                                        Optional.of(outgoingPayment.getNote()),
-                                                                                        mobileCoin.getOutputPublicKeysList(),
-                                                                                        mobileCoin.getSpentKeyImagesList()));
-        }
-        default:
-          return SignalServiceSyncMessage.empty();
-      }
-    }
+//    if (content.hasOutgoingPayment()) {
+//      SignalServiceProtos.SyncMessage.OutgoingPayment outgoingPayment = content.getOutgoingPayment();
+//      switch (outgoingPayment.getPaymentDetailCase()) {
+//        case MOBILECOIN: {
+//          SignalServiceProtos.SyncMessage.OutgoingPayment.MobileCoin mobileCoin = outgoingPayment.getMobileCoin();
+//          Money.MobileCoin                                           amount     = Money.picoMobileCoin(mobileCoin.getAmountPicoMob());
+//          Money.MobileCoin                                           fee        = Money.picoMobileCoin(mobileCoin.getFeePicoMob());
+//          ByteString                                                 address    = mobileCoin.getRecipientAddress();
+//          Optional<UUID>                                             recipient  = Optional.fromNullable(UuidUtil.parseOrNull(outgoingPayment.getRecipientUuid()));
+//
+//          return SignalServiceSyncMessage.forOutgoingPayment(new OutgoingPaymentMessage(recipient,
+//                                                                                        amount,
+//                                                                                        fee,
+//                                                                                        mobileCoin.getReceipt(),
+//                                                                                        mobileCoin.getLedgerBlockIndex(),
+//                                                                                        mobileCoin.getLedgerBlockTimestamp(),
+//                                                                                        address.isEmpty() ? Optional.absent() : Optional.of(address.toByteArray()),
+//                                                                                        Optional.of(outgoingPayment.getNote()),
+//                                                                                        mobileCoin.getOutputPublicKeysList(),
+//                                                                                        mobileCoin.getSpentKeyImagesList()));
+//        }
+//        default:
+//          return SignalServiceSyncMessage.empty();
+//      }
+//    }
 
         return SignalServiceSyncMessage.empty();
     }
@@ -850,11 +850,12 @@ public final class SignalServiceContent {
 //
 //    SignalServiceProtos.DataMessage.Payment payment = content.getPayment();
 
-    switch (payment.getItemCase()) {
-      case NOTIFICATION: return new SignalServiceDataMessage.Payment(createPaymentNotification(payment));
-      default          : throw new InvalidMessageException("Unknown payment item");
+//    switch (payment.getItemCase()) {
+//      case NOTIFICATION: return new SignalServiceDataMessage.Payment(createPaymentNotification(payment));
+//      default          : throw new InvalidMessageException("Unknown payment item");
+//    }
+        return null;
     }
-  }
 
 //  private static SignalServiceDataMessage.PaymentNotification createPaymentNotification(SignalServiceProtos.DataMessage.Payment content)
 //      throws InvalidMessageException

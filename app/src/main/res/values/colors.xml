@@ -6,6 +6,8 @@
     <color name="signal_accent_green">#4CAF50</color>
     <color name="red">#E20909</color>
 
+    <color name="conversation_ripple_color">#F7F7F7</color>
+
     <color name="transparent_black_05">#0D000000</color>
     <color name="transparent_black_10">#18000000</color>
     <color name="transparent_black_15">#26000000</color>

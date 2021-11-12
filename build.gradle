@@ -32,7 +32,7 @@ ext {
 
     COMPILE_SDK = 30
     TARGET_SDK  = 30
-    MINIMUM_SDK = 21
+    MINIMUM_SDK = 23
 
     JAVA_VERSION = JavaVersion.VERSION_1_8
 }

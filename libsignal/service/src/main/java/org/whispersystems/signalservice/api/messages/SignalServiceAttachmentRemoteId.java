@@ -44,15 +44,13 @@ public final class SignalServiceAttachmentRemoteId {
     }
 
     public static SignalServiceAttachmentRemoteId from(AttachmentPointer attachmentPointer) throws ProtocolInvalidMessageException {
-        switch (attachmentPointer.getAttachmentIdentifierCase()) {
-            case CDNID:
-                return new SignalServiceAttachmentRemoteId(attachmentPointer.getCdnId());
-            case CDNKEY:
-                return new SignalServiceAttachmentRemoteId(attachmentPointer.getCdnKey());
-            case ATTACHMENTIDENTIFIER_NOT_SET:
-                throw new ProtocolInvalidMessageException(new InvalidMessageException("AttachmentPointer CDN location not set"), null, 0);
+        if (attachmentPointer.getCdnId()!=0){
+            return new SignalServiceAttachmentRemoteId(attachmentPointer.getCdnId());
+        }else if (attachmentPointer.getCdnKey()!=null){
+            return new SignalServiceAttachmentRemoteId(attachmentPointer.getCdnKey());
+        }else {
+            throw new ProtocolInvalidMessageException(new InvalidMessageException("AttachmentPointer CDN location not set"), null, 0);
         }
-        return null;
     }
 
     /**

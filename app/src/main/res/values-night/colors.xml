@@ -2,4 +2,10 @@
 <resources>
     <color name="white">#131313</color>
     <color name="black">#ffffff</color>
+
+    <color name="conversation_ripple_color">#161616</color>
+
+    <color name="SplashFragment_background_color">#0E113C</color>
+    <color name="EnterVariantFragment_title_color">#F0F8FF</color>
+    <color name="EnterVariantFragment_subtitle_color">#C5C9DE</color>
 </resources>
