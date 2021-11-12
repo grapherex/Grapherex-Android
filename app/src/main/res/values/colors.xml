@@ -53,4 +53,8 @@
     <color name="storage_color_videos">#ff9BCFBD</color>
     <color name="storage_color_audio">@color/core_ultramarine</color>
     <color name="storage_color_files">#ffA23474</color>
+
+    <color name="SplashFragment_background_color">#F6F6F6</color>
+    <color name="EnterVariantFragment_title_color">#3E3E3E</color>
+    <color name="EnterVariantFragment_subtitle_color">#282828</color>
 </resources>

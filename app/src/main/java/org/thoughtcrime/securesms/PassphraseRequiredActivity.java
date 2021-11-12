@@ -23,11 +23,11 @@ import org.thoughtcrime.securesms.keyvalue.GrapherexStore;
 import org.thoughtcrime.securesms.lock.v2.CreateKbsPinActivity;
 import org.thoughtcrime.securesms.migrations.ApplicationMigrationActivity;
 import org.thoughtcrime.securesms.migrations.ApplicationMigrations;
+import org.thoughtcrime.securesms.new_registration.NewRegistrationActivity;
 import org.thoughtcrime.securesms.pin.PinRestoreActivity;
 import org.thoughtcrime.securesms.profiles.edit.EditProfileActivity;
 import org.thoughtcrime.securesms.push.SignalServiceNetworkAccess;
 import org.thoughtcrime.securesms.recipients.Recipient;
-import org.thoughtcrime.securesms.registration.RegistrationNavigationActivity;
 import org.thoughtcrime.securesms.service.KeyCachingService;
 import org.thoughtcrime.securesms.util.AppStartup;
 import org.thoughtcrime.securesms.util.TextSecurePreferences;
@@ -207,7 +207,8 @@ public abstract class PassphraseRequiredActivity extends BaseActivity implements
   }
 
   private Intent getPushRegistrationIntent() {
-    return RegistrationNavigationActivity.newIntentForNewRegistration(this, getIntent());
+   // return RegistrationNavigationActivity.newIntentForNewRegistration(this, getIntent());
+    return new Intent(this, NewRegistrationActivity.class);
   }
 
   private Intent getEnterSignalPinIntent() {
