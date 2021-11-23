@@ -37,66 +37,52 @@
         app:layout_constraintTop_toBottomOf="@+id/appCompatImageView5"
         app:srcCompat="@drawable/ic_stacle_subtitle" />
 
-
-    <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/appCompatImageView7"
-        android:layout_width="wrap_content"
+    <org.thoughtcrime.securesms.components.registration.VerificationCodeView
+        android:id="@+id/code"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/appCompatImageView6"
-        app:layout_constraintStart_toStartOf="@+id/appCompatImageView6"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.45"
-        app:srcCompat="@drawable/ic_qr_code_scan" />
-
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/appCompatTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="Sign up by QR code"
-        android:textColor="@color/EnterVariantFragment_title_color"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/appCompatImageView7"
-        app:layout_constraintStart_toStartOf="@+id/appCompatImageView7"
-        app:layout_constraintTop_toBottomOf="@+id/appCompatImageView7" />
-
-    <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:gravity="center"
-        android:text="Scan the QR code to connect\nyour account"
-        android:textColor="@color/EnterVariantFragment_subtitle_color"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="@+id/appCompatTextView"
-        app:layout_constraintStart_toStartOf="@+id/appCompatTextView"
-        app:layout_constraintTop_toBottomOf="@+id/appCompatTextView" />
-
-    <androidx.appcompat.widget.AppCompatImageButton
-        android:id="@+id/btnSignUp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@null"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.80"
-        app:srcCompat="@drawable/ic_stacle_scan_qr"
-        tools:ignore="SpeakableTextPresentCheck" />
+        app:layout_constraintVertical_bias="0.40" />
 
-    <androidx.appcompat.widget.AppCompatImageButton
-        android:id="@+id/ivEnterManually"
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/btnResendCode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:background="@null"
-        app:layout_constraintEnd_toEndOf="@+id/btnSignUp"
-        app:layout_constraintStart_toStartOf="@+id/btnSignUp"
-        app:layout_constraintTop_toBottomOf="@+id/btnSignUp"
-        app:srcCompat="@drawable/ic_enter_manually"
-        tools:ignore="SpeakableTextPresentCheck" />
+        android:enabled="false"
+        android:text="Resend PIN"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/code"
+        app:layout_constraintStart_toStartOf="@+id/code"
+        app:layout_constraintTop_toBottomOf="@+id/code" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/core_grey"
+        android:textSize="12sp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="@+id/btnResendCode"
+        app:layout_constraintStart_toStartOf="@+id/btnResendCode"
+        app:layout_constraintTop_toBottomOf="@+id/btnResendCode"
+        tools:text="After 43 seconds" />
+
+    <org.thoughtcrime.securesms.components.registration.VerificationPinKeyboard
+        android:id="@+id/keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

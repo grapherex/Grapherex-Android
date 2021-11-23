@@ -22,5 +22,31 @@
         android:label="EnterVariantFragment"
         tools:layout="@layout/enter_variant_fragment">
 
+        <action
+            android:id="@+id/actionEnterPinFragment"
+            app:destination="@id/enterPinFragment" />
+        <action
+            android:id="@+id/actionEnterManuallyFragment"
+            app:destination="@id/enterManuallyFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/enterPinFragment"
+        android:name="org.thoughtcrime.securesms.new_registration.EnterPinFragment"
+        android:label="EnterPinFragment"
+        tools:layout="@layout/enter_pin_fragment">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/enterManuallyFragment"
+        android:name="org.thoughtcrime.securesms.new_registration.EnterManuallyFragment"
+        android:label="EnterManuallyFragment"
+        tools:layout="@layout/enter_manually_fragment">
+
+        <action
+            android:id="@+id/actionEnterPinFragment"
+            app:destination="@id/enterPinFragment" />
     </fragment>
 </navigation>

@@ -28,7 +28,6 @@ import java.util.List;
 public final class VerificationCodeView extends FrameLayout {
 
     private final List<TextView> codes = new ArrayList<>(6);
-    private final List<View> containers = new ArrayList<>(6);
 
     private OnCodeEnteredListener listener;
     private int index;
@@ -63,13 +62,6 @@ public final class VerificationCodeView extends FrameLayout {
         codes.add(findViewById(R.id.code_three));
         codes.add(findViewById(R.id.code_four));
         codes.add(findViewById(R.id.code_five));
-
-        containers.add(findViewById(R.id.container_zero));
-        containers.add(findViewById(R.id.container_one));
-        containers.add(findViewById(R.id.container_two));
-        containers.add(findViewById(R.id.container_three));
-        containers.add(findViewById(R.id.container_four));
-        containers.add(findViewById(R.id.container_five));
     }
 
     @MainThread
@@ -81,27 +73,9 @@ public final class VerificationCodeView extends FrameLayout {
     public void append(int value) {
         if (index >= codes.size()) return;
 
-        setInactive(containers);
-        setActive(containers.get(index));
+        setActive(codes.get(index));
 
-        TextView codeView = codes.get(index++);
-
-        Animation translateIn = new TranslateAnimation(0, 0, codeView.getHeight(), 0);
-        translateIn.setInterpolator(new OvershootInterpolator());
-        translateIn.setDuration(500);
-
-        Animation fadeIn = new AlphaAnimation(0, 1);
-        fadeIn.setDuration(200);
-
-        AnimationSet animationSet = new AnimationSet(false);
-        animationSet.addAnimation(fadeIn);
-        animationSet.addAnimation(translateIn);
-        animationSet.reset();
-        animationSet.setStartTime(0);
-
-        codeView.setText(String.valueOf(value));
-        codeView.clearAnimation();
-        codeView.startAnimation(animationSet);
+        codes.get(index++).setText(String.valueOf(value));
 
         if (index == codes.size() && listener != null) {
             listener.onCodeComplete(Stream.of(codes).map(TextView::getText).collect(Collectors.joining()));
@@ -112,8 +86,8 @@ public final class VerificationCodeView extends FrameLayout {
     public void delete() {
         if (index <= 0) return;
         codes.get(--index).setText("");
-        setInactive(containers);
-        setActive(containers.get(index));
+        setActive(codes.get(index));
+        setInactive(codes.get(index));
     }
 
     @MainThread
@@ -122,15 +96,18 @@ public final class VerificationCodeView extends FrameLayout {
             Stream.of(codes).forEach(code -> code.setText(""));
             index = 0;
         }
-        setInactive(containers);
+        setInactive(codes);
     }
 
-    private static void setInactive(List<View> views) {
-        Stream.of(views).forEach(c -> c.setBackgroundColor(c.getResources().getColor(R.color.core_black)));
+    private static void setInactive(List<TextView> views) {
+        Stream.of(views).forEach(c -> c.setEnabled(false));
     }
 
-    private static void setActive(@NonNull View container) {
-        container.setBackgroundColor(container.getResources().getColor(R.color.core_black));
+    private static void setActive(@NonNull TextView code) {
+        code.setEnabled(true);
+    }
+    private static void setInactive(@NonNull TextView code) {
+        code.setEnabled(false);
     }
 
     public interface OnCodeEnteredListener {

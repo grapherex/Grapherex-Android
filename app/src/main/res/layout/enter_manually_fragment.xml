@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/SplashFragment_background_color">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/appCompatImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.10"
+        app:srcCompat="@drawable/ic_stacle_logo_small" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/appCompatImageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="@+id/appCompatImageView"
+        app:layout_constraintStart_toStartOf="@+id/appCompatImageView"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatImageView"
+        app:srcCompat="@drawable/ic_stacle_title" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/appCompatImageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/appCompatImageView5"
+        app:layout_constraintStart_toStartOf="@+id/appCompatImageView5"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatImageView5"
+        app:srcCompat="@drawable/ic_stacle_subtitle" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:gravity="center"
+        android:letterSpacing="0.07"
+        android:text="Enter your ID,\nPIN-code will come on your device"
+        android:textColor="@color/EnterVariantFragment_subtitle_color"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/appCompatImageView6"
+        app:layout_constraintStart_toStartOf="@+id/appCompatImageView6"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatImageView6" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etCompanyName"
+        android:layout_width="311dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/reg_bg_manually_data_selector"
+        android:hint="Company Name"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="#696969"
+        android:maxLines="1"
+        android:inputType="text"
+        android:imeOptions="actionNext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvHint" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etId"
+        android:layout_width="311dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/reg_bg_manually_data_selector"
+        android:hint="ID"
+        android:padding="16dp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:imeOptions="actionSend"
+        android:textColor="@color/black"
+        android:textColorHint="#696969"
+        app:layout_constraintEnd_toEndOf="@+id/etCompanyName"
+        app:layout_constraintStart_toStartOf="@+id/etCompanyName"
+        app:layout_constraintTop_toBottomOf="@+id/etCompanyName" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSend"
+        android:layout_width="311dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/reg_bg_btn_selector"
+        android:enabled="false"
+        android:padding="16dp"
+        android:text="Send"
+        android:textAllCaps="false"
+        android:textColor="@color/reg_btn_text_color_selector"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
