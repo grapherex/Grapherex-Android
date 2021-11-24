@@ -11,7 +11,7 @@ class EnterVariantFragment : BaseFragment() {
 
   override fun updateView() {
     btnSignUp.setOnClickListener {
-      findNavController().navigate(EnterVariantFragmentDirections.actionEnterPinFragment())
+      findNavController().navigate(EnterVariantFragmentDirections.actionQrCodeScannerFragment())
     }
     ivEnterManually.setOnClickListener {
       findNavController().navigate(EnterVariantFragmentDirections.actionEnterManuallyFragment())

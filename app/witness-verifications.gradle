@@ -243,6 +243,9 @@ dependencyVerification {
         ['com.annimon:stream:1.1.8',
          '5da6e2e3e0551d61a3ea7014f04312276549e3dd739cf637996e4cf43c5535b9'],
 
+        ['com.budiyev.android:code-scanner:2.1.0',
+         '9d4089fa4ccdfdb5f3d9cc9b1e07eb3bbd0b7abf340676bd6bdc131f20a77db3'],
+
         ['com.codewaves.stickyheadergrid:stickyheadergrid:0.9.4',
          '5b4aa6a52a957cfd55f60f4220c11c0c371385a3cb9786cae03c260dcdef5794'],
 
@@ -432,8 +435,8 @@ dependencyVerification {
         ['com.google.zxing:android-integration:3.1.0',
          '89e56aadf1164bd71e57949163c53abf90af368b51669c0d4a47a163335f95c4'],
 
-        ['com.google.zxing:core:3.2.1',
-         'b4d82452e7a6bf6ec2698904b332431717ed8f9a850224f295aec89de80f2259'],
+        ['com.google.zxing:core:3.3.3',
+         '5820f81e943e4bce0329306621e2d6255d2930b0a6ce934c5c23c0d6d3f20599'],
 
         ['com.googlecode.ez-vcard:ez-vcard:0.9.11',
          '7e24ad50b222d2f70ac91bdccfa3c0f6200b078d797cb784837f75e77bb4210f'],

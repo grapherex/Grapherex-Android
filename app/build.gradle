@@ -402,6 +402,7 @@ dependencies {
         force = true
     }
 
+    implementation 'com.budiyev.android:code-scanner:2.1.0'
     implementation 'androidx.recyclerview:recyclerview-selection:1.1.0'
 
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0'

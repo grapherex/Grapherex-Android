@@ -8,4 +8,7 @@
     <color name="SplashFragment_background_color">#0E113C</color>
     <color name="EnterVariantFragment_title_color">#F0F8FF</color>
     <color name="EnterVariantFragment_subtitle_color">#C5C9DE</color>
+
+    <color name="EnterPinFragment_resend_pin_enable_color">#FFFFFF</color>
+    <color name="EnterPinFragment_resend_pin_color">#33396F</color>
 </resources>

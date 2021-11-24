@@ -1,5 +1,7 @@
 package org.thoughtcrime.securesms.new_registration
 
+import android.os.CountDownTimer
+import android.view.View
 import kotlinx.android.synthetic.main.enter_pin_fragment.*
 import org.thoughtcrime.securesms.BaseFragment
 import org.thoughtcrime.securesms.R
@@ -10,9 +12,38 @@ class EnterPinFragment : BaseFragment() {
 
   override val layoutRes = R.layout.enter_pin_fragment
 
-  override fun updateView() {
-    connectKeyboard(code, keyboard)
+  private var timer: CountDownTimer? = null
 
+  override fun updateView() {
+    btnResendCode.setOnClickListener {
+      launchTimer()
+    }
+    launchTimer()
+    connectKeyboard(code, keyboard)
+  }
+
+  private fun launchTimer() {
+    btnResendCode.isEnabled = false
+    tvTimer.visibility = View.VISIBLE
+    timer = object : CountDownTimer(60000, 1000) {
+
+      override fun onTick(millisUntilFinished: Long) {
+        tvTimer.text =
+          getString(R.string.EnterCodeFragment_send_again_after, millisUntilFinished / 1000)
+      }
+
+      override fun onFinish() {
+        tvTimer.visibility = View.GONE
+        btnResendCode.isEnabled = true
+      }
+      
+    }
+    timer?.start()
+  }
+
+  override fun onDestroyView() {
+    timer?.cancel()
+    super.onDestroyView()
   }
 
   private fun connectKeyboard(

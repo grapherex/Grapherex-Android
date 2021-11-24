@@ -10,7 +10,7 @@
         android:background="@color/grey_300"
         android:elevation="3dp"
         android:keyBackground="@color/grey_300"
-        android:keyTextColor="@color/black"
+        android:keyTextColor="@color/core_black"
         android:keyTextSize="30sp"
         android:shadowColor="@color/transparent" />
 

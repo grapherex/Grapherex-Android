@@ -23,11 +23,11 @@
         tools:layout="@layout/enter_variant_fragment">
 
         <action
-            android:id="@+id/actionEnterPinFragment"
-            app:destination="@id/enterPinFragment" />
-        <action
             android:id="@+id/actionEnterManuallyFragment"
             app:destination="@id/enterManuallyFragment" />
+        <action
+            android:id="@+id/actionQrCodeScannerFragment"
+            app:destination="@id/enterQrCodeScannerFragment" />
 
     </fragment>
 
@@ -44,6 +44,17 @@
         android:name="org.thoughtcrime.securesms.new_registration.EnterManuallyFragment"
         android:label="EnterManuallyFragment"
         tools:layout="@layout/enter_manually_fragment">
+
+        <action
+            android:id="@+id/actionEnterPinFragment"
+            app:destination="@id/enterPinFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/enterQrCodeScannerFragment"
+        android:name="org.thoughtcrime.securesms.new_registration.QrCodeScannerFragment"
+        android:label="QrCodeScannerFragment"
+        tools:layout="@layout/qr_code_scanner_fragment">
 
         <action
             android:id="@+id/actionEnterPinFragment"
