@@ -500,14 +500,20 @@ public final class ConversationItem extends RelativeLayout implements BindableCo
         if (batchSelected.contains(conversationMessage)) {
            // setBackgroundResource(R.drawable.conversation_item_background);
            // setSelected(true);
-            cbSelect.setChecked(true);
+            if (cbSelect != null) {
+                cbSelect.setChecked(true);
+            }
         } else if (pulseMention) {
             //setBackground(null);
             //setSelected(false);
-            cbSelect.setChecked(false);
+            if (cbSelect != null) {
+                cbSelect.setChecked(false);
+            }
             startPulseOutlinerAnimation();
         } else {
-            cbSelect.setChecked(false);
+            if (cbSelect != null) {
+                cbSelect.setChecked(false);
+            }
             //setSelected(false);
         }
 
@@ -1107,8 +1113,10 @@ public final class ConversationItem extends RelativeLayout implements BindableCo
     }
 
     private void setSelectionVisible() {
-        cbSelect.setVisibility(hasSelection ? VISIBLE : GONE);
-        cbSelect.setClickable(false);
+        if (cbSelect != null) {
+            cbSelect.setVisibility(hasSelection ? VISIBLE : GONE);
+            cbSelect.setClickable(false);
+        }
     }
 
     private void setGutterSizes(@NonNull MessageRecord current, boolean isGroupThread) {

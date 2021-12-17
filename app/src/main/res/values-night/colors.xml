@@ -11,4 +11,6 @@
 
     <color name="EnterPinFragment_resend_pin_enable_color">#FFFFFF</color>
     <color name="EnterPinFragment_resend_pin_color">#33396F</color>
+
+    <color name="SplashFragment_restore_color">#ffffff</color>
 </resources>

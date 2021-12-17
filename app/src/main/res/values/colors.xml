@@ -62,6 +62,7 @@
 
     <color name="EnterPinFragment_resend_pin_enable_color">#2C305A</color>
     <color name="EnterPinFragment_resend_pin_color">#EBEBEB</color>
+    <color name="SplashFragment_restore_color">#505050</color>
 
 
 </resources>

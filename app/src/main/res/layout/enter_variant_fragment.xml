@@ -51,11 +51,12 @@
 
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/appCompatTextView"
+        android:id="@+id/tvDescriptionTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Sign up by QR code"
+        tools:text="Sign up by QR code"
+        android:gravity="center"
         android:textColor="@color/EnterVariantFragment_title_color"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -64,6 +65,7 @@
         app:layout_constraintTop_toBottomOf="@+id/appCompatImageView7" />
 
     <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvDescriptionSubTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -71,12 +73,12 @@
         android:text="Scan the QR code to connect\nyour account"
         android:textColor="@color/EnterVariantFragment_subtitle_color"
         android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="@+id/appCompatTextView"
-        app:layout_constraintStart_toStartOf="@+id/appCompatTextView"
-        app:layout_constraintTop_toBottomOf="@+id/appCompatTextView" />
+        app:layout_constraintEnd_toEndOf="@+id/tvDescriptionTitle"
+        app:layout_constraintStart_toStartOf="@+id/tvDescriptionTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvDescriptionTitle" />
 
     <androidx.appcompat.widget.AppCompatImageButton
-        android:id="@+id/btnSignUp"
+        android:id="@+id/btnScanQrCode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@null"
@@ -88,15 +90,19 @@
         app:srcCompat="@drawable/ic_stacle_scan_qr"
         tools:ignore="SpeakableTextPresentCheck" />
 
-    <androidx.appcompat.widget.AppCompatImageButton
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/ivEnterManually"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
         android:layout_marginTop="24dp"
-        android:background="@null"
-        app:layout_constraintEnd_toEndOf="@+id/btnSignUp"
-        app:layout_constraintStart_toStartOf="@+id/btnSignUp"
-        app:layout_constraintTop_toBottomOf="@+id/btnSignUp"
-        app:srcCompat="@drawable/ic_enter_manually"
-        tools:ignore="SpeakableTextPresentCheck" />
+        android:textAllCaps="false"
+        android:textColor="@color/SplashFragment_restore_color"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:background="@drawable/btn_stacle_restore_background"
+        app:layout_constraintEnd_toEndOf="@+id/btnScanQrCode"
+        app:layout_constraintStart_toStartOf="@+id/btnScanQrCode"
+        app:layout_constraintTop_toBottomOf="@+id/btnScanQrCode"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:text="Upload from library" />
 </androidx.constraintlayout.widget.ConstraintLayout>

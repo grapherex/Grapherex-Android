@@ -2,6 +2,7 @@ package org.thoughtcrime.securesms.new_registration
 
 import android.os.CountDownTimer
 import android.view.View
+import androidx.navigation.fragment.findNavController
 import kotlinx.android.synthetic.main.enter_pin_fragment.*
 import org.thoughtcrime.securesms.BaseFragment
 import org.thoughtcrime.securesms.R
@@ -20,6 +21,9 @@ class EnterPinFragment : BaseFragment() {
     }
     launchTimer()
     connectKeyboard(code, keyboard)
+    code.setOnCompleteListener {
+      findNavController().navigate(EnterPinFragmentDirections.actionEnterVariantToDownloadFragment())
+    }
   }
 
   private fun launchTimer() {
@@ -36,7 +40,7 @@ class EnterPinFragment : BaseFragment() {
         tvTimer.visibility = View.GONE
         btnResendCode.isEnabled = true
       }
-      
+
     }
     timer?.start()
   }

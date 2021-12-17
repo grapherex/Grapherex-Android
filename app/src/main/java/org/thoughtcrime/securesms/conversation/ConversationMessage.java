@@ -45,7 +45,7 @@ public class ConversationMessage {
     }
   }
 
-  public @NonNull MessageRecord getMessageRecord() {
+  public  MessageRecord getMessageRecord() {
     return messageRecord;
   }
 

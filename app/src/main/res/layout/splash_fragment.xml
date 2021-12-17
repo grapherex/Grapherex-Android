@@ -45,9 +45,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.83"
+        app:layout_constraintVertical_bias="0.75"
         app:srcCompat="@drawable/ic_stacle_sign_up"
         tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRestoreAccount"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_stacle_restore_background"
+        android:text="Restore account"
+        android:textAllCaps="false"
+        android:textColor="@color/SplashFragment_restore_color"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnSignUp"
+        app:layout_constraintStart_toStartOf="@+id/btnSignUp"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignUp" />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/ivPolicy"
@@ -55,9 +69,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:padding="8dp"
-        app:layout_constraintEnd_toEndOf="@+id/btnSignUp"
-        app:layout_constraintStart_toStartOf="@+id/btnSignUp"
-        app:layout_constraintTop_toBottomOf="@+id/btnSignUp"
+        app:layout_constraintEnd_toEndOf="@+id/btnRestoreAccount"
+        app:layout_constraintStart_toStartOf="@+id/btnRestoreAccount"
+        app:layout_constraintTop_toBottomOf="@+id/btnRestoreAccount"
         app:srcCompat="@drawable/ic_stacle_policy" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

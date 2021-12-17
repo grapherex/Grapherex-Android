@@ -140,9 +140,11 @@ public final class ConversationUpdateItem extends FrameLayout
         this.nextMessageRecord = nextMessageRecord;
         this.conversationRecipient = conversationRecipient;
 
-        cbSelect.setVisibility(hasSelection ? VISIBLE : GONE);
-        cbSelect.setChecked(batchSelected.contains(conversationMessage));
-        cbSelect.setClickable(false);
+        if (cbSelect != null) {
+            cbSelect.setVisibility(hasSelection ? VISIBLE : GONE);
+            cbSelect.setChecked(batchSelected.contains(conversationMessage));
+            cbSelect.setClickable(false);
+        }
 
         senderObserver.observe(lifecycleOwner, messageRecord.getIndividualRecipient());
 

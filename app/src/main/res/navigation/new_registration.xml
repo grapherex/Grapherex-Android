@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/new_registration"
     app:startDestination="@id/splashFragment">
+
     <fragment
         android:id="@+id/splashFragment"
         android:name="org.thoughtcrime.securesms.new_registration.SplashFragment"
@@ -12,7 +13,12 @@
 
         <action
             android:id="@+id/actionEnterVariantFragment"
-            app:destination="@id/enterVariantFragment" />
+            app:destination="@id/enterVariantFragment">
+            <argument
+                android:name="actionType"
+                android:defaultValue="-1"
+                app:argType="integer" />
+        </action>
 
     </fragment>
 
@@ -21,7 +27,10 @@
         android:name="org.thoughtcrime.securesms.new_registration.EnterVariantFragment"
         android:label="EnterVariantFragment"
         tools:layout="@layout/enter_variant_fragment">
-
+        <argument
+            android:name="actionType"
+            android:defaultValue="-1"
+            app:argType="integer" />
         <action
             android:id="@+id/actionEnterManuallyFragment"
             app:destination="@id/enterManuallyFragment" />
@@ -36,7 +45,25 @@
         android:name="org.thoughtcrime.securesms.new_registration.EnterPinFragment"
         android:label="EnterPinFragment"
         tools:layout="@layout/enter_pin_fragment">
+        <action
+            android:id="@+id/actionEnterVariantToDownloadFragment"
+            app:destination="@id/enterVariantToDownloadFragment">
 
+            <argument
+                android:name="actionType"
+                android:defaultValue="1"
+                app:argType="integer" />
+        </action>
+
+<!--        <action-->
+<!--            android:id="@+id/actionNextFragment"-->
+<!--            app:destination="@id/enterVariantToDownloadFragment">-->
+
+<!--            <argument-->
+<!--                android:name="actionType"-->
+<!--                android:defaultValue="-1"-->
+<!--                app:argType="integer" />-->
+<!--        </action>-->
     </fragment>
 
     <fragment
@@ -59,5 +86,18 @@
         <action
             android:id="@+id/actionEnterPinFragment"
             app:destination="@id/enterPinFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/enterVariantToDownloadFragment"
+        android:name="org.thoughtcrime.securesms.new_registration.EnterVariantFragment"
+        android:label="EnterVariantFragment"
+        tools:layout="@layout/enter_variant_fragment">
+        <argument
+            android:name="actionType"
+            android:defaultValue="-1"
+            app:argType="integer" />
+
+
     </fragment>
 </navigation>
